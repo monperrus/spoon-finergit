@@ -13,7 +13,7 @@ String
 args
 )
 throws
-JSAPException
+Exception
 {
 new
 LtLauncher

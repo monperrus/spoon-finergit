@@ -1,13 +1,14 @@
 /** 
  * Processes the program within a  {@link SpoonClassLoader}.
  */
+@Override
 public
 void
 run
 (
 )
-{
-try
+throws
+Exception
 {
 getFactory
 (
@@ -295,18 +296,4 @@ null
 argsArray
 )
 ;
-}
-catch
-(
-Exception
-e
-)
-{
-e
-.
-printStackTrace
-(
-)
-;
-}
 }
