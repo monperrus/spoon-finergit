@@ -17,4 +17,9 @@ getName
 )
 )
 ;
+setFailonerror
+(
+true
+)
+;
 }
