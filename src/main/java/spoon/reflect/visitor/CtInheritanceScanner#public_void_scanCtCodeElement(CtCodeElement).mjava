@@ -1,0 +1,17 @@
+/** 
+ * Scans an abstract code element.
+ */
+public
+void
+scanCtCodeElement
+(
+CtCodeElement
+e
+)
+{
+scanCtElement
+(
+e
+)
+;
+}

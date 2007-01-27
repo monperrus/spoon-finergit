@@ -1,0 +1,16 @@
+/** 
+ * Clears the processed element types.
+ */
+protected
+void
+clearProcessedElementType
+(
+)
+{
+processedElementTypes
+.
+clear
+(
+)
+;
+}

@@ -1,0 +1,11 @@
+/** 
+ * Initializes the properties defined by this processor by using the environment.
+ * @see Environment#getProcessorProperties(String)
+ */
+void
+initProperties
+(
+ProcessorProperties
+properties
+)
+;

@@ -1,0 +1,15 @@
+public
+void
+setDocComment
+(
+String
+docComment
+)
+{
+this
+.
+docComment
+=
+docComment
+;
+}

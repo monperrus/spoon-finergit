@@ -1,0 +1,15 @@
+/** 
+ * @deprecated Use {@link #isPrimitive()} instead
+ */
+public
+boolean
+isPrimitif
+(
+)
+{
+return
+isPrimitive
+(
+)
+;
+}

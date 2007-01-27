@@ -1,0 +1,15 @@
+public
+void
+setKind
+(
+BinaryOperatorKind
+kind
+)
+{
+this
+.
+kind
+=
+kind
+;
+}

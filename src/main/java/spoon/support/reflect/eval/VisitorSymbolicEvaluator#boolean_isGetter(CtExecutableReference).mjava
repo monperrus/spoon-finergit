@@ -1,0 +1,35 @@
+/** 
+ * Tell if the given method follows the getter naming conventions.
+ */
+boolean
+isGetter
+(
+CtExecutableReference
+e
+)
+{
+return
+e
+.
+getSimpleName
+(
+)
+.
+startsWith
+(
+"get"
+)
+&&
+e
+.
+getParameterTypes
+(
+)
+.
+size
+(
+)
+==
+0
+;
+}

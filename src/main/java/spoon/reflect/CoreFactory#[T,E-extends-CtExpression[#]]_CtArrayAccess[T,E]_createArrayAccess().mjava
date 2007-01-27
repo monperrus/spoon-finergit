@@ -1,0 +1,23 @@
+/** 
+ * Creates an array access expression.
+ */
+<
+T
+,
+E
+extends
+CtExpression
+<
+?
+>
+>
+CtArrayAccess
+<
+T
+,
+E
+>
+createArrayAccess
+(
+)
+;

@@ -1,0 +1,13 @@
+public
+void
+useSourceCodeFragments
+(
+boolean
+b
+)
+{
+useSourceCodeFragments
+=
+b
+;
+}

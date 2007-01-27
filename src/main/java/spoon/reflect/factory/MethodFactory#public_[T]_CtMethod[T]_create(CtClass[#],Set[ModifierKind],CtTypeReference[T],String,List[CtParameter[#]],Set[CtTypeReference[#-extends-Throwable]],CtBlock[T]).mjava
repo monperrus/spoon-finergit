@@ -1,0 +1,106 @@
+/** 
+ * Creates a method.
+ * @param target the class where the method is inserted
+ * @param modifiers the modifiers
+ * @param returnType the method's return type
+ * @param name the method's name
+ * @param parameters the parameters
+ * @param thrownTypes the thrown types
+ * @param body the method's body
+ */
+public
+<
+T
+>
+CtMethod
+<
+T
+>
+create
+(
+CtClass
+<
+?
+>
+target
+,
+Set
+<
+ModifierKind
+>
+modifiers
+,
+CtTypeReference
+<
+T
+>
+returnType
+,
+String
+name
+,
+List
+<
+CtParameter
+<
+?
+>
+>
+parameters
+,
+Set
+<
+CtTypeReference
+<
+?
+Throwable
+>
+>
+thrownTypes
+,
+CtBlock
+<
+T
+>
+body
+)
+{
+CtMethod
+<
+T
+>
+method
+=
+create
+(
+target
+,
+modifiers
+,
+returnType
+,
+name
+,
+parameters
+,
+thrownTypes
+)
+;
+method
+.
+setBody
+(
+body
+)
+;
+body
+.
+setParent
+(
+method
+)
+;
+return
+method
+;
+}

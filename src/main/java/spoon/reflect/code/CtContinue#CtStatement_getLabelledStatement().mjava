@@ -1,0 +1,8 @@
+/** 
+ * Gets the statement where the control flow continues (null if no label defined).
+ */
+CtStatement
+getLabelledStatement
+(
+)
+;

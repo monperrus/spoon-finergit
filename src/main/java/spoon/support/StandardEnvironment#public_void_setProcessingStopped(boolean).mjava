@@ -1,0 +1,15 @@
+public
+void
+setProcessingStopped
+(
+boolean
+processingStopped
+)
+{
+this
+.
+processingStopped
+=
+processingStopped
+;
+}

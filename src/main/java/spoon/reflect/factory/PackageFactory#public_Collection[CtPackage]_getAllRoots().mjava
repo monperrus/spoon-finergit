@@ -1,0 +1,20 @@
+/** 
+ * Gets the list of all created root packages
+ */
+public
+Collection
+<
+CtPackage
+>
+getAllRoots
+(
+)
+{
+return
+packages
+.
+values
+(
+)
+;
+}

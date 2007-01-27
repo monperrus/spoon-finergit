@@ -1,0 +1,16 @@
+/** 
+ * Sets the type casts.
+ */
+void
+setTypeCasts
+(
+List
+<
+CtTypeReference
+<
+?
+>
+>
+types
+)
+;

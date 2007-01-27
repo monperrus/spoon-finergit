@@ -1,0 +1,10 @@
+public
+UndefinedParameterException
+(
+)
+{
+super
+(
+)
+;
+}

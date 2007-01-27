@@ -1,0 +1,10 @@
+/** 
+ * Inserts a statement list before the current statement.
+ */
+void
+insertBefore
+(
+CtStatementList
+statements
+)
+;

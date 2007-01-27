@@ -1,0 +1,12 @@
+/** 
+ * Gets the type where this one is declared. If a declaring type is set, the package corresponds to the declaring type's package.
+ * @return declaring type or null
+ */
+CtSimpleType
+<
+?
+>
+getDeclaringType
+(
+)
+;

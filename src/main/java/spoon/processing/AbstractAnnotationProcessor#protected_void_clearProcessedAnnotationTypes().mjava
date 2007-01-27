@@ -1,0 +1,17 @@
+/** 
+ * Clears the processed annotation types.
+ */
+final
+protected
+void
+clearProcessedAnnotationTypes
+(
+)
+{
+processedAnnotationTypes
+.
+clear
+(
+)
+;
+}

@@ -1,0 +1,13 @@
+/** 
+ * Sets this element's type.
+ */
+void
+setType
+(
+CtTypeReference
+<
+T
+>
+type
+)
+;

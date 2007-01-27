@@ -1,0 +1,16 @@
+/** 
+ * Visits an executable invocation.
+ */
+<
+T
+>
+void
+visitCtInvocation
+(
+CtInvocation
+<
+T
+>
+invocation
+)
+;

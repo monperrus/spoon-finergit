@@ -1,0 +1,15 @@
+/** 
+ * Do the annotation processing job for a given annotation.
+ * @param annotation the annotation to process
+ * @param element the element that holds the processed annotations
+ */
+void
+process
+(
+A
+annotation
+,
+E
+element
+)
+;

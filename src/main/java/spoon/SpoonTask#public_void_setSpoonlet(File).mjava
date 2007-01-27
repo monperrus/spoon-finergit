@@ -1,0 +1,19 @@
+/** 
+ * Sets a Spoolet to be deployed.
+ * @param spoonlet the deployment descriptor file (usually spoon.xml)
+ */
+public
+void
+setSpoonlet
+(
+File
+spoonlet
+)
+{
+this
+.
+spoonlet
+=
+spoonlet
+;
+}

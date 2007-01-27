@@ -1,0 +1,27 @@
+/** 
+ * Creates the filter.
+ * @param reference the matching reference
+ */
+public
+DirectReferenceFilter
+(
+CtReference
+reference
+)
+{
+super
+(
+reference
+.
+getClass
+(
+)
+)
+;
+this
+.
+reference
+=
+reference
+;
+}

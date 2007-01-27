@@ -1,0 +1,29 @@
+/** 
+ * Prints out the built model into files.
+ */
+@Override
+protected
+void
+print
+(
+)
+{
+if
+(
+!
+getArguments
+(
+)
+.
+getBoolean
+(
+"nooutput"
+)
+)
+super
+.
+print
+(
+)
+;
+}

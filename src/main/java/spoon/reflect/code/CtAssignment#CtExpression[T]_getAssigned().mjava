@@ -1,0 +1,11 @@
+/** 
+ * Returns the assigned expression (a variable, an array access...).
+ */
+CtExpression
+<
+T
+>
+getAssigned
+(
+)
+;

@@ -1,0 +1,25 @@
+/** 
+ * Gets the imports.
+ */
+public
+Collection
+<
+CtTypeReference
+<
+?
+>
+>
+getImports
+(
+)
+{
+return
+importsContext
+.
+imports
+.
+values
+(
+)
+;
+}

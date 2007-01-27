@@ -1,0 +1,13 @@
+public
+CtExpression
+<
+T
+>
+getAssigned
+(
+)
+{
+return
+assigned
+;
+}

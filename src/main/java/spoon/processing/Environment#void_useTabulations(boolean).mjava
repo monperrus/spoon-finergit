@@ -1,0 +1,10 @@
+/** 
+ * Sets Spoon to use tabulations in the source code.
+ */
+void
+useTabulations
+(
+boolean
+b
+)
+;

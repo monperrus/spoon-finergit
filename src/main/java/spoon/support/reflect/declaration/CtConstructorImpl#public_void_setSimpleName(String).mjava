@@ -1,0 +1,17 @@
+@Override
+public
+void
+setSimpleName
+(
+String
+simpleName
+)
+{
+throw
+new
+RuntimeException
+(
+"Operation not allowed"
+)
+;
+}

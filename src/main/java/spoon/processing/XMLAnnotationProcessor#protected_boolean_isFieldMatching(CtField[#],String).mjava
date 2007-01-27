@@ -1,0 +1,47 @@
+/** 
+ * Override this method to create other types of matchings than the defaut one (java.util.regexp).
+ * @param field the canditate field
+ * @param fieldExpression and expression to match the field against.
+ * @return true if the field matches the expression
+ * @see CtElement#getSignature()
+ */
+protected
+boolean
+isFieldMatching
+(
+CtField
+<
+?
+>
+field
+,
+String
+fieldExpression
+)
+{
+String
+signature
+=
+field
+.
+getSignature
+(
+)
+;
+return
+java
+.
+util
+.
+regex
+.
+Pattern
+.
+matches
+(
+fieldExpression
+,
+signature
+)
+;
+}

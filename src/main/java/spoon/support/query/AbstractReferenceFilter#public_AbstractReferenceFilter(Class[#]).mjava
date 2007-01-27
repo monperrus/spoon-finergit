@@ -1,0 +1,27 @@
+/** 
+ * Creates a reference filter with the type of the potentitally matching references.
+ */
+@SuppressWarnings("unchecked")
+public
+AbstractReferenceFilter
+(
+Class
+<
+?
+>
+type
+)
+{
+this
+.
+type
+=
+(
+Class
+<
+T
+>
+)
+type
+;
+}

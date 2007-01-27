@@ -1,0 +1,16 @@
+/** 
+ * Sets the expressions that define the array's dimensions.
+ */
+void
+setDimensionExpressions
+(
+List
+<
+CtExpression
+<
+Integer
+>
+>
+dimensions
+)
+;

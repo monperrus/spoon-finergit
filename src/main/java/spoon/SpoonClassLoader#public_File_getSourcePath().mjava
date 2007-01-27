@@ -1,0 +1,29 @@
+/** 
+ * Gets the source path.
+ */
+public
+File
+getSourcePath
+(
+)
+{
+if
+(
+sourcePath
+==
+null
+)
+{
+sourcePath
+=
+new
+File
+(
+""
+)
+;
+}
+return
+sourcePath
+;
+}

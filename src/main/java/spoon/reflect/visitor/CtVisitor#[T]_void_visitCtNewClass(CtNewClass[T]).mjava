@@ -1,0 +1,16 @@
+/** 
+ * Visits an anonymous class construction.
+ */
+<
+T
+>
+void
+visitCtNewClass
+(
+CtNewClass
+<
+T
+>
+newClass
+)
+;

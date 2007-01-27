@@ -1,0 +1,18 @@
+/** 
+ * Sets the result of this frame execution.
+ */
+public
+void
+setResult
+(
+SymbolicInstance
+result
+)
+{
+this
+.
+result
+=
+result
+;
+}

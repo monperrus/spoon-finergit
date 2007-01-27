@@ -1,0 +1,10 @@
+/** 
+ * Visits a <code>break</code> statement.
+ */
+void
+visitCtBreak
+(
+CtBreak
+breakStatement
+)
+;

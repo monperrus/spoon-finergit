@@ -1,0 +1,14 @@
+/** 
+ * Gets the super interfaces of this type.
+ */
+Set
+<
+CtTypeReference
+<
+?
+>
+>
+getSuperInterfaces
+(
+)
+;

@@ -1,0 +1,11 @@
+/** 
+ * Gets all the files/directories given as template sources to this builder (see  {@link #addTemplateSource(File)}).
+ */
+Set
+<
+File
+>
+getTemplateSources
+(
+)
+;

@@ -1,0 +1,31 @@
+/** 
+ * Tests the equality with another stack.
+ */
+@Override
+public
+boolean
+equals
+(
+Object
+obj
+)
+{
+SymbolicEvaluationStack
+c
+=
+(
+SymbolicEvaluationStack
+)
+obj
+;
+return
+frameStack
+.
+equals
+(
+c
+.
+frameStack
+)
+;
+}

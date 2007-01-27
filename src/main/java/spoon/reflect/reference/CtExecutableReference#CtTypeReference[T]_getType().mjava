@@ -1,0 +1,11 @@
+/** 
+ * Gets the type of the executable.
+ */
+CtTypeReference
+<
+T
+>
+getType
+(
+)
+;

@@ -1,0 +1,15 @@
+public
+void
+setUpper
+(
+boolean
+upper
+)
+{
+this
+.
+upper
+=
+upper
+;
+}

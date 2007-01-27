@@ -1,0 +1,34 @@
+/** 
+ * This method initializes jTable
+ * @return javax.swing.JTable
+ */
+private
+JTable
+getJTable
+(
+)
+{
+if
+(
+jTable
+==
+null
+)
+{
+jTable
+=
+new
+JTable
+(
+new
+SpoonObjectTableModel
+(
+o
+)
+)
+;
+}
+return
+jTable
+;
+}

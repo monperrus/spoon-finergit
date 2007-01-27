@@ -1,0 +1,16 @@
+/** 
+ * Creates a partial evaluator on the Spoon meta-model.
+ */
+public
+PartialEvaluator
+createPartialEvaluator
+(
+)
+{
+return
+new
+VisitorPartialEvaluator
+(
+)
+;
+}

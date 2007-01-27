@@ -1,0 +1,15 @@
+public
+int
+getLine
+(
+)
+{
+return
+searchLineNumber
+(
+lineSeparatorPositions
+,
+sourceStart
+)
+;
+}

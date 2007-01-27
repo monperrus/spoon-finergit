@@ -1,0 +1,9 @@
+/** 
+ * Creates a new block template parameter.
+ */
+public
+TypedBlockTemplateParameter
+(
+)
+{
+}

@@ -1,0 +1,20 @@
+/** 
+ * Default constructor.
+ */
+public
+LtSpoonTask
+(
+)
+{
+setClassname
+(
+LtLauncher
+.
+class
+.
+getName
+(
+)
+)
+;
+}

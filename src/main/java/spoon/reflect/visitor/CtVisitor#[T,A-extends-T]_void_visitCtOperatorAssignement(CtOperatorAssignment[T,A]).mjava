@@ -1,0 +1,22 @@
+/** 
+ * Visits an operator assignment.
+ */
+<
+T
+,
+A
+extends
+T
+>
+void
+visitCtOperatorAssignement
+(
+CtOperatorAssignment
+<
+T
+,
+A
+>
+assignment
+)
+;

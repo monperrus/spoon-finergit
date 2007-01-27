@@ -1,0 +1,16 @@
+/** 
+ * Visits a parameter declaration.
+ */
+<
+T
+>
+void
+visitCtParameter
+(
+CtParameter
+<
+T
+>
+parameter
+)
+;

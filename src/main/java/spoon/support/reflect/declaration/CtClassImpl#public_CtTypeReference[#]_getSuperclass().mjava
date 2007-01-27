@@ -1,0 +1,13 @@
+public
+CtTypeReference
+<
+?
+>
+getSuperclass
+(
+)
+{
+return
+superClass
+;
+}

@@ -1,0 +1,10 @@
+/** 
+ * Sets the textual value of the code.
+ */
+void
+setValue
+(
+String
+value
+)
+;

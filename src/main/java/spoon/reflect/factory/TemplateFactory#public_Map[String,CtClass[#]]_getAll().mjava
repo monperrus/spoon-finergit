@@ -1,0 +1,22 @@
+/** 
+ * Gets all the templates in this factory.
+ * @return the stored templates as a map
+ */
+public
+Map
+<
+String
+,
+CtClass
+<
+?
+>
+>
+getAll
+(
+)
+{
+return
+templates
+;
+}

@@ -1,0 +1,16 @@
+public
+List
+<
+CtField
+<
+?
+>
+>
+getFields
+(
+)
+{
+return
+fields
+;
+}

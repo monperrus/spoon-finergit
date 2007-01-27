@@ -1,0 +1,17 @@
+public
+Set
+<
+Class
+<
+?
+CtElement
+>
+>
+getProcessedElementTypes
+(
+)
+{
+return
+processedElementTypes
+;
+}

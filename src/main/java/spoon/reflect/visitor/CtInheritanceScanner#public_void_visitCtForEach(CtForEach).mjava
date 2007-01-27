@@ -1,0 +1,14 @@
+public
+void
+visitCtForEach
+(
+CtForEach
+foreach
+)
+{
+scanCtLoop
+(
+foreach
+)
+;
+}

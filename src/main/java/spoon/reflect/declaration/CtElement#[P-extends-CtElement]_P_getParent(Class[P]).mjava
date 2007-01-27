@@ -1,0 +1,18 @@
+/** 
+ * Gets the first parent that matches the given type.
+ */
+<
+P
+extends
+CtElement
+>
+P
+getParent
+(
+Class
+<
+P
+>
+parentType
+)
+;

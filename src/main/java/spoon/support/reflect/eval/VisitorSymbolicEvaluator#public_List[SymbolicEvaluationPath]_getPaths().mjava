@@ -1,0 +1,13 @@
+public
+List
+<
+SymbolicEvaluationPath
+>
+getPaths
+(
+)
+{
+return
+paths
+;
+}

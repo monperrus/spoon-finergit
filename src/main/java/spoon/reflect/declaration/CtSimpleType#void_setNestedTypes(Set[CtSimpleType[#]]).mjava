@@ -1,0 +1,16 @@
+/** 
+ * Sets some nested types.
+ */
+void
+setNestedTypes
+(
+Set
+<
+CtSimpleType
+<
+?
+>
+>
+nestedTypes
+)
+;

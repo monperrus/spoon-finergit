@@ -1,0 +1,8 @@
+/** 
+ * Gets the environment of this processor.
+ */
+Environment
+getEnvironment
+(
+)
+;

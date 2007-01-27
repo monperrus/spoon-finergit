@@ -1,0 +1,11 @@
+/** 
+ * Gets the <i>update</i> statements.
+ */
+List
+<
+CtStatement
+>
+getForUpdate
+(
+)
+;

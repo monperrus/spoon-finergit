@@ -1,0 +1,14 @@
+/** 
+ * Creates an executable reference.
+ */
+<
+T
+>
+CtExecutableReference
+<
+T
+>
+createExecutableReference
+(
+)
+;

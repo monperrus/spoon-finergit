@@ -1,0 +1,14 @@
+/** 
+ * Sets the default file generator for this environment.
+ */
+void
+setDefaultFileGenerator
+(
+FileGenerator
+<
+?
+CtElement
+>
+generator
+)
+;

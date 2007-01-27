@@ -1,0 +1,11 @@
+/** 
+ * Gets all the annotations defined on this element.
+ * @return an array of annotation proxies
+ */
+Annotation
+[
+]
+getAnnotations
+(
+)
+;

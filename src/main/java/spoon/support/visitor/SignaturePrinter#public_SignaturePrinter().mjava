@@ -1,0 +1,14 @@
+public
+SignaturePrinter
+(
+)
+{
+super
+(
+)
+;
+reset
+(
+)
+;
+}

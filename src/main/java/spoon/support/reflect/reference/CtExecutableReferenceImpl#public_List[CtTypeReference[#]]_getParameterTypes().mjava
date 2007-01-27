@@ -1,0 +1,16 @@
+public
+List
+<
+CtTypeReference
+<
+?
+>
+>
+getParameterTypes
+(
+)
+{
+return
+parametersTypes
+;
+}

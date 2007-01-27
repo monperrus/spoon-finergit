@@ -1,0 +1,14 @@
+public
+CtExpression
+<
+?
+Throwable
+>
+getThrownExpression
+(
+)
+{
+return
+throwExpression
+;
+}

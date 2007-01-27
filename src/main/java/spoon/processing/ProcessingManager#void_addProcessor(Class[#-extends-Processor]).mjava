@@ -1,0 +1,15 @@
+/** 
+ * Adds a processor by instantiating its type (a class that must define an empty constructor).
+ * @see #getProcessors().
+ */
+void
+addProcessor
+(
+Class
+<
+?
+Processor
+>
+type
+)
+;

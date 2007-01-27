@@ -1,0 +1,16 @@
+/** 
+ * Visits a reference to an array type.
+ */
+<
+T
+>
+void
+visitCtArrayTypeReference
+(
+CtArrayTypeReference
+<
+T
+>
+reference
+)
+;

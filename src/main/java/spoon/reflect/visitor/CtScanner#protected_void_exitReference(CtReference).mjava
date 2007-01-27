@@ -1,0 +1,12 @@
+/** 
+ * This method is upcalled by the scanner when exiting a scanned element reference. To be overriden to implement specific scanners.
+ */
+protected
+void
+exitReference
+(
+CtReference
+e
+)
+{
+}

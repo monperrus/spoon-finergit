@@ -1,0 +1,12 @@
+/** 
+ * Searches a value for a given key
+ * @param key name of searched value
+ * @return the value or null if not found
+ */
+Object
+getElementValue
+(
+String
+key
+)
+;

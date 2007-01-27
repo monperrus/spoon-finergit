@@ -1,0 +1,15 @@
+/** 
+ * Gets the next id to be attributed to the created instance.
+ */
+private
+static
+long
+getNextId
+(
+)
+{
+return
+id
+++
+;
+}

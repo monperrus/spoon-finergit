@@ -1,0 +1,10 @@
+public
+CtFolderVirtual
+getSource
+(
+)
+{
+return
+source
+;
+}

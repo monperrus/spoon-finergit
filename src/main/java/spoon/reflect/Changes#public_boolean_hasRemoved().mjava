@@ -1,0 +1,22 @@
+/** 
+ * Returns true if elements are removed.
+ */
+public
+boolean
+hasRemoved
+(
+)
+{
+return
+removed
+!=
+null
+&&
+!
+removed
+.
+isEmpty
+(
+)
+;
+}

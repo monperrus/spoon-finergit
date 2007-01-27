@@ -1,0 +1,11 @@
+/** 
+ * Gets the <i>catchers</i> of this <code>try</code>.
+ */
+List
+<
+CtCatch
+>
+getCatchers
+(
+)
+;

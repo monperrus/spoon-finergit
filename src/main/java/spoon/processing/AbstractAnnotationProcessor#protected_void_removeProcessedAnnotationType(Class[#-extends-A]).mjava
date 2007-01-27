@@ -1,0 +1,28 @@
+/** 
+ * Removes a processed annotation type.
+ */
+final
+protected
+void
+removeProcessedAnnotationType
+(
+Class
+<
+?
+A
+>
+annotationType
+)
+{
+processedAnnotationTypes
+.
+remove
+(
+annotationType
+.
+getName
+(
+)
+)
+;
+}

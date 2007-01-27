@@ -1,0 +1,11 @@
+/** 
+ * Gets the boolean expression that represents the <code>if</code>'s condition.
+ */
+CtExpression
+<
+Boolean
+>
+getCondition
+(
+)
+;

@@ -1,0 +1,13 @@
+/** 
+ * Does nothing in this context.
+ */
+public
+final
+void
+process
+(
+CtElement
+element
+)
+{
+}

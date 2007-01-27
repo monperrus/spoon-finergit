@@ -1,0 +1,14 @@
+public
+void
+visitCtWhile
+(
+CtWhile
+whileLoop
+)
+{
+scanCtLoop
+(
+whileLoop
+)
+;
+}

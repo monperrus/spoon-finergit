@@ -1,0 +1,15 @@
+public
+void
+setTarget
+(
+T
+target
+)
+{
+this
+.
+target
+=
+target
+;
+}

@@ -1,0 +1,25 @@
+/** 
+ * Gets the declaring type name for a given Java qualified name.
+ */
+protected
+String
+getDeclaringTypeName
+(
+String
+qualifiedName
+)
+{
+return
+qualifiedName
+.
+substring
+(
+0
+,
+hasInnerType
+(
+qualifiedName
+)
+)
+;
+}

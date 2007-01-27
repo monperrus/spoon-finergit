@@ -1,0 +1,72 @@
+/** 
+ * Generates a field (and its initialization expression) from a template field by substituting all the template parameters by their values.
+ * @param < T > the type of the field
+ * @param targetType the target type where the field is inserted
+ * @param template the template that defines the source template field
+ * @param sourceField the source template field
+ * @return the inserted field
+ */
+public
+static
+<
+T
+>
+CtField
+<
+T
+>
+insertField
+(
+CtType
+<
+?
+>
+targetType
+,
+Template
+template
+,
+CtField
+<
+T
+>
+sourceField
+)
+{
+CtField
+<
+T
+>
+field
+=
+substitute
+(
+targetType
+,
+template
+,
+sourceField
+)
+;
+targetType
+.
+getFields
+(
+)
+.
+add
+(
+field
+)
+;
+field
+.
+setParent
+(
+targetType
+)
+;
+return
+field
+;
+}

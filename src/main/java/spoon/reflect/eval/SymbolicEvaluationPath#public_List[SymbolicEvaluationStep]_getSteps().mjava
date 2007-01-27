@@ -1,0 +1,16 @@
+/** 
+ * Returns the evaluation steps list.
+ */
+public
+List
+<
+SymbolicEvaluationStep
+>
+getSteps
+(
+)
+{
+return
+steps
+;
+}

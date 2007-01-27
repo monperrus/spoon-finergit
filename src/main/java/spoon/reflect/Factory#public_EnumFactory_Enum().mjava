@@ -1,0 +1,29 @@
+/** 
+ * The  {@link CtEnum} sub-factory.
+ */
+public
+EnumFactory
+Enum
+(
+)
+{
+if
+(
+Enum
+==
+null
+)
+{
+Enum
+=
+new
+EnumFactory
+(
+this
+)
+;
+}
+return
+Enum
+;
+}

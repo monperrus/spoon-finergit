@@ -1,0 +1,23 @@
+public
+SkipException
+(
+Object
+e
+)
+{
+super
+(
+"skipping "
++
+e
+.
+toString
+(
+)
+)
+;
+skipped
+=
+e
+;
+}

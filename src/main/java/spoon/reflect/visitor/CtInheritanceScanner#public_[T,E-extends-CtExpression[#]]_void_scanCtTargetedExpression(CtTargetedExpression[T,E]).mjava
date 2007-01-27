@@ -1,0 +1,32 @@
+/** 
+ * Scans an abstract targeted expression.
+ */
+public
+<
+T
+,
+E
+extends
+CtExpression
+<
+?
+>
+>
+void
+scanCtTargetedExpression
+(
+CtTargetedExpression
+<
+T
+,
+E
+>
+targetedExpression
+)
+{
+scanCtExpression
+(
+targetedExpression
+)
+;
+}

@@ -1,0 +1,14 @@
+/** 
+ * Returns the interface types directly implemented by this class or extended by this interface.
+ */
+Set
+<
+CtTypeReference
+<
+?
+>
+>
+getSuperInterfaces
+(
+)
+;

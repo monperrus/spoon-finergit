@@ -1,0 +1,16 @@
+public
+void
+visitCtAnonymousExecutable
+(
+CtAnonymousExecutable
+impl
+)
+{
+throw
+new
+RuntimeException
+(
+"Unknow Element"
+)
+;
+}

@@ -1,0 +1,25 @@
+/** 
+ * This is the default constructor
+ */
+public
+SpoonObjectFieldsTable
+(
+Object
+o
+)
+{
+super
+(
+)
+;
+this
+.
+o
+=
+o
+;
+initialize
+(
+)
+;
+}

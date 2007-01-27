@@ -1,0 +1,22 @@
+public
+<
+T
+>
+void
+visitCtNewArray
+(
+CtNewArray
+<
+T
+>
+newArray
+)
+{
+throw
+new
+RuntimeException
+(
+"Unknow Element"
+)
+;
+}

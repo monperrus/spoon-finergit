@@ -1,0 +1,8 @@
+/** 
+ * Creates a type parameter.
+ */
+CtTypeParameter
+createTypeParameter
+(
+)
+;

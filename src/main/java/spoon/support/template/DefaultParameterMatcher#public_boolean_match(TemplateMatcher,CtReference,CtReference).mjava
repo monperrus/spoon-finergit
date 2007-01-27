@@ -1,0 +1,22 @@
+/** 
+ * Default implementation.
+ * @return always <code>true</code>.
+ */
+public
+boolean
+match
+(
+TemplateMatcher
+templateMatcher
+,
+CtReference
+template
+,
+CtReference
+toMatch
+)
+{
+return
+true
+;
+}

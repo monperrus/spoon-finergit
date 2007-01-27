@@ -1,0 +1,13 @@
+/** 
+ * Tells if this instance is a wrapper for an instance external from the evaluator (regular Java object).
+ */
+public
+boolean
+isExternal
+(
+)
+{
+return
+isExternal
+;
+}

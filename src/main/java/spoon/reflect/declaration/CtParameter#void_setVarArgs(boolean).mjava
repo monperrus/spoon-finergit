@@ -1,0 +1,10 @@
+/** 
+ * Sets this parameter to have varargs.
+ */
+void
+setVarArgs
+(
+boolean
+varArgs
+)
+;

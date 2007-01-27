@@ -1,0 +1,16 @@
+/** 
+ * Invalid method in this context.
+ */
+protected
+void
+addProcessedElementType
+(
+Class
+<
+?
+CtElement
+>
+elementType
+)
+{
+}

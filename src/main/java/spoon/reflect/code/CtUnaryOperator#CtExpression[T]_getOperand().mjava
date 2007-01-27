@@ -1,0 +1,11 @@
+/** 
+ * Gets the expression to which the operator is applied.
+ */
+CtExpression
+<
+T
+>
+getOperand
+(
+)
+;

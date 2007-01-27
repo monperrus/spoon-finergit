@@ -1,0 +1,28 @@
+/** 
+ * Scans an abstract expression.
+ */
+public
+<
+T
+>
+void
+scanCtExpression
+(
+CtExpression
+<
+T
+>
+expression
+)
+{
+scanCtCodeElement
+(
+expression
+)
+;
+scanCtTypedElement
+(
+expression
+)
+;
+}

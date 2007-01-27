@@ -1,0 +1,10 @@
+public
+BinaryOperatorKind
+getKind
+(
+)
+{
+return
+kind
+;
+}

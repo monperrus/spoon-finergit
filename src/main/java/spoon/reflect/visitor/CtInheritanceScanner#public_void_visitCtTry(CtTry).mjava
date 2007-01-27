@@ -1,0 +1,14 @@
+public
+void
+visitCtTry
+(
+CtTry
+tryBlock
+)
+{
+scanCtStatement
+(
+tryBlock
+)
+;
+}

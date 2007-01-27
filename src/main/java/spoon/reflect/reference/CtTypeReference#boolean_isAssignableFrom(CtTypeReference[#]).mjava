@@ -1,0 +1,13 @@
+/** 
+ * Returns <code>true</code> if this referenced type is assignable from an instance of the given type.
+ */
+boolean
+isAssignableFrom
+(
+CtTypeReference
+<
+?
+>
+type
+)
+;

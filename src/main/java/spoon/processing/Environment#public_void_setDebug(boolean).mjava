@@ -1,0 +1,11 @@
+/** 
+ * Sets the debug mode.
+ */
+public
+void
+setDebug
+(
+boolean
+debug
+)
+;

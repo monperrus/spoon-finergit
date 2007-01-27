@@ -1,0 +1,18 @@
+/** 
+ * Sets the name of the laucher to be used.
+ */
+public
+void
+setClassName
+(
+String
+classname
+)
+{
+this
+.
+classname
+=
+classname
+;
+}

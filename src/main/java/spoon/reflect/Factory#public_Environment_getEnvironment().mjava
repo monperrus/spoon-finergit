@@ -1,0 +1,28 @@
+/** 
+ * Gets the Spoon environment that encloses this factory.
+ */
+public
+Environment
+getEnvironment
+(
+)
+{
+if
+(
+Environment
+==
+null
+)
+{
+Environment
+=
+new
+StandardEnvironment
+(
+)
+;
+}
+return
+Environment
+;
+}

@@ -1,0 +1,28 @@
+/** 
+ * Creates a new field access filter.
+ * @param variable the accessed variable
+ */
+public
+VariableAccessFilter
+(
+CtVariableReference
+<
+?
+>
+variable
+)
+{
+super
+(
+CtVariableAccess
+.
+class
+)
+;
+this
+.
+variable
+=
+variable
+;
+}

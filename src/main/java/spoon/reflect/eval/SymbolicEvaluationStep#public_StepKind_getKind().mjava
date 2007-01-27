@@ -1,0 +1,13 @@
+/** 
+ * Gets the step kind.
+ */
+public
+StepKind
+getKind
+(
+)
+{
+return
+kind
+;
+}

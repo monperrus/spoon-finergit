@@ -1,0 +1,15 @@
+public
+void
+setStack
+(
+SymbolicEvaluationStack
+stack
+)
+{
+this
+.
+stack
+=
+stack
+;
+}

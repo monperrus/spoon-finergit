@@ -1,0 +1,10 @@
+/** 
+ * Visits a reference to a type parameter.
+ */
+void
+visitCtTypeParameterReference
+(
+CtTypeParameterReference
+ref
+)
+;

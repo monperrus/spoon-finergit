@@ -1,0 +1,16 @@
+/** 
+ * Sets the type's fields.
+ */
+void
+setFields
+(
+List
+<
+CtField
+<
+?
+>
+>
+fields
+)
+;

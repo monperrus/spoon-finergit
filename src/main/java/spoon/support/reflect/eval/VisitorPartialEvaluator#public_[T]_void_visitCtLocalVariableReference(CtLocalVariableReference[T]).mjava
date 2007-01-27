@@ -1,0 +1,22 @@
+public
+<
+T
+>
+void
+visitCtLocalVariableReference
+(
+CtLocalVariableReference
+<
+T
+>
+reference
+)
+{
+throw
+new
+RuntimeException
+(
+"Unknow Element"
+)
+;
+}

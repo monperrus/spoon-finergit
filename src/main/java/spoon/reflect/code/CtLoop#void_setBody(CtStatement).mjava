@@ -1,0 +1,10 @@
+/** 
+ * Sets the body of this loop.
+ */
+void
+setBody
+(
+CtStatement
+body
+)
+;

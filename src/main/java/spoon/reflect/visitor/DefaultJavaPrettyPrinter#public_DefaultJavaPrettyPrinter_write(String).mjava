@@ -1,0 +1,30 @@
+/** 
+ * Generates a string.
+ */
+public
+DefaultJavaPrettyPrinter
+write
+(
+String
+s
+)
+{
+if
+(
+s
+!=
+null
+)
+{
+sbf
+.
+append
+(
+s
+)
+;
+}
+return
+this
+;
+}

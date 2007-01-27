@@ -1,0 +1,8 @@
+/** 
+ * Gets the size of the tabulations in the generated source code.
+ */
+int
+getTabulationSize
+(
+)
+;

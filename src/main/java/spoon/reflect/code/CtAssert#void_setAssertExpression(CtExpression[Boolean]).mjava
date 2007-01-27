@@ -1,0 +1,13 @@
+/** 
+ * Sets the assert expression.
+ */
+void
+setAssertExpression
+(
+CtExpression
+<
+Boolean
+>
+asserted
+)
+;

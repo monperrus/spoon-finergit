@@ -1,0 +1,8 @@
+/** 
+ * Creates an <code>if</code> statement.
+ */
+CtIf
+createIf
+(
+)
+;

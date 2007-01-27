@@ -1,0 +1,14 @@
+public
+InputStream
+getContent
+(
+)
+{
+return
+new
+ByteArrayInputStream
+(
+buffer
+)
+;
+}

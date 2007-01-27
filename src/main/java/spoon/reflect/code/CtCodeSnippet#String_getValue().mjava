@@ -1,0 +1,8 @@
+/** 
+ * Gets the textual value of the code.
+ */
+String
+getValue
+(
+)
+;

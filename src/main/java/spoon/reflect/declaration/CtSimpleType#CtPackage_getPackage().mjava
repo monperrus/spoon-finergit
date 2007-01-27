@@ -1,0 +1,8 @@
+/** 
+ * Gets the package where this type is declared.
+ */
+CtPackage
+getPackage
+(
+)
+;

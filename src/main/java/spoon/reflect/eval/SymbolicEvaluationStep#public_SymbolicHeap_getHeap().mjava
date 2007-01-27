@@ -1,0 +1,13 @@
+/** 
+ * Gets the heap that corresponds to this state.
+ */
+public
+SymbolicHeap
+getHeap
+(
+)
+{
+return
+heap
+;
+}

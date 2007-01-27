@@ -1,0 +1,16 @@
+/** 
+ * Pops the top frame in order to leave it.
+ */
+public
+void
+exitFrame
+(
+)
+{
+frameStack
+.
+pop
+(
+)
+;
+}

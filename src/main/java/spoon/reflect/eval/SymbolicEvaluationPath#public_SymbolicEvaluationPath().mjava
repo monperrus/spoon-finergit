@@ -1,0 +1,9 @@
+/** 
+ * Creates a symbolic evaluation path.
+ */
+public
+SymbolicEvaluationPath
+(
+)
+{
+}

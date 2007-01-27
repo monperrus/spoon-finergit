@@ -1,0 +1,16 @@
+/** 
+ * Visits a literal expression.
+ */
+<
+T
+>
+void
+visitCtLiteral
+(
+CtLiteral
+<
+T
+>
+literal
+)
+;

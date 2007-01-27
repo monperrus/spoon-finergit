@@ -1,0 +1,9 @@
+/** 
+ * Return  {@code true} if the referenced type is a primitive type (int,double, boolean...).
+ * @deprecated Use {@link #isPrimitive()} instead
+ */
+boolean
+isPrimitif
+(
+)
+;

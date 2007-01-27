@@ -1,0 +1,8 @@
+/** 
+ * Gets the file that corresponds to this compilation unit if any (contains the source code).
+ */
+File
+getFile
+(
+)
+;

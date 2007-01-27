@@ -1,0 +1,13 @@
+public
+CtExpression
+<
+?
+>
+getExpression
+(
+)
+{
+return
+expression
+;
+}

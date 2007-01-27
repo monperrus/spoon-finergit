@@ -1,0 +1,14 @@
+public
+void
+visitCtContinue
+(
+CtContinue
+continueStatement
+)
+{
+scanCtCFlowBreak
+(
+continueStatement
+)
+;
+}

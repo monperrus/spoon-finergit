@@ -1,0 +1,14 @@
+/** 
+ * Invalid method in this context.
+ */
+public
+final
+boolean
+isPrivileged
+(
+)
+{
+return
+false
+;
+}

@@ -1,0 +1,32 @@
+/** 
+ * Creates a new replacer.
+ * @param toReplace the element to be replaced
+ * @param replacement the replacing element
+ */
+public
+ElementReplacer
+(
+T
+toReplace
+,
+T
+replacement
+)
+{
+super
+(
+)
+;
+this
+.
+replacement
+=
+replacement
+;
+this
+.
+toReplace
+=
+toReplace
+;
+}

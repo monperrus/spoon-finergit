@@ -1,0 +1,13 @@
+public
+CtExpression
+<
+T
+>
+getOperand
+(
+)
+{
+return
+operand
+;
+}

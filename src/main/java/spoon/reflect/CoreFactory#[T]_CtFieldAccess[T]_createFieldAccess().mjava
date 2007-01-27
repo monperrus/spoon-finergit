@@ -1,0 +1,14 @@
+/** 
+ * Creates a field access expression.
+ */
+<
+T
+>
+CtFieldAccess
+<
+T
+>
+createFieldAccess
+(
+)
+;

@@ -1,0 +1,15 @@
+public
+void
+setBlock
+(
+CtBlock
+block
+)
+{
+this
+.
+block
+=
+block
+;
+}

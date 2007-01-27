@@ -1,0 +1,12 @@
+public
+Factory
+getFactory
+(
+)
+{
+return
+this
+.
+factory
+;
+}

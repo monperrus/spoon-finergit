@@ -1,0 +1,16 @@
+/** 
+ * Clears this heap (only the stateful instances).
+ */
+public
+void
+clear
+(
+)
+{
+statefullAbstractInstances
+.
+clear
+(
+)
+;
+}

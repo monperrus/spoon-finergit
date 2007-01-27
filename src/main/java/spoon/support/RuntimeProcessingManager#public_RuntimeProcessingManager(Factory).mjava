@@ -1,0 +1,21 @@
+/** 
+ * Creates a new processing manager that maintains a queue of processors to be applied to a given factory.
+ * @param factory the factory on which the processing applies (contains the meta-model)
+ */
+public
+RuntimeProcessingManager
+(
+Factory
+factory
+)
+{
+super
+(
+)
+;
+setFactory
+(
+factory
+)
+;
+}

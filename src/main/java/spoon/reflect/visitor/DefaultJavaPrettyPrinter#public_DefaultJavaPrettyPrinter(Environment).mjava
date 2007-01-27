@@ -1,0 +1,17 @@
+/** 
+ * Creates a new code generator visitor.
+ */
+public
+DefaultJavaPrettyPrinter
+(
+Environment
+env
+)
+{
+this
+.
+env
+=
+env
+;
+}

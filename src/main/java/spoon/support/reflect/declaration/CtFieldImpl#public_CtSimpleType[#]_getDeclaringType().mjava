@@ -1,0 +1,16 @@
+public
+CtSimpleType
+<
+?
+>
+getDeclaringType
+(
+)
+{
+return
+(
+CtSimpleType
+)
+parent
+;
+}

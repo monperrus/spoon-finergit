@@ -1,0 +1,22 @@
+/** 
+ * Scans an abstract named element.
+ */
+public
+void
+scanCtNamedElement
+(
+CtNamedElement
+e
+)
+{
+scanCtElement
+(
+e
+)
+;
+scanCtModifiable
+(
+e
+)
+;
+}

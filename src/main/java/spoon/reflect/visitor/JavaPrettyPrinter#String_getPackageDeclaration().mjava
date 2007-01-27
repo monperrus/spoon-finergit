@@ -1,0 +1,8 @@
+/** 
+ * Gets the package declaration contents.
+ */
+String
+getPackageDeclaration
+(
+)
+;

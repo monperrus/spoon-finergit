@@ -1,0 +1,11 @@
+/** 
+ * Gets the catch's body.
+ */
+CtBlock
+<
+?
+>
+getBody
+(
+)
+;

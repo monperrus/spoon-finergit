@@ -1,0 +1,13 @@
+public
+CtReturn
+<
+?
+>
+getReturnStatement
+(
+)
+{
+return
+returnStatement
+;
+}

@@ -1,0 +1,10 @@
+public
+File
+getOutputDirectory
+(
+)
+{
+return
+outputDir
+;
+}

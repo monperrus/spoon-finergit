@@ -1,0 +1,20 @@
+/** 
+ * Gets the ith step.
+ */
+public
+SymbolicEvaluationStep
+getStep
+(
+int
+i
+)
+{
+return
+steps
+.
+get
+(
+i
+)
+;
+}

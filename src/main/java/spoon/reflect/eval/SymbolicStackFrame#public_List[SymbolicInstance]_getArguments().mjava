@@ -1,0 +1,16 @@
+/** 
+ * Return the arguments (also present in the variables).
+ */
+public
+List
+<
+SymbolicInstance
+>
+getArguments
+(
+)
+{
+return
+arguments
+;
+}

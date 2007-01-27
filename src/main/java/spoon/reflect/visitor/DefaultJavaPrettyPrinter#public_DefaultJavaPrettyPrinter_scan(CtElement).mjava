@@ -1,0 +1,30 @@
+/** 
+ * The generic scan method for an element.
+ */
+public
+DefaultJavaPrettyPrinter
+scan
+(
+CtElement
+e
+)
+{
+if
+(
+e
+!=
+null
+)
+{
+e
+.
+accept
+(
+this
+)
+;
+}
+return
+this
+;
+}

@@ -1,0 +1,9 @@
+/** 
+ * Returns true if Spoon is in debug mode.
+ */
+public
+boolean
+isDebug
+(
+)
+;

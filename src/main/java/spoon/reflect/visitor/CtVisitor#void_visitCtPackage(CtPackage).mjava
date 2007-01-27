@@ -1,0 +1,10 @@
+/** 
+ * Visits a package declaration.
+ */
+void
+visitCtPackage
+(
+CtPackage
+ctPackage
+)
+;

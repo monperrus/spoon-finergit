@@ -1,0 +1,12 @@
+/** 
+ * Scans a modifier (enumeration).
+ */
+public
+void
+scanCtModifier
+(
+ModifierKind
+m
+)
+{
+}

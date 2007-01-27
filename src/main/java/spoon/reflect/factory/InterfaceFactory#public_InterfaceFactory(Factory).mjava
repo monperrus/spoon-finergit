@@ -1,0 +1,17 @@
+/** 
+ * Creates a new interface sub-factory.
+ * @param factory the parent factory
+ */
+public
+InterfaceFactory
+(
+Factory
+factory
+)
+{
+super
+(
+factory
+)
+;
+}

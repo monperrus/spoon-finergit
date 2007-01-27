@@ -1,0 +1,16 @@
+/** 
+ * Visits a <code>switch</code> statement.
+ */
+<
+S
+>
+void
+visitCtSwitch
+(
+CtSwitch
+<
+S
+>
+switchStatement
+)
+;

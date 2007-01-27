@@ -1,0 +1,28 @@
+/** 
+ * Scans an abstract executable.
+ */
+public
+<
+R
+>
+void
+scanCtExecutable
+(
+CtExecutable
+<
+R
+>
+e
+)
+{
+scanCtGenericElement
+(
+e
+)
+;
+scanCtNamedElement
+(
+e
+)
+;
+}

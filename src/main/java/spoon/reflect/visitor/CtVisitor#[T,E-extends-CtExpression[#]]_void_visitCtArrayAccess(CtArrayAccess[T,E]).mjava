@@ -1,0 +1,25 @@
+/** 
+ * Visits an array access.
+ */
+<
+T
+,
+E
+extends
+CtExpression
+<
+?
+>
+>
+void
+visitCtArrayAccess
+(
+CtArrayAccess
+<
+T
+,
+E
+>
+arrayAccess
+)
+;

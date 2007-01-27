@@ -1,0 +1,9 @@
+/** 
+ * Creates an empty heap.
+ */
+public
+SymbolicHeap
+(
+)
+{
+}

@@ -1,0 +1,16 @@
+/** 
+ * Visits a binary operator.
+ */
+<
+T
+>
+void
+visitCtBinaryOperator
+(
+CtBinaryOperator
+<
+T
+>
+operator
+)
+;

@@ -1,0 +1,11 @@
+/** 
+ * Sets the position in the Java source file.
+ * @param position of this element in the input source files
+ */
+void
+setPosition
+(
+SourcePosition
+position
+)
+;

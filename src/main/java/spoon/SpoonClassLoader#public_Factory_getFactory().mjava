@@ -1,0 +1,35 @@
+/** 
+ * Gets the associated factory.
+ */
+public
+Factory
+getFactory
+(
+)
+{
+if
+(
+factory
+==
+null
+)
+{
+factory
+=
+new
+Factory
+(
+getCoreFactory
+(
+)
+,
+getEnvironment
+(
+)
+)
+;
+}
+return
+factory
+;
+}

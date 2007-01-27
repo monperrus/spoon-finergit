@@ -1,0 +1,14 @@
+/** 
+ * Gets the fields defined by this class.
+ */
+List
+<
+CtField
+<
+?
+>
+>
+getFields
+(
+)
+;

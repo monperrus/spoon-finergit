@@ -1,0 +1,16 @@
+/** 
+ * Visits a reference to a parameter.
+ */
+<
+T
+>
+void
+visitCtParameterReference
+(
+CtParameterReference
+<
+T
+>
+reference
+)
+;

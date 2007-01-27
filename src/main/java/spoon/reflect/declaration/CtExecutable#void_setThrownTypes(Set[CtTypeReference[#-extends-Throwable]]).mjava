@@ -1,0 +1,17 @@
+/** 
+ * Sets the thrown types.
+ */
+void
+setThrownTypes
+(
+Set
+<
+CtTypeReference
+<
+?
+Throwable
+>
+>
+thrownTypes
+)
+;

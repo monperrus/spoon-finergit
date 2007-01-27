@@ -1,0 +1,17 @@
+/** 
+ * Scans an abstract loop.
+ */
+public
+void
+scanCtLoop
+(
+CtLoop
+loop
+)
+{
+scanCtStatement
+(
+loop
+)
+;
+}

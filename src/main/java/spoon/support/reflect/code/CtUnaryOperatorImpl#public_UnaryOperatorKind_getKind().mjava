@@ -1,0 +1,10 @@
+public
+UnaryOperatorKind
+getKind
+(
+)
+{
+return
+kind
+;
+}

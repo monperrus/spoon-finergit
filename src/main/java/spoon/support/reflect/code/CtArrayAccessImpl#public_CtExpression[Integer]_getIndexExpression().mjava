@@ -1,0 +1,13 @@
+public
+CtExpression
+<
+Integer
+>
+getIndexExpression
+(
+)
+{
+return
+expression
+;
+}

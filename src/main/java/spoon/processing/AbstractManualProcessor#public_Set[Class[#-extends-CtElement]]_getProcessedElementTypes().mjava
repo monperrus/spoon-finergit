@@ -1,0 +1,21 @@
+/** 
+ * Invalid method in this context.
+ */
+public
+final
+Set
+<
+Class
+<
+?
+CtElement
+>
+>
+getProcessedElementTypes
+(
+)
+{
+return
+null
+;
+}

@@ -1,0 +1,12 @@
+public
+String
+getPath
+(
+)
+{
+return
+toString
+(
+)
+;
+}

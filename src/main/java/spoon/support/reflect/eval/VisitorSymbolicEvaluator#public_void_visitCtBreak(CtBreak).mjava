@@ -1,0 +1,16 @@
+public
+void
+visitCtBreak
+(
+CtBreak
+breakStatement
+)
+{
+throw
+new
+RuntimeException
+(
+"Unknow Element"
+)
+;
+}

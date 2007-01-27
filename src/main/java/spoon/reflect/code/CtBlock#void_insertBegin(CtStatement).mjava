@@ -1,0 +1,10 @@
+/** 
+ * Inserts the given statement at the begining of the block.
+ */
+void
+insertBegin
+(
+CtStatement
+statement
+)
+;

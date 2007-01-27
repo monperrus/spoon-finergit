@@ -1,0 +1,42 @@
+/** 
+ * Override this method to create other types of matchings than the defaut one (java.util.regexp).
+ * @param type the canditate type
+ * @param typeExpression and expression to match the type against.
+ * @return true if the type matches the expression
+ * @see CtElement#getSignature()
+ */
+protected
+boolean
+isTypeMatching
+(
+CtSimpleType
+<
+?
+>
+type
+,
+String
+typeExpression
+)
+{
+return
+java
+.
+util
+.
+regex
+.
+Pattern
+.
+matches
+(
+typeExpression
+,
+type
+.
+getQualifiedName
+(
+)
+)
+;
+}

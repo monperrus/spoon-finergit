@@ -1,0 +1,8 @@
+/** 
+ * Returns the corresponding reference.
+ */
+CtReference
+getReference
+(
+)
+;

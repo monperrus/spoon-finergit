@@ -1,0 +1,59 @@
+/** 
+ * Returns all the program element references that match the filter.
+ * @param < T > the type of the seeked program element references
+ * @param rootElement the element to start the recursive search on
+ * @param filter the filter which defines the matching criteria
+ */
+public
+static
+<
+T
+extends
+CtReference
+>
+List
+<
+T
+>
+getReferences
+(
+CtElement
+rootElement
+,
+ReferenceFilter
+<
+T
+>
+filter
+)
+{
+ReferenceQueryVisitor
+<
+T
+>
+visitor
+=
+new
+ReferenceQueryVisitor
+<
+T
+>
+(
+filter
+)
+;
+visitor
+.
+scan
+(
+rootElement
+)
+;
+return
+visitor
+.
+getResult
+(
+)
+;
+}

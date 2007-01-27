@@ -1,0 +1,8 @@
+/** 
+ * Gets the synchronized block.
+ */
+CtBlock
+getBlock
+(
+)
+;

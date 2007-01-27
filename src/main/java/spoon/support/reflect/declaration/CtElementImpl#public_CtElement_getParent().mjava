@@ -1,0 +1,10 @@
+public
+CtElement
+getParent
+(
+)
+{
+return
+parent
+;
+}

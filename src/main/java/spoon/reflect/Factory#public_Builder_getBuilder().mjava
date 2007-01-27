@@ -1,0 +1,13 @@
+/** 
+ * Returns the builder that was used to build the model of this factory ( {@link Builder#build(Factory)}).
+ */
+public
+Builder
+getBuilder
+(
+)
+{
+return
+builder
+;
+}

@@ -1,0 +1,16 @@
+/** 
+ * Creates a symbolic evaluator on the Spoon meta-model.
+ */
+public
+SymbolicEvaluator
+createSymbolicEvaluator
+(
+)
+{
+return
+new
+VisitorSymbolicEvaluator
+(
+)
+;
+}

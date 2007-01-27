@@ -1,0 +1,18 @@
+/** 
+ * Sets the java14 property (to be able to parse java 1.4 source files).
+ */
+public
+void
+setJavaCompliance
+(
+int
+javaCompliance
+)
+{
+this
+.
+javaCompliance
+=
+javaCompliance
+;
+}

@@ -1,0 +1,10 @@
+/** 
+ * Sets the name of referenced element.
+ */
+void
+setSimpleName
+(
+String
+simpleName
+)
+;

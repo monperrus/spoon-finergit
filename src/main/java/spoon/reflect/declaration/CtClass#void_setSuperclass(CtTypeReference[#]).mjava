@@ -1,0 +1,13 @@
+/** 
+ * Sets the superclass type.
+ */
+void
+setSuperclass
+(
+CtTypeReference
+<
+?
+>
+classType
+)
+;

@@ -1,0 +1,14 @@
+public
+void
+visitCtBreak
+(
+CtBreak
+breakStatement
+)
+{
+scanCtCFlowBreak
+(
+breakStatement
+)
+;
+}

@@ -1,0 +1,13 @@
+/** 
+ * Sets the type of the elements contained in this array.
+ */
+void
+setComponentType
+(
+CtTypeReference
+<
+?
+>
+componentType
+)
+;

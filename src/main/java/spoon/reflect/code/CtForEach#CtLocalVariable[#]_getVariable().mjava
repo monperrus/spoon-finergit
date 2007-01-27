@@ -1,0 +1,11 @@
+/** 
+ * Gets the variable that references the currently iterated element.
+ */
+CtLocalVariable
+<
+?
+>
+getVariable
+(
+)
+;

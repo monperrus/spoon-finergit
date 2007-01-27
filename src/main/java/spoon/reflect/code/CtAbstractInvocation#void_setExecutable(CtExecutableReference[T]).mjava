@@ -1,0 +1,13 @@
+/** 
+ * Sets the invoked executable.
+ */
+void
+setExecutable
+(
+CtExecutableReference
+<
+T
+>
+executable
+)
+;

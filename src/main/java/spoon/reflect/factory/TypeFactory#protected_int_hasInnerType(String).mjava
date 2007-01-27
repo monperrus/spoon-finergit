@@ -1,0 +1,27 @@
+/** 
+ * Tells if a given Java qualified name is that of an inner type.
+ */
+protected
+int
+hasInnerType
+(
+String
+qualifiedName
+)
+{
+int
+ret
+=
+qualifiedName
+.
+lastIndexOf
+(
+CtType
+.
+INNERTTYPE_SEPARATOR
+)
+;
+return
+ret
+;
+}

@@ -1,0 +1,32 @@
+/** 
+ * Creates a new composite filter.
+ * @param operator the operator used to compose the filters together
+ * @param filters the filters to be composed
+ */
+public
+CompositeFilter
+(
+FilteringOperator
+operator
+,
+Filter
+<
+T
+>
+...
+filters
+)
+{
+this
+.
+filters
+=
+filters
+;
+this
+.
+operator
+=
+operator
+;
+}

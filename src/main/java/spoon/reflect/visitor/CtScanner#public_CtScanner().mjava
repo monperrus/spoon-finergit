@@ -1,0 +1,13 @@
+/** 
+ * Default constructor.
+ */
+public
+CtScanner
+(
+)
+{
+super
+(
+)
+;
+}

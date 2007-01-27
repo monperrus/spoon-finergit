@@ -1,0 +1,29 @@
+/** 
+ * The  {@link CtPackage} sub-factory.
+ */
+public
+PackageFactory
+Package
+(
+)
+{
+if
+(
+Package
+==
+null
+)
+{
+Package
+=
+new
+PackageFactory
+(
+this
+)
+;
+}
+return
+Package
+;
+}

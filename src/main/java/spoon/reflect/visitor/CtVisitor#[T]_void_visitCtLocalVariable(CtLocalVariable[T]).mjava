@@ -1,0 +1,16 @@
+/** 
+ * Visits a local variable declaration.
+ */
+<
+T
+>
+void
+visitCtLocalVariable
+(
+CtLocalVariable
+<
+T
+>
+localVariable
+)
+;

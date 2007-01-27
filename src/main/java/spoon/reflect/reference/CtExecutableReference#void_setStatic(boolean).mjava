@@ -1,0 +1,10 @@
+/** 
+ * Sets this executable reference to be static or not.
+ */
+void
+setStatic
+(
+boolean
+b
+)
+;

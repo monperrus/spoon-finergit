@@ -1,0 +1,16 @@
+public
+void
+insertAfter
+(
+CtStatement
+statement
+)
+{
+insertAfter
+(
+this
+,
+statement
+)
+;
+}

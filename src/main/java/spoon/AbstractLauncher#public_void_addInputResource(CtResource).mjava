@@ -1,0 +1,19 @@
+/** 
+ * Adds an input resource to be processed by Spoon.
+ */
+public
+void
+addInputResource
+(
+CtResource
+resource
+)
+{
+inputResources
+.
+add
+(
+resource
+)
+;
+}

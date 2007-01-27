@@ -1,0 +1,8 @@
+/** 
+ * Returns  {@code true} if the bounds are upper bounds.
+ */
+boolean
+isUpper
+(
+)
+;

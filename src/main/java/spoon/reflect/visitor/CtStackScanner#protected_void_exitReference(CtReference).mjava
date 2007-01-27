@@ -1,0 +1,41 @@
+/** 
+ * Pops the element reference.
+ */
+protected
+void
+exitReference
+(
+CtReference
+e
+)
+{
+CtReference
+ret
+=
+referenceStack
+.
+pop
+(
+)
+;
+if
+(
+ret
+!=
+e
+)
+throw
+new
+RuntimeException
+(
+"Unconsitant Stack"
+)
+;
+super
+.
+exitReference
+(
+e
+)
+;
+}

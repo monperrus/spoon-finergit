@@ -1,0 +1,14 @@
+/** 
+ * Creates a local variable reference.
+ */
+<
+T
+>
+CtLocalVariableReference
+<
+T
+>
+createLocalVariableReference
+(
+)
+;

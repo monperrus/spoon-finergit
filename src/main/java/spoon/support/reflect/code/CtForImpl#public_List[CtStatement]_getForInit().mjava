@@ -1,0 +1,13 @@
+public
+List
+<
+CtStatement
+>
+getForInit
+(
+)
+{
+return
+forInit
+;
+}

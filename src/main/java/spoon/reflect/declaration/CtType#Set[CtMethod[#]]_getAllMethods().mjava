@@ -1,0 +1,14 @@
+/** 
+ * Return all the accessible methods for this type (the recursion stops when the super-type is not in the model).
+ */
+Set
+<
+CtMethod
+<
+?
+>
+>
+getAllMethods
+(
+)
+;

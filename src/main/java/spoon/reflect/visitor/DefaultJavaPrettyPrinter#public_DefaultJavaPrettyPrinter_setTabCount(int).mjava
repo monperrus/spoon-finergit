@@ -1,0 +1,21 @@
+/** 
+ * Sets the current number of tabs.
+ */
+public
+DefaultJavaPrettyPrinter
+setTabCount
+(
+int
+tabCount
+)
+{
+context
+.
+nbTabs
+=
+tabCount
+;
+return
+this
+;
+}

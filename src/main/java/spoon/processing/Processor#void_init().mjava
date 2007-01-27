@@ -1,0 +1,8 @@
+/** 
+ * This method is upcalled to initialize the processor before each processing round. It is convenient to override this method rather than using a default constructor to initialize the processor, since the factory is not initialized at construction time. When overriding, do not forget to call super.init() first so that all the initializations performed by superclasses are also applied.
+ */
+void
+init
+(
+)
+;

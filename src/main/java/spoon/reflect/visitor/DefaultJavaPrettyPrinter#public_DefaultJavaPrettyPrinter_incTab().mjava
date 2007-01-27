@@ -1,0 +1,18 @@
+/** 
+ * Increments the current number of tabs.
+ */
+public
+DefaultJavaPrettyPrinter
+incTab
+(
+)
+{
+context
+.
+nbTabs
+++
+;
+return
+this
+;
+}

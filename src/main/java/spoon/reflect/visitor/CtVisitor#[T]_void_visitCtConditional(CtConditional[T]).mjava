@@ -1,0 +1,16 @@
+/** 
+ * Visits a conditional expression
+ */
+<
+T
+>
+void
+visitCtConditional
+(
+CtConditional
+<
+T
+>
+conditional
+)
+;

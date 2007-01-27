@@ -1,0 +1,12 @@
+/** 
+ * Gets the Java runtime class of the referenced type.
+ * @return the Java class or null if the class is not found (not inclasspath)
+ */
+Class
+<
+T
+>
+getActualClass
+(
+)
+;

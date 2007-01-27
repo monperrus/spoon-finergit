@@ -1,0 +1,10 @@
+/** 
+ * Sets the reference to the declaring type. Should be set to null if the referenced type is not a inner type.
+ */
+void
+setDeclaringType
+(
+CtTypeReference
+type
+)
+;

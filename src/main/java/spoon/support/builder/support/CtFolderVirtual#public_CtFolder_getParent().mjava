@@ -1,0 +1,10 @@
+public
+CtFolder
+getParent
+(
+)
+{
+return
+null
+;
+}

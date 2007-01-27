@@ -1,0 +1,33 @@
+/** 
+ * Creates a copy of the given stack.
+ */
+public
+SymbolicEvaluationStack
+(
+SymbolicEvaluationStack
+stack
+)
+{
+for
+(
+SymbolicStackFrame
+f
+:
+stack
+.
+frameStack
+)
+{
+frameStack
+.
+add
+(
+new
+SymbolicStackFrame
+(
+f
+)
+)
+;
+}
+}

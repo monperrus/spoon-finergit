@@ -1,0 +1,11 @@
+/** 
+ * Gets the case expression.
+ */
+CtExpression
+<
+S
+>
+getCaseExpression
+(
+)
+;

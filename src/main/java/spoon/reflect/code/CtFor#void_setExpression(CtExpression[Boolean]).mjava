@@ -1,0 +1,13 @@
+/** 
+ * Sets the end-loop test expression.
+ */
+void
+setExpression
+(
+CtExpression
+<
+Boolean
+>
+expression
+)
+;

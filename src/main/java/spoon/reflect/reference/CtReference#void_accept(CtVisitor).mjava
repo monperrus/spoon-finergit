@@ -1,0 +1,10 @@
+/** 
+ * Accepts a visitor
+ */
+void
+accept
+(
+CtVisitor
+visitor
+)
+;

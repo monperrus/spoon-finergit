@@ -1,0 +1,13 @@
+public
+UndefinedParameterException
+(
+String
+message
+)
+{
+super
+(
+message
+)
+;
+}

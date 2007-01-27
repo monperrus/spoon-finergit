@@ -1,0 +1,8 @@
+/** 
+ * Gets the original source code as a string.
+ */
+String
+getOriginalSourceCode
+(
+)
+;

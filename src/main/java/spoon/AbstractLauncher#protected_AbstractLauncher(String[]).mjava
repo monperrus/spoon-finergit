@@ -1,0 +1,25 @@
+/** 
+ * Default constructor takes the command-line arguments.
+ */
+protected
+AbstractLauncher
+(
+String
+[
+]
+args
+)
+throws
+JSAPException
+{
+this
+(
+)
+;
+this
+.
+args
+=
+args
+;
+}

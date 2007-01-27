@@ -1,0 +1,16 @@
+/** 
+ * Recursively clones a given element of the metamodel and all its child elements.
+ * @param < T > the element's type
+ * @param element the element
+ * @return a clone of <code>element</code>
+ */
+<
+T
+>
+T
+clone
+(
+T
+element
+)
+;

@@ -1,0 +1,17 @@
+private
+void
+startPath
+(
+)
+{
+paths
+.
+add
+(
+new
+SymbolicEvaluationPath
+(
+)
+)
+;
+}

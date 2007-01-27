@@ -1,0 +1,16 @@
+/** 
+ * Gets the type of the abstract instance.
+ */
+public
+CtTypeReference
+<
+T
+>
+getConcreteType
+(
+)
+{
+return
+concreteType
+;
+}

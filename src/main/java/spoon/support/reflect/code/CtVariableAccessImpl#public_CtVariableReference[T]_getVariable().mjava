@@ -1,0 +1,13 @@
+public
+CtVariableReference
+<
+T
+>
+getVariable
+(
+)
+{
+return
+variable
+;
+}

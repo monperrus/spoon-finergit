@@ -1,0 +1,11 @@
+/** 
+ * Sets the parent element of the current element.
+ * @param element parent
+ */
+void
+setParent
+(
+CtElement
+element
+)
+;

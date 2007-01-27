@@ -1,0 +1,15 @@
+/** 
+ * Returns the exceptions and other throwables listed in this method or constructor's <tt>throws</tt> clause.
+ */
+Set
+<
+CtTypeReference
+<
+?
+Throwable
+>
+>
+getThrownTypes
+(
+)
+;

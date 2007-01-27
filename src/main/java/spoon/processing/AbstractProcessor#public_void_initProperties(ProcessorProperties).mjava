@@ -1,0 +1,17 @@
+public
+final
+void
+initProperties
+(
+ProcessorProperties
+properties
+)
+{
+initProperties
+(
+this
+,
+properties
+)
+;
+}

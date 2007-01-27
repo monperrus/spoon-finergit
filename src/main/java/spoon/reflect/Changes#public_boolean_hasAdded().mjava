@@ -1,0 +1,22 @@
+/** 
+ * Returns true if elements are added.
+ */
+public
+boolean
+hasAdded
+(
+)
+{
+return
+added
+!=
+null
+&&
+!
+added
+.
+isEmpty
+(
+)
+;
+}

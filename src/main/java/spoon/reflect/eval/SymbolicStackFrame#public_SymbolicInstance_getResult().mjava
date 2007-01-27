@@ -1,0 +1,13 @@
+/** 
+ * Gets the result of this frame execution.
+ */
+public
+SymbolicInstance
+getResult
+(
+)
+{
+return
+result
+;
+}

@@ -1,0 +1,10 @@
+/** 
+ * Inserts the given statement at the end of the block.
+ */
+void
+insertEnd
+(
+CtStatement
+statement
+)
+;

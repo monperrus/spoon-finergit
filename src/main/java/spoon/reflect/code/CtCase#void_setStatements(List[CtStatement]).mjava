@@ -1,0 +1,13 @@
+/** 
+ * Sets the list of statements that defines the case body.
+ */
+void
+setStatements
+(
+List
+<
+CtStatement
+>
+statements
+)
+;

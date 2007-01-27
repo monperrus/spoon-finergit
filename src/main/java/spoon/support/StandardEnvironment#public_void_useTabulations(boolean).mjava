@@ -1,0 +1,15 @@
+public
+void
+useTabulations
+(
+boolean
+tabulation
+)
+{
+this
+.
+useTabulations
+=
+tabulation
+;
+}

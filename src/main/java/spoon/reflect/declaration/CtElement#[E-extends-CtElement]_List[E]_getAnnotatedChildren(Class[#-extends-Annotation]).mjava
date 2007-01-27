@@ -1,0 +1,25 @@
+/** 
+ * Gets the child elements annotated with the given annotation type's instances.
+ * @param < E > the element's type
+ * @param annotationType the annotation type
+ * @return all the child elements annotated with an instance of the givenannotation type
+ */
+<
+E
+extends
+CtElement
+>
+List
+<
+E
+>
+getAnnotatedChildren
+(
+Class
+<
+?
+Annotation
+>
+annotationType
+)
+;

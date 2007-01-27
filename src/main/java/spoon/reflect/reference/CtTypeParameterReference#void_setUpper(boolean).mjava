@@ -1,0 +1,10 @@
+/** 
+ * Set to  {@code true} if the bounds are upper bounds.
+ */
+void
+setUpper
+(
+boolean
+upper
+)
+;

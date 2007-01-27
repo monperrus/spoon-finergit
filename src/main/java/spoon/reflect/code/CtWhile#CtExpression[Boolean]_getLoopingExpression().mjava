@@ -1,0 +1,11 @@
+/** 
+ * Gets the looping boolean test expression.
+ */
+CtExpression
+<
+Boolean
+>
+getLoopingExpression
+(
+)
+;

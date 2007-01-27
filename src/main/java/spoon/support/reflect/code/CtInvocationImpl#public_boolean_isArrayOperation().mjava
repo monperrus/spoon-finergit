@@ -1,0 +1,16 @@
+public
+boolean
+isArrayOperation
+(
+)
+{
+return
+indexExpressions
+.
+size
+(
+)
+>
+0
+;
+}

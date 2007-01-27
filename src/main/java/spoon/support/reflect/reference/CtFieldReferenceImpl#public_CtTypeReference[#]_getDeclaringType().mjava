@@ -1,0 +1,13 @@
+public
+CtTypeReference
+<
+?
+>
+getDeclaringType
+(
+)
+{
+return
+declaringType
+;
+}

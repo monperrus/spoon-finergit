@@ -1,0 +1,11 @@
+/** 
+ * Returns the expression that defines the index.
+ */
+CtExpression
+<
+Integer
+>
+getIndexExpression
+(
+)
+;

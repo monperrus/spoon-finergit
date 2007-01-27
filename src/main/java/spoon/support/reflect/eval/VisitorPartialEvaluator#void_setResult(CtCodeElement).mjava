@@ -1,0 +1,12 @@
+void
+setResult
+(
+CtCodeElement
+element
+)
+{
+result
+=
+element
+;
+}

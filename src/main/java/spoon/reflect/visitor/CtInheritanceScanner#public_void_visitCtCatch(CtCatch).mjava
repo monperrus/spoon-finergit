@@ -1,0 +1,14 @@
+public
+void
+visitCtCatch
+(
+CtCatch
+catchBlock
+)
+{
+scanCtCodeElement
+(
+catchBlock
+)
+;
+}

@@ -1,0 +1,8 @@
+/** 
+ * Creates a <code>try</code> block.
+ */
+CtTry
+createTry
+(
+)
+;

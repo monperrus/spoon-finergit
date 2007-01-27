@@ -1,0 +1,27 @@
+/** 
+ * Creates a filter with the type of the potentitally matching elements.
+ */
+@SuppressWarnings("unchecked")
+public
+AbstractFilter
+(
+Class
+<
+?
+>
+type
+)
+{
+this
+.
+type
+=
+(
+Class
+<
+T
+>
+)
+type
+;
+}

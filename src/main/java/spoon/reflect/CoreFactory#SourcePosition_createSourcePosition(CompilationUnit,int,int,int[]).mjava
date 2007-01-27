@@ -1,0 +1,21 @@
+/** 
+ * Creates a source position.
+ */
+SourcePosition
+createSourcePosition
+(
+CompilationUnit
+compilationUnit
+,
+int
+start
+,
+int
+end
+,
+int
+[
+]
+lineSeparatorPositions
+)
+;

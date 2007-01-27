@@ -1,0 +1,9 @@
+/** 
+ * Gets the runtime member that corresponds to a field reference if any.
+ * @return the member (null if not found)
+ */
+Member
+getActualField
+(
+)
+;

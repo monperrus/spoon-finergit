@@ -1,0 +1,14 @@
+public
+void
+visitCtFor
+(
+CtFor
+forLoop
+)
+{
+scanCtLoop
+(
+forLoop
+)
+;
+}

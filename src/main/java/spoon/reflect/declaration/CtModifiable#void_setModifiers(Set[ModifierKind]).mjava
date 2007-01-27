@@ -1,0 +1,13 @@
+/** 
+ * Sets the modifiers.
+ */
+void
+setModifiers
+(
+Set
+<
+ModifierKind
+>
+modifiers
+)
+;

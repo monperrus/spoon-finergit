@@ -1,0 +1,27 @@
+/** 
+ * Generates a new line starting with the current number of tabs.
+ */
+public
+DefaultJavaPrettyPrinter
+writeln
+(
+)
+{
+sbf
+.
+append
+(
+System
+.
+getProperty
+(
+"line.separator"
+)
+)
+;
+return
+writeTabs
+(
+)
+;
+}

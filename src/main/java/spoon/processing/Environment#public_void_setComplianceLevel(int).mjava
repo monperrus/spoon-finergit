@@ -1,0 +1,11 @@
+/** 
+ * Sets the Java version compliance level.
+ */
+public
+void
+setComplianceLevel
+(
+int
+level
+)
+;

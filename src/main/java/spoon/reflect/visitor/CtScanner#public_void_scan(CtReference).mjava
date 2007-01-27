@@ -1,0 +1,27 @@
+/** 
+ * Generically scans a meta-model element reference.
+ */
+public
+void
+scan
+(
+CtReference
+reference
+)
+{
+if
+(
+(
+reference
+!=
+null
+)
+)
+reference
+.
+accept
+(
+this
+)
+;
+}

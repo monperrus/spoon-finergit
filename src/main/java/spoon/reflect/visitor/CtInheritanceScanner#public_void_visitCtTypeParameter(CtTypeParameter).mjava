@@ -1,0 +1,14 @@
+public
+void
+visitCtTypeParameter
+(
+CtTypeParameter
+typeParameter
+)
+{
+scanCtElement
+(
+typeParameter
+)
+;
+}

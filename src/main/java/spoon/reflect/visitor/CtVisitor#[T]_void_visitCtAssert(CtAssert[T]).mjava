@@ -1,0 +1,16 @@
+/** 
+ * Visits an assert.
+ */
+<
+T
+>
+void
+visitCtAssert
+(
+CtAssert
+<
+T
+>
+asserted
+)
+;

@@ -1,0 +1,13 @@
+/** 
+ * Sets the declaring type.
+ */
+void
+setDeclaringType
+(
+CtTypeReference
+<
+?
+>
+declaringType
+)
+;

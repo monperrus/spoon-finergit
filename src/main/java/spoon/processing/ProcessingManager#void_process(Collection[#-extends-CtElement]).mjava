@@ -1,0 +1,14 @@
+/** 
+ * Recursively processes a collection of  {@link CtElement}s with this manager. All the processors added to this manager (see {@link #getProcessors()}) should be applied before the method returns (blocking implementation) or before another call to a <code>process</code> method (non-blocking implementation). Processors that have been applied are removed from the manager and {@link #getProcessors()} does not contain them anymore.
+ */
+void
+process
+(
+Collection
+<
+?
+CtElement
+>
+elements
+)
+;

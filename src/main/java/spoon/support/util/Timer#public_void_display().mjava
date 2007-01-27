@@ -1,0 +1,29 @@
+/** 
+ * Displays all the timers.
+ */
+public
+static
+void
+display
+(
+)
+{
+for
+(
+Timer
+time
+:
+timestamps
+)
+{
+System
+.
+out
+.
+println
+(
+time
+)
+;
+}
+}

@@ -1,0 +1,11 @@
+/** 
+ * Returns the assignment that is set to the assigned expression.
+ */
+CtExpression
+<
+A
+>
+getAssignment
+(
+)
+;

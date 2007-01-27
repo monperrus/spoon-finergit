@@ -1,0 +1,17 @@
+/** 
+ * Gets the number of steps in this path.
+ */
+public
+int
+getStepCount
+(
+)
+{
+return
+steps
+.
+size
+(
+)
+;
+}

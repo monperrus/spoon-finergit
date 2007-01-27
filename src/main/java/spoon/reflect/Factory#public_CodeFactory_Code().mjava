@@ -1,0 +1,29 @@
+/** 
+ * The  {@link spoon.reflect.code.CtCodeElement} sub-factory.
+ */
+public
+CodeFactory
+Code
+(
+)
+{
+if
+(
+Code
+==
+null
+)
+{
+Code
+=
+new
+CodeFactory
+(
+this
+)
+;
+}
+return
+Code
+;
+}

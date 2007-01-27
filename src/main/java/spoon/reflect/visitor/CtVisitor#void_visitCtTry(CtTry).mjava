@@ -1,0 +1,10 @@
+/** 
+ * Visits a <code>try</code> statement.
+ */
+void
+visitCtTry
+(
+CtTry
+tryBlock
+)
+;

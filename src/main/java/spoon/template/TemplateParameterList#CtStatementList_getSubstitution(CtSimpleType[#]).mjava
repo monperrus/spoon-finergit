@@ -1,0 +1,13 @@
+/** 
+ * See  {@link TemplateParameter#getSubstitution(CtSimpleType)}.
+ */
+CtStatementList
+getSubstitution
+(
+CtSimpleType
+<
+?
+>
+targetType
+)
+;

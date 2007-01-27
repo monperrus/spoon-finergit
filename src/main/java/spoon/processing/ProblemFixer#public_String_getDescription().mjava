@@ -1,0 +1,10 @@
+/** 
+ * Returns the description of this fixer
+ */
+public
+abstract
+String
+getDescription
+(
+)
+;

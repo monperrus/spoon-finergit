@@ -1,0 +1,28 @@
+/** 
+ * Gets the factory which contains the built model.
+ */
+public
+final
+Factory
+getFactory
+(
+)
+{
+if
+(
+factory
+==
+null
+)
+{
+factory
+=
+createFactory
+(
+)
+;
+}
+return
+factory
+;
+}

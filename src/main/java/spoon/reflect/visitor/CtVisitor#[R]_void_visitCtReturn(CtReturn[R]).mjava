@@ -1,0 +1,16 @@
+/** 
+ * Visits a <code>return</code> statement.
+ */
+<
+R
+>
+void
+visitCtReturn
+(
+CtReturn
+<
+R
+>
+returnStatement
+)
+;

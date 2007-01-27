@@ -1,0 +1,17 @@
+public
+boolean
+addFile
+(
+CtFile
+o
+)
+{
+return
+files
+.
+add
+(
+o
+)
+;
+}

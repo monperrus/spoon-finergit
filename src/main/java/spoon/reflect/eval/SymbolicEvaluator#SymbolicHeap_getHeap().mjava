@@ -1,0 +1,8 @@
+/** 
+ * Gets the heap of the current symbolic evaluation step.
+ */
+SymbolicHeap
+getHeap
+(
+)
+;

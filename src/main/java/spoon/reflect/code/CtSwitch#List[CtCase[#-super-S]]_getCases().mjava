@@ -1,0 +1,15 @@
+/** 
+ * Gets the list of cases defined for this switch.
+ */
+List
+<
+CtCase
+<
+?
+S
+>
+>
+getCases
+(
+)
+;

@@ -1,0 +1,11 @@
+/** 
+ * Gets the list of statements that defines the case body.
+ */
+List
+<
+CtStatement
+>
+getStatements
+(
+)
+;

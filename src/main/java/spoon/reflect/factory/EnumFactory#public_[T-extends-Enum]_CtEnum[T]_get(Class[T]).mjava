@@ -1,0 +1,52 @@
+/** 
+ * Gets a class from its runtime Java class.
+ * @param < T > type of created class
+ * @param cl java class
+ */
+public
+<
+T
+extends
+Enum
+>
+CtEnum
+<
+T
+>
+get
+(
+Class
+<
+T
+>
+cl
+)
+{
+try
+{
+return
+(
+CtEnum
+<
+T
+>
+)
+super
+.
+get
+(
+cl
+)
+;
+}
+catch
+(
+Exception
+e
+)
+{
+return
+null
+;
+}
+}

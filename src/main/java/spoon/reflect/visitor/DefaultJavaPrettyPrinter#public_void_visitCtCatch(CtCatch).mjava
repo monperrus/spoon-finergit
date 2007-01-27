@@ -1,0 +1,37 @@
+public
+void
+visitCtCatch
+(
+CtCatch
+catchBlock
+)
+{
+write
+(
+" catch ("
+)
+;
+scan
+(
+catchBlock
+.
+getParameter
+(
+)
+)
+;
+write
+(
+") "
+)
+;
+scan
+(
+catchBlock
+.
+getBody
+(
+)
+)
+;
+}

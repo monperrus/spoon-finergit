@@ -1,0 +1,13 @@
+/** 
+ * Sets the statement list.
+ */
+void
+setStatements
+(
+List
+<
+CtStatement
+>
+statements
+)
+;

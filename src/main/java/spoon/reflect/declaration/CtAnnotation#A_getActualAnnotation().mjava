@@ -1,0 +1,8 @@
+/** 
+ * Returns the actual annotation (a dynamic proxy for this element).
+ */
+A
+getActualAnnotation
+(
+)
+;

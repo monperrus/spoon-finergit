@@ -1,0 +1,13 @@
+/** 
+ * Sets the expression that defines the index.
+ */
+void
+setIndexExpression
+(
+CtExpression
+<
+Integer
+>
+expression
+)
+;

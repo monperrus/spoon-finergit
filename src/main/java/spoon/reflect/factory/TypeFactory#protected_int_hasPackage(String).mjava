@@ -1,0 +1,22 @@
+/** 
+ * Tells if a given Java qualified name contains a package name.
+ */
+protected
+int
+hasPackage
+(
+String
+qualifiedName
+)
+{
+return
+qualifiedName
+.
+lastIndexOf
+(
+CtPackage
+.
+PACKAGE_SEPARATOR
+)
+;
+}

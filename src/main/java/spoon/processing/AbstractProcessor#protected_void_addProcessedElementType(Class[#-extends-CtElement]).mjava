@@ -1,0 +1,23 @@
+/** 
+ * Adds a processed element type. This method is typically invoked in subclasses' constructors.
+ */
+protected
+void
+addProcessedElementType
+(
+Class
+<
+?
+CtElement
+>
+elementType
+)
+{
+processedElementTypes
+.
+add
+(
+elementType
+)
+;
+}

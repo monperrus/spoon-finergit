@@ -1,0 +1,13 @@
+/** 
+ * Gets the stack frame that corresponds to this state.
+ */
+public
+SymbolicStackFrame
+getFrame
+(
+)
+{
+return
+frame
+;
+}

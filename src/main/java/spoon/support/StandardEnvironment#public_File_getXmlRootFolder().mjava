@@ -1,0 +1,29 @@
+/** 
+ * Gets the root folder where the processors' XML configuration files are located.
+ */
+public
+File
+getXmlRootFolder
+(
+)
+{
+if
+(
+xmlRootFolder
+==
+null
+)
+{
+xmlRootFolder
+=
+new
+File
+(
+"."
+)
+;
+}
+return
+xmlRootFolder
+;
+}

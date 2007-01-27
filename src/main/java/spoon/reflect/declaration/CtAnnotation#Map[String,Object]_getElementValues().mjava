@@ -1,0 +1,14 @@
+/** 
+ * Returns this annotation's elements and their values. This is returned in the form of a map that associates element names with their corresponding values.
+ * @return this annotation's element anmes and their values, or an empty mapif there are none
+ */
+Map
+<
+String
+,
+Object
+>
+getElementValues
+(
+)
+;

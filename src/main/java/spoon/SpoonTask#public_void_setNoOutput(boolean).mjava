@@ -1,0 +1,18 @@
+/** 
+ * Tells Spoon not to generate any files.
+ */
+public
+void
+setNoOutput
+(
+boolean
+nooutput
+)
+{
+this
+.
+nooutput
+=
+nooutput
+;
+}

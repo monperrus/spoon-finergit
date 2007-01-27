@@ -1,0 +1,25 @@
+/** 
+ * Gets an overriding executable for this executable from a given subtype, if exists.
+ * @param < S > subtype of T
+ * @param subType starting bottom type to find an overriding executable (subtypes are not tested)
+ * @return the first found (most concrete) executable that overrides thisexecutable (null if none found)
+ * @deprecated Use {@link #getOverridingExecutable(CtTypeReference)} instead
+ */
+<
+S
+extends
+T
+>
+CtExecutableReference
+<
+S
+>
+getOverloadingExecutable
+(
+CtTypeReference
+<
+?
+>
+subType
+)
+;

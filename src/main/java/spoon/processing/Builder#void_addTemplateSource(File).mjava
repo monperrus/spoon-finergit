@@ -1,0 +1,13 @@
+/** 
+ * Adds a file/directory to be used to build templates. By default, the files should be Java source files or Jar files containing the sources. Directories are processed recursively. Templates are set apart from the program to be processed for logical reasons. However, if a template was needed to be processed, it could be added as an input source.
+ * @param source file or directory to add
+ */
+void
+addTemplateSource
+(
+File
+source
+)
+throws
+IOException
+;

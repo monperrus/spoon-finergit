@@ -1,0 +1,14 @@
+/** 
+ * Constructor.
+ */
+public
+SpoonTask
+(
+)
+{
+setClassname
+(
+"spoon.Launcher"
+)
+;
+}

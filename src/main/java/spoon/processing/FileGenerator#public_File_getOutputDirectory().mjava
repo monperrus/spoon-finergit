@@ -1,0 +1,9 @@
+/** 
+ * Gets the root directory where files are created.
+ */
+public
+File
+getOutputDirectory
+(
+)
+;

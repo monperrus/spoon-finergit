@@ -1,0 +1,10 @@
+/** 
+ * Sets the kind of this operator.
+ */
+void
+setKind
+(
+UnaryOperatorKind
+kind
+)
+;

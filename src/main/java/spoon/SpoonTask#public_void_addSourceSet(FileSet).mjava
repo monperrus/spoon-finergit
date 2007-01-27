@@ -1,0 +1,19 @@
+/** 
+ * Adds a source set.
+ */
+public
+void
+addSourceSet
+(
+FileSet
+set
+)
+{
+sourcefilesets
+.
+addElement
+(
+set
+)
+;
+}

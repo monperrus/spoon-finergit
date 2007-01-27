@@ -1,0 +1,11 @@
+/** 
+ * Gets this element's type.
+ */
+CtTypeReference
+<
+T
+>
+getType
+(
+)
+;

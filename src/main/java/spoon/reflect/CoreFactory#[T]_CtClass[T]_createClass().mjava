@@ -1,0 +1,14 @@
+/** 
+ * Creates a class.
+ */
+<
+T
+>
+CtClass
+<
+T
+>
+createClass
+(
+)
+;

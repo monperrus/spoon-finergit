@@ -1,0 +1,16 @@
+public
+void
+visitCtSynchronized
+(
+CtSynchronized
+synchro
+)
+{
+throw
+new
+RuntimeException
+(
+"Unknow Element"
+)
+;
+}

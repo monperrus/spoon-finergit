@@ -1,0 +1,32 @@
+/** 
+ * Creates a new annotation filter.
+ */
+public
+AnnotationFilter
+(
+Class
+<
+E
+>
+elementType
+,
+Class
+<
+?
+Annotation
+>
+annotationType
+)
+{
+super
+(
+elementType
+)
+;
+this
+.
+annotationType
+=
+annotationType
+;
+}

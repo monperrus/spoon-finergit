@@ -1,0 +1,13 @@
+/** 
+ * Gets the calling instance if applicable.
+ */
+public
+SymbolicInstance
+getCaller
+(
+)
+{
+return
+caller
+;
+}

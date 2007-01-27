@@ -1,0 +1,18 @@
+/** 
+ * Sets Spoon to use tabulations instead of spaces when printing source.
+ */
+public
+void
+setTabs
+(
+boolean
+tabs
+)
+{
+this
+.
+tabs
+=
+tabs
+;
+}

@@ -1,0 +1,15 @@
+public
+void
+setTabulationSize
+(
+int
+tabulationSize
+)
+{
+this
+.
+tabulationSize
+=
+tabulationSize
+;
+}

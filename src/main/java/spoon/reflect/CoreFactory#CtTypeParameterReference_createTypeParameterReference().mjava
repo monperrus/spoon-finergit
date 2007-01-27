@@ -1,0 +1,8 @@
+/** 
+ * Creates a type parameter reference.
+ */
+CtTypeParameterReference
+createTypeParameterReference
+(
+)
+;

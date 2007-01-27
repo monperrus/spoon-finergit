@@ -1,0 +1,14 @@
+/** 
+ * Returns the fields that are directly declared by this class or interface. Includes enum constants.
+ */
+List
+<
+CtField
+<
+?
+>
+>
+getFields
+(
+)
+;

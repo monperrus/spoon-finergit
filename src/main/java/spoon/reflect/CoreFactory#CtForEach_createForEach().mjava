@@ -1,0 +1,8 @@
+/** 
+ * Creates a <code>foreach</code> loop.
+ */
+CtForEach
+createForEach
+(
+)
+;

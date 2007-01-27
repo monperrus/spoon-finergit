@@ -1,0 +1,22 @@
+public
+<
+T
+>
+void
+visitCtTypeReference
+(
+CtTypeReference
+<
+T
+>
+reference
+)
+{
+throw
+new
+RuntimeException
+(
+"Unknow Element"
+)
+;
+}

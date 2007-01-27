@@ -1,0 +1,16 @@
+/** 
+ * Sets the methods of this type.
+ */
+void
+setMethods
+(
+Set
+<
+CtMethod
+<
+?
+>
+>
+methods
+)
+;

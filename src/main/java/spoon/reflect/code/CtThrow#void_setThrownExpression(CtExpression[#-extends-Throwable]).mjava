@@ -1,0 +1,14 @@
+/** 
+ * Sets the thrown expression (must be a throwable).
+ */
+void
+setThrownExpression
+(
+CtExpression
+<
+?
+Throwable
+>
+thrownExpression
+)
+;

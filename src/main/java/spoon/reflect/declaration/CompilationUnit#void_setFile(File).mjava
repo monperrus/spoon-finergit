@@ -1,0 +1,10 @@
+/** 
+ * Sets the file that corresponds to this compilation unit.
+ */
+void
+setFile
+(
+File
+file
+)
+;

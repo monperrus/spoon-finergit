@@ -1,0 +1,13 @@
+/** 
+ * Sets the expression to which the operator is applied.
+ */
+void
+setOperand
+(
+CtExpression
+<
+T
+>
+expression
+)
+;

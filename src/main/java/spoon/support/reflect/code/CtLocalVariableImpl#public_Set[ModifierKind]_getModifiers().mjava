@@ -1,0 +1,13 @@
+public
+Set
+<
+ModifierKind
+>
+getModifiers
+(
+)
+{
+return
+modifiers
+;
+}

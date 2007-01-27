@@ -1,0 +1,14 @@
+/** 
+ * Creates a conditional expression (<code>boolExpr?ifTrue:ifFalse</code>).
+ */
+<
+T
+>
+CtConditional
+<
+T
+>
+createConditional
+(
+)
+;

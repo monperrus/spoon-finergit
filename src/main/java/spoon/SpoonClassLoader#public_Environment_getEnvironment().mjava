@@ -1,0 +1,28 @@
+/** 
+ * Gets the associated (standard) environment.
+ */
+public
+Environment
+getEnvironment
+(
+)
+{
+if
+(
+environment
+==
+null
+)
+{
+environment
+=
+new
+StandardEnvironment
+(
+)
+;
+}
+return
+environment
+;
+}

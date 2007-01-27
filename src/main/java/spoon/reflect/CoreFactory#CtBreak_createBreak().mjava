@@ -1,0 +1,8 @@
+/** 
+ * Creates a <code>break</code> statement.
+ */
+CtBreak
+createBreak
+(
+)
+;

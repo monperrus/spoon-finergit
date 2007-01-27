@@ -1,0 +1,13 @@
+/** 
+ * Sets the bounds of this type parameter.
+ */
+void
+setBounds
+(
+List
+<
+CtTypeReference
+>
+bounds
+)
+;

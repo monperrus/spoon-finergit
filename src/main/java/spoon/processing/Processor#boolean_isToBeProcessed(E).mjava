@@ -1,0 +1,12 @@
+/** 
+ * Tells if this element is to be processed (returns <code>true</code> in the default implementation).
+ * @param candidate the candidate
+ * @return true if the candidate is to be processed by the{@link #process(CtElement)}
+ */
+boolean
+isToBeProcessed
+(
+E
+candidate
+)
+;

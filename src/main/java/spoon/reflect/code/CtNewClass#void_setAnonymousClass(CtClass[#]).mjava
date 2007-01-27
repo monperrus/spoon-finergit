@@ -1,0 +1,13 @@
+/** 
+ * Sets the created class.
+ */
+void
+setAnonymousClass
+(
+CtClass
+<
+?
+>
+anonymousClass
+)
+;

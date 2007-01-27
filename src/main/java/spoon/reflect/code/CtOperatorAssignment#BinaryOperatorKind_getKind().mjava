@@ -1,0 +1,8 @@
+/** 
+ * Gets the operator kind.
+ */
+BinaryOperatorKind
+getKind
+(
+)
+;

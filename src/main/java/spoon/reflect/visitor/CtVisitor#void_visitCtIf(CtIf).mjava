@@ -1,0 +1,10 @@
+/** 
+ * Visits an <code>if</code> statement.
+ */
+void
+visitCtIf
+(
+CtIf
+ifElement
+)
+;

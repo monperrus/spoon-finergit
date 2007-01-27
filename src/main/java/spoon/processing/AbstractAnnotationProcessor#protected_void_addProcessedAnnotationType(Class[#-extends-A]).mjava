@@ -1,0 +1,30 @@
+/** 
+ * Adds a processed annotation type (to be used in subclasses constructors).
+ */
+final
+protected
+void
+addProcessedAnnotationType
+(
+Class
+<
+?
+A
+>
+annotationType
+)
+{
+processedAnnotationTypes
+.
+put
+(
+annotationType
+.
+getName
+(
+)
+,
+annotationType
+)
+;
+}

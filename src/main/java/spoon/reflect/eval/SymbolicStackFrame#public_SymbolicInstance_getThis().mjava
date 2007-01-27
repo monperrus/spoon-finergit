@@ -1,0 +1,13 @@
+/** 
+ * Gets the <code>this</code> value.
+ */
+public
+SymbolicInstance
+getThis
+(
+)
+{
+return
+target
+;
+}

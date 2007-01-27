@@ -1,0 +1,13 @@
+/** 
+ * Constructs a Spoon classloader.
+ */
+public
+SpoonClassLoader
+(
+)
+{
+super
+(
+)
+;
+}

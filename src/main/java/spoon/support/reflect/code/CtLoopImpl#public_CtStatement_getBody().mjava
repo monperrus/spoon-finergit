@@ -1,0 +1,10 @@
+public
+CtStatement
+getBody
+(
+)
+{
+return
+body
+;
+}

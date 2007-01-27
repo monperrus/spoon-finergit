@@ -1,0 +1,8 @@
+/** 
+ * Gets the actual value of the literal (statically known).
+ */
+T
+getValue
+(
+)
+;

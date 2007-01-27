@@ -1,0 +1,20 @@
+/** 
+ * Gets the list of processor types to be initially applied during the processing (-p option).
+ */
+protected
+java
+.
+util
+.
+List
+<
+String
+>
+getProcessorTypes
+(
+)
+{
+return
+processors
+;
+}

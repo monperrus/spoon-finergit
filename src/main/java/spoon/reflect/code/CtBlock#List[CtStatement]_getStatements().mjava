@@ -1,0 +1,11 @@
+/** 
+ * Returns the statements enclosed by this block.
+ */
+List
+<
+CtStatement
+>
+getStatements
+(
+)
+;

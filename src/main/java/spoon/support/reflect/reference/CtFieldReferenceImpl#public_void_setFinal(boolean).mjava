@@ -1,0 +1,13 @@
+public
+void
+setFinal
+(
+boolean
+b
+)
+{
+fina
+=
+b
+;
+}

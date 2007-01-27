@@ -1,0 +1,14 @@
+/** 
+ * Creates a new array expression.
+ */
+<
+T
+>
+CtNewArray
+<
+T
+>
+createNewArray
+(
+)
+;

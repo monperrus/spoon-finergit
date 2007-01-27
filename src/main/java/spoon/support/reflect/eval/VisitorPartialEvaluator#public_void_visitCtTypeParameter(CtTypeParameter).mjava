@@ -1,0 +1,16 @@
+public
+void
+visitCtTypeParameter
+(
+CtTypeParameter
+typeParameter
+)
+{
+throw
+new
+RuntimeException
+(
+"Unknow Element"
+)
+;
+}

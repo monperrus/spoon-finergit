@@ -1,0 +1,10 @@
+/** 
+ * Sets the reference to the declaring package.
+ */
+void
+setPackage
+(
+CtPackageReference
+pack
+)
+;

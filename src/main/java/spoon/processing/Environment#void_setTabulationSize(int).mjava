@@ -1,0 +1,10 @@
+/** 
+ * Sets the size of the tabulations in the generated source code.
+ */
+void
+setTabulationSize
+(
+int
+size
+)
+;

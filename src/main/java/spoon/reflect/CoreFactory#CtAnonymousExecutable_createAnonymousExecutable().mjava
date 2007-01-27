@@ -1,0 +1,8 @@
+/** 
+ * Creates an anonymous executable.
+ */
+CtAnonymousExecutable
+createAnonymousExecutable
+(
+)
+;

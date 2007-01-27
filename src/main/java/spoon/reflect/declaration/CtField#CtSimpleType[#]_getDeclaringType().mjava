@@ -1,0 +1,11 @@
+/** 
+ * Gets the type that declares this field.
+ */
+CtSimpleType
+<
+?
+>
+getDeclaringType
+(
+)
+;

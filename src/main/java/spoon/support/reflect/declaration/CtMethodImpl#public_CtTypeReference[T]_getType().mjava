@@ -1,0 +1,13 @@
+public
+CtTypeReference
+<
+T
+>
+getType
+(
+)
+{
+return
+returnType
+;
+}

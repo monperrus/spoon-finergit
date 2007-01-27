@@ -1,0 +1,30 @@
+/** 
+ * Scans an abstract modifiable element.
+ */
+public
+void
+scanCtModifiable
+(
+CtModifiable
+m
+)
+{
+for
+(
+ModifierKind
+modifier
+:
+m
+.
+getModifiers
+(
+)
+)
+{
+scanCtModifier
+(
+modifier
+)
+;
+}
+}

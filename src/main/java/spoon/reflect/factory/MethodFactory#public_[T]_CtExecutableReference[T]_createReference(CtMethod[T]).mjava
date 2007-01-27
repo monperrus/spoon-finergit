@@ -1,0 +1,33 @@
+/** 
+ * Creates a method reference.
+ */
+public
+<
+T
+>
+CtExecutableReference
+<
+T
+>
+createReference
+(
+CtMethod
+<
+T
+>
+m
+)
+{
+return
+factory
+.
+Executable
+(
+)
+.
+createReference
+(
+m
+)
+;
+}

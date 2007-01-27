@@ -1,0 +1,16 @@
+public
+void
+visitCtTypeParameterReference
+(
+CtTypeParameterReference
+ref
+)
+{
+throw
+new
+RuntimeException
+(
+"Unknow Element"
+)
+;
+}

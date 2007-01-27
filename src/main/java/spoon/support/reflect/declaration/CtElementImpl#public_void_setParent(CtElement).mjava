@@ -1,0 +1,15 @@
+public
+void
+setParent
+(
+CtElement
+parentElement
+)
+{
+this
+.
+parent
+=
+parentElement
+;
+}

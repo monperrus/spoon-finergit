@@ -1,0 +1,13 @@
+/** 
+ * Sets the assigned expression.
+ */
+void
+setAssigned
+(
+CtExpression
+<
+T
+>
+assigned
+)
+;

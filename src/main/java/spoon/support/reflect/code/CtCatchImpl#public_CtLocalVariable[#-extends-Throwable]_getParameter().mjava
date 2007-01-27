@@ -1,0 +1,14 @@
+public
+CtLocalVariable
+<
+?
+Throwable
+>
+getParameter
+(
+)
+{
+return
+parameter
+;
+}

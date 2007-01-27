@@ -1,0 +1,16 @@
+/** 
+ * Visits a reference to a type.
+ */
+<
+T
+>
+void
+visitCtTypeReference
+(
+CtTypeReference
+<
+T
+>
+reference
+)
+;

@@ -1,0 +1,22 @@
+public
+<
+T
+>
+void
+visitCtParameter
+(
+CtParameter
+<
+T
+>
+parameter
+)
+{
+throw
+new
+RuntimeException
+(
+"Unknow Element"
+)
+;
+}

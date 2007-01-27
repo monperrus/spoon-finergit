@@ -1,0 +1,14 @@
+public
+void
+visitCtThrow
+(
+CtThrow
+throwStatement
+)
+{
+scanCtCFlowBreak
+(
+throwStatement
+)
+;
+}

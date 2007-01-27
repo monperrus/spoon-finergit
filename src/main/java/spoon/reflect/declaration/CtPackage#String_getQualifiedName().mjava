@@ -1,0 +1,9 @@
+/** 
+ * Returns the fully qualified name of this package. This is also known as the package's <i>canonical</i> name.
+ * @return the fully qualified name of this package, or the empty string ifthis is the unnamed package
+ */
+String
+getQualifiedName
+(
+)
+;

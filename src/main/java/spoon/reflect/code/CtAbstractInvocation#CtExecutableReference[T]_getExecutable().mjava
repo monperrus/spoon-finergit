@@ -1,0 +1,11 @@
+/** 
+ * Returns the invoked executable.
+ */
+CtExecutableReference
+<
+T
+>
+getExecutable
+(
+)
+;

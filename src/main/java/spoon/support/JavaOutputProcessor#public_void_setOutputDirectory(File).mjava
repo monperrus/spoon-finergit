@@ -1,0 +1,15 @@
+public
+void
+setOutputDirectory
+(
+File
+directory
+)
+{
+this
+.
+directory
+=
+directory
+;
+}

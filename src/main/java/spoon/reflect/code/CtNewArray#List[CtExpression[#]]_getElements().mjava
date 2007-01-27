@@ -1,0 +1,14 @@
+/** 
+ * Gets the initialization expressions.
+ */
+List
+<
+CtExpression
+<
+?
+>
+>
+getElements
+(
+)
+;

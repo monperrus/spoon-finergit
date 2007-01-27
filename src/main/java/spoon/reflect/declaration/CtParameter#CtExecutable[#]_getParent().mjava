@@ -1,0 +1,11 @@
+/** 
+ * Gets the executable that is the parent declaration of this parameter declaration.
+ */
+CtExecutable
+<
+?
+>
+getParent
+(
+)
+;

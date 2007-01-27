@@ -1,0 +1,20 @@
+/** 
+ * Creates the filter.
+ * @param type the type that matches
+ */
+public
+TypeFilter
+(
+Class
+<
+T
+>
+type
+)
+{
+super
+(
+type
+)
+;
+}

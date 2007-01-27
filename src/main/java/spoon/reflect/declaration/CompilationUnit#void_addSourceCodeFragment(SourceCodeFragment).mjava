@@ -1,0 +1,10 @@
+/** 
+ * Add a source code fragment to this compilation unit.
+ */
+void
+addSourceCodeFragment
+(
+SourceCodeFragment
+fragment
+)
+;

@@ -1,0 +1,14 @@
+/** 
+ * Adds a processor.
+ * @see #getProcessors().
+ */
+boolean
+addProcessor
+(
+Processor
+<
+?
+>
+p
+)
+;

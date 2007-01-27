@@ -1,0 +1,47 @@
+/** 
+ * Creates a literal with a given value.
+ * @param < T > the type of the literal
+ * @param value the value of the litteral
+ * @return a new literal
+ */
+public
+<
+T
+>
+CtLiteral
+<
+T
+>
+createLiteral
+(
+T
+value
+)
+{
+CtLiteral
+<
+T
+>
+l
+=
+factory
+.
+Core
+(
+)
+.
+createLiteral
+(
+)
+;
+l
+.
+setValue
+(
+value
+)
+;
+return
+l
+;
+}

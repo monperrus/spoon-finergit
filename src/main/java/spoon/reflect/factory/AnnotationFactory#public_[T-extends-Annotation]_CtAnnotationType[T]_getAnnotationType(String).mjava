@@ -1,0 +1,32 @@
+/** 
+ * Gets a annotation type from its name.
+ */
+@SuppressWarnings("unchecked")
+public
+<
+T
+extends
+Annotation
+>
+CtAnnotationType
+<
+T
+>
+getAnnotationType
+(
+String
+qualifiedName
+)
+{
+return
+(
+CtAnnotationType
+)
+super
+.
+get
+(
+qualifiedName
+)
+;
+}

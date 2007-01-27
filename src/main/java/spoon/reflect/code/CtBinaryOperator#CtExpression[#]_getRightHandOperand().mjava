@@ -1,0 +1,11 @@
+/** 
+ * Returns the right-hand operand.
+ */
+CtExpression
+<
+?
+>
+getRightHandOperand
+(
+)
+;

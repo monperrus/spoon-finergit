@@ -1,0 +1,13 @@
+public
+CtExpression
+<
+S
+>
+getSelector
+(
+)
+{
+return
+expression
+;
+}

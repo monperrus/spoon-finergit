@@ -1,0 +1,8 @@
+/** 
+ * Returns true (default) if the processor automatically infers the consumed annotation type to the <code>A</code> actual type.
+ */
+boolean
+inferConsumedAnnotationType
+(
+)
+;

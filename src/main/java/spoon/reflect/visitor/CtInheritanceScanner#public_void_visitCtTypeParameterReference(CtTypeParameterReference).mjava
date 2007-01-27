@@ -1,0 +1,14 @@
+public
+void
+visitCtTypeParameterReference
+(
+CtTypeParameterReference
+ref
+)
+{
+visitCtTypeReference
+(
+ref
+)
+;
+}

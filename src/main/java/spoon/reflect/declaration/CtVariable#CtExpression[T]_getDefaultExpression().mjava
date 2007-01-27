@@ -1,0 +1,11 @@
+/** 
+ * Gets the expression assigned to the variable, when declared.
+ */
+CtExpression
+<
+T
+>
+getDefaultExpression
+(
+)
+;

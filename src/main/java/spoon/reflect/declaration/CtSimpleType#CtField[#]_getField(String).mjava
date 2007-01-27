@@ -1,0 +1,14 @@
+/** 
+ * Gets a field from its name.
+ * @return null if does not exit
+ */
+CtField
+<
+?
+>
+getField
+(
+String
+name
+)
+;

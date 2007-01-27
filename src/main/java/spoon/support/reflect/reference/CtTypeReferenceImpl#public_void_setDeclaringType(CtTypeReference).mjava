@@ -1,0 +1,15 @@
+public
+void
+setDeclaringType
+(
+CtTypeReference
+declaringType
+)
+{
+this
+.
+declaringType
+=
+declaringType
+;
+}

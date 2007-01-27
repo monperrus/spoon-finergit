@@ -1,0 +1,28 @@
+/** 
+ * Gets the associtated (default) core factory.
+ */
+public
+CoreFactory
+getCoreFactory
+(
+)
+{
+if
+(
+coreFactory
+==
+null
+)
+{
+coreFactory
+=
+new
+DefaultCoreFactory
+(
+)
+;
+}
+return
+coreFactory
+;
+}

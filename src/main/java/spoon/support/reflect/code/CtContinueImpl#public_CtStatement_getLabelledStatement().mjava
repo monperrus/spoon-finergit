@@ -1,0 +1,10 @@
+public
+CtStatement
+getLabelledStatement
+(
+)
+{
+return
+labelledStatement
+;
+}

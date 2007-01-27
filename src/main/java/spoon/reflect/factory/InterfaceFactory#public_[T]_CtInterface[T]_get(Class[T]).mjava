@@ -1,0 +1,50 @@
+/** 
+ * Gets a interface from its runtime Java class.
+ * @param < T > type of created class
+ * @param cl java class
+ */
+public
+<
+T
+>
+CtInterface
+<
+T
+>
+get
+(
+Class
+<
+T
+>
+cl
+)
+{
+try
+{
+return
+(
+CtInterface
+<
+T
+>
+)
+super
+.
+get
+(
+cl
+)
+;
+}
+catch
+(
+Exception
+e
+)
+{
+return
+null
+;
+}
+}

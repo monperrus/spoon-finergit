@@ -1,0 +1,20 @@
+/** 
+ * Creates an assignment expression.
+ */
+<
+T
+,
+A
+extends
+T
+>
+CtAssignment
+<
+T
+,
+A
+>
+createAssignment
+(
+)
+;

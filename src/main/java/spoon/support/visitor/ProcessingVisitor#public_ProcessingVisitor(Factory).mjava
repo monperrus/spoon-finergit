@@ -1,0 +1,17 @@
+/** 
+ * The constructor.
+ */
+public
+ProcessingVisitor
+(
+Factory
+factory
+)
+{
+this
+.
+factory
+=
+factory
+;
+}

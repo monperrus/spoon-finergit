@@ -1,0 +1,15 @@
+public
+void
+setImplicitDefault
+(
+boolean
+implicitDefault
+)
+{
+this
+.
+implicitDefault
+=
+implicitDefault
+;
+}

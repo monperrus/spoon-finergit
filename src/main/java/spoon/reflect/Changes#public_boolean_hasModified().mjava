@@ -1,0 +1,22 @@
+/** 
+ * Returns true if elements are modified.
+ */
+public
+boolean
+hasModified
+(
+)
+{
+return
+modified
+!=
+null
+&&
+!
+modified
+.
+isEmpty
+(
+)
+;
+}

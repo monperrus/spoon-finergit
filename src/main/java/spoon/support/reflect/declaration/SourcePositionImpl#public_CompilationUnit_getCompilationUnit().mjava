@@ -1,0 +1,10 @@
+public
+CompilationUnit
+getCompilationUnit
+(
+)
+{
+return
+compilationUnit
+;
+}

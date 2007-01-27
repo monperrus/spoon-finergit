@@ -1,0 +1,15 @@
+public
+void
+setKind
+(
+UnaryOperatorKind
+kind
+)
+{
+this
+.
+kind
+=
+kind
+;
+}

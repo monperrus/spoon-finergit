@@ -1,0 +1,16 @@
+public
+List
+<
+CtExpression
+<
+Integer
+>
+>
+getDimensionExpressions
+(
+)
+{
+return
+dimensionExpressions
+;
+}

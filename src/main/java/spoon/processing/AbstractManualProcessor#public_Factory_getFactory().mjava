@@ -1,0 +1,13 @@
+final
+public
+Factory
+getFactory
+(
+)
+{
+return
+this
+.
+factory
+;
+}

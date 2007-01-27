@@ -1,0 +1,47 @@
+/** 
+ * Gets a created interface
+ * @return the interface or null if does not exist
+ */
+@SuppressWarnings("unchecked")
+public
+<
+T
+>
+CtInterface
+<
+T
+>
+get
+(
+String
+qualifiedName
+)
+{
+try
+{
+return
+(
+CtInterface
+<
+T
+>
+)
+super
+.
+get
+(
+qualifiedName
+)
+;
+}
+catch
+(
+Exception
+e
+)
+{
+return
+null
+;
+}
+}

@@ -1,0 +1,16 @@
+public
+CtType
+<
+?
+>
+getDeclaringType
+(
+)
+{
+return
+(
+CtType
+)
+parent
+;
+}

@@ -1,0 +1,13 @@
+/** 
+ * Empty exception.
+ */
+public
+TemplateException
+(
+)
+{
+super
+(
+)
+;
+}

@@ -1,0 +1,24 @@
+/** 
+ * Gets the this value of the top frame.
+ */
+public
+SymbolicInstance
+<
+?
+>
+getThis
+(
+)
+{
+return
+frameStack
+.
+peek
+(
+)
+.
+getThis
+(
+)
+;
+}

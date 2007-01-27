@@ -1,0 +1,11 @@
+/** 
+ * Gets the expression of the assertion if defined.
+ */
+CtExpression
+<
+T
+>
+getExpression
+(
+)
+;

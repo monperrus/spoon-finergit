@@ -1,0 +1,8 @@
+/** 
+ * Gets the declaring package of the current one.
+ */
+CtPackage
+getDeclaringPackage
+(
+)
+;

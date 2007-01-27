@@ -1,0 +1,23 @@
+public
+void
+visitCtThrow
+(
+CtThrow
+throwStatement
+)
+{
+write
+(
+"throw "
+)
+;
+scan
+(
+throwStatement
+.
+getThrownExpression
+(
+)
+)
+;
+}

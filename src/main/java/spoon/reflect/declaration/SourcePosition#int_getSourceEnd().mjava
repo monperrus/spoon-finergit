@@ -1,0 +1,8 @@
+/** 
+ * Gets the index at which the position ends in the source file.
+ */
+int
+getSourceEnd
+(
+)
+;

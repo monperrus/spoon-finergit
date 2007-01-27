@@ -1,0 +1,44 @@
+/** 
+ * This method initializes jTree
+ * @return javax.swing.JTree
+ */
+private
+JTree
+getJTree
+(
+)
+{
+if
+(
+jTree
+==
+null
+)
+{
+jTree
+=
+new
+JTree
+(
+root
+)
+;
+jTree
+.
+addKeyListener
+(
+this
+)
+;
+jTree
+.
+addMouseListener
+(
+this
+)
+;
+}
+return
+jTree
+;
+}

@@ -1,0 +1,11 @@
+/** 
+ * Returns the anonymous blocks of this class.
+ */
+List
+<
+CtAnonymousExecutable
+>
+getAnonymousExecutables
+(
+)
+;

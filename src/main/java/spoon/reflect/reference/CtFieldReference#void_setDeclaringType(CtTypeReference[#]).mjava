@@ -1,0 +1,13 @@
+/** 
+ * Sets the type in which the field is declared.
+ */
+void
+setDeclaringType
+(
+CtTypeReference
+<
+?
+>
+declaringType
+)
+;

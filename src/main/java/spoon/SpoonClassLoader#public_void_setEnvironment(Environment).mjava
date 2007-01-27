@@ -1,0 +1,18 @@
+/** 
+ * Sets the environment.
+ */
+public
+void
+setEnvironment
+(
+Environment
+environment
+)
+{
+this
+.
+environment
+=
+environment
+;
+}

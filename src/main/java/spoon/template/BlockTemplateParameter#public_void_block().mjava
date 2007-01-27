@@ -1,0 +1,12 @@
+/** 
+ * This method must be implemented to define the template block.
+ */
+public
+abstract
+void
+block
+(
+)
+throws
+Throwable
+;

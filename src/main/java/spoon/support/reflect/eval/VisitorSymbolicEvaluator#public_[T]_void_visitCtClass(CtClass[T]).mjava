@@ -1,0 +1,22 @@
+public
+<
+T
+>
+void
+visitCtClass
+(
+CtClass
+<
+T
+>
+ctClass
+)
+{
+throw
+new
+RuntimeException
+(
+"Unknow Element"
+)
+;
+}

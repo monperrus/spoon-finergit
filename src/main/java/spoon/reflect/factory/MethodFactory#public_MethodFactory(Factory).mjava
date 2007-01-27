@@ -1,0 +1,17 @@
+/** 
+ * Creates a new method sub-factory.
+ * @param factory the parent factory
+ */
+public
+MethodFactory
+(
+Factory
+factory
+)
+{
+super
+(
+factory
+)
+;
+}

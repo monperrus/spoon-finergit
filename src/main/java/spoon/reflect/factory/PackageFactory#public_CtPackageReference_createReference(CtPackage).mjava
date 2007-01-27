@@ -1,0 +1,22 @@
+/** 
+ * Creates a reference to an existing package.
+ */
+public
+CtPackageReference
+createReference
+(
+CtPackage
+pack
+)
+{
+return
+createReference
+(
+pack
+.
+getQualifiedName
+(
+)
+)
+;
+}

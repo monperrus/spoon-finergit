@@ -1,0 +1,16 @@
+/** 
+ * Constructs a Spoon classloader within the context of a given parent classloader.
+ */
+public
+SpoonClassLoader
+(
+ClassLoader
+parent
+)
+{
+super
+(
+parent
+)
+;
+}

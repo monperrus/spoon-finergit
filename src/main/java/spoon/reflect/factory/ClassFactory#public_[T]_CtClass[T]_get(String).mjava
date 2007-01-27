@@ -1,0 +1,49 @@
+/** 
+ * Searches for a class from his qualified name.
+ * @param < T > the type of the class
+ * @param qualifiedName to search
+ * @return found class or null
+ */
+@SuppressWarnings("unchecked")
+public
+<
+T
+>
+CtClass
+<
+T
+>
+get
+(
+String
+qualifiedName
+)
+{
+try
+{
+return
+(
+CtClass
+<
+T
+>
+)
+super
+.
+get
+(
+qualifiedName
+)
+;
+}
+catch
+(
+Exception
+e
+)
+{
+return
+null
+;
+}
+}

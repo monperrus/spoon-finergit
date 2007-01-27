@@ -1,0 +1,13 @@
+/** 
+ * Sets the case expression.
+ */
+void
+setCaseExpression
+(
+CtExpression
+<
+S
+>
+caseExpression
+)
+;

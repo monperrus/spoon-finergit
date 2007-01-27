@@ -1,0 +1,15 @@
+public
+void
+setElseStatement
+(
+CtStatement
+elseStatement
+)
+{
+this
+.
+elseStatement
+=
+elseStatement
+;
+}

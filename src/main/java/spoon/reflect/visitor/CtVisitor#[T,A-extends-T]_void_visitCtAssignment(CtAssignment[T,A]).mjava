@@ -1,0 +1,22 @@
+/** 
+ * Visits an assignment.
+ */
+<
+T
+,
+A
+extends
+T
+>
+void
+visitCtAssignment
+(
+CtAssignment
+<
+T
+,
+A
+>
+assignement
+)
+;

@@ -1,0 +1,49 @@
+/** 
+ * Creates a modifier set.
+ * @param modifiers to put in set
+ * @return Set of given modifiers
+ */
+public
+Set
+<
+ModifierKind
+>
+modifiers
+(
+ModifierKind
+...
+modifiers
+)
+{
+Set
+<
+ModifierKind
+>
+ret
+=
+new
+TreeSet
+<
+ModifierKind
+>
+(
+)
+;
+for
+(
+ModifierKind
+m
+:
+modifiers
+)
+ret
+.
+add
+(
+m
+)
+;
+return
+ret
+;
+}

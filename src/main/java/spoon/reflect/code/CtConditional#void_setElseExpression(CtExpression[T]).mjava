@@ -1,0 +1,13 @@
+/** 
+ * Sets the "false" expression.
+ */
+void
+setElseExpression
+(
+CtExpression
+<
+T
+>
+elseExpression
+)
+;

@@ -1,0 +1,14 @@
+public
+void
+visitCtIf
+(
+CtIf
+ifElement
+)
+{
+scanCtStatement
+(
+ifElement
+)
+;
+}

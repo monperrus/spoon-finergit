@@ -1,0 +1,14 @@
+/** 
+ * Creates a <code>return</code> statement.
+ */
+<
+R
+>
+CtReturn
+<
+R
+>
+createReturn
+(
+)
+;

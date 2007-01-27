@@ -1,0 +1,13 @@
+/** 
+ * Sets the expression assigned to the variable, when declared.
+ */
+void
+setDefaultExpression
+(
+CtExpression
+<
+T
+>
+assignedExpression
+)
+;

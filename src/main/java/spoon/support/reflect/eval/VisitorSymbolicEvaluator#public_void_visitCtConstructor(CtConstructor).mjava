@@ -1,0 +1,16 @@
+public
+void
+visitCtConstructor
+(
+CtConstructor
+c
+)
+{
+throw
+new
+RuntimeException
+(
+"Unknow Element"
+)
+;
+}

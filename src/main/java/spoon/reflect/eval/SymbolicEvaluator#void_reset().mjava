@@ -1,0 +1,8 @@
+/** 
+ * Resets the state of this symbolic evaluator.
+ */
+void
+reset
+(
+)
+;

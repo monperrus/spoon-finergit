@@ -1,0 +1,13 @@
+/** 
+ * Tells if this type is a subtype of the given type.
+ */
+boolean
+isSubtypeOf
+(
+CtTypeReference
+<
+?
+>
+type
+)
+;

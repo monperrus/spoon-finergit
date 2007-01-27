@@ -1,0 +1,12 @@
+/** 
+ * Scans an abstract generic element reference.
+ */
+public
+void
+scanCtGenericElementReference
+(
+CtGenericElementReference
+reference
+)
+{
+}

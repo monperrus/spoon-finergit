@@ -1,0 +1,8 @@
+/** 
+ * Gets the signature of the element.
+ */
+String
+getSignature
+(
+)
+;

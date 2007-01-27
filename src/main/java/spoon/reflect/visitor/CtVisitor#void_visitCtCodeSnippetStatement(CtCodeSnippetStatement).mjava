@@ -1,0 +1,10 @@
+/** 
+ * Visits a code snippet statement.
+ */
+void
+visitCtCodeSnippetStatement
+(
+CtCodeSnippetStatement
+statement
+)
+;

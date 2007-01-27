@@ -1,0 +1,10 @@
+public
+Processor
+getProcessor
+(
+)
+{
+return
+processor
+;
+}

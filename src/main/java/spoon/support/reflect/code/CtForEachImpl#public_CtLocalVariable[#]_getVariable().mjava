@@ -1,0 +1,13 @@
+public
+CtLocalVariable
+<
+?
+>
+getVariable
+(
+)
+{
+return
+variable
+;
+}

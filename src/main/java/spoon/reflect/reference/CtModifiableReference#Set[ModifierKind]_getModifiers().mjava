@@ -1,0 +1,11 @@
+/** 
+ * Gets the modifiers.
+ */
+Set
+<
+ModifierKind
+>
+getModifiers
+(
+)
+;

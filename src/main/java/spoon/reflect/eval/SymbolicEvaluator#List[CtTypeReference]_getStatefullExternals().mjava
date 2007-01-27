@@ -1,0 +1,11 @@
+/** 
+ * Returns the list of external classes that should be handled as statefull beans.
+ */
+List
+<
+CtTypeReference
+>
+getStatefullExternals
+(
+)
+;

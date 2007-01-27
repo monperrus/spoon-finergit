@@ -1,0 +1,15 @@
+/** 
+ * Gets all the element types than need to be processed.
+ */
+Set
+<
+Class
+<
+?
+CtElement
+>
+>
+getProcessedElementTypes
+(
+)
+;

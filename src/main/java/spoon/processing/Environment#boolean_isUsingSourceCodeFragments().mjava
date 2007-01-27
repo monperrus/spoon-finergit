@@ -1,0 +1,8 @@
+/** 
+ * Tells if the code generation use code fragments.
+ */
+boolean
+isUsingSourceCodeFragments
+(
+)
+;

@@ -1,0 +1,15 @@
+public
+void
+setStatic
+(
+boolean
+b
+)
+{
+this
+.
+stat
+=
+b
+;
+}

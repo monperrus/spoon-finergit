@@ -1,0 +1,16 @@
+/** 
+ * Visits a variable access.
+ */
+<
+T
+>
+void
+visitCtVariableAccess
+(
+CtVariableAccess
+<
+T
+>
+variableAccess
+)
+;

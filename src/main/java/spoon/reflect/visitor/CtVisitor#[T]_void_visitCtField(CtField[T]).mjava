@@ -1,0 +1,16 @@
+/** 
+ * Visits a field declaration.
+ */
+<
+T
+>
+void
+visitCtField
+(
+CtField
+<
+T
+>
+f
+)
+;

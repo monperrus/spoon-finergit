@@ -1,0 +1,17 @@
+/** 
+ * Constructor with no arguments.
+ */
+protected
+AbstractLauncher
+(
+)
+throws
+JSAPException
+{
+jsapArgs
+=
+defineArgs
+(
+)
+;
+}

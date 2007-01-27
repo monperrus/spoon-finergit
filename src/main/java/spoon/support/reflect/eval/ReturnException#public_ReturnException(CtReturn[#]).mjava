@@ -1,0 +1,17 @@
+public
+ReturnException
+(
+CtReturn
+<
+?
+>
+returnStatement
+)
+{
+this
+.
+returnStatement
+=
+returnStatement
+;
+}

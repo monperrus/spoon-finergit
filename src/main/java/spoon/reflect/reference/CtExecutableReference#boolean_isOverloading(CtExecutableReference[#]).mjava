@@ -1,0 +1,14 @@
+/** 
+ * Returns <code>true</code> if this executable overrides the given executable.
+ * @deprecated Use {@link #isOverriding(CtExecutableReference)} instead
+ */
+boolean
+isOverloading
+(
+CtExecutableReference
+<
+?
+>
+executable
+)
+;

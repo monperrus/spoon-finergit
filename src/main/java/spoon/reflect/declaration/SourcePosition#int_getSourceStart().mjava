@@ -1,0 +1,8 @@
+/** 
+ * Gets the index at which the position starts in the source file.
+ */
+int
+getSourceStart
+(
+)
+;

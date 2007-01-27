@@ -1,0 +1,17 @@
+public
+List
+<
+CtCase
+<
+?
+S
+>
+>
+getCases
+(
+)
+{
+return
+cases
+;
+}

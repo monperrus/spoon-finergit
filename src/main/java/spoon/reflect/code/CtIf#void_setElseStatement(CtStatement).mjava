@@ -1,0 +1,10 @@
+/** 
+ * Sets the statement executed when the condition is false.
+ */
+void
+setElseStatement
+(
+CtStatement
+elseStatement
+)
+;

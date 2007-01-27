@@ -1,0 +1,30 @@
+/** 
+ * Returns a reference on the top level package.
+ */
+public
+CtPackageReference
+topLevel
+(
+)
+{
+if
+(
+topLevel
+==
+null
+)
+{
+topLevel
+=
+createReference
+(
+CtPackage
+.
+TOP_LEVEL_PACKAGE_NAME
+)
+;
+}
+return
+topLevel
+;
+}

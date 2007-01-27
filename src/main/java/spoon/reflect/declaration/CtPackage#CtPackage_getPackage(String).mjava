@@ -1,0 +1,12 @@
+/** 
+ * Searches a child package by name.
+ * @param name the simple name of searched package
+ * @return the found package or null
+ */
+CtPackage
+getPackage
+(
+String
+name
+)
+;

@@ -1,0 +1,8 @@
+/** 
+ * Tells if the referenced executable is static.
+ */
+boolean
+isStatic
+(
+)
+;

@@ -1,0 +1,17 @@
+/** 
+ * Creates a new enum sub-factory.
+ * @param factory the parent factory
+ */
+public
+EnumFactory
+(
+Factory
+factory
+)
+{
+super
+(
+factory
+)
+;
+}

@@ -1,0 +1,9 @@
+/** 
+ * Creates a new environment with a <code>null</code> default file generator.
+ */
+public
+StandardEnvironment
+(
+)
+{
+}

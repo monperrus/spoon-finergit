@@ -1,0 +1,13 @@
+/** 
+ * Gets the name of this symbolic instance.
+ */
+public
+String
+getSymbolName
+(
+)
+{
+return
+symbolName
+;
+}

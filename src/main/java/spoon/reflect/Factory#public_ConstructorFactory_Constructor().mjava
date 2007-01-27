@@ -1,0 +1,29 @@
+/** 
+ * The  {@link CtConstructor} sub-factory.
+ */
+public
+ConstructorFactory
+Constructor
+(
+)
+{
+if
+(
+Constructor
+==
+null
+)
+{
+Constructor
+=
+new
+ConstructorFactory
+(
+this
+)
+;
+}
+return
+Constructor
+;
+}

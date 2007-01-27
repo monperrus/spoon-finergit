@@ -1,0 +1,29 @@
+/** 
+ * The  {@link CtField} sub-factory.
+ */
+public
+FieldFactory
+Field
+(
+)
+{
+if
+(
+Field
+==
+null
+)
+{
+Field
+=
+new
+FieldFactory
+(
+this
+)
+;
+}
+return
+Field
+;
+}

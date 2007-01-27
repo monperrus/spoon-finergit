@@ -1,0 +1,16 @@
+/** 
+ * Visits a method declaration.
+ */
+<
+T
+>
+void
+visitCtMethod
+(
+CtMethod
+<
+T
+>
+m
+)
+;

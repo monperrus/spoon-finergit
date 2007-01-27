@@ -1,0 +1,12 @@
+/** 
+ * Returns the class type directly extended by this class.
+ * @return the class type directly extended by this class, or null if thereis none
+ */
+CtTypeReference
+<
+?
+>
+getSuperclass
+(
+)
+;

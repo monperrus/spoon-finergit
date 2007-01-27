@@ -1,0 +1,12 @@
+/** 
+ * Scans an abstract reference.
+ */
+public
+void
+scanCtReference
+(
+CtReference
+reference
+)
+{
+}

@@ -1,0 +1,81 @@
+/** 
+ * Creates an invocation (can be a statement or an expression).
+ * @param < T > the return type of the invoked method
+ * @param target the target expression
+ * @param executable the invoked executable
+ * @param arguments the argument list
+ * @return the new invocation
+ */
+public
+<
+T
+>
+CtInvocation
+<
+T
+>
+createInvocation
+(
+CtExpression
+<
+?
+>
+target
+,
+CtExecutableReference
+<
+T
+>
+executable
+,
+List
+<
+CtExpression
+<
+?
+>
+>
+arguments
+)
+{
+CtInvocation
+<
+T
+>
+invocation
+=
+factory
+.
+Core
+(
+)
+.
+createInvocation
+(
+)
+;
+invocation
+.
+setTarget
+(
+target
+)
+;
+invocation
+.
+setExecutable
+(
+executable
+)
+;
+invocation
+.
+setArguments
+(
+arguments
+)
+;
+return
+invocation
+;
+}

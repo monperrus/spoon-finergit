@@ -1,0 +1,10 @@
+/** 
+ * Visits a type parameter declaration.
+ */
+void
+visitCtTypeParameter
+(
+CtTypeParameter
+typeParameter
+)
+;

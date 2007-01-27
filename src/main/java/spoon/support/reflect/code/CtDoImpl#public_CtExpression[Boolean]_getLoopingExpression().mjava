@@ -1,0 +1,13 @@
+public
+CtExpression
+<
+Boolean
+>
+getLoopingExpression
+(
+)
+{
+return
+expression
+;
+}

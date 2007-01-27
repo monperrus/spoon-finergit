@@ -1,0 +1,16 @@
+/** 
+ * Exception with a cause.
+ */
+public
+TemplateException
+(
+Throwable
+cause
+)
+{
+super
+(
+cause
+)
+;
+}

@@ -1,0 +1,12 @@
+/** 
+ * Gets the created files.
+ */
+public
+List
+<
+File
+>
+getCreatedFiles
+(
+)
+;

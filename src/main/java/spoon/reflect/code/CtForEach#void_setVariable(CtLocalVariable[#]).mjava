@@ -1,0 +1,13 @@
+/** 
+ * Sets the variable that references the currently iterated element.
+ */
+void
+setVariable
+(
+CtLocalVariable
+<
+?
+>
+variable
+)
+;

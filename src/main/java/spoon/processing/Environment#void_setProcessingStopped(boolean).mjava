@@ -1,0 +1,10 @@
+/** 
+ * This method can be called to stop the processing and all the remaining tasks. In general, a processor calls it after reporting a fatal error.
+ */
+void
+setProcessingStopped
+(
+boolean
+processingStopped
+)
+;

@@ -1,0 +1,11 @@
+/** 
+ * Gets the type of the elements contained in this array.
+ */
+CtTypeReference
+<
+?
+>
+getComponentType
+(
+)
+;

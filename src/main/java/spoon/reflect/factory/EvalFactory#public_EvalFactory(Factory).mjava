@@ -1,0 +1,16 @@
+/** 
+ * Creates the evaluation factory.
+ */
+public
+EvalFactory
+(
+Factory
+factory
+)
+{
+super
+(
+factory
+)
+;
+}

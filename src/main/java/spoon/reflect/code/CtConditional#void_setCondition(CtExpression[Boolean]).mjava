@@ -1,0 +1,13 @@
+/** 
+ * Sets the condition expression.
+ */
+void
+setCondition
+(
+CtExpression
+<
+Boolean
+>
+condition
+)
+;

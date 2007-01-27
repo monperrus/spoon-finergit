@@ -1,0 +1,19 @@
+/** 
+ * Adds a template source set.
+ */
+public
+void
+addTemplateSet
+(
+FileSet
+set
+)
+{
+templatefilesets
+.
+addElement
+(
+set
+)
+;
+}

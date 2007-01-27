@@ -1,0 +1,16 @@
+/** 
+ * Gets the annotations types consumed by this processor. A consumed annotation is a special kind of processed annotation (see {@link #getProcessedAnnotationTypes()} that is automatically removed fromthe program once the associated processor has finished its job.
+ * @return the annotation classes
+ */
+Set
+<
+Class
+<
+?
+A
+>
+>
+getConsumedAnnotationTypes
+(
+)
+;

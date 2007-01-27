@@ -1,0 +1,15 @@
+public
+void
+setSimpleName
+(
+String
+simplename
+)
+{
+this
+.
+simplename
+=
+simplename
+;
+}

@@ -1,0 +1,41 @@
+/** 
+ * Ckecks if a string is a valid Java package identifier.
+ * @param string the string to be tested
+ */
+public
+static
+boolean
+isLegalJavaExecutableIdentifier
+(
+String
+string
+)
+{
+if
+(
+string
+==
+null
+)
+return
+false
+;
+if
+(
+string
+.
+equals
+(
+"<init>"
+)
+)
+return
+true
+;
+return
+isLegalJavaIdentifier
+(
+string
+)
+;
+}

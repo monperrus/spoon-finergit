@@ -1,0 +1,8 @@
+/** 
+ * Returns true if this element is implicit and automatically added by the Java compiler.
+ */
+boolean
+isImplicit
+(
+)
+;

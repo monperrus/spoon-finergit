@@ -1,0 +1,50 @@
+/** 
+ * A string representation.
+ */
+@Override
+public
+String
+toString
+(
+)
+{
+return
+""
++
+executable
+.
+getDeclaringType
+(
+)
+.
+getSimpleName
+(
+)
++
+CtExecutable
+.
+EXECUTABLE_SEPARATOR
++
+executable
+.
+getSimpleName
+(
+)
++
+" on "
++
+target
++
+" variables="
++
+variables
++
+" arguments="
++
+arguments
++
+" result="
++
+result
+;
+}

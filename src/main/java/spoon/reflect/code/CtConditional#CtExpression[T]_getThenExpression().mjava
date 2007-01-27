@@ -1,0 +1,11 @@
+/** 
+ * Gets the "true" expression.
+ */
+CtExpression
+<
+T
+>
+getThenExpression
+(
+)
+;

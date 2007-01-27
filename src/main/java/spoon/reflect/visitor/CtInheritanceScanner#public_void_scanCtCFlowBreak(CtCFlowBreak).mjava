@@ -1,0 +1,17 @@
+/** 
+ * Scans an abstract control flow break.
+ */
+public
+void
+scanCtCFlowBreak
+(
+CtCFlowBreak
+flowBreak
+)
+{
+scanCtCodeElement
+(
+flowBreak
+)
+;
+}

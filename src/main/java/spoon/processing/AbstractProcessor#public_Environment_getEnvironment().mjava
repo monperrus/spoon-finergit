@@ -1,0 +1,16 @@
+public
+Environment
+getEnvironment
+(
+)
+{
+return
+getFactory
+(
+)
+.
+getEnvironment
+(
+)
+;
+}

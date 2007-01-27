@@ -1,0 +1,9 @@
+/** 
+ * This method should be called to report the end of the processing.
+ */
+public
+void
+reportEnd
+(
+)
+;

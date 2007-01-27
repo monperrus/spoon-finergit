@@ -1,0 +1,15 @@
+public
+void
+calculate
+(
+List
+<
+CtSimpleType
+<
+?
+>
+>
+types
+)
+{
+}

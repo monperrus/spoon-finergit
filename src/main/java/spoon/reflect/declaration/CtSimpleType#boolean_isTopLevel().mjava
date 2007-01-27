@@ -1,0 +1,8 @@
+/** 
+ * Returns true if this type is top-level (declared as the main type in a file).
+ */
+boolean
+isTopLevel
+(
+)
+;

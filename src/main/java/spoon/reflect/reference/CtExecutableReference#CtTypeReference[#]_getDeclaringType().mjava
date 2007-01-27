@@ -1,0 +1,11 @@
+/** 
+ * Gets the reference to the type that declares this executable.
+ */
+CtTypeReference
+<
+?
+>
+getDeclaringType
+(
+)
+;

@@ -1,0 +1,21 @@
+/** 
+ * Exception with a message and a cause.
+ */
+public
+TemplateException
+(
+String
+message
+,
+Throwable
+cause
+)
+{
+super
+(
+message
+,
+cause
+)
+;
+}

@@ -1,0 +1,24 @@
+public
+<
+A
+extends
+Annotation
+>
+void
+visitCtAnnotation
+(
+CtAnnotation
+<
+A
+>
+annotation
+)
+{
+throw
+new
+RuntimeException
+(
+"Unknow Element"
+)
+;
+}

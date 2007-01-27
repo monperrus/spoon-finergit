@@ -1,0 +1,28 @@
+/** 
+ * Starts a program with this launcher.
+ * @param args run with no args to print usage
+ * @throws JSAPException
+ * @throws Exception any untrapped exception
+ */
+static
+public
+void
+main
+(
+String
+args
+)
+throws
+JSAPException
+{
+new
+LtLauncher
+(
+args
+)
+.
+run
+(
+)
+;
+}

@@ -1,0 +1,10 @@
+public
+boolean
+isUsingSourceCodeFragments
+(
+)
+{
+return
+useSourceCodeFragments
+;
+}

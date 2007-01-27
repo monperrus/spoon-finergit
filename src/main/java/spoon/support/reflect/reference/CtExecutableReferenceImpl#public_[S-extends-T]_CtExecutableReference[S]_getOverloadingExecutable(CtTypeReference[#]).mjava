@@ -1,0 +1,30 @@
+/** 
+ * @deprecated Use {@link #getOverridingExecutable(CtTypeReference<?>)}instead
+ */
+@SuppressWarnings("unchecked")
+public
+<
+S
+extends
+T
+>
+CtExecutableReference
+<
+S
+>
+getOverloadingExecutable
+(
+CtTypeReference
+<
+?
+>
+subType
+)
+{
+return
+getOverridingExecutable
+(
+subType
+)
+;
+}

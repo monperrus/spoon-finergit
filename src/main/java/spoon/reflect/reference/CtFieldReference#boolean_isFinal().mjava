@@ -1,0 +1,8 @@
+/** 
+ * Tells if the referenced field is final.
+ */
+boolean
+isFinal
+(
+)
+;

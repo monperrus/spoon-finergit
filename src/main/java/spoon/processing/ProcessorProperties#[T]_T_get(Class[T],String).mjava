@@ -1,0 +1,19 @@
+/** 
+ * Gets the property converted in given type or null (can be an array).
+ */
+<
+T
+>
+T
+get
+(
+Class
+<
+T
+>
+type
+,
+String
+name
+)
+;

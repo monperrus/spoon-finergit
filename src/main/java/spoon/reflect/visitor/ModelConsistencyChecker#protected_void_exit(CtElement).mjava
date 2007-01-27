@@ -1,0 +1,19 @@
+/** 
+ * Exits an element.
+ */
+@Override
+protected
+void
+exit
+(
+CtElement
+e
+)
+{
+stack
+.
+pop
+(
+)
+;
+}

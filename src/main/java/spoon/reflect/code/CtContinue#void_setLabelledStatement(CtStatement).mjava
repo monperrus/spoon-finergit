@@ -1,0 +1,10 @@
+/** 
+ * Sets the statement where the control flow continues (null if no label defined).
+ */
+void
+setLabelledStatement
+(
+CtStatement
+labelledStatement
+)
+;

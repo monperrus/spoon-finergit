@@ -1,0 +1,13 @@
+/** 
+ * Sets the local variable declaration that corresponds to this local variable reference.
+ */
+void
+setDeclaration
+(
+CtLocalVariable
+<
+T
+>
+declaration
+)
+;

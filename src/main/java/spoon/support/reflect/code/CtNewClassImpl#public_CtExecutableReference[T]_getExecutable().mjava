@@ -1,0 +1,13 @@
+public
+CtExecutableReference
+<
+T
+>
+getExecutable
+(
+)
+{
+return
+executable
+;
+}

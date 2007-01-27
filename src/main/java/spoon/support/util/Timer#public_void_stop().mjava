@@ -1,0 +1,18 @@
+/** 
+ * Stops the current timer.
+ */
+public
+void
+stop
+(
+)
+{
+stop
+=
+System
+.
+currentTimeMillis
+(
+)
+;
+}

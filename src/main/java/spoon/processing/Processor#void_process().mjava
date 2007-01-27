@@ -1,0 +1,8 @@
+/** 
+ * A callback method upcalled by the manager so that this processor can manually implement a processing job. On contrary to {@link #process(CtElement)}, this method does not rely on a built-in meta-model scanner and has to implement its own traversal strategy on the meta-model, which is stored in the factory ( {@link FactoryAccessor#getFactory}). Note that if a processor implements both process methods, this one is upcalled first. This method does nothing in default implementations ( {@link spoon.processing.AbstractProcessor}).
+ */
+void
+process
+(
+)
+;

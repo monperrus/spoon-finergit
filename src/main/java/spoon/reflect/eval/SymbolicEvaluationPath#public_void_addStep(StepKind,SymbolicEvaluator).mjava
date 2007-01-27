@@ -1,0 +1,56 @@
+/** 
+ * Creates and adds a step to this path.
+ * @param kind the step kind
+ * @param evaluator the current evaluator (its state is used to initialize the new step).
+ */
+public
+void
+addStep
+(
+StepKind
+kind
+,
+SymbolicEvaluator
+evaluator
+)
+{
+steps
+.
+add
+(
+new
+SymbolicEvaluationStep
+(
+kind
+,
+new
+SymbolicStackFrame
+(
+evaluator
+.
+getStack
+(
+)
+.
+getFrameStack
+(
+)
+.
+peek
+(
+)
+)
+,
+new
+SymbolicHeap
+(
+evaluator
+.
+getHeap
+(
+)
+)
+)
+)
+;
+}

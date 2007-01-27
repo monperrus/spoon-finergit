@@ -1,0 +1,29 @@
+/** 
+ * The  {@link CtInterface} sub-factory.
+ */
+public
+InterfaceFactory
+Interface
+(
+)
+{
+if
+(
+Interface
+==
+null
+)
+{
+Interface
+=
+new
+InterfaceFactory
+(
+this
+)
+;
+}
+return
+Interface
+;
+}

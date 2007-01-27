@@ -1,0 +1,47 @@
+public
+void
+visitCtDo
+(
+CtDo
+doLoop
+)
+{
+enterCtStatement
+(
+doLoop
+)
+;
+write
+(
+"do "
+)
+;
+writeStatement
+(
+doLoop
+.
+getBody
+(
+)
+)
+;
+write
+(
+" while ("
+)
+;
+scan
+(
+doLoop
+.
+getLoopingExpression
+(
+)
+)
+;
+write
+(
+" )"
+)
+;
+}

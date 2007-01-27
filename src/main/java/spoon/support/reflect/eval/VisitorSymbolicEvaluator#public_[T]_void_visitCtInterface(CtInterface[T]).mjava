@@ -1,0 +1,22 @@
+public
+<
+T
+>
+void
+visitCtInterface
+(
+CtInterface
+<
+T
+>
+intrface
+)
+{
+throw
+new
+RuntimeException
+(
+"Unknow Element"
+)
+;
+}

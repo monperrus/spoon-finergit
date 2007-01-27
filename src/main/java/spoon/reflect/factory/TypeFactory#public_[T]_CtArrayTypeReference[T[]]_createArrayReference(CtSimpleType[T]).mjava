@@ -1,0 +1,56 @@
+/** 
+ * Creates a reference to an array of given type.
+ * @param < T > type of array
+ * @param type type of array values
+ */
+public
+<
+T
+>
+CtArrayTypeReference
+<
+T
+[
+]
+>
+createArrayReference
+(
+CtSimpleType
+<
+T
+>
+type
+)
+{
+CtArrayTypeReference
+<
+T
+[
+]
+>
+array
+=
+factory
+.
+Core
+(
+)
+.
+createArrayTypeReference
+(
+)
+;
+array
+.
+setComponentType
+(
+createReference
+(
+type
+)
+)
+;
+return
+array
+;
+}

@@ -1,0 +1,59 @@
+/** 
+ * Returns all the program elements that match the filter.
+ * @param < E > the type of the seeked program elements
+ * @param rootElement the element to start the recursive search on
+ * @param filter the filter which defines the matching criteria
+ */
+public
+static
+<
+E
+extends
+CtElement
+>
+List
+<
+E
+>
+getElements
+(
+CtElement
+rootElement
+,
+Filter
+<
+E
+>
+filter
+)
+{
+QueryVisitor
+<
+E
+>
+visitor
+=
+new
+QueryVisitor
+<
+E
+>
+(
+filter
+)
+;
+visitor
+.
+scan
+(
+rootElement
+)
+;
+return
+visitor
+.
+getResult
+(
+)
+;
+}

@@ -1,0 +1,15 @@
+public
+List
+<
+CtFile
+>
+getAllFiles
+(
+)
+{
+return
+getFiles
+(
+)
+;
+}

@@ -1,0 +1,13 @@
+public
+Set
+<
+File
+>
+getInputSources
+(
+)
+{
+return
+null
+;
+}

@@ -1,0 +1,10 @@
+/** 
+ * Forces a reference to a static element.
+ */
+void
+setStatic
+(
+boolean
+b
+)
+;

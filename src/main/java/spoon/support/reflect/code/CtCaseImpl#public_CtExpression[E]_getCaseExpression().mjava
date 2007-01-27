@@ -1,0 +1,13 @@
+public
+CtExpression
+<
+E
+>
+getCaseExpression
+(
+)
+{
+return
+caseExpression
+;
+}

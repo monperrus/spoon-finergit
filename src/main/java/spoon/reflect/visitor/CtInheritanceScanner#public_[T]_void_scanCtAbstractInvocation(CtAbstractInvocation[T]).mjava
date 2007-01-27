@@ -1,0 +1,18 @@
+/** 
+ * Scans an abstract invocation.
+ */
+public
+<
+T
+>
+void
+scanCtAbstractInvocation
+(
+CtAbstractInvocation
+<
+T
+>
+a
+)
+{
+}

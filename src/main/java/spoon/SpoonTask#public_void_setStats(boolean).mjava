@@ -1,0 +1,18 @@
+/** 
+ * Enables/disable printing out statistics on Spoon execution time.
+ */
+public
+void
+setStats
+(
+boolean
+stats
+)
+{
+this
+.
+stats
+=
+stats
+;
+}

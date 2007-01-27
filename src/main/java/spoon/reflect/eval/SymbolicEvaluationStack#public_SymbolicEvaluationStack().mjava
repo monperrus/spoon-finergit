@@ -1,0 +1,9 @@
+/** 
+ * Creates an empty evaluation stack.
+ */
+public
+SymbolicEvaluationStack
+(
+)
+{
+}

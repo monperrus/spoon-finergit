@@ -1,0 +1,22 @@
+public
+<
+E
+>
+void
+visitCtCase
+(
+CtCase
+<
+E
+>
+caseStatement
+)
+{
+throw
+new
+RuntimeException
+(
+"Unknow Element"
+)
+;
+}

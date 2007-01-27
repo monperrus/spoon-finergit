@@ -1,0 +1,10 @@
+/** 
+ * Sets the text of the documentation ("javadoc") comment of this declaration.
+ */
+void
+setDocComment
+(
+String
+docComment
+)
+;

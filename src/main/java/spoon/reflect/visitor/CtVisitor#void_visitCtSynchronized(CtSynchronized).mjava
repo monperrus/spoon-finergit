@@ -1,0 +1,10 @@
+/** 
+ * Visits a <code>synchronized</code> modifier.
+ */
+void
+visitCtSynchronized
+(
+CtSynchronized
+synchro
+)
+;

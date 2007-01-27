@@ -1,0 +1,12 @@
+/** 
+ * Returns the properties for a given processor.
+ */
+ProcessorProperties
+getProcessorProperties
+(
+String
+processorName
+)
+throws
+Exception
+;

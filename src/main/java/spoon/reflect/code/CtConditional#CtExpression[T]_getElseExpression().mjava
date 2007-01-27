@@ -1,0 +1,11 @@
+/** 
+ * Gets the "false" expression.
+ */
+CtExpression
+<
+T
+>
+getElseExpression
+(
+)
+;

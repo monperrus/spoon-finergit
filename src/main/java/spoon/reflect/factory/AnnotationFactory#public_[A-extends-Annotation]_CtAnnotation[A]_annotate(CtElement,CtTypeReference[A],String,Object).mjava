@@ -1,0 +1,54 @@
+/** 
+ * Creates/updates an element's annotation value.
+ * @param element the program element to annotate
+ * @param annotationType the annotation type
+ * @param annotationElementName the annotation element name
+ * @param value the value of the annotation element
+ * @return the created/updated annotation
+ */
+@SuppressWarnings("unchecked")
+public
+<
+A
+extends
+Annotation
+>
+CtAnnotation
+<
+A
+>
+annotate
+(
+CtElement
+element
+,
+CtTypeReference
+<
+A
+>
+annotationType
+,
+String
+annotationElementName
+,
+Object
+value
+)
+{
+return
+annotate
+(
+element
+,
+annotationType
+.
+getActualClass
+(
+)
+,
+annotationElementName
+,
+value
+)
+;
+}

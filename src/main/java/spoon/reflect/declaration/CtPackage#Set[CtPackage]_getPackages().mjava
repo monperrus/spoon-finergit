@@ -1,0 +1,11 @@
+/** 
+ * Gets the set of included child packages.
+ */
+Set
+<
+CtPackage
+>
+getPackages
+(
+)
+;

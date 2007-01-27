@@ -1,0 +1,31 @@
+/** 
+ * Override to scan on collection copies and avoid potential concurrent modification exceptions.
+ */
+@Override
+public
+void
+scan
+(
+Collection
+<
+?
+CtElement
+>
+elements
+)
+{
+super
+.
+scan
+(
+new
+ArrayList
+<
+CtElement
+>
+(
+elements
+)
+)
+;
+}

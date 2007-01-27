@@ -1,0 +1,72 @@
+/** 
+ * Gets a list of references from a list of elements.
+ * @param < R > the expected reference type
+ * @param < E > the element type
+ * @param elements the element list
+ * @return the corresponding list of references
+ */
+@SuppressWarnings("unchecked")
+public
+<
+R
+extends
+CtReference
+,
+E
+extends
+CtNamedElement
+>
+List
+<
+R
+>
+getReferences
+(
+List
+<
+E
+>
+elements
+)
+{
+List
+<
+R
+>
+refs
+=
+new
+ArrayList
+<
+R
+>
+(
+)
+;
+for
+(
+E
+e
+:
+elements
+)
+{
+refs
+.
+add
+(
+(
+R
+)
+e
+.
+getReference
+(
+)
+)
+;
+}
+return
+refs
+;
+}

@@ -1,0 +1,36 @@
+/** 
+ * Starts the Spoon processing.
+ */
+@Override
+public
+void
+run
+(
+)
+{
+super
+.
+run
+(
+)
+;
+if
+(
+getArguments
+(
+)
+.
+getBoolean
+(
+"gui"
+)
+)
+new
+SpoonModelTree
+(
+getFactory
+(
+)
+)
+;
+}

@@ -1,0 +1,8 @@
+/** 
+ * Creates a <code>for</code> loop.
+ */
+CtFor
+createFor
+(
+)
+;

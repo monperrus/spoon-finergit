@@ -1,0 +1,14 @@
+/** 
+ * Gets the list of the executable's parameter types.
+ */
+List
+<
+CtTypeReference
+<
+?
+>
+>
+getParameterTypes
+(
+)
+;

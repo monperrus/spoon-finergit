@@ -1,0 +1,10 @@
+public
+CtElement
+getElement
+(
+)
+{
+return
+element
+;
+}

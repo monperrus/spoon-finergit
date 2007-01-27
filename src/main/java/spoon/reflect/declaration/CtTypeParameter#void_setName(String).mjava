@@ -1,0 +1,10 @@
+/** 
+ * Sets the name of this type parameter.
+ */
+void
+setName
+(
+String
+name
+)
+;

@@ -1,0 +1,18 @@
+/** 
+ * Sets the output directory for generated sources.
+ */
+public
+void
+setBuild
+(
+File
+build
+)
+{
+this
+.
+build
+=
+build
+;
+}

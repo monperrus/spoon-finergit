@@ -1,0 +1,84 @@
+/** 
+ * Creates a binary operator.
+ * @param < T > the type of the expression
+ * @param left the left operand
+ * @param right the right operand
+ * @param kind the operator kind
+ * @return a binary operator expression
+ */
+public
+<
+T
+>
+CtBinaryOperator
+<
+T
+>
+createBinaryOperator
+(
+CtExpression
+<
+?
+>
+left
+,
+CtExpression
+<
+?
+>
+right
+,
+BinaryOperatorKind
+kind
+)
+{
+CtBinaryOperator
+<
+T
+>
+op
+=
+factory
+.
+Core
+(
+)
+.
+createBinaryOperator
+(
+)
+;
+op
+.
+setLeftHandOperand
+(
+left
+)
+;
+op
+.
+setRightHandOperand
+(
+right
+)
+;
+setParent
+(
+op
+,
+left
+,
+right
+)
+;
+op
+.
+setKind
+(
+kind
+)
+;
+return
+op
+;
+}

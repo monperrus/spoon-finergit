@@ -1,0 +1,15 @@
+public
+void
+setVarArgs
+(
+boolean
+varArgs
+)
+{
+this
+.
+varArgs
+=
+varArgs
+;
+}

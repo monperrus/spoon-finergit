@@ -1,0 +1,11 @@
+/** 
+ * Gets the condition expression.
+ */
+CtExpression
+<
+Boolean
+>
+getCondition
+(
+)
+;

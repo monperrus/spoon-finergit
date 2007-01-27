@@ -1,0 +1,18 @@
+/** 
+ * Tells if this logical value is stateful or not.
+ */
+public
+boolean
+isStateful
+(
+)
+{
+return
+!
+fields
+.
+isEmpty
+(
+)
+;
+}

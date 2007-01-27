@@ -1,0 +1,13 @@
+/** 
+ * Returns true if Spoon is in verbose mode.
+ */
+public
+boolean
+isVerbose
+(
+)
+{
+return
+verbose
+;
+}

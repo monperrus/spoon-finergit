@@ -1,0 +1,22 @@
+public
+<
+T
+>
+void
+visitCtArrayTypeReference
+(
+CtArrayTypeReference
+<
+T
+>
+reference
+)
+{
+throw
+new
+RuntimeException
+(
+"Unknow Element"
+)
+;
+}

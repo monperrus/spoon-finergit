@@ -1,0 +1,10 @@
+/** 
+ * Sets the statement executed when the condition is true.
+ */
+void
+setThenStatement
+(
+CtStatement
+thenStatement
+)
+;

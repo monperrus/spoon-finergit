@@ -1,0 +1,31 @@
+/** 
+ * Gets the processing manager.
+ */
+public
+ProcessingManager
+getProcessingManager
+(
+)
+{
+if
+(
+processing
+==
+null
+)
+{
+processing
+=
+new
+RuntimeProcessingManager
+(
+getFactory
+(
+)
+)
+;
+}
+return
+processing
+;
+}

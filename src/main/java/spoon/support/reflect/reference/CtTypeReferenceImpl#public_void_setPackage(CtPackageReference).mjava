@@ -1,0 +1,15 @@
+public
+void
+setPackage
+(
+CtPackageReference
+pack
+)
+{
+this
+.
+pack
+=
+pack
+;
+}

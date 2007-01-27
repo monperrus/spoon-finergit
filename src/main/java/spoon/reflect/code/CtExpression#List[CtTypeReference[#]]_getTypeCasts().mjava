@@ -1,0 +1,14 @@
+/** 
+ * Returns the type casts if any.
+ */
+List
+<
+CtTypeReference
+<
+?
+>
+>
+getTypeCasts
+(
+)
+;

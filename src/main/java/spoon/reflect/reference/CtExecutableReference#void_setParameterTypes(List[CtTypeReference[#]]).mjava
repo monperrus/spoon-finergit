@@ -1,0 +1,16 @@
+/** 
+ * Sets the list of the executable's parameters types.
+ */
+void
+setParameterTypes
+(
+List
+<
+CtTypeReference
+<
+?
+>
+>
+parameterTypes
+)
+;

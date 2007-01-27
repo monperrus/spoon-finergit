@@ -1,0 +1,17 @@
+/** 
+ * Creates a new package sub-factory.
+ * @param factory the parent factory
+ */
+public
+PackageFactory
+(
+Factory
+factory
+)
+{
+super
+(
+factory
+)
+;
+}

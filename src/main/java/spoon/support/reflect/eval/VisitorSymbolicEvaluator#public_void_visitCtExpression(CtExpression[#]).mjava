@@ -1,0 +1,19 @@
+public
+void
+visitCtExpression
+(
+CtExpression
+<
+?
+>
+expression
+)
+{
+throw
+new
+RuntimeException
+(
+"Unknow Element"
+)
+;
+}

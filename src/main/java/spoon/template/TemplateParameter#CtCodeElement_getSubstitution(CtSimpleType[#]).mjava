@@ -1,0 +1,14 @@
+/** 
+ * Returns the code which must be substituted to this template parameter, depending on its value.
+ * @param targetType the type that defines the context of the substitution (for reference redirection).
+ */
+CtCodeElement
+getSubstitution
+(
+CtSimpleType
+<
+?
+>
+targetType
+)
+;

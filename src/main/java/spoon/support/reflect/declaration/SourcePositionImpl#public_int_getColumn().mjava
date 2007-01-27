@@ -1,0 +1,15 @@
+public
+int
+getColumn
+(
+)
+{
+return
+searchColumnNumber
+(
+lineSeparatorPositions
+,
+sourceStart
+)
+;
+}

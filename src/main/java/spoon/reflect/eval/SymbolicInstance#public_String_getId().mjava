@@ -1,0 +1,18 @@
+/** 
+ * Gets the unique Id of this abstract instance.
+ */
+public
+String
+getId
+(
+)
+{
+return
+getSymbolId
+(
+concreteType
+,
+symbolName
+)
+;
+}

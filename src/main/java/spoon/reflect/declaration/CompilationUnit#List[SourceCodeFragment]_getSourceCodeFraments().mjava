@@ -1,0 +1,11 @@
+/** 
+ * Gets the source code fragments for this compilation unit.
+ */
+List
+<
+SourceCodeFragment
+>
+getSourceCodeFraments
+(
+)
+;

@@ -1,0 +1,16 @@
+/** 
+ * Gets the annotations processed by this annotation processor, that is to say the annotation types that trigger the {@link #process(Annotation,CtElement)} method when visiting a programelement. The processed annotation types includes all the consumed annotation types.
+ * @return the annotation classes
+ */
+Set
+<
+Class
+<
+?
+A
+>
+>
+getProcessedAnnotationTypes
+(
+)
+;

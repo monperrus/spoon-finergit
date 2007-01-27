@@ -1,0 +1,10 @@
+/** 
+ * Visits an enhanced <code>for</code> loop.
+ */
+void
+visitCtForEach
+(
+CtForEach
+foreach
+)
+;

@@ -1,0 +1,13 @@
+public
+CtLocalVariable
+<
+T
+>
+getDeclaration
+(
+)
+{
+return
+declaration
+;
+}

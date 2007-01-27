@@ -1,0 +1,16 @@
+/** 
+ * Creates an annotation type.
+ */
+<
+T
+extends
+Annotation
+>
+CtAnnotationType
+<
+T
+>
+createAnnotationType
+(
+)
+;

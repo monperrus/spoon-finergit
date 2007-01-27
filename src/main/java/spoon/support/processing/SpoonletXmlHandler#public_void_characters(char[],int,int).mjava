@@ -1,0 +1,35 @@
+/** 
+ * Handles characters.
+ */
+@Override
+public
+void
+characters
+(
+char
+[
+]
+ch
+,
+int
+start
+,
+int
+end
+)
+throws
+SAXException
+{
+buffer
+=
+new
+String
+(
+ch
+,
+start
+,
+end
+)
+;
+}

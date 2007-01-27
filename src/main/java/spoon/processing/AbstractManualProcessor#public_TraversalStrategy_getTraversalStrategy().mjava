@@ -1,0 +1,16 @@
+/** 
+ * Invalid method in this context.
+ */
+public
+final
+TraversalStrategy
+getTraversalStrategy
+(
+)
+{
+return
+TraversalStrategy
+.
+PRE_ORDER
+;
+}

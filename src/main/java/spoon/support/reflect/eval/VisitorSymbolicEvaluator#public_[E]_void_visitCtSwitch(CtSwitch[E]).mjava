@@ -1,0 +1,22 @@
+public
+<
+E
+>
+void
+visitCtSwitch
+(
+CtSwitch
+<
+E
+>
+switchStatement
+)
+{
+throw
+new
+RuntimeException
+(
+"Unknow Element"
+)
+;
+}

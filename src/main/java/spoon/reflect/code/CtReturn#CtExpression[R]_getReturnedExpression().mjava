@@ -1,0 +1,11 @@
+/** 
+ * Gets the returned expression.
+ */
+CtExpression
+<
+R
+>
+getReturnedExpression
+(
+)
+;

@@ -1,0 +1,17 @@
+/** 
+ * Sets the annotations for this element.
+ */
+void
+setAnnotations
+(
+Set
+<
+CtAnnotation
+<
+?
+Annotation
+>
+>
+annotation
+)
+;

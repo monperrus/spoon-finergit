@@ -1,0 +1,13 @@
+public
+CtClass
+getOwnerClass
+(
+)
+{
+return
+(
+CtClass
+)
+parent
+;
+}

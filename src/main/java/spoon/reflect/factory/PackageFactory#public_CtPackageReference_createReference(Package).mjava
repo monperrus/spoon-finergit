@@ -1,0 +1,24 @@
+/** 
+ * Creates a reference to a package by using its Java runtime representation.
+ * @param pack a runtime package
+ * @return reference to the package
+ */
+public
+CtPackageReference
+createReference
+(
+Package
+pack
+)
+{
+return
+createReference
+(
+pack
+.
+getName
+(
+)
+)
+;
+}

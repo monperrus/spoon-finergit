@@ -1,0 +1,10 @@
+/** 
+ * Visits an anonymous executable.
+ */
+void
+visitCtAnonymousExecutable
+(
+CtAnonymousExecutable
+anonymousExec
+)
+;

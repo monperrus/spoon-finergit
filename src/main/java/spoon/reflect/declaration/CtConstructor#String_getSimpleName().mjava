@@ -1,0 +1,8 @@
+/** 
+ * Always returns "&lt;init&gt;".
+ */
+String
+getSimpleName
+(
+)
+;

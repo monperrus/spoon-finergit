@@ -1,0 +1,11 @@
+/** 
+ * Returns the executable overriden by this one, if exists (null otherwise).
+ */
+CtExecutableReference
+<
+?
+>
+getOverridingExecutable
+(
+)
+;

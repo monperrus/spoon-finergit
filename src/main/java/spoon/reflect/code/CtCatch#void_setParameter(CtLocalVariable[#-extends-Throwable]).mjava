@@ -1,0 +1,14 @@
+/** 
+ * Sets the catch's parameter (a throwable).
+ */
+void
+setParameter
+(
+CtLocalVariable
+<
+?
+Throwable
+>
+parameter
+)
+;

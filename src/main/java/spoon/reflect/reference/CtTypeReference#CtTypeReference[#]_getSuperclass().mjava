@@ -1,0 +1,11 @@
+/** 
+ * Gets the superclass of this type if applicable (only for classes).
+ */
+CtTypeReference
+<
+?
+>
+getSuperclass
+(
+)
+;

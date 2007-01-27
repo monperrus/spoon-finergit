@@ -1,0 +1,13 @@
+public
+CtExpression
+<
+Boolean
+>
+getCondition
+(
+)
+{
+return
+condition
+;
+}

@@ -1,0 +1,15 @@
+public
+void
+setMainFactory
+(
+Factory
+mainFactory
+)
+{
+this
+.
+mainFactory
+=
+mainFactory
+;
+}

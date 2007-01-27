@@ -1,0 +1,10 @@
+/** 
+ * Tells if the given element is a direct or indirect parent.
+ */
+boolean
+hasParent
+(
+CtElement
+candidate
+)
+;

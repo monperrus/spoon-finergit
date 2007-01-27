@@ -1,0 +1,8 @@
+/** 
+ * Returns <tt>true</tt> if this parameter accepts a variable number of arguments (must be the last parameter of {@link CtExecutable#getParameters()}).
+ */
+boolean
+isVarArgs
+(
+)
+;

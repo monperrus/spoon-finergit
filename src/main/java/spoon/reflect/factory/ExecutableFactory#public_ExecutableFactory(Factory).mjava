@@ -1,0 +1,17 @@
+/** 
+ * Creates a new executable sub-factory.
+ * @param factory the parent factory
+ */
+public
+ExecutableFactory
+(
+Factory
+factory
+)
+{
+super
+(
+factory
+)
+;
+}

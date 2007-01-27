@@ -1,0 +1,16 @@
+public
+void
+visitCtPackage
+(
+CtPackage
+ctPackage
+)
+{
+throw
+new
+RuntimeException
+(
+"Unknow Element"
+)
+;
+}

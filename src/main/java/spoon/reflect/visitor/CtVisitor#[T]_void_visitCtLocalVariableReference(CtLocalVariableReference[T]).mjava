@@ -1,0 +1,16 @@
+/** 
+ * Visits a reference to a local variable.
+ */
+<
+T
+>
+void
+visitCtLocalVariableReference
+(
+CtLocalVariableReference
+<
+T
+>
+reference
+)
+;

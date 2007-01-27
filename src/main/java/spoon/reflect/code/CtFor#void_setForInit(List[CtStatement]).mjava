@@ -1,0 +1,13 @@
+/** 
+ * Sets the <i>init</i> statements.
+ */
+void
+setForInit
+(
+List
+<
+CtStatement
+>
+forInit
+)
+;

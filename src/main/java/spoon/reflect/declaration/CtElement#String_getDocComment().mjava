@@ -1,0 +1,8 @@
+/** 
+ * Returns the text of the documentation ("javadoc") comment of this element.
+ */
+String
+getDocComment
+(
+)
+;

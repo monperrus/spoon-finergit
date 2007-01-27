@@ -1,0 +1,29 @@
+/** 
+ * Returns the block.
+ */
+public
+static
+CtBlock
+getBlock
+(
+CtClass
+<
+?
+BlockTemplateParameter
+>
+p
+)
+{
+return
+p
+.
+getMethod
+(
+"block"
+)
+.
+getBody
+(
+)
+;
+}

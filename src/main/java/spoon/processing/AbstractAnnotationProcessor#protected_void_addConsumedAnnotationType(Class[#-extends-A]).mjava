@@ -1,0 +1,35 @@
+/** 
+ * Adds a consumed annotation type (to be used in subclasses constructors). A consumed annotation type is also part of the processed annotation types.
+ */
+final
+protected
+void
+addConsumedAnnotationType
+(
+Class
+<
+?
+A
+>
+annotationType
+)
+{
+addProcessedAnnotationType
+(
+annotationType
+)
+;
+consumedAnnotationTypes
+.
+put
+(
+annotationType
+.
+getName
+(
+)
+,
+annotationType
+)
+;
+}

@@ -1,0 +1,10 @@
+/** 
+ * Evaluates the given meta-model element in the current context of the evaluator.
+ */
+SymbolicInstance
+evaluate
+(
+CtElement
+element
+)
+;

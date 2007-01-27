@@ -1,0 +1,14 @@
+/** 
+ * Returns the methods that are directly declared by this class or interface.
+ */
+Set
+<
+CtMethod
+<
+?
+>
+>
+getMethods
+(
+)
+;

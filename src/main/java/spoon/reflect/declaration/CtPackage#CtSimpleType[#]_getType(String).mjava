@@ -1,0 +1,14 @@
+/** 
+ * Finds a top-level type by name.
+ * @return the found type or null
+ */
+CtSimpleType
+<
+?
+>
+getType
+(
+String
+simpleName
+)
+;

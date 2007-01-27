@@ -1,0 +1,15 @@
+public
+void
+setFinalizer
+(
+CtBlock
+finalizer
+)
+{
+this
+.
+finalizer
+=
+finalizer
+;
+}

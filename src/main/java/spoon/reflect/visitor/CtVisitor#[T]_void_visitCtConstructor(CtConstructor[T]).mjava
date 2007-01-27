@@ -1,0 +1,16 @@
+/** 
+ * Visits a constructor declaration.
+ */
+<
+T
+>
+void
+visitCtConstructor
+(
+CtConstructor
+<
+T
+>
+c
+)
+;

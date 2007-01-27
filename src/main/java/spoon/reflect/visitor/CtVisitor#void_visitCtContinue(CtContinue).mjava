@@ -1,0 +1,10 @@
+/** 
+ * Visits a <code>continue</code> statement.
+ */
+void
+visitCtContinue
+(
+CtContinue
+continueStatement
+)
+;

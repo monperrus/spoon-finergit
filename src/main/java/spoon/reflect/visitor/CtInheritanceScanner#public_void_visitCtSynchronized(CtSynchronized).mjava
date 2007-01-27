@@ -1,0 +1,14 @@
+public
+void
+visitCtSynchronized
+(
+CtSynchronized
+synchro
+)
+{
+scanCtStatement
+(
+synchro
+)
+;
+}

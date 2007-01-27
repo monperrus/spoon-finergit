@@ -1,0 +1,8 @@
+/** 
+ * Returns the name of this type parameter.
+ */
+String
+getName
+(
+)
+;

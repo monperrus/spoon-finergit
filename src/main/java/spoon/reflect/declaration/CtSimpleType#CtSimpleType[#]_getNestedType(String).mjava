@@ -1,0 +1,13 @@
+/** 
+ * Gets a nested type from its name.
+ */
+CtSimpleType
+<
+?
+>
+getNestedType
+(
+String
+name
+)
+;

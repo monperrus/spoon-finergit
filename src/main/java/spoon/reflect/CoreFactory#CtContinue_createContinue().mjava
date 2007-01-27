@@ -1,0 +1,8 @@
+/** 
+ * Creates a <code>continue</code> statement.
+ */
+CtContinue
+createContinue
+(
+)
+;

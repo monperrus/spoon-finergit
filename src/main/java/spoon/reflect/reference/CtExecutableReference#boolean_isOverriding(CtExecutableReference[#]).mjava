@@ -1,0 +1,13 @@
+/** 
+ * Returns <code>true</code> if this executable overrides the given executable.
+ */
+boolean
+isOverriding
+(
+CtExecutableReference
+<
+?
+>
+executable
+)
+;

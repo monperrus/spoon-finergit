@@ -1,0 +1,24 @@
+/** 
+ * A string representation of this timer.
+ */
+@Override
+public
+String
+toString
+(
+)
+{
+return
+getName
+(
+)
++
+" \t"
++
+getValue
+(
+)
++
+"ms"
+;
+}

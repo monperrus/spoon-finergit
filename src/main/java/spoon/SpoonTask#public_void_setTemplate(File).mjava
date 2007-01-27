@@ -1,0 +1,18 @@
+/** 
+ * Sets a file or a directory to be processed (only templates, see {@link #setInput(File)}).
+ */
+public
+void
+setTemplate
+(
+File
+template
+)
+{
+this
+.
+template
+=
+template
+;
+}

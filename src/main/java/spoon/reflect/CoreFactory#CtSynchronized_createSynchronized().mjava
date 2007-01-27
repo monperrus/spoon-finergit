@@ -1,0 +1,8 @@
+/** 
+ * Creates a <code>synchronized</code> statement.
+ */
+CtSynchronized
+createSynchronized
+(
+)
+;

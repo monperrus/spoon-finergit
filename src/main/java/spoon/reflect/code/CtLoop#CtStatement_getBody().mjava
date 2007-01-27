@@ -1,0 +1,8 @@
+/** 
+ * Gets the body of this loop.
+ */
+CtStatement
+getBody
+(
+)
+;

@@ -1,0 +1,11 @@
+/** 
+ * Gets all the files/directories given as input sources to this builder (see  {@link #addInputSource(File)}).
+ */
+Set
+<
+File
+>
+getInputSources
+(
+)
+;

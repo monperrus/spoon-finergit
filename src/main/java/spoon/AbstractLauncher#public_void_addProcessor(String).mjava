@@ -1,0 +1,19 @@
+/** 
+ * Adds a processor.
+ */
+public
+void
+addProcessor
+(
+String
+name
+)
+{
+processors
+.
+add
+(
+name
+)
+;
+}

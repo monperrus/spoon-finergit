@@ -1,0 +1,16 @@
+/** 
+ * Visits a unary operator.
+ */
+<
+T
+>
+void
+visitCtUnaryOperator
+(
+CtUnaryOperator
+<
+T
+>
+operator
+)
+;

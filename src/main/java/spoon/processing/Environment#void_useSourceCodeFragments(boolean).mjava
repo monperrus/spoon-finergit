@@ -1,0 +1,10 @@
+/** 
+ * Sets the code generation to use code fragments.
+ */
+void
+useSourceCodeFragments
+(
+boolean
+b
+)
+;

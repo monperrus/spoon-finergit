@@ -1,0 +1,10 @@
+/** 
+ * Tells if the given reference matches.
+ */
+boolean
+matches
+(
+T
+reference
+)
+;

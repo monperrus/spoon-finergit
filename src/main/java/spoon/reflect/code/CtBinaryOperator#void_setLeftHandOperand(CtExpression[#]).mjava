@@ -1,0 +1,13 @@
+/** 
+ * Sets the left-hand operand.
+ */
+void
+setLeftHandOperand
+(
+CtExpression
+<
+?
+>
+expression
+)
+;

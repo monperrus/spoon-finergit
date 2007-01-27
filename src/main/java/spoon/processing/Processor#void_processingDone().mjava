@@ -1,0 +1,8 @@
+/** 
+ * This method is upcalled by the  {@link ProcessingManager} when thisprocessor has finished a full processing round on the program's model. It is convenient to override this method to tune the application's strategy of a set of processors, for instance by dynamically adding processors to the processing manager when a processing round ends (see {@link ProcessingManager#addProcessor(Class)}). Does nothing by default.
+ */
+void
+processingDone
+(
+)
+;

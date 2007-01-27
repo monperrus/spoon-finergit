@@ -1,0 +1,18 @@
+/** 
+ * Sets the used processing manager.
+ */
+public
+void
+setProcessingManager
+(
+ProcessingManager
+processing
+)
+{
+this
+.
+processing
+=
+processing
+;
+}

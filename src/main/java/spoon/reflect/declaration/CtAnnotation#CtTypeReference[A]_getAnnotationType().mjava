@@ -1,0 +1,12 @@
+/** 
+ * Returns the annotation type of this annotation.
+ * @return a reference to the type of this annotation
+ */
+CtTypeReference
+<
+A
+>
+getAnnotationType
+(
+)
+;

@@ -1,0 +1,11 @@
+/** 
+ * Sets the root directory where files should be created.
+ */
+public
+void
+setOutputDirectory
+(
+File
+directory
+)
+;

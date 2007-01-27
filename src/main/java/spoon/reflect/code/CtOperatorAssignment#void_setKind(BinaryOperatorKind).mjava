@@ -1,0 +1,10 @@
+/** 
+ * Sets the operator kind.
+ */
+void
+setKind
+(
+BinaryOperatorKind
+kind
+)
+;

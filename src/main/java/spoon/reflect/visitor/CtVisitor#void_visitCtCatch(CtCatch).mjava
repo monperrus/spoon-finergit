@@ -1,0 +1,10 @@
+/** 
+ * Visits a <code>catch</code> clause.
+ */
+void
+visitCtCatch
+(
+CtCatch
+catchBlock
+)
+;

@@ -1,0 +1,17 @@
+/** 
+ * Scans an abstract statement.
+ */
+public
+void
+scanCtStatement
+(
+CtStatement
+s
+)
+{
+scanCtCodeElement
+(
+s
+)
+;
+}

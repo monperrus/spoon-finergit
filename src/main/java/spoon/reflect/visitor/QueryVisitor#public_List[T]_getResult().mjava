@@ -1,0 +1,16 @@
+/** 
+ * Gets the result (elements matching the filter).
+ */
+public
+List
+<
+T
+>
+getResult
+(
+)
+{
+return
+result
+;
+}

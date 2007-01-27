@@ -1,0 +1,12 @@
+public
+boolean
+matches
+(
+T
+element
+)
+{
+return
+true
+;
+}

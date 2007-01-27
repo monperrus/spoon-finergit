@@ -1,0 +1,35 @@
+/** 
+ * Writes the annotations for the given element.
+ */
+public
+DefaultJavaPrettyPrinter
+writeAnnotations
+(
+CtElement
+e
+)
+{
+for
+(
+CtAnnotation
+a
+:
+e
+.
+getAnnotations
+(
+)
+)
+{
+a
+.
+accept
+(
+this
+)
+;
+}
+return
+this
+;
+}

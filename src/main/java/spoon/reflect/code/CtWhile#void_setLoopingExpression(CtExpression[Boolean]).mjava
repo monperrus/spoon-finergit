@@ -1,0 +1,13 @@
+/** 
+ * Sets the looping boolean test expression.
+ */
+void
+setLoopingExpression
+(
+CtExpression
+<
+Boolean
+>
+expression
+)
+;

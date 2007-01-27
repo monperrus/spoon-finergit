@@ -1,0 +1,10 @@
+public
+SymbolicHeap
+getHeap
+(
+)
+{
+return
+heap
+;
+}

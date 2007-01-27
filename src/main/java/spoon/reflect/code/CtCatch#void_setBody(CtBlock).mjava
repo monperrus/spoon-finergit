@@ -1,0 +1,10 @@
+/** 
+ * Sets the catch's body.
+ */
+void
+setBody
+(
+CtBlock
+body
+)
+;

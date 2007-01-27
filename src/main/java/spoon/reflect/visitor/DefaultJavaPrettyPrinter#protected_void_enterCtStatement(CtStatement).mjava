@@ -1,0 +1,41 @@
+/** 
+ * Enters a statement.
+ */
+protected
+void
+enterCtStatement
+(
+CtStatement
+s
+)
+{
+writeAnnotations
+(
+s
+)
+;
+if
+(
+s
+.
+getLabel
+(
+)
+!=
+null
+)
+write
+(
+s
+.
+getLabel
+(
+)
+)
+.
+write
+(
+" : "
+)
+;
+}

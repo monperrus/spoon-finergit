@@ -1,0 +1,16 @@
+/** 
+ * Creates a  {@link spoon.reflect.code.CtCodeElement} sub-factory.
+ */
+public
+CodeFactory
+(
+Factory
+factory
+)
+{
+super
+(
+factory
+)
+;
+}

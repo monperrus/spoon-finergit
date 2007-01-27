@@ -1,0 +1,20 @@
+/** 
+ * Searches for an annotation defined on this element.
+ * @param annotationType the annotation type to search for
+ * @return a proxy to the annotation or null if not found
+ */
+<
+A
+extends
+Annotation
+>
+A
+getAnnotation
+(
+Class
+<
+A
+>
+annotationType
+)
+;

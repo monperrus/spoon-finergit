@@ -1,0 +1,8 @@
+/** 
+ * Return  {@code true} if the referenced type is a primitive type (int,double, boolean...).
+ */
+boolean
+isPrimitive
+(
+)
+;

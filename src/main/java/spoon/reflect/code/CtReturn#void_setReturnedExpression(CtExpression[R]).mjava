@@ -1,0 +1,13 @@
+/** 
+ * Sets the returned expression.
+ */
+void
+setReturnedExpression
+(
+CtExpression
+<
+R
+>
+returnedExpression
+)
+;

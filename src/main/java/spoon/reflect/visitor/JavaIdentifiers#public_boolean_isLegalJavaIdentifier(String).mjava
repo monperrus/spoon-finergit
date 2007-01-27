@@ -1,0 +1,37 @@
+/** 
+ * Ckecks if a string is a valid Java identifier and not a Java keyword.
+ * @param string the string to be tested
+ */
+public
+static
+boolean
+isLegalJavaIdentifier
+(
+String
+string
+)
+{
+if
+(
+string
+==
+null
+)
+return
+false
+;
+return
+!
+KEYWORDS
+.
+contains
+(
+string
+)
+&&
+isJavaIdentifier
+(
+string
+)
+;
+}

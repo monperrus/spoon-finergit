@@ -1,0 +1,8 @@
+/** 
+ * Tells if Spoon uses tabulations in the source code.
+ */
+boolean
+isUsingTabulations
+(
+)
+;

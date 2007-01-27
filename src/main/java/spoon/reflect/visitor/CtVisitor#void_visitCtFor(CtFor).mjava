@@ -1,0 +1,10 @@
+/** 
+ * Visits a <code>for</code> loop.
+ */
+void
+visitCtFor
+(
+CtFor
+forLoop
+)
+;

@@ -1,0 +1,10 @@
+/** 
+ * Visits a <code>throw</code> statement.
+ */
+void
+visitCtThrow
+(
+CtThrow
+throwStatement
+)
+;

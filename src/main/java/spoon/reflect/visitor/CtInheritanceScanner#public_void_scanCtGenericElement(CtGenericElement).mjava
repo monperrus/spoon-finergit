@@ -1,0 +1,17 @@
+/** 
+ * Scans an abstract generic element.
+ */
+public
+void
+scanCtGenericElement
+(
+CtGenericElement
+e
+)
+{
+scanCtElement
+(
+e
+)
+;
+}

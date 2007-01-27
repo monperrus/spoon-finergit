@@ -1,0 +1,14 @@
+public
+void
+visitCtPackageReference
+(
+CtPackageReference
+reference
+)
+{
+scanCtReference
+(
+reference
+)
+;
+}

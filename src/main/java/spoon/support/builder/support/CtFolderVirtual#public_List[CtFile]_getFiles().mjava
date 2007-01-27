@@ -1,0 +1,13 @@
+public
+List
+<
+CtFile
+>
+getFiles
+(
+)
+{
+return
+files
+;
+}

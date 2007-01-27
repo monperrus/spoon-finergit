@@ -1,0 +1,8 @@
+/** 
+ * Tells if the referenced field is static.
+ */
+boolean
+isStatic
+(
+)
+;

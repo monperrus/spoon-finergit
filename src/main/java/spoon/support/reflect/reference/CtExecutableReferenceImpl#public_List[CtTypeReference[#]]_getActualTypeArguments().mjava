@@ -1,0 +1,16 @@
+public
+List
+<
+CtTypeReference
+<
+?
+>
+>
+getActualTypeArguments
+(
+)
+{
+return
+actualTypeArguments
+;
+}

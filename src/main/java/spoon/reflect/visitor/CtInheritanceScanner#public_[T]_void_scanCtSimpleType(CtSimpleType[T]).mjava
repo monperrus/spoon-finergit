@@ -1,0 +1,23 @@
+/** 
+ * Scans an abstract simple type.
+ */
+public
+<
+T
+>
+void
+scanCtSimpleType
+(
+CtSimpleType
+<
+T
+>
+t
+)
+{
+scanCtNamedElement
+(
+t
+)
+;
+}

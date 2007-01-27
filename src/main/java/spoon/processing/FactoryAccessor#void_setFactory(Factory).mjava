@@ -1,0 +1,10 @@
+/** 
+ * Sets the factory object.
+ */
+void
+setFactory
+(
+Factory
+factory
+)
+;

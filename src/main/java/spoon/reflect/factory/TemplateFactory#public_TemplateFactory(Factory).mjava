@@ -1,0 +1,17 @@
+/** 
+ * Creates a new template factory.
+ * @param factory the parent factory
+ */
+public
+TemplateFactory
+(
+Factory
+factory
+)
+{
+super
+(
+factory
+)
+;
+}

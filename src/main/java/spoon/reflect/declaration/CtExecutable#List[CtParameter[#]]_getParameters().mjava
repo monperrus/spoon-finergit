@@ -1,0 +1,14 @@
+/** 
+ * Gets the parameters list.
+ */
+List
+<
+CtParameter
+<
+?
+>
+>
+getParameters
+(
+)
+;

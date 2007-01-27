@@ -1,0 +1,29 @@
+/** 
+ * The  {@link CtMethod} sub-factory.
+ */
+public
+MethodFactory
+Method
+(
+)
+{
+if
+(
+Method
+==
+null
+)
+{
+Method
+=
+new
+MethodFactory
+(
+this
+)
+;
+}
+return
+Method
+;
+}

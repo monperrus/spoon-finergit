@@ -1,0 +1,8 @@
+/** 
+ * Creates an <code>assert</code> statement.
+ */
+CtAssert
+createAssert
+(
+)
+;

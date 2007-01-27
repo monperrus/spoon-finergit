@@ -1,0 +1,17 @@
+public
+Set
+<
+CtTypeReference
+<
+?
+Throwable
+>
+>
+getThrownTypes
+(
+)
+{
+return
+thrownTypes
+;
+}

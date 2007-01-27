@@ -1,0 +1,29 @@
+/** 
+ * The  {@link CtType} sub-factory.
+ */
+public
+TypeFactory
+Type
+(
+)
+{
+if
+(
+Type
+==
+null
+)
+{
+Type
+=
+new
+TypeFactory
+(
+this
+)
+;
+}
+return
+Type
+;
+}

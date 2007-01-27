@@ -1,0 +1,11 @@
+/** 
+ * Gets the <i>init</i> statements.
+ */
+List
+<
+CtStatement
+>
+getForInit
+(
+)
+;

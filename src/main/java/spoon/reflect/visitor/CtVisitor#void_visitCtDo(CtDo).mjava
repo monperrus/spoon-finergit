@@ -1,0 +1,10 @@
+/** 
+ * Visits a <code>do</code> loop.
+ */
+void
+visitCtDo
+(
+CtDo
+doLoop
+)
+;

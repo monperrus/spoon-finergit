@@ -1,0 +1,10 @@
+public
+CtStatement
+getElseStatement
+(
+)
+{
+return
+elseStatement
+;
+}

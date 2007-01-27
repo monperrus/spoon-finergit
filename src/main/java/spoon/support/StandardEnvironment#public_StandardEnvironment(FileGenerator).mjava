@@ -1,0 +1,17 @@
+/** 
+ * Creates a new environment.
+ */
+public
+StandardEnvironment
+(
+FileGenerator
+defaultFileGenerator
+)
+{
+this
+.
+defaultFileGenerator
+=
+defaultFileGenerator
+;
+}

@@ -1,0 +1,14 @@
+public
+void
+visitCtPackage
+(
+CtPackage
+ctPackage
+)
+{
+scanCtNamedElement
+(
+ctPackage
+)
+;
+}

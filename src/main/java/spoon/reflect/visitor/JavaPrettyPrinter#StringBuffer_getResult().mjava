@@ -1,0 +1,8 @@
+/** 
+ * Gets the contents of the compilation unit.
+ */
+StringBuffer
+getResult
+(
+)
+;

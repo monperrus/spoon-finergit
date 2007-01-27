@@ -1,0 +1,28 @@
+/** 
+ * Scans an abstract variable declaration.
+ */
+public
+<
+T
+>
+void
+scanCtVariable
+(
+CtVariable
+<
+T
+>
+v
+)
+{
+scanCtNamedElement
+(
+v
+)
+;
+scanCtTypedElement
+(
+v
+)
+;
+}

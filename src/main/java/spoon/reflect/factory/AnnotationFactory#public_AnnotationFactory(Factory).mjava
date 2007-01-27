@@ -1,0 +1,17 @@
+/** 
+ * Creates an annotation sub-factory.
+ * @param factory the parent factory
+ */
+public
+AnnotationFactory
+(
+Factory
+factory
+)
+{
+super
+(
+factory
+)
+;
+}

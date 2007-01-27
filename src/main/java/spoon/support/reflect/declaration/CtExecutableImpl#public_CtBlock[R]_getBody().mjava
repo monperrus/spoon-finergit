@@ -1,0 +1,13 @@
+public
+CtBlock
+<
+R
+>
+getBody
+(
+)
+{
+return
+body
+;
+}

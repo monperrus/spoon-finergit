@@ -1,0 +1,17 @@
+/** 
+ * Returns the types used by this type.
+ * @param includeSamePackage set to true if the method should return also the types located in the same package as the current type
+ */
+Set
+<
+CtTypeReference
+<
+?
+>
+>
+getUsedTypes
+(
+boolean
+includeSamePackage
+)
+;

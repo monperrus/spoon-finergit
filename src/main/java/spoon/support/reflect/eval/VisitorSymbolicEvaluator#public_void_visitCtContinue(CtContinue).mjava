@@ -1,0 +1,16 @@
+public
+void
+visitCtContinue
+(
+CtContinue
+continueStatement
+)
+{
+throw
+new
+RuntimeException
+(
+"Unknow Element"
+)
+;
+}

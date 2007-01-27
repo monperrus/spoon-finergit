@@ -1,0 +1,23 @@
+/** 
+ * Removes a processed element type.
+ */
+protected
+void
+removeProcessedElementType
+(
+Class
+<
+?
+CtElement
+>
+elementType
+)
+{
+processedElementTypes
+.
+remove
+(
+elementType
+)
+;
+}

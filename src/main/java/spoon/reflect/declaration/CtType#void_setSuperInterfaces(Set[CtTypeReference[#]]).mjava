@@ -1,0 +1,16 @@
+/** 
+ * Sets the super interfaces of this type.
+ */
+void
+setSuperInterfaces
+(
+Set
+<
+CtTypeReference
+<
+?
+>
+>
+interfaces
+)
+;

@@ -1,0 +1,10 @@
+/** 
+ * This operation is not allowed.
+ */
+void
+setSimpleName
+(
+String
+simpleName
+)
+;

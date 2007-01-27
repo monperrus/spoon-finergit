@@ -1,0 +1,18 @@
+/** 
+ * Visits an annotation.
+ */
+<
+A
+extends
+Annotation
+>
+void
+visitCtAnnotation
+(
+CtAnnotation
+<
+A
+>
+annotation
+)
+;

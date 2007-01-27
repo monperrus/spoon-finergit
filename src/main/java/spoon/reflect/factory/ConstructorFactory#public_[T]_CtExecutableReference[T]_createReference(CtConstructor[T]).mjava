@@ -1,0 +1,33 @@
+/** 
+ * Creates a constructor reference from an existing constructor.
+ */
+public
+<
+T
+>
+CtExecutableReference
+<
+T
+>
+createReference
+(
+CtConstructor
+<
+T
+>
+c
+)
+{
+return
+factory
+.
+Executable
+(
+)
+.
+createReference
+(
+c
+)
+;
+}

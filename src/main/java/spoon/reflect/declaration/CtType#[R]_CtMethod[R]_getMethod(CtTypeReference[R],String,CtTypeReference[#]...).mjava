@@ -1,0 +1,30 @@
+/** 
+ * Gets a method from its return type, name, and parameter types.
+ * @return null if does not exit
+ */
+<
+R
+>
+CtMethod
+<
+R
+>
+getMethod
+(
+CtTypeReference
+<
+R
+>
+returnType
+,
+String
+name
+,
+CtTypeReference
+<
+?
+>
+...
+parameterTypes
+)
+;

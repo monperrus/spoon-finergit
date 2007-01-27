@@ -1,0 +1,11 @@
+/** 
+ * Gets the fields declared by this type.
+ */
+Collection
+<
+CtFieldReference
+>
+getDeclaredFields
+(
+)
+;

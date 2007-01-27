@@ -1,0 +1,15 @@
+public
+void
+setBody
+(
+CtStatement
+body
+)
+{
+this
+.
+body
+=
+body
+;
+}

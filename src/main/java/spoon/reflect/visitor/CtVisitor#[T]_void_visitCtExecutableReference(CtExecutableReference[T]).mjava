@@ -1,0 +1,16 @@
+/** 
+ * Visits a reference to an executable.
+ */
+<
+T
+>
+void
+visitCtExecutableReference
+(
+CtExecutableReference
+<
+T
+>
+reference
+)
+;

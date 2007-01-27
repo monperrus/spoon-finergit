@@ -1,0 +1,14 @@
+/** 
+ * Builds the program's model with a given factory and stores the result into this factory. Note that this method can only be used once on a given factory. If more attempts are made, it throws an exception.
+ * @return true if the Java was successfully compiled with the core Javacompiler, false if some errors were encountered while compiling
+ * @exception Exception when a building problem occurs
+ */
+boolean
+build
+(
+Factory
+factory
+)
+throws
+Exception
+;

@@ -1,0 +1,8 @@
+/** 
+ * Gets the line in the source file (1 indexed). Prefer using {@link #getSourceStart()}}.
+ */
+int
+getLine
+(
+)
+;

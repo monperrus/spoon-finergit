@@ -1,0 +1,9 @@
+/** 
+ * Gets the runtime method that corresponds to an executable reference if any.
+ * @return the method (null if not found)
+ */
+Method
+getActualMethod
+(
+)
+;

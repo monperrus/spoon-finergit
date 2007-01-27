@@ -1,0 +1,13 @@
+public
+FileGenerator
+<
+?
+>
+getDefaultFileGenerator
+(
+)
+{
+return
+defaultFileGenerator
+;
+}

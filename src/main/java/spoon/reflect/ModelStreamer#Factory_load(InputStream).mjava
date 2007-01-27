@@ -1,0 +1,15 @@
+/** 
+ * Loads a factory (and all its associated Java program elements).
+ * @param in the used input stream
+ * @return the loaded factory
+ * @throws IOException if some IO error occurs
+ */
+Factory
+load
+(
+InputStream
+in
+)
+throws
+IOException
+;

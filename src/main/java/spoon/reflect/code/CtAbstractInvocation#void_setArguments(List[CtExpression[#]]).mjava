@@ -1,0 +1,16 @@
+/** 
+ * Sets the invocation's arguments.
+ */
+void
+setArguments
+(
+List
+<
+CtExpression
+<
+?
+>
+>
+arguments
+)
+;

@@ -1,0 +1,10 @@
+public
+CtFolderVirtual
+getTemplates
+(
+)
+{
+return
+templates
+;
+}

@@ -1,0 +1,16 @@
+public
+void
+setRightHandOperand
+(
+CtExpression
+<
+?
+>
+expression
+)
+{
+rightHandOperand
+=
+expression
+;
+}

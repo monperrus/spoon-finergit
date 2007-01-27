@@ -1,0 +1,27 @@
+/** 
+ * A default program entry point (instantiates a launcher with the given arguments and calls  {@link #run()}).
+ */
+public
+static
+void
+main
+(
+String
+[
+]
+args
+)
+throws
+JSAPException
+{
+new
+Launcher
+(
+args
+)
+.
+run
+(
+)
+;
+}

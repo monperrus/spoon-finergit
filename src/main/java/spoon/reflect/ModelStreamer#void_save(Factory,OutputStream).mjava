@@ -1,0 +1,18 @@
+/** 
+ * Saves a factory (and all its associated Java program elements).
+ * @param f the factory to be save
+ * @param out the used output stream
+ * @throws IOException if some IO error occurs
+ */
+void
+save
+(
+Factory
+f
+,
+OutputStream
+out
+)
+throws
+IOException
+;

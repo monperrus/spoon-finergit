@@ -1,0 +1,13 @@
+/** 
+ * Creates a new source code fragment with default values.
+ */
+public
+SourceCodeFragment
+(
+)
+{
+super
+(
+)
+;
+}

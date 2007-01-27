@@ -1,0 +1,13 @@
+/** 
+ * Sets the iterated expression (an iterable of an array).
+ */
+void
+setExpression
+(
+CtExpression
+<
+?
+>
+expression
+)
+;

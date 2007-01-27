@@ -1,0 +1,12 @@
+/** 
+ * This method must be implemented to define the template expression. The convention is that the defined expression corresponds to the expression returned by the return statement of the method.
+ */
+public
+abstract
+T
+expression
+(
+)
+throws
+Throwable
+;

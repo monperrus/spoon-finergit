@@ -1,0 +1,11 @@
+/** 
+ * Gets the type in which the field is declared.
+ */
+CtTypeReference
+<
+?
+>
+getDeclaringType
+(
+)
+;

@@ -1,0 +1,13 @@
+public
+List
+<
+CtTypeReference
+>
+getStatefullExternals
+(
+)
+{
+return
+statefullExternals
+;
+}

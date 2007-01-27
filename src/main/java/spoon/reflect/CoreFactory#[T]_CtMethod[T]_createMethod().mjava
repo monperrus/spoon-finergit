@@ -1,0 +1,14 @@
+/** 
+ * Creates a method.
+ */
+<
+T
+>
+CtMethod
+<
+T
+>
+createMethod
+(
+)
+;

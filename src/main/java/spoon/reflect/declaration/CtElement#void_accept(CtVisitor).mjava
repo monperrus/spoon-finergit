@@ -1,0 +1,11 @@
+/** 
+ * Accepts a visitor.
+ * @param visitor to accept
+ */
+void
+accept
+(
+CtVisitor
+visitor
+)
+;

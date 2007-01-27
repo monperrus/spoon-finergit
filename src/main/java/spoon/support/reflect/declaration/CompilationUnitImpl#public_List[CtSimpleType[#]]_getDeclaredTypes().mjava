@@ -1,0 +1,16 @@
+public
+List
+<
+CtSimpleType
+<
+?
+>
+>
+getDeclaredTypes
+(
+)
+{
+return
+declaredTypes
+;
+}

@@ -1,0 +1,20 @@
+/** 
+ * Constructor with arguments.
+ */
+public
+LtLauncher
+(
+String
+[
+]
+args
+)
+throws
+JSAPException
+{
+super
+(
+args
+)
+;
+}

@@ -1,0 +1,42 @@
+/** 
+ * Creates a new source code fragment.
+ * @param position the position at which it must start in the original source code
+ * @param code the code as a string (will be pasted as is)
+ * @param replacementLength the number of character of the original code that should be replaced
+ */
+public
+SourceCodeFragment
+(
+int
+position
+,
+String
+code
+,
+int
+replacementLength
+)
+{
+super
+(
+)
+;
+this
+.
+position
+=
+position
+;
+this
+.
+code
+=
+code
+;
+this
+.
+replacementLength
+=
+replacementLength
+;
+}

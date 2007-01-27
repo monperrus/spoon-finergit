@@ -1,0 +1,23 @@
+/** 
+ * Scans an abstract variable reference.
+ */
+public
+<
+T
+>
+void
+scanCtVariableReference
+(
+CtVariableReference
+<
+T
+>
+reference
+)
+{
+scanCtReference
+(
+reference
+)
+;
+}

@@ -1,0 +1,16 @@
+/** 
+ * Visits a code snippet expression.
+ */
+<
+T
+>
+void
+visitCtCodeSnippetExpression
+(
+CtCodeSnippetExpression
+<
+T
+>
+expression
+)
+;

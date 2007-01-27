@@ -1,0 +1,17 @@
+/** 
+ * Creates a new field sub-factory.
+ * @param factory the parent factory
+ */
+public
+FieldFactory
+(
+Factory
+factory
+)
+{
+super
+(
+factory
+)
+;
+}

@@ -1,0 +1,41 @@
+/** 
+ * Adds an annotation to an element.
+ * @param element the program element to annotate
+ * @param annotationType the annotation type
+ * @return the concerned annotation
+ */
+public
+<
+A
+extends
+Annotation
+>
+CtAnnotation
+<
+A
+>
+annotate
+(
+CtElement
+element
+,
+CtTypeReference
+<
+A
+>
+annotationType
+)
+{
+return
+annotate
+(
+element
+,
+annotationType
+.
+getActualClass
+(
+)
+)
+;
+}

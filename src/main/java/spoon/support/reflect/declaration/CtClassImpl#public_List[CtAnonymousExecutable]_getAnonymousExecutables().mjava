@@ -1,0 +1,13 @@
+public
+List
+<
+CtAnonymousExecutable
+>
+getAnonymousExecutables
+(
+)
+{
+return
+anonymousExecutable
+;
+}

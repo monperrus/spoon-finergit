@@ -1,0 +1,15 @@
+/** 
+ * Gets the current time of this timer.
+ */
+public
+long
+getValue
+(
+)
+{
+return
+stop
+-
+start
+;
+}

@@ -1,0 +1,62 @@
+/** 
+ * Generates a constructor from a template constructor by substituting all the template parameters by their values.
+ * @param targetClass the target class where to insert the generated constructor
+ * @param template the template instance that holds the source template constructor and that defines the parameter values
+ * @param sourceConstructor the source template constructor
+ * @return the generated constructor
+ */
+public
+static
+<
+T
+>
+CtConstructor
+insertConstructor
+(
+CtClass
+<
+?
+>
+targetClass
+,
+Template
+template
+,
+CtConstructor
+sourceConstructor
+)
+{
+CtConstructor
+newConstrutor
+=
+substitute
+(
+targetClass
+,
+template
+,
+sourceConstructor
+)
+;
+newConstrutor
+.
+setParent
+(
+targetClass
+)
+;
+targetClass
+.
+getConstructors
+(
+)
+.
+add
+(
+newConstrutor
+)
+;
+return
+newConstrutor
+;
+}

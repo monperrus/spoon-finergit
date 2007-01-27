@@ -1,0 +1,13 @@
+/** 
+ * Sets the properties for a given processor.
+ */
+void
+setProcessorProperties
+(
+String
+processorName
+,
+ProcessorProperties
+prop
+)
+;

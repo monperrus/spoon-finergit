@@ -1,0 +1,34 @@
+/** 
+ * Gets the list of updated elements.
+ */
+public
+List
+<
+CtElement
+>
+getModified
+(
+)
+{
+if
+(
+modified
+==
+null
+)
+{
+modified
+=
+new
+ArrayList
+<
+CtElement
+>
+(
+)
+;
+}
+return
+modified
+;
+}

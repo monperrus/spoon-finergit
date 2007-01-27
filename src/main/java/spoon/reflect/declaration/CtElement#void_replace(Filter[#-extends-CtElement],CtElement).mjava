@@ -1,0 +1,17 @@
+/** 
+ * Replaces the elements that match the filter by the given element.
+ */
+void
+replace
+(
+Filter
+<
+?
+CtElement
+>
+replacementPoints
+,
+CtElement
+element
+)
+;

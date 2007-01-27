@@ -1,0 +1,14 @@
+/** 
+ * Creates a field.
+ */
+<
+T
+>
+CtField
+<
+T
+>
+createField
+(
+)
+;

@@ -1,0 +1,16 @@
+/** 
+ * Visits a class declaration.
+ */
+<
+T
+>
+void
+visitCtClass
+(
+CtClass
+<
+T
+>
+ctClass
+)
+;

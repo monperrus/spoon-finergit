@@ -1,0 +1,18 @@
+/** 
+ * Sets the root directory where the processors' properties XML configuration files are located.
+ */
+public
+void
+setProperties
+(
+File
+properties
+)
+{
+this
+.
+properties
+=
+properties
+;
+}

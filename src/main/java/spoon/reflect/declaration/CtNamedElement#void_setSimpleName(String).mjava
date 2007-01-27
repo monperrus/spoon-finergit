@@ -1,0 +1,10 @@
+/** 
+ * Sets the simple (unqualified) name of this element.
+ */
+void
+setSimpleName
+(
+String
+simpleName
+)
+;

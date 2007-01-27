@@ -1,0 +1,11 @@
+/** 
+ * Gets the created class.
+ */
+CtClass
+<
+?
+>
+getAnonymousClass
+(
+)
+;

@@ -1,0 +1,17 @@
+/** 
+ * Creates a new constructor sub-factory.
+ * @param factory the parent factory
+ */
+public
+ConstructorFactory
+(
+Factory
+factory
+)
+{
+super
+(
+factory
+)
+;
+}

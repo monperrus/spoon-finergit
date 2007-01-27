@@ -1,0 +1,8 @@
+/** 
+ * Gets the factory of this object.
+ */
+Factory
+getFactory
+(
+)
+;

@@ -1,0 +1,11 @@
+/** 
+ * Gets the end-loop test expression.
+ */
+CtExpression
+<
+Boolean
+>
+getExpression
+(
+)
+;

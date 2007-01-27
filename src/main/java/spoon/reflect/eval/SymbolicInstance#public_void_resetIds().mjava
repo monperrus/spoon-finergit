@@ -1,0 +1,15 @@
+/** 
+ * Resets the id counter.
+ */
+public
+static
+void
+resetIds
+(
+)
+{
+id
+=
+0
+;
+}

@@ -1,0 +1,30 @@
+/** 
+ * The generic scan method for a reference.
+ */
+public
+DefaultJavaPrettyPrinter
+scan
+(
+CtReference
+ref
+)
+{
+if
+(
+ref
+!=
+null
+)
+{
+ref
+.
+accept
+(
+this
+)
+;
+}
+return
+this
+;
+}

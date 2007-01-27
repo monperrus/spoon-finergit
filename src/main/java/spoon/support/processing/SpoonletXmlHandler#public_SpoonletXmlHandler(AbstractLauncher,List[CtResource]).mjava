@@ -1,0 +1,35 @@
+/** 
+ * Creates a new handler.
+ * @param launcher the launcher
+ * @param spoonletIndex ?
+ */
+public
+SpoonletXmlHandler
+(
+AbstractLauncher
+launcher
+,
+List
+<
+CtResource
+>
+spoonletIndex
+)
+{
+super
+(
+)
+;
+this
+.
+launcher
+=
+launcher
+;
+this
+.
+spoonletIndex
+=
+spoonletIndex
+;
+}

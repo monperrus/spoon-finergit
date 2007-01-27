@@ -1,0 +1,16 @@
+/** 
+ * Visits a reference to a field.
+ */
+<
+T
+>
+void
+visitCtFieldReference
+(
+CtFieldReference
+<
+T
+>
+reference
+)
+;

@@ -1,0 +1,28 @@
+/** 
+ * The core factory.
+ */
+public
+CoreFactory
+Core
+(
+)
+{
+if
+(
+Core
+==
+null
+)
+{
+Core
+=
+new
+DefaultCoreFactory
+(
+)
+;
+}
+return
+Core
+;
+}

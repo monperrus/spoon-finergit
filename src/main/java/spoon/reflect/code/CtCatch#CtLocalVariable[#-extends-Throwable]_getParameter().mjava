@@ -1,0 +1,12 @@
+/** 
+ * Gets the catch's parameter (a throwable).
+ */
+CtLocalVariable
+<
+?
+Throwable
+>
+getParameter
+(
+)
+;

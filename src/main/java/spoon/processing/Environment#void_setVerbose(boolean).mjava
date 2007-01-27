@@ -1,0 +1,10 @@
+/** 
+ * Sets/unsets the verbose mode.
+ */
+void
+setVerbose
+(
+boolean
+verbose
+)
+;

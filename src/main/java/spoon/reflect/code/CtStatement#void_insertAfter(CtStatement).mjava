@@ -1,0 +1,10 @@
+/** 
+ * Inserts a statement after the current statement.
+ */
+void
+insertAfter
+(
+CtStatement
+statement
+)
+;

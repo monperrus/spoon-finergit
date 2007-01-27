@@ -1,0 +1,13 @@
+/** 
+ * Sets the <i>update</i> statements.
+ */
+void
+setForUpdate
+(
+List
+<
+CtStatement
+>
+forUpdate
+)
+;

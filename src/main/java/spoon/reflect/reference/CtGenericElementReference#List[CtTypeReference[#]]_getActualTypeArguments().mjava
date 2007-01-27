@@ -1,0 +1,14 @@
+/** 
+ * Gets the type arguments.
+ */
+List
+<
+CtTypeReference
+<
+?
+>
+>
+getActualTypeArguments
+(
+)
+;

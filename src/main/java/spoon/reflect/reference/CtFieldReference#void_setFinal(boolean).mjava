@@ -1,0 +1,10 @@
+/** 
+ * Forces a reference to a final element.
+ */
+void
+setFinal
+(
+boolean
+b
+)
+;

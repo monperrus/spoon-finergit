@@ -1,0 +1,16 @@
+public
+void
+accept
+(
+CtVisitor
+visitor
+)
+{
+visitor
+.
+visitCtAnonymousExecutable
+(
+this
+)
+;
+}

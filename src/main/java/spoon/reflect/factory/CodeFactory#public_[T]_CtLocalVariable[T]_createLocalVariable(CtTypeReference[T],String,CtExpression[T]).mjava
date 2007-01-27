@@ -1,0 +1,75 @@
+/** 
+ * Creates a local variable declaration.
+ * @param < T > the local variable type
+ * @param type the reference to the type
+ * @param name the name of the variable
+ * @param defaultExpression the assigned default expression
+ * @return a new local variable declaration
+ */
+public
+<
+T
+>
+CtLocalVariable
+<
+T
+>
+createLocalVariable
+(
+CtTypeReference
+<
+T
+>
+type
+,
+String
+name
+,
+CtExpression
+<
+T
+>
+defaultExpression
+)
+{
+CtLocalVariable
+<
+T
+>
+var
+=
+factory
+.
+Core
+(
+)
+.
+createLocalVariable
+(
+)
+;
+var
+.
+setSimpleName
+(
+name
+)
+;
+var
+.
+setType
+(
+type
+)
+;
+var
+.
+setDefaultExpression
+(
+defaultExpression
+)
+;
+return
+var
+;
+}

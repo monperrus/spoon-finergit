@@ -1,0 +1,18 @@
+/** 
+ * Decrements the current number of tabs.
+ */
+public
+DefaultJavaPrettyPrinter
+decTab
+(
+)
+{
+context
+.
+nbTabs
+--
+;
+return
+this
+;
+}

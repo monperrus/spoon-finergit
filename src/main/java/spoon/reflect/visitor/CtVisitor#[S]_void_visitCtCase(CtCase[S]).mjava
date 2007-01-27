@@ -1,0 +1,16 @@
+/** 
+ * Visits a <code>case</code> clause.
+ */
+<
+S
+>
+void
+visitCtCase
+(
+CtCase
+<
+S
+>
+caseStatement
+)
+;

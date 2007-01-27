@@ -1,0 +1,10 @@
+/** 
+ * Sets the target expression.
+ */
+void
+setTarget
+(
+E
+target
+)
+;

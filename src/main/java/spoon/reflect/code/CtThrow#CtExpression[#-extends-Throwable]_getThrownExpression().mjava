@@ -1,0 +1,12 @@
+/** 
+ * Returns the thrown expression (must be a throwable).
+ */
+CtExpression
+<
+?
+Throwable
+>
+getThrownExpression
+(
+)
+;

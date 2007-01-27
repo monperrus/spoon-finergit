@@ -1,0 +1,12 @@
+/** 
+ * Adds a processor by instantiating its type (a class that must define an empty constructor and implement  {@link Processor}).
+ * @param qualifiedName the qualified name of the processor's type
+ * @see #getProcessors().
+ */
+void
+addProcessor
+(
+String
+qualifiedName
+)
+;

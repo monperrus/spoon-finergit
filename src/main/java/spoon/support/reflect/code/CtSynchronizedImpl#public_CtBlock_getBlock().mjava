@@ -1,0 +1,10 @@
+public
+CtBlock
+getBlock
+(
+)
+{
+return
+block
+;
+}

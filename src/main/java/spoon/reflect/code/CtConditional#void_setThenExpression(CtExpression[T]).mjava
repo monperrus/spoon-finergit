@@ -1,0 +1,13 @@
+/** 
+ * Sets the "true" expression.
+ */
+void
+setThenExpression
+(
+CtExpression
+<
+T
+>
+thenExpression
+)
+;

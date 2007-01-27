@@ -1,0 +1,13 @@
+public
+CtTypeReference
+<
+A
+>
+getAnnotationType
+(
+)
+{
+return
+annotationType
+;
+}

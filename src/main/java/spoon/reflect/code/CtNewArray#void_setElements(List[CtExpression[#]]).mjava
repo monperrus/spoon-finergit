@@ -1,0 +1,16 @@
+/** 
+ * Sets the initialization expressions.
+ */
+void
+setElements
+(
+List
+<
+CtExpression
+<
+?
+>
+>
+expression
+)
+;

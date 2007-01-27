@@ -1,0 +1,16 @@
+/** 
+ * Visits an interface declaration.
+ */
+<
+T
+>
+void
+visitCtInterface
+(
+CtInterface
+<
+T
+>
+intrface
+)
+;

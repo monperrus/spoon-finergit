@@ -1,0 +1,13 @@
+public
+UndefinedParameterException
+(
+Throwable
+cause
+)
+{
+super
+(
+cause
+)
+;
+}

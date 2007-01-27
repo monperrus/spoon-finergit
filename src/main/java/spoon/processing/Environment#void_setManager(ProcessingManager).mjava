@@ -1,0 +1,10 @@
+/** 
+ * Sets the processing manager of this environment.
+ */
+void
+setManager
+(
+ProcessingManager
+manager
+)
+;

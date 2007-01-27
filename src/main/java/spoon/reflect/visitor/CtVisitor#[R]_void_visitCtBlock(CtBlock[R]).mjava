@@ -1,0 +1,16 @@
+/** 
+ * Visits a block of code.
+ */
+<
+R
+>
+void
+visitCtBlock
+(
+CtBlock
+<
+R
+>
+block
+)
+;

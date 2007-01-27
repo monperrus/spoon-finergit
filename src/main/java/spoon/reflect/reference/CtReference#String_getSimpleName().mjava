@@ -1,0 +1,8 @@
+/** 
+ * Gets the simple name of referenced element.
+ */
+String
+getSimpleName
+(
+)
+;

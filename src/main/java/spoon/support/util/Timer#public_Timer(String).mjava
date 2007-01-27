@@ -1,0 +1,30 @@
+/** 
+ * Constructs a timer.
+ * @param name the timer name
+ */
+public
+Timer
+(
+String
+name
+)
+{
+super
+(
+)
+;
+this
+.
+name
+=
+name
+;
+start
+=
+System
+.
+currentTimeMillis
+(
+)
+;
+}

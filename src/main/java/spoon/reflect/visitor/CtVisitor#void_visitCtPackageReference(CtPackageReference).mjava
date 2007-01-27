@@ -1,0 +1,10 @@
+/** 
+ * Visits a reference to a package.
+ */
+void
+visitCtPackageReference
+(
+CtPackageReference
+reference
+)
+;

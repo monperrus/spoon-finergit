@@ -1,0 +1,17 @@
+/** 
+ * Clears the consumed annotation types.
+ */
+final
+protected
+void
+clearConsumedAnnotationTypes
+(
+)
+{
+consumedAnnotationTypes
+.
+clear
+(
+)
+;
+}
