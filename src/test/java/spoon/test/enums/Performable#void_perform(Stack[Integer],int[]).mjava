@@ -1,0 +1,15 @@
+void
+perform
+(
+Stack
+<
+Integer
+>
+s
+,
+int
+[
+]
+op
+)
+;

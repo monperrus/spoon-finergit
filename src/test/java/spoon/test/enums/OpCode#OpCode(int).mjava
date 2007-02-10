@@ -1,0 +1,13 @@
+OpCode
+(
+int
+numOp
+)
+{
+this
+.
+numOp
+=
+numOp
+;
+}
