@@ -30,6 +30,13 @@ V
 (
 )
 ;
+if
+(
+l
+==
+null
+)
+;
 return
 null
 ;

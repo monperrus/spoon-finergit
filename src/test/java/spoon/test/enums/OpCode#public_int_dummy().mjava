@@ -1,0 +1,14 @@
+public
+int
+dummy
+(
+)
+{
+return
+OP
+.
+numOp
++
+numOp
+;
+}
