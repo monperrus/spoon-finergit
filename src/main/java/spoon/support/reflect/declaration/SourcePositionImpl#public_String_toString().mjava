@@ -28,6 +28,10 @@ getFile
 getAbsolutePath
 (
 )
++
+":"
++
+ln
 :
 getFile
 (
@@ -36,9 +40,5 @@ getFile
 getAbsolutePath
 (
 )
-+
-":"
-+
-ln
 ;
 }
