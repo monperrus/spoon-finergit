@@ -1,0 +1,17 @@
+public
+boolean
+isConstructor
+(
+)
+{
+return
+getSimpleName
+(
+)
+.
+equals
+(
+"<init>"
+)
+;
+}

@@ -1,0 +1,8 @@
+/** 
+ * Tells if this is a reference to a constructor.
+ */
+boolean
+isConstructor
+(
+)
+;
