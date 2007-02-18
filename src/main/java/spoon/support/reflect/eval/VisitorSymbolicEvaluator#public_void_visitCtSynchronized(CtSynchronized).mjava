@@ -6,11 +6,9 @@ CtSynchronized
 synchro
 )
 {
-throw
-new
-RuntimeException
+skip
 (
-"Unknow Element"
+synchro
 )
 ;
 }

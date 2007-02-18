@@ -12,11 +12,9 @@ E
 caseStatement
 )
 {
-throw
-new
-RuntimeException
+skip
 (
-"Unknow Element"
+caseStatement
 )
 ;
 }

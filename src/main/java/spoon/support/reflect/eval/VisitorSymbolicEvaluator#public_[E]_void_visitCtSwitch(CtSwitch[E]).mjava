@@ -12,11 +12,9 @@ E
 switchStatement
 )
 {
-throw
-new
-RuntimeException
+skip
 (
-"Unknow Element"
+switchStatement
 )
 ;
 }

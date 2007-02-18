@@ -12,11 +12,9 @@ T
 f
 )
 {
-throw
-new
-RuntimeException
+skip
 (
-"Unknow Element"
+f
 )
 ;
 }

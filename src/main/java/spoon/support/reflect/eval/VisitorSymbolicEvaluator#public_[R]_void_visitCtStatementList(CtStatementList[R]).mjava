@@ -12,11 +12,9 @@ R
 statements
 )
 {
-throw
-new
-RuntimeException
+skip
 (
-"Unknow Element"
+statements
 )
 ;
 }

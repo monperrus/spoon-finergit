@@ -18,11 +18,9 @@ A
 assignment
 )
 {
-throw
-new
-RuntimeException
+skip
 (
-"Unknow Element"
+assignment
 )
 ;
 }

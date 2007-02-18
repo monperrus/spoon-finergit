@@ -14,11 +14,9 @@ A
 annotation
 )
 {
-throw
-new
-RuntimeException
+skip
 (
-"Unknow Element"
+annotation
 )
 ;
 }

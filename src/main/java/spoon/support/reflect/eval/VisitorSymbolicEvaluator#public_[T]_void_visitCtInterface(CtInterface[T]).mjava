@@ -16,7 +16,7 @@ throw
 new
 RuntimeException
 (
-"Unknow Element"
+"Not evaluable"
 )
 ;
 }

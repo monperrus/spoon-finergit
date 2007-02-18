@@ -6,4 +6,9 @@ CtCodeSnippetStatement
 statement
 )
 {
+skip
+(
+statement
+)
+;
 }

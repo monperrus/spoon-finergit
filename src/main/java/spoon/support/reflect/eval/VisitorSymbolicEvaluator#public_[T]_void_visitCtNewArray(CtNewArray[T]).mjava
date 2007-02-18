@@ -12,11 +12,9 @@ T
 newArray
 )
 {
-throw
-new
-RuntimeException
+skip
 (
-"Unknow Element"
+newArray
 )
 ;
 }

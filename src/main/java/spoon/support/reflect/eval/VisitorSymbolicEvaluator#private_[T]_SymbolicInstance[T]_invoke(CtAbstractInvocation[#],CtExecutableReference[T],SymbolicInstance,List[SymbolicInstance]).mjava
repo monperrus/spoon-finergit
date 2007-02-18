@@ -330,6 +330,16 @@ false
 }
 else
 {
+if
+(
+!
+executable
+.
+isConstructor
+(
+)
+)
+{
 result
 =
 new
@@ -346,6 +356,7 @@ getType
 false
 )
 ;
+}
 }
 }
 }

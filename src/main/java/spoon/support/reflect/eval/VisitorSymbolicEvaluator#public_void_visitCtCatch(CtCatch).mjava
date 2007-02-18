@@ -6,11 +6,9 @@ CtCatch
 catchBlock
 )
 {
-throw
-new
-RuntimeException
+skip
 (
-"Unknow Element"
+catchBlock
 )
 ;
 }

@@ -6,11 +6,9 @@ CtContinue
 continueStatement
 )
 {
-throw
-new
-RuntimeException
+skip
 (
-"Unknow Element"
+continueStatement
 )
 ;
 }
