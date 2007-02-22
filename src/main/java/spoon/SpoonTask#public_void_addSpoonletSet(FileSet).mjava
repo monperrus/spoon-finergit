@@ -1,0 +1,16 @@
+public
+void
+addSpoonletSet
+(
+FileSet
+set
+)
+{
+spoonletfileset
+.
+addElement
+(
+set
+)
+;
+}
