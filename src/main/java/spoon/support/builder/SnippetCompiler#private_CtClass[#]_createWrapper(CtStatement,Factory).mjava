@@ -32,7 +32,7 @@ create
 ;
 CtBlock
 <
-?
+Void
 >
 body
 =
@@ -120,6 +120,8 @@ Throwable
 >
 (
 )
+,
+body
 )
 ;
 return
