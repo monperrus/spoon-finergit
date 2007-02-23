@@ -73,7 +73,15 @@ args
 .
 add
 (
-"."
+f
+.
+getEnvironment
+(
+)
+.
+getSourcePath
+(
+)
 )
 ;
 configure
@@ -97,6 +105,8 @@ units
 getUnits
 (
 files
+,
+f
 )
 ;
 JDTTreeBuilder

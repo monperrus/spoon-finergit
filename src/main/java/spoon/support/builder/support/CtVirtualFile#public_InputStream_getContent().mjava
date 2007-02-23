@@ -1,0 +1,10 @@
+public
+InputStream
+getContent
+(
+)
+{
+return
+contents
+;
+}

@@ -24,6 +24,17 @@ println
 result
 )
 ;
+getProbs
+(
+)
+.
+add
+(
+result
+.
+problems
+)
+;
 success
 =
 false

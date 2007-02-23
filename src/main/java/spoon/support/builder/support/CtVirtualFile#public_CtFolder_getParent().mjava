@@ -1,0 +1,13 @@
+public
+CtFolder
+getParent
+(
+)
+{
+return
+new
+CtFolderVirtual
+(
+)
+;
+}

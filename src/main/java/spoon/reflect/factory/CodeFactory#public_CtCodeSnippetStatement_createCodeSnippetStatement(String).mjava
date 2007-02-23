@@ -1,3 +1,8 @@
+/** 
+ * Creates a Code Snippet statment.
+ * @param statement The String containing the statement.
+ * @return a new CtCodeSnippetStatement
+ */
 public
 CtCodeSnippetStatement
 createCodeSnippetStatement

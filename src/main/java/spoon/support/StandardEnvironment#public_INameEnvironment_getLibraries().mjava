@@ -1,0 +1,10 @@
+public
+INameEnvironment
+getLibraries
+(
+)
+{
+return
+null
+;
+}

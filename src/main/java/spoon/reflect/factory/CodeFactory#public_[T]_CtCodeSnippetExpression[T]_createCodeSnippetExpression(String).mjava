@@ -1,3 +1,9 @@
+/** 
+ * Creates a Code Snippet expression.
+ * @param < T > The type of the expression represented by the CodeSnippet
+ * @param expression The string that contains the expression.
+ * @return a new CtCodeSnippetExpression.
+ */
 public
 <
 T
