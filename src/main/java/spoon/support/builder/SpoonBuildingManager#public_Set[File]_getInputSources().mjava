@@ -7,7 +7,11 @@ getInputSources
 (
 )
 {
-return
-null
+throw
+new
+RuntimeException
+(
+"not implemented"
+)
 ;
 }

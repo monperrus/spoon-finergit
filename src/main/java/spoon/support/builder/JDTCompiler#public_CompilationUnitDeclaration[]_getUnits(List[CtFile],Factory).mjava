@@ -29,15 +29,9 @@ currentTimeMillis
 INameEnvironment
 environment
 =
-f
+this
 .
-getEnvironment
-(
-)
-.
-getLibraries
-(
-)
+environment
 ;
 if
 (

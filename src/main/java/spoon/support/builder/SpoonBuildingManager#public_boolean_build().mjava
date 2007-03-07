@@ -2,16 +2,30 @@ public
 boolean
 build
 (
-Factory
-factory
 )
 throws
 Exception
 {
 if
 (
+factory
+==
+null
+)
+{
+throw
+new
+Exception
+(
+"Factory not initialized"
+)
+;
+}
+if
+(
 build
 )
+{
 throw
 new
 Exception
@@ -19,16 +33,10 @@ Exception
 "Model already built"
 )
 ;
+}
 build
 =
 true
-;
-factory
-.
-setBuilder
-(
-this
-)
 ;
 JDTCompiler
 .
@@ -59,7 +67,7 @@ debugMessage
 (
 "compiling sources: "
 +
-source
+sources
 .
 getAllJavaFiles
 (
@@ -75,11 +83,14 @@ currentTimeMillis
 (
 )
 ;
-JDTCompiler
 compiler
 =
 new
 JDTCompiler
+(
+)
+;
+initCompiler
 (
 )
 ;
@@ -91,7 +102,7 @@ compileSrc
 (
 factory
 ,
-source
+sources
 .
 getAllJavaFiles
 (
@@ -147,7 +158,7 @@ problem
 !=
 null
 )
-getProbs
+getProblems
 (
 )
 .

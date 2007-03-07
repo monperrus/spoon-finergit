@@ -1,0 +1,10 @@
+public
+JDTCompiler
+getCompiler
+(
+)
+{
+return
+compiler
+;
+}

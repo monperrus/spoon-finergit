@@ -16,11 +16,12 @@ name
 boolean
 success
 ;
-SpoonBuildingManager
+Builder
 builder
 =
-new
-SpoonBuildingManager
+f
+.
+getBuilder
 (
 )
 ;
@@ -45,7 +46,6 @@ builder
 .
 build
 (
-f
 )
 ;
 }
@@ -77,7 +77,7 @@ CtSnippetCompilationError
 (
 builder
 .
-getProbs
+getProblems
 (
 )
 )

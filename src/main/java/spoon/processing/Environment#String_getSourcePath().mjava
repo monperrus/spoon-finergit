@@ -1,6 +1,5 @@
 /** 
  * Gets the current input path
- * @return
  */
 String
 getSourcePath

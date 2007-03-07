@@ -6,7 +6,7 @@ getParent
 {
 return
 new
-CtFolderVirtual
+CtVirtualFolder
 (
 )
 ;

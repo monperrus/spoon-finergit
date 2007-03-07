@@ -1,0 +1,11 @@
+/** 
+ * Gets the list of problems that may have been reported by the compiler when building the model.
+ */
+List
+<
+String
+>
+getProblems
+(
+)
+;

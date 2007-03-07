@@ -1,10 +1,10 @@
 public
-CtFolderVirtual
+CtVirtualFolder
 getSource
 (
 )
 {
 return
-source
+sources
 ;
 }

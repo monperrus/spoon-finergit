@@ -18,7 +18,7 @@ isFile
 )
 this
 .
-source
+sources
 .
 addFile
 (
@@ -31,7 +31,7 @@ source
 else
 this
 .
-source
+sources
 .
 addFolder
 (

@@ -1,0 +1,14 @@
+public
+SpoonBuildingManager
+(
+Factory
+factory
+)
+{
+this
+.
+factory
+=
+factory
+;
+}

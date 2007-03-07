@@ -65,8 +65,11 @@ qualifiedName
 Builder
 builder
 =
-new
-SpoonBuildingManager
+getFactory
+(
+)
+.
+getBuilder
 (
 )
 ;
@@ -81,9 +84,6 @@ builder
 .
 build
 (
-getFactory
-(
-)
 )
 ;
 c

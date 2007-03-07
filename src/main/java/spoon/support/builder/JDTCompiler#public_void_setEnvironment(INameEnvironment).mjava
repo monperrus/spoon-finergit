@@ -1,0 +1,15 @@
+public
+void
+setEnvironment
+(
+INameEnvironment
+environment
+)
+{
+this
+.
+environment
+=
+environment
+;
+}
