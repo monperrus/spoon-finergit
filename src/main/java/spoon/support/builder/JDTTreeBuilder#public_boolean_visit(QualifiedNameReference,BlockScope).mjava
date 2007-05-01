@@ -256,6 +256,13 @@ resolvedType
 )
 ;
 va
+.
+setParent
+(
+fa
+)
+;
+va
 =
 fa
 ;

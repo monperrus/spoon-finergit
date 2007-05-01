@@ -1,0 +1,15 @@
+public
+int
+getEndColumn
+(
+)
+{
+return
+searchColumnNumber
+(
+lineSeparatorPositions
+,
+sourceEnd
+)
+;
+}

@@ -1,0 +1,8 @@
+/** 
+ * Gets the end line in the source file (1 indexed). Prefer using {@link #getSourceEnd()}}.
+ */
+int
+getEndLine
+(
+)
+;

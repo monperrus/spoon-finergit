@@ -1,0 +1,13 @@
+/** 
+ * Gets the line number mapping between the generated code and the original code.
+ */
+Map
+<
+Integer
+,
+Integer
+>
+getLineNumberMapping
+(
+)
+;
