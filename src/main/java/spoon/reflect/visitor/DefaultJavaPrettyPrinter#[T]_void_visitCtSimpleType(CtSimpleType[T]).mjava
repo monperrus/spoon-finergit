@@ -11,6 +11,17 @@ T
 type
 )
 {
+if
+(
+type
+.
+getPosition
+(
+)
+!=
+null
+)
+{
 lineNumberMapping
 .
 put
@@ -28,6 +39,7 @@ getLine
 )
 )
 ;
+}
 if
 (
 type
