@@ -275,6 +275,15 @@ setParent
 pack
 )
 ;
+context
+.
+enter
+(
+pack
+,
+typeDeclaration
+)
+;
 }
 }
 context
