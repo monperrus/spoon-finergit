@@ -86,9 +86,15 @@ throw
 new
 RuntimeException
 (
-"Inconsistent compilation unit: "
+"inconsistent compilation unit: '"
 +
 file
++
+"': declared types are "
++
+getDeclaredTypes
+(
+)
 )
 ;
 }
