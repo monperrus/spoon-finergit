@@ -1,0 +1,14 @@
+/** 
+ * Compiles this expression snippet to produce the corresponding AST expression.
+ * @throws CtSnippetCompilationError when the current snippet is not valid Java code expression
+ */
+CtExpression
+<
+T
+>
+compile
+(
+)
+throws
+CtSnippetCompilationError
+;

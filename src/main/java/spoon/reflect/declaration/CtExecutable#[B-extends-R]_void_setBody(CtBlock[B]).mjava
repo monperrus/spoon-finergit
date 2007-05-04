@@ -1,12 +1,17 @@
 /** 
  * Sets the body expression.
  */
+<
+B
+extends
+R
+>
 void
 setBody
 (
 CtBlock
 <
-R
+B
 >
 body
 )

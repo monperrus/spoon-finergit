@@ -3,7 +3,7 @@ public
 void
 compileAndReplaceSnippetsIn
 (
-CtType
+CtSimpleType
 <
 ?
 >
@@ -19,7 +19,7 @@ getFactory
 (
 )
 ;
-CtType
+CtSimpleType
 <
 ?
 >

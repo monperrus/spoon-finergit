@@ -1,5 +1,5 @@
 /** 
- * Creates a Code Snippet statment.
+ * Creates a Code Snippet statement.
  * @param statement The String containing the statement.
  * @return a new CtCodeSnippetStatement
  */

@@ -14,13 +14,7 @@ CtCodeSnippetExpression
 <
 T
 >
-st
-,
-Class
-<
-T
->
-cl
+expr
 )
 throws
 CtSnippetCompilationError
@@ -28,7 +22,7 @@ CtSnippetCompilationError
 Factory
 f
 =
-st
+expr
 .
 getFactory
 (
@@ -42,9 +36,7 @@ w
 =
 createWrapper
 (
-st
-,
-cl
+expr
 ,
 f
 )

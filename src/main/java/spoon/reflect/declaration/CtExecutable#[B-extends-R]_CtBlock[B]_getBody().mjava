@@ -1,9 +1,14 @@
 /** 
  * Gets the body expression.
  */
+<
+B
+extends
+R
+>
 CtBlock
 <
-R
+B
 >
 getBody
 (

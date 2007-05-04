@@ -1,0 +1,17 @@
+public
+CtStatement
+compile
+(
+)
+throws
+CtSnippetCompilationError
+{
+return
+SnippetCompiler
+.
+compileStatement
+(
+this
+)
+;
+}

@@ -3,8 +3,6 @@ static
 public
 <
 T
-extends
-CtStatement
 >
 T
 compileStatement

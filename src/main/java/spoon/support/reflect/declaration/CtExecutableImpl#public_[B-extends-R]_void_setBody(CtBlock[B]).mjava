@@ -1,10 +1,16 @@
+@SuppressWarnings("unchecked")
 public
+<
+B
+extends
+R
+>
 void
 setBody
 (
 CtBlock
 <
-R
+B
 >
 body
 )
