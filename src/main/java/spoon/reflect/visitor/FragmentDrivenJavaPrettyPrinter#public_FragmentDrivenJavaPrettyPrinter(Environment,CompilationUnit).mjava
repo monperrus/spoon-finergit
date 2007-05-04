@@ -1,3 +1,6 @@
+/** 
+ * Creates a new fragment-driven pretty printer for the given compilation unit.
+ */
 public
 FragmentDrivenJavaPrettyPrinter
 (

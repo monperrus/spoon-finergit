@@ -1,3 +1,6 @@
+/** 
+ * Returns a new symbolic evaluation path that only contains the {@link StepKind#EXIT} steps of this current path.
+ */
 public
 SymbolicEvaluationPath
 getExitSteps
