@@ -38,6 +38,7 @@ equals
 "process"
 )
 &&
+(
 m
 .
 getParameterTypes
@@ -47,6 +48,7 @@ getParameterTypes
 length
 ==
 1
+)
 )
 {
 Class
@@ -72,13 +74,6 @@ c
 {
 addProcessedElementType
 (
-(
-Class
-<
-?
-CtElement
->
-)
 c
 )
 ;

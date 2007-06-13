@@ -1,3 +1,4 @@
+@Override
 public
 void
 setFactory
@@ -6,10 +7,18 @@ Factory
 factory
 )
 {
-this
+super
 .
+setFactory
+(
 factory
-=
+)
+;
+javaPrinter
+.
+setFactory
+(
 factory
+)
 ;
 }
