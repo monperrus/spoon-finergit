@@ -12,8 +12,6 @@ File
 outputDirectory
 )
 {
-this
-.
 outputDir
 =
 outputDirectory

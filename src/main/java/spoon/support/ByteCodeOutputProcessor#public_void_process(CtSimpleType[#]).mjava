@@ -18,8 +18,10 @@ isTopLevel
 (
 )
 )
+{
 return
 ;
+}
 javaPrinter
 .
 getCreatedFiles
