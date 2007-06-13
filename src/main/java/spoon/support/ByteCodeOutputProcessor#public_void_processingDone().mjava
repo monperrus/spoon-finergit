@@ -33,7 +33,7 @@ getCompilerOption
 (
 )
 .
-complianceLevel
+targetJDK
 =
 getJavaCompliance
 (
