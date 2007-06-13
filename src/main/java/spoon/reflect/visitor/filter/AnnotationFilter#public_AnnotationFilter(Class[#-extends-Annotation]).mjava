@@ -1,3 +1,7 @@
+/** 
+ * Creates the filter.
+ * @param annotationType the annotation type which is searched
+ */
 public
 AnnotationFilter
 (
