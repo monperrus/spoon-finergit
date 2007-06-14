@@ -2,6 +2,9 @@ public
 void
 calculate
 (
+CompilationUnit
+sourceCompilationUnit
+,
 List
 <
 CtSimpleType
@@ -12,6 +15,12 @@ CtSimpleType
 types
 )
 {
+this
+.
+sourceCompilationUnit
+=
+sourceCompilationUnit
+;
 for
 (
 CtSimpleType
