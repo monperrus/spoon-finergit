@@ -1,0 +1,14 @@
+public
+BoundTestTemplate
+(
+int
+_max_
+)
+{
+this
+.
+_max_
+=
+_max_
+;
+}

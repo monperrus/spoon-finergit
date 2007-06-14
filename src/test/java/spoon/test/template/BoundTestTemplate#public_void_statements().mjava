@@ -1,0 +1,26 @@
+public
+void
+statements
+(
+)
+{
+if
+(
+elements
+.
+size
+(
+)
+>=
+_max_
+)
+{
+throw
+new
+RuntimeException
+(
+"stack is full"
+)
+;
+}
+}

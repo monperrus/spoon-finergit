@@ -1,0 +1,15 @@
+public
+T
+pop
+(
+)
+{
+return
+elements
+.
+remove
+(
+0
+)
+;
+}
