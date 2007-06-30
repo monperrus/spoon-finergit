@@ -1,0 +1,17 @@
+/** 
+ * Creates a literal symbolic instance.
+ */
+public
+SymbolicInstance
+(
+String
+literal
+)
+{
+this
+.
+literal
+=
+literal
+;
+}
