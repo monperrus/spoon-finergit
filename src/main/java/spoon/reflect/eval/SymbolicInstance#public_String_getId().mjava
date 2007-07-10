@@ -7,6 +7,15 @@ getId
 (
 )
 {
+if
+(
+literal
+!=
+null
+)
+return
+literal
+;
 return
 getSymbolId
 (
