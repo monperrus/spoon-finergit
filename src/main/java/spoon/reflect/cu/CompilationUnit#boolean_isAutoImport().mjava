@@ -1,0 +1,10 @@
+/** 
+ * Tells if this compilation unit auto-import feature is on or off (default is on).
+ * @see #getManualImports()
+ * @see #setManualImports(Set)
+ */
+boolean
+isAutoImport
+(
+)
+;

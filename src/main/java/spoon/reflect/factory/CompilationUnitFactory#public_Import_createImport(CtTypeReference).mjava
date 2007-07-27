@@ -1,0 +1,19 @@
+/** 
+ * Creates an import for the given type.
+ */
+public
+Import
+createImport
+(
+CtTypeReference
+type
+)
+{
+return
+new
+ImportImpl
+(
+type
+)
+;
+}

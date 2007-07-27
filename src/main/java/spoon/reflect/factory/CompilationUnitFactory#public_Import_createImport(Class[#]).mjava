@@ -1,0 +1,33 @@
+/** 
+ * Creates an import for the given type.
+ */
+public
+Import
+createImport
+(
+Class
+<
+?
+>
+type
+)
+{
+return
+new
+ImportImpl
+(
+getFactory
+(
+)
+.
+Type
+(
+)
+.
+createReference
+(
+type
+)
+)
+;
+}

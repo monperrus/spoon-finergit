@@ -1,0 +1,19 @@
+/** 
+ * Creates an import for the given field.
+ */
+public
+Import
+createImport
+(
+CtFieldReference
+field
+)
+{
+return
+new
+ImportImpl
+(
+field
+)
+;
+}

@@ -1,0 +1,15 @@
+/** 
+ * Sets the imports to be forced by this compilation unit when the auto-import is off.
+ * @see #isAutoImport()
+ * @see #setAutoImport(boolean)
+ */
+void
+setManualImports
+(
+Set
+<
+Import
+>
+manualImports
+)
+;

@@ -1,0 +1,19 @@
+/** 
+ * Constructor.
+ */
+public
+TypeReferenceScanner
+(
+)
+{
+references
+=
+new
+HashSet
+<
+CtTypeReference
+>
+(
+)
+;
+}

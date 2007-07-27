@@ -1,0 +1,26 @@
+/** 
+ * Adds a reference.
+ */
+private
+<
+T
+>
+boolean
+addReference
+(
+CtTypeReference
+<
+T
+>
+ref
+)
+{
+return
+references
+.
+add
+(
+ref
+)
+;
+}

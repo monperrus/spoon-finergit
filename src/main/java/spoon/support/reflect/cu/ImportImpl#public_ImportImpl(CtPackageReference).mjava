@@ -1,0 +1,12 @@
+public
+ImportImpl
+(
+CtPackageReference
+pack
+)
+{
+reference
+=
+pack
+;
+}

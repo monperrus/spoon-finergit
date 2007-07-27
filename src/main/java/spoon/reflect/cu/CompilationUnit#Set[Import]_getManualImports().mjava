@@ -1,0 +1,13 @@
+/** 
+ * Gets the imports to be forced by this compilation unit when the auto-import is off. This set can be modified and will impact the imports.
+ * @see #isAutoImport()
+ * @see #setAutoImport(boolean)
+ */
+Set
+<
+Import
+>
+getManualImports
+(
+)
+;

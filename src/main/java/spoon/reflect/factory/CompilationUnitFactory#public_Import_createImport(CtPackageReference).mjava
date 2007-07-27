@@ -1,0 +1,19 @@
+/** 
+ * Creates an import for the given package.
+ */
+public
+Import
+createImport
+(
+CtPackageReference
+pack
+)
+{
+return
+new
+ImportImpl
+(
+pack
+)
+;
+}

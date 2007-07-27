@@ -1,0 +1,21 @@
+/** 
+ * Constructor.
+ * @param references a set to fill with the references
+ */
+public
+TypeReferenceScanner
+(
+HashSet
+<
+CtTypeReference
+>
+references
+)
+{
+this
+.
+references
+=
+references
+;
+}
