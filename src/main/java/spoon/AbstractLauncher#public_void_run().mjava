@@ -19,7 +19,7 @@ getEnvironment
 .
 reportProgressMessage
 (
-"Spoon version 1.3"
+"Spoon version 1.4"
 )
 ;
 getFactory
