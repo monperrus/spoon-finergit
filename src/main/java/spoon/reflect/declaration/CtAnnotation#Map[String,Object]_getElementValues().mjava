@@ -1,6 +1,6 @@
 /** 
- * Returns this annotation's elements and their values. This is returned in the form of a map that associates element names with their corresponding values.
- * @return this annotation's element anmes and their values, or an empty mapif there are none
+ * Returns this annotation's elements and their values. This is returned in the form of a map that associates element names with their corresponding values. <p> Note that <code>getElementValue("key")</code> is not completely similar to <code>getElementValues().get("key")</code> since the former converts type references into the actual types.
+ * @return this annotation's element names and their values, or an empty mapif there are none
  */
 Map
 <
