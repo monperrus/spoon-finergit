@@ -3,6 +3,9 @@ void
 process
 (
 CtClass
+<
+?
+>
 clazz
 )
 {
@@ -60,6 +63,9 @@ SuperTemplate
 )
 ;
 CtClass
+<
+?
+>
 c
 =
 getFactory

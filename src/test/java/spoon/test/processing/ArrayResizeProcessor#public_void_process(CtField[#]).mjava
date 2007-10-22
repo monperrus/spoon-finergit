@@ -3,6 +3,9 @@ void
 process
 (
 CtField
+<
+?
+>
 field
 )
 {
@@ -44,6 +47,9 @@ insertAll
 (
 (
 CtClass
+<
+?
+>
 )
 field
 .
