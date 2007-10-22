@@ -25,6 +25,9 @@ target
 List
 <
 CtTypeReference
+<
+?
+>
 >
 refs
 =
@@ -38,6 +41,9 @@ new
 ReferenceTypeFilter
 <
 CtTypeReference
+<
+?
+>
 >
 (
 CtTypeReference
@@ -76,6 +82,9 @@ getPackage
 for
 (
 CtTypeReference
+<
+?
+>
 ref
 :
 refs

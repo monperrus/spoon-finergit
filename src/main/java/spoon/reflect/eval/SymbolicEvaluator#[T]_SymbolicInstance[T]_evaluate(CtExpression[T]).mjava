@@ -1,0 +1,19 @@
+/** 
+ * Evaluates the given meta-model expression in the current context of the evaluator.
+ */
+<
+T
+>
+SymbolicInstance
+<
+T
+>
+evaluate
+(
+CtExpression
+<
+T
+>
+expresion
+)
+;

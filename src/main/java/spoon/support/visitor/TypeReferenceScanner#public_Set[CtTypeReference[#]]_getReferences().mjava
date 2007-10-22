@@ -1,0 +1,19 @@
+/** 
+ * Returns the set of calculated references.
+ */
+public
+Set
+<
+CtTypeReference
+<
+?
+>
+>
+getReferences
+(
+)
+{
+return
+references
+;
+}

@@ -1,0 +1,15 @@
+public
+ImportImpl
+(
+CtFieldReference
+<
+?
+>
+field
+)
+{
+reference
+=
+field
+;
+}

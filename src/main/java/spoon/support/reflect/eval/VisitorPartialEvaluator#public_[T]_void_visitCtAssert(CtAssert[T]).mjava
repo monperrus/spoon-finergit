@@ -1,0 +1,22 @@
+public
+<
+T
+>
+void
+visitCtAssert
+(
+CtAssert
+<
+T
+>
+asserted
+)
+{
+throw
+new
+RuntimeException
+(
+"Unknow Element"
+)
+;
+}

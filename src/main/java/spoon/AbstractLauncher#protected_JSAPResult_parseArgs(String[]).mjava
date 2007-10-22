@@ -43,6 +43,9 @@ java
 util
 .
 Iterator
+<
+?
+>
 errs
 =
 arguments

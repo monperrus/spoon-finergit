@@ -1,0 +1,24 @@
+/** 
+ * Gets the current result (returned value) for the top stack frame of this stack.
+ */
+public
+SymbolicInstance
+<
+?
+>
+getResult
+(
+)
+{
+return
+frameStack
+.
+peek
+(
+)
+.
+getResult
+(
+)
+;
+}

@@ -49,6 +49,9 @@ true
 for
 (
 CtTypeReference
+<
+?
+>
 param
 :
 params

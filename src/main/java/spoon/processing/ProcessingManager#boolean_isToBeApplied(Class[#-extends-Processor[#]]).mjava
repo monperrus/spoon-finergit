@@ -1,0 +1,19 @@
+/** 
+ * Returns  {@code true} if the manager will apply a given processor typewhen invoking one of the  {@code process} methods. To be appliedprocessors are the ones that have been added with one of the {@code addProcessor} methods.
+ * @see #process(Collection)
+ * @see #process()
+ */
+boolean
+isToBeApplied
+(
+Class
+<
+?
+Processor
+<
+?
+>
+>
+type
+)
+;

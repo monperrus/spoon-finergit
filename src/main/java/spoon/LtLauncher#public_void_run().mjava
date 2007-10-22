@@ -243,6 +243,9 @@ getStringArray
 )
 ;
 Class
+<
+?
+>
 clas
 =
 ccl
@@ -253,6 +256,9 @@ progClass
 )
 ;
 Class
+<
+?
+>
 mainArgType
 =
 {

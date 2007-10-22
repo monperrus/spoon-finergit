@@ -9,7 +9,7 @@ getSuperclass
 {
 CtSimpleType
 <
-?
+T
 >
 t
 =
@@ -36,7 +36,7 @@ return
 (
 CtClass
 <
-?
+T
 >
 )
 t
@@ -52,7 +52,7 @@ else
 {
 Class
 <
-?
+T
 >
 c
 =

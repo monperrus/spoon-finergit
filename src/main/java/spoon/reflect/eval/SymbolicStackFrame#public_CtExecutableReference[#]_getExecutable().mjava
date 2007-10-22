@@ -1,0 +1,16 @@
+/** 
+ * Gets the executable of the frame.
+ */
+public
+CtExecutableReference
+<
+?
+>
+getExecutable
+(
+)
+{
+return
+executable
+;
+}

@@ -13,8 +13,14 @@ for
 Entry
 <
 CtVariableReference
+<
+?
+>
 ,
 SymbolicInstance
+<
+?
+>
 >
 e
 :
@@ -144,6 +150,9 @@ new
 ArrayList
 <
 SymbolicInstance
+<
+?
+>
 >
 (
 )
@@ -151,6 +160,9 @@ SymbolicInstance
 for
 (
 SymbolicInstance
+<
+?
+>
 i
 :
 frame

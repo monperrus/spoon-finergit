@@ -37,6 +37,9 @@ write
 for
 (
 CtTypeReference
+<
+?
+>
 ref
 :
 typeParameter

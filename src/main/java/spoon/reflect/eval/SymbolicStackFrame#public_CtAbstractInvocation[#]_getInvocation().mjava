@@ -1,0 +1,16 @@
+/** 
+ * Gets the parent invocation of this frame.
+ */
+public
+CtAbstractInvocation
+<
+?
+>
+getInvocation
+(
+)
+{
+return
+invocation
+;
+}

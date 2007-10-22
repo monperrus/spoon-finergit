@@ -32,6 +32,9 @@ write
 for
 (
 CtTypeReference
+<
+?
+>
 ref
 :
 t

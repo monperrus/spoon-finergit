@@ -1,0 +1,64 @@
+/** 
+ * Creates a type parameter.
+ * @param owner the owning declaration
+ * @param name the name of the formal parameter
+ * @param bounds the bounds
+ */
+public
+CtTypeParameter
+createTypeParameter
+(
+CtElement
+owner
+,
+String
+name
+,
+List
+<
+CtTypeReference
+<
+?
+>
+>
+bounds
+)
+{
+CtTypeParameter
+typeParam
+=
+factory
+.
+Core
+(
+)
+.
+createTypeParameter
+(
+)
+;
+typeParam
+.
+setParent
+(
+owner
+)
+;
+typeParam
+.
+setName
+(
+name
+)
+;
+typeParam
+.
+setBounds
+(
+bounds
+)
+;
+return
+typeParam
+;
+}

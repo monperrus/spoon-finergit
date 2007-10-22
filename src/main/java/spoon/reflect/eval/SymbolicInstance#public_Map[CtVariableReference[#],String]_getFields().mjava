@@ -1,0 +1,21 @@
+/** 
+ * Gets the fields for this instance.
+ */
+public
+Map
+<
+CtVariableReference
+<
+?
+>
+,
+String
+>
+getFields
+(
+)
+{
+return
+fields
+;
+}

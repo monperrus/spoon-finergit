@@ -8,6 +8,9 @@ getModifiers
 )
 {
 CtSimpleType
+<
+T
+>
 t
 =
 getDeclaration
@@ -32,6 +35,9 @@ getModifiers
 else
 {
 Class
+<
+T
+>
 c
 =
 getActualClass

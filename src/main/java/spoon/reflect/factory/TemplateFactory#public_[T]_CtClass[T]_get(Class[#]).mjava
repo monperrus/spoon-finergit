@@ -1,0 +1,33 @@
+/** 
+ * Gets a template CT class from its actual class.
+ * @param templateClass the runtime class
+ * @return the compile-time class
+ */
+public
+<
+T
+>
+CtClass
+<
+T
+>
+get
+(
+Class
+<
+?
+>
+templateClass
+)
+{
+return
+get
+(
+templateClass
+.
+getName
+(
+)
+)
+;
+}

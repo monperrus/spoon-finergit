@@ -1,0 +1,39 @@
+/** 
+ * Creates an annotation type.
+ * @param qualifiedName the fully qualified name of the annotation type.
+ */
+public
+CtAnnotationType
+<
+?
+>
+create
+(
+String
+qualifiedName
+)
+{
+return
+create
+(
+factory
+.
+Package
+(
+)
+.
+getOrCreate
+(
+getPackageName
+(
+qualifiedName
+)
+)
+,
+getSimpleName
+(
+qualifiedName
+)
+)
+;
+}

@@ -14,6 +14,12 @@ getBody
 )
 {
 return
+(
+CtBlock
+<
+B
+>
+)
 body
 ;
 }

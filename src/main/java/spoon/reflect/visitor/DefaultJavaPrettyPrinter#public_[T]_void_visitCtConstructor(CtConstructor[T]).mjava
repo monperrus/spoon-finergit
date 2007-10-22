@@ -126,6 +126,9 @@ write
 for
 (
 CtTypeReference
+<
+?
+>
 ref
 :
 c

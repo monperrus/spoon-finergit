@@ -19,10 +19,16 @@ return
 true
 ;
 SymbolicInstance
+<
+?
+>
 i
 =
 (
 SymbolicInstance
+<
+?
+>
 )
 obj
 ;

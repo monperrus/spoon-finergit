@@ -15,6 +15,9 @@ newClass
 List
 <
 SymbolicInstance
+<
+?
+>
 >
 arguments
 =
@@ -22,6 +25,9 @@ new
 ArrayList
 <
 SymbolicInstance
+<
+?
+>
 >
 (
 )
@@ -29,6 +35,9 @@ SymbolicInstance
 for
 (
 CtExpression
+<
+?
+>
 expr
 :
 newClass
@@ -39,6 +48,9 @@ getArguments
 )
 {
 SymbolicInstance
+<
+?
+>
 o
 =
 evaluate

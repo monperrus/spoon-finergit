@@ -114,6 +114,9 @@ size
 for
 (
 CtTypeReference
+<
+?
+>
 ref
 :
 newClass

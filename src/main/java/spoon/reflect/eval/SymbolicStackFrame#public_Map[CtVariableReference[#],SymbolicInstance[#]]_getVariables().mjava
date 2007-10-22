@@ -1,0 +1,24 @@
+/** 
+ * Gets the local variables defined for this frame.
+ */
+public
+Map
+<
+CtVariableReference
+<
+?
+>
+,
+SymbolicInstance
+<
+?
+>
+>
+getVariables
+(
+)
+{
+return
+variables
+;
+}

@@ -1,0 +1,21 @@
+/** 
+ * Visits an enumeration declaration.
+ */
+<
+T
+extends
+Enum
+<
+?
+>
+>
+void
+visitCtEnum
+(
+CtEnum
+<
+T
+>
+ctEnum
+)
+;

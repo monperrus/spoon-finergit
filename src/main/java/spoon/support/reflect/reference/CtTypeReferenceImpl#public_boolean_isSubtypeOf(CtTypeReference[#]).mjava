@@ -39,6 +39,9 @@ type
 )
 ;
 CtSimpleType
+<
+?
+>
 t2
 =
 type
@@ -48,6 +51,9 @@ getDeclaration
 )
 ;
 CtSimpleType
+<
+?
+>
 t1
 =
 getDeclaration
@@ -89,7 +95,7 @@ return
 (
 CtArrayTypeReference
 <
-T
+?
 >
 )
 this

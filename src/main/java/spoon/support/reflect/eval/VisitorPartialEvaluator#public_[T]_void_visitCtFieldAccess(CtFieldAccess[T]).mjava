@@ -31,6 +31,9 @@ equals
 )
 {
 Class
+<
+?
+>
 c
 =
 fieldAccess
@@ -57,6 +60,9 @@ null
 CtLiteral
 <
 Class
+<
+?
+>
 >
 l
 =
@@ -126,6 +132,9 @@ getDeclaringType
 CtLiteral
 <
 CtFieldReference
+<
+?
+>
 >
 l
 =

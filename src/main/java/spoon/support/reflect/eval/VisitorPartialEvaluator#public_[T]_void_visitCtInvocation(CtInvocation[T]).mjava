@@ -103,6 +103,9 @@ false
 for
 (
 CtExpression
+<
+?
+>
 e
 :
 invocation
@@ -113,6 +116,9 @@ getArguments
 )
 {
 CtExpression
+<
+?
+>
 re
 =
 evaluate

@@ -8,6 +8,9 @@ getModifiers
 )
 {
 CtVariable
+<
+T
+>
 v
 =
 getDeclaration

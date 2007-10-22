@@ -1,0 +1,14 @@
+/** 
+ * Sets the executable block.
+ * @param block the representation of this executable
+ */
+void
+setBody
+(
+CtBlock
+<
+?
+>
+block
+)
+;

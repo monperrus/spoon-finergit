@@ -1,0 +1,31 @@
+/** 
+ * Returns a reference on the null type (type of null).
+ */
+public
+CtTypeReference
+<
+?
+>
+nullType
+(
+)
+{
+if
+(
+nullType
+==
+null
+)
+nullType
+=
+createReference
+(
+CtTypeReference
+.
+NULL_TYPE_NAME
+)
+;
+return
+nullType
+;
+}

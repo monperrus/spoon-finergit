@@ -169,6 +169,9 @@ print
 )
 ;
 FileGenerator
+<
+?
+>
 fg
 =
 getFactory
@@ -364,6 +367,9 @@ progClass
 )
 ;
 Class
+<
+?
+>
 clas
 =
 getClass
@@ -380,6 +386,9 @@ progClass
 )
 ;
 Class
+<
+?
+>
 mainArgType
 =
 {

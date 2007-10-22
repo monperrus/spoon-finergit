@@ -1,0 +1,16 @@
+public
+void
+setBody
+(
+CtBlock
+<
+?
+>
+block
+)
+{
+body
+=
+block
+;
+}

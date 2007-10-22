@@ -11,6 +11,9 @@ scope
 )
 {
 CtSimpleType
+<
+?
+>
 t
 =
 createType

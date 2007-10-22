@@ -51,6 +51,9 @@ CtTypeReference
 for
 (
 CtAnnotation
+<
+?
+>
 a
 :
 context

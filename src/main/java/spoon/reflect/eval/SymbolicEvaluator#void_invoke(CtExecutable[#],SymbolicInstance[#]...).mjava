@@ -1,0 +1,22 @@
+/** 
+ * Starts a symbolic evaluation by invoking a given static executable.
+ * @param executable to be invoked symbolically
+ * @param args the arguments of the call (as symbolic instances)
+ */
+void
+invoke
+(
+CtExecutable
+<
+?
+>
+executable
+,
+SymbolicInstance
+<
+?
+>
+...
+args
+)
+;

@@ -1,9 +1,0 @@
-/** 
- * Gets the class that defines this element.
- * @return owner class
- */
-CtClass
-getOwnerClass
-(
-)
-;

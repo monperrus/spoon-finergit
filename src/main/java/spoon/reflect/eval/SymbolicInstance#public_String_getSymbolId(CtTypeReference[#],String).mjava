@@ -1,0 +1,59 @@
+/** 
+ * Helper method to get the symbol's unique Id from its type and its name.
+ * @param concreteType the type
+ * @param name the name (can be null)
+ * @return a unique Id or the type id if name is null
+ */
+public
+static
+String
+getSymbolId
+(
+CtTypeReference
+<
+?
+>
+concreteType
+,
+String
+name
+)
+{
+CtTypeReference
+<
+?
+>
+t
+=
+concreteType
+;
+if
+(
+name
+!=
+null
+)
+{
+return
+t
+.
+getQualifiedName
+(
+)
++
+"$"
++
+name
+;
+}
+else
+{
+return
+t
+.
+getQualifiedName
+(
+)
+;
+}
+}

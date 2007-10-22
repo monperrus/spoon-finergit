@@ -1,0 +1,13 @@
+/** 
+ * Sets the tried body.
+ */
+void
+setBody
+(
+CtBlock
+<
+?
+>
+body
+)
+;

@@ -1,0 +1,22 @@
+public
+<
+T
+>
+void
+visitCtConstructor
+(
+CtConstructor
+<
+T
+>
+c
+)
+{
+throw
+new
+RuntimeException
+(
+"Not evaluable"
+)
+;
+}

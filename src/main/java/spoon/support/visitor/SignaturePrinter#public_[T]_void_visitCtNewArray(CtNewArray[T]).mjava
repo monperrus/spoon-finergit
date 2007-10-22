@@ -29,6 +29,9 @@ getType
 for
 (
 CtExpression
+<
+?
+>
 c
 :
 newArray
@@ -62,6 +65,9 @@ write
 for
 (
 CtExpression
+<
+?
+>
 e
 :
 newArray

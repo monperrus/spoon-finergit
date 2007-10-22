@@ -1,0 +1,13 @@
+/** 
+ * Sets the synchronized block.
+ */
+void
+setBlock
+(
+CtBlock
+<
+?
+>
+block
+)
+;

@@ -542,6 +542,9 @@ getResult
 for
 (
 CtSimpleType
+<
+?
+>
 t
 :
 toBePrinted

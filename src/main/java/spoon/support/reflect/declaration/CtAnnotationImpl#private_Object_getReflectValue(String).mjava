@@ -9,6 +9,9 @@ fieldname
 try
 {
 Class
+<
+?
+>
 c
 =
 getAnnotationType

@@ -1,0 +1,12 @@
+/** 
+ * Gets the runtime constructor that corresponds to an executable reference if any.
+ * @return the constructor (null if not found)
+ */
+Constructor
+<
+?
+>
+getActualConstructor
+(
+)
+;

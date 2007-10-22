@@ -11,6 +11,9 @@ scope
 )
 {
 CtBinaryOperator
+<
+?
+>
 op
 =
 factory

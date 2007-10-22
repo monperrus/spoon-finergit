@@ -1,0 +1,28 @@
+/** 
+ * Creates a new invocation filter.
+ * @param executable the executable to be tested for being invoked
+ */
+public
+InvocationFilter
+(
+CtExecutableReference
+<
+?
+>
+executable
+)
+{
+super
+(
+CtInvocation
+.
+class
+)
+;
+this
+.
+executable
+=
+executable
+;
+}

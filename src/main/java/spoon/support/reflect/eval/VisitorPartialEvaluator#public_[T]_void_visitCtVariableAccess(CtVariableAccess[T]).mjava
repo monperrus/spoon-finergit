@@ -13,6 +13,9 @@ variableAccess
 )
 {
 CtVariable
+<
+?
+>
 v
 =
 variableAccess

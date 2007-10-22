@@ -34,6 +34,9 @@ write
 for
 (
 CtCase
+<
+?
+>
 c
 :
 switchStatement

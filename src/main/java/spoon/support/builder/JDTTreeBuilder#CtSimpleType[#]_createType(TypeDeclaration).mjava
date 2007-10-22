@@ -9,6 +9,9 @@ typeDeclaration
 )
 {
 CtSimpleType
+<
+?
+>
 type
 =
 null
@@ -30,6 +33,12 @@ AccAnnotation
 {
 type
 =
+(
+CtSimpleType
+<
+?
+>
+)
 factory
 .
 Core

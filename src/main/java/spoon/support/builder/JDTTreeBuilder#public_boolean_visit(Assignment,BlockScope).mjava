@@ -11,6 +11,11 @@ scope
 )
 {
 CtAssignment
+<
+Object
+,
+Object
+>
 assign
 =
 factory

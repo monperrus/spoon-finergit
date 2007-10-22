@@ -11,6 +11,11 @@ scope
 )
 {
 CtOperatorAssignment
+<
+Object
+,
+Object
+>
 a
 =
 factory

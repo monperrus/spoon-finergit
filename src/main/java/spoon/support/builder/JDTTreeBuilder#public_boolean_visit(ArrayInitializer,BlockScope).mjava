@@ -22,6 +22,9 @@ isEmpty
 )
 {
 CtNewArray
+<
+?
+>
 array
 =
 factory

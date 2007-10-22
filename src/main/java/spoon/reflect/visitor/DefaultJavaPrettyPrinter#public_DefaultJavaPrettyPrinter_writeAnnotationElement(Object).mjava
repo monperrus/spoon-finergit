@@ -26,6 +26,9 @@ scan
 (
 (
 CtTypeReference
+<
+?
+>
 )
 value
 )
@@ -74,6 +77,9 @@ write
 (
 (
 CtFieldReference
+<
+?
+>
 )
 value
 )
@@ -159,6 +165,9 @@ if
 (
 (
 Collection
+<
+?
+>
 )
 value
 )
@@ -175,6 +184,9 @@ obj
 :
 (
 Collection
+<
+?
+>
 )
 value
 )

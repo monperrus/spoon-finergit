@@ -12,6 +12,9 @@ statements
 List
 <
 CtInvocation
+<
+?
+>
 >
 invocations
 =
@@ -25,6 +28,9 @@ new
 TypeFilter
 <
 CtInvocation
+<
+?
+>
 >
 (
 CtInvocation

@@ -11,6 +11,9 @@ scope
 )
 {
 CtAssert
+<
+?
+>
 a
 =
 factory

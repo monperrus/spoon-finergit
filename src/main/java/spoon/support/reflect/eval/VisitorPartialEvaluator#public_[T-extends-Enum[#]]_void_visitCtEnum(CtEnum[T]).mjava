@@ -1,0 +1,27 @@
+public
+<
+T
+extends
+Enum
+<
+?
+>
+>
+void
+visitCtEnum
+(
+CtEnum
+<
+T
+>
+ctEnum
+)
+{
+throw
+new
+RuntimeException
+(
+"Unknow Element"
+)
+;
+}

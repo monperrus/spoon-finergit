@@ -1,0 +1,17 @@
+/** 
+ * Returns the constructor of the class that takes the given argument types.
+ */
+CtConstructor
+<
+T
+>
+getConstructor
+(
+CtTypeReference
+<
+?
+>
+...
+parameterTypes
+)
+;

@@ -1,0 +1,14 @@
+/** 
+ * Gets the executables declared by this type if applicable.
+ */
+Collection
+<
+CtExecutableReference
+<
+?
+>
+>
+getDeclaredExecutables
+(
+)
+;

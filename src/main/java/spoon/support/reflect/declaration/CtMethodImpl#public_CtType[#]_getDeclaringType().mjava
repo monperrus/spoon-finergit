@@ -10,6 +10,9 @@ getDeclaringType
 return
 (
 CtType
+<
+?
+>
 )
 parent
 ;

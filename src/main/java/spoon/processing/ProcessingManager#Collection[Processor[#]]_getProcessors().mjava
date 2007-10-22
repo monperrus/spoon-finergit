@@ -1,0 +1,16 @@
+/** 
+ * Gets the processors that have been added to the manager and that will be applied when invoking one of the  {@code process} methods).
+ * @see #process(Collection)
+ * @see #process()
+ */
+Collection
+<
+Processor
+<
+?
+>
+>
+getProcessors
+(
+)
+;

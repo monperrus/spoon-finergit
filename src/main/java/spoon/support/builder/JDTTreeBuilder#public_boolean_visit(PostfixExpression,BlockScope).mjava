@@ -11,6 +11,9 @@ scope
 )
 {
 CtUnaryOperator
+<
+?
+>
 op
 =
 factory
