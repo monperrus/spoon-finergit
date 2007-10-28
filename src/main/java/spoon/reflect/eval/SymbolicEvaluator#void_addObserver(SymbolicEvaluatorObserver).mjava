@@ -1,0 +1,7 @@
+void
+addObserver
+(
+SymbolicEvaluatorObserver
+observer
+)
+;

@@ -1,0 +1,16 @@
+public
+void
+addObserver
+(
+SymbolicEvaluatorObserver
+observer
+)
+{
+observers
+.
+add
+(
+observer
+)
+;
+}

@@ -1,0 +1,27 @@
+public
+void
+onStartPath
+(
+SymbolicEvaluator
+evaluator
+)
+{
+stepNumber
+=
+0
+;
+pathNumber
+++
+;
+System
+.
+out
+.
+println
+(
+"-- start dump path "
++
+pathNumber
+)
+;
+}

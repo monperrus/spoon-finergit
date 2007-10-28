@@ -9,6 +9,13 @@ CtTypeReference
 type
 )
 {
+if
+(
+type
+!=
+null
+)
+{
 return
 type
 .
@@ -16,5 +23,9 @@ isSubtypeOf
 (
 this
 )
+;
+}
+return
+false
 ;
 }

@@ -12,6 +12,8 @@ T
 reference
 )
 {
+try
+{
 write
 (
 reference
@@ -59,4 +61,21 @@ getSimpleName
 )
 )
 ;
+}
+catch
+(
+NullPointerException
+npe
+)
+{
+System
+.
+err
+.
+println
+(
+"Null Pointer Exception in SingnaturePrinter.visitCtFieldReference()"
+)
+;
+}
 }

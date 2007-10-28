@@ -230,6 +230,17 @@ left
 getConcreteType
 (
 )
+!=
+null
+)
+&&
+(
+(
+left
+.
+getConcreteType
+(
+)
 .
 getActualClass
 (
@@ -254,6 +265,7 @@ getActualClass
 String
 .
 class
+)
 )
 )
 {
