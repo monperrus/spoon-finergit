@@ -1,0 +1,14 @@
+/** 
+ * Starts a symbolic evaluation by invoking a given executable and constructs default symbolic instances for the parameters and the target when needed. Note that symbolic evaluation may have several paths and thus several results. In order to access the evaluation information, you need to use  {@link #addObserver(SymbolicEvaluatorObserver)}.
+ * @param executable to be invoked
+ */
+void
+invoke
+(
+CtExecutable
+<
+?
+>
+executable
+)
+;

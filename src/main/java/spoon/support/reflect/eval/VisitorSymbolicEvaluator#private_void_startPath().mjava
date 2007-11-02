@@ -4,16 +4,6 @@ startPath
 (
 )
 {
-paths
-.
-add
-(
-new
-SymbolicEvaluationPath
-(
-)
-)
-;
 notifyStartPath
 (
 )

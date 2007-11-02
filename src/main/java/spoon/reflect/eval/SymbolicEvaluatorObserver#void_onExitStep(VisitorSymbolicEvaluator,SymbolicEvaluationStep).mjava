@@ -1,3 +1,8 @@
+/** 
+ * The observed evaluator is leaving an evaluation step.
+ * @param evaluator the observed evaluator
+ * @param step the evaluation step which is currently entered
+ */
 void
 onExitStep
 (

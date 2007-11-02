@@ -1,3 +1,7 @@
+/** 
+ * Adds some evaluation observers.
+ * @param evaluatorObservers the observers to be notified from evaluation events
+ */
 void
 addObservers
 (

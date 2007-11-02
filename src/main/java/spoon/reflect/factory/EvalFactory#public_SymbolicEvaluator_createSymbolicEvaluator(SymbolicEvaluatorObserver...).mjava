@@ -1,16 +1,21 @@
 /** 
  * Creates a symbolic evaluator on the Spoon meta-model.
+ * @param observers the observers to be notified of the the evaluation progress
  */
 public
 SymbolicEvaluator
 createSymbolicEvaluator
 (
+SymbolicEvaluatorObserver
+...
+observers
 )
 {
 return
 new
 VisitorSymbolicEvaluator
 (
+observers
 )
 ;
 }

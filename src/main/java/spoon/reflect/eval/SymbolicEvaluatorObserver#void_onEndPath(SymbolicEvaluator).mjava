@@ -1,3 +1,7 @@
+/** 
+ * The observed evaluator is ending an evaluation path.
+ * @param evaluator the observed evaluator
+ */
 void
 onEndPath
 (

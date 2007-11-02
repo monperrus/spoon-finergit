@@ -1,5 +1,5 @@
 /** 
- * Starts a symbolic evaluation by invoking a given executable.
+ * Starts a symbolic evaluation by invoking a given executable. Note that symbolic evaluation may have several paths and thus several results. In order to access the evaluation information, you need to use {@link #addObserver(SymbolicEvaluatorObserver)}.
  * @param target the target instance
  * @param executable to be invoked
  * @param args the arguments of the call (as symbolic instances)

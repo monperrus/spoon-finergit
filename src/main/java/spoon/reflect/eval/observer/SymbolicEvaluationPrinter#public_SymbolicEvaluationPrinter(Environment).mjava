@@ -1,0 +1,18 @@
+/** 
+ * The default constructor.
+ * @param environment the environment in which the printing of the evaluation messages should be done
+ */
+public
+SymbolicEvaluationPrinter
+(
+Environment
+environment
+)
+{
+this
+.
+environment
+=
+environment
+;
+}

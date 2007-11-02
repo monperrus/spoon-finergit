@@ -9,11 +9,9 @@ SymbolicEvaluationStep
 step
 )
 {
-System
+environment
 .
-out
-.
-println
+reportProgressMessage
 (
 (
 ++

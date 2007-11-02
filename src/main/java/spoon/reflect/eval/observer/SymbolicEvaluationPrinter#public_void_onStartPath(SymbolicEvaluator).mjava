@@ -13,11 +13,9 @@ stepNumber
 pathNumber
 ++
 ;
-System
+environment
 .
-out
-.
-println
+reportProgressMessage
 (
 "-- start dump path "
 +

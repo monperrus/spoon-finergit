@@ -6,11 +6,9 @@ SymbolicEvaluator
 evaluator
 )
 {
-System
+environment
 .
-out
-.
-println
+reportProgressMessage
 (
 "-- end dump path "
 +

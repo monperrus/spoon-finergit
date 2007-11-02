@@ -1,0 +1,17 @@
+/** 
+ * Get the paths that where constructed during the evaluation of the observed evaluator.
+ * @return a collection of symbolic evaluation paths (not a copy: it can becleared to reset the observer's state)
+ */
+public
+Collection
+<
+SymbolicEvaluationPath
+>
+getPaths
+(
+)
+{
+return
+paths
+;
+}
