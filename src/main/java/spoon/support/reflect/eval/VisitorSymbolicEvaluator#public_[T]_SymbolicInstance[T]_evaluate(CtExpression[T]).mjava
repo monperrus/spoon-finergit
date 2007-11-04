@@ -22,9 +22,11 @@ expression
 ==
 null
 )
+{
 return
 null
 ;
+}
 expression
 .
 accept
@@ -38,12 +40,14 @@ result
 ==
 null
 )
+{
 result
 =
 SymbolicInstance
 .
 NULL
 ;
+}
 return
 (
 SymbolicInstance

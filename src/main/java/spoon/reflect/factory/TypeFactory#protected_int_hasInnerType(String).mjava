@@ -16,7 +16,7 @@ qualifiedName
 .
 lastIndexOf
 (
-CtType
+CtSimpleType
 .
 INNERTTYPE_SEPARATOR
 )

@@ -70,10 +70,7 @@ getValue
 )
 ;
 }
-else
-{
 return
 null
 ;
-}
 }

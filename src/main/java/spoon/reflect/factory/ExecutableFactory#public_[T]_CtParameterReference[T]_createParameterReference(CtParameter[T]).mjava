@@ -47,6 +47,7 @@ getParent
 !=
 null
 )
+{
 ref
 .
 setDeclaringExecutable
@@ -70,6 +71,7 @@ getParent
 )
 )
 ;
+}
 ref
 .
 setSimpleName

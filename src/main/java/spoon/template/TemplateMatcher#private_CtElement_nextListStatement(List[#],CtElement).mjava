@@ -18,14 +18,14 @@ inMulti
 ==
 null
 )
+{
 return
 checkListStatements
 (
 teList
 )
 ;
-else
-{
+}
 List
 <
 ?
@@ -151,5 +151,4 @@ checkListStatements
 teList2
 )
 ;
-}
 }

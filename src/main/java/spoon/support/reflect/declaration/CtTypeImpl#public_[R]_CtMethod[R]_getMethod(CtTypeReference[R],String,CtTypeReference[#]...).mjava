@@ -40,12 +40,6 @@ R
 >
 m
 =
-(
-CtMethod
-<
-R
->
-)
 mm
 ;
 if
@@ -76,8 +70,10 @@ equals
 returnType
 )
 )
+{
 continue
 ;
+}
 boolean
 cont
 =
@@ -104,6 +100,7 @@ i
 ;
 cont
 &&
+(
 i
 <
 m
@@ -115,12 +112,15 @@ getParameters
 size
 (
 )
+)
 &&
+(
 i
 <
 parameterTypes
 .
 length
+)
 ;
 i
 ++

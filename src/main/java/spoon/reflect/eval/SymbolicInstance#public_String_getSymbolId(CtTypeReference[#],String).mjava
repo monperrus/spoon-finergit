@@ -46,8 +46,6 @@ getQualifiedName
 name
 ;
 }
-else
-{
 return
 t
 .
@@ -55,5 +53,4 @@ getQualifiedName
 (
 )
 ;
-}
 }

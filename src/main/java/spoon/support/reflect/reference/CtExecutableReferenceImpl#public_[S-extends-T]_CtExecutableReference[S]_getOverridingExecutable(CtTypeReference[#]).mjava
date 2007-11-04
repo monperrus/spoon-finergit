@@ -20,9 +20,11 @@ subType
 {
 if
 (
+(
 subType
 ==
 null
+)
 ||
 subType
 .
@@ -33,9 +35,11 @@ getDeclaringType
 )
 )
 )
+{
 return
 null
 ;
+}
 CtSimpleType
 <
 ?
@@ -54,9 +58,11 @@ t
 ==
 null
 )
+{
 return
 null
 ;
+}
 if
 (
 !
@@ -66,9 +72,11 @@ instanceof
 CtClass
 )
 )
+{
 return
 null
 ;
+}
 CtClass
 <
 ?

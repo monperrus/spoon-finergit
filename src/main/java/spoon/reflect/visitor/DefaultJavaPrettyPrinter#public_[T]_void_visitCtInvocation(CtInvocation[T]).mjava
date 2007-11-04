@@ -57,10 +57,13 @@ class
 ;
 if
 (
+(
 parentType
 !=
 null
+)
 &&
+(
 parentType
 .
 getQualifiedName
@@ -68,6 +71,7 @@ getQualifiedName
 )
 !=
 null
+)
 &&
 parentType
 .
@@ -290,10 +294,12 @@ if
 (
 remove
 )
+{
 removeLastChar
 (
 )
 ;
+}
 write
 (
 ")"

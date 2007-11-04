@@ -29,8 +29,6 @@ return
 annotations
 ;
 }
-else
-{
 Class
 <
 ?
@@ -61,8 +59,6 @@ c
 if
 (
 !
-this
-.
 getSimpleName
 (
 )
@@ -76,8 +72,10 @@ getName
 )
 )
 )
+{
 continue
 ;
+}
 f
 .
 setAccessible
@@ -109,8 +107,6 @@ c
 if
 (
 !
-this
-.
 getSimpleName
 (
 )
@@ -124,8 +120,10 @@ getName
 )
 )
 )
+{
 continue
 ;
+}
 m
 .
 setAccessible
@@ -144,5 +142,4 @@ getAnnotations
 return
 null
 ;
-}
 }

@@ -16,8 +16,10 @@ stream
 ==
 null
 )
+{
 return
 ;
+}
 XMLReader
 xr
 ;

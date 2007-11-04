@@ -42,6 +42,7 @@ getSimpleName
 ;
 if
 (
+(
 f
 .
 getParent
@@ -49,6 +50,7 @@ getParent
 )
 ==
 null
+)
 ||
 !
 CtAnnotationType

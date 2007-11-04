@@ -31,9 +31,11 @@ annotation
 !=
 null
 )
+{
 return
 annotation
 ;
+}
 Class
 <
 ?
@@ -64,8 +66,6 @@ c
 if
 (
 !
-this
-.
 getSimpleName
 (
 )
@@ -79,8 +79,10 @@ getName
 )
 )
 )
+{
 continue
 ;
+}
 if
 (
 getParameterTypes
@@ -99,8 +101,10 @@ getParameterTypes
 .
 length
 )
+{
 continue
 ;
+}
 int
 i
 =

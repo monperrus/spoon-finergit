@@ -67,9 +67,11 @@ CtSynchronized
 )
 )
 )
+{
 write
 (
 ";"
 )
 ;
+}
 }

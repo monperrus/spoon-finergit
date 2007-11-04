@@ -35,6 +35,7 @@ getAllRoots
 (
 )
 )
+{
 cst
 .
 scan
@@ -42,14 +43,13 @@ scan
 p
 )
 ;
+}
 this
 .
 factory
 =
 factory
 ;
-this
-.
 root
 =
 cst

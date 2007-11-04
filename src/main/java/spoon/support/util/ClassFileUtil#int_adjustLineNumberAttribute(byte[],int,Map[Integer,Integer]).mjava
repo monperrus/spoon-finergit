@@ -112,9 +112,6 @@ null
 int
 ipos
 =
-(
-int
-)
 pos
 ;
 bytes

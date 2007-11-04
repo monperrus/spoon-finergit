@@ -21,10 +21,13 @@ container
 ==
 null
 )
+{
 return
 false
 ;
+}
 if
+(
 (
 container
 .
@@ -33,6 +36,7 @@ getSimpleName
 )
 ==
 null
+)
 ||
 container
 .
@@ -45,9 +49,11 @@ equals
 ""
 )
 )
+{
 return
 false
 ;
+}
 for
 (
 CtFieldReference

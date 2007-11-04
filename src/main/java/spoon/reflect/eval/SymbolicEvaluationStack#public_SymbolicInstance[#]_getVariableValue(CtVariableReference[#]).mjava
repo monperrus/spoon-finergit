@@ -50,8 +50,6 @@ vref
 )
 ;
 }
-else
-{
 throw
 new
 RuntimeException
@@ -63,5 +61,4 @@ vref
 "'"
 )
 ;
-}
 }

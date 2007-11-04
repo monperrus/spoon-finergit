@@ -28,9 +28,11 @@ context
 .
 skipArray
 )
+{
 write
 (
 "[]"
 )
 ;
+}
 }

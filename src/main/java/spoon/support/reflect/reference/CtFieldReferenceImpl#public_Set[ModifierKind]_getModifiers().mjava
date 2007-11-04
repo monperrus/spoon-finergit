@@ -1,3 +1,4 @@
+@Override
 public
 Set
 <
@@ -32,8 +33,6 @@ getModifiers
 )
 ;
 }
-else
-{
 Member
 m
 =
@@ -61,8 +60,6 @@ getModifiers
 )
 ;
 }
-else
-{
 return
 new
 TreeSet
@@ -72,6 +69,4 @@ ModifierKind
 (
 )
 ;
-}
-}
 }

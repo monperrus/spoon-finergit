@@ -22,7 +22,7 @@ getQualifiedName
 (
 )
 +
-CtType
+CtSimpleType
 .
 INNERTTYPE_SEPARATOR
 +

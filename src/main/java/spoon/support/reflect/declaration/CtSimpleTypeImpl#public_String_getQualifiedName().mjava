@@ -6,11 +6,13 @@ getQualifiedName
 {
 if
 (
+(
 getPackage
 (
 )
 !=
 null
+)
 &&
 !
 getPackage

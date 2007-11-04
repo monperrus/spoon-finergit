@@ -75,6 +75,7 @@ isEmpty
 &&
 !
 (
+(
 ref
 .
 getBounds
@@ -86,6 +87,7 @@ size
 )
 ==
 1
+)
 &&
 ref
 .

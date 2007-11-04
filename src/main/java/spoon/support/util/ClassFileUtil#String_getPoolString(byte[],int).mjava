@@ -30,6 +30,7 @@ i
 {
 if
 (
+(
 bytes
 [
 offset
@@ -38,7 +39,9 @@ offset
 ConstantType
 .
 Double
+)
 ||
+(
 bytes
 [
 offset
@@ -47,6 +50,7 @@ offset
 ConstantType
 .
 Long
+)
 )
 {
 i

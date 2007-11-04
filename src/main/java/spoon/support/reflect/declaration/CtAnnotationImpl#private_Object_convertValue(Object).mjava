@@ -101,8 +101,6 @@ getSimpleName
 )
 ;
 }
-else
-{
 return
 convertValue
 (
@@ -113,7 +111,6 @@ getDefaultExpression
 )
 )
 ;
-}
 }
 else
 if
@@ -237,13 +234,14 @@ instanceof
 CtCodeElement
 )
 )
+{
 return
 convertValue
 (
 ret
 )
 ;
-else
+}
 return
 ret
 ;

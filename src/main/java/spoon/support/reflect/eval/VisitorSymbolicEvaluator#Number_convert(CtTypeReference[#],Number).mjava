@@ -13,6 +13,7 @@ n
 {
 if
 (
+(
 type
 .
 getActualClass
@@ -22,7 +23,9 @@ getActualClass
 int
 .
 class
+)
 ||
+(
 type
 .
 getActualClass
@@ -32,6 +35,7 @@ getActualClass
 Integer
 .
 class
+)
 )
 {
 return
@@ -44,6 +48,7 @@ intValue
 }
 if
 (
+(
 type
 .
 getActualClass
@@ -53,7 +58,9 @@ getActualClass
 byte
 .
 class
+)
 ||
+(
 type
 .
 getActualClass
@@ -63,6 +70,7 @@ getActualClass
 Byte
 .
 class
+)
 )
 {
 return
@@ -75,6 +83,7 @@ byteValue
 }
 if
 (
+(
 type
 .
 getActualClass
@@ -84,7 +93,9 @@ getActualClass
 long
 .
 class
+)
 ||
+(
 type
 .
 getActualClass
@@ -94,6 +105,7 @@ getActualClass
 Long
 .
 class
+)
 )
 {
 return
@@ -106,6 +118,7 @@ longValue
 }
 if
 (
+(
 type
 .
 getActualClass
@@ -115,7 +128,9 @@ getActualClass
 float
 .
 class
+)
 ||
+(
 type
 .
 getActualClass
@@ -125,6 +140,7 @@ getActualClass
 Float
 .
 class
+)
 )
 {
 return
@@ -137,6 +153,7 @@ floatValue
 }
 if
 (
+(
 type
 .
 getActualClass
@@ -146,7 +163,9 @@ getActualClass
 short
 .
 class
+)
 ||
+(
 type
 .
 getActualClass
@@ -156,6 +175,7 @@ getActualClass
 Short
 .
 class
+)
 )
 {
 return

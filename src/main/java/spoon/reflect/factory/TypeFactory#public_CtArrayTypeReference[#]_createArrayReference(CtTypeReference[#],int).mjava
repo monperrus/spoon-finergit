@@ -40,8 +40,6 @@ reference
 )
 ;
 }
-else
-{
 componentType
 =
 createArrayReference
@@ -53,7 +51,6 @@ n
 1
 )
 ;
-}
 CtArrayTypeReference
 <
 ?

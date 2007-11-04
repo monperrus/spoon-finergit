@@ -13,12 +13,6 @@ this
 .
 defaultExpression
 =
-(
-CtExpression
-<
-T
->
-)
 defaultExpression
 ;
 }

@@ -46,8 +46,6 @@ targetType
 =
 targetType
 ;
-this
-.
 S
 =
 f
@@ -85,8 +83,6 @@ createTypeParameterReference
 "S"
 )
 ;
-this
-.
 templateRef
 =
 f
@@ -104,8 +100,6 @@ getClass
 )
 )
 ;
-this
-.
 templateType
 =
 f
@@ -123,8 +117,6 @@ getQualifiedName
 )
 )
 ;
-this
-.
 parameterNames
 =
 Parameters
@@ -134,8 +126,6 @@ getNames
 templateType
 )
 ;
-this
-.
 targetRef
 =
 f
@@ -149,8 +139,6 @@ createReference
 targetType
 )
 ;
-this
-.
 targetRef
 .
 accept
@@ -158,8 +146,6 @@ accept
 this
 )
 ;
-this
-.
 templateTypeRef
 =
 f

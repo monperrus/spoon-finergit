@@ -16,6 +16,7 @@ nullType
 ==
 null
 )
+{
 nullType
 =
 createReference
@@ -25,6 +26,7 @@ CtTypeReference
 NULL_TYPE_NAME
 )
 ;
+}
 return
 nullType
 ;

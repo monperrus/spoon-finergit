@@ -106,8 +106,6 @@ refs
 )
 ;
 }
-else
-{
 return
 createReference
 (
@@ -144,5 +142,4 @@ getSimpleName
 refs
 )
 ;
-}
 }

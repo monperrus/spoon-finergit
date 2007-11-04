@@ -26,9 +26,11 @@ contains
 tem
 )
 &&
+(
 tem
 instanceof
 CtInvocation
+)
 )
 {
 CtInvocation

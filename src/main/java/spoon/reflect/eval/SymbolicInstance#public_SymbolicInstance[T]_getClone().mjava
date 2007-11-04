@@ -17,10 +17,11 @@ isStateful
 (
 )
 )
+{
 return
 this
 ;
-else
+}
 return
 new
 SymbolicInstance

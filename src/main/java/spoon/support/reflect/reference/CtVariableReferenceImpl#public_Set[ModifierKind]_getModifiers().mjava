@@ -32,8 +32,6 @@ getModifiers
 )
 ;
 }
-else
-{
 return
 new
 TreeSet
@@ -43,5 +41,4 @@ ModifierKind
 (
 )
 ;
-}
 }

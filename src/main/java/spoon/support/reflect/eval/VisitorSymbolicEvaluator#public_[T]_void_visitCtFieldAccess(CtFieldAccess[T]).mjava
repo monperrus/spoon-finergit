@@ -131,9 +131,11 @@ getThis
 }
 if
 (
+(
 target
 !=
 null
+)
 &&
 !
 target

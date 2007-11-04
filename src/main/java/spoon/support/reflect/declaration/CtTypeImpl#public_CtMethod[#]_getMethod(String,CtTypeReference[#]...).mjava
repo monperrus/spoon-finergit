@@ -67,6 +67,7 @@ i
 ;
 cont
 &&
+(
 i
 <
 m
@@ -78,12 +79,15 @@ getParameters
 size
 (
 )
+)
 &&
+(
 i
 <
 parameterTypes
 .
 length
+)
 ;
 i
 ++

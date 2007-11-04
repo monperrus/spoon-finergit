@@ -48,11 +48,13 @@ ref
 !=
 null
 )
+{
 write
 (
 "new "
 )
 ;
+}
 context
 .
 skipArray
@@ -197,10 +199,12 @@ size
 >
 0
 )
+{
 removeLastChar
 (
 )
 ;
+}
 write
 (
 " }"

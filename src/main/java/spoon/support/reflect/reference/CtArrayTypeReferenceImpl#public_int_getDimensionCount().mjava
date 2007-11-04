@@ -33,10 +33,7 @@ getDimensionCount
 1
 ;
 }
-else
-{
 return
 1
 ;
-}
 }

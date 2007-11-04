@@ -18,6 +18,7 @@ qualifiedName
 >=
 0
 )
+{
 return
 qualifiedName
 .
@@ -31,7 +32,7 @@ qualifiedName
 )
 )
 ;
-else
+}
 return
 CtPackage
 .

@@ -15,6 +15,7 @@ isPrimitive
 (
 )
 &&
+(
 getQualifiedName
 (
 )
@@ -24,6 +25,7 @@ length
 )
 >
 0
+)
 )
 {
 if
@@ -65,8 +67,6 @@ getQualifiedName
 )
 ;
 }
-else
-{
 return
 (
 CtSimpleType
@@ -89,7 +89,6 @@ getQualifiedName
 )
 )
 ;
-}
 }
 return
 null

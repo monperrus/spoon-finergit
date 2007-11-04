@@ -112,8 +112,10 @@ p
 ==
 null
 )
+{
 continue
 ;
+}
 String
 proxy
 =
@@ -160,10 +162,6 @@ getSimpleName
 (
 )
 )
-&&
-p
-!=
-null
 )
 {
 param

@@ -36,11 +36,13 @@ getCatchers
 (
 )
 )
+{
 scan
 (
 c
 )
 ;
+}
 if
 (
 tryBlock

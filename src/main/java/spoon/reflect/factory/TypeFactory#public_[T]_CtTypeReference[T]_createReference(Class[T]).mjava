@@ -47,12 +47,6 @@ array
 .
 setComponentType
 (
-(
-CtTypeReference
-<
-?
->
-)
 createReference
 (
 type

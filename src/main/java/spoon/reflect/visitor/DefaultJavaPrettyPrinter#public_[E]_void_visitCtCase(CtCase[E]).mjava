@@ -36,6 +36,7 @@ write
 ;
 if
 (
+(
 caseStatement
 .
 getCaseExpression
@@ -43,6 +44,7 @@ getCaseExpression
 )
 instanceof
 CtFieldAccess
+)
 &&
 (
 (

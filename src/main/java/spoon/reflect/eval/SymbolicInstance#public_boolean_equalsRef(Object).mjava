@@ -15,9 +15,11 @@ this
 ==
 obj
 )
+{
 return
 true
 ;
+}
 SymbolicInstance
 <
 ?

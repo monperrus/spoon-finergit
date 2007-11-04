@@ -92,6 +92,7 @@ NULL_TYPE_NAME
 )
 ||
 (
+(
 typeRef
 .
 getPackage
@@ -99,6 +100,7 @@ getPackage
 )
 !=
 null
+)
 &&
 "java.lang"
 .

@@ -77,10 +77,13 @@ if
 (
 flowEnded
 )
+{
 break
 ;
 }
+}
 if
+(
 (
 b
 .
@@ -93,6 +96,7 @@ size
 )
 ==
 1
+)
 &&
 (
 b

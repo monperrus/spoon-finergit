@@ -32,6 +32,7 @@ CtLineElementComparator
 ;
 if
 (
+(
 ctClass
 .
 getSimpleName
@@ -39,7 +40,9 @@ getSimpleName
 )
 !=
 null
+)
 &&
+(
 ctClass
 .
 getSimpleName
@@ -51,6 +54,7 @@ length
 )
 >
 0
+)
 )
 {
 visitCtType

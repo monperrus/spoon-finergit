@@ -39,6 +39,7 @@ equals
 "<init>"
 )
 )
+{
 write
 (
 reference
@@ -52,7 +53,9 @@ getSimpleName
 )
 )
 ;
+}
 else
+{
 write
 (
 reference
@@ -62,6 +65,7 @@ getSimpleName
 )
 )
 ;
+}
 writeGenericsParameter
 (
 reference

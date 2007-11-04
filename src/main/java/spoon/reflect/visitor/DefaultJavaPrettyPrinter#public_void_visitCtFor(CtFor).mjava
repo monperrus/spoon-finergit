@@ -165,10 +165,12 @@ size
 >
 0
 )
+{
 removeLastChar
 (
 )
 ;
+}
 write
 (
 ")"

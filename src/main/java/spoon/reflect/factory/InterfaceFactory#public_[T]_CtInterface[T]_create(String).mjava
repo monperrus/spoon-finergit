@@ -50,8 +50,6 @@ qualifiedName
 )
 ;
 }
-else
-{
 return
 create
 (
@@ -75,5 +73,4 @@ qualifiedName
 )
 )
 ;
-}
 }

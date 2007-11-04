@@ -26,8 +26,10 @@ lineNumberMapping
 ==
 null
 )
+{
 return
 ;
+}
 int
 offset
 =

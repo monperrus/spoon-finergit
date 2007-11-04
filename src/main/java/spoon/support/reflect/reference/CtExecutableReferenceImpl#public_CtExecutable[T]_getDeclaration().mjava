@@ -34,9 +34,11 @@ typeDecl
 ==
 null
 )
+{
 return
 null
 ;
+}
 CtExecutable
 <
 ?
@@ -67,9 +69,11 @@ CtTypeReference
 ;
 if
 (
+(
 ret
 ==
 null
+)
 &&
 (
 typeDecl

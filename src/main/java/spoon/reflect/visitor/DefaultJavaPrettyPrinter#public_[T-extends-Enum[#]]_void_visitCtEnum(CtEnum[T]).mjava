@@ -270,6 +270,7 @@ isImplicit
 (
 )
 )
+{
 writeln
 (
 )
@@ -279,6 +280,7 @@ scan
 c
 )
 ;
+}
 }
 decTab
 (

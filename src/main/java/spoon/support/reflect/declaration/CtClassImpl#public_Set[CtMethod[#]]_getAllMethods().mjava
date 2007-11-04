@@ -41,12 +41,15 @@ getMethods
 ;
 if
 (
+(
 getSuperclass
 (
 )
 !=
 null
+)
 &&
+(
 getSuperclass
 (
 )
@@ -56,6 +59,7 @@ getDeclaration
 )
 !=
 null
+)
 )
 {
 CtType

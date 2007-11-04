@@ -21,9 +21,11 @@ element
 ==
 null
 )
+{
 return
 null
 ;
+}
 element
 .
 accept
@@ -37,6 +39,7 @@ result
 !=
 null
 )
+{
 result
 .
 setParent
@@ -44,6 +47,7 @@ setParent
 parent
 )
 ;
+}
 return
 (
 R

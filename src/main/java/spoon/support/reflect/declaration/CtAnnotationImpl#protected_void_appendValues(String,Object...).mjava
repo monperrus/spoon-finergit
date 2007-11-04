@@ -147,8 +147,6 @@ RuntimeException
 )
 ;
 }
-else
-{
 elementValues
 .
 put
@@ -161,7 +159,6 @@ values
 ]
 )
 ;
-}
 }
 }
 }

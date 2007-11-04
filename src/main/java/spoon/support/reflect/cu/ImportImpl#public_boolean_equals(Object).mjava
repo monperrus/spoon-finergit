@@ -32,10 +32,7 @@ getReference
 )
 ;
 }
-else
-{
 return
 false
 ;
-}
 }

@@ -152,9 +152,11 @@ getDeclaringType
 {
 if
 (
+(
 target
 !=
 null
+)
 &&
 isGetter
 (
@@ -254,9 +256,11 @@ false
 else
 if
 (
+(
 target
 !=
 null
+)
 &&
 isSetter
 (

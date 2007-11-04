@@ -43,10 +43,7 @@ annotationType
 )
 ;
 }
-else
-{
 return
 a
 ;
-}
 }

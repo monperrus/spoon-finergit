@@ -13,12 +13,6 @@ this
 .
 type
 =
-(
-CtTypeReference
-<
-T
->
-)
 type
 ;
 }

@@ -32,8 +32,6 @@ getModifiers
 )
 ;
 }
-else
-{
 Class
 <
 T
@@ -64,8 +62,6 @@ getModifiers
 )
 ;
 }
-else
-{
 return
 new
 TreeSet
@@ -75,6 +71,4 @@ ModifierKind
 (
 )
 ;
-}
-}
 }

@@ -32,8 +32,6 @@ getModifiers
 )
 ;
 }
-else
-{
 Method
 m
 =
@@ -90,7 +88,6 @@ getModifiers
 )
 )
 ;
-}
 }
 return
 new

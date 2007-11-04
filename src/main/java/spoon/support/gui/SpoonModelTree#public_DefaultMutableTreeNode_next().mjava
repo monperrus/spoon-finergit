@@ -11,9 +11,11 @@ null
 ;
 while
 (
+(
 enume
 !=
 null
+)
 &&
 enume
 .
@@ -35,6 +37,7 @@ nextElement
 ;
 if
 (
+(
 current
 .
 getUserObject
@@ -42,6 +45,7 @@ getUserObject
 )
 !=
 null
+)
 &&
 current
 .

@@ -38,8 +38,6 @@ getSimpleName
 )
 ;
 }
-else
-{
 return
 getDeclaringType
 (
@@ -56,7 +54,6 @@ getSimpleName
 )
 )
 ;
-}
 }
 catch
 (

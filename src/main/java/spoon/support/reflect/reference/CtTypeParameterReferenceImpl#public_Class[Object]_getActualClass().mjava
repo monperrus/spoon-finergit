@@ -1,3 +1,4 @@
+@Override
 @SuppressWarnings("unchecked")
 public
 Class
@@ -32,8 +33,6 @@ Object
 class
 ;
 }
-else
-{
 return
 (
 Class
@@ -51,7 +50,6 @@ getActualClass
 (
 )
 ;
-}
 }
 return
 null

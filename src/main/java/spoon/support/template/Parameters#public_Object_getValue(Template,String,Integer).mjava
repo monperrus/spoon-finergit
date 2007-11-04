@@ -152,9 +152,11 @@ isArray
 (
 )
 &&
+(
 index
 !=
 null
+)
 )
 {
 tparamValue

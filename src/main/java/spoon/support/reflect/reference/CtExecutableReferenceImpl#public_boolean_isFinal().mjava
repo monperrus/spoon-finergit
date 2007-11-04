@@ -32,8 +32,6 @@ FINAL
 )
 ;
 }
-else
-{
 Method
 m
 =
@@ -60,7 +58,6 @@ getModifiers
 )
 )
 ;
-}
 }
 return
 false

@@ -70,6 +70,7 @@ i
 i
 ++
 )
+{
 buf
 .
 append
@@ -77,6 +78,7 @@ append
 " "
 )
 ;
+}
 buf
 .
 append

@@ -54,9 +54,11 @@ writeln
 ;
 if
 (
+(
 sourceCompilationUnit
 !=
 null
+)
 &&
 !
 sourceCompilationUnit
@@ -139,6 +141,7 @@ equals
 "java.lang"
 )
 )
+{
 if
 (
 !
@@ -179,6 +182,7 @@ writeln
 (
 )
 ;
+}
 }
 }
 }

@@ -53,6 +53,7 @@ if
 (
 redirectReferences
 &&
+(
 source
 .
 getDeclaringType
@@ -60,6 +61,7 @@ getDeclaringType
 )
 !=
 null
+)
 )
 {
 Substitution

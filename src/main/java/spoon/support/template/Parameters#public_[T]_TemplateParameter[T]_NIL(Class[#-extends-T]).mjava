@@ -40,9 +40,6 @@ TemplateParameter
 T
 >
 )
-(
-TemplateParameter
-)
 new
 TemplateParameter
 <

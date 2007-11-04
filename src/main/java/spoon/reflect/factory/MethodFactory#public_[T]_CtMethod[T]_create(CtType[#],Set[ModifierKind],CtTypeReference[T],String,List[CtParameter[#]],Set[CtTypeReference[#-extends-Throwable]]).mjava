@@ -98,6 +98,7 @@ modifiers
 !=
 null
 )
+{
 method
 .
 setModifiers
@@ -105,6 +106,7 @@ setModifiers
 modifiers
 )
 ;
+}
 method
 .
 setType
@@ -125,6 +127,7 @@ parameters
 !=
 null
 )
+{
 method
 .
 setParameters
@@ -132,6 +135,7 @@ setParameters
 parameters
 )
 ;
+}
 setParent
 (
 method
@@ -145,6 +149,7 @@ thrownTypes
 !=
 null
 )
+{
 method
 .
 setThrownTypes
@@ -152,6 +157,7 @@ setThrownTypes
 thrownTypes
 )
 ;
+}
 return
 method
 ;

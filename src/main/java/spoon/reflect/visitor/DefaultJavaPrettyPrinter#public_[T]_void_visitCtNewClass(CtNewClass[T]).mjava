@@ -32,6 +32,7 @@ getTarget
 !=
 null
 )
+{
 scan
 (
 newClass
@@ -46,6 +47,7 @@ write
 "."
 )
 ;
+}
 if
 (
 newClass
@@ -182,10 +184,12 @@ size
 >
 0
 )
+{
 removeLastChar
 (
 )
 ;
+}
 write
 (
 ")"
@@ -219,6 +223,7 @@ getType
 ;
 if
 (
+(
 newClass
 .
 getExecutable
@@ -226,7 +231,9 @@ getExecutable
 )
 !=
 null
+)
 &&
+(
 newClass
 .
 getExecutable
@@ -238,6 +245,7 @@ getActualTypeArguments
 )
 !=
 null
+)
 )
 {
 writeGenericsParameter
@@ -295,10 +303,12 @@ if
 (
 remove
 )
+{
 removeLastChar
 (
 )
 ;
+}
 write
 (
 ")"

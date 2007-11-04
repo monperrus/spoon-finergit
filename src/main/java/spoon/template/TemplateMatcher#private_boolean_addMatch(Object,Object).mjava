@@ -32,9 +32,11 @@ target
 )
 ;
 return
+(
 null
 ==
 inv
+)
 ||
 inv
 .

@@ -11,11 +11,13 @@ type
 {
 if
 (
+(
 getSuperclass
 (
 )
 !=
 null
+)
 &&
 getSuperclass
 (
@@ -26,9 +28,11 @@ isSubtypeOf
 type
 )
 )
+{
 return
 true
 ;
+}
 for
 (
 CtTypeReference
@@ -51,9 +55,11 @@ isSubtypeOf
 type
 )
 )
+{
 return
 true
 ;
+}
 }
 return
 false

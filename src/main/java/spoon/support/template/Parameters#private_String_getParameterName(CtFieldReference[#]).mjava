@@ -33,9 +33,11 @@ class
 ;
 if
 (
+(
 p
 !=
 null
+)
 &&
 !
 p

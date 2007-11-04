@@ -38,6 +38,7 @@ getFormalTypeParameters
 !=
 null
 )
+{
 writeGenericsParameter
 (
 intrface
@@ -47,6 +48,7 @@ getFormalTypeParameters
 )
 )
 ;
+}
 if
 (
 intrface

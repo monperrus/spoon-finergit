@@ -30,9 +30,11 @@ getDeclaration
 ;
 if
 (
+(
 v
 !=
 null
+)
 &&
 v
 .
@@ -43,6 +45,7 @@ ModifierKind
 FINAL
 )
 &&
+(
 v
 .
 getDefaultExpression
@@ -51,6 +54,8 @@ getDefaultExpression
 !=
 null
 )
+)
+{
 setResult
 (
 v
@@ -77,7 +82,9 @@ getDefaultExpression
 )
 )
 ;
+}
 else
+{
 setResult
 (
 variableAccess
@@ -96,4 +103,5 @@ variableAccess
 )
 )
 ;
+}
 }

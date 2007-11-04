@@ -167,9 +167,6 @@ get
 CtStatement
 ret
 =
-(
-CtStatement
-)
 wrapper
 .
 getBody

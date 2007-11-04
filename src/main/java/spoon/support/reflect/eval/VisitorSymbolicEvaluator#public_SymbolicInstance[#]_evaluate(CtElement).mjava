@@ -15,9 +15,11 @@ element
 ==
 null
 )
+{
 return
 null
 ;
+}
 element
 .
 accept
@@ -31,12 +33,14 @@ result
 ==
 null
 )
+{
 result
 =
 SymbolicInstance
 .
 NULL
 ;
+}
 return
 result
 ;

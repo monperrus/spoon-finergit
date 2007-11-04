@@ -1,3 +1,4 @@
+@Override
 public
 void
 setType
@@ -13,12 +14,6 @@ this
 .
 type
 =
-(
-CtTypeReference
-<
-T
->
-)
 type
 ;
 }

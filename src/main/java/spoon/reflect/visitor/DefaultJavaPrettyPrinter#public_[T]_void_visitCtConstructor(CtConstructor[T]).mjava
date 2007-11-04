@@ -97,6 +97,7 @@ write
 ;
 if
 (
+(
 c
 .
 getThrownTypes
@@ -104,7 +105,9 @@ getThrownTypes
 )
 !=
 null
+)
 &&
+(
 c
 .
 getThrownTypes
@@ -116,6 +119,7 @@ size
 )
 >
 0
+)
 )
 {
 write

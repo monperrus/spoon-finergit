@@ -95,8 +95,6 @@ c
 )
 ;
 }
-else
-{
 return
 targetType
 .
@@ -122,5 +120,4 @@ getBody
 )
 )
 ;
-}
 }

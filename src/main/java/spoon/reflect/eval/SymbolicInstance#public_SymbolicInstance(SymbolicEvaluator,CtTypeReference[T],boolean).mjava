@@ -47,9 +47,11 @@ isPrimitive
 (
 )
 &&
+(
 type
 !=
 null
+)
 &&
 !
 Enum
@@ -99,8 +101,10 @@ f
 ==
 null
 )
+{
 continue
 ;
+}
 CtTypeReference
 <
 ?
@@ -305,6 +309,7 @@ startsWith
 "get"
 )
 &&
+(
 m
 .
 getParameterTypes
@@ -314,6 +319,7 @@ getParameterTypes
 length
 ==
 0
+)
 )
 {
 CtFieldReference

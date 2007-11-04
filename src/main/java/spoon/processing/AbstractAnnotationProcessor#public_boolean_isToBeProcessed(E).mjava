@@ -1,6 +1,7 @@
 /** 
  * Returns true if the element is annotated with an annotation whose type is processed.
  */
+@Override
 final
 public
 boolean
@@ -12,10 +13,13 @@ element
 {
 if
 (
+(
 element
 !=
 null
+)
 &&
+(
 element
 .
 getAnnotations
@@ -23,6 +27,7 @@ getAnnotations
 )
 !=
 null
+)
 )
 {
 for
@@ -48,9 +53,11 @@ shoudBeProcessed
 a
 )
 )
+{
 return
 true
 ;
+}
 }
 }
 return

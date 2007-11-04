@@ -19,6 +19,7 @@ templateType
 ==
 null
 )
+{
 throw
 new
 TemplateException
@@ -26,6 +27,7 @@ TemplateException
 "Template type is null. Use the template factory to access a template CtClass and check your template source path."
 )
 ;
+}
 variables
 =
 TemplateMatcher

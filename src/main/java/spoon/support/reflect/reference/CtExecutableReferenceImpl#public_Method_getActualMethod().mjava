@@ -38,8 +38,10 @@ getSimpleName
 )
 )
 )
+{
 continue
 ;
+}
 if
 (
 m
@@ -58,8 +60,10 @@ size
 (
 )
 )
+{
 continue
 ;
+}
 boolean
 matches
 =
@@ -123,9 +127,11 @@ if
 (
 matches
 )
+{
 return
 m
 ;
+}
 }
 return
 null

@@ -24,10 +24,7 @@ CtSimpleType
 parent
 ;
 }
-else
-{
 return
 null
 ;
-}
 }

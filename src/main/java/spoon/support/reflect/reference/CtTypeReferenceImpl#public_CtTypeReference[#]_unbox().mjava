@@ -14,9 +14,11 @@ isPrimitive
 (
 )
 )
+{
 return
 this
 ;
+}
 if
 (
 getActualClass
@@ -27,6 +29,7 @@ Integer
 .
 class
 )
+{
 return
 factory
 .
@@ -41,6 +44,7 @@ int
 class
 )
 ;
+}
 if
 (
 getActualClass
@@ -51,6 +55,7 @@ Float
 .
 class
 )
+{
 return
 factory
 .
@@ -65,6 +70,7 @@ float
 class
 )
 ;
+}
 if
 (
 getActualClass
@@ -75,6 +81,7 @@ Long
 .
 class
 )
+{
 return
 factory
 .
@@ -89,6 +96,7 @@ long
 class
 )
 ;
+}
 if
 (
 getActualClass
@@ -99,6 +107,7 @@ Character
 .
 class
 )
+{
 return
 factory
 .
@@ -113,6 +122,7 @@ char
 class
 )
 ;
+}
 if
 (
 getActualClass
@@ -123,6 +133,7 @@ Double
 .
 class
 )
+{
 return
 factory
 .
@@ -137,6 +148,7 @@ double
 class
 )
 ;
+}
 if
 (
 getActualClass
@@ -147,6 +159,7 @@ Boolean
 .
 class
 )
+{
 return
 factory
 .
@@ -161,6 +174,7 @@ boolean
 class
 )
 ;
+}
 if
 (
 getActualClass
@@ -171,6 +185,7 @@ Short
 .
 class
 )
+{
 return
 factory
 .
@@ -185,6 +200,7 @@ short
 class
 )
 ;
+}
 if
 (
 getActualClass
@@ -195,6 +211,7 @@ Byte
 .
 class
 )
+{
 return
 factory
 .
@@ -209,6 +226,7 @@ byte
 class
 )
 ;
+}
 if
 (
 getActualClass
@@ -219,6 +237,7 @@ Void
 .
 class
 )
+{
 return
 factory
 .
@@ -233,6 +252,7 @@ void
 class
 )
 ;
+}
 return
 this
 ;

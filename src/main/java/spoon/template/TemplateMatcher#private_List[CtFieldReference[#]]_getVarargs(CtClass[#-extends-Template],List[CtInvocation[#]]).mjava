@@ -96,16 +96,6 @@ invocation
 variables
 )
 {
-if
-(
-invocation
-instanceof
-CtInvocation
-<
-?
->
-)
-{
 alreadyAdded
 =
 (
@@ -132,7 +122,6 @@ equals
 field
 )
 ;
-}
 }
 if
 (

@@ -20,11 +20,13 @@ if
 !
 includeNestedTypes
 )
+{
 return
 getAll
 (
 )
 ;
+}
 List
 <
 CtSimpleType

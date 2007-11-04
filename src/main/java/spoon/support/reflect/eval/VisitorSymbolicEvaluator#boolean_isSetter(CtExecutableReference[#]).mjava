@@ -23,6 +23,7 @@ startsWith
 "set"
 )
 &&
+(
 e
 .
 getParameterTypes
@@ -34,5 +35,6 @@ size
 )
 ==
 1
+)
 ;
 }

@@ -16,9 +16,11 @@ instanceof
 CtVariableReference
 )
 )
+{
 return
 false
 ;
+}
 CtVariableReference
 <
 ?
@@ -47,8 +49,6 @@ getType
 )
 )
 &&
-this
-.
 simplename
 .
 equals

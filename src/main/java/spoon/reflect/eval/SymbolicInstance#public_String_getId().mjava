@@ -13,9 +13,11 @@ literal
 !=
 null
 )
+{
 return
 literal
 ;
+}
 return
 getSymbolId
 (

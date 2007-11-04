@@ -11,6 +11,7 @@ e
 {
 if
 (
+(
 e
 .
 getPosition
@@ -18,7 +19,9 @@ getPosition
 )
 !=
 null
+)
 &&
+(
 e
 .
 getPosition
@@ -30,6 +33,7 @@ getCompilationUnit
 )
 ==
 sourceCompilationUnit
+)
 )
 {
 lineNumberMapping

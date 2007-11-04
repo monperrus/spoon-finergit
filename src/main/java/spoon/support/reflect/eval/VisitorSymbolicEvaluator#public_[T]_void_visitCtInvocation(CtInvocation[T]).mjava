@@ -180,12 +180,6 @@ invocation
 ,
 eref
 ,
-(
-SymbolicInstance
-<
-?
->
-)
 target
 ,
 arguments
