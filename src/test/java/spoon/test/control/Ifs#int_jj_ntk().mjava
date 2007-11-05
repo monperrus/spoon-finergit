@@ -147,6 +147,7 @@ next
 ==
 null
 )
+{
 return
 (
 jj_ntk
@@ -166,7 +167,7 @@ getNextToken
 kind
 )
 ;
-else
+}
 return
 (
 jj_ntk
