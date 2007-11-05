@@ -12,6 +12,7 @@ isDebug
 (
 )
 )
+{
 System
 .
 out
@@ -21,4 +22,5 @@ println
 message
 )
 ;
+}
 }

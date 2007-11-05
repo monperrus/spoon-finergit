@@ -14,8 +14,10 @@ isVerbose
 (
 )
 )
+{
 return
 ;
+}
 System
 .
 out
@@ -49,6 +51,7 @@ warningCount
 >
 1
 )
+{
 System
 .
 out
@@ -58,12 +61,14 @@ print
 "s"
 )
 ;
+}
 if
 (
 errorCount
 >
 0
 )
+{
 System
 .
 out
@@ -73,6 +78,7 @@ print
 ", "
 )
 ;
+}
 }
 if
 (
@@ -98,6 +104,7 @@ errorCount
 >
 1
 )
+{
 System
 .
 out
@@ -107,6 +114,7 @@ print
 "s"
 )
 ;
+}
 }
 if
 (

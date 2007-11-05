@@ -6,8 +6,6 @@ boolean
 tabulation
 )
 {
-this
-.
 useTabulations
 =
 tabulation

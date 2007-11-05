@@ -145,6 +145,7 @@ exe
 !=
 null
 )
+{
 buffer
 .
 append
@@ -156,6 +157,7 @@ getSimpleName
 )
 )
 ;
+}
 buffer
 .
 append
