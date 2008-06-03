@@ -16,4 +16,27 @@ write
 "continue"
 )
 ;
+if
+(
+continueStatement
+.
+getTargetLabel
+(
+)
+!=
+null
+)
+{
+write
+(
+" "
++
+continueStatement
+.
+getTargetLabel
+(
+)
+)
+;
+}
 }

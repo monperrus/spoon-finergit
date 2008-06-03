@@ -1,0 +1,15 @@
+public
+void
+setTargetLabel
+(
+String
+targetLabel
+)
+{
+this
+.
+targetLabel
+=
+targetLabel
+;
+}
