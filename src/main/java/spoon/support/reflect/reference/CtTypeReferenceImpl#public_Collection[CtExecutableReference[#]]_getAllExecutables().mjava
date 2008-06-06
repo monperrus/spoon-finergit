@@ -91,6 +91,9 @@ m
 for
 (
 Constructor
+<
+?
+>
 cons
 :
 c
@@ -102,7 +105,7 @@ getDeclaredConstructors
 {
 CtExecutableReference
 <
-Object
+?
 >
 consRef
 =
