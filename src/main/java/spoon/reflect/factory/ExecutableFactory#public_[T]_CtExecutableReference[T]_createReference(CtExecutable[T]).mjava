@@ -133,11 +133,9 @@ getType
 (
 )
 ,
-e
+CtExecutableReference
 .
-getSimpleName
-(
-)
+CONSTRUCTOR_NAME
 ,
 refs
 )

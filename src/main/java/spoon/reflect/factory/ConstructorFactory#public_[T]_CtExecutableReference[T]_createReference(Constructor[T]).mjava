@@ -46,11 +46,9 @@ type
 ,
 type
 ,
-type
+CtExecutableReference
 .
-getSimpleName
-(
-)
+CONSTRUCTOR_NAME
 ,
 factory
 .
