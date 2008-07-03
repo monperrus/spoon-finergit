@@ -211,10 +211,15 @@ FINAL
 {
 setResult
 (
+evaluate
+(
+f
+,
 f
 .
 getDefaultExpression
 (
+)
 )
 )
 ;
