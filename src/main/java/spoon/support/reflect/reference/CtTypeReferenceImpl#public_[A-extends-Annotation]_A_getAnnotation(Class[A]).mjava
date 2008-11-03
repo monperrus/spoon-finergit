@@ -32,6 +32,8 @@ a
 null
 )
 {
+try
+{
 return
 getActualClass
 (
@@ -42,6 +44,17 @@ getAnnotation
 annotationType
 )
 ;
+}
+catch
+(
+RuntimeException
+e
+)
+{
+throw
+e
+;
+}
 }
 return
 a
