@@ -44,6 +44,15 @@ scan
 (
 ctEnum
 .
+getMethods
+(
+)
+)
+;
+scan
+(
+ctEnum
+.
 getNestedTypes
 (
 )
