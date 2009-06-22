@@ -56,6 +56,10 @@ push
 "value"
 )
 ;
+skipTypeInAnnotation
+=
+true
+;
 return
 true
 ;

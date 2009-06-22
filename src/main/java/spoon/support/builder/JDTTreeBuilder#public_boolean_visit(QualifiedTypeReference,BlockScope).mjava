@@ -10,6 +10,15 @@ BlockScope
 arg1
 )
 {
+if
+(
+skipTypeInAnnotation
+)
+{
+return
+true
+;
+}
 CtLiteral
 <
 CtTypeReference

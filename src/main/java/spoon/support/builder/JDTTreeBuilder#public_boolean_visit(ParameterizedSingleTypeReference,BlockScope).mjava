@@ -10,6 +10,15 @@ BlockScope
 scope
 )
 {
+if
+(
+skipTypeInAnnotation
+)
+{
+return
+true
+;
+}
 CtLiteral
 <
 CtTypeReference

@@ -47,6 +47,10 @@ a
 annotation
 )
 ;
+skipTypeInAnnotation
+=
+true
+;
 return
 true
 ;
