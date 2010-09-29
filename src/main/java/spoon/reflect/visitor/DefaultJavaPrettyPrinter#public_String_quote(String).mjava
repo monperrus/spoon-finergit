@@ -188,17 +188,7 @@ buf
 .
 append
 (
-"\\u"
-)
-;
-buf
-.
-append
-(
-charToHex
-(
 ch
-)
 )
 ;
 }
