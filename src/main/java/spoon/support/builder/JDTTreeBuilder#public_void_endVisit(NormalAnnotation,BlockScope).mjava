@@ -16,4 +16,8 @@ exit
 annotation
 )
 ;
+skipTypeInAnnotation
+=
+false
+;
 }
