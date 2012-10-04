@@ -65,6 +65,12 @@ e
 instanceof
 CtSynchronized
 )
+||
+(
+e
+instanceof
+CtClass
+)
 )
 )
 {
