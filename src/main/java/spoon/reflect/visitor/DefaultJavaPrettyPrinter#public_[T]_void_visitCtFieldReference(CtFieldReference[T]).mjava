@@ -36,6 +36,7 @@ isEmpty
 (
 )
 ||
+(
 !
 reference
 .
@@ -50,6 +51,18 @@ context
 currentThis
 .
 peek
+(
+)
+)
+&&
+!
+reference
+.
+getDeclaringType
+(
+)
+.
+isAnonymous
 (
 )
 )
