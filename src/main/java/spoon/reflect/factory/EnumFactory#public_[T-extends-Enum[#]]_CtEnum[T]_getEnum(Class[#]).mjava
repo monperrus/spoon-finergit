@@ -17,7 +17,7 @@ CtEnum
 <
 T
 >
-get
+getEnum
 (
 Class
 <
