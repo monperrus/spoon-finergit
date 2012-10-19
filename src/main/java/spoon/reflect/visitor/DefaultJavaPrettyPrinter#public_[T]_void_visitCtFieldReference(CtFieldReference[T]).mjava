@@ -246,6 +246,11 @@ if
 isStatic
 &&
 printType
+&&
+!
+context
+.
+ignoreStaticAccess
 )
 {
 context

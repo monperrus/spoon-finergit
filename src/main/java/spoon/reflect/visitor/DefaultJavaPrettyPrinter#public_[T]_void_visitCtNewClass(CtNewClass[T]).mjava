@@ -207,6 +207,22 @@ getAnonymousClass
 }
 else
 {
+if
+(
+newClass
+.
+getTarget
+(
+)
+!=
+null
+)
+context
+.
+ignoreEnclosingClass
+=
+true
+;
 write
 (
 "new "
@@ -220,6 +236,12 @@ getType
 (
 )
 )
+;
+context
+.
+ignoreEnclosingClass
+=
+false
 ;
 if
 (

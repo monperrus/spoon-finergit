@@ -42,6 +42,12 @@ write
 "."
 )
 ;
+context
+.
+ignoreStaticAccess
+=
+true
+;
 }
 context
 .
@@ -61,6 +67,12 @@ getVariable
 context
 .
 ignoreGenerics
+=
+false
+;
+context
+.
+ignoreStaticAccess
 =
 false
 ;

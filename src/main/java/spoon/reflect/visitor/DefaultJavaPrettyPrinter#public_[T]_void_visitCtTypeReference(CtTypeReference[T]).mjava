@@ -79,6 +79,11 @@ null
 {
 if
 (
+!
+context
+.
+ignoreEnclosingClass
+&&
 context
 .
 currentTopLevel
