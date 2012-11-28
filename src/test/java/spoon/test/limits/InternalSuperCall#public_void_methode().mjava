@@ -1,0 +1,15 @@
+public
+void
+methode
+(
+)
+{
+InternalSuperCall
+.
+super
+.
+toString
+(
+)
+;
+}

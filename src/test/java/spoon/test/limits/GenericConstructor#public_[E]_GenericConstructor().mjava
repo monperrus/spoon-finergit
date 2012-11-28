@@ -1,0 +1,17 @@
+public
+<
+E
+>
+GenericConstructor
+(
+)
+{
+Object
+tmp
+=
+(
+E
+)
+""
+;
+}
