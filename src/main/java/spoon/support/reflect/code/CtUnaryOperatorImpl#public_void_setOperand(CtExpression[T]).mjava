@@ -15,4 +15,11 @@ operand
 =
 expression
 ;
+operand
+.
+setParent
+(
+this
+)
+;
 }

@@ -12,4 +12,11 @@ target
 =
 target
 ;
+target
+.
+setParent
+(
+this
+)
+;
 }

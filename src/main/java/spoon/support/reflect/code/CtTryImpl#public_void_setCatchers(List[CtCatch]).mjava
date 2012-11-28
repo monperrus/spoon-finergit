@@ -13,6 +13,15 @@ this
 .
 catchers
 =
+new
+ChildList
+<
+CtCatch
+>
+(
 catchers
+,
+this
+)
 ;
 }

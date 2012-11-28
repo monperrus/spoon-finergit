@@ -15,4 +15,11 @@ variable
 =
 variable
 ;
+variable
+.
+setParent
+(
+this
+)
+;
 }

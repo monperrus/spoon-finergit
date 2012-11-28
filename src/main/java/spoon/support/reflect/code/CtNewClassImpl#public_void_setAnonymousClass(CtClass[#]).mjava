@@ -15,4 +15,11 @@ annonymousClass
 =
 annonymousClass
 ;
+annonymousClass
+.
+setParent
+(
+this
+)
+;
 }

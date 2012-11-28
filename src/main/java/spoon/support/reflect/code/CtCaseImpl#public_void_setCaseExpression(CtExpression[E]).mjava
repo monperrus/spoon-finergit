@@ -15,4 +15,11 @@ caseExpression
 =
 caseExpression
 ;
+caseExpression
+.
+setParent
+(
+this
+)
+;
 }

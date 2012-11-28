@@ -15,4 +15,11 @@ expression
 =
 selector
 ;
+expression
+.
+setParent
+(
+this
+)
+;
 }

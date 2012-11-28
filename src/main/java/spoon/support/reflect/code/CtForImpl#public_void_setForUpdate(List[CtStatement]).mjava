@@ -13,6 +13,15 @@ this
 .
 forUpdate
 =
+new
+ChildList
+<
+CtStatement
+>
+(
 forUpdate
+,
+this
+)
 ;
 }

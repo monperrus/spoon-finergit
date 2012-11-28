@@ -12,4 +12,13 @@ thenStatement
 =
 thenStatement
 ;
+this
+.
+thenStatement
+.
+setParent
+(
+this
+)
+;
 }

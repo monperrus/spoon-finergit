@@ -15,4 +15,11 @@ thenExpression
 =
 thenExpression
 ;
+thenExpression
+.
+setParent
+(
+this
+)
+;
 }

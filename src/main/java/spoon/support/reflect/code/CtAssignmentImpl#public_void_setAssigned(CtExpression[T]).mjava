@@ -15,4 +15,11 @@ assigned
 =
 assigned
 ;
+assigned
+.
+setParent
+(
+this
+)
+;
 }

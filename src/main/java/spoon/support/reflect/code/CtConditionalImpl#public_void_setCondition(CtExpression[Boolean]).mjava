@@ -15,4 +15,11 @@ condition
 =
 condition
 ;
+condition
+.
+setParent
+(
+this
+)
+;
 }

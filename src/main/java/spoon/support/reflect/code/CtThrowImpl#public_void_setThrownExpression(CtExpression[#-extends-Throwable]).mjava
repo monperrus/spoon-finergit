@@ -16,4 +16,11 @@ throwExpression
 =
 expression
 ;
+throwExpression
+.
+setParent
+(
+this
+)
+;
 }

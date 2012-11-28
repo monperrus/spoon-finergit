@@ -1,0 +1,14 @@
+public
+ChildList
+(
+CtElement
+parent
+)
+{
+this
+.
+parent
+=
+parent
+;
+}
