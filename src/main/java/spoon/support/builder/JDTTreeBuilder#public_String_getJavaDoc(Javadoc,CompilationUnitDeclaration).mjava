@@ -16,6 +16,8 @@ javadoc
 null
 )
 {
+try
+{
 String
 s
 =
@@ -53,6 +55,17 @@ cleanJavadoc
 s
 )
 ;
+}
+catch
+(
+StringIndexOutOfBoundsException
+e
+)
+{
+return
+null
+;
+}
 }
 return
 null
