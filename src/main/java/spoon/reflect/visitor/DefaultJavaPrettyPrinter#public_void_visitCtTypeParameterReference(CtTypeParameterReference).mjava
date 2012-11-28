@@ -63,6 +63,11 @@ getActualTypeArguments
 if
 (
 !
+context
+.
+isInvocation
+&&
+!
 ref
 .
 getBounds

@@ -1,0 +1,8 @@
+/** 
+ * Returns true if the reference refers to the super implementation
+ */
+boolean
+isSuperReference
+(
+)
+;
