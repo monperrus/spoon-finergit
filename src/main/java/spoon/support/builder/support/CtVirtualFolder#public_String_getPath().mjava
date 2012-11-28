@@ -5,8 +5,6 @@ getPath
 )
 {
 return
-toString
-(
-)
+"Virtual folder"
 ;
 }
