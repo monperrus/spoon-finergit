@@ -16,6 +16,20 @@ scan
 (
 m
 .
+getFormalTypeParameters
+(
+)
+)
+;
+write
+(
+" "
+)
+;
+scan
+(
+m
+.
 getType
 (
 )
