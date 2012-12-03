@@ -12,6 +12,20 @@ T
 m
 )
 {
+if
+(
+!
+m
+.
+getFormalTypeParameters
+(
+)
+.
+isEmpty
+(
+)
+)
+{
 scan
 (
 m
@@ -26,6 +40,7 @@ write
 " "
 )
 ;
+}
 scan
 (
 m
