@@ -1,5 +1,5 @@
 /** 
- * @see org.eclipse.jdt.internal.compiler.env.IDependent#getFileName()
+ * @see spoon.eclipse.jdt.internal.compiler.env.IDependent#getFileName()
  */
 public
 char

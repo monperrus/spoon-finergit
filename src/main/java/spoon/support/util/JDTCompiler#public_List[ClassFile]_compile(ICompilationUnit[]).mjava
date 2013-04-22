@@ -11,7 +11,7 @@ ICompilationUnit
 units
 )
 {
-org
+spoon
 .
 eclipse
 .
@@ -25,7 +25,7 @@ Compiler
 compiler
 =
 new
-org
+spoon
 .
 eclipse
 .
