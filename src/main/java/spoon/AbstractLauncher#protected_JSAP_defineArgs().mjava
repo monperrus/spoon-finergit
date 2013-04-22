@@ -295,7 +295,7 @@ opt2
 .
 setDefault
 (
-"5"
+"6"
 )
 ;
 jsap
