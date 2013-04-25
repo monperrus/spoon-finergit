@@ -12,6 +12,15 @@ CtSimpleType
 type
 )
 {
+if
+(
+env
+.
+isAutoImports
+(
+)
+)
+{
 context
 .
 currentTopLevel
@@ -40,4 +49,5 @@ context
 currentTopLevel
 )
 ;
+}
 }

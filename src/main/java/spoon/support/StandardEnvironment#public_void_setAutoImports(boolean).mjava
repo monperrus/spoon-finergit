@@ -1,0 +1,15 @@
+public
+void
+setAutoImports
+(
+boolean
+autoImports
+)
+{
+this
+.
+autoImports
+=
+autoImports
+;
+}

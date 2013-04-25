@@ -1,4 +1,4 @@
-@SuppressWarnings("unchecked")
+@SuppressWarnings("rawtypes")
 public
 <
 E
