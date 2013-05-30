@@ -9,11 +9,15 @@ getCoreFactory
 {
 if
 (
+this
+.
 coreFactory
 ==
 null
 )
 {
+this
+.
 coreFactory
 =
 new
@@ -23,6 +27,8 @@ DefaultCoreFactory
 ;
 }
 return
+this
+.
 coreFactory
 ;
 }

@@ -5,6 +5,7 @@ public
 void
 setProcessingManager
 (
+final
 ProcessingManager
 processing
 )

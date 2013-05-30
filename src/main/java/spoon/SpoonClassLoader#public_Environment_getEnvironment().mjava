@@ -9,11 +9,15 @@ getEnvironment
 {
 if
 (
+this
+.
 environment
 ==
 null
 )
 {
+this
+.
 environment
 =
 new
@@ -23,6 +27,8 @@ StandardEnvironment
 ;
 }
 return
+this
+.
 environment
 ;
 }

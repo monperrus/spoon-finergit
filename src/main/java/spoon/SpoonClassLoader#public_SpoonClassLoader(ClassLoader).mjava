@@ -4,6 +4,7 @@
 public
 SpoonClassLoader
 (
+final
 ClassLoader
 parent
 )

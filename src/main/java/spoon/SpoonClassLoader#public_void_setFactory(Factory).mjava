@@ -5,6 +5,7 @@ public
 void
 setFactory
 (
+final
 Factory
 factory
 )

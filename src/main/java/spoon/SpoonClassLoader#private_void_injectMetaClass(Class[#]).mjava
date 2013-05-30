@@ -2,6 +2,7 @@ private
 void
 injectMetaClass
 (
+final
 Class
 <
 ?
@@ -58,6 +59,8 @@ CtSimpleType
 >
 metaclass
 =
+this
+.
 factory
 .
 Type

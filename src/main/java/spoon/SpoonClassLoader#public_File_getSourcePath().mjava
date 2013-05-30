@@ -9,11 +9,15 @@ getSourcePath
 {
 if
 (
+this
+.
 sourcePath
 ==
 null
 )
 {
+this
+.
 sourcePath
 =
 new
@@ -24,6 +28,8 @@ File
 ;
 }
 return
+this
+.
 sourcePath
 ;
 }

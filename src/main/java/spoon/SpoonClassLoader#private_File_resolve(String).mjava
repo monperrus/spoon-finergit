@@ -2,6 +2,7 @@ private
 File
 resolve
 (
+final
 String
 qualifiedName
 )
@@ -9,6 +10,8 @@ qualifiedName
 File
 current
 =
+this
+.
 sourcePath
 ;
 String
@@ -88,9 +91,11 @@ isDirectory
 (
 )
 )
+{
 return
 current
 ;
+}
 return
 null
 ;
