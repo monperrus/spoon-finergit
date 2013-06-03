@@ -1,5 +1,5 @@
 /** 
- * Creates the Java file associated to the given element. Splits top-level classes in different files (even if they are in the same file in the original sources).
+ * Creates the Java file associated to the given element.
  */
 public
 void
@@ -12,24 +12,6 @@ CtSimpleType
 element
 )
 {
-if
-(
-!
-element
-.
-isTopLevel
-(
-)
-)
-{
-throw
-new
-IllegalArgumentException
-(
-)
-;
-}
-;
 CompilationUnit
 cu
 =
@@ -45,7 +27,6 @@ getPosition
 !=
 null
 )
-{
 cu
 =
 element
@@ -61,18 +42,19 @@ getCompilationUnit
 if
 (
 cu
-==
+!=
 null
-)
-{
-throw
-new
-IllegalStateException
+&&
+cu
+.
+getMainType
 (
 )
+!=
+element
+)
+return
 ;
-}
-}
 List
 <
 CtSimpleType
@@ -93,6 +75,13 @@ CtSimpleType
 (
 )
 ;
+if
+(
+cu
+==
+null
+)
+{
 toBePrinted
 .
 add
@@ -100,6 +89,21 @@ add
 element
 )
 ;
+}
+else
+{
+toBePrinted
+.
+addAll
+(
+cu
+.
+getDeclaredTypes
+(
+)
+)
+;
+}
 PrettyPrinter
 printer
 =
@@ -204,7 +208,6 @@ directory
 ==
 null
 )
-{
 throw
 new
 RuntimeException
@@ -212,7 +215,6 @@ RuntimeException
 "You should set output directory before printing"
 )
 ;
-}
 if
 (
 directory
@@ -221,7 +223,6 @@ isFile
 (
 )
 )
-{
 throw
 new
 RuntimeException
@@ -229,7 +230,6 @@ RuntimeException
 "Output must be a directory"
 )
 ;
-}
 if
 (
 !
@@ -249,7 +249,6 @@ mkdirs
 (
 )
 )
-{
 throw
 new
 RuntimeException
@@ -257,7 +256,6 @@ RuntimeException
 "Error creating output directory"
 )
 ;
-}
 }
 File
 packageDir
@@ -344,7 +342,6 @@ mkdirs
 (
 )
 )
-{
 throw
 new
 RuntimeException
@@ -352,7 +349,6 @@ RuntimeException
 "Error creating output directory"
 )
 ;
-}
 }
 if
 (
@@ -406,7 +402,6 @@ contains
 packageAnnot
 )
 )
-{
 printedFiles
 .
 add
@@ -414,7 +409,6 @@ add
 packageAnnot
 )
 ;
-}
 try
 {
 stream
@@ -464,14 +458,12 @@ stream
 !=
 null
 )
-{
 stream
 .
 close
 (
 )
 ;
-}
 }
 }
 try
@@ -617,13 +609,11 @@ stream
 !=
 null
 )
-{
 stream
 .
 close
 (
 )
 ;
-}
 }
 }

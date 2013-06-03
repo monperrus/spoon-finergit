@@ -29,7 +29,6 @@ getDeclaringType
 null
 )
 {
-{
 return
 getDeclaringType
 (
@@ -45,7 +44,6 @@ getSimpleName
 (
 )
 ;
-}
 }
 return
 getSimpleName

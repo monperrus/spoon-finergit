@@ -327,12 +327,10 @@ if
 (
 removeLastChar
 )
-{
 removeLastChar
 (
 )
 ;
-}
 write
 (
 ">"

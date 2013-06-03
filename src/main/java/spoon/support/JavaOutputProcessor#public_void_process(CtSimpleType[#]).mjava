@@ -20,11 +20,9 @@ isTopLevel
 (
 )
 )
-{
 createJavaFile
 (
 type
 )
 ;
-}
 }

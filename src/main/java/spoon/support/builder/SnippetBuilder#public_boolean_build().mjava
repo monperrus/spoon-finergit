@@ -140,7 +140,6 @@ problem
 !=
 null
 )
-{
 getProblems
 (
 )
@@ -154,7 +153,6 @@ getMessage
 )
 )
 ;
-}
 }
 }
 }

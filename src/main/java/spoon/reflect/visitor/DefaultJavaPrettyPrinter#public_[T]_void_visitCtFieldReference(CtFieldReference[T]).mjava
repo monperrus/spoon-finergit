@@ -109,12 +109,10 @@ getSimpleName
 )
 )
 )
-{
 sameTopLevel
 =
 true
 ;
-}
 if
 (
 reference
@@ -334,7 +332,6 @@ size
 >
 0
 )
-{
 ref2
 =
 context
@@ -345,9 +342,7 @@ lastElement
 (
 )
 ;
-}
 else
-{
 ref2
 =
 context
@@ -358,7 +353,6 @@ getReference
 (
 )
 ;
-}
 printType
 =
 !

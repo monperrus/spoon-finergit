@@ -85,7 +85,6 @@ current
 !=
 null
 )
-{
 current
 =
 current
@@ -99,7 +98,6 @@ nextToken
 )
 )
 ;
-}
 }
 return
 current

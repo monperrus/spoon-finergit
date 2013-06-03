@@ -56,14 +56,12 @@ length
 <
 0
 )
-{
 name
 =
 CtPackage
 .
 TOP_LEVEL_PACKAGE_NAME
 ;
-}
 if
 (
 packages
