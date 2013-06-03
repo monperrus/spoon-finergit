@@ -68,12 +68,14 @@ isDebug
 (
 )
 )
+{
 e
 .
 printStackTrace
 (
 )
 ;
+}
 return
 ;
 }
@@ -116,6 +118,7 @@ isJava
 (
 )
 )
+{
 spoonletIndex
 .
 add
@@ -123,6 +126,7 @@ add
 file
 )
 ;
+}
 else
 if
 (
