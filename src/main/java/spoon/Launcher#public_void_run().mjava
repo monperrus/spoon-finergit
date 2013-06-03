@@ -27,6 +27,7 @@ getBoolean
 "gui"
 )
 )
+{
 new
 SpoonModelTree
 (
@@ -35,4 +36,5 @@ getFactory
 )
 )
 ;
+}
 }

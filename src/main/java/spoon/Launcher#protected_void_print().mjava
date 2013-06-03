@@ -20,10 +20,12 @@ getBoolean
 "nooutput"
 )
 )
+{
 super
 .
 print
 (
 )
 ;
+}
 }
