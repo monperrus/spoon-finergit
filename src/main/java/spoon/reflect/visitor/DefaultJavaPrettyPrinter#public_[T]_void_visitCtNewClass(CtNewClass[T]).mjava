@@ -217,12 +217,14 @@ getTarget
 !=
 null
 )
+{
 context
 .
 ignoreEnclosingClass
 =
 true
 ;
+}
 write
 (
 "new "
