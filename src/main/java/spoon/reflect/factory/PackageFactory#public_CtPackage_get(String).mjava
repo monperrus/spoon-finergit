@@ -85,6 +85,7 @@ current
 !=
 null
 )
+{
 current
 =
 current
@@ -96,6 +97,22 @@ token
 nextToken
 (
 )
+)
+;
+}
+}
+if
+(
+current
+==
+null
+)
+{
+throw
+new
+IllegalStateException
+(
+"no such package in the model"
 )
 ;
 }
