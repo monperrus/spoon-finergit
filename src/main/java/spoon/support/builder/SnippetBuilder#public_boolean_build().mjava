@@ -22,7 +22,7 @@ Exception
 )
 ;
 }
-JDTCompiler
+TreeBuilderRequestor
 .
 JAVA_COMPLIANCE
 =
@@ -68,7 +68,7 @@ currentTimeMillis
 compiler
 =
 new
-JDTCompiler
+TreeBuilderRequestor
 (
 )
 ;
