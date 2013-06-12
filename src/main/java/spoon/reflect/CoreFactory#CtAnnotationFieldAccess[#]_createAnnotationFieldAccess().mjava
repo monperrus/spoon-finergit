@@ -1,0 +1,12 @@
+/** 
+ * Create an access to annotation value
+ * @return
+ */
+CtAnnotationFieldAccess
+<
+?
+>
+createAnnotationFieldAccess
+(
+)
+;

@@ -1,0 +1,13 @@
+<
+T
+>
+void
+visitCtAnnotationFieldAccess
+(
+CtAnnotationFieldAccess
+<
+T
+>
+annotationFieldAccess
+)
+;
