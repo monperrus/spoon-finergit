@@ -72,9 +72,13 @@ add
 ClassLoader
 currentClassLoader
 =
-ClassLoader
+Thread
 .
-getSystemClassLoader
+currentThread
+(
+)
+.
+getContextClassLoader
 (
 )
 ;
