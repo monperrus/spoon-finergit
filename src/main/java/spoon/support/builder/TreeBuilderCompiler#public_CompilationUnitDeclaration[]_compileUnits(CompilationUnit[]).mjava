@@ -110,10 +110,6 @@ acceptResult
 unit
 .
 compilationResult
-.
-tagAsAccepted
-(
-)
 )
 ;
 }

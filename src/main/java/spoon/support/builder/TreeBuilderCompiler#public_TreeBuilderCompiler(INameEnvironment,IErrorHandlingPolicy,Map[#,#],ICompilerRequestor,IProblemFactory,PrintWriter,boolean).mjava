@@ -1,6 +1,6 @@
 @SuppressWarnings("deprecation")
 public
-Compiler
+TreeBuilderCompiler
 (
 INameEnvironment
 environment
