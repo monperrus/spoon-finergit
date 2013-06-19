@@ -105,6 +105,15 @@ resolvedType
 )
 ;
 }
+if
+(
+methodDeclaration
+.
+binding
+!=
+null
+)
+{
 for
 (
 TypeBinding
@@ -133,6 +142,7 @@ b
 )
 )
 ;
+}
 }
 m
 .
