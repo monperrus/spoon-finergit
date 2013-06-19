@@ -103,6 +103,12 @@ analyseCode
 (
 )
 ;
+unit
+.
+ignoreFurtherInvestigation
+=
+false
+;
 requestor
 .
 acceptResult
