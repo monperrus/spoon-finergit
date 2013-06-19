@@ -75,11 +75,7 @@ throw
 new
 CtSnippetCompilationError
 (
-builder
-.
-getProblems
-(
-)
+"snippet could not be compiled"
 )
 ;
 }

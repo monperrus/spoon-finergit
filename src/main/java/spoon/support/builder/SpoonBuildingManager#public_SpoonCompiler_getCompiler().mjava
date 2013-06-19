@@ -1,5 +1,5 @@
 public
-TreeBuilderRequestor
+SpoonCompiler
 getCompiler
 (
 )
