@@ -27,16 +27,13 @@ size
 )
 &&
 e
-.
-equals
-(
+==
 context
 .
 parenthesedExpression
 .
 peek
 (
-)
 )
 )
 {
