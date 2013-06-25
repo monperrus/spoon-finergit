@@ -1,0 +1,22 @@
+/** 
+ * @param filter
+ * @return
+ */
+<
+T
+extends
+CtReference
+>
+List
+<
+T
+>
+getReferences
+(
+ReferenceFilter
+<
+T
+>
+filter
+)
+;

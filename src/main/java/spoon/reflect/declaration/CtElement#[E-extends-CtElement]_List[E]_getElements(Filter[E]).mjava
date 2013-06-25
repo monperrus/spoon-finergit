@@ -1,0 +1,22 @@
+/** 
+ * @param filter
+ * @return
+ */
+<
+E
+extends
+CtElement
+>
+List
+<
+E
+>
+getElements
+(
+Filter
+<
+E
+>
+filter
+)
+;
