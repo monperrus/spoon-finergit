@@ -272,7 +272,7 @@ sw1
 .
 setLongFlag
 (
-"noimports"
+"with-imports"
 )
 ;
 sw1
@@ -286,7 +286,7 @@ sw1
 .
 setHelp
 (
-"Disable imports in generated files"
+"Enable imports in generated files"
 )
 ;
 jsap
