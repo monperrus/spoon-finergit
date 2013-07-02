@@ -1,0 +1,17 @@
+/** 
+ * @param interfac
+ * @return <tt>true</tt> if this element changed as a result of the call
+ */
+<
+S
+>
+boolean
+addSuperInterface
+(
+CtTypeReference
+<
+S
+>
+interfac
+)
+;

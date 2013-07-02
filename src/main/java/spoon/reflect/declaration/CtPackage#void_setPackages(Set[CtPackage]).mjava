@@ -1,7 +1,9 @@
 /** 
  * Sets the childs defined in this package
  * @param pack new set of child packages
+ * @deprecated use {@link #addPackage(CtPackage)} and{@link #removePackage(CtPackage)} instead
  */
+@Deprecated
 void
 setPackages
 (

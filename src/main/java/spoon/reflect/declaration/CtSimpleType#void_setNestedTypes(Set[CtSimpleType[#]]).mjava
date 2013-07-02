@@ -1,6 +1,8 @@
 /** 
  * Sets some nested types.
+ * @deprecated use {@link #addNestedType(CtSimpleType)} and{@link #removeNestedType(CtSimpleType)} instead
  */
+@Deprecated
 void
 setNestedTypes
 (

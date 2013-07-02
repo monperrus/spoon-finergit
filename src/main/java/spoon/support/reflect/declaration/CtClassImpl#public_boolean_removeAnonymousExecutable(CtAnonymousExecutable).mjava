@@ -1,0 +1,17 @@
+public
+boolean
+removeAnonymousExecutable
+(
+CtAnonymousExecutable
+e
+)
+{
+return
+anonymousExecutable
+.
+remove
+(
+e
+)
+;
+}

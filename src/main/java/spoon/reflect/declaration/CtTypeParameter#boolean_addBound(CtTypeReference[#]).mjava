@@ -1,0 +1,14 @@
+/** 
+ * @param bounds
+ * @return
+ */
+boolean
+addBound
+(
+CtTypeReference
+<
+?
+>
+bounds
+)
+;

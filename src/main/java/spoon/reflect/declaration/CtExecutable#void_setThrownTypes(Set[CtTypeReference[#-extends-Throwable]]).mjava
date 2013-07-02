@@ -1,6 +1,8 @@
 /** 
  * Sets the thrown types.
+ * @deprecated use {@link #addThrownType(CtTypeReference)} and{@link #removeThrownType(CtTypeReference)} to manipulatethrow types
  */
+@Deprecated
 void
 setThrownTypes
 (

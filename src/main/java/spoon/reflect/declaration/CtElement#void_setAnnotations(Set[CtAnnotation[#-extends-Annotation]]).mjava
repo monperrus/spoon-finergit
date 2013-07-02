@@ -1,6 +1,8 @@
 /** 
  * Sets the annotations for this element.
+ * @deprecated use {@link #addAnnotation(CtAnnotation)} and{@link #removeAnnotation(CtAnnotation)} to manipulateannotations
  */
+@Deprecated
 void
 setAnnotations
 (

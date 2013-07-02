@@ -1,0 +1,17 @@
+public
+boolean
+removeModifier
+(
+ModifierKind
+modifier
+)
+{
+return
+modifiers
+.
+remove
+(
+modifier
+)
+;
+}

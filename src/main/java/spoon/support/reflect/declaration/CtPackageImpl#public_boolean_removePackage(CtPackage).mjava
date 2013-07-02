@@ -1,0 +1,17 @@
+public
+boolean
+removePackage
+(
+CtPackage
+pack
+)
+{
+return
+packs
+.
+remove
+(
+pack
+)
+;
+}

@@ -1,0 +1,18 @@
+/** 
+ * add a Field
+ * @param field
+ * @return <tt>true</tt> if this element changed as a result of the call
+ */
+<
+F
+>
+boolean
+addField
+(
+CtField
+<
+F
+>
+field
+)
+;

@@ -1,0 +1,17 @@
+public
+boolean
+addModifier
+(
+ModifierKind
+modifier
+)
+{
+return
+modifiers
+.
+add
+(
+modifier
+)
+;
+}

@@ -1,0 +1,18 @@
+/** 
+ * add a nested type
+ * @param nestedType
+ * @return <tt>true</tt> if this element changed as a result of the call
+ */
+<
+N
+>
+boolean
+removeNestedType
+(
+CtSimpleType
+<
+N
+>
+nestedType
+)
+;
