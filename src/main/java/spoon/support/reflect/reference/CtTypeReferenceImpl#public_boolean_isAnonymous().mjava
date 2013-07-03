@@ -9,8 +9,10 @@ getSimpleName
 (
 )
 .
-isEmpty
+length
 (
 )
+==
+0
 ;
 }
