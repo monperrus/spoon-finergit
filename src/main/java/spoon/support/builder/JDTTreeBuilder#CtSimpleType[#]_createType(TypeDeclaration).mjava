@@ -33,6 +33,9 @@ AccAnnotation
 {
 type
 =
+(
+CtSimpleType
+)
 factory
 .
 Core
