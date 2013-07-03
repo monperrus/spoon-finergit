@@ -16,7 +16,7 @@ scan
 (
 fieldAccess
 .
-getTarget
+getVariable
 (
 )
 )
