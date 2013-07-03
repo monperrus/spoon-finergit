@@ -1,0 +1,15 @@
+public
+<
+T
+>
+void
+visitCtArrayTypeReference
+(
+CtArrayTypeReference
+<
+T
+>
+reference
+)
+{
+}

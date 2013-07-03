@@ -1,0 +1,15 @@
+public
+<
+T
+>
+void
+visitCtNewClass
+(
+CtNewClass
+<
+T
+>
+newClass
+)
+{
+}

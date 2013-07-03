@@ -1,0 +1,15 @@
+public
+<
+S
+>
+void
+visitCtCase
+(
+CtCase
+<
+S
+>
+caseStatement
+)
+{
+}

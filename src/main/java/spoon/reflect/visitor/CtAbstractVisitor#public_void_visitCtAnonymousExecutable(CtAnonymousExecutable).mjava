@@ -1,0 +1,9 @@
+public
+void
+visitCtAnonymousExecutable
+(
+CtAnonymousExecutable
+anonymousExec
+)
+{
+}

@@ -1,0 +1,15 @@
+public
+<
+T
+>
+void
+visitCtFieldAccess
+(
+CtFieldAccess
+<
+T
+>
+fieldAccess
+)
+{
+}

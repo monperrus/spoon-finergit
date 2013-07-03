@@ -1,0 +1,15 @@
+public
+<
+T
+>
+void
+visitCtUnaryOperator
+(
+CtUnaryOperator
+<
+T
+>
+operator
+)
+{
+}

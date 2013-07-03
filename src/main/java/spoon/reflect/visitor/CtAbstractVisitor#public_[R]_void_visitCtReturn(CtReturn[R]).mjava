@@ -1,0 +1,15 @@
+public
+<
+R
+>
+void
+visitCtReturn
+(
+CtReturn
+<
+R
+>
+returnStatement
+)
+{
+}

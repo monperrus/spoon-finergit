@@ -1,0 +1,17 @@
+public
+<
+A
+extends
+Annotation
+>
+void
+visitCtAnnotationType
+(
+CtAnnotationType
+<
+A
+>
+annotationType
+)
+{
+}

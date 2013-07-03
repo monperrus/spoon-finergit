@@ -1,0 +1,15 @@
+public
+<
+T
+>
+void
+visitCtLiteral
+(
+CtLiteral
+<
+T
+>
+literal
+)
+{
+}

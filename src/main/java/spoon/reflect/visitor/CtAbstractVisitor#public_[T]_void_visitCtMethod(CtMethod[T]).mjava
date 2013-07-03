@@ -1,0 +1,15 @@
+public
+<
+T
+>
+void
+visitCtMethod
+(
+CtMethod
+<
+T
+>
+m
+)
+{
+}

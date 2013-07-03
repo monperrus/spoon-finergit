@@ -1,0 +1,15 @@
+public
+<
+T
+>
+void
+visitCtBinaryOperator
+(
+CtBinaryOperator
+<
+T
+>
+operator
+)
+{
+}

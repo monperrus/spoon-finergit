@@ -1,0 +1,15 @@
+public
+<
+T
+>
+void
+visitCtAssert
+(
+CtAssert
+<
+T
+>
+asserted
+)
+{
+}

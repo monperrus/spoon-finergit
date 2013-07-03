@@ -1,0 +1,9 @@
+public
+void
+visitCtSynchronized
+(
+CtSynchronized
+synchro
+)
+{
+}

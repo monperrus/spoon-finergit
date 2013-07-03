@@ -1,0 +1,15 @@
+public
+<
+T
+>
+void
+visitCtInterface
+(
+CtInterface
+<
+T
+>
+intrface
+)
+{
+}

@@ -1,0 +1,15 @@
+public
+<
+R
+>
+void
+visitCtBlock
+(
+CtBlock
+<
+R
+>
+block
+)
+{
+}
