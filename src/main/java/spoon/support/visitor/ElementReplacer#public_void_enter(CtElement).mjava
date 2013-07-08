@@ -20,6 +20,13 @@ e
 }
 catch
 (
+CtUncomparableException
+e1
+)
+{
+}
+catch
+(
 Exception
 e1
 )
