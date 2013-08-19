@@ -1,0 +1,7 @@
+void
+setRealRef
+(
+CtTypeReference
+ctTypeReference
+)
+;

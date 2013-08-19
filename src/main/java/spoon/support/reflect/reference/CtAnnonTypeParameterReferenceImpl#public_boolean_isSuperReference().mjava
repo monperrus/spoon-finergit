@@ -1,0 +1,15 @@
+@Override
+public
+boolean
+isSuperReference
+(
+)
+{
+return
+ref
+.
+isSuperReference
+(
+)
+;
+}

@@ -1,0 +1,15 @@
+@Override
+public
+CtPackageReference
+getPackage
+(
+)
+{
+return
+ref
+.
+getPackage
+(
+)
+;
+}

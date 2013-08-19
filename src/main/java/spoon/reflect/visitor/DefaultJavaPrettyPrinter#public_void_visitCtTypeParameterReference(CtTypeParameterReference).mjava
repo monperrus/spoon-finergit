@@ -68,6 +68,17 @@ context
 isInvocation
 &&
 !
+(
+ref
+.
+getBounds
+(
+)
+==
+null
+)
+&&
+!
 ref
 .
 getBounds

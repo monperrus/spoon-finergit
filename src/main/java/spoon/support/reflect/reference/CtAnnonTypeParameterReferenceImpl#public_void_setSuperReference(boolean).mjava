@@ -1,0 +1,17 @@
+@Override
+public
+void
+setSuperReference
+(
+boolean
+b
+)
+{
+throw
+new
+UnsupportedOperationException
+(
+"this is a fake reference, use setRealRef instead."
+)
+;
+}

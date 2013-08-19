@@ -1,0 +1,11 @@
+@Override
+public
+Factory
+getFactory
+(
+)
+{
+return
+factory
+;
+}

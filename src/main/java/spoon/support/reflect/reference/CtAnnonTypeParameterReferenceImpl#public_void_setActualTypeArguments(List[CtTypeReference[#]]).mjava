@@ -1,0 +1,23 @@
+@Override
+public
+void
+setActualTypeArguments
+(
+List
+<
+CtTypeReference
+<
+?
+>
+>
+actualTypeArguments
+)
+{
+throw
+new
+UnsupportedOperationException
+(
+"this is a fake reference, use setRealRef instead."
+)
+;
+}

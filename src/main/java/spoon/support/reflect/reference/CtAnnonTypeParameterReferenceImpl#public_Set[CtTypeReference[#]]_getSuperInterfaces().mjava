@@ -1,0 +1,17 @@
+@Override
+public
+Set
+<
+CtTypeReference
+<
+?
+>
+>
+getSuperInterfaces
+(
+)
+{
+return
+null
+;
+}

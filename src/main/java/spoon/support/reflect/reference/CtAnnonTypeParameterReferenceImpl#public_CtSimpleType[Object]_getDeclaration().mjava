@@ -1,0 +1,14 @@
+@Override
+public
+CtSimpleType
+<
+Object
+>
+getDeclaration
+(
+)
+{
+return
+null
+;
+}

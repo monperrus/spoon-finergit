@@ -1,0 +1,17 @@
+@Override
+public
+Collection
+<
+CtFieldReference
+<
+?
+>
+>
+getAllFields
+(
+)
+{
+return
+null
+;
+}

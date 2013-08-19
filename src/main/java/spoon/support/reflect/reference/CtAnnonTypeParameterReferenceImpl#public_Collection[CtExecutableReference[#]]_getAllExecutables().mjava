@@ -1,0 +1,17 @@
+@Override
+public
+Collection
+<
+CtExecutableReference
+<
+?
+>
+>
+getAllExecutables
+(
+)
+{
+return
+null
+;
+}

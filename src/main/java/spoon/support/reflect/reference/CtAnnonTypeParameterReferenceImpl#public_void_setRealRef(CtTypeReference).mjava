@@ -1,0 +1,14 @@
+@Override
+public
+void
+setRealRef
+(
+CtTypeReference
+ctTypeReference
+)
+{
+ref
+=
+ctTypeReference
+;
+}

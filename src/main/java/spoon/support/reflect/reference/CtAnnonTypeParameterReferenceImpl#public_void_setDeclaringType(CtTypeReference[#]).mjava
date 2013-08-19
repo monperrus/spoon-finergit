@@ -1,0 +1,20 @@
+@Override
+public
+void
+setDeclaringType
+(
+CtTypeReference
+<
+?
+>
+declaringType
+)
+{
+throw
+new
+UnsupportedOperationException
+(
+"this is a fake reference, use setRealRef instead."
+)
+;
+}

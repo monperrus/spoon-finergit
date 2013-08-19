@@ -1,0 +1,23 @@
+@Override
+public
+void
+setBounds
+(
+List
+<
+CtTypeReference
+<
+?
+>
+>
+bounds
+)
+{
+throw
+new
+UnsupportedOperationException
+(
+"this is a fake reference, use setRealRef instead."
+)
+;
+}

@@ -110,7 +110,7 @@ context
 .
 ignoreGenerics
 =
-true
+false
 ;
 scan
 (
