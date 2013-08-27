@@ -59,7 +59,7 @@ length
 )
 throw
 new
-ClassCastException
+CtUncomparableException
 (
 "Unable to compare elements"
 )

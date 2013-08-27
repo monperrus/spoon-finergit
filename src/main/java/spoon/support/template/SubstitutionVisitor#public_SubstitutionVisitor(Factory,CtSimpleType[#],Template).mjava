@@ -139,13 +139,6 @@ createReference
 targetType
 )
 ;
-targetRef
-.
-accept
-(
-this
-)
-;
 templateTypeRef
 =
 f
@@ -159,6 +152,13 @@ createReference
 Template
 .
 class
+)
+;
+targetRef
+.
+accept
+(
+this
 )
 ;
 }

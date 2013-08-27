@@ -212,6 +212,14 @@ resolvedType
 )
 ;
 }
+if
+(
+constructorDeclaration
+.
+binding
+!=
+null
+)
 for
 (
 TypeBinding
