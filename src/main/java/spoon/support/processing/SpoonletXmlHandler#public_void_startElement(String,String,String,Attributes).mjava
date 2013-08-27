@@ -98,7 +98,7 @@ getValue
 ;
 for
 (
-CtResource
+SpoonRessource
 r
 :
 spoonletIndex
@@ -152,7 +152,7 @@ getValue
 ;
 for
 (
-CtResource
+SpoonRessource
 r
 :
 spoonletIndex
@@ -206,7 +206,7 @@ getValue
 ;
 for
 (
-CtResource
+SpoonRessource
 r
 :
 spoonletIndex

@@ -24,7 +24,7 @@ try
 {
 for
 (
-CtResource
+SpoonRessource
 f
 :
 getInputSources
@@ -42,7 +42,7 @@ f
 }
 for
 (
-CtResource
+SpoonRessource
 f
 :
 getTemplateSources

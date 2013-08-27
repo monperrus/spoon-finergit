@@ -32,7 +32,7 @@ builder
 addInputSource
 (
 new
-CtVirtualFile
+VirtualFile
 (
 contents
 ,
@@ -73,7 +73,7 @@ success
 {
 throw
 new
-CtSnippetCompilationError
+SnippetCompilationError
 (
 "snippet could not be compiled"
 )

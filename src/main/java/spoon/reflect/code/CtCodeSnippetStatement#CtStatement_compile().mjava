@@ -1,12 +1,12 @@
 /** 
  * Compiles this statement code snippet to produce the corresponding AST statement.
  * @return a statement
- * @throws CtSnippetCompilationError when the current snippet is not valid Java code
+ * @throws SnippetCompilationError when the current snippet is not valid Java code
  */
 CtStatement
 compile
 (
 )
 throws
-CtSnippetCompilationError
+SnippetCompilationError
 ;

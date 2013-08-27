@@ -10,7 +10,7 @@ String
 contents
 )
 throws
-CtSnippetCompilationError
+SnippetCompilationError
 {
 build
 (

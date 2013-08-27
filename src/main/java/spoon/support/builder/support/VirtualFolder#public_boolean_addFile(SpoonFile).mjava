@@ -1,0 +1,17 @@
+public
+boolean
+addFile
+(
+SpoonFile
+o
+)
+{
+return
+files
+.
+add
+(
+o
+)
+;
+}

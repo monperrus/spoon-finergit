@@ -17,7 +17,7 @@ T
 expr
 )
 throws
-CtSnippetCompilationError
+SnippetCompilationError
 {
 Factory
 f

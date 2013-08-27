@@ -17,7 +17,7 @@ T
 expectedType
 )
 throws
-CtSnippetCompilationError
+SnippetCompilationError
 {
 CtStatement
 s
@@ -50,7 +50,7 @@ s
 }
 throw
 new
-CtSnippetCompilationError
+SnippetCompilationError
 (
 "Incorrect Type for snippet "
 +

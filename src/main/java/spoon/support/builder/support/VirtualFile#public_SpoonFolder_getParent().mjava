@@ -1,0 +1,13 @@
+public
+SpoonFolder
+getParent
+(
+)
+{
+return
+new
+VirtualFolder
+(
+)
+;
+}

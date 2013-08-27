@@ -7,7 +7,7 @@ CtCodeSnippetStatement
 st
 )
 throws
-CtSnippetCompilationError
+SnippetCompilationError
 {
 return
 internalCompileStatement

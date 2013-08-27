@@ -1,0 +1,17 @@
+public
+boolean
+addFolder
+(
+SpoonFolder
+o
+)
+{
+return
+folders
+.
+add
+(
+o
+)
+;
+}

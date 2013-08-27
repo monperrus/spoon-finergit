@@ -7,7 +7,7 @@ compile
 (
 )
 throws
-CtSnippetCompilationError
+SnippetCompilationError
 {
 return
 SnippetCompiler

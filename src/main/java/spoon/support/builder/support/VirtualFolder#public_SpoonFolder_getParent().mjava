@@ -1,0 +1,10 @@
+public
+SpoonFolder
+getParent
+(
+)
+{
+return
+null
+;
+}
