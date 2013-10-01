@@ -31,7 +31,11 @@ AccAnnotation
 0
 )
 {
-type
+CtSimpleType
+<
+?
+>
+annotationType
 =
 factory
 .
@@ -42,6 +46,10 @@ Core
 createAnnotationType
 (
 )
+;
+type
+=
+annotationType
 ;
 }
 else
