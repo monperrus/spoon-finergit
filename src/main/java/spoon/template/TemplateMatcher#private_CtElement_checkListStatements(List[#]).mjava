@@ -62,7 +62,7 @@ Type
 .
 createReference
 (
-TemplateParameterList
+TemplateParameter
 .
 class
 )

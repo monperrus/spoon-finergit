@@ -1,19 +1,19 @@
-/** 
- * Returns the block.
- */
 @SuppressWarnings("unchecked")
-public
+private
 static
 CtBlock
 <
 ?
 >
-getBlock
+getExpressionBlock
 (
 CtClass
 <
 ?
-BlockTemplateParameter
+ExpressionTemplate
+<
+?
+>
 >
 p
 )
@@ -25,7 +25,7 @@ p
 .
 getMethod
 (
-"block"
+"expression"
 )
 .
 getBody
