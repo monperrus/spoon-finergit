@@ -94,9 +94,6 @@ substitute
 (
 targetType
 ,
-(
-Template
-)
 this
 ,
 getExpressionBlock

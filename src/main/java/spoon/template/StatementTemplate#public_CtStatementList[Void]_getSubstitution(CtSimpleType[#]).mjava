@@ -110,9 +110,6 @@ substitute
 (
 targetType
 ,
-(
-Template
-)
 this
 ,
 c
