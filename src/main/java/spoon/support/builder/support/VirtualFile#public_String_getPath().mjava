@@ -5,6 +5,6 @@ getPath
 )
 {
 return
-""
+name
 ;
 }
