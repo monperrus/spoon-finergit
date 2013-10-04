@@ -91,6 +91,10 @@ getAllJavaFiles
 )
 )
 ;
+reportProblems
+(
+)
+;
 factory
 .
 getEnvironment
