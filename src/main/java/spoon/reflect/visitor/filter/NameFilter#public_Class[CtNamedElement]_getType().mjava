@@ -1,0 +1,15 @@
+public
+Class
+<
+CtNamedElement
+>
+getType
+(
+)
+{
+return
+CtNamedElement
+.
+class
+;
+}
