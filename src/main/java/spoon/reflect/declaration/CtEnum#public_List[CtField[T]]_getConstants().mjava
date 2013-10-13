@@ -1,0 +1,15 @@
+/** 
+ * Returns the set of predefined constants of this enum 
+ */
+public
+List
+<
+CtField
+<
+T
+>
+>
+getConstants
+(
+)
+;
