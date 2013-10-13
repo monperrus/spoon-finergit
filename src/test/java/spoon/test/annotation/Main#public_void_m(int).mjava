@@ -1,0 +1,10 @@
+public
+void
+m
+(
+@Bound(max=8)
+int
+a
+)
+{
+}
