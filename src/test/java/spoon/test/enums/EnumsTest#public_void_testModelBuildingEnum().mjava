@@ -58,7 +58,7 @@ assertEquals
 ,
 enumeration
 .
-getConstants
+getValues
 (
 )
 .
@@ -73,7 +73,7 @@ assertEquals
 ,
 enumeration
 .
-getConstants
+getValues
 (
 )
 .

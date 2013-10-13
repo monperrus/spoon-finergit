@@ -6,7 +6,7 @@ CtField
 T
 >
 >
-getConstants
+getValues
 (
 )
 {
