@@ -38,9 +38,11 @@ if
 (
 type
 .
-isTopLevel
+getPackage
 (
 )
+!=
+null
 )
 {
 ref
@@ -64,8 +66,6 @@ getPackage
 )
 ;
 }
-else
-{
 if
 (
 type
@@ -91,7 +91,6 @@ getDeclaringType
 )
 )
 ;
-}
 }
 ref
 .
