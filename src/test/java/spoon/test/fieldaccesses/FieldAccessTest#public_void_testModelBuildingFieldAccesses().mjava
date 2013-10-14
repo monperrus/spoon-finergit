@@ -74,7 +74,7 @@ get
 ;
 assertEquals
 (
-2
+3
 ,
 meth1
 .
@@ -96,7 +96,7 @@ size
 ;
 assertEquals
 (
-3
+2
 ,
 meth1b
 .
@@ -140,7 +140,7 @@ get
 ;
 assertEquals
 (
-3
+2
 ,
 meth2
 .
