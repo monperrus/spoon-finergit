@@ -1,0 +1,14 @@
+/** 
+ * Creates an access expression to this.
+ */
+<
+T
+>
+CtThisAccess
+<
+T
+>
+createThisAccess
+(
+)
+;

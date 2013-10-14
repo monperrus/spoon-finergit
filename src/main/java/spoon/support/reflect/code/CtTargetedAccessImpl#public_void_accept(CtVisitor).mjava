@@ -8,7 +8,7 @@ visitor
 {
 visitor
 .
-visitCtFieldAccess
+visitCtTargetedAccess
 (
 this
 )

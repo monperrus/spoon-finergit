@@ -3,18 +3,18 @@ public
 T
 >
 void
-visitCtFieldAccess
+visitCtTargetedAccess
 (
-CtFieldAccess
+CtTargetedAccess
 <
 T
 >
-fieldAccess
+targetedAccess
 )
 {
 if
 (
-fieldAccess
+targetedAccess
 .
 getVariable
 (
@@ -43,7 +43,7 @@ return
 }
 if
 (
-fieldAccess
+targetedAccess
 .
 getVariable
 (
@@ -71,7 +71,7 @@ getType
 (
 this
 ,
-fieldAccess
+targetedAccess
 .
 getType
 (
@@ -93,7 +93,7 @@ target
 =
 evaluate
 (
-fieldAccess
+targetedAccess
 .
 getTarget
 (
@@ -111,7 +111,7 @@ if
 (
 isAccessible
 (
-fieldAccess
+targetedAccess
 .
 getVariable
 (
@@ -155,7 +155,7 @@ target
 .
 getFieldValue
 (
-fieldAccess
+targetedAccess
 .
 getVariable
 (
@@ -180,7 +180,7 @@ T
 (
 this
 ,
-fieldAccess
+targetedAccess
 .
 getType
 (

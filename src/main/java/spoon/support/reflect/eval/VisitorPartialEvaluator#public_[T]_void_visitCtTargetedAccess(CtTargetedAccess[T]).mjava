@@ -3,18 +3,18 @@ public
 T
 >
 void
-visitCtFieldAccess
+visitCtTargetedAccess
 (
-CtFieldAccess
+CtTargetedAccess
 <
 T
 >
-fieldAccess
+targetedAccess
 )
 {
 if
 (
-fieldAccess
+targetedAccess
 .
 getVariable
 (
@@ -36,7 +36,7 @@ Class
 >
 c
 =
-fieldAccess
+targetedAccess
 .
 getVariable
 (
@@ -66,7 +66,7 @@ Class
 >
 l
 =
-fieldAccess
+targetedAccess
 .
 getFactory
 (
@@ -98,7 +98,7 @@ return
 }
 if
 (
-fieldAccess
+targetedAccess
 .
 getFactory
 (
@@ -117,7 +117,7 @@ class
 .
 isAssignableFrom
 (
-fieldAccess
+targetedAccess
 .
 getVariable
 (
@@ -138,7 +138,7 @@ CtFieldReference
 >
 l
 =
-fieldAccess
+targetedAccess
 .
 getFactory
 (
@@ -156,7 +156,7 @@ l
 .
 setValue
 (
-fieldAccess
+targetedAccess
 .
 getVariable
 (
@@ -177,7 +177,7 @@ CtField
 >
 f
 =
-fieldAccess
+targetedAccess
 .
 getVariable
 (
@@ -228,7 +228,7 @@ return
 }
 setResult
 (
-fieldAccess
+targetedAccess
 .
 getFactory
 (
@@ -240,7 +240,7 @@ Core
 .
 clone
 (
-fieldAccess
+targetedAccess
 )
 )
 ;

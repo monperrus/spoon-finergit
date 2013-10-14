@@ -5,12 +5,12 @@
 T
 >
 void
-visitCtFieldAccess
+visitCtTargetedAccess
 (
-CtFieldAccess
+CtTargetedAccess
 <
 T
 >
-fieldAccess
+targetedAccess
 )
 ;

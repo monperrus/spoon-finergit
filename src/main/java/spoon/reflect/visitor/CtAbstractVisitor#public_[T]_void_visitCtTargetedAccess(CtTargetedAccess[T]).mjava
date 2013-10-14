@@ -1,0 +1,15 @@
+public
+<
+T
+>
+void
+visitCtTargetedAccess
+(
+CtTargetedAccess
+<
+T
+>
+targetedAccess
+)
+{
+}
