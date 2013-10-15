@@ -1,6 +1,8 @@
 public
 TemplateWithConstructor
 (
+int
+arg
 )
 {
 super
