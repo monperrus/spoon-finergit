@@ -1,0 +1,10 @@
+/** 
+ * Sets the current classpath.
+ */
+void
+setClasspath
+(
+String
+classpath
+)
+;

@@ -47,7 +47,11 @@ setValue
 (
 intLiteral
 .
-value
+constant
+.
+intValue
+(
+)
 )
 ;
 context

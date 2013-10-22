@@ -134,13 +134,32 @@ get
 ;
 }
 }
-throw
-new
-IllegalStateException
+logger
+.
+error
 (
-"Could not find declaration for local variable "
+"could not find declaration for local variable "
 +
 name
++
+" at "
++
+context
+.
+stack
+.
+peek
+(
 )
+.
+element
+.
+getPosition
+(
+)
+)
+;
+return
+null
 ;
 }

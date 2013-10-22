@@ -21,7 +21,7 @@ getEnvironment
 .
 debugMessage
 (
-"BORKED SnippetCompilation"
+"error in snippet compilation"
 )
 ;
 ByteArrayOutputStream

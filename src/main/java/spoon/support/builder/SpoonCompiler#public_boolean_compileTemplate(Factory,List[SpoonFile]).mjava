@@ -45,7 +45,7 @@ add
 (
 "-1."
 +
-JAVA_COMPLIANCE
+javaCompliance
 )
 ;
 args

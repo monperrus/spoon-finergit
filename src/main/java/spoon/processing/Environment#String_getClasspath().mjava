@@ -1,0 +1,8 @@
+/** 
+ * Gets the current classpath.
+ */
+String
+getClasspath
+(
+)
+;

@@ -6,6 +6,23 @@ CategorizedProblem
 problem
 )
 {
+if
+(
+problem
+==
+null
+)
+{
+logger
+.
+error
+(
+"cannot report null problem"
+)
+;
+return
+;
+}
 File
 file
 =
