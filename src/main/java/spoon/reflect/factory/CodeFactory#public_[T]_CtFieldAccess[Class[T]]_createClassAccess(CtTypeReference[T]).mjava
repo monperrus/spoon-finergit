@@ -4,7 +4,6 @@
  * @param type a type reference to the accessed class
  * @return the class access expression.
  */
-@SuppressWarnings("unchecked")
 public
 <
 T
@@ -44,9 +43,19 @@ createFieldAccess
 (
 )
 ;
+@SuppressWarnings({"rawtypes","unchecked"})
 CtTypeReference
+<
+Class
+<
+T
+>
+>
 classType
 =
+(
+CtTypeReference
+)
 factory
 .
 Type
@@ -68,6 +77,12 @@ classType
 )
 ;
 CtFieldReference
+<
+Class
+<
+T
+>
+>
 field
 =
 factory

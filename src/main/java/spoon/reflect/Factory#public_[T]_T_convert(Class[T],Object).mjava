@@ -1,11 +1,11 @@
 /** 
- * Converts an object <code>o</code> into an object or a {@link CtReference} of type </code>type<code>.
+ * Converts an object <code>o</code> into an object or a  {@link CtReference}of type </code>type<code>.
  * @param < T > the actual type of the object
  * @param type the type to convert the object into
  * @param o the object to be converted
  * @return a primitive object of type T, or a reference
  */
-@SuppressWarnings("unchecked")
+@SuppressWarnings({"unchecked","rawtypes"})
 public
 <
 T

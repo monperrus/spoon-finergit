@@ -1,7 +1,6 @@
 /** 
  * Returns the block.
  */
-@SuppressWarnings("unchecked")
 public
 static
 CtBlock
@@ -19,6 +18,9 @@ p
 )
 {
 CtBlock
+<
+?
+>
 b
 =
 p

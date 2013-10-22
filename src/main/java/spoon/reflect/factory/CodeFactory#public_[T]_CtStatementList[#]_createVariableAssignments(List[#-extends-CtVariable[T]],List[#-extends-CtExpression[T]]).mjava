@@ -4,15 +4,23 @@
  * @param expressions the assigned expressions
  * @return a list of variable assignments
  */
-@SuppressWarnings("unchecked")
 public
+<
+T
+>
 CtStatementList
+<
+?
+>
 createVariableAssignments
 (
 List
 <
 ?
 CtVariable
+<
+T
+>
 >
 variables
 ,
@@ -20,6 +28,9 @@ List
 <
 ?
 CtExpression
+<
+T
+>
 >
 expressions
 )

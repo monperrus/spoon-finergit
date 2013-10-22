@@ -3,7 +3,10 @@
  * @param key name of searched value
  * @return the value or null if not found
  */
-Object
+<
+T
+>
+T
 getElementValue
 (
 String

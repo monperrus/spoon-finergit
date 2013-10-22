@@ -3,7 +3,6 @@
  * @param targetType the target type
  * @param template the source template
  */
-@SuppressWarnings("unchecked")
 public
 static
 void

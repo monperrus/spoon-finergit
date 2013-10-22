@@ -6,7 +6,6 @@
  * @param value the value of the annotation element
  * @return the created/updated annotation
  */
-@SuppressWarnings("unchecked")
 public
 <
 A

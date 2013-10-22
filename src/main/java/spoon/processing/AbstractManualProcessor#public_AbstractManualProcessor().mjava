@@ -1,7 +1,6 @@
 /** 
  * Empty constructor only for all processors (invoked by Spoon).
  */
-@SuppressWarnings("unchecked")
 public
 AbstractManualProcessor
 (

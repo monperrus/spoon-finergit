@@ -21,6 +21,9 @@ qualifiedName
 return
 (
 CtAnnotationType
+<
+T
+>
 )
 super
 .

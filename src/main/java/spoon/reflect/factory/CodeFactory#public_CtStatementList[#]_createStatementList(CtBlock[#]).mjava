@@ -1,9 +1,11 @@
 /** 
  * Creates a new statement list from an existing block.
  */
-@SuppressWarnings("unchecked")
 public
 CtStatementList
+<
+?
+>
 createStatementList
 (
 CtBlock
@@ -14,6 +16,9 @@ block
 )
 {
 CtStatementList
+<
+?
+>
 l
 =
 factory

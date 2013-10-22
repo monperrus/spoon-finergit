@@ -570,6 +570,9 @@ type
 )
 {
 CtTypeReference
+<
+?
+>
 [
 ]
 ret
@@ -629,6 +632,9 @@ type
 )
 {
 CtFieldReference
+<
+?
+>
 [
 ]
 ret
@@ -688,6 +694,9 @@ type
 )
 {
 CtExecutableReference
+<
+?
+>
 [
 ]
 ret
@@ -777,6 +786,9 @@ add
 (
 (
 Enum
+<
+?
+>
 )
 convert
 (

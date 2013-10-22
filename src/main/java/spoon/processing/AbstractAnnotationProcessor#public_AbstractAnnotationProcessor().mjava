@@ -56,6 +56,9 @@ length
 )
 {
 Class
+<
+?
+>
 c
 =
 m
@@ -84,6 +87,12 @@ c
 {
 addConsumedAnnotationType
 (
+(
+Class
+<
+A
+>
+)
 c
 )
 ;
@@ -110,6 +119,12 @@ c
 {
 addProcessedElementType
 (
+(
+Class
+<
+E
+>
+)
 c
 )
 ;

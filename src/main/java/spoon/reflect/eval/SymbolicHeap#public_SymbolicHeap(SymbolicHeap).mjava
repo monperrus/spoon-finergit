@@ -52,7 +52,16 @@ getKey
 ,
 new
 SymbolicInstance
+<
+Object
+>
 (
+(
+SymbolicInstance
+<
+Object
+>
+)
 e
 .
 getValue

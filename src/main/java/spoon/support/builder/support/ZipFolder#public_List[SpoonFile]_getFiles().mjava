@@ -24,9 +24,13 @@ SpoonFile
 (
 )
 ;
+ZipInputStream
+zipInput
+=
+null
+;
 try
 {
-ZipInputStream
 zipInput
 =
 new
@@ -156,6 +160,12 @@ toByteArray
 )
 ;
 }
+zipInput
+.
+close
+(
+)
+;
 }
 catch
 (

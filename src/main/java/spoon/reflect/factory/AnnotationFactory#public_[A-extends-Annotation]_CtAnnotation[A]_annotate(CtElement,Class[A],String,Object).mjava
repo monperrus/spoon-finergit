@@ -6,7 +6,6 @@
  * @param value the value of the annotation element
  * @return the created/updated annotation
  */
-@SuppressWarnings("unchecked")
 public
 <
 A
@@ -36,6 +35,9 @@ value
 )
 {
 CtAnnotation
+<
+A
+>
 annotation
 =
 element
@@ -112,11 +114,17 @@ boolean
 isArray
 ;
 CtAnnotationType
+<
+A
+>
 annotationtype
 =
 (
 (
 CtAnnotationType
+<
+A
+>
 )
 annotation
 .
@@ -137,6 +145,9 @@ null
 )
 {
 CtField
+<
+?
+>
 e
 =
 annotationtype
@@ -297,17 +308,20 @@ if
 isArray
 )
 {
-(
-(
 List
-)
+<
+Object
+>
+l
+=
 annotation
 .
 getElementValue
 (
 annotationElementName
 )
-)
+;
+l
 .
 add
 (

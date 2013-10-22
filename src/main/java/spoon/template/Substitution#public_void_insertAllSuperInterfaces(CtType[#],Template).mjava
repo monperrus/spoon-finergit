@@ -3,7 +3,6 @@
  * @param targetType the target type
  * @param template the source template
  */
-@SuppressWarnings("unchecked")
 public
 static
 void
@@ -142,6 +141,9 @@ t1
 =
 (
 CtTypeReference
+<
+?
+>
 )
 o
 ;
@@ -170,6 +172,9 @@ createReference
 (
 (
 Class
+<
+?
+>
 )
 o
 )
@@ -221,6 +226,9 @@ getReference
 )
 {
 Class
+<
+?
+>
 c
 =
 t1
