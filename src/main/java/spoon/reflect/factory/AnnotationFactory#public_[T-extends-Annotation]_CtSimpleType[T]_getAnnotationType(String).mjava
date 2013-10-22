@@ -8,7 +8,7 @@ T
 extends
 Annotation
 >
-CtAnnotationType
+CtSimpleType
 <
 T
 >
@@ -19,14 +19,6 @@ qualifiedName
 )
 {
 return
-(
-CtAnnotationType
-<
-T
->
-)
-super
-.
 get
 (
 qualifiedName
