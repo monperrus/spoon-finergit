@@ -383,7 +383,7 @@ type
 .
 setModifiers
 (
-getModifier
+getModifiers
 (
 typeDeclaration
 .

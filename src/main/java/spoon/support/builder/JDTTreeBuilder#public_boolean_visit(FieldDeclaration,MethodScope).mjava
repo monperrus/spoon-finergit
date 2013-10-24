@@ -68,7 +68,7 @@ field
 .
 setModifiers
 (
-getModifier
+getModifiers
 (
 fieldDeclaration
 .

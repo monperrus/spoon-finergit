@@ -1,7 +1,11 @@
+@SuppressWarnings("unchecked")
 public
+<
+R
+>
 CtMethod
 <
-?
+R
 >
 getMethod
 (
@@ -132,6 +136,12 @@ cont
 )
 {
 return
+(
+CtMethod
+<
+R
+>
+)
 m
 ;
 }

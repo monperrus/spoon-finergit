@@ -1,0 +1,15 @@
+/** 
+ * Gets the ith statement of this block.
+ */
+<
+T
+extends
+CtStatement
+>
+T
+getStatement
+(
+int
+i
+)
+;

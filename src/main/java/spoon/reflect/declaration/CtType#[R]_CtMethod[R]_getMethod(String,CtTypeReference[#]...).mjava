@@ -2,9 +2,12 @@
  * Gets a method from its name and parameter types.
  * @return null if does not exit
  */
+<
+R
+>
 CtMethod
 <
-?
+R
 >
 getMethod
 (

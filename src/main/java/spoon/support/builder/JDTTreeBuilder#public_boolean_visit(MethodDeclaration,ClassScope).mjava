@@ -60,7 +60,7 @@ m
 .
 setModifiers
 (
-getModifier
+getModifiers
 (
 methodDeclaration
 .

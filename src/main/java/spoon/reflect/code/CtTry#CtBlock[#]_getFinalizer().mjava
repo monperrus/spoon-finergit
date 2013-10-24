@@ -1,5 +1,5 @@
 /** 
- * Gets the <i>finalizer</i> block of this <code>try</code> (<code>finally</code> part).
+ * Gets the <i>finalizer</i> block of this <code>try</code> ( <code>finally</code> part).
  */
 CtBlock
 <

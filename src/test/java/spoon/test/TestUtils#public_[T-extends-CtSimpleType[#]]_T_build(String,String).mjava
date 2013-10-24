@@ -1,6 +1,14 @@
 public
 static
+<
+T
+extends
 CtSimpleType
+<
+?
+>
+>
+T
 build
 (
 String
@@ -28,6 +36,9 @@ files
 =
 new
 ArrayList
+<
+SpoonFile
+>
 (
 )
 ;

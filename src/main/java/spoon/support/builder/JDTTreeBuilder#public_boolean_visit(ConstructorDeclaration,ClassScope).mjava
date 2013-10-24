@@ -28,7 +28,7 @@ c
 .
 setModifiers
 (
-getModifier
+getModifiers
 (
 constructorDeclaration
 .

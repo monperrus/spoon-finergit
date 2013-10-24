@@ -1,0 +1,17 @@
+public
+List
+<
+CtLocalVariable
+<
+?
+AutoCloseable
+>
+>
+getResources
+(
+)
+{
+return
+resources
+;
+}
