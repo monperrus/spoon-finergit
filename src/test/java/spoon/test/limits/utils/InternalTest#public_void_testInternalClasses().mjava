@@ -55,7 +55,7 @@ class
 ;
 assertEquals
 (
-3
+4
 ,
 classes
 .
