@@ -136,8 +136,6 @@ String
 {
 write
 (
-"\""
-+
 (
 (
 String
@@ -148,8 +146,6 @@ getValue
 (
 )
 )
-+
-"\""
 )
 ;
 }
