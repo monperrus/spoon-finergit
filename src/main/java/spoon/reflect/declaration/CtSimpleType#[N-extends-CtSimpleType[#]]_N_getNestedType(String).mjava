@@ -1,10 +1,15 @@
 /** 
  * Gets a nested type from its name.
  */
+<
+N
+extends
 CtSimpleType
 <
 ?
 >
+>
+N
 getNestedType
 (
 String

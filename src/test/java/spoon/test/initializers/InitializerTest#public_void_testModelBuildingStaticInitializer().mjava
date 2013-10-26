@@ -8,11 +8,11 @@ throws
 Exception
 {
 CtClass
+<
+?
+>
 type
 =
-(
-CtClass
-)
 build
 (
 "spoon.test.initializers"
@@ -32,11 +32,11 @@ getSimpleName
 )
 ;
 CtClass
+<
+?
+>
 InternalClass
 =
-(
-CtClass
-)
 type
 .
 getNestedType
@@ -121,7 +121,7 @@ size
 ;
 assertEquals
 (
-"tmp = \"nop\""
+"InternalClass.tmp = \"nop\""
 ,
 staticBlock
 .

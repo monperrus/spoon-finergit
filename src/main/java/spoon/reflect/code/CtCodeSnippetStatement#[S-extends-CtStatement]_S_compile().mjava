@@ -3,7 +3,12 @@
  * @return a statement
  * @throws SnippetCompilationError when the current snippet is not valid Java code
  */
+<
+S
+extends
 CtStatement
+>
+S
 compile
 (
 )

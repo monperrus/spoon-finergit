@@ -1,0 +1,13 @@
+/** 
+ * Gets the last statement of this block.
+ */
+<
+T
+extends
+CtStatement
+>
+T
+getLastStatement
+(
+)
+;

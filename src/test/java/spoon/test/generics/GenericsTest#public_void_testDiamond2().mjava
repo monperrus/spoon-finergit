@@ -90,6 +90,12 @@ CtNewClass
 >
 newClass
 =
+(
+CtNewClass
+<
+?
+>
+)
 var
 .
 getDefaultExpression

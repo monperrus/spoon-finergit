@@ -54,6 +54,10 @@ throw
 new
 RuntimeException
 (
+"snippet compilation error while compiling: "
++
+contents
+,
 e
 )
 ;

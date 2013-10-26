@@ -28,12 +28,6 @@ CtClass
 >
 clazz
 =
-(
-CtClass
-<
-?
->
-)
 factory
 .
 Code
@@ -76,6 +70,12 @@ CtNewClass
 >
 val
 =
+(
+CtNewClass
+<
+?
+>
+)
 f
 .
 getDefaultExpression

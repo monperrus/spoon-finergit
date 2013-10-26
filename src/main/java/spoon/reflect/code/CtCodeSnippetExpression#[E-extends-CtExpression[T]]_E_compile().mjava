@@ -2,10 +2,15 @@
  * Compiles this expression snippet to produce the corresponding AST expression.
  * @throws SnippetCompilationError when the current snippet is not valid Java code expression
  */
+<
+E
+extends
 CtExpression
 <
 T
 >
+>
+E
 compile
 (
 )
