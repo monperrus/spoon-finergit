@@ -1,0 +1,11 @@
+/** 
+ * Converts this block to a statement list.
+ */
+CtStatementList
+<
+R
+>
+toStatementList
+(
+)
+;

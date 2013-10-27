@@ -1,0 +1,66 @@
+/** 
+ * Substitute the parameters localized with {@link SimpleTemplate#S(String,Class)} invocations. All the invocationsof the form <code>S("parameter-name")</code> will be replaced by the given element.
+ * @param target the target element
+ * @param parameterName the parameter name to be substituted
+ * @param element the element to substitute with
+ * @return a copy of the target element, with all the found parameterssubstituted
+ * @throws Exception if an error occurs
+ */
+public
+static
+<
+E
+extends
+CtElement
+>
+E
+substitute
+(
+E
+target
+,
+String
+parameterName
+,
+CtElement
+element
+)
+throws
+Exception
+{
+Map
+<
+String
+,
+CtElement
+>
+parameters
+=
+new
+HashMap
+<
+String
+,
+CtElement
+>
+(
+)
+;
+parameters
+.
+put
+(
+parameterName
+,
+element
+)
+;
+return
+substitute
+(
+target
+,
+parameters
+)
+;
+}

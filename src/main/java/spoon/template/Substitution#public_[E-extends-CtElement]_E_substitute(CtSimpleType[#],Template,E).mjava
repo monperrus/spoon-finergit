@@ -3,7 +3,7 @@
  * @param targetType the target type
  * @param template the template instance
  * @param code the code
- * @return the code where all the template parameters has be substituted bytheir values
+ * @return the code where all the template parameters has been substitutedby their values
  */
 public
 static
