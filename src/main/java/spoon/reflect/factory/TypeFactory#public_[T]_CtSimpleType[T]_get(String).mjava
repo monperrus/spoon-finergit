@@ -49,6 +49,9 @@ inertTypeIndex
 )
 ;
 CtSimpleType
+<
+T
+>
 t
 =
 get

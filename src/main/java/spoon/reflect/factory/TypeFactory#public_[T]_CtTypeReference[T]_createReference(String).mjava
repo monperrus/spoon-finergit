@@ -1,7 +1,6 @@
 /** 
  * Create a reference to a simple type
  */
-@SuppressWarnings("unchecked")
 public
 <
 T
@@ -47,6 +46,9 @@ length
 ;
 }
 CtTypeReference
+<
+T
+>
 ref
 =
 factory
