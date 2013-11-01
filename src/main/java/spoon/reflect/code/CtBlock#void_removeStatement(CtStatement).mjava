@@ -1,0 +1,10 @@
+/** 
+ * Removes a statement from this block.
+ */
+void
+removeStatement
+(
+CtStatement
+statement
+)
+;

@@ -1,0 +1,24 @@
+@Override
+public
+boolean
+addAll
+(
+int
+index
+,
+Collection
+<
+?
+E
+>
+c
+)
+{
+throw
+new
+RuntimeException
+(
+"operation not allowed"
+)
+;
+}

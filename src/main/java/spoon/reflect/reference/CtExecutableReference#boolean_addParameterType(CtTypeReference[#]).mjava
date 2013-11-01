@@ -1,0 +1,13 @@
+/** 
+ * Adds a parameter type.
+ */
+boolean
+addParameterType
+(
+CtTypeReference
+<
+?
+>
+type
+)
+;

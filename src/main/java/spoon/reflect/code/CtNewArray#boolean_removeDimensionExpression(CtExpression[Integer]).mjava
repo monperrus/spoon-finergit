@@ -1,0 +1,13 @@
+/** 
+ * Removes a dimension expression.
+ */
+boolean
+removeDimensionExpression
+(
+CtExpression
+<
+Integer
+>
+dimension
+)
+;

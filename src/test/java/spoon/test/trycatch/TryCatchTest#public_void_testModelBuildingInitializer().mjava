@@ -122,11 +122,15 @@ getStatement
 0
 )
 ;
-assertNull
+assertTrue
 (
 t1
 .
 getResources
+(
+)
+.
+isEmpty
 (
 )
 )

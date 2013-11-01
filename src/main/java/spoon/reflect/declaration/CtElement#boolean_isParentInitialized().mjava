@@ -1,0 +1,8 @@
+/** 
+ * Tells if this parent has been initialized.
+ */
+boolean
+isParentInitialized
+(
+)
+;

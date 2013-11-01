@@ -1,0 +1,12 @@
+public
+boolean
+isParentInitialized
+(
+)
+{
+return
+parent
+!=
+null
+;
+}

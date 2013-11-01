@@ -62,13 +62,6 @@ add
 newConstructor
 )
 ;
-newConstructor
-.
-setParent
-(
-target
-)
-;
 return
 newConstructor
 ;

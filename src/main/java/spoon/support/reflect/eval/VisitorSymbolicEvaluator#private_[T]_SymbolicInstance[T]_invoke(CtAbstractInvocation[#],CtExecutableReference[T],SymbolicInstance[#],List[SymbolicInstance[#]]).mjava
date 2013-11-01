@@ -117,6 +117,9 @@ result
 =
 new
 SymbolicInstance
+<
+T
+>
 (
 this
 ,
@@ -134,6 +137,9 @@ false
 else
 {
 CtFieldReference
+<
+?
+>
 fref
 =
 null
@@ -165,6 +171,9 @@ executable
 )
 {
 SymbolicInstance
+<
+T
+>
 r
 =
 null
@@ -239,6 +248,9 @@ result
 =
 new
 SymbolicInstance
+<
+T
+>
 (
 this
 ,
@@ -326,6 +338,9 @@ result
 =
 new
 SymbolicInstance
+<
+T
+>
 (
 this
 ,
@@ -345,6 +360,9 @@ result
 =
 new
 SymbolicInstance
+<
+T
+>
 (
 this
 ,
@@ -375,6 +393,9 @@ result
 =
 new
 SymbolicInstance
+<
+T
+>
 (
 this
 ,

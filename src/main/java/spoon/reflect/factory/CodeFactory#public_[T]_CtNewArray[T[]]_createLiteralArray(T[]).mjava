@@ -151,13 +151,6 @@ setValue
 e
 )
 ;
-l
-.
-setParent
-(
-array
-)
-;
 array
 .
 getElements

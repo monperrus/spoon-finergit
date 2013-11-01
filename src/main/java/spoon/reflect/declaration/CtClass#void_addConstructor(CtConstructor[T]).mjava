@@ -1,0 +1,13 @@
+/** 
+ * Adds a constructor to this class.
+ */
+void
+addConstructor
+(
+CtConstructor
+<
+T
+>
+constructor
+)
+;

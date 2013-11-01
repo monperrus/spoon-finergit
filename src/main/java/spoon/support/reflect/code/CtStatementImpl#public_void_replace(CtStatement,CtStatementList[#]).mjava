@@ -12,6 +12,8 @@ CtStatementList
 >
 statements
 )
+throws
+ParentNotInitializedException
 {
 insertAfter
 (
@@ -40,11 +42,7 @@ getParent
 ;
 parentBlock
 .
-getStatements
-(
-)
-.
-remove
+removeStatement
 (
 target
 )

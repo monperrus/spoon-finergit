@@ -1,8 +1,6 @@
 /** 
  * Sets the super interfaces of this type.
- * @deprecated
  */
-@Deprecated
 void
 setSuperInterfaces
 (

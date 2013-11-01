@@ -40,6 +40,8 @@ append
 message
 )
 ;
+try
+{
 CtSimpleType
 <
 ?
@@ -183,6 +185,21 @@ getLine
 )
 +
 ")"
+)
+;
+}
+}
+catch
+(
+ParentNotInitializedException
+e
+)
+{
+buffer
+.
+append
+(
+" (invalid parent)"
 )
 ;
 }

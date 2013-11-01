@@ -1,0 +1,13 @@
+/** 
+ * Adds an element.
+ */
+boolean
+addElement
+(
+CtExpression
+<
+?
+>
+expression
+)
+;

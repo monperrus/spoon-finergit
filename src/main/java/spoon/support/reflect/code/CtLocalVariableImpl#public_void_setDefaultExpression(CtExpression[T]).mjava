@@ -15,11 +15,4 @@ defaultExpression
 =
 defaultExpression
 ;
-defaultExpression
-.
-setParent
-(
-this
-)
-;
 }

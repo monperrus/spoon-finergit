@@ -1,7 +1,6 @@
 /** 
  * Sets the type parameters of this generic element.
  */
-@Deprecated
 void
 setFormalTypeParameters
 (

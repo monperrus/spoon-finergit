@@ -94,13 +94,6 @@ add
 annotation
 )
 ;
-annotation
-.
-setParent
-(
-element
-)
-;
 }
 return
 annotation

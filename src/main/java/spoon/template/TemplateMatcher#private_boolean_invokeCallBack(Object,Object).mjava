@@ -1,4 +1,3 @@
-@SuppressWarnings("unchecked")
 private
 boolean
 invokeCallBack
@@ -27,6 +26,9 @@ param
 =
 (
 CtFieldAccess
+<
+?
+>
 )
 (
 (
@@ -63,6 +65,9 @@ this
 ,
 (
 CtInvocation
+<
+?
+>
 )
 template
 ,

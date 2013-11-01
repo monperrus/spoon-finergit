@@ -33,11 +33,7 @@ isStatic
 )
 b
 .
-getModifiers
-(
-)
-.
-add
+addModifier
 (
 ModifierKind
 .

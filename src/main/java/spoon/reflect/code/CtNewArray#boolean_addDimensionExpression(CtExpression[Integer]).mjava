@@ -1,0 +1,13 @@
+/** 
+ * Adds a dimension expression.
+ */
+boolean
+addDimensionExpression
+(
+CtExpression
+<
+Integer
+>
+dimension
+)
+;

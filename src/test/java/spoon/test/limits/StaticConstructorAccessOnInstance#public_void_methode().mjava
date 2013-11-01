@@ -4,6 +4,7 @@ methode
 (
 )
 {
+@SuppressWarnings("unused")
 ContainInternalClass
 .
 InternalClass

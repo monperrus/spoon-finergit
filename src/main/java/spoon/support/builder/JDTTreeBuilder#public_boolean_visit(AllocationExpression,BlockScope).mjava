@@ -13,7 +13,7 @@ scope
 {
 CtNewClass
 <
-?
+Object
 >
 c
 =
@@ -48,6 +48,9 @@ ParameterizedTypeBinding
 )
 {
 CtTypeReference
+<
+Object
+>
 res
 =
 references
@@ -108,11 +111,7 @@ arguments
 {
 res
 .
-getActualTypeArguments
-(
-)
-.
-add
+addActualTypeArgument
 (
 references
 .
@@ -201,6 +200,9 @@ setType
 (
 (
 CtTypeReference
+<
+Object
+>
 )
 c
 .

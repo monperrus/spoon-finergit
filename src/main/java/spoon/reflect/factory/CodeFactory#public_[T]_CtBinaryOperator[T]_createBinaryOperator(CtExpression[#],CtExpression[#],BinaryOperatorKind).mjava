@@ -62,15 +62,6 @@ setRightHandOperand
 right
 )
 ;
-setParent
-(
-op
-,
-left
-,
-right
-)
-;
 op
 .
 setKind

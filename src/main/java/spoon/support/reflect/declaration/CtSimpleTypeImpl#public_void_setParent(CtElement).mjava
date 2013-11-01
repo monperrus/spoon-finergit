@@ -51,12 +51,5 @@ add
 this
 )
 ;
-pack
-.
-setTypes
-(
-types
-)
-;
 }
 }

@@ -7,4 +7,6 @@ insertBefore
 CtStatement
 statement
 )
+throws
+ParentNotInitializedException
 ;

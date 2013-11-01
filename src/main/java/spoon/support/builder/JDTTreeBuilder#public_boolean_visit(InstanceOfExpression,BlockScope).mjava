@@ -77,6 +77,13 @@ setRightHandOperand
 l
 )
 ;
+l
+.
+setParent
+(
+op
+)
+;
 context
 .
 enter

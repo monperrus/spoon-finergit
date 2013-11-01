@@ -54,13 +54,6 @@ T
 sourceConstructor
 )
 ;
-newConstrutor
-.
-setParent
-(
-targetClass
-)
-;
 if
 (
 newConstrutor
@@ -112,11 +105,7 @@ c
 }
 targetClass
 .
-getConstructors
-(
-)
-.
-add
+addConstructor
 (
 newConstrutor
 )

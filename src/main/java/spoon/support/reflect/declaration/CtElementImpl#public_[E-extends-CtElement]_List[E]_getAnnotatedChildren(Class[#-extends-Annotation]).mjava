@@ -20,6 +20,12 @@ annotationType
 )
 {
 return
+(
+List
+<
+E
+>
+)
 Query
 .
 getElements
@@ -28,6 +34,9 @@ this
 ,
 new
 AnnotationFilter
+<
+CtElement
+>
 (
 CtElement
 .

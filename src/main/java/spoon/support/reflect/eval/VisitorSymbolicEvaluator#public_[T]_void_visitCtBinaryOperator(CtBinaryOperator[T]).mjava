@@ -1,4 +1,3 @@
-@SuppressWarnings("unchecked")
 public
 <
 T
@@ -14,6 +13,9 @@ operator
 )
 {
 SymbolicInstance
+<
+?
+>
 left
 =
 evaluate
@@ -26,6 +28,9 @@ getLeftHandOperand
 )
 ;
 SymbolicInstance
+<
+?
+>
 right
 =
 evaluate

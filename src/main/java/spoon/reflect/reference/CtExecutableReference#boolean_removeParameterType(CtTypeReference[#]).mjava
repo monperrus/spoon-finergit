@@ -1,0 +1,13 @@
+/** 
+ * Removes a parameter type.
+ */
+boolean
+removeParameterType
+(
+CtTypeReference
+<
+?
+>
+type
+)
+;

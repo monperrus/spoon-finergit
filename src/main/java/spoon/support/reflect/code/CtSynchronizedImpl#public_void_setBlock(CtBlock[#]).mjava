@@ -15,13 +15,4 @@ block
 =
 block
 ;
-this
-.
-block
-.
-setParent
-(
-this
-)
-;
 }

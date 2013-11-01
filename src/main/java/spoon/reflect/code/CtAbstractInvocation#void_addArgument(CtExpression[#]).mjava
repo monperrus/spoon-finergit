@@ -1,0 +1,13 @@
+/** 
+ * Adds an argument expression to the invocation.
+ */
+void
+addArgument
+(
+CtExpression
+<
+?
+>
+argument
+)
+;

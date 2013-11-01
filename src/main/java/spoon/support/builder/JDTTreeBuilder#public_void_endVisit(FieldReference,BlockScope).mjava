@@ -1,5 +1,4 @@
 @Override
-@SuppressWarnings("unchecked")
 public
 void
 endVisit

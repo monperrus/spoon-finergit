@@ -1,0 +1,14 @@
+/** 
+ * Adds a resource.
+ */
+boolean
+addResource
+(
+CtLocalVariable
+<
+?
+AutoCloseable
+>
+resource
+)
+;

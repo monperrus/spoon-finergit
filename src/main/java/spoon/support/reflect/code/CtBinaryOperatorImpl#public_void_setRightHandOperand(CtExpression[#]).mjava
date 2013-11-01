@@ -13,11 +13,4 @@ rightHandOperand
 =
 expression
 ;
-rightHandOperand
-.
-setParent
-(
-this
-)
-;
 }

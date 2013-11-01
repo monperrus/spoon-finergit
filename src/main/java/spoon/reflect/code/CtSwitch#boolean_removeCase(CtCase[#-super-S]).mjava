@@ -1,0 +1,14 @@
+/** 
+ * Removes a case;
+ */
+boolean
+removeCase
+(
+CtCase
+<
+?
+S
+>
+c
+)
+;

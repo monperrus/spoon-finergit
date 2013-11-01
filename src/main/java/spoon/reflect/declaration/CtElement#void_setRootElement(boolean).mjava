@@ -1,0 +1,10 @@
+/** 
+ * Sets the root element flag to this element.
+ */
+void
+setRootElement
+(
+boolean
+rootElement
+)
+;

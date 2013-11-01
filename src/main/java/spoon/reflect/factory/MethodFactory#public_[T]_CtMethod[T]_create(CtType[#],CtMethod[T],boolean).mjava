@@ -99,13 +99,6 @@ add
 newMethod
 )
 ;
-newMethod
-.
-setParent
-(
-target
-)
-;
 return
 newMethod
 ;

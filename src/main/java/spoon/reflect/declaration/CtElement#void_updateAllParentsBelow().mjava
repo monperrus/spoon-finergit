@@ -1,0 +1,8 @@
+/** 
+ * Calculates and sets all the parents below this element. This function can be called to check and fix parents after manipulating the model.
+ */
+void
+updateAllParentsBelow
+(
+)
+;

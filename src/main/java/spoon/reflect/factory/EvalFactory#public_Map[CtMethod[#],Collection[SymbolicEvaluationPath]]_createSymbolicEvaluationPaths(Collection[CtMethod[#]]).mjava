@@ -3,7 +3,6 @@
  * @param entryPoints the entry point methods
  * @return a map containing the paths for each entry point
  */
-@SuppressWarnings("unchecked")
 public
 Map
 <

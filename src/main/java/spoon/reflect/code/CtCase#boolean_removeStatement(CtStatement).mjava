@@ -1,0 +1,10 @@
+/** 
+ * Removes a statement from the case.
+ */
+boolean
+removeStatement
+(
+CtStatement
+statement
+)
+;

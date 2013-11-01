@@ -3,6 +3,7 @@
  * @param operator the operator used to compose the filters together
  * @param filters the filters to be composed
  */
+@SafeVarargs
 public
 CompositeFilter
 (

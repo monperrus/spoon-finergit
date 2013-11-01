@@ -1,0 +1,13 @@
+/** 
+ * Removes an argument expression from the invocation.
+ */
+void
+removeArgument
+(
+CtExpression
+<
+?
+>
+argument
+)
+;

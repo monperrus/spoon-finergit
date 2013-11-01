@@ -1,0 +1,17 @@
+@Override
+public
+boolean
+add
+(
+E
+e
+)
+{
+throw
+new
+RuntimeException
+(
+"operation not allowed"
+)
+;
+}

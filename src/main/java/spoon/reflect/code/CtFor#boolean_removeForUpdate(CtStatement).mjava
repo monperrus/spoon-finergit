@@ -1,0 +1,10 @@
+/** 
+ * Removes an <i>update</i> statement.
+ */
+boolean
+removeForUpdate
+(
+CtStatement
+statement
+)
+;

@@ -46,13 +46,6 @@ setSimpleName
 simpleName
 )
 ;
-c
-.
-setParent
-(
-declaringClass
-)
-;
 return
 c
 ;

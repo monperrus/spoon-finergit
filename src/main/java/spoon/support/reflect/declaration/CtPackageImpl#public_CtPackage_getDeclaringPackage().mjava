@@ -10,9 +10,13 @@ parent
 ==
 null
 )
-return
-null
+{
+setRootElement
+(
+true
+)
 ;
+}
 return
 getParent
 (

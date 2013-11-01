@@ -1,0 +1,14 @@
+/** 
+ * Removes a resource.
+ */
+boolean
+removeResource
+(
+CtLocalVariable
+<
+?
+AutoCloseable
+>
+resource
+)
+;

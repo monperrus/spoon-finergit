@@ -8,11 +8,11 @@ throws
 Exception
 {
 CtClass
+<
+?
+>
 type
 =
-(
-CtClass
-)
 build
 (
 "spoon.test.limits.utils"
@@ -34,6 +34,9 @@ getSimpleName
 List
 <
 CtClass
+<
+?
+>
 >
 classes
 =
@@ -45,6 +48,9 @@ new
 TypeFilter
 <
 CtClass
+<
+?
+>
 >
 (
 CtClass
@@ -65,6 +71,9 @@ size
 )
 ;
 CtClass
+<
+?
+>
 c1
 =
 classes
@@ -135,6 +144,9 @@ getActualClass
 )
 ;
 CtClass
+<
+?
+>
 c2
 =
 classes

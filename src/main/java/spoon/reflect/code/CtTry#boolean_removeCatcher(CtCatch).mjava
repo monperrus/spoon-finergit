@@ -1,0 +1,10 @@
+/** 
+ * Removes a catch block.
+ */
+boolean
+removeCatcher
+(
+CtCatch
+catcher
+)
+;

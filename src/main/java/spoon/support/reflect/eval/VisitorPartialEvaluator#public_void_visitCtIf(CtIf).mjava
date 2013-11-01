@@ -112,13 +112,6 @@ setCondition
 r
 )
 ;
-r
-.
-setParent
-(
-ifRes
-)
-;
 boolean
 thenEnded
 =

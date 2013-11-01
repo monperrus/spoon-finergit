@@ -17,13 +17,12 @@ CtPackage
 )
 )
 &&
+!
 element
 .
-getParent
+isParentInitialized
 (
 )
-==
-null
 )
 {
 getEnvironment
@@ -51,7 +50,7 @@ throw
 new
 RuntimeException
 (
-"null parent detected"
+"uninitialized parent detected"
 )
 ;
 }
@@ -139,6 +138,7 @@ equals
 )
 )
 {
+@SuppressWarnings("unused")
 CompilationUnit
 cu
 =

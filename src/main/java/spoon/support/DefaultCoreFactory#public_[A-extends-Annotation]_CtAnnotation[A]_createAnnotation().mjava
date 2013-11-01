@@ -1,4 +1,3 @@
-@SuppressWarnings("unchecked")
 public
 <
 A
@@ -14,6 +13,9 @@ createAnnotation
 )
 {
 CtAnnotation
+<
+A
+>
 e
 =
 new

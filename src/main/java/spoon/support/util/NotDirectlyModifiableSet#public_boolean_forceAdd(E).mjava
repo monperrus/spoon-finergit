@@ -1,0 +1,17 @@
+public
+boolean
+forceAdd
+(
+E
+e
+)
+{
+return
+super
+.
+add
+(
+e
+)
+;
+}

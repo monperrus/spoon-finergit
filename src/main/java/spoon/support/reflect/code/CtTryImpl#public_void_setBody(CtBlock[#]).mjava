@@ -15,11 +15,4 @@ body
 =
 body
 ;
-body
-.
-setParent
-(
-this
-)
-;
 }

@@ -1,0 +1,10 @@
+/** 
+ * Adds a statement to the case.
+ */
+boolean
+addStatement
+(
+CtStatement
+statement
+)
+;

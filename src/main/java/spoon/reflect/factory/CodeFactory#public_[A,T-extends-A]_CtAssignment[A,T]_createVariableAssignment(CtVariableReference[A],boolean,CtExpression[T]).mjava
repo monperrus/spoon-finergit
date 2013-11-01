@@ -63,13 +63,6 @@ setAssignment
 expression
 )
 ;
-expression
-.
-setParent
-(
-va
-)
-;
 CtVariableAccess
 <
 A
@@ -88,13 +81,6 @@ va
 setAssigned
 (
 vaccess
-)
-;
-vaccess
-.
-setParent
-(
-va
 )
 ;
 return

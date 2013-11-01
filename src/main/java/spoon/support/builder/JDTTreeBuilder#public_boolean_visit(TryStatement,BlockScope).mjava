@@ -1,5 +1,4 @@
 @Override
-@SuppressWarnings("unchecked")
 public
 boolean
 visit
@@ -121,7 +120,6 @@ i
 ;
 CtLocalVariable
 <
-?
 Throwable
 >
 var
@@ -168,10 +166,12 @@ binding
 null
 )
 {
-var
-.
-setType
-(
+CtTypeReference
+<
+Throwable
+>
+r
+=
 references
 .
 getTypeReference
@@ -187,6 +187,12 @@ binding
 .
 type
 )
+;
+var
+.
+setType
+(
+r
 )
 ;
 }

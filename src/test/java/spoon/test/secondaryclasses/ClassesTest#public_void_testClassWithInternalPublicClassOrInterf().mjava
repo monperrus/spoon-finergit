@@ -8,11 +8,11 @@ throws
 Exception
 {
 CtClass
+<
+?
+>
 type
 =
-(
-CtClass
-)
 build
 (
 "spoon.test.secondaryclasses"
@@ -43,6 +43,9 @@ new
 TypeFilter
 <
 CtType
+<
+?
+>
 >
 (
 CtType

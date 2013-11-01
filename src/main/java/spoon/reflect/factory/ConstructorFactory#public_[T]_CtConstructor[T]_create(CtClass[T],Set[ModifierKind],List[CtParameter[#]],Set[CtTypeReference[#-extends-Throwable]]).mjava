@@ -71,13 +71,6 @@ modifiers
 ;
 constructor
 .
-setParent
-(
-target
-)
-;
-constructor
-.
 setParameters
 (
 parameters
@@ -88,13 +81,6 @@ constructor
 setThrownTypes
 (
 thrownTypes
-)
-;
-setParent
-(
-constructor
-,
-parameters
 )
 ;
 target

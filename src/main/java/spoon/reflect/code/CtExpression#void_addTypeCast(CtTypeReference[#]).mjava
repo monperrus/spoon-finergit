@@ -1,0 +1,13 @@
+/** 
+ * Adds a type cast.
+ */
+void
+addTypeCast
+(
+CtTypeReference
+<
+?
+>
+type
+)
+;

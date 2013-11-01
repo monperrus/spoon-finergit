@@ -1,0 +1,10 @@
+/** 
+ * Adds an <i>update</i> statement.
+ */
+boolean
+addForUpdate
+(
+CtStatement
+statement
+)
+;

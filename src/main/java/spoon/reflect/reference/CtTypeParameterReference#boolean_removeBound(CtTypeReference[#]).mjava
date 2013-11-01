@@ -1,0 +1,13 @@
+/** 
+ * Removes a bound.
+ */
+boolean
+removeBound
+(
+CtTypeReference
+<
+?
+>
+bound
+)
+;

@@ -1,6 +1,7 @@
 /** 
  * Sets a template field parameter value.
  */
+@SuppressWarnings("null")
 public
 static
 void

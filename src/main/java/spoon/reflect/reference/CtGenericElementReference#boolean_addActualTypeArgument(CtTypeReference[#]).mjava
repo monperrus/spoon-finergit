@@ -1,0 +1,13 @@
+/** 
+ * Adds a type argument.
+ */
+boolean
+addActualTypeArgument
+(
+CtTypeReference
+<
+?
+>
+actualTypeArgument
+)
+;

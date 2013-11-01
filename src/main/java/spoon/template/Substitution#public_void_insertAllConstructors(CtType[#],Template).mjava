@@ -136,11 +136,7 @@ CtClass
 targetType
 )
 .
-getAnonymousExecutables
-(
-)
-.
-add
+addAnonymousExecutable
 (
 substitute
 (

@@ -10,6 +10,9 @@ getActualClass
 )
 {
 Class
+<
+?
+>
 c
 =
 getComponentType
@@ -34,6 +37,9 @@ null
 return
 (
 Class
+<
+T
+>
 )
 Array
 .

@@ -1,0 +1,17 @@
+public
+E
+forceRemove
+(
+int
+index
+)
+{
+return
+super
+.
+remove
+(
+index
+)
+;
+}

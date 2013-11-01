@@ -12,11 +12,4 @@ labelledStatement
 =
 labelledStatement
 ;
-labelledStatement
-.
-setParent
-(
-this
-)
-;
 }

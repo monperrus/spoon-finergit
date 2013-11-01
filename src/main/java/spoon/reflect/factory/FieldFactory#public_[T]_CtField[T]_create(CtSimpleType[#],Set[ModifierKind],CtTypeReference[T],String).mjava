@@ -74,13 +74,6 @@ setSimpleName
 name
 )
 ;
-field
-.
-setParent
-(
-target
-)
-;
 if
 (
 target

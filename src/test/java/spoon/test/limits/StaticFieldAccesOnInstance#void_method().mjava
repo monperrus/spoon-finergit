@@ -1,3 +1,4 @@
+@SuppressWarnings("static-access")
 void
 method
 (

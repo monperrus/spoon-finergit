@@ -8,6 +8,8 @@ CtStatementList
 >
 statements
 )
+throws
+ParentNotInitializedException
 {
 insertBefore
 (

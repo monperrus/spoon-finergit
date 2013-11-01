@@ -1,0 +1,17 @@
+@Override
+public
+E
+remove
+(
+int
+index
+)
+{
+throw
+new
+RuntimeException
+(
+"operation not allowed"
+)
+;
+}

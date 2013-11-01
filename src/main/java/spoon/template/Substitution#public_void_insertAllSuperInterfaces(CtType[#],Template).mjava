@@ -252,11 +252,7 @@ isInterface
 {
 targetType
 .
-getSuperInterfaces
-(
-)
-.
-add
+addSuperInterface
 (
 t1
 )
@@ -271,11 +267,7 @@ null
 {
 targetType
 .
-getSuperInterfaces
-(
-)
-.
-add
+addSuperInterface
 (
 t1
 )

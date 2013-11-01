@@ -5,14 +5,14 @@ hasParent
 CtElement
 candidate
 )
+throws
+ParentNotInitializedException
 {
 if
 (
-getParent
+isRootElement
 (
 )
-==
-null
 )
 return
 false

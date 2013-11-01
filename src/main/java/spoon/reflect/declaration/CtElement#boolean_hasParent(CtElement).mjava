@@ -7,4 +7,6 @@ hasParent
 CtElement
 candidate
 )
+throws
+ParentNotInitializedException
 ;

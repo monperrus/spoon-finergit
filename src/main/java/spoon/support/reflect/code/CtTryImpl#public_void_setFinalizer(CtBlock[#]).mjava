@@ -15,11 +15,4 @@ finalizer
 =
 finalizer
 ;
-finalizer
-.
-setParent
-(
-this
-)
-;
 }

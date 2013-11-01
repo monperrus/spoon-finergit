@@ -1,7 +1,6 @@
 /** 
  * Gets a annotation type from its name.
  */
-@SuppressWarnings("unchecked")
 public
 <
 T

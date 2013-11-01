@@ -12,13 +12,4 @@ body
 =
 body
 ;
-this
-.
-body
-.
-setParent
-(
-this
-)
-;
 }

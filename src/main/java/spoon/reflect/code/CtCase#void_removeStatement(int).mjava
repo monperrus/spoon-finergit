@@ -1,0 +1,10 @@
+/** 
+ * Removes the ith statement from the case.
+ */
+void
+removeStatement
+(
+int
+i
+)
+;

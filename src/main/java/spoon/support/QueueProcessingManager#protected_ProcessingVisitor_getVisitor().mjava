@@ -1,4 +1,3 @@
-@SuppressWarnings("unchecked")
 protected
 ProcessingVisitor
 getVisitor

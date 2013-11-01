@@ -1,4 +1,3 @@
-@SuppressWarnings("unchecked")
 @Override
 public
 boolean
@@ -12,6 +11,12 @@ scope
 )
 {
 CtTypeReference
+<
+Class
+<
+Object
+>
+>
 ref
 =
 references
@@ -24,6 +29,12 @@ targetType
 )
 ;
 CtFieldReference
+<
+Class
+<
+Object
+>
+>
 fr
 =
 factory
@@ -60,6 +71,9 @@ ref
 CtFieldAccess
 <
 Class
+<
+Object
+>
 >
 fa
 =

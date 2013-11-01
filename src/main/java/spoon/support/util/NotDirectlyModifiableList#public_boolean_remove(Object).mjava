@@ -1,0 +1,17 @@
+@Override
+public
+boolean
+remove
+(
+Object
+o
+)
+{
+throw
+new
+RuntimeException
+(
+"operation not allowed"
+)
+;
+}

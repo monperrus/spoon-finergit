@@ -23,6 +23,8 @@ files
 =
 new
 ArrayList
+<
+>
 (
 )
 ;
@@ -49,6 +51,8 @@ templates
 =
 new
 ArrayList
+<
+>
 (
 )
 ;
@@ -176,10 +180,16 @@ size
 )
 ;
 CtField
+<
+?
+>
 toBeInserted
 =
 (
 CtField
+<
+?
+>
 )
 c1
 .

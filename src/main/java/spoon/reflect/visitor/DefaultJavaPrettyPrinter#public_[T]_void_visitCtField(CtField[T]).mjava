@@ -43,13 +43,12 @@ getSimpleName
 if
 (
 (
+!
 f
 .
-getParent
+isParentInitialized
 (
 )
-==
-null
 )
 ||
 !

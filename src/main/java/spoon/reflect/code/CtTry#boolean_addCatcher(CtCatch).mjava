@@ -1,0 +1,10 @@
+/** 
+ * Adds a catch block.
+ */
+boolean
+addCatcher
+(
+CtCatch
+catcher
+)
+;

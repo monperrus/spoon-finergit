@@ -17,7 +17,7 @@ CtExecutable
 )
 super
 .
-getParent
+getParentNoExceptions
 (
 )
 ;

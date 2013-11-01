@@ -1,5 +1,5 @@
 /** 
- * Defines the matching using  {@link spoon.reflect.visitor.filter.FilteringOperator}.
+ * Defines the matching using {@link spoon.reflect.visitor.filter.FilteringOperator}.
  */
 public
 boolean

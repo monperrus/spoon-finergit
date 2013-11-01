@@ -8,6 +8,9 @@ throws
 Exception
 {
 CtSimpleType
+<
+?
+>
 type
 =
 build

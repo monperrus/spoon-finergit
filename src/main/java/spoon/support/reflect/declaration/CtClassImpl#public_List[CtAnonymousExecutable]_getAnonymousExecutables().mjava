@@ -8,6 +8,6 @@ getAnonymousExecutables
 )
 {
 return
-anonymousExecutable
+anonymousExecutables
 ;
 }

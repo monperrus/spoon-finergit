@@ -97,13 +97,6 @@ setBody
 body
 )
 ;
-body
-.
-setParent
-(
-method
-)
-;
 return
 method
 ;

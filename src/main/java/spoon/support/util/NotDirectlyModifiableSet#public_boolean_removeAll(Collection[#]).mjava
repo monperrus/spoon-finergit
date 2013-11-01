@@ -1,0 +1,20 @@
+@Override
+public
+boolean
+removeAll
+(
+Collection
+<
+?
+>
+c
+)
+{
+throw
+new
+RuntimeException
+(
+"operation not allowed"
+)
+;
+}

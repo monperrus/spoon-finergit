@@ -49,17 +49,6 @@ setPositions
 null
 )
 ;
-result
-.
-setParent
-(
-templateType
-.
-getParent
-(
-)
-)
-;
 new
 SubstitutionVisitor
 (

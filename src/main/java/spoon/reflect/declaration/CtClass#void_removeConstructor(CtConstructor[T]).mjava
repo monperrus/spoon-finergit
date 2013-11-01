@@ -1,0 +1,13 @@
+/** 
+ * Removes a constructor from this class.
+ */
+void
+removeConstructor
+(
+CtConstructor
+<
+T
+>
+constructor
+)
+;

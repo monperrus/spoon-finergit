@@ -80,13 +80,6 @@ add
 c
 )
 ;
-c
-.
-setParent
-(
-owner
-)
-;
 return
 c
 ;

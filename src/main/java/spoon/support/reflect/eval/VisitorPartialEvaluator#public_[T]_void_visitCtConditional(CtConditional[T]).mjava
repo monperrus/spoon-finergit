@@ -121,13 +121,6 @@ setCondition
 r
 )
 ;
-r
-.
-setParent
-(
-ifRes
-)
-;
 ifRes
 .
 setThenExpression

@@ -69,6 +69,7 @@ instanceof
 List
 )
 {
+@SuppressWarnings("unchecked")
 List
 <
 T
@@ -164,6 +165,7 @@ instanceof
 Collection
 )
 {
+@SuppressWarnings("unchecked")
 Collection
 <
 T

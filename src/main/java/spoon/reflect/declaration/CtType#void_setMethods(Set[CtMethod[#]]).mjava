@@ -1,8 +1,6 @@
 /** 
  * Sets the methods of this type.
- * @deprecated use {@link #addMethod(CtMethod)} and{@link #removeMethod(CtMethod)} instead
  */
-@Deprecated
 void
 setMethods
 (

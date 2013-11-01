@@ -51,13 +51,6 @@ add
 e
 )
 ;
-e
-.
-setParent
-(
-owner
-)
-;
 return
 e
 ;

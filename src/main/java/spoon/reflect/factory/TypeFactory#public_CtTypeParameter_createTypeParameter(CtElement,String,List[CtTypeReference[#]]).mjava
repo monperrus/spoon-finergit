@@ -39,13 +39,6 @@ createTypeParameter
 ;
 typeParam
 .
-setParent
-(
-owner
-)
-;
-typeParam
-.
 setName
 (
 name

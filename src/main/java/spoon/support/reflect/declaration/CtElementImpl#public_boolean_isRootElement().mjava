@@ -1,0 +1,13 @@
+@Override
+public
+boolean
+isRootElement
+(
+)
+{
+return
+parent
+==
+ROOT_ELEMENT
+;
+}

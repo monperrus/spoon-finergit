@@ -1,4 +1,3 @@
-@SuppressWarnings("unchecked")
 @Override
 public
 boolean
@@ -40,10 +39,12 @@ longValue
 )
 )
 ;
-l
-.
-setType
-(
+CtTypeReference
+<
+Long
+>
+r
+=
 references
 .
 getTypeReference
@@ -52,6 +53,12 @@ longLiteral
 .
 resolvedType
 )
+;
+l
+.
+setType
+(
+r
 )
 ;
 context

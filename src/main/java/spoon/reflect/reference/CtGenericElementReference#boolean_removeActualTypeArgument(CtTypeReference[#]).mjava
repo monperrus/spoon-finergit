@@ -1,0 +1,13 @@
+/** 
+ * Removes a type argument.
+ */
+boolean
+removeActualTypeArgument
+(
+CtTypeReference
+<
+?
+>
+actualTypeArgument
+)
+;

@@ -48,11 +48,7 @@ getStatements
 {
 l
 .
-getStatements
-(
-)
-.
-add
+addStatement
 (
 factory
 .

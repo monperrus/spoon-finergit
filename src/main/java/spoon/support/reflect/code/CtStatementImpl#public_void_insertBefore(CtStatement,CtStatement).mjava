@@ -9,6 +9,8 @@ target
 CtStatement
 statement
 )
+throws
+ParentNotInitializedException
 {
 CtStatementList
 <
@@ -32,11 +34,7 @@ createStatementList
 ;
 sts
 .
-getStatements
-(
-)
-.
-add
+addStatement
 (
 statement
 )

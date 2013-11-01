@@ -12,6 +12,8 @@ CtStatementList
 >
 statements
 )
+throws
+ParentNotInitializedException
 {
 CtElement
 e
@@ -132,13 +134,6 @@ add
 i
 ,
 s
-)
-;
-s
-.
-setParent
-(
-parentBlock
 )
 ;
 }

@@ -1,0 +1,10 @@
+/** 
+ * Removes an <i>init</i> statement.
+ */
+boolean
+removeForInit
+(
+CtStatement
+statement
+)
+;

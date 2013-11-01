@@ -1,4 +1,3 @@
-@SuppressWarnings("unchecked")
 private
 static
 List
@@ -50,6 +49,9 @@ CtFieldReference
 for
 (
 CtFieldReference
+<
+?
+>
 field
 :
 root
@@ -101,6 +103,9 @@ alreadyAdded
 (
 (
 CtFieldAccess
+<
+?
+>
 )
 invocation
 .

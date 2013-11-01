@@ -13,15 +13,6 @@ this
 .
 statements
 =
-new
-ChildList
-<
-CtStatement
->
-(
 statements
-,
-this
-)
 ;
 }

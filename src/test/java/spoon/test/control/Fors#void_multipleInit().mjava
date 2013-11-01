@@ -1,3 +1,4 @@
+@SuppressWarnings("unused")
 void
 multipleInit
 (

@@ -1,0 +1,13 @@
+/** 
+ * Removes an element.
+ */
+boolean
+removeElement
+(
+CtExpression
+<
+?
+>
+expression
+)
+;

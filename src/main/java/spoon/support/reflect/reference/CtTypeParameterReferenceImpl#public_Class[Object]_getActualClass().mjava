@@ -36,6 +36,9 @@ class
 return
 (
 Class
+<
+Object
+>
 )
 getBounds
 (

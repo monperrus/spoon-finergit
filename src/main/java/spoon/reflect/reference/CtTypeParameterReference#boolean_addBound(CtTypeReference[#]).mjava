@@ -1,0 +1,13 @@
+/** 
+ * Adds a bound.
+ */
+boolean
+addBound
+(
+CtTypeReference
+<
+?
+>
+bound
+)
+;

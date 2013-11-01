@@ -1,0 +1,14 @@
+/** 
+ * Adds a case;
+ */
+boolean
+addCase
+(
+CtCase
+<
+?
+S
+>
+c
+)
+;

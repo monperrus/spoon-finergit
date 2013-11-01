@@ -5,6 +5,8 @@ insertAfter
 CtStatement
 statement
 )
+throws
+ParentNotInitializedException
 {
 insertAfter
 (

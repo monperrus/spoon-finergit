@@ -29,6 +29,9 @@ parameterTypes
 for
 (
 CtMethod
+<
+?
+>
 mm
 :
 methods
@@ -40,6 +43,12 @@ R
 >
 m
 =
+(
+CtMethod
+<
+R
+>
+)
 mm
 ;
 if

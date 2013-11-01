@@ -15,13 +15,4 @@ condition
 =
 condition
 ;
-this
-.
-condition
-.
-setParent
-(
-this
-)
-;
 }

@@ -1,0 +1,17 @@
+public
+boolean
+forceRemove
+(
+Object
+o
+)
+{
+return
+super
+.
+remove
+(
+o
+)
+;
+}

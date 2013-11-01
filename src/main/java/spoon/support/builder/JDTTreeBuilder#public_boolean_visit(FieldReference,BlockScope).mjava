@@ -1,5 +1,4 @@
 @Override
-@SuppressWarnings("unchecked")
 public
 boolean
 visit
@@ -13,7 +12,7 @@ scope
 {
 CtFieldAccess
 <
-?
+Object
 >
 acc
 =

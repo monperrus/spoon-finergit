@@ -12,13 +12,4 @@ elseStatement
 =
 elseStatement
 ;
-this
-.
-elseStatement
-.
-setParent
-(
-this
-)
-;
 }

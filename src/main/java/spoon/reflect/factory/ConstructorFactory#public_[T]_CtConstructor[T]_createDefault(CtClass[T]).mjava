@@ -45,13 +45,6 @@ ModifierKind
 PUBLIC
 )
 ;
-constructor
-.
-setParent
-(
-target
-)
-;
 target
 .
 getConstructors
