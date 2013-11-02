@@ -1,0 +1,8 @@
+/** 
+ * True if a Java source code file.
+ */
+boolean
+isJava
+(
+)
+;

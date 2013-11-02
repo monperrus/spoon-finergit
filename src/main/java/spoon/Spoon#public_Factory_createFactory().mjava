@@ -1,0 +1,26 @@
+/** 
+ * Creates a new Spoon factory, which holds the Java model (AST) compiled from the source files and which can be processed by Spoon processors.
+ */
+public
+static
+Factory
+createFactory
+(
+)
+{
+return
+new
+Factory
+(
+new
+DefaultCoreFactory
+(
+)
+,
+new
+StandardEnvironment
+(
+)
+)
+;
+}

@@ -16,7 +16,7 @@ return
 (
 S
 )
-SnippetCompiler
+SnippetCompilationHelper
 .
 compileStatement
 (

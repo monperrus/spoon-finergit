@@ -87,6 +87,12 @@ getKey
 ;
 writeAnnotationElement
 (
+annotation
+.
+getFactory
+(
+)
+,
 e
 .
 getValue

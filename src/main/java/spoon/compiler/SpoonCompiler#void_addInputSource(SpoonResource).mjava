@@ -1,0 +1,13 @@
+/** 
+ * Adds a file/directory (as a CtResource) to be built. By default, the files could be Java source files or Jar files. Directories are processed recursively.
+ * @param source file or directory to add
+ */
+void
+addInputSource
+(
+SpoonResource
+source
+)
+throws
+IOException
+;

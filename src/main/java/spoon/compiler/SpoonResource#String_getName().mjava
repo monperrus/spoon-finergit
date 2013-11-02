@@ -1,0 +1,8 @@
+/** 
+ * Gets the name of this resource.
+ */
+String
+getName
+(
+)
+;

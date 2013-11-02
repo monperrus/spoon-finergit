@@ -1,0 +1,11 @@
+/** 
+ * Gets all the Java source files in the folder.
+ */
+List
+<
+SpoonFile
+>
+getAllJavaFiles
+(
+)
+;

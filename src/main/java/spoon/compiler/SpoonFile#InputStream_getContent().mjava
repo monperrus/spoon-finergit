@@ -1,0 +1,8 @@
+/** 
+ * Gets the file content as a stream.
+ */
+InputStream
+getContent
+(
+)
+;

@@ -9,10 +9,6 @@ print
 {
 if
 (
-getFactory
-(
-)
-.
 getEnvironment
 (
 )
@@ -39,10 +35,6 @@ processing
 .
 addProcessor
 (
-getFactory
-(
-)
-.
 getEnvironment
 (
 )

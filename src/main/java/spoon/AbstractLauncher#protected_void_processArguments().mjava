@@ -53,7 +53,7 @@ inputResources
 .
 add
 (
-FileFactory
+SpoonResourceHelper
 .
 createResource
 (
@@ -72,10 +72,6 @@ FileNotFoundException
 e
 )
 {
-getFactory
-(
-)
-.
 getEnvironment
 (
 )
@@ -99,10 +95,6 @@ getMessage
 ;
 if
 (
-getFactory
-(
-)
-.
 getEnvironment
 (
 )
@@ -217,7 +209,7 @@ try
 {
 addTemplateResource
 (
-FileFactory
+SpoonResourceHelper
 .
 createResource
 (
@@ -236,10 +228,6 @@ FileNotFoundException
 e
 )
 {
-getFactory
-(
-)
-.
 getEnvironment
 (
 )
@@ -263,10 +251,6 @@ getMessage
 ;
 if
 (
-getFactory
-(
-)
-.
 getEnvironment
 (
 )
@@ -343,10 +327,6 @@ getString
 null
 )
 {
-getFactory
-(
-)
-.
 getEnvironment
 (
 )

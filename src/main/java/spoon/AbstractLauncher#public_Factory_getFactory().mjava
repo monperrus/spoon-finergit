@@ -1,5 +1,5 @@
 /** 
- * Gets the factory which contains the built model.
+ * Gets the launcher's factory (to be used by default).
  */
 public
 final

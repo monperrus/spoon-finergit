@@ -1,0 +1,8 @@
+/** 
+ * Gets the folder that contains this resource.
+ */
+SpoonFolder
+getParent
+(
+)
+;

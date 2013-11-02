@@ -1,8 +1,0 @@
-/** 
- * This method should be called before starting the compilation in order to perform plateform specific initializations. Override the method in subclasses do add new initializations.
- */
-void
-initCompiler
-(
-)
-;

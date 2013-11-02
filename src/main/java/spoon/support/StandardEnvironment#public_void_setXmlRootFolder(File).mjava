@@ -1,6 +1,3 @@
-/** 
- * Sets the root folder where the processors' XML configuration files are located.
- */
 public
 void
 setXmlRootFolder

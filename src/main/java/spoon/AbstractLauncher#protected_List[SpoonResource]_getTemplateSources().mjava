@@ -1,0 +1,16 @@
+/** 
+ * Gets the list of template sources as files.
+ */
+protected
+List
+<
+SpoonResource
+>
+getTemplateSources
+(
+)
+{
+return
+templateResources
+;
+}

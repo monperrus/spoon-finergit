@@ -1,0 +1,37 @@
+/** 
+ * Creates the  {@link SpoonResource} corresponding to the given file.
+ */
+public
+static
+SpoonResource
+createResource
+(
+File
+f
+)
+throws
+FileNotFoundException
+{
+if
+(
+f
+.
+isFile
+(
+)
+)
+{
+return
+createFile
+(
+f
+)
+;
+}
+return
+createFolder
+(
+f
+)
+;
+}

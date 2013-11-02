@@ -1,0 +1,19 @@
+/** 
+ * Adds a resource that contains a template (usually a source File).
+ */
+public
+void
+addTemplateResource
+(
+SpoonResource
+resource
+)
+{
+templateResources
+.
+add
+(
+resource
+)
+;
+}

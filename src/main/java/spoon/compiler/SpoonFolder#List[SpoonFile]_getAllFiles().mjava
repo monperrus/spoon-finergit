@@ -1,0 +1,11 @@
+/** 
+ * Gets all the files (including folders) in the folder.
+ */
+List
+<
+SpoonFile
+>
+getAllFiles
+(
+)
+;

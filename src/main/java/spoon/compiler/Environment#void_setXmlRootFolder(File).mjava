@@ -1,0 +1,10 @@
+/** 
+ * Sets the root folder where the processors' XML configuration files are located.
+ */
+void
+setXmlRootFolder
+(
+File
+xmlRootFolder
+)
+;

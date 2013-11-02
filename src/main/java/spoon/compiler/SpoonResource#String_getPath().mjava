@@ -1,0 +1,8 @@
+/** 
+ * Gets this resource path.
+ */
+String
+getPath
+(
+)
+;

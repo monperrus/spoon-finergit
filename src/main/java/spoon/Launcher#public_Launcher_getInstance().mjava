@@ -1,0 +1,14 @@
+/** 
+ * Gets the launcher instance.
+ */
+public
+static
+Launcher
+getInstance
+(
+)
+{
+return
+instance
+;
+}

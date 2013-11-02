@@ -1,0 +1,17 @@
+/** 
+ * Creates a new Spoon Java compiler in order to process and compile Java source code.
+ */
+public
+static
+SpoonCompiler
+createCompiler
+(
+)
+{
+return
+new
+JDTCompiler
+(
+)
+;
+}

@@ -1,0 +1,28 @@
+/** 
+ * Gets the launcher's environment (to be used by default).
+ */
+public
+final
+Environment
+getEnvironment
+(
+)
+{
+if
+(
+environment
+==
+null
+)
+{
+environment
+=
+createEnvironment
+(
+)
+;
+}
+return
+environment
+;
+}

@@ -1,0 +1,36 @@
+/** 
+ * Tells if the given file is an archive file.
+ */
+public
+static
+boolean
+isArchive
+(
+File
+f
+)
+{
+return
+f
+.
+getName
+(
+)
+.
+endsWith
+(
+".jar"
+)
+||
+f
+.
+getName
+(
+)
+.
+endsWith
+(
+".zip"
+)
+;
+}

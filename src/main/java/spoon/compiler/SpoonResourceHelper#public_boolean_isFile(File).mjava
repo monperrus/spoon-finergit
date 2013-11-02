@@ -1,0 +1,26 @@
+/** 
+ * Tells if the given file is file (files are not archives).
+ */
+public
+static
+boolean
+isFile
+(
+File
+f
+)
+{
+return
+f
+.
+isFile
+(
+)
+&&
+!
+isArchive
+(
+f
+)
+;
+}

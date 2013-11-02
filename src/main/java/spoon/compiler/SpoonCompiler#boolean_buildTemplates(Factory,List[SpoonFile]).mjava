@@ -1,0 +1,15 @@
+boolean
+buildTemplates
+(
+Factory
+factory
+,
+List
+<
+SpoonFile
+>
+files
+)
+throws
+Exception
+;

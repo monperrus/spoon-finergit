@@ -9,10 +9,6 @@ run
 throws
 Exception
 {
-getFactory
-(
-)
-.
 getEnvironment
 (
 )
@@ -22,10 +18,6 @@ reportProgressMessage
 "Spoon version 2.0"
 )
 ;
-getFactory
-(
-)
-.
 getEnvironment
 (
 )
@@ -49,10 +41,6 @@ getBoolean
 )
 )
 {
-getFactory
-(
-)
-.
 getEnvironment
 (
 )
@@ -63,10 +51,6 @@ reportProgressMessage
 )
 ;
 }
-getFactory
-(
-)
-.
 getEnvironment
 (
 )
@@ -94,10 +78,6 @@ build
 (
 )
 ;
-getFactory
-(
-)
-.
 getEnvironment
 (
 )
@@ -131,10 +111,6 @@ process
 (
 )
 ;
-getFactory
-(
-)
-.
 getEnvironment
 (
 )
@@ -174,10 +150,6 @@ FileGenerator
 >
 fg
 =
-getFactory
-(
-)
-.
 getEnvironment
 (
 )
@@ -194,10 +166,6 @@ null
 )
 {
 {
-getFactory
-(
-)
-.
 getEnvironment
 (
 )
@@ -220,10 +188,6 @@ t
 )
 ;
 }
-getFactory
-(
-)
-.
 getEnvironment
 (
 )
@@ -248,10 +212,6 @@ currentTimeMillis
 (
 )
 ;
-getFactory
-(
-)
-.
 getEnvironment
 (
 )
@@ -269,10 +229,6 @@ tstart
 " ms"
 )
 ;
-getFactory
-(
-)
-.
 getEnvironment
 (
 )
