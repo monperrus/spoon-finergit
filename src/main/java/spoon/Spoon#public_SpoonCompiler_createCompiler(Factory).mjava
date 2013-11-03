@@ -1,0 +1,21 @@
+/** 
+ * Creates a new Spoon Java compiler in order to process and compile Java source code.
+ * @param factory the factory this compiler works on
+ */
+public
+static
+SpoonCompiler
+createCompiler
+(
+Factory
+factory
+)
+{
+return
+new
+JDTCompiler
+(
+factory
+)
+;
+}

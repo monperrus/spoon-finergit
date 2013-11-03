@@ -1,0 +1,18 @@
+/** 
+ * Tells Spoon not to generate any class files (bytecode).
+ */
+public
+void
+setNoCompilation
+(
+boolean
+nocompilation
+)
+{
+this
+.
+nocompilation
+=
+nocompilation
+;
+}

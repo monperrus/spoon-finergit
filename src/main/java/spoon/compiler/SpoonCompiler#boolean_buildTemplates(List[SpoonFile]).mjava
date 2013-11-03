@@ -1,9 +1,6 @@
 boolean
 buildTemplates
 (
-Factory
-factory
-,
 List
 <
 SpoonFile

@@ -2,9 +2,6 @@ public
 boolean
 buildTemplates
 (
-Factory
-f
-,
 List
 <
 SpoonFile
@@ -104,8 +101,6 @@ units
 getUnits
 (
 streams
-,
-f
 )
 ;
 JDTTreeBuilder
@@ -114,7 +109,7 @@ builder
 new
 JDTTreeBuilder
 (
-f
+factory
 )
 ;
 builder

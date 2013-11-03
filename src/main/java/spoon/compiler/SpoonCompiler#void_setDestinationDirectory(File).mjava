@@ -1,0 +1,13 @@
+/** 
+ * Sets the destination directory for the class files.
+ * @param destinationDirectory destination directory
+ */
+void
+setDestinationDirectory
+(
+File
+destinationDirectory
+)
+throws
+IOException
+;

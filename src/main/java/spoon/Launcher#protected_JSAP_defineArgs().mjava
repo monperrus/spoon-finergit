@@ -25,42 +25,6 @@ sw1
 new
 Switch
 (
-"nooutput"
-)
-;
-sw1
-.
-setLongFlag
-(
-"no"
-)
-;
-sw1
-.
-setHelp
-(
-"disable output printing"
-)
-;
-sw1
-.
-setDefault
-(
-"false"
-)
-;
-jsap
-.
-registerParameter
-(
-sw1
-)
-;
-sw1
-=
-new
-Switch
-(
 "gui"
 )
 ;
@@ -82,7 +46,7 @@ sw1
 .
 setHelp
 (
-"show spoon model after processing"
+"Show spoon model after processing"
 )
 ;
 jsap

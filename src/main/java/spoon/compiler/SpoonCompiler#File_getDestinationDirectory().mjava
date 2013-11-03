@@ -1,0 +1,8 @@
+/** 
+ * Gets the output directory of this compiler.
+ */
+File
+getDestinationDirectory
+(
+)
+;

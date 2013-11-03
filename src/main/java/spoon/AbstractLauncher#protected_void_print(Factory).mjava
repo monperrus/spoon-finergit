@@ -5,6 +5,8 @@ protected
 void
 print
 (
+Factory
+factory
 )
 {
 if
@@ -26,9 +28,7 @@ processing
 new
 QueueProcessingManager
 (
-getFactory
-(
-)
+factory
 )
 ;
 processing

@@ -19,12 +19,11 @@ Spoon
 .
 createCompiler
 (
+factory
 )
 .
 build
 (
-factory
-,
 SpoonResourceHelper
 .
 files

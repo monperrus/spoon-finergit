@@ -5,6 +5,8 @@ protected
 void
 process
 (
+Factory
+factory
 )
 {
 ProcessingManager
@@ -13,9 +15,7 @@ processing
 new
 QueueProcessingManager
 (
-getFactory
-(
-)
+factory
 )
 ;
 for

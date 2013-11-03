@@ -2,8 +2,6 @@ public
 boolean
 build
 (
-Factory
-factory
 )
 throws
 Exception
@@ -53,7 +51,7 @@ getEnvironment
 .
 debugMessage
 (
-"compiling sources: "
+"building sources: "
 +
 sources
 .
@@ -96,16 +94,10 @@ getClasspath
 )
 )
 ;
-initCompiler
-(
-)
-;
 srcSuccess
 =
 build
 (
-factory
-,
 sources
 .
 getAllJavaFiles
@@ -130,7 +122,7 @@ getEnvironment
 .
 debugMessage
 (
-"compiled in "
+"built in "
 +
 (
 System
@@ -153,7 +145,7 @@ getEnvironment
 .
 debugMessage
 (
-"compiling templates: "
+"building templates: "
 +
 templates
 .
@@ -174,8 +166,6 @@ templateSuccess
 =
 buildTemplates
 (
-factory
-,
 templates
 .
 getAllJavaFiles
@@ -201,7 +191,7 @@ getEnvironment
 .
 debugMessage
 (
-"compiled in "
+"built in "
 +
 (
 System

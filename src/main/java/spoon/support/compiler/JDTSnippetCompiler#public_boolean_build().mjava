@@ -3,8 +3,6 @@ public
 boolean
 build
 (
-Factory
-factory
 )
 throws
 Exception
@@ -78,16 +76,10 @@ getClasspath
 )
 )
 ;
-initCompiler
-(
-)
-;
 srcSuccess
 =
 build
 (
-factory
-,
 sources
 .
 getAllJavaFiles

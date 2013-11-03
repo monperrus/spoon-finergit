@@ -1,5 +1,5 @@
 /** 
- * Tells Spoon not to generate any files.
+ * Tells Spoon not to generate any source files.
  */
 public
 void

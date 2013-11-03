@@ -1,0 +1,8 @@
+/** 
+ * Generates the source code associated to the classes stored in the given factory. The source code is generated in the directory given by {@link #getOutputDirectory()}.
+ */
+void
+generateProcessedSourceFiles
+(
+)
+;

@@ -1,6 +1,9 @@
 public
 JDTCompiler
 (
+Factory
+factory
+,
 PrintWriter
 outWriter
 ,
@@ -20,5 +23,11 @@ null
 ,
 null
 )
+;
+this
+.
+factory
+=
+factory
 ;
 }

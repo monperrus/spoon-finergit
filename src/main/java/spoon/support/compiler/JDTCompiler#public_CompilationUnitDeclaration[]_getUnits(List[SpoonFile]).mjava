@@ -9,9 +9,6 @@ List
 SpoonFile
 >
 streams
-,
-Factory
-f
 )
 throws
 Exception
@@ -83,11 +80,13 @@ units
 =
 batchCompiler
 .
-compileUnits
+buildUnits
 (
 getCompilationUnits
 (
 streams
+,
+factory
 )
 )
 ;
