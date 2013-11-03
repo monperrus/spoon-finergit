@@ -80,6 +80,8 @@ compiler
 new
 JDTCompiler
 (
+factory
+=
 createFactory
 (
 )
