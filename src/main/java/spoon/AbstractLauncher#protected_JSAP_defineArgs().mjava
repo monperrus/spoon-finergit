@@ -89,7 +89,7 @@ sw1
 .
 setHelp
 (
-"Output messages about what the compiler is doing"
+"Output messages about what the compiler is doing."
 )
 ;
 jsap
@@ -125,7 +125,7 @@ sw1
 .
 setHelp
 (
-"Use tabulations instead of spaces in the generated code (use spaces by default)"
+"Use tabulations instead of spaces in the generated code (use spaces by default)."
 )
 ;
 jsap
@@ -168,7 +168,7 @@ sw1
 .
 setHelp
 (
-"Use source code fragments to generate source code (preserve formatting)"
+"Use source code fragments to generate source code (preserve formatting)."
 )
 ;
 jsap
@@ -214,7 +214,7 @@ opt2
 .
 setHelp
 (
-"Define tabulation size"
+"Define tabulation size."
 )
 ;
 jsap
@@ -250,7 +250,7 @@ sw1
 .
 setHelp
 (
-"Generate all debugging info"
+"Generate all debugging info."
 )
 ;
 jsap
@@ -286,7 +286,7 @@ sw1
 .
 setHelp
 (
-"Enable imports in generated files"
+"Enable imports in generated files."
 )
 ;
 jsap
@@ -315,7 +315,7 @@ opt2
 .
 setHelp
 (
-"Java source code compliance level (1,2,3,4,5, 6 or 7)"
+"Java source code compliance level (1,2,3,4,5, 6 or 7)."
 )
 ;
 opt2
@@ -383,7 +383,7 @@ opt2
 .
 setHelp
 (
-"List of spoonlet files to load"
+"List of spoonlet files to load."
 )
 ;
 jsap
@@ -435,7 +435,7 @@ opt2
 .
 setHelp
 (
-"List of path to sources files"
+"List of path to sources files."
 )
 ;
 jsap
@@ -471,7 +471,7 @@ opt2
 .
 setHelp
 (
-"List of processor's qualified name to be used"
+"List of processor's qualified name to be used."
 )
 ;
 opt2
@@ -523,7 +523,7 @@ opt2
 .
 setHelp
 (
-"list of source templates"
+"List of source templates."
 )
 ;
 opt2
@@ -546,7 +546,7 @@ opt2
 .
 setHelp
 (
-"list of path to templates java files"
+"List of path to templates java files."
 )
 ;
 jsap
@@ -589,7 +589,7 @@ opt2
 .
 setHelp
 (
-"specify where to place generated java files"
+"Specify where to place generated java files."
 )
 ;
 opt2
@@ -654,7 +654,7 @@ opt2
 .
 setHelp
 (
-"Directory to search for spoon properties files"
+"Directory to search for spoon properties files."
 )
 ;
 jsap
@@ -690,7 +690,7 @@ opt2
 .
 setHelp
 (
-"An optional classpath to be passed to the internal Java compiler"
+"An optional classpath to be passed to the internal Java compiler."
 )
 ;
 opt2
@@ -749,7 +749,7 @@ opt2
 .
 setHelp
 (
-"An optional destination directory for the generated class files"
+"An optional destination directory for the generated class files."
 )
 ;
 opt2
@@ -796,7 +796,7 @@ sw1
 .
 setHelp
 (
-"Disable output printing"
+"Disable output printing of processed source code."
 )
 ;
 sw1
@@ -832,7 +832,43 @@ sw1
 .
 setHelp
 (
-"Disable compilation and output no class files"
+"Disable compilation and output no class files."
+)
+;
+sw1
+.
+setDefault
+(
+"false"
+)
+;
+jsap
+.
+registerParameter
+(
+sw1
+)
+;
+sw1
+=
+new
+Switch
+(
+"precompile"
+)
+;
+sw1
+.
+setLongFlag
+(
+"precompile"
+)
+;
+sw1
+.
+setHelp
+(
+"Enable pre-compilation of input source files before processing. Compiled classes will be added to the classpath so that they are accessible to the processing manager (typically, processors, annotations, and templates should be pre-compiled most of the time)."
 )
 ;
 sw1

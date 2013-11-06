@@ -1,5 +1,5 @@
 /** 
- * Builds the program's model corresponding to the given files with the given factory and stores the result into this factory. Note that this method should only be used once on a given factory.
+ * Builds the program's model corresponding to the given files with this compiler's factory and stores the result into this factory. Note that this method should only be used once on a given factory.
  * @return true if the Java was successfully compiled with the core Javacompiler, false if some errors were encountered while compiling
  * @exception Exception when a building problem occurs
  */

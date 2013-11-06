@@ -1,0 +1,18 @@
+/** 
+ * Tells if Spoon should precompile the input files before processing.
+ */
+public
+void
+setPrecompile
+(
+boolean
+precompile
+)
+{
+this
+.
+precompile
+=
+precompile
+;
+}

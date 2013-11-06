@@ -21,9 +21,17 @@ Processor
 >
 >
 )
-Class
+Thread
 .
-forName
+currentThread
+(
+)
+.
+getContextClassLoader
+(
+)
+.
+loadClass
 (
 qualifiedName
 )
@@ -54,7 +62,7 @@ ERROR
 +
 qualifiedName
 +
-"\" - Check your classpath"
+"\" - Check your classpath. Did you use the --precompile option?"
 )
 ;
 }

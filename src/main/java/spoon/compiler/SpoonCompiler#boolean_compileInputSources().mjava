@@ -1,0 +1,11 @@
+/** 
+ * Generates the bytecode by compiling the input sources. The bytecode is generated in the directory given by  {@link #getDestinationDirectory()}.
+ * @param addDestinationDirectoryToClasspath set this flag to true to automatically add the bytecode destination directory to the classpath
+ */
+boolean
+compileInputSources
+(
+)
+throws
+Exception
+;
