@@ -420,7 +420,12 @@ currentTimeMillis
 ;
 if
 (
-compile
+arguments
+.
+getBoolean
+(
+"compile"
+)
 )
 {
 compiler

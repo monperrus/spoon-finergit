@@ -84,17 +84,6 @@ getBoolean
 "nooutput"
 )
 ;
-compile
-=
-getArguments
-(
-)
-.
-getBoolean
-(
-"compile"
-)
-;
 environment
 .
 setVerbose

@@ -825,14 +825,14 @@ sw1
 .
 setLongFlag
 (
-"nc"
+"compile"
 )
 ;
 sw1
 .
 setHelp
 (
-"Disable compilation and output no class files."
+"Enable compilation and output class files."
 )
 ;
 sw1
