@@ -84,7 +84,7 @@ getBoolean
 "nooutput"
 )
 ;
-nocompilation
+compile
 =
 getArguments
 (
@@ -92,7 +92,7 @@ getArguments
 .
 getBoolean
 (
-"nocompilation"
+"compile"
 )
 ;
 environment

@@ -818,7 +818,7 @@ sw1
 new
 Switch
 (
-"nocompilation"
+"compile"
 )
 ;
 sw1

@@ -420,8 +420,7 @@ currentTimeMillis
 ;
 if
 (
-!
-nocompilation
+compile
 )
 {
 compiler

@@ -1,0 +1,18 @@
+/** 
+ * Tells Spoon to generate class files (bytecode).
+ */
+public
+void
+setCompile
+(
+boolean
+compile
+)
+{
+this
+.
+compile
+=
+compile
+;
+}
