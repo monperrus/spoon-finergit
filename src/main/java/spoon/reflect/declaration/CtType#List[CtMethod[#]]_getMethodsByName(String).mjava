@@ -1,0 +1,16 @@
+/** 
+ * Returns the methods that are directly declared by this class or interface and that have the given name.
+ */
+List
+<
+CtMethod
+<
+?
+>
+>
+getMethodsByName
+(
+String
+name
+)
+;
