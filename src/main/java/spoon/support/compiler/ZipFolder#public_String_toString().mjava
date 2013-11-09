@@ -6,7 +6,7 @@ toString
 )
 {
 return
-getName
+getPath
 (
 )
 ;

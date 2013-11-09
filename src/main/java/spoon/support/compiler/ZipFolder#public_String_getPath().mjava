@@ -5,7 +5,9 @@ getPath
 )
 {
 return
-toString
+f
+.
+getAbsolutePath
 (
 )
 ;
