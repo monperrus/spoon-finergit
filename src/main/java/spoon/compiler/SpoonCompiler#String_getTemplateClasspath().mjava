@@ -1,0 +1,9 @@
+/** 
+ * Gets the classpath that is used to build the template sources.
+ * @see #buildTemplates(List)
+ */
+String
+getTemplateClasspath
+(
+)
+;

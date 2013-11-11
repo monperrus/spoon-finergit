@@ -1,0 +1,10 @@
+/** 
+ * Sets the classpath that is used to build the template sources.
+ */
+void
+setTemplateClasspath
+(
+String
+classpath
+)
+;

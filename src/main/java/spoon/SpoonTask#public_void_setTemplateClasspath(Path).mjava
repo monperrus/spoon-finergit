@@ -1,0 +1,22 @@
+/** 
+ * Set the classpath to be used when building the template sources.
+ * @param s an Ant Path object containing the classpath.
+ */
+public
+void
+setTemplateClasspath
+(
+Path
+s
+)
+{
+createTemplateClasspath
+(
+)
+.
+append
+(
+s
+)
+;
+}

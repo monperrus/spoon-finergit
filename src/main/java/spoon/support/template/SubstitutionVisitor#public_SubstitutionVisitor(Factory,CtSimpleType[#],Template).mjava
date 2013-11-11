@@ -108,6 +108,10 @@ Template
 (
 )
 .
+Class
+(
+)
+.
 get
 (
 templateRef

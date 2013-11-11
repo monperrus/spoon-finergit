@@ -4,6 +4,9 @@ CompilationUnitDeclaration
 ]
 getUnits
 (
+JDTBatchCompiler
+compiler
+,
 List
 <
 SpoonFile
@@ -13,7 +16,7 @@ streams
 throws
 Exception
 {
-this
+compiler
 .
 startTime
 =
@@ -38,6 +41,8 @@ null
 )
 environment
 =
+compiler
+.
 getLibraryAccess
 (
 )
@@ -50,11 +55,13 @@ TreeBuilderCompiler
 (
 environment
 ,
+compiler
+.
 getHandlingPolicy
 (
 )
 ,
-this
+compiler
 .
 options
 ,
@@ -62,6 +69,8 @@ this
 .
 requestor
 ,
+compiler
+.
 getProblemFactory
 (
 )

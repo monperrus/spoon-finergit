@@ -1,0 +1,37 @@
+/** 
+ * The template factory (used by the compiler when building templates).
+ * @see SpoonCompiler#buildTemplates(java.util.List)
+ */
+public
+Factory
+Template
+(
+)
+{
+if
+(
+Template
+==
+null
+)
+{
+Template
+=
+new
+Factory
+(
+new
+DefaultCoreFactory
+(
+)
+,
+getEnvironment
+(
+)
+)
+;
+}
+return
+Template
+;
+}

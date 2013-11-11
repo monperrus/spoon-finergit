@@ -1,0 +1,22 @@
+/** 
+ * Template classpath to use, by reference.
+ * @param r a reference to an existing classpath
+ */
+public
+void
+setTemplateClasspathRef
+(
+Reference
+r
+)
+{
+createTemplateClasspath
+(
+)
+.
+setRefid
+(
+r
+)
+;
+}

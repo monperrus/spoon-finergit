@@ -6,6 +6,6 @@ getDestinationDirectory
 )
 {
 return
-desinationDirectory
+destinationDirectory
 ;
 }

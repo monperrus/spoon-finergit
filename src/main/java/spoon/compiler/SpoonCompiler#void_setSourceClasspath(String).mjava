@@ -1,0 +1,10 @@
+/** 
+ * Sets the classpath that is used to build/compile the input sources.
+ */
+void
+setSourceClasspath
+(
+String
+classpath
+)
+;

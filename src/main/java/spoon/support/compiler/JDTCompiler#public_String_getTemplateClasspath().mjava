@@ -1,0 +1,11 @@
+@Override
+public
+String
+getTemplateClasspath
+(
+)
+{
+return
+templateClasspath
+;
+}

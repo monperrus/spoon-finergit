@@ -1,6 +1,7 @@
+@Override
 public
 void
-setClasspath
+setTemplateClasspath
 (
 String
 classpath
@@ -8,7 +9,7 @@ classpath
 {
 this
 .
-classpath
+templateClasspath
 =
 classpath
 ;

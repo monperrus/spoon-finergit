@@ -1,7 +1,8 @@
 /** 
- * Builds the program's model corresponding to the given files with this compiler's factory and stores the result into this factory. Note that this method should only be used once on a given factory.
- * @return true if the Java was successfully compiled with the core Javacompiler, false if some errors were encountered while compiling
+ * Builds the program's model corresponding to the given files and stores the result into its factory ( {@link #getFactory()}). Note that this method should only be used once on a given factory.
+ * @return true if the model was successfully built
  * @exception Exception when a building problem occurs
+ * @see #getSourceClasspath()
  */
 boolean
 build

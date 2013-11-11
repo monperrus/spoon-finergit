@@ -1,0 +1,13 @@
+private
+JDTBatchCompiler
+createBatchCompiler
+(
+)
+{
+return
+new
+JDTBatchCompiler
+(
+)
+;
+}
