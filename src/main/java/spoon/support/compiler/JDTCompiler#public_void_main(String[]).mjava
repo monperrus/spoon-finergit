@@ -53,7 +53,7 @@ FileSystemFile
 new
 File
 (
-"./src/main/java/spoon/support/builder/SpoonCompiler.java"
+"./src/main/java/spoon/support/compiler/JDTCompiler.java"
 )
 )
 ;
@@ -104,7 +104,7 @@ Package
 .
 get
 (
-"spoon.support.builder"
+"spoon.support.compiler"
 )
 .
 getTypes
