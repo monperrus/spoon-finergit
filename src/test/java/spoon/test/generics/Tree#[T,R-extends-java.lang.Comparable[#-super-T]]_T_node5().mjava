@@ -18,6 +18,12 @@ node5
 (
 )
 {
+this
+.
+foo
+(
+)
+;
 return
 null
 ;
