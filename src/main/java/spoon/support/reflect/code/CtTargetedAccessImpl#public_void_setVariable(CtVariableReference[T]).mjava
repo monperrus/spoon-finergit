@@ -9,22 +9,6 @@ T
 variable
 )
 {
-if
-(
-!
-(
-variable
-instanceof
-CtFieldReference
-)
-)
-throw
-new
-RuntimeException
-(
-"invalid type"
-)
-;
 super
 .
 setVariable
