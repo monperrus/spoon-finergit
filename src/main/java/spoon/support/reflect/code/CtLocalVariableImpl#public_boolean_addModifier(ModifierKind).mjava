@@ -6,6 +6,10 @@ ModifierKind
 modifier
 )
 {
+setMutable
+(
+)
+;
 return
 modifiers
 .
