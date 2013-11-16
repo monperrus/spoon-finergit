@@ -1,0 +1,8 @@
+/** 
+ * Returns true if this new array expression is a simplified initializer (without the new part).
+ */
+boolean
+isInitializer
+(
+)
+;

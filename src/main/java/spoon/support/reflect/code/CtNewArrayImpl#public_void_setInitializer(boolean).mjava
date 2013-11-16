@@ -1,0 +1,16 @@
+@Override
+public
+void
+setInitializer
+(
+boolean
+initializer
+)
+{
+this
+.
+initializer
+=
+initializer
+;
+}

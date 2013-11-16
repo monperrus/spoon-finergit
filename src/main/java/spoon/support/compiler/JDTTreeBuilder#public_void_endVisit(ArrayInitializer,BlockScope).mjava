@@ -31,8 +31,6 @@ pop
 )
 ;
 }
-else
-{
 context
 .
 exit
@@ -40,5 +38,4 @@ exit
 arrayInitializer
 )
 ;
-}
 }

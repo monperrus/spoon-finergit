@@ -1,0 +1,10 @@
+/** 
+ * Sets this new array expression to be an initializer or not.
+ */
+void
+setInitializer
+(
+boolean
+initializer
+)
+;
