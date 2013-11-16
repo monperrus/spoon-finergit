@@ -21,10 +21,7 @@ Spoon
 createCompiler
 (
 factory
-)
-.
-build
-(
+,
 SpoonResourceHelper
 .
 files
@@ -33,6 +30,10 @@ files
 ,
 "./src/test/java/spoon/test/annotation/Main.java"
 )
+)
+.
+build
+(
 )
 ;
 CtSimpleType

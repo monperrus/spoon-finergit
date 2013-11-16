@@ -1,13 +1,16 @@
-private
+protected
 JDTBatchCompiler
 createBatchCompiler
 (
+boolean
+useFactory
 )
 {
 return
 new
 JDTBatchCompiler
 (
+useFactory
 )
 ;
 }

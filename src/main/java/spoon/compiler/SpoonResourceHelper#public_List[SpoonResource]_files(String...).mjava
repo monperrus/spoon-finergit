@@ -5,7 +5,7 @@ public
 static
 List
 <
-SpoonFile
+SpoonResource
 >
 files
 (
@@ -18,14 +18,14 @@ FileNotFoundException
 {
 List
 <
-SpoonFile
+SpoonResource
 >
 files
 =
 new
 ArrayList
 <
-SpoonFile
+SpoonResource
 >
 (
 )

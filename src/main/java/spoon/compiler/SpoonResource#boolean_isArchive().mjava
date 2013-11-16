@@ -1,0 +1,8 @@
+/** 
+ * Tells if this resource is an archive.
+ */
+boolean
+isArchive
+(
+)
+;

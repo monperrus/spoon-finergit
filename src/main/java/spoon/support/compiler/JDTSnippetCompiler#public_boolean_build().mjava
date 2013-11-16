@@ -65,13 +65,8 @@ getComplianceLevel
 ;
 srcSuccess
 =
-build
+buildSources
 (
-sources
-.
-getAllJavaFiles
-(
-)
 )
 ;
 reportProblems
@@ -104,23 +99,6 @@ t
 )
 +
 " ms"
-)
-;
-factory
-.
-getEnvironment
-(
-)
-.
-debugMessage
-(
-"compiling templates: "
-+
-templates
-.
-getAllJavaFiles
-(
-)
 )
 ;
 t

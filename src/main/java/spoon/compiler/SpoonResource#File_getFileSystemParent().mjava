@@ -1,0 +1,8 @@
+/** 
+ * Gets the parent of this resource on the file system.
+ */
+File
+getFileSystemParent
+(
+)
+;

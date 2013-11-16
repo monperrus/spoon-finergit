@@ -1,0 +1,10 @@
+void
+addTemplateSources
+(
+List
+<
+SpoonResource
+>
+resources
+)
+;

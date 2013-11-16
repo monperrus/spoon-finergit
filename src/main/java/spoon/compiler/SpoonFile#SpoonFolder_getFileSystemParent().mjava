@@ -1,8 +1,0 @@
-/** 
- * Gets the first physically existing folder that contains this file.
- */
-SpoonFolder
-getFileSystemParent
-(
-)
-;

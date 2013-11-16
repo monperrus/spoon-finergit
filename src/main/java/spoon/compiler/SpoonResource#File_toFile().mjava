@@ -1,0 +1,8 @@
+/** 
+ * Gets the corresponding file if possible (returns null if this resource does not correspond to any file on the filesystem).
+ */
+File
+toFile
+(
+)
+;

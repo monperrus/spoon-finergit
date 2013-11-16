@@ -3,6 +3,7 @@
  * @return true if the Java was successfully compiled with the core Javacompiler, false if some errors were encountered while compiling
  * @exception Exception when a building problem occurs
  * @see #getSourceClasspath()
+ * @see #getTemplateClasspath()
  */
 boolean
 build

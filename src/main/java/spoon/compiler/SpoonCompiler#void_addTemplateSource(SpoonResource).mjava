@@ -8,6 +8,4 @@ addTemplateSource
 SpoonResource
 source
 )
-throws
-IOException
 ;

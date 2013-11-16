@@ -8,6 +8,4 @@ addInputSource
 SpoonResource
 source
 )
-throws
-IOException
 ;

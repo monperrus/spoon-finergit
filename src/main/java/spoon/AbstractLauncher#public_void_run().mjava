@@ -24,7 +24,14 @@ getEnvironment
 .
 debugMessage
 (
-"loading command-line arguments..."
+"loading command-line arguments: "
++
+Arrays
+.
+asList
+(
+args
+)
 )
 ;
 processArguments
@@ -327,7 +334,7 @@ f
 }
 catch
 (
-IOException
+Exception
 e
 )
 {

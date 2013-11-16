@@ -2,7 +2,7 @@ public
 ZipFolder
 (
 File
-f
+file
 )
 throws
 IOException
@@ -14,7 +14,7 @@ super
 if
 (
 !
-f
+file
 .
 isFile
 (
@@ -25,7 +25,7 @@ throw
 new
 IOException
 (
-f
+file
 .
 getName
 (
@@ -37,8 +37,8 @@ getName
 }
 this
 .
-f
+file
 =
-f
+file
 ;
 }
