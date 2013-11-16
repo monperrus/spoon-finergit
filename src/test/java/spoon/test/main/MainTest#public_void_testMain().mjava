@@ -25,6 +25,15 @@ String
 "-o"
 ,
 "target/spooned"
+,
+"--source-classpath"
+,
+System
+.
+getProperty
+(
+"java.class.path"
+)
 }
 )
 ;
