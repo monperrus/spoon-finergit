@@ -1,0 +1,10 @@
+/** 
+ * Sets this access to be qualified by the class it refers to.
+ */
+void
+setQualified
+(
+boolean
+qualified
+)
+;

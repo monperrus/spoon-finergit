@@ -1,0 +1,8 @@
+/** 
+ * Tells if this access must be qualified by the class it refers to.
+ */
+boolean
+isQualified
+(
+)
+;

@@ -1,0 +1,16 @@
+@Override
+public
+void
+setQualified
+(
+boolean
+qualified
+)
+{
+this
+.
+qualified
+=
+qualified
+;
+}
