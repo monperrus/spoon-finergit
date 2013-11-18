@@ -35,6 +35,11 @@ return
 }
 if
 (
+!
+context
+.
+ignoreImport
+&&
 (
 importsContext
 .
@@ -42,11 +47,6 @@ isImported
 (
 ref
 )
-&&
-!
-context
-.
-ignoreImport
 &&
 ref
 .
@@ -56,10 +56,6 @@ getPackage
 !=
 null
 )
-||
-context
-.
-printShortName
 )
 {
 write
@@ -91,12 +87,6 @@ if
 context
 .
 ignoreEnclosingClass
-&&
-context
-.
-currentTopLevel
-!=
-null
 )
 {
 boolean

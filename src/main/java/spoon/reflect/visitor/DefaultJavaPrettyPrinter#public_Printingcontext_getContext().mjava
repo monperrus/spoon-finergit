@@ -1,0 +1,10 @@
+public
+Printingcontext
+getContext
+(
+)
+{
+return
+context
+;
+}

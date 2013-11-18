@@ -100,7 +100,7 @@ CtTypeReference
 <
 ?
 >
-ref
+declTypeRef
 =
 reference
 .
@@ -160,7 +160,7 @@ getReference
 printType
 =
 !
-ref
+declTypeRef
 .
 getSimpleName
 (
@@ -173,7 +173,7 @@ equals
 &&
 !
 (
-ref
+declTypeRef
 .
 equals
 (
