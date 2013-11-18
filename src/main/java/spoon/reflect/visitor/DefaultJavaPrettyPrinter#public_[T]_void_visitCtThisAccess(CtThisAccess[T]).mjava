@@ -50,13 +50,7 @@ isQualified
 )
 )
 {
-context
-.
-ignoreGenerics
-=
-true
-;
-scan
+visitCtTypeReferenceWithoutGenerics
 (
 thisAccess
 .
@@ -69,12 +63,6 @@ write
 (
 "."
 )
-;
-context
-.
-ignoreGenerics
-=
-false
 ;
 }
 if
