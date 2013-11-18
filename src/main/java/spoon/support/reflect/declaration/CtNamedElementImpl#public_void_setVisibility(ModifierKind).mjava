@@ -8,9 +8,7 @@ visibility
 {
 if
 (
-getModifiers
-(
-)
+modifiers
 ==
 CtElementImpl
 .

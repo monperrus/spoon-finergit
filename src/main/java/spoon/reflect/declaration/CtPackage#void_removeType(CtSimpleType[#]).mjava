@@ -1,0 +1,13 @@
+/** 
+ * Removes a type from this package.
+ */
+void
+removeType
+(
+CtSimpleType
+<
+?
+>
+type
+)
+;

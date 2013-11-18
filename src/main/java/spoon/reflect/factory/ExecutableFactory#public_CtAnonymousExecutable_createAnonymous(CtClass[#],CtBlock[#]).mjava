@@ -33,11 +33,7 @@ createAnonymousExecutable
 ;
 target
 .
-getAnonymousExecutables
-(
-)
-.
-add
+addAnonymousExecutable
 (
 a
 )
