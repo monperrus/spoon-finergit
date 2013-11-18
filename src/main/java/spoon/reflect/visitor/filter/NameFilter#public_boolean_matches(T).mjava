@@ -2,7 +2,7 @@ public
 boolean
 matches
 (
-CtNamedElement
+T
 element
 )
 {

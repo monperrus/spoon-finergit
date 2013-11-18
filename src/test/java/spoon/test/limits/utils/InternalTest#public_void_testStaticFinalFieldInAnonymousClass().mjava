@@ -73,6 +73,9 @@ getElements
 (
 new
 NameFilter
+<
+CtNamedElement
+>
 (
 "serialVersionUID"
 )
