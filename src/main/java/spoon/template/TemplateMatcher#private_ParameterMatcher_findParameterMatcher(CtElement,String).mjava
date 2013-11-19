@@ -109,7 +109,7 @@ CtFieldReference
 <
 ?
 >
-field
+fieldRef
 :
 fields
 )
@@ -117,7 +117,11 @@ fields
 Parameter
 p
 =
-field
+fieldRef
+.
+getDeclaration
+(
+)
 .
 getAnnotation
 (
@@ -164,7 +168,7 @@ proxy
 {
 param
 =
-field
+fieldRef
 ;
 break
 ;
@@ -176,7 +180,7 @@ name
 .
 contains
 (
-field
+fieldRef
 .
 getSimpleName
 (
@@ -186,7 +190,7 @@ getSimpleName
 {
 param
 =
-field
+fieldRef
 ;
 break
 ;

@@ -18,6 +18,10 @@ anParam
 =
 param
 .
+getDeclaration
+(
+)
+.
 getAnnotation
 (
 Parameter

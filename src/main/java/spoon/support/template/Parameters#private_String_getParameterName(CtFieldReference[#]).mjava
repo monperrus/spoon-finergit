@@ -24,6 +24,10 @@ p
 =
 f
 .
+getDeclaration
+(
+)
+.
 getAnnotation
 (
 Parameter
