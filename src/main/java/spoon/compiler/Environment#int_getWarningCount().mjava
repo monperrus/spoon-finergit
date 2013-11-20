@@ -1,0 +1,8 @@
+/** 
+ * Gets the warning count from building, processing, and compiling within this environment.
+ */
+int
+getWarningCount
+(
+)
+;
