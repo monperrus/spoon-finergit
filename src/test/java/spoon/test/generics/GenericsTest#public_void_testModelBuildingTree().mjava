@@ -61,7 +61,7 @@ getSimpleName
 ;
 assertEquals
 (
-"[java.io.Serializable, java.lang.Comparable]"
+"[java.io.Serializable, java.lang.Comparable<V>]"
 ,
 generic
 .

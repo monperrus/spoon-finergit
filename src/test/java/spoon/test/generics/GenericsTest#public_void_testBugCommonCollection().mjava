@@ -234,7 +234,7 @@ getQualifiedName
 ;
 assertEquals
 (
-"java.util.Map$Entry"
+"java.util.Map.Entry"
 ,
 ref
 .
