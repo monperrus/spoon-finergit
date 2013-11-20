@@ -3,6 +3,10 @@ foo
 (
 )
 {
+x
+=
+null
+;
 Map
 .
 Entry
