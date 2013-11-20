@@ -51,15 +51,6 @@ assertNotNull
 c
 )
 ;
-System
-.
-out
-.
-println
-(
-c
-)
-;
 assertEquals
 (
 0
