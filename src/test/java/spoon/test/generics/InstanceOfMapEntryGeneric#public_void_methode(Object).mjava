@@ -6,8 +6,9 @@ Object
 o
 )
 {
-if
-(
+boolean
+b
+=
 o
 instanceof
 Map
@@ -18,9 +19,5 @@ Entry
 ,
 ?
 >
-)
-{
-return
 ;
-}
 }
