@@ -1,7 +1,8 @@
 /** 
  * Prints out the built model into files.
  */
-protected
+public
+static
 void
 print
 (
@@ -11,6 +12,8 @@ factory
 {
 if
 (
+factory
+.
 getEnvironment
 (
 )
@@ -35,6 +38,8 @@ processing
 .
 addProcessor
 (
+factory
+.
 getEnvironment
 (
 )

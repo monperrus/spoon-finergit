@@ -1,3 +1,6 @@
+/** 
+ * Creates a new Spoon Java compiler with a default factory and a list of input and template sources.
+ */
 public
 static
 SpoonCompiler

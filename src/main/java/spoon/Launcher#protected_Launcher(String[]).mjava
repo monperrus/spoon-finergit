@@ -2,7 +2,7 @@
  * Default constructor takes the command-line arguments.
  */
 protected
-AbstractLauncher
+Launcher
 (
 String
 [

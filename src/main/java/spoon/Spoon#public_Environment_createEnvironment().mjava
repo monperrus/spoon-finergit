@@ -1,0 +1,17 @@
+/** 
+ * Creates a new default environment.
+ */
+public
+static
+Environment
+createEnvironment
+(
+)
+{
+return
+new
+StandardEnvironment
+(
+)
+;
+}

@@ -1,0 +1,27 @@
+/** 
+ * Creates a default factory with the given environment.
+ * @param environment the factory's environment
+ * @return the created factory
+ */
+public
+static
+Factory
+createFactory
+(
+Environment
+environment
+)
+{
+return
+new
+Factory
+(
+new
+DefaultCoreFactory
+(
+)
+,
+environment
+)
+;
+}

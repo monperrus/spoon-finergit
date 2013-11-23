@@ -48,11 +48,7 @@ prop
 new
 XmlProcessorProperties
 (
-launcher
-.
-getFactory
-(
-)
+factory
 ,
 attributes
 .

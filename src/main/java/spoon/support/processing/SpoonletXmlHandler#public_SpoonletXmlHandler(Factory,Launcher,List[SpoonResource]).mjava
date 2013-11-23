@@ -6,7 +6,10 @@
 public
 SpoonletXmlHandler
 (
-AbstractLauncher
+Factory
+factory
+,
+Launcher
 launcher
 ,
 List
@@ -19,6 +22,12 @@ spoonletIndex
 super
 (
 )
+;
+this
+.
+factory
+=
+factory
 ;
 this
 .

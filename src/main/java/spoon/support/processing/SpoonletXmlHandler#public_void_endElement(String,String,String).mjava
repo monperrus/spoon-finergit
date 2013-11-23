@@ -28,11 +28,7 @@ equals
 )
 )
 {
-launcher
-.
-getFactory
-(
-)
+factory
 .
 getEnvironment
 (

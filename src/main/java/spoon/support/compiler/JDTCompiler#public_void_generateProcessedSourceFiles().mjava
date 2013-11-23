@@ -130,7 +130,7 @@ getEnvironment
 .
 debugMessage
 (
-"Generating source for compulation unit: "
+"Generating source for compilation unit: "
 +
 cu
 .

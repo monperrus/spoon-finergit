@@ -1,12 +1,19 @@
 /** 
  * Processes the built model with the processors.
  */
-protected
+public
+static
 void
 process
 (
 Factory
 factory
+,
+List
+<
+String
+>
+processorTypes
 )
 {
 ProcessingManager
@@ -23,9 +30,7 @@ for
 String
 processorName
 :
-getProcessorTypes
-(
-)
+processorTypes
 )
 {
 processing
@@ -35,6 +40,8 @@ addProcessor
 processorName
 )
 ;
+factory
+.
 getEnvironment
 (
 )
