@@ -1,0 +1,10 @@
+/** 
+ * Sets this compiler to optimize the model building process by ignoring files that has not be modified since the latest source code generation.
+ */
+void
+setBuildOnlyOutdatedFiles
+(
+boolean
+buildOnlyOutdatedFiles
+)
+;
