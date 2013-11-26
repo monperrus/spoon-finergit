@@ -24,14 +24,14 @@ factory
 ,
 SpoonResourceHelper
 .
-files
+resources
 (
 "./src/test/java/spoon/test/template/C1.java"
 )
 ,
 SpoonResourceHelper
 .
-files
+resources
 (
 "./src/test/java/spoon/test/template/TemplateWithConstructor.java"
 )

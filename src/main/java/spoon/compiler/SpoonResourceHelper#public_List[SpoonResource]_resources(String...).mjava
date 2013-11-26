@@ -1,5 +1,5 @@
 /** 
- * Creates the list of  {@link SpoonFile} corresponding to the given paths.
+ * Creates the list of  {@link SpoonResource} corresponding to the givenpaths (files, folders, archives).
  */
 public
 static
@@ -7,7 +7,7 @@ List
 <
 SpoonResource
 >
-files
+resources
 (
 String
 ...
@@ -42,7 +42,7 @@ files
 .
 add
 (
-createFile
+createResource
 (
 new
 File

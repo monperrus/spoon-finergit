@@ -39,7 +39,7 @@ getParameters
 )
 )
 {
-visitCtParameter
+scan
 (
 p
 )

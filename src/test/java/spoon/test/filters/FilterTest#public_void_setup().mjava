@@ -23,7 +23,7 @@ factory
 ,
 SpoonResourceHelper
 .
-files
+resources
 (
 "./src/test/java/spoon/test/filters/Foo.java"
 )

@@ -25,7 +25,9 @@ SpoonResourceHelper
 .
 resources
 (
-"./src/test/java/spoon/test/replace/Foo.java"
+"./src/test/java/spoon/test/annotation/PersistenceProperty.java"
+,
+"./src/test/java/spoon/test/prettyprinter/Validation.java"
 )
 )
 .

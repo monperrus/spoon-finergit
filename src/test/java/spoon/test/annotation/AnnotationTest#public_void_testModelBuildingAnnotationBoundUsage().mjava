@@ -24,7 +24,7 @@ factory
 ,
 SpoonResourceHelper
 .
-files
+resources
 (
 "./src/test/java/spoon/test/annotation/Bound.java"
 ,

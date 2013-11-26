@@ -24,7 +24,7 @@ factory
 ,
 SpoonResourceHelper
 .
-files
+resources
 (
 "./src/test/java/spoon/test/template/SubClass.java"
 ,
@@ -33,7 +33,7 @@ files
 ,
 SpoonResourceHelper
 .
-files
+resources
 (
 "./src/test/java/spoon/test/template/SubTemplate.java"
 ,

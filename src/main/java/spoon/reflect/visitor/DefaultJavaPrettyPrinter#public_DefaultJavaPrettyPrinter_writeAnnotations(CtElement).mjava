@@ -24,11 +24,9 @@ getAnnotations
 )
 )
 {
-a
-.
-accept
+scan
 (
-this
+a
 )
 ;
 }
