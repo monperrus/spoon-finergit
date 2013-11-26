@@ -1,9 +1,5 @@
 /** 
  * Creates a new Spoon Java compiler in order to process and compile Java source code.
- * @param factory the factory this compiler works on
- * @param inputSources the sources to be processed and/or compiled
- * @param inputTemplate the template sources to be used by the processors
- * @see Factory#Template()
  */
 public
 static

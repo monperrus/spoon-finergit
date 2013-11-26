@@ -2,7 +2,7 @@
  * Runs Spoon on the given factory, with the given run options. A Spoon run will perform the following tasks: <ol> <li>Pre-compilation (optional).</li> <li>Source model building in the given factory.</li> <li>Template model building in the given factory (if any template source is given).</li> <li>Model processing with the list of given processors if any.</li> <li>Processed Source code printing and generation (can be disabled with <code>nooutput</code>).</li> <li>Processed source code compilation (optional).</li> <ol>
  * @param factory the factory to be used, with a properly initialized environment
  * @param precompile precompile the source code before processing to make sure that the input source classes will be available in the classpath
- * @param nooutput disables source code output
+ * @param output sets type of source code output
  * @param outputDirectory the output directory of the generated source files
  * @param processorTypes the list of processors to be applied to the built model
  * @param compile compile the source code to bytecode once generated
@@ -26,8 +26,8 @@ factory
 boolean
 precompile
 ,
-boolean
-nooutput
+OutputType
+output
 ,
 File
 outputDirectory
@@ -136,7 +136,14 @@ compiler
 setBuildOnlyOutdatedFiles
 (
 !
+output
+.
+equals
+(
+OutputType
+.
 nooutput
+)
 &&
 buildOnlyOutdatedFiles
 )
@@ -424,33 +431,39 @@ currentTimeMillis
 ;
 if
 (
-!
-nooutput
+output
+.
+equals
+(
+OutputType
+.
+classes
+)
+)
+{
+print
+(
+factory
+)
+;
+}
+else
+if
+(
+output
+.
+equals
+(
+OutputType
+.
+compilationunits
+)
 )
 {
 compiler
 .
 generateProcessedSourceFiles
 (
-)
-;
-env
-.
-debugMessage
-(
-"generated source in "
-+
-(
-System
-.
-currentTimeMillis
-(
-)
--
-t
-)
-+
-" ms"
 )
 ;
 }
