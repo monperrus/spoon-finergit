@@ -1,0 +1,18 @@
+/** 
+ * Sets the output type (none, classes, or compilationunits).
+ */
+public
+void
+setOutputType
+(
+String
+ouputType
+)
+{
+this
+.
+outputType
+=
+ouputType
+;
+}

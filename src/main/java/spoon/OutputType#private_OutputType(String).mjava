@@ -1,0 +1,14 @@
+private
+OutputType
+(
+String
+string
+)
+{
+this
+.
+string
+=
+string
+;
+}
