@@ -1,5 +1,5 @@
 /** 
- * Sets the expression assigned to the variable, when declared.
+ * Sets the initialization expression assigned to the variable, when declared.
  */
 void
 setDefaultExpression

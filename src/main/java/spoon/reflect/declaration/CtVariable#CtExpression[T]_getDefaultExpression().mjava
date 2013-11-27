@@ -1,5 +1,5 @@
 /** 
- * Gets the expression assigned to the variable, when declared.
+ * Gets the initialization expression assigned to the variable (also known as the initializer), when declared.
  */
 CtExpression
 <
