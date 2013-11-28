@@ -1,4 +1,8 @@
-private
+/** 
+ * {@inheritDoc}Removes all annotations A on elements E.
+ */
+@Override
+public
 boolean
 shoudBeConsumed
 (

@@ -1,0 +1,14 @@
+/** 
+ * Returns true if this annotation should be removed from the processed code.
+ */
+boolean
+shoudBeConsumed
+(
+CtAnnotation
+<
+?
+Annotation
+>
+annotation
+)
+;
