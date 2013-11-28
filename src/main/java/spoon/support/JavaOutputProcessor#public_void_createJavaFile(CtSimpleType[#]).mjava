@@ -12,6 +12,25 @@ CtSimpleType
 element
 )
 {
+getEnvironment
+(
+)
+.
+debugMessage
+(
+"printing "
++
+element
+.
+getQualifiedName
+(
+)
++
+" to "
++
+directory
+)
+;
 new
 ModelConsistencyChecker
 (
