@@ -1,0 +1,15 @@
+private
+Thread
+method3
+(
+)
+{
+return
+new
+Thread
+(
+)
+{
+}
+;
+}
