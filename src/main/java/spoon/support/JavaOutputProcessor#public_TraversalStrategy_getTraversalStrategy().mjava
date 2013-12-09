@@ -1,0 +1,13 @@
+@Override
+public
+TraversalStrategy
+getTraversalStrategy
+(
+)
+{
+return
+TraversalStrategy
+.
+PRE_ORDER
+;
+}
