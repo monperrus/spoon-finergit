@@ -1,0 +1,38 @@
+/** 
+ * Creates a new model consistency checker.
+ * @param environment the environment where to report errors
+ * @param fixInconsistencies automatically fix the inconsistencies rather than reporting warnings (to report warnings, set this to false)
+ * @param fixNullParents automatically fix the null parents rather than reporting warnings (to report warnings, set this to false)
+ */
+public
+ModelConsistencyChecker
+(
+Environment
+environment
+,
+boolean
+fixInconsistencies
+,
+boolean
+fixNullParents
+)
+{
+this
+.
+environment
+=
+environment
+;
+this
+.
+fixInconsistencies
+=
+fixInconsistencies
+;
+this
+.
+fixNullParents
+=
+fixNullParents
+;
+}

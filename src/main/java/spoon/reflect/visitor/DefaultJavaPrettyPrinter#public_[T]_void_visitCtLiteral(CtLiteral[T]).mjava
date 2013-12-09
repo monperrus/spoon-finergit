@@ -134,8 +134,7 @@ instanceof
 String
 )
 {
-write
-(
+writeStringLiteral
 (
 (
 String
@@ -144,7 +143,6 @@ literal
 .
 getValue
 (
-)
 )
 )
 ;

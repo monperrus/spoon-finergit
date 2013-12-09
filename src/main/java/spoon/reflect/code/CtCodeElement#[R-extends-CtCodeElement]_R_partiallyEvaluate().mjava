@@ -1,0 +1,15 @@
+/** 
+ * Partially evaluates an element and all its sub-elements.
+ * @param < R > the returned element
+ * @return the result of the partial evaluation
+ */
+<
+R
+extends
+CtCodeElement
+>
+R
+partiallyEvaluate
+(
+)
+;

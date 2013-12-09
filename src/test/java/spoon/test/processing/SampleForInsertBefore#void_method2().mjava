@@ -1,0 +1,13 @@
+void
+method2
+(
+)
+{
+new
+Thread
+(
+)
+{
+}
+;
+}

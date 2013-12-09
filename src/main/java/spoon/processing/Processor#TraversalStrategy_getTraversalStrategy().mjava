@@ -1,5 +1,5 @@
 /** 
- * Gets the model's traversal strategy for this processor (default is {@link TraversalStrategy#PRE_ORDER}). Programmers should override this method to return another strategy if needed.
+ * Gets the model's traversal strategy for this processor (default is {@link TraversalStrategy#POST_ORDER}). Programmers should override this method to return another strategy if needed.
  */
 TraversalStrategy
 getTraversalStrategy

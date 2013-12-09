@@ -1,29 +1,21 @@
 /** 
- * Outputs a string.
+ * Outputs a char.
  */
 public
 DefaultJavaPrettyPrinter
 write
 (
-String
-s
-)
-{
-if
-(
-s
-!=
-null
+char
+c
 )
 {
 sbf
 .
 append
 (
-s
+c
 )
 ;
-}
 return
 this
 ;

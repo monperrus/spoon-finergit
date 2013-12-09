@@ -15,9 +15,7 @@ isArchive
 )
 )
 {
-rootJavaPaths
-.
-add
+addRootJavaPath
 (
 o
 .
@@ -33,9 +31,7 @@ getPath
 }
 else
 {
-rootJavaPaths
-.
-add
+addRootJavaPath
 (
 o
 .

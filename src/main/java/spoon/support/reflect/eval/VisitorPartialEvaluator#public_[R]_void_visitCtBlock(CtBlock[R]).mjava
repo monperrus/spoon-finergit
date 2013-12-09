@@ -63,11 +63,7 @@ null
 {
 b
 .
-getStatements
-(
-)
-.
-add
+addStatement
 (
 res
 )

@@ -1,0 +1,14 @@
+public
+String
+methodToBeInserted2
+(
+)
+{
+return
+PARAM2
+.
+S
+(
+)
+;
+}

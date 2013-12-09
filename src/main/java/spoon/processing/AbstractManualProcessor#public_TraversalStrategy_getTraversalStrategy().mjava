@@ -11,6 +11,6 @@ getTraversalStrategy
 return
 TraversalStrategy
 .
-PRE_ORDER
+POST_ORDER
 ;
 }

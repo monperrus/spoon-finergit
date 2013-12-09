@@ -5,6 +5,11 @@
  */
 public
 static
+<
+T
+extends
+Template
+>
 void
 insertAll
 (
@@ -14,16 +19,15 @@ CtType
 >
 targetType
 ,
-Template
+T
 template
 )
 {
 CtClass
 <
-?
-Template
+T
 >
-sourceClass
+templateClass
 =
 targetType
 .
@@ -56,7 +60,7 @@ CtTypeReference
 >
 t
 :
-sourceClass
+templateClass
 .
 getSuperInterfaces
 (
@@ -103,7 +107,7 @@ Parameters
 .
 getNames
 (
-sourceClass
+templateClass
 )
 .
 contains
@@ -302,7 +306,7 @@ CtMethod
 >
 m
 :
-sourceClass
+templateClass
 .
 getMethods
 (
@@ -364,7 +368,7 @@ CtConstructor
 >
 c
 :
-sourceClass
+templateClass
 .
 getConstructors
 (
@@ -425,7 +429,7 @@ for
 CtAnonymousExecutable
 e
 :
-sourceClass
+templateClass
 .
 getAnonymousExecutables
 (
@@ -464,7 +468,7 @@ CtField
 >
 f
 :
-sourceClass
+templateClass
 .
 getFields
 (
@@ -519,7 +523,7 @@ CtSimpleType
 >
 t
 :
-sourceClass
+templateClass
 .
 getNestedTypes
 (
@@ -549,7 +553,7 @@ result
 =
 substitute
 (
-sourceClass
+templateClass
 ,
 template
 ,
