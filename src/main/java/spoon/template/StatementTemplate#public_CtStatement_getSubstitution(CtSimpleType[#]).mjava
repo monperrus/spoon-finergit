@@ -95,7 +95,6 @@ getMethod
 getBody
 (
 )
-)
 .
 getStatements
 (
@@ -104,6 +103,7 @@ getStatements
 get
 (
 0
+)
 )
 ;
 }
@@ -132,7 +132,6 @@ getMethod
 getBody
 (
 )
-)
 .
 getStatements
 (
@@ -141,6 +140,7 @@ getStatements
 get
 (
 0
+)
 )
 ;
 }
