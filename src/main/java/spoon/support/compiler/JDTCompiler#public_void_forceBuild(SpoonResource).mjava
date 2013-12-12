@@ -1,0 +1,17 @@
+@Override
+public
+void
+forceBuild
+(
+SpoonResource
+source
+)
+{
+forceBuildList
+.
+add
+(
+source
+)
+;
+}
