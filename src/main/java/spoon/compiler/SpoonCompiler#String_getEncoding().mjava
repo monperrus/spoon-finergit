@@ -1,0 +1,8 @@
+/** 
+ * Gets the encoding used by this compiler. Null means that it uses the system encoding.
+ */
+String
+getEncoding
+(
+)
+;

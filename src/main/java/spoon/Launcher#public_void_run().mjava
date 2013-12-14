@@ -205,6 +205,13 @@ factory
 ,
 arguments
 .
+getString
+(
+"encoding"
+)
+,
+arguments
+.
 getBoolean
 (
 "precompile"

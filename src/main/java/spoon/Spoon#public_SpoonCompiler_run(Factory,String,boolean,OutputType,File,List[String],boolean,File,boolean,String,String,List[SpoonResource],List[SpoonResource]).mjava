@@ -1,6 +1,7 @@
 /** 
  * Runs Spoon on the given factory, with the given run options. A Spoon run will perform the following tasks: <ol> <li>Pre-compilation (optional).</li> <li>Source model building in the given factory.</li> <li>Template model building in the given factory (if any template source is given).</li> <li>Model processing with the list of given processors if any.</li> <li>Processed Source code printing and generation (can be disabled with <code>nooutput</code>).</li> <li>Processed source code compilation (optional).</li> <ol>
  * @param factory the factory to be used, with a properly initialized environment
+ * @param encoding the encoding to be used (null to use the default system encoding)
  * @param precompile precompile the source code before processing to make sure that the input source classes will be available in the classpath
  * @param output sets type of source code output
  * @param outputDirectory the output directory of the generated source files
@@ -22,6 +23,9 @@ run
 (
 Factory
 factory
+,
+String
+encoding
 ,
 boolean
 precompile
@@ -311,10 +315,19 @@ isDebug
 )
 )
 {
+Spoon
+.
+logger
+.
+debug
+(
 e
 .
-printStackTrace
+getMessage
 (
+)
+,
+e
 )
 ;
 }

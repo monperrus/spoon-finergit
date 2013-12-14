@@ -1,0 +1,10 @@
+/** 
+ * Sets the encoding to use when different from the system encoding.
+ */
+void
+setEncoding
+(
+String
+encoding
+)
+;

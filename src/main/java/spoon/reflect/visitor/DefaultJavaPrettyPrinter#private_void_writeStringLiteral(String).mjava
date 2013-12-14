@@ -6,11 +6,6 @@ String
 value
 )
 {
-write
-(
-'\"'
-)
-;
 for
 (
 int
@@ -134,9 +129,4 @@ i
 ;
 }
 }
-write
-(
-'\"'
-)
-;
 }

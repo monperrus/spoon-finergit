@@ -13,11 +13,9 @@ isDebug
 )
 )
 {
-System
+logger
 .
-out
-.
-println
+debug
 (
 message
 )
