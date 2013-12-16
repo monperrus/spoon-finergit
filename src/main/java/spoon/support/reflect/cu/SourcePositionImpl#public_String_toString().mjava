@@ -7,6 +7,19 @@ toString
 (
 )
 {
+if
+(
+getFile
+(
+)
+==
+null
+)
+{
+return
+"(unknown file)"
+;
+}
 int
 ln
 =
