@@ -1,0 +1,21 @@
+/** 
+ * Searches for an annotation (proxy) of the given class that annotates the current referenced element. <p> NOTE: before using an annotation proxy, you have to make sure that all the types referenced by the annotation have been compiled and are in the classpath so that accessed values can be converted into the actual types. Otherwise, use  {@link #getAnnotation(CtTypeReference)}.
+ * @param < A > the annotation's type
+ * @param annotationType the annotation's class
+ * @return if found, returns a proxy for this annotation
+ */
+<
+A
+extends
+Annotation
+>
+A
+getAnnotation
+(
+Class
+<
+A
+>
+annotationType
+)
+;

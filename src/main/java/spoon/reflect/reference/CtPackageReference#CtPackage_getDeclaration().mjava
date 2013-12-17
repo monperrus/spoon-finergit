@@ -1,3 +1,6 @@
+/** 
+ * Gets the package element when available in the source code.
+ */
 CtPackage
 getDeclaration
 (

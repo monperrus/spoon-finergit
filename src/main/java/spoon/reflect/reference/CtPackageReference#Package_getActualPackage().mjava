@@ -1,0 +1,8 @@
+/** 
+ * Gets the package element when available in the class path.
+ */
+Package
+getActualPackage
+(
+)
+;

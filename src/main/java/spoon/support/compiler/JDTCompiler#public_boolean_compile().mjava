@@ -5,6 +5,10 @@ compile
 (
 )
 {
+initInputClassLoader
+(
+)
+;
 factory
 .
 getEnvironment

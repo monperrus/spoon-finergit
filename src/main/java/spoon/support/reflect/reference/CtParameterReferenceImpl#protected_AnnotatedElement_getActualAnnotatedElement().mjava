@@ -1,0 +1,11 @@
+@Override
+protected
+AnnotatedElement
+getActualAnnotatedElement
+(
+)
+{
+return
+null
+;
+}

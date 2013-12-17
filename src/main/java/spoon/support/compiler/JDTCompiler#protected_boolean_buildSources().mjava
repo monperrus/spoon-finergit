@@ -21,6 +21,10 @@ isEmpty
 return
 true
 ;
+initInputClassLoader
+(
+)
+;
 JDTBatchCompiler
 batchCompiler
 =

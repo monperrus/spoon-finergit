@@ -1,0 +1,16 @@
+@Override
+public
+void
+setInputClassLoader
+(
+ClassLoader
+classLoader
+)
+{
+this
+.
+inputClassLoader
+=
+classLoader
+;
+}

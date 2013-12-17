@@ -1,0 +1,13 @@
+/** 
+ * Generates the source code associated to the classes stored in this compiler's factory. The source code is generated in the directory given by  {@link #getOutputDirectory()}.
+ * @param outputType the output method
+ */
+void
+generateProcessedSourceFiles
+(
+OutputType
+outputType
+)
+throws
+Exception
+;

@@ -1,0 +1,10 @@
+/** 
+ * Sets the class loader used to compile/process the input source code.
+ */
+void
+setInputClassLoader
+(
+ClassLoader
+classLoader
+)
+;

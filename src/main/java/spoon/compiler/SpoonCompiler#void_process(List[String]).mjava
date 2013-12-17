@@ -1,0 +1,13 @@
+/** 
+ * Processes the Java model with the given processors.
+ */
+void
+process
+(
+List
+<
+String
+>
+processorTypes
+)
+;

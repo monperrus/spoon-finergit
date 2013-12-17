@@ -1,0 +1,8 @@
+/** 
+ * Gets the class loader used to compile/process the input source code.
+ */
+ClassLoader
+getInputClassLoader
+(
+)
+;

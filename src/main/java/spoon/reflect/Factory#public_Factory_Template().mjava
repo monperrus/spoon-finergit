@@ -28,6 +28,8 @@ DefaultCoreFactory
 getEnvironment
 (
 )
+,
+this
 )
 ;
 }
