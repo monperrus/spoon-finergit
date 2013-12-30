@@ -1,21 +1,39 @@
 /** 
  * Creates a new Spoon Java compiler in order to process and compile Java source code.
  * @param factory the factory this compiler works on
+ * @param inputSources the sources to be processed and/or compiled
  */
 public
-static
 SpoonCompiler
 createCompiler
 (
 Factory
 factory
+,
+List
+<
+SpoonResource
+>
+inputSources
 )
 {
-return
+SpoonCompiler
+c
+=
 new
 JDTCompiler
 (
 factory
 )
+;
+c
+.
+addInputSources
+(
+inputSources
+)
+;
+return
+c
 ;
 }

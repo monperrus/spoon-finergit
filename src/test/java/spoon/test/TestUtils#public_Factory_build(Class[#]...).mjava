@@ -16,7 +16,10 @@ Exception
 SpoonCompiler
 comp
 =
-Spoon
+new
+Launcher
+(
+)
 .
 createCompiler
 (

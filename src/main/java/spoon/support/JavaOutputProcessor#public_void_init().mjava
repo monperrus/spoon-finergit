@@ -77,7 +77,7 @@ IOException
 e
 )
 {
-Spoon
+Launcher
 .
 logger
 .

@@ -164,7 +164,7 @@ Exception
 e
 )
 {
-Spoon
+Launcher
 .
 logger
 .
@@ -412,7 +412,7 @@ FileNotFoundException
 e
 )
 {
-Spoon
+Launcher
 .
 logger
 .
@@ -559,7 +559,7 @@ FileNotFoundException
 e
 )
 {
-Spoon
+Launcher
 .
 logger
 .
@@ -581,7 +581,7 @@ IOException
 e
 )
 {
-Spoon
+Launcher
 .
 logger
 .

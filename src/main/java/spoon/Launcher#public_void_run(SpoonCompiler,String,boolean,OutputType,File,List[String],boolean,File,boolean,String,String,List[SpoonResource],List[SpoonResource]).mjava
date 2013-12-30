@@ -16,7 +16,6 @@
  * @throws Exception in case something bad happens
  */
 public
-static
 void
 run
 (
@@ -309,8 +308,6 @@ isDebug
 )
 )
 {
-Spoon
-.
 logger
 .
 debug

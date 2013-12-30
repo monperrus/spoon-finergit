@@ -69,8 +69,6 @@ isDebug
 )
 )
 {
-Spoon
-.
 logger
 .
 debug
@@ -250,8 +248,6 @@ SAXException
 e
 )
 {
-Spoon
-.
 logger
 .
 error
@@ -272,8 +268,6 @@ IOException
 e
 )
 {
-Spoon
-.
 logger
 .
 error

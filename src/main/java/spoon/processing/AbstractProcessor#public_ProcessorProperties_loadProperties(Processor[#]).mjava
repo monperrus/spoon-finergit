@@ -119,7 +119,7 @@ getName
 "'"
 )
 ;
-Spoon
+Launcher
 .
 logger
 .
@@ -180,7 +180,7 @@ getMessage
 )
 )
 ;
-Spoon
+Launcher
 .
 logger
 .

@@ -1,11 +1,13 @@
 /** 
- * Creates a new Spoon Java compiler with a default factory and a list of input and template sources.
+ * Creates a new Spoon Java compiler in order to process and compile Java source code.
  */
 public
-static
 SpoonCompiler
 createCompiler
 (
+Factory
+factory
+,
 List
 <
 SpoonResource
@@ -25,9 +27,7 @@ c
 new
 JDTCompiler
 (
-createFactory
-(
-)
+factory
 )
 ;
 c

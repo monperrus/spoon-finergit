@@ -111,8 +111,6 @@ isDebug
 )
 )
 {
-Spoon
-.
 logger
 .
 debug
@@ -274,8 +272,6 @@ isDebug
 )
 )
 {
-Spoon
-.
 logger
 .
 error

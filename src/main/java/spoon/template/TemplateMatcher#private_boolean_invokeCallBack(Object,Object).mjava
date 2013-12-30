@@ -227,7 +227,7 @@ InstantiationException
 e
 )
 {
-Spoon
+Launcher
 .
 logger
 .
@@ -252,7 +252,7 @@ IllegalAccessException
 e
 )
 {
-Spoon
+Launcher
 .
 logger
 .

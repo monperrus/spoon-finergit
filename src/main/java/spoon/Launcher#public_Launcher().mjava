@@ -1,7 +1,7 @@
 /** 
  * Constructor with no arguments.
  */
-protected
+public
 Launcher
 (
 )

@@ -121,7 +121,7 @@ Exception
 e
 )
 {
-Spoon
+Launcher
 .
 logger
 .
@@ -244,7 +244,7 @@ Exception
 e
 )
 {
-Spoon
+Launcher
 .
 logger
 .
@@ -442,7 +442,7 @@ Exception
 e
 )
 {
-Spoon
+Launcher
 .
 logger
 .

@@ -14,7 +14,6 @@
  * @return a properly initialized environment
  */
 public
-static
 void
 initEnvironment
 (

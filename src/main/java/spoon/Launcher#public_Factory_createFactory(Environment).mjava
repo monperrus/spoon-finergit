@@ -4,7 +4,6 @@
  * @return the created factory
  */
 public
-static
 Factory
 createFactory
 (

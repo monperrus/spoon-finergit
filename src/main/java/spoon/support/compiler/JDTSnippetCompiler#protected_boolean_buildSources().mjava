@@ -280,7 +280,7 @@ Exception
 e
 )
 {
-Spoon
+Launcher
 .
 logger
 .
@@ -291,7 +291,7 @@ error
 args
 )
 ;
-Spoon
+Launcher
 .
 logger
 .
@@ -304,7 +304,7 @@ sources
 rootJavaPaths
 )
 ;
-Spoon
+Launcher
 .
 logger
 .

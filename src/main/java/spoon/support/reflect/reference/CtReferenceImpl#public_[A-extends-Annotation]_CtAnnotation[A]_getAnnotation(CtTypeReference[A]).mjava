@@ -209,7 +209,7 @@ Exception
 ex
 )
 {
-Spoon
+Launcher
 .
 logger
 .
