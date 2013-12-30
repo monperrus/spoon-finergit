@@ -1,11 +1,28 @@
 /** 
- * Generates a new line starting with the current number of tabs.
+ * Generates a new line.
  */
 public
 DefaultJavaPrettyPrinter
 writeln
 (
 )
+{
+if
+(
+context
+.
+noNewLines
+)
+{
+sbf
+.
+append
+(
+" "
+)
+;
+}
+else
 {
 sbf
 .
@@ -22,9 +39,8 @@ getProperty
 line
 ++
 ;
+}
 return
-writeTabs
-(
-)
+this
 ;
 }

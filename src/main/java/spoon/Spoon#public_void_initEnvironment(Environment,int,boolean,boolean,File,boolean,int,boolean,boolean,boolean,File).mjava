@@ -9,6 +9,7 @@
  * @param tabulationSize the size of the tabulations in the printed source code
  * @param useTabulations tells if Spoon uses tabulations (vs spaces)
  * @param useSourceCodeFragments tells if Spoon should be in source code fragments mode
+ * @param preserveLineNumbers tells if Spoon should try to preserve the original line numbers when generating the source code (may lead to human-unfriendly formatting)
  * @param sourceOutputDir sets the Spoon output directory where to generate the printed source code
  * @return a properly initialized environment
  */
@@ -43,6 +44,9 @@ useTabulations
 ,
 boolean
 useSourceCodeFragments
+,
+boolean
+preserveLineNumbers
 ,
 File
 sourceOutputDir
@@ -106,6 +110,13 @@ environment
 setAutoImports
 (
 autoImports
+)
+;
+environment
+.
+setPreserveLineNumbers
+(
+preserveLineNumbers
 )
 ;
 environment

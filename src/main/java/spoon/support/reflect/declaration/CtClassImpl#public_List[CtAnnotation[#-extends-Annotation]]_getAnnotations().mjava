@@ -1,6 +1,6 @@
 @Override
 public
-Set
+List
 <
 CtAnnotation
 <
@@ -12,7 +12,7 @@ getAnnotations
 (
 )
 {
-Set
+List
 <
 CtAnnotation
 <

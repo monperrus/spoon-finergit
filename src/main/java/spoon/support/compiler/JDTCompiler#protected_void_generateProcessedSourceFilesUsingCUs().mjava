@@ -6,6 +6,17 @@ generateProcessedSourceFilesUsingCUs
 throws
 Exception
 {
+factory
+.
+getEnvironment
+(
+)
+.
+debugMessage
+(
+"Generating source using compilation units..."
+)
+;
 if
 (
 outputDirectory

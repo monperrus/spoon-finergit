@@ -1,0 +1,8 @@
+/** 
+ * Tells if the source generator will try to preserve the original line numbers.
+ */
+boolean
+isPreserveLineNumbers
+(
+)
+;

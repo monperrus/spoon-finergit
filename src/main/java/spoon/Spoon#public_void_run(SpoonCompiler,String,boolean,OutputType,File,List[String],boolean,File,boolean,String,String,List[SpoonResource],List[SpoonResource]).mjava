@@ -365,6 +365,14 @@ t
 )
 ;
 }
+t
+=
+System
+.
+currentTimeMillis
+(
+)
+;
 compiler
 .
 build
@@ -437,6 +445,25 @@ compiler
 generateProcessedSourceFiles
 (
 outputType
+)
+;
+env
+.
+debugMessage
+(
+"source generated in "
++
+(
+System
+.
+currentTimeMillis
+(
+)
+-
+t
+)
++
+" ms"
 )
 ;
 t

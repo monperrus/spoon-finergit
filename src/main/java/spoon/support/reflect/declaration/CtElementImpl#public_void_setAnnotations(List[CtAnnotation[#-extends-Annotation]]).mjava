@@ -1,5 +1,8 @@
 public
-Set
+void
+setAnnotations
+(
+List
 <
 CtAnnotation
 <
@@ -7,11 +10,13 @@ CtAnnotation
 Annotation
 >
 >
-getAnnotations
-(
+annotations
 )
 {
-return
+this
+.
+annotations
+=
 annotations
 ;
 }

@@ -36,6 +36,8 @@ getProperty
 )
 ,
 "--compile"
+,
+"--lines"
 }
 )
 ;

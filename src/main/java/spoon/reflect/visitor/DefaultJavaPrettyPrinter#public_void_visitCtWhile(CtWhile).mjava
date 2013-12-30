@@ -65,6 +65,10 @@ incTab
 writeln
 (
 )
+.
+writeTabs
+(
+)
 ;
 writeStatement
 (

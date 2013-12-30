@@ -99,6 +99,13 @@ getBoolean
 ,
 args
 .
+getBoolean
+(
+"lines"
+)
+,
+args
+.
 getFile
 (
 "output"
