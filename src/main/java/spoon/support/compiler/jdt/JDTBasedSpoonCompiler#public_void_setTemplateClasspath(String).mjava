@@ -1,0 +1,16 @@
+@Override
+public
+void
+setTemplateClasspath
+(
+String
+classpath
+)
+{
+this
+.
+templateClasspath
+=
+classpath
+;
+}

@@ -1,0 +1,16 @@
+/** 
+ * @param jdtCompiler
+ */
+TreeBuilderRequestor
+(
+JDTBasedSpoonCompiler
+jdtCompiler
+)
+{
+this
+.
+jdtCompiler
+=
+jdtCompiler
+;
+}

@@ -1,0 +1,16 @@
+@Override
+public
+void
+setBuildOnlyOutdatedFiles
+(
+boolean
+buildOnlyOutdatedFiles
+)
+{
+this
+.
+buildOnlyOutdatedFiles
+=
+buildOnlyOutdatedFiles
+;
+}

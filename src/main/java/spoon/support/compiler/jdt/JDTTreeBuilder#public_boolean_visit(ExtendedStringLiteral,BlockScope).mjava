@@ -1,0 +1,20 @@
+@Override
+public
+boolean
+visit
+(
+ExtendedStringLiteral
+extendedStringLiteral
+,
+BlockScope
+scope
+)
+{
+throw
+new
+RuntimeException
+(
+"invalid ast node: the parser must be configured with parseLiteralExpressionsAsConstants set to false"
+)
+;
+}

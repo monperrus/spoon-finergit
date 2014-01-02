@@ -8,8 +8,7 @@ createCompiler
 )
 {
 return
-new
-JDTCompiler
+createCompiler
 (
 createFactory
 (

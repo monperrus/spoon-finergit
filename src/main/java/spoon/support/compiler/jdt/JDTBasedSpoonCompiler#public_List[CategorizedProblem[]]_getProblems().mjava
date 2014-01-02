@@ -1,0 +1,17 @@
+public
+List
+<
+CategorizedProblem
+[
+]
+>
+getProblems
+(
+)
+{
+return
+this
+.
+probs
+;
+}

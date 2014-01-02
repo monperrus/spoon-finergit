@@ -1,0 +1,14 @@
+public
+JDTBasedSpoonCompiler
+(
+Factory
+factory
+)
+{
+this
+.
+factory
+=
+factory
+;
+}

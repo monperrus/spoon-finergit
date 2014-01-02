@@ -15,8 +15,7 @@ inputSources
 SpoonCompiler
 c
 =
-new
-JDTCompiler
+createCompiler
 (
 createFactory
 (

@@ -1,0 +1,16 @@
+public
+void
+ignoreFile
+(
+String
+filePath
+)
+{
+ignoredFiles
+.
+add
+(
+filePath
+)
+;
+}

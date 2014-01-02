@@ -12,7 +12,7 @@ factory
 {
 return
 new
-JDTCompiler
+JDTBasedSpoonCompiler
 (
 factory
 )
