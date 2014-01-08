@@ -8,14 +8,8 @@ createFactory
 )
 {
 return
-new
-FactoryImpl
+createFactory
 (
-new
-DefaultCoreFactory
-(
-)
-,
 new
 StandardEnvironment
 (

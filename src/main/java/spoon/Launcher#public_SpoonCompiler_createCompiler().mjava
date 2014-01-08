@@ -10,9 +10,7 @@ createCompiler
 return
 createCompiler
 (
-createFactory
-(
-)
+factory
 )
 ;
 }

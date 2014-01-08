@@ -15,4 +15,10 @@ CtSimpleType
 types
 )
 {
+this
+.
+compilationUnit
+=
+originalCompilationUnit
+;
 }

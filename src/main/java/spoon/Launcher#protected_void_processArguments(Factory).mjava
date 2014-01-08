@@ -8,6 +8,8 @@ processArguments
 Factory
 factory
 )
+throws
+Exception
 {
 Environment
 env

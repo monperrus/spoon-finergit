@@ -24,9 +24,10 @@ Launcher
 ;
 launcher
 .
+setArgs
+(
 args
-=
-args
+)
 ;
 if
 (

@@ -7,6 +7,9 @@ JavaOutputProcessor
 (
 File
 outputDirectory
+,
+PrettyPrinter
+printer
 )
 {
 this
@@ -14,5 +17,11 @@ this
 directory
 =
 outputDirectory
+;
+this
+.
+printer
+=
+printer
 ;
 }

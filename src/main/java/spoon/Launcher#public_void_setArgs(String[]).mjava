@@ -1,0 +1,17 @@
+public
+void
+setArgs
+(
+String
+[
+]
+args2
+)
+{
+this
+.
+args
+=
+args2
+;
+}
