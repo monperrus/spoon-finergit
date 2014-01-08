@@ -44,8 +44,6 @@ return
 (
 T
 )
-factory
-.
 convertArray
 (
 type
@@ -70,8 +68,6 @@ name
 ;
 }
 return
-factory
-.
 convert
 (
 type

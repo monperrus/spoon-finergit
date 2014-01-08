@@ -13,7 +13,7 @@ environment
 {
 return
 new
-Factory
+FactoryImpl
 (
 new
 DefaultCoreFactory

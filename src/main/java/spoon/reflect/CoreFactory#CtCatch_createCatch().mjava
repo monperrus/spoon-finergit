@@ -1,8 +1,0 @@
-/** 
- * Creates a <code>catch</code> clause.
- */
-CtCatch
-createCatch
-(
-)
-;

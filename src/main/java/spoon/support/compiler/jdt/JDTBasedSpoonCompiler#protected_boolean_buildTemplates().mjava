@@ -260,10 +260,6 @@ new
 JDTTreeBuilder
 (
 factory
-.
-Template
-(
-)
 )
 ;
 for

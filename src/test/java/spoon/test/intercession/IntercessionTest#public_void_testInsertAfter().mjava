@@ -95,9 +95,6 @@ size
 CtStatement
 s
 =
-(
-CtStatement
-)
 body
 .
 getStatements

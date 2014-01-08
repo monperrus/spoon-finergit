@@ -1,8 +1,0 @@
-/** 
- * Gets the main factory of that core factory (cannot be <code>null</code>).
- */
-Factory
-getMainFactory
-(
-)
-;

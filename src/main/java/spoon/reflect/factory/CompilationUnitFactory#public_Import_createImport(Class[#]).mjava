@@ -16,9 +16,7 @@ return
 new
 ImportImpl
 (
-getFactory
-(
-)
+factory
 .
 Type
 (
