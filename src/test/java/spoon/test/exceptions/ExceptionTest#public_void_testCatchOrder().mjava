@@ -25,7 +25,9 @@ createCodeSnippetStatement
 +
 "public void foo() {"
 +
-" try{}catch(RuntimeException e){}catch(Exception e){}"
+" try{}catch(RuntimeException e){java.lang.System.exit(0);}"
++
+"      catch(Exception e){}"
 +
 "}"
 +
@@ -88,6 +90,35 @@ getType
 )
 .
 getActualClass
+(
+)
+)
+;
+assertEquals
+(
+"java.lang.System.exit(0)"
+,
+tryStmt
+.
+getCatchers
+(
+)
+.
+get
+(
+0
+)
+.
+getBody
+(
+)
+.
+getStatement
+(
+0
+)
+.
+toString
 (
 )
 )
