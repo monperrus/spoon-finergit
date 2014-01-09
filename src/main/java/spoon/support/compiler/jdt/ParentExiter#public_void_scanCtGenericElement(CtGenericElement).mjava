@@ -1,0 +1,12 @@
+@Override
+public
+void
+scanCtGenericElement
+(
+CtGenericElement
+e
+)
+{
+return
+;
+}

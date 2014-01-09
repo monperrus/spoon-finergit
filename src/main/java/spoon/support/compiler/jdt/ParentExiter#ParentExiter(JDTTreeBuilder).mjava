@@ -1,0 +1,16 @@
+/** 
+ * @param jdtTreeBuilder
+ */
+ParentExiter
+(
+JDTTreeBuilder
+jdtTreeBuilder
+)
+{
+this
+.
+jdtTreeBuilder
+=
+jdtTreeBuilder
+;
+}
