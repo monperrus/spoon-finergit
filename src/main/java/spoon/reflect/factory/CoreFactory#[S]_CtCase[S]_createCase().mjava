@@ -1,0 +1,14 @@
+/** 
+ * Creates a <code>case</code> clause.
+ */
+<
+S
+>
+CtCase
+<
+S
+>
+createCase
+(
+)
+;

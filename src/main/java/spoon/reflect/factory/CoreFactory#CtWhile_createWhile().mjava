@@ -1,0 +1,8 @@
+/** 
+ * Creates a <code>while</code> loop.
+ */
+CtWhile
+createWhile
+(
+)
+;

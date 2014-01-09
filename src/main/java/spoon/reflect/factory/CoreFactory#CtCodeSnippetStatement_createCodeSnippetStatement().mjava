@@ -1,0 +1,8 @@
+/** 
+ * Creates a code snippet statement.
+ */
+CtCodeSnippetStatement
+createCodeSnippetStatement
+(
+)
+;

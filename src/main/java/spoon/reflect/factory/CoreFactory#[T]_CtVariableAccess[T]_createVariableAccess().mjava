@@ -1,0 +1,14 @@
+/** 
+ * Creates a variable access expression.
+ */
+<
+T
+>
+CtVariableAccess
+<
+T
+>
+createVariableAccess
+(
+)
+;

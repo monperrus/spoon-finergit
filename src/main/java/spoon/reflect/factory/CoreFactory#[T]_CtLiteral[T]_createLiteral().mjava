@@ -1,0 +1,14 @@
+/** 
+ * Creates a literal expression.
+ */
+<
+T
+>
+CtLiteral
+<
+T
+>
+createLiteral
+(
+)
+;

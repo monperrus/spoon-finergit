@@ -1,0 +1,14 @@
+/** 
+ * Creates a parameter reference.
+ */
+<
+T
+>
+CtParameterReference
+<
+T
+>
+createParameterReference
+(
+)
+;

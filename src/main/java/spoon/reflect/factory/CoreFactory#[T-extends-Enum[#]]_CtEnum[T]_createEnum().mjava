@@ -1,0 +1,19 @@
+/** 
+ * Creates an enum.
+ */
+<
+T
+extends
+Enum
+<
+?
+>
+>
+CtEnum
+<
+T
+>
+createEnum
+(
+)
+;

@@ -1,0 +1,20 @@
+/** 
+ * Creates a new operator assignement (like +=).
+ */
+<
+T
+,
+A
+extends
+T
+>
+CtOperatorAssignment
+<
+T
+,
+A
+>
+createOperatorAssignment
+(
+)
+;

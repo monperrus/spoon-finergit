@@ -1,0 +1,14 @@
+/** 
+ * Creates an invocation expression.
+ */
+<
+T
+>
+CtInvocation
+<
+T
+>
+createInvocation
+(
+)
+;

@@ -1,0 +1,14 @@
+/** 
+ * Creates an <code>assert</code> statement.
+ */
+<
+T
+>
+CtAssert
+<
+T
+>
+createAssert
+(
+)
+;

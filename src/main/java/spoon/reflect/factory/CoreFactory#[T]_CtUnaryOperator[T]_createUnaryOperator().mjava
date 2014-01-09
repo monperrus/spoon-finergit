@@ -1,0 +1,14 @@
+/** 
+ * Creates a unary operator expression.
+ */
+<
+T
+>
+CtUnaryOperator
+<
+T
+>
+createUnaryOperator
+(
+)
+;

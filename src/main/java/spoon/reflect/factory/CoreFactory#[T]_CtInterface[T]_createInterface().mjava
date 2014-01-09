@@ -1,0 +1,14 @@
+/** 
+ * Creates an interface.
+ */
+<
+T
+>
+CtInterface
+<
+T
+>
+createInterface
+(
+)
+;

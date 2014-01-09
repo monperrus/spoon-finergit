@@ -1,0 +1,14 @@
+/** 
+ * Creates a <code>switch</code> statement.
+ */
+<
+S
+>
+CtSwitch
+<
+S
+>
+createSwitch
+(
+)
+;

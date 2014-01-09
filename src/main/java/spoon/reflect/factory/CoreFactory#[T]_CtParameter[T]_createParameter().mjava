@@ -1,0 +1,14 @@
+/** 
+ * Creates a parameter.
+ */
+<
+T
+>
+CtParameter
+<
+T
+>
+createParameter
+(
+)
+;

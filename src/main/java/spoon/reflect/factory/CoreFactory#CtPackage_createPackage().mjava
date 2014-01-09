@@ -1,0 +1,8 @@
+/** 
+ * Creates a package.
+ */
+CtPackage
+createPackage
+(
+)
+;

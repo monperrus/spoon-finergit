@@ -1,0 +1,14 @@
+/** 
+ * Creates an access expression to super.
+ */
+<
+T
+>
+CtSuperAccess
+<
+T
+>
+createSuperAccess
+(
+)
+;

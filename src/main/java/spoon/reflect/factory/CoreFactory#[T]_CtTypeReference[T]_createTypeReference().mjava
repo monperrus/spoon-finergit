@@ -1,0 +1,14 @@
+/** 
+ * Creates a type reference.
+ */
+<
+T
+>
+CtTypeReference
+<
+T
+>
+createTypeReference
+(
+)
+;

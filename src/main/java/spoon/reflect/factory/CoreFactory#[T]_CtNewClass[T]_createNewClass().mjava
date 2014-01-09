@@ -1,0 +1,14 @@
+/** 
+ * Creates a new anonymous class expression.
+ */
+<
+T
+>
+CtNewClass
+<
+T
+>
+createNewClass
+(
+)
+;

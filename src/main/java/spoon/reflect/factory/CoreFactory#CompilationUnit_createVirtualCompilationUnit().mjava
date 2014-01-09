@@ -1,0 +1,8 @@
+/** 
+ * Creates a virtual compilation unit.
+ */
+CompilationUnit
+createVirtualCompilationUnit
+(
+)
+;

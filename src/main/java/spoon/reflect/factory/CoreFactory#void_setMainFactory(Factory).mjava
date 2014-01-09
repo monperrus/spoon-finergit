@@ -1,0 +1,10 @@
+/** 
+ * Sets the main factory of that core factory.
+ */
+void
+setMainFactory
+(
+Factory
+mainFactory
+)
+;
