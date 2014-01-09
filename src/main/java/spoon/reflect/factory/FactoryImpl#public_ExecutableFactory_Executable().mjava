@@ -1,0 +1,29 @@
+/** 
+ * The  {@link CtExecutable} sub-factory.
+ */
+public
+ExecutableFactory
+Executable
+(
+)
+{
+if
+(
+Executable
+==
+null
+)
+{
+Executable
+=
+new
+ExecutableFactory
+(
+this
+)
+;
+}
+return
+Executable
+;
+}

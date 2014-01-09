@@ -1,0 +1,29 @@
+/** 
+ * The evaluators sub-factory.
+ */
+public
+EvalFactory
+Eval
+(
+)
+{
+if
+(
+Eval
+==
+null
+)
+{
+Eval
+=
+new
+EvalFactory
+(
+this
+)
+;
+}
+return
+Eval
+;
+}

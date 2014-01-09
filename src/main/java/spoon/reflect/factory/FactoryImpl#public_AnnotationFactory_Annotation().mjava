@@ -1,0 +1,29 @@
+/** 
+ * The  {@link CtAnnotationType} sub-factory.
+ */
+public
+AnnotationFactory
+Annotation
+(
+)
+{
+if
+(
+Annotation
+==
+null
+)
+{
+Annotation
+=
+new
+AnnotationFactory
+(
+this
+)
+;
+}
+return
+Annotation
+;
+}

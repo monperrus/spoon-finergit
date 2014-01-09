@@ -1,0 +1,16 @@
+private
+FactoryImpl
+(
+)
+{
+if
+(
+launchingFactory
+==
+null
+)
+launchingFactory
+=
+this
+;
+}

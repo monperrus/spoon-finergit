@@ -1,0 +1,29 @@
+/** 
+ * The  {@link CtClass} sub-factory.
+ */
+public
+ClassFactory
+Class
+(
+)
+{
+if
+(
+Class
+==
+null
+)
+{
+Class
+=
+new
+ClassFactory
+(
+this
+)
+;
+}
+return
+Class
+;
+}

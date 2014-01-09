@@ -1,0 +1,23 @@
+/** 
+ * The constructor.
+ */
+public
+FactoryImpl
+(
+CoreFactory
+coreFactory
+,
+Environment
+environment
+)
+{
+this
+(
+coreFactory
+,
+environment
+,
+null
+)
+;
+}
