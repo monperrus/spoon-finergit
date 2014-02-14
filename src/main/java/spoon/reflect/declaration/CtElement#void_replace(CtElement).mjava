@@ -7,6 +7,4 @@ replace
 CtElement
 element
 )
-throws
-ParentNotInitializedException
 ;
