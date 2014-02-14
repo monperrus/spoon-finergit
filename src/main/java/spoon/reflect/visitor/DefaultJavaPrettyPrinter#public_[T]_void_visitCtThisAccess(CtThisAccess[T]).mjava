@@ -37,7 +37,7 @@ throw
 new
 RuntimeException
 (
-"unconsistent this definition"
+"inconsistent this definition"
 )
 ;
 }
