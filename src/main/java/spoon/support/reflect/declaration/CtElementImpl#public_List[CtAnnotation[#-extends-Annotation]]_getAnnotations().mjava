@@ -12,6 +12,11 @@ getAnnotations
 )
 {
 return
+Collections
+.
+unmodifiableList
+(
 annotations
+)
 ;
 }
