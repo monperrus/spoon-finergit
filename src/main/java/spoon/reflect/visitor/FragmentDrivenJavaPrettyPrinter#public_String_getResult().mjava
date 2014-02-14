@@ -1,5 +1,5 @@
 public
-StringBuffer
+String
 getResult
 (
 )
@@ -120,5 +120,9 @@ code
 }
 return
 sb
+.
+toString
+(
+)
 ;
 }

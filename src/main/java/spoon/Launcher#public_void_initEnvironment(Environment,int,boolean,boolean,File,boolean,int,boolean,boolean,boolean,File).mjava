@@ -1,6 +1,6 @@
 /** 
  * Initializes an environment with the given parameters.
- * @param environment the environment to be intialized
+ * @param environment the environment to be initialized
  * @param complianceLevel the Java source code compliance level (... 4, 5, 6, 7)
  * @param verbose tells Spoon to print out the basic traces
  * @param debug tells Spoon to print out the detailed traces

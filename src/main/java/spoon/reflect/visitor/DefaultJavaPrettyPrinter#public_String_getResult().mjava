@@ -1,10 +1,14 @@
 public
-StringBuffer
+String
 getResult
 (
 )
 {
 return
 sbf
+.
+toString
+(
+)
 ;
 }

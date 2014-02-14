@@ -25,4 +25,10 @@ createJavaFile
 type
 )
 ;
+printer
+.
+reset
+(
+)
+;
 }
