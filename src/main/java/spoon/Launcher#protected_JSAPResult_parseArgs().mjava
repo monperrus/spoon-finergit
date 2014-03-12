@@ -113,6 +113,9 @@ err
 .
 println
 (
+getVersionMessage
+(
+)
 )
 ;
 System

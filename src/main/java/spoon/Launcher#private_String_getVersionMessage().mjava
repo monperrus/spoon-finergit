@@ -1,0 +1,22 @@
+private
+String
+getVersionMessage
+(
+)
+{
+return
+"Spoon version "
++
+ResourceBundle
+.
+getBundle
+(
+"spoon"
+)
+.
+getString
+(
+"application.version"
+)
+;
+}
