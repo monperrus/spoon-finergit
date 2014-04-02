@@ -1,0 +1,16 @@
+public
+void
+run
+(
+)
+{
+int
+a
+=
+this
+.
+data
+.
+length
+;
+}
