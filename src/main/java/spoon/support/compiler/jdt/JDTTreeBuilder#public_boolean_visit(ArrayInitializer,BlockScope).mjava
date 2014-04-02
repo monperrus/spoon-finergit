@@ -26,13 +26,6 @@ createNewArray
 (
 )
 ;
-array
-.
-setInitializer
-(
-true
-)
-;
 context
 .
 enter

@@ -28,13 +28,6 @@ currentTopLevel
 instanceof
 CtAnnotationType
 )
-&&
-!
-newArray
-.
-isInitializer
-(
-)
 )
 {
 CtTypeReference

@@ -273,9 +273,9 @@ references
 .
 getTypeReference
 (
-qualifiedNameReference
+b
 .
-resolvedType
+type
 )
 )
 ;
