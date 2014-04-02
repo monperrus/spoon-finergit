@@ -108,6 +108,12 @@ jdtCatch
 type
 instanceof
 SingleTypeReference
+||
+jdtCatch
+.
+type
+instanceof
+QualifiedTypeReference
 )
 {
 CtTypeReference
@@ -159,6 +165,7 @@ jdtCatch
 )
 ;
 }
+else
 if
 (
 jdtCatch
@@ -235,6 +242,16 @@ jdtCatch
 )
 ;
 }
+}
+else
+{
+throw
+new
+RuntimeException
+(
+"I don't know how to do this"
+)
+;
 }
 }
 }
