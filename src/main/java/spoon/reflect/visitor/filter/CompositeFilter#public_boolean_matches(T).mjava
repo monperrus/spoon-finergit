@@ -31,10 +31,10 @@ filters
 if
 (
 !
-f
-.
-matches
+hasMatch
 (
+f
+,
 element
 )
 )
@@ -61,10 +61,10 @@ filters
 {
 if
 (
-f
-.
-matches
+hasMatch
 (
+f
+,
 element
 )
 )
