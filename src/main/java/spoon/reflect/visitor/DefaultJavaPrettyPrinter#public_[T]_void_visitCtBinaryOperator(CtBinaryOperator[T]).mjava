@@ -20,6 +20,12 @@ operator
 boolean
 paren
 =
+false
+;
+try
+{
+paren
+=
 (
 operator
 .
@@ -40,6 +46,14 @@ instanceof
 CtUnaryOperator
 )
 ;
+}
+catch
+(
+ParentNotInitializedException
+ex
+)
+{
+}
 if
 (
 paren

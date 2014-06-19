@@ -28,6 +28,8 @@ return
 true
 ;
 }
+try
+{
 if
 (
 (
@@ -107,6 +109,14 @@ instanceof
 CtConditional
 )
 ;
+}
+}
+catch
+(
+ParentNotInitializedException
+ex
+)
+{
 }
 return
 false

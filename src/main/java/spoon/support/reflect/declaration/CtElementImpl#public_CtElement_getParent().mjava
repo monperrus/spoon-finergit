@@ -13,6 +13,11 @@ parent
 null
 )
 {
+String
+exceptionMsg
+=
+""
+;
 if
 (
 this
@@ -20,60 +25,10 @@ instanceof
 CtNamedElement
 )
 {
-logger
-.
-error
+exceptionMsg
+=
 (
-"parent not initilialized for "
-+
-this
-.
-getClass
-(
-)
-+
-" ("
-+
-(
-(
-CtNamedElement
-)
-this
-)
-.
-getSimpleName
-(
-)
-+
-")"
-+
-(
-getPosition
-(
-)
-!=
-null
-?
-" "
-+
-getPosition
-(
-)
-:
-" (?)"
-)
-,
-new
-Exception
-(
-)
-)
-;
-throw
-new
-ParentNotInitializedException
-(
-"parent not initilialized for "
+"parent not initialized for "
 +
 (
 (
@@ -106,45 +61,10 @@ getPosition
 }
 else
 {
-logger
-.
-error
+exceptionMsg
+=
 (
-"parent not initilialized for "
-+
-this
-.
-getClass
-(
-)
-+
-(
-getPosition
-(
-)
-!=
-null
-?
-" "
-+
-getPosition
-(
-)
-:
-" (?)"
-)
-,
-new
-Exception
-(
-)
-)
-;
-throw
-new
-ParentNotInitializedException
-(
-"parent not initilialized for "
+"parent not initialized for "
 +
 this
 .
@@ -170,6 +90,13 @@ getPosition
 )
 ;
 }
+throw
+new
+ParentNotInitializedException
+(
+exceptionMsg
+)
+;
 }
 if
 (
