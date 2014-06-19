@@ -6,7 +6,9 @@ getSimpleName
 )
 {
 return
-componentType
+Array
+.
+class
 .
 getSimpleName
 (
