@@ -85,11 +85,7 @@ annotationType
 ;
 element
 .
-getAnnotations
-(
-)
-.
-add
+addAnnotation
 (
 annotation
 )
