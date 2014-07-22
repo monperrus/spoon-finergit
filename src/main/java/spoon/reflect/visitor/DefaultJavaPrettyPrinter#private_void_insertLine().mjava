@@ -54,12 +54,7 @@ i
 +
 1
 ,
-System
-.
-getProperty
-(
-"line.separator"
-)
+LINE_SEPARATOR
 )
 ;
 line

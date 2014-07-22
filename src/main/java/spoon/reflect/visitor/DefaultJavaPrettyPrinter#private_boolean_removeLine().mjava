@@ -7,12 +7,7 @@ removeLine
 String
 ls
 =
-System
-.
-getProperty
-(
-"line.separator"
-)
+LINE_SEPARATOR
 ;
 int
 i

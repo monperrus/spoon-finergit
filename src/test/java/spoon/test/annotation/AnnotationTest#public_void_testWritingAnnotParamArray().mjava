@@ -22,7 +22,11 @@ build
 ;
 assertEquals
 (
-"@java.lang.SuppressWarnings(value = { \"unused\" , \"rawtypes\" })\n"
+"@java.lang.SuppressWarnings(value = { \"unused\" , \"rawtypes\" })"
++
+DefaultJavaPrettyPrinter
+.
+LINE_SEPARATOR
 ,
 type
 .
