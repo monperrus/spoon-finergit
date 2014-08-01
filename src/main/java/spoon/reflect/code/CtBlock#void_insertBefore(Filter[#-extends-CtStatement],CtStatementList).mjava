@@ -1,0 +1,17 @@
+/** 
+ * Inserts the given statement list before a set of insertion points given by a filter.
+ */
+void
+insertBefore
+(
+Filter
+<
+?
+CtStatement
+>
+insertionPoints
+,
+CtStatementList
+statements
+)
+;

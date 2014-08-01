@@ -1,0 +1,12 @@
+/** 
+ * Inserts a statement list before the current statement.
+ */
+void
+insertAfter
+(
+CtStatementList
+statements
+)
+throws
+ParentNotInitializedException
+;

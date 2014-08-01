@@ -1,0 +1,17 @@
+/** 
+ * Inserts the given statement list after a set of insertion points given by a filter.
+ */
+void
+insertAfter
+(
+Filter
+<
+?
+CtStatement
+>
+insertionPoints
+,
+CtStatementList
+statements
+)
+;

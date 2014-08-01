@@ -1,5 +1,5 @@
 /** 
- * Adds a statement.
+ * Adds a statement at the end of the list.
  */
 void
 addStatement

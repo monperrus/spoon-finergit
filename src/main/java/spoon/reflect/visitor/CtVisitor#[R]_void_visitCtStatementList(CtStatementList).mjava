@@ -1,0 +1,13 @@
+/** 
+ * Visits a statement list.
+ */
+<
+R
+>
+void
+visitCtStatementList
+(
+CtStatementList
+statements
+)
+;

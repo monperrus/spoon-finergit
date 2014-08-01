@@ -13,9 +13,6 @@ throws
 ParentNotInitializedException
 {
 CtStatementList
-<
-?
->
 sts
 =
 target

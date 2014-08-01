@@ -1,0 +1,17 @@
+public
+<
+R
+>
+void
+visitCtStatementList
+(
+CtStatementList
+statements
+)
+{
+scanCtCodeElement
+(
+statements
+)
+;
+}
