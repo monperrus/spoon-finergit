@@ -1,0 +1,30 @@
+/** 
+ * Compare the two  {@link Comparable Comparable} arguments.This method is equivalent to: <pre>((Comparable)obj1).compareTo(obj2)</pre>
+ * @param obj1  the first object to compare
+ * @param obj2  the second object to compare
+ * @return negative if obj1 is less, positive if greater, zero if equal
+ * @throws NullPointerException if <i>obj1</i> is <code>null</code>,or when <code>((Comparable)obj1).compareTo(obj2)</code> does
+ * @throws ClassCastException if <i>obj1</i> is not a <code>Comparable</code>,or when <code>((Comparable)obj1).compareTo(obj2)</code> does
+ */
+public
+int
+compare
+(
+final
+E
+obj1
+,
+final
+E
+obj2
+)
+{
+return
+obj1
+.
+compareTo
+(
+obj2
+)
+;
+}

@@ -1,0 +1,41 @@
+/** 
+ * Returns  {@code true} iff <i>that</i> Object is is a {@link Comparator Comparator}whose ordering is known to be equivalent to mine. <p> This implementation returns  {@code true} iff<code><i>object</i>. {@link Object#getClass() getClass()}</code> equals <code>this.getClass()</code>. Subclasses may want to override this behavior to remain consistent with the  {@link Comparator#equals(Object)} contract.
+ * @param object  the object to compare with
+ * @return {@code true} if equal
+ * @since 3.0
+ */
+@Override
+public
+boolean
+equals
+(
+final
+Object
+object
+)
+{
+return
+this
+==
+object
+||
+null
+!=
+object
+&&
+object
+.
+getClass
+(
+)
+.
+equals
+(
+this
+.
+getClass
+(
+)
+)
+;
+}

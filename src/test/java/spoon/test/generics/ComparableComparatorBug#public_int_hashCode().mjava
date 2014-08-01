@@ -1,0 +1,20 @@
+/** 
+ * Implement a hash code for this comparator that is consistent with {@link #equals(Object) equals}.
+ * @return a hash code for this comparator.
+ * @since 3.0
+ */
+@Override
+public
+int
+hashCode
+(
+)
+{
+return
+"ComparableComparator"
+.
+hashCode
+(
+)
+;
+}

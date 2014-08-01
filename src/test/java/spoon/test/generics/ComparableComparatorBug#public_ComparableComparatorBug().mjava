@@ -1,0 +1,13 @@
+/** 
+ * Constructor whose use should be avoided. <p> Please use the  {@link #comparableComparator()} method whenever possible.
+ */
+public
+ComparableComparatorBug
+(
+)
+{
+super
+(
+)
+;
+}

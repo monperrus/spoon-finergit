@@ -1,0 +1,30 @@
+/** 
+ * Gets the singleton instance of a ComparableComparator. <p> Developers are encouraged to use the comparator returned from this method instead of constructing a new instance to reduce allocation and GC overhead when multiple comparable comparators may be used in the same VM.
+ * @param < E >  the element type
+ * @return the singleton ComparableComparator
+ * @since 4.0
+ */
+@SuppressWarnings("unchecked")
+public
+static
+<
+E
+extends
+Comparable
+<
+?
+E
+>
+>
+ComparableComparatorBug
+<
+E
+>
+comparableComparator
+(
+)
+{
+return
+INSTANCE
+;
+}
