@@ -28,12 +28,7 @@ sbf
 .
 append
 (
-System
-.
-getProperty
-(
-"line.separator"
-)
+LINE_SEPARATOR
 )
 ;
 line
