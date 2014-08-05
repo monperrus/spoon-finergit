@@ -1,0 +1,13 @@
+public
+SpoonException
+(
+Throwable
+e
+)
+{
+super
+(
+e
+)
+;
+}

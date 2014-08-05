@@ -1,0 +1,13 @@
+public
+SpoonException
+(
+String
+msg
+)
+{
+super
+(
+msg
+)
+;
+}
