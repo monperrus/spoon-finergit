@@ -1,5 +1,5 @@
 /** 
- * Runs Spoon using the given compiler, with the given run options. A Spoon run will perform the following tasks: <ol> <li>Pre-compilation (optional): {@link SpoonCompiler#compileInputSources()}.</li> <li>Source model building in the given compiler: {@link SpoonCompiler#build()}.</li> <li>Template model building in the given factory (if any template source is given):  {@link SpoonCompiler#build()}.</li> <li>Model processing with the list of given processors if any: {@link SpoonCompiler#process(List)}.</li> <li>Processed Source code printing and generation (can be disabled with {@link OutputType#NO_OUTPUT}): {@link SpoonCompiler#generateProcessedSourceFiles(OutputType)}.</li> <li>Processed source code compilation (optional): {@link SpoonCompiler#compile()}.</li> <ol>
+ * Runs Spoon using the given compiler, with the given run options. A Spoon run will perform the following tasks: <ol> <li>Pre-compilation (optional): {@link SpoonCompiler#compileInputSources()}.</li> <li>Source model building in the given compiler: {@link SpoonCompiler#build()}.</li> <li>Template model building in the given factory (if any template source is given):  {@link SpoonCompiler#build()}.</li> <li>Model processing with the list of given processors if any: {@link SpoonCompiler#process(List)}.</li> <li>Processed Source code printing and generation (can be disabled with {@link OutputType#NO_OUTPUT}): {@link SpoonCompiler#generateProcessedSourceFiles(OutputType)}.</li> <li>Processed source code compilation (optional): {@link SpoonCompiler#compile()}.</li> </ol>
  * @param compiler the compiler to be used, with a properly initialized factory and environment
  * @param encoding the encoding to be used (null to use the default system encoding)
  * @param precompile precompile the source code before processing to make sure that the input source classes will be available in the classpath
@@ -8,7 +8,7 @@
  * @param processorTypes the list of processors to be applied to the built model
  * @param compile compile the source code to bytecode once generated
  * @param destinationDirectory the destination directory of the compiled bytecode
- * @param buildOnlyOutdatedFiles build and compile the files that has been modified since the last build/compilation (requires <code>!nooutput</code> and <code>compile</code> with a correctly set <code>detinatioDirectory</code>)
+ * @param buildOnlyOutdatedFiles build and compile the files that has been modified since the last build/compilation (requires  {@code !nooutput} and{@code compile} with a correctly set{@code destinationDirectory})
  * @param sourceClasspath the classpath to build and compile the input sources, given as a string
  * @param templateClasspath the classpath to build the template sources, given as a string
  * @param inputSources a list of resources containing the input sources

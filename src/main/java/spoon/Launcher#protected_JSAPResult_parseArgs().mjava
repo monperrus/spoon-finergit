@@ -1,6 +1,5 @@
 /** 
  * Parses the arguments given by the command line.
- * @param args the command-line arguments as a string array
  * @return the JSAP-presented arguments
  * @throws JSAPException when an error occurs in the argument parsing
  */
