@@ -1,6 +1,6 @@
 /** 
  * Adds a processor.
- * @see #getProcessors().
+ * @see #getProcessors()
  */
 boolean
 addProcessor

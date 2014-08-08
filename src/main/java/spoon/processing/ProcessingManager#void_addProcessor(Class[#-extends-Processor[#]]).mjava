@@ -1,6 +1,6 @@
 /** 
  * Adds a processor by instantiating its type (a class that must define an empty constructor).
- * @see #getProcessors().
+ * @see #getProcessors()
  */
 void
 addProcessor

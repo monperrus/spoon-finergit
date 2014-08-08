@@ -1,6 +1,6 @@
 /** 
  * Gets the compilation unit map.
- * @return a map (path -> {@link CompilationUnit})
+ * @return a map (path -&gt; {@link CompilationUnit})
  */
 public
 Map

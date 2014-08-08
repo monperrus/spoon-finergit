@@ -11,7 +11,6 @@
  * @param useSourceCodeFragments tells if Spoon should be in source code fragments mode
  * @param preserveLineNumbers tells if Spoon should try to preserve the original line numbers when generating the source code (may lead to human-unfriendly formatting)
  * @param sourceOutputDir sets the Spoon output directory where to generate the printed source code
- * @return a properly initialized environment
  */
 public
 void

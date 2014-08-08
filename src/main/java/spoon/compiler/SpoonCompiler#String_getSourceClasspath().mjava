@@ -2,7 +2,6 @@
  * Gets the classpath that is used to build/compile the input sources.
  * @see #compileInputSources()
  * @see #build()
- * @see #build(List)
  * @see #compile()
  */
 String
