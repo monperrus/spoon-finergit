@@ -1,0 +1,13 @@
+public
+InvalidClassPathException
+(
+String
+msg
+)
+{
+super
+(
+msg
+)
+;
+}
