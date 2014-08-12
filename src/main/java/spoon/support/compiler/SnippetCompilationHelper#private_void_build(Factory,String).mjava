@@ -38,7 +38,7 @@ e
 {
 throw
 new
-RuntimeException
+ModelBuildingException
 (
 "snippet compilation error while compiling: "
 +
