@@ -1,0 +1,13 @@
+public
+ModelBuildingException
+(
+String
+msg
+)
+{
+super
+(
+msg
+)
+;
+}
