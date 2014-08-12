@@ -1,0 +1,8 @@
+/** 
+ * Delete the Processors of this ProcessingManager. After the invocation of this method,  {@link #getProcessors()} returns an empty list.
+ */
+void
+clear
+(
+)
+;
