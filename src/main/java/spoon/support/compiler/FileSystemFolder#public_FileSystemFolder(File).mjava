@@ -4,8 +4,6 @@ FileSystemFolder
 File
 file
 )
-throws
-IOException
 {
 super
 (
@@ -22,9 +20,11 @@ isDirectory
 )
 throw
 new
-IOException
+SpoonException
 (
-"Not a directory"
+"Not a directory "
++
+file
 )
 ;
 this
