@@ -1,6 +1,6 @@
 /** 
  * Within a given factory, returns all the program elements that match the filter.
- * @param < E > the type of the seeked program elements
+ * @param < E > the type of the sought program elements
  * @param factory the factory that contains the elements where to recursive search on
  * @param filter the filter which defines the matching criteria
  */

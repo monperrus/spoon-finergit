@@ -1,5 +1,5 @@
 /** 
- * The manual meta-model processing cannot be overriden (use {@link AbstractManualProcessor}) to do so.
+ * The manual meta-model processing cannot be overridden (use {@link AbstractManualProcessor}) to do so.
  */
 public
 final

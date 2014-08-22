@@ -1,5 +1,5 @@
 /** 
- * Inserts the given statement list at the begining of the block.
+ * Inserts the given statement list at the beginning of the block.
  */
 void
 insertBegin

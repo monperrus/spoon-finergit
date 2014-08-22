@@ -1,5 +1,5 @@
 /** 
- * Returns the corresponding non-primitive type for a primitive type (the same type otherwhise).
+ * Returns the corresponding non-primitive type for a primitive type (the same type otherwise).
  */
 CtTypeReference
 <

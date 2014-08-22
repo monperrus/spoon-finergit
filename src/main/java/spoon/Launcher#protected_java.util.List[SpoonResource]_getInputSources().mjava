@@ -1,5 +1,5 @@
 /** 
- * Gets the list of input sources as files. This method can be overriden to customize this list.
+ * Gets the list of input sources as files. This method can be overridden to customize this list.
  */
 protected
 java

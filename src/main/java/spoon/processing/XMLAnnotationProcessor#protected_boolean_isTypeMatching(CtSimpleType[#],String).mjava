@@ -1,6 +1,6 @@
 /** 
- * Override this method to create other types of matchings than the defaut one (java.util.regexp).
- * @param type the canditate type
+ * Override this method to create other types of matchings than the default one (java.util.regexp).
+ * @param type the candidate type
  * @param typeExpression and expression to match the type against.
  * @return true if the type matches the expression
  * @see CtElement#getSignature()

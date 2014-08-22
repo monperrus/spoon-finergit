@@ -1,6 +1,6 @@
 /** 
- * Override this method to create other types of matchings than the defaut one (java.util.regexp).
- * @param executable the canditate executable
+ * Override this method to create other types of matchings than the default one (java.util.regexp).
+ * @param executable the candidate executable
  * @param executableExpression and expression to match the executable against.
  * @return true if the executable matches the expression
  * @see CtElement#getSignature()

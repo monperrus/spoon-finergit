@@ -1,6 +1,6 @@
 /** 
  * Returns all the program elements that match the filter.
- * @param < E > the type of the seeked program elements
+ * @param < E > the type of the sought program elements
  * @param rootElement the element to start the recursive search on
  * @param filter the filter which defines the matching criteria
  */

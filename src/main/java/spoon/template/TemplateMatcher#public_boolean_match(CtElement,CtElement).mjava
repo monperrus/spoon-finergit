@@ -1,5 +1,5 @@
 /** 
- * Matches a target program sub-tree against a template. Once this method has been called,  {@link #getMatches()} will give the mathing parts ifany.
+ * Matches a target program sub-tree against a template. Once this method has been called,  {@link #getMatches()} will give the matching parts ifany.
  * @param targetRoot the target to be tested for match
  * @param templateRoot the template to match against
  * @return true if matches

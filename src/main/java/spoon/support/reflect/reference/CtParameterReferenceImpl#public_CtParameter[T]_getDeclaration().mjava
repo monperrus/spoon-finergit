@@ -88,7 +88,7 @@ throw
 new
 IllegalStateException
 (
-"Could not found declaration for parameter "
+"Cannot found declaration for parameter "
 +
 getSimpleName
 (

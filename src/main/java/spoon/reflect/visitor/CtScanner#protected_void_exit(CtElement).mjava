@@ -1,5 +1,5 @@
 /** 
- * This method is upcalled by the scanner when exiting a scanned element. To be overriden to implement specific scanners.
+ * This method is upcalled by the scanner when exiting a scanned element. To be overridden to implement specific scanners.
  */
 protected
 void

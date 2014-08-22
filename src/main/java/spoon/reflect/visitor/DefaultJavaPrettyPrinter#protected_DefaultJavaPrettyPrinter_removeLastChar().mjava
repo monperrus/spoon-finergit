@@ -1,5 +1,5 @@
 /** 
- * Removes the last non-white charater.
+ * Removes the last non-white character.
  */
 protected
 DefaultJavaPrettyPrinter
