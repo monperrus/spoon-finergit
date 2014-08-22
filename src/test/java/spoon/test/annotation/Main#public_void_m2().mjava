@@ -1,0 +1,8 @@
+@AnnotParamTypes(integer=INTEGER,integers={INTEGER},string=STRING,strings={STRING1,STRING2},clazz=Integer.class,classes={Integer.class,String.class},b=BOOLEAN,byt=BYTE,c=CHAR,s=SHORT,l=LONG,f=FLOAT,d=DOUBLE,e=AnnotParamTypeEnum.G)
+public
+void
+m2
+(
+)
+{
+}
