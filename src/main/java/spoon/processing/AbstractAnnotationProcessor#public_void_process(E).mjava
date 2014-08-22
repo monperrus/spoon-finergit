@@ -91,11 +91,7 @@ annotation
 {
 element
 .
-getAnnotations
-(
-)
-.
-remove
+removeAnnotation
 (
 annotation
 )
