@@ -28,6 +28,9 @@ createCompiler
 for
 (
 Class
+<
+?
+>
 classToBuild
 :
 classesToBuild

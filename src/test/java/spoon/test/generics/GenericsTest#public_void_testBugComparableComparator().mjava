@@ -32,6 +32,9 @@ getSimpleName
 )
 ;
 CtField
+<
+?
+>
 field
 =
 type
@@ -84,6 +87,9 @@ assertEquals
 (
 (
 CtNewClass
+<
+?
+>
 )
 field
 .

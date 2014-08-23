@@ -96,10 +96,16 @@ size
 )
 ;
 List
+<
+CtStatement
+>
 l
 =
 new
 ArrayList
+<
+CtStatement
+>
 (
 )
 ;

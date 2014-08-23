@@ -58,6 +58,9 @@ assertEquals
 (
 (
 CtArrayTypeReference
+<
+?
+>
 )
 type
 .
@@ -137,6 +140,9 @@ assertEquals
 (
 (
 CtArrayTypeReference
+<
+?
+>
 )
 x
 .
@@ -159,6 +165,9 @@ assertTrue
 (
 (
 CtArrayTypeReference
+<
+?
+>
 )
 x
 .

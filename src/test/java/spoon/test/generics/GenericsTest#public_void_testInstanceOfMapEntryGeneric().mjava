@@ -21,6 +21,9 @@ build
 )
 ;
 CtMethod
+<
+?
+>
 meth
 =
 type
@@ -43,10 +46,16 @@ instOf
 =
 (
 CtBinaryOperator
+<
+?
+>
 )
 (
 (
 CtLocalVariable
+<
+?
+>
 )
 meth
 .

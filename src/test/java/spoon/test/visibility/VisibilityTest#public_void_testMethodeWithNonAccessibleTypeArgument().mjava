@@ -43,6 +43,9 @@ forName
 )
 ;
 CtClass
+<
+?
+>
 type
 =
 f
@@ -76,11 +79,11 @@ getSimpleName
 )
 ;
 CtMethod
+<
+?
+>
 m
 =
-(
-CtMethod
-)
 type
 .
 getMethodsByName

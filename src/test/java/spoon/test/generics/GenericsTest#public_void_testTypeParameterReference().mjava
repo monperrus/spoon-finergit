@@ -26,12 +26,6 @@ CtClass
 >
 classThatDefinesANewTypeArgument
 =
-(
-CtClass
-<
-?
->
-)
 classThatBindsAGenericType
 .
 getPackage
@@ -42,6 +36,12 @@ getElements
 (
 new
 NameFilter
+<
+CtClass
+<
+?
+>
+>
 (
 "ClassThatDefinesANewTypeArgument"
 )
@@ -53,6 +53,9 @@ get
 )
 ;
 CtTypeReference
+<
+?
+>
 tr1
 =
 classThatBindsAGenericType
@@ -62,6 +65,9 @@ getSuperclass
 )
 ;
 CtTypeReference
+<
+?
+>
 trExtends
 =
 tr1
@@ -76,6 +82,9 @@ get
 )
 ;
 CtTypeReference
+<
+?
+>
 tr2
 =
 classThatDefinesANewTypeArgument
@@ -90,6 +99,9 @@ get
 )
 ;
 CtTypeReference
+<
+?
+>
 tr3
 =
 classThatDefinesANewTypeArgument

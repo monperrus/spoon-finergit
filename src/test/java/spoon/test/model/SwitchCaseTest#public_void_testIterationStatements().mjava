@@ -79,6 +79,9 @@ toArray
 ]
 ;
 CtSwitch
+<
+?
+>
 sw
 =
 foo
@@ -89,6 +92,9 @@ new
 TypeFilter
 <
 CtSwitch
+<
+?
+>
 >
 (
 CtSwitch
@@ -125,6 +131,9 @@ c
 =
 (
 CtCase
+<
+?
+>
 )
 sw
 .
@@ -144,6 +153,9 @@ assertEquals
 (
 (
 CtLiteral
+<
+?
+>
 )
 c
 .
@@ -173,10 +185,16 @@ size
 )
 ;
 List
+<
+CtStatement
+>
 l
 =
 new
 ArrayList
+<
+CtStatement
+>
 (
 )
 ;
