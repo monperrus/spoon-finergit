@@ -90,11 +90,7 @@ getReference
 }
 target
 .
-getMethods
-(
-)
-.
-add
+addMethod
 (
 newMethod
 )
