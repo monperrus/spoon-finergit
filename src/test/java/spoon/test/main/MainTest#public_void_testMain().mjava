@@ -57,9 +57,9 @@ classpath
 .
 append
 (
-JDTBasedSpoonCompiler
+File
 .
-CLASSPATH_ELEMENT_SEPARATOR
+pathSeparator
 )
 ;
 }

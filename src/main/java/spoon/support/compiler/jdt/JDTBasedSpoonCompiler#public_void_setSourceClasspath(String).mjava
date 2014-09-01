@@ -16,7 +16,9 @@ classpath
 .
 split
 (
-CLASSPATH_ELEMENT_SEPARATOR
+File
+.
+pathSeparator
 )
 )
 {
