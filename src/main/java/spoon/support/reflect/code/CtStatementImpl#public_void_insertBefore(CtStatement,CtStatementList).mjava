@@ -584,7 +584,7 @@ throw
 new
 RuntimeException
 (
-"can not add a statement that is not in a block"
+"cannot add a statement that is not in a block"
 )
 ;
 }

@@ -1,6 +1,6 @@
 /** 
  * A callback method upcalled by the meta-model scanner to perform a dedicated job on the currently scanned element. The way Spoon upcalls this method depends on the processed element types ( {@link #getProcessedElementTypes()}), the traversal strategy ( {@link #getTraversalStrategy()}), and the used processing manager ( {@link Environment#getManager()}. Also, this method is upcalled only if the method  {@link #isToBeProcessed(CtElement)} returns true for a givenscanned element. In order to manually scan the meta-model, one can define the  {@link #process()} method instead.
- * @param element the element that is currenly being scanned
+ * @param element the element that is currently being scanned
  */
 void
 process

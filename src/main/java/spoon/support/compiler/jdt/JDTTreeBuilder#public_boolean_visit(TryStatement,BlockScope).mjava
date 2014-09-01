@@ -133,9 +133,6 @@ type
 resolvedType
 )
 ;
-CtCatch
-c
-=
 createCtCatch
 (
 jdtCatch
@@ -210,9 +207,6 @@ type
 resolvedType
 )
 ;
-CtCatch
-c
-=
 createCtCatch
 (
 jdtCatch

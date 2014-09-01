@@ -1,5 +1,5 @@
 /** 
- * Creates a filter with the type of the potentitally matching elements.
+ * Creates a filter with the type of the potentially matching elements.
  */
 @SuppressWarnings("unchecked")
 public

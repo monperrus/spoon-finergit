@@ -1,5 +1,5 @@
 /** 
- * Creates a new operator assignement (like +=).
+ * Creates a new operator assignment (like +=).
  */
 <
 T

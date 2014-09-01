@@ -1,5 +1,5 @@
 /** 
- * Finds all target program sub-trees that correspond to a template. Once this method has been called,  {@link #getFinds()} will give the mathingCtElements if any.
+ * Finds all target program sub-trees that correspond to a template. Once this method has been called,  {@link #getFinds()} will give the matchingCtElements if any.
  * @param targetRoot the target to be tested for match
  * @param templateRoot the template to match against
  * @return true if there is one or more matches

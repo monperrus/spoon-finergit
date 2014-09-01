@@ -1,5 +1,5 @@
 /** 
- * Ckecks if a string is a valid Java identifier and not a Java keyword.
+ * Checks if a string is a valid Java identifier and not a Java keyword.
  * @param string the string to be tested
  */
 public

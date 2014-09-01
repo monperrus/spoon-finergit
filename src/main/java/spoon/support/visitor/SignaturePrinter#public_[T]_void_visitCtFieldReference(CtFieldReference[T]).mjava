@@ -74,7 +74,7 @@ err
 .
 println
 (
-"Null Pointer Exception in SingnaturePrinter.visitCtFieldReference()"
+"Null Pointer Exception in SignaturePrinter.visitCtFieldReference()"
 )
 ;
 }

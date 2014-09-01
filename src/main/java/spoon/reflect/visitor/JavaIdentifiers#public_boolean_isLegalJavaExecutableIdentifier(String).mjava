@@ -1,5 +1,5 @@
 /** 
- * Ckecks if a string is a valid Java package identifier.
+ * Checks if a string is a valid Java package identifier.
  * @param string the string to be tested
  */
 public

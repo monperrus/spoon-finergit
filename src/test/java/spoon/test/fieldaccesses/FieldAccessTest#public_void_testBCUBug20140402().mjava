@@ -32,6 +32,9 @@ getSimpleName
 )
 ;
 CtLocalVariable
+<
+?
+>
 var
 =
 type
@@ -42,6 +45,9 @@ new
 TypeFilter
 <
 CtLocalVariable
+<
+?
+>
 >
 (
 CtLocalVariable
@@ -56,10 +62,16 @@ get
 )
 ;
 CtFieldAccess
+<
+?
+>
 expr
 =
 (
 CtFieldAccess
+<
+?
+>
 )
 var
 .
@@ -98,6 +110,9 @@ getSimpleName
 )
 ;
 CtFieldAccess
+<
+?
+>
 fa
 =
 expr
@@ -108,6 +123,9 @@ new
 TypeFilter
 <
 CtFieldAccess
+<
+?
+>
 >
 (
 CtFieldAccess
