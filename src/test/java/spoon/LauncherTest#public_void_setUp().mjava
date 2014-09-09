@@ -1,0 +1,16 @@
+public
+void
+setUp
+(
+)
+throws
+Exception
+{
+classUnderTest
+=
+new
+Launcher
+(
+)
+;
+}

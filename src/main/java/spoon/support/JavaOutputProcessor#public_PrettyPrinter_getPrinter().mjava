@@ -1,0 +1,10 @@
+public
+PrettyPrinter
+getPrinter
+(
+)
+{
+return
+printer
+;
+}
