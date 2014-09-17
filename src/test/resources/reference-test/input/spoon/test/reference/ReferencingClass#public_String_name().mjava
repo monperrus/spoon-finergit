@@ -1,10 +1,12 @@
 public
 String
-getClasspath
+name
 (
 )
 {
 return
-classpath
+delegate
+.
+name
 ;
 }

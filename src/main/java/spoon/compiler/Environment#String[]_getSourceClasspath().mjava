@@ -1,0 +1,10 @@
+/** 
+ * Returns the source class path of the Spoon model. This class path is used when the SpoonCompiler is building the model and also to find external classes, referenced from within the model. 
+ */
+String
+[
+]
+getSourceClasspath
+(
+)
+;

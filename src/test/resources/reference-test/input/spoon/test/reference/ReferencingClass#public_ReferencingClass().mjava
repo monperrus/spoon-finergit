@@ -1,0 +1,13 @@
+public
+ReferencingClass
+(
+)
+{
+delegate
+=
+new
+ReferencedClass
+(
+)
+;
+}
