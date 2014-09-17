@@ -4,6 +4,7 @@ void
 setSourceClasspath
 (
 String
+...
 classpath
 )
 {
@@ -13,13 +14,6 @@ String
 classPathElem
 :
 classpath
-.
-split
-(
-File
-.
-pathSeparator
-)
 )
 {
 File

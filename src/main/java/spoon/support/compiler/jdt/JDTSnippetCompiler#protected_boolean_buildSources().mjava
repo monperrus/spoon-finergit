@@ -113,7 +113,9 @@ args
 .
 add
 (
-sourceClasspath
+computeJdtClassPath
+(
+)
 )
 ;
 }

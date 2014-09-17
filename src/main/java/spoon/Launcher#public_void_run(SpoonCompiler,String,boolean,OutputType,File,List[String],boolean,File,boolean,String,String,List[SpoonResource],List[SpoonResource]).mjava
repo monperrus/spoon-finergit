@@ -167,6 +167,16 @@ compiler
 setSourceClasspath
 (
 sourceClasspath
+.
+split
+(
+System
+.
+getProperty
+(
+"path.separator"
+)
+)
 )
 ;
 }

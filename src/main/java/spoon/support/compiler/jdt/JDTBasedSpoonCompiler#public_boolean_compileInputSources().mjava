@@ -191,7 +191,9 @@ null
 {
 finalClassPath
 =
-sourceClasspath
+computeJdtClassPath
+(
+)
 ;
 }
 else
