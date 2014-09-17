@@ -44,7 +44,9 @@ sourceClasspath
 i
 ]
 +
-":"
+File
+.
+pathSeparator
 ;
 }
 jdtClasspath
