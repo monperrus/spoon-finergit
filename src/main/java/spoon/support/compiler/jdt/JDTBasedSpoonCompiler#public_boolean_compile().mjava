@@ -190,7 +190,9 @@ null
 ;
 if
 (
-sourceClasspath
+getSourceClasspath
+(
+)
 !=
 null
 )

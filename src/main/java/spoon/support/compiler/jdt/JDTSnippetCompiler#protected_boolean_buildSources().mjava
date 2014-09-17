@@ -97,7 +97,9 @@ add
 ;
 if
 (
-sourceClasspath
+getSourceClasspath
+(
+)
 !=
 null
 )

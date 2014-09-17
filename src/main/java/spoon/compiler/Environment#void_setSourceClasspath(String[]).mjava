@@ -1,0 +1,12 @@
+/** 
+ * Sets the source class path of the Spoon model. After the class path is set, it can be retrieved by {@link #getSourceClasspath()}.
+ */
+void
+setSourceClasspath
+(
+String
+[
+]
+sourceClasspath
+)
+;

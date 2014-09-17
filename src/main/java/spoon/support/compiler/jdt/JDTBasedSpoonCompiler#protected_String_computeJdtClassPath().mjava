@@ -9,6 +9,15 @@ jdtClasspath
 =
 ""
 ;
+String
+[
+]
+sourceClasspath
+=
+getSourceClasspath
+(
+)
+;
 for
 (
 int
