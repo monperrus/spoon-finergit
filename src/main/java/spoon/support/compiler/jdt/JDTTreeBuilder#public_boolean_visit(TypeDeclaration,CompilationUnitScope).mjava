@@ -54,6 +54,14 @@ readableName
 ;
 context
 .
+compilationunitdeclaration
+=
+scope
+.
+referenceContext
+;
+context
+.
 enter
 (
 pack
