@@ -2,6 +2,8 @@
  * Gets the classpath that is used to build the template sources. See  {@link #setSourceClasspath} for the meaning of the returned string.
  */
 String
+[
+]
 getTemplateClasspath
 (
 )

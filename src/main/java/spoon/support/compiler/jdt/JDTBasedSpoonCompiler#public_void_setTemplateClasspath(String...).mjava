@@ -4,6 +4,7 @@ void
 setTemplateClasspath
 (
 String
+...
 classpath
 )
 {
