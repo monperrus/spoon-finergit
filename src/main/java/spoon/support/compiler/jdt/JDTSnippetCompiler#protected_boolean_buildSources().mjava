@@ -11,7 +11,7 @@ if
 (
 sources
 .
-getRootJavaPaths
+getAllJavaFiles
 (
 )
 .
@@ -306,7 +306,7 @@ error
 +
 sources
 .
-getRootJavaPaths
+getAllJavaFiles
 (
 )
 )

@@ -10,7 +10,7 @@ if
 (
 templates
 .
-getRootJavaPaths
+getAllJavaFiles
 (
 )
 .
@@ -169,10 +169,13 @@ args
 .
 addAll
 (
+toStringList
+(
 templates
 .
-getRootJavaPaths
+getAllJavaFiles
 (
+)
 )
 )
 ;

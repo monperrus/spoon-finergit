@@ -10,7 +10,7 @@ if
 (
 sources
 .
-getRootJavaPaths
+getAllJavaFiles
 (
 )
 .
@@ -219,10 +219,13 @@ args
 .
 addAll
 (
+toStringList
+(
 sources
 .
-getRootJavaPaths
+getAllJavaFiles
 (
+)
 )
 )
 ;
@@ -286,7 +289,7 @@ println
 +
 sources
 .
-getRootJavaPaths
+getAllFiles
 (
 )
 )

@@ -89,6 +89,10 @@ String
 "-i"
 ,
 "src/test/resources/spoon/test/api/"
+,
+"-o"
+,
+"target/spooned-apitest"
 }
 )
 ;

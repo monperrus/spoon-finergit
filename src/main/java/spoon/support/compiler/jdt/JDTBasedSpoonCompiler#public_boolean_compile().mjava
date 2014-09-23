@@ -532,10 +532,13 @@ args
 .
 addAll
 (
+toStringList
+(
 sources
 .
-getRootJavaPaths
+getAllJavaFiles
 (
+)
 )
 )
 ;
