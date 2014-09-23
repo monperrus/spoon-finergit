@@ -1,0 +1,17 @@
+@Override
+public
+void
+addFolder
+(
+SpoonFolder
+source
+)
+{
+throw
+new
+UnsupportedOperationException
+(
+"not possible a real folder"
+)
+;
+}

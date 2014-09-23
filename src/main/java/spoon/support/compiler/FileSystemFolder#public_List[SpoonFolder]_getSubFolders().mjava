@@ -7,13 +7,12 @@ getSubFolders
 (
 )
 {
-if
-(
+List
+<
+SpoonFolder
+>
 subFolders
-==
-null
-)
-{
+;
 subFolders
 =
 new
@@ -82,7 +81,6 @@ getMessage
 e
 )
 ;
-}
 }
 }
 return

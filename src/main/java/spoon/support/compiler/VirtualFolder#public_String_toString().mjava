@@ -1,0 +1,17 @@
+@Override
+public
+String
+toString
+(
+)
+{
+return
+"<virtual folder>: "
++
+super
+.
+toString
+(
+)
+;
+}

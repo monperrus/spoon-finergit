@@ -1,0 +1,17 @@
+@Override
+public
+void
+addFolder
+(
+SpoonFolder
+o
+)
+{
+folders
+.
+add
+(
+o
+)
+;
+}
