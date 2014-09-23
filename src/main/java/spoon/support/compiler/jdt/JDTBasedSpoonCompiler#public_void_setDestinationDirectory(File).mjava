@@ -4,7 +4,7 @@ void
 setDestinationDirectory
 (
 File
-desinationDirectory
+destinationDirectory
 )
 throws
 IOException
@@ -13,6 +13,6 @@ this
 .
 destinationDirectory
 =
-desinationDirectory
+destinationDirectory
 ;
 }

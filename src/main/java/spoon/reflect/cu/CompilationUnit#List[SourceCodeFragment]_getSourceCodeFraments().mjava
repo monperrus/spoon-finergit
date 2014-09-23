@@ -1,6 +1,7 @@
 /** 
- * Gets the source code fragments for this compilation unit.
+ * Gets the source code fragments for this compilation unit. This method will be deleted in the future. use  {@link #getSourceCodeFragments()} instead.
  */
+@Deprecated
 List
 <
 SourceCodeFragment

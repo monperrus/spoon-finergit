@@ -4,15 +4,11 @@ List
 <
 SourceCodeFragment
 >
-getSourceCodeFraments
+getSourceCodeFragments
 (
 )
 {
 return
-this
-.
-getSourceCodeFragments
-(
-)
+fragments
 ;
 }

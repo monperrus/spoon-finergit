@@ -41,7 +41,7 @@ if
 (
 compilationUnit
 .
-getSourceCodeFraments
+getSourceCodeFragments
 (
 )
 !=
@@ -55,7 +55,7 @@ f
 :
 compilationUnit
 .
-getSourceCodeFraments
+getSourceCodeFragments
 (
 )
 )
