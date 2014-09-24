@@ -63,7 +63,9 @@ String
 ,
 duplicateEntry
 +
-":"
+File
+.
+pathSeparator
 +
 "./"
 +
