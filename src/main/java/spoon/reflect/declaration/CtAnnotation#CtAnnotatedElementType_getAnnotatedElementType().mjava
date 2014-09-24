@@ -1,0 +1,9 @@
+/** 
+ * Returns the type of the element which is annotated by this annotation.
+ * @return {@link spoon.reflect.declaration.CtAnnotatedElementType}
+ */
+CtAnnotatedElementType
+getAnnotatedElementType
+(
+)
+;
