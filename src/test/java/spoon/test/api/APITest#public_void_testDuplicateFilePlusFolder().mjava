@@ -30,7 +30,9 @@ String
 ,
 "src/test/resources/spoon/test/api/"
 +
-":"
+File
+.
+pathSeparator
 +
 "src/test/resources/spoon/test/api/Foo.java"
 ,
