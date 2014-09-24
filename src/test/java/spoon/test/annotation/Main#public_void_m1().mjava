@@ -1,8 +1,0 @@
-@AnnotParamTypes(integer=42,integers={42},string="Hello World!",strings={"Hello","World"},clazz=Integer.class,classes={Integer.class,String.class},b=true,byt=42,c='c',s=(short)42,l=42,f=3.14f,d=3.14159,e=AnnotParamTypeEnum.G)
-public
-void
-m1
-(
-)
-{
-}
