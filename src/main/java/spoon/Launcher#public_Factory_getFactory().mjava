@@ -1,0 +1,13 @@
+/** 
+ * returns the current factory 
+ */
+public
+Factory
+getFactory
+(
+)
+{
+return
+factory
+;
+}
