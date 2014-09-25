@@ -1,0 +1,9 @@
+/** 
+ * Returns the element which is annotated by this annotation.
+ * @return annotated {@link spoon.reflect.declaration.CtElement}
+ */
+CtElement
+getAnnotatedElement
+(
+)
+;
