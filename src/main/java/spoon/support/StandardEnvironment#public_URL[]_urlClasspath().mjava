@@ -1,11 +1,11 @@
 /** 
- * Creates a URL class path from  {@link Environment.getSourceClasspath()} 
+ * Creates a URL class path from  {@link getSourceClasspath()} 
  */
-protected
+public
 URL
 [
 ]
-classpath
+urlClasspath
 (
 )
 {
@@ -14,14 +14,6 @@ String
 ]
 classpath
 =
-getFactory
-(
-)
-.
-getEnvironment
-(
-)
-.
 getSourceClasspath
 (
 )
