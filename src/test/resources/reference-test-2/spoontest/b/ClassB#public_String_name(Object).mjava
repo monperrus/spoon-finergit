@@ -1,0 +1,17 @@
+public
+String
+name
+(
+Object
+o
+)
+{
+return
+namer
+.
+name
+(
+o
+)
+;
+}
