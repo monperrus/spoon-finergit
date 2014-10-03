@@ -1,3 +1,4 @@
+@Test
 public
 void
 testInitEnvironment
@@ -12,7 +13,7 @@ properties
 new
 File
 (
-"/"
+"."
 )
 ;
 int
@@ -55,6 +56,16 @@ preserveLineNumbers
 =
 true
 ;
+final
+Launcher
+launcher
+=
+new
+Launcher
+(
+)
+;
+final
 StandardEnvironment
 environment
 =
@@ -63,7 +74,7 @@ StandardEnvironment
 (
 )
 ;
-classUnderTest
+launcher
 .
 initEnvironment
 (
@@ -90,7 +101,7 @@ preserveLineNumbers
 new
 File
 (
-"/home"
+"target/spooned"
 )
 )
 ;
