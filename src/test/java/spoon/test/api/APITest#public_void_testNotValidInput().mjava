@@ -1,4 +1,4 @@
-@Test(expected=FileNotFoundException.class)
+@Test(expected=Exception.class)
 public
 void
 testNotValidInput
