@@ -1,7 +1,6 @@
 /** 
  * Defines the common arguments for sub-launchers.
  * @return the JSAP arguments
- * @throws JSAPException when the creation fails
  */
 protected
 JSAP
@@ -1202,6 +1201,8 @@ e
 getMessage
 (
 )
+,
+e
 )
 ;
 }

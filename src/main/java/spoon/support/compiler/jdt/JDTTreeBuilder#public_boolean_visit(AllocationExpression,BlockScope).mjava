@@ -186,20 +186,6 @@ getExecutable
 null
 )
 {
-logger
-.
-error
-(
-"null executable ref at "
-+
-context
-.
-createSourcePosition
-(
-allocationExpression
-)
-)
-;
 }
 else
 {
