@@ -10,8 +10,7 @@ createFactory
 return
 createFactory
 (
-new
-StandardEnvironment
+createEnvironment
 (
 )
 )

@@ -10,8 +10,12 @@ args2
 {
 this
 .
-args
+commandLineArgs
 =
 args2
+;
+processArguments
+(
+)
 ;
 }

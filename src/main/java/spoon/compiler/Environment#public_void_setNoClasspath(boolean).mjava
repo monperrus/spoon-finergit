@@ -1,0 +1,11 @@
+/** 
+ * Sets the option noclasspath 
+ */
+public
+void
+setNoClasspath
+(
+boolean
+option
+)
+;

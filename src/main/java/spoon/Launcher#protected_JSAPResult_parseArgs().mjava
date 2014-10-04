@@ -8,12 +8,10 @@ JSAPResult
 parseArgs
 (
 )
-throws
-JSAPException
 {
 if
 (
-args
+jsapSpec
 ==
 null
 )
@@ -29,11 +27,11 @@ IllegalStateException
 JSAPResult
 arguments
 =
-jsapArgs
+jsapSpec
 .
 parse
 (
-args
+commandLineArgs
 )
 ;
 if
@@ -157,7 +155,7 @@ err
 .
 println
 (
-jsapArgs
+jsapSpec
 .
 getHelp
 (

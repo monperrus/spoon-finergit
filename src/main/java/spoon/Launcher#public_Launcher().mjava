@@ -5,12 +5,14 @@ public
 Launcher
 (
 )
-throws
-JSAPException
 {
-jsapArgs
+jsapSpec
 =
 defineArgs
+(
+)
+;
+processArguments
 (
 )
 ;
