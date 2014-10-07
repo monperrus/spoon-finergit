@@ -16,16 +16,12 @@ problem
 null
 )
 {
-System
-.
-out
-.
-println
+throw
+new
+IllegalArgumentException
 (
-"cannot report null problem"
+"problem cannot be null"
 )
-;
-return
 ;
 }
 File

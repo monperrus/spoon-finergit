@@ -1,0 +1,23 @@
+/** 
+ * returns the list of current problems 
+ */
+public
+List
+<
+CategorizedProblem
+>
+getProblems
+(
+)
+{
+return
+Collections
+.
+unmodifiableList
+(
+this
+.
+probs
+)
+;
+}
