@@ -219,10 +219,15 @@ debugMessage
 (
 "source classpath: "
 +
+Arrays
+.
+toString
+(
 compiler
 .
 getSourceClasspath
 (
+)
 )
 )
 ;
@@ -232,10 +237,15 @@ debugMessage
 (
 "template classpath: "
 +
+Arrays
+.
+toString
+(
 compiler
 .
 getTemplateClasspath
 (
+)
 )
 )
 ;
