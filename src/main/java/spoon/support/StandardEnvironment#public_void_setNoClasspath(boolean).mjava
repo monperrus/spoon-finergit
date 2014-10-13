@@ -1,0 +1,14 @@
+@Override
+public
+void
+setNoClasspath
+(
+boolean
+option
+)
+{
+noclasspath
+=
+option
+;
+}

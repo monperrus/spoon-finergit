@@ -7,8 +7,6 @@ JSAPResult
 getArguments
 (
 )
-throws
-Exception
 {
 return
 parseArgs

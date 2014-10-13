@@ -11,7 +11,7 @@ Exception
 {
 this
 .
-args
+commandLineArgs
 =
 new
 String
