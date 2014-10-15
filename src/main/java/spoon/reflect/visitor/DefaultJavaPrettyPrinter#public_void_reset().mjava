@@ -4,13 +4,6 @@ reset
 (
 )
 {
-importsContext
-=
-new
-ImportScanner
-(
-)
-;
 sbf
 =
 new

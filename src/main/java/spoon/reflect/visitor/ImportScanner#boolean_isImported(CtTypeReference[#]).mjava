@@ -1,0 +1,13 @@
+/** 
+ * Checks if the type is already imported.
+ */
+boolean
+isImported
+(
+CtTypeReference
+<
+?
+>
+ref
+)
+;
