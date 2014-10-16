@@ -1,0 +1,15 @@
+public
+NestedSuperCall
+(
+NestedCallable
+nc
+)
+{
+nc
+.
+super
+(
+"a"
+)
+;
+}
