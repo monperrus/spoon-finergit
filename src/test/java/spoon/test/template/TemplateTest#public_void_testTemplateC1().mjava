@@ -85,12 +85,6 @@ size
 )
 )
 ;
-Substitution
-.
-insertAll
-(
-c1
-,
 new
 TemplateWithConstructor
 (
@@ -107,6 +101,10 @@ Date
 class
 )
 )
+.
+apply
+(
+c1
 )
 ;
 assertEquals
@@ -189,12 +187,6 @@ toString
 )
 )
 ;
-Substitution
-.
-insertAll
-(
-c1
-,
 new
 TemplateWithFieldsAndMethods
 (
@@ -211,6 +203,10 @@ createLiteral
 "testparam2"
 )
 )
+.
+apply
+(
+c1
 )
 ;
 assertEquals
