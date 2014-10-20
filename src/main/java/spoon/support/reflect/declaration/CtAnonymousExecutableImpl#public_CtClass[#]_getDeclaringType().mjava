@@ -1,9 +1,10 @@
+@Override
 public
 CtClass
 <
 ?
 >
-getOwnerClass
+getDeclaringType
 (
 )
 {
