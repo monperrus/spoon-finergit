@@ -12,24 +12,17 @@ T
 reference
 )
 {
-write
+if
 (
 reference
 .
-getType
+getDeclaringType
 (
 )
-.
-getQualifiedName
-(
+!=
+null
 )
-)
-;
-write
-(
-" "
-)
-;
+{
 write
 (
 reference
@@ -43,6 +36,7 @@ getQualifiedName
 )
 )
 ;
+}
 write
 (
 CtExecutable
