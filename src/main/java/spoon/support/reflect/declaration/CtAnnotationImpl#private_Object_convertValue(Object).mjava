@@ -1,13 +1,5 @@
 @SuppressWarnings("unchecked")
 private
-<
-E
-extends
-Enum
-<
-E
->
->
 Object
 convertValue
 (
@@ -161,7 +153,8 @@ valueOf
 (
 Class
 <
-E
+?
+Enum
 >
 )
 c

@@ -26,6 +26,10 @@ actualTypeArguments
 new
 ArrayList
 <
+CtTypeReference
+<
+?
+>
 >
 (
 )

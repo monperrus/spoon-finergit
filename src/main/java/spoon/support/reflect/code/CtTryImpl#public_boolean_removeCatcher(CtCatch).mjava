@@ -23,6 +23,7 @@ catchers
 new
 ArrayList
 <
+CtCatch
 >
 (
 )

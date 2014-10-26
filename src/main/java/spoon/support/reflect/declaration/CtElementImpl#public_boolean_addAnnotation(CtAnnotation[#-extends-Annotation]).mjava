@@ -40,6 +40,11 @@ annotations
 new
 ArrayList
 <
+CtAnnotation
+<
+?
+Annotation
+>
 >
 (
 )

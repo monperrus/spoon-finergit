@@ -6,7 +6,6 @@ removeResource
 CtLocalVariable
 <
 ?
-AutoCloseable
 >
 resource
 )
@@ -27,6 +26,10 @@ resources
 new
 ArrayList
 <
+CtLocalVariable
+<
+?
+>
 >
 (
 )
