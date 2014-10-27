@@ -26,6 +26,10 @@ bounds
 new
 ArrayList
 <
+CtTypeReference
+<
+?
+>
 >
 (
 )

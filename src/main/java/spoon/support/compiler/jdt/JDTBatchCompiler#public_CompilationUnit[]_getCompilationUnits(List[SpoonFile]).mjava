@@ -20,6 +20,7 @@ fileNames
 new
 HashSet
 <
+String
 >
 (
 )
@@ -33,6 +34,7 @@ virtualFiles
 new
 ArrayList
 <
+SpoonFile
 >
 (
 )
@@ -87,6 +89,7 @@ culist
 new
 ArrayList
 <
+CompilationUnit
 >
 (
 )

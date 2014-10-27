@@ -26,6 +26,10 @@ parametersTypes
 new
 ArrayList
 <
+CtTypeReference
+<
+?
+>
 >
 (
 )

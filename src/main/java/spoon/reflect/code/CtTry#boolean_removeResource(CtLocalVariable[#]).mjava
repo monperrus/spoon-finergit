@@ -1,13 +1,12 @@
 /** 
- * Adds a resource.
+ * Removes a resource.
  */
 boolean
-addResource
+removeResource
 (
 CtLocalVariable
 <
 ?
-AutoCloseable
 >
 resource
 )
