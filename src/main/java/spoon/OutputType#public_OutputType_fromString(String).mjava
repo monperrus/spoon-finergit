@@ -29,7 +29,9 @@ if
 (
 outputType
 .
-string
+toString
+(
+)
 .
 equals
 (
