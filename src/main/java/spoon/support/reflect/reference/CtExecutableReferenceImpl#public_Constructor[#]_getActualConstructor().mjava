@@ -38,7 +38,7 @@ getParameterTypes
 .
 length
 !=
-getParameterTypes
+getActualTypeArguments
 (
 )
 .
@@ -87,7 +87,7 @@ getParameterTypes
 i
 ]
 !=
-getParameterTypes
+getActualTypeArguments
 (
 )
 .

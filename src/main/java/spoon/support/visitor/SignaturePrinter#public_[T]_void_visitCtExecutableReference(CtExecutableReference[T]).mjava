@@ -68,7 +68,7 @@ ref
 :
 reference
 .
-getParameterTypes
+getActualTypeArguments
 (
 )
 )
@@ -89,7 +89,7 @@ if
 !
 reference
 .
-getParameterTypes
+getActualTypeArguments
 (
 )
 .
