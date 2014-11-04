@@ -44,15 +44,6 @@ getActualTypeArguments
 )
 )
 ;
-scanReferences
-(
-reference
-.
-getParameterTypes
-(
-)
-)
-;
 exitReference
 (
 reference

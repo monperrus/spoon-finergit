@@ -192,7 +192,11 @@ null
 )
 inv
 .
-setGenericTypes
+getExecutable
+(
+)
+.
+setActualTypeArguments
 (
 references
 .
