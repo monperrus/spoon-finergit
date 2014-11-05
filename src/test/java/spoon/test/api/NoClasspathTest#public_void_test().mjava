@@ -142,6 +142,9 @@ e
 }
 {
 CtMethod
+<
+?
+>
 method
 =
 clazz
@@ -164,6 +167,9 @@ method
 List
 <
 CtInvocation
+<
+?
+>
 >
 invocations
 =
@@ -175,6 +181,9 @@ new
 TypeFilter
 <
 CtInvocation
+<
+?
+>
 >
 (
 CtInvocation
@@ -245,6 +254,9 @@ toString
 }
 {
 CtMethod
+<
+?
+>
 method
 =
 clazz
@@ -267,6 +279,9 @@ method
 List
 <
 CtInvocation
+<
+?
+>
 >
 invocations
 =
@@ -278,6 +293,9 @@ new
 TypeFilter
 <
 CtInvocation
+<
+?
+>
 >
 (
 CtInvocation
@@ -348,6 +366,9 @@ toString
 }
 {
 CtMethod
+<
+?
+>
 method
 =
 clazz
@@ -370,6 +391,9 @@ method
 List
 <
 CtInvocation
+<
+?
+>
 >
 invocations
 =
@@ -381,6 +405,9 @@ new
 TypeFilter
 <
 CtInvocation
+<
+?
+>
 >
 (
 CtInvocation
@@ -400,12 +427,6 @@ size
 )
 )
 ;
-CtInvocation
-<
-?
->
-c
-=
 invocations
 .
 get

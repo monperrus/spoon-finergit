@@ -59,6 +59,9 @@ get
 )
 ;
 CtCase
+<
+Object
+>
 caseElem
 =
 factory
