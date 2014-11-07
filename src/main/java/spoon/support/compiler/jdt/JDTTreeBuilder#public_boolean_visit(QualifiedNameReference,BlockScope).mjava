@@ -45,6 +45,9 @@ createFieldAccess
 )
 ;
 CtFieldReference
+<
+Object
+>
 ref
 =
 references
@@ -591,6 +594,9 @@ varRef
 =
 new
 CtUnboundVariableReferenceImpl
+<
+Object
+>
 (
 )
 ;

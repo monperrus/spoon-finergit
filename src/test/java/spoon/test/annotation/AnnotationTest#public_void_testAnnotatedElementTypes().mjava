@@ -642,6 +642,9 @@ assertTrue
 (
 (
 CtAnnotation
+<
+?
+>
 )
 element
 )
@@ -665,6 +668,9 @@ ANNOTATION_TYPE
 (
 (
 CtAnnotation
+<
+?
+>
 )
 element
 )

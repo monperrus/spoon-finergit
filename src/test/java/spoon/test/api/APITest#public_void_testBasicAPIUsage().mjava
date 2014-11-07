@@ -80,6 +80,9 @@ getQualifiedName
 for
 (
 CtSimpleType
+<
+?
+>
 s
 :
 factory
