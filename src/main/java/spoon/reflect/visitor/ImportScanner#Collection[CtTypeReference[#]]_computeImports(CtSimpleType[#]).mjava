@@ -1,0 +1,20 @@
+/** 
+ * Computes import of a  {@link spoon.reflect.declaration.CtSimpleType}(represent a class).
+ * @return Imports computes by Spoon, not original imports.
+ */
+Collection
+<
+CtTypeReference
+<
+?
+>
+>
+computeImports
+(
+CtSimpleType
+<
+?
+>
+simpleType
+)
+;
