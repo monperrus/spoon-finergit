@@ -135,7 +135,7 @@ STATIC
 )
 )
 ;
-CtType
+CtSimpleType
 <
 ?
 >
