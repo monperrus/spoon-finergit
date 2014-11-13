@@ -1,0 +1,8 @@
+/** 
+ * Creates a <code>try</code> with resource block.
+ */
+CtTryWithResource
+createTryWithResource
+(
+)
+;

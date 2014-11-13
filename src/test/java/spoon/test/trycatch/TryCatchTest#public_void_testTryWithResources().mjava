@@ -38,8 +38,8 @@ get
 0
 )
 ;
-CtTry
-ctTry
+CtTryWithResource
+ctTryWithResource
 =
 method
 .
@@ -48,10 +48,10 @@ getElements
 new
 TypeFilter
 <
-CtTry
+CtTryWithResource
 >
 (
-CtTry
+CtTryWithResource
 .
 class
 )
@@ -64,7 +64,7 @@ get
 ;
 assertTrue
 (
-ctTry
+ctTryWithResource
 .
 getResources
 (
