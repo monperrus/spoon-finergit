@@ -1,6 +1,6 @@
 protected
 String
-computeJdtClassPath
+computeTemplateClasspath
 (
 )
 {
@@ -11,7 +11,7 @@ computeClasspath
 (
 this
 .
-getSourceClasspath
+getTemplateClasspath
 (
 )
 )
