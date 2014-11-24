@@ -1,0 +1,17 @@
+public
+boolean
+hasModifier
+(
+ModifierKind
+modifier
+)
+{
+return
+modifiers
+.
+contains
+(
+modifier
+)
+;
+}

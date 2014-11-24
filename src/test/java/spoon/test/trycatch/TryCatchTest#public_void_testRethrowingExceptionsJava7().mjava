@@ -99,7 +99,7 @@ get
 Class
 <
 ?
-CtLocalVariableReference
+CtCatchVariableReference
 >
 exceptionClass
 =

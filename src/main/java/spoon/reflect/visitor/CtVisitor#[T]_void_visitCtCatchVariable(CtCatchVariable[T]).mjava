@@ -1,0 +1,16 @@
+/** 
+ * Visits a catch variable declaration.
+ */
+<
+T
+>
+void
+visitCtCatchVariable
+(
+CtCatchVariable
+<
+T
+>
+catchVariable
+)
+;

@@ -1,0 +1,15 @@
+public
+<
+T
+>
+void
+visitCtCatchVariableReference
+(
+CtCatchVariable
+<
+T
+>
+reference
+)
+{
+}

@@ -62,15 +62,6 @@ get
 0
 )
 ;
-System
-.
-err
-.
-println
-(
-tryStmt
-)
-;
 List
 <
 CtCatch

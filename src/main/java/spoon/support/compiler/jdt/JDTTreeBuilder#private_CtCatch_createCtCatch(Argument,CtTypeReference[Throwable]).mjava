@@ -25,7 +25,7 @@ createCatch
 (
 )
 ;
-CtLocalVariable
+CtCatchVariable
 <
 Throwable
 >
@@ -37,7 +37,7 @@ Core
 (
 )
 .
-createLocalVariable
+createCatchVariable
 (
 )
 ;

@@ -1,0 +1,14 @@
+/** 
+ * Creates a catch variable reference.
+ */
+<
+T
+>
+CtCatchVariableReference
+<
+T
+>
+createCatchVariableReference
+(
+)
+;
