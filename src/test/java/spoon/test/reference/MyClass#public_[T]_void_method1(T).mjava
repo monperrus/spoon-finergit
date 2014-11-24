@@ -1,0 +1,16 @@
+public
+<
+T
+>
+void
+method1
+(
+T
+t
+)
+{
+method2
+(
+)
+;
+}

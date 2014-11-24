@@ -1,0 +1,14 @@
+/** 
+ * Gets parameters of the executable.
+ */
+List
+<
+CtTypeReference
+<
+?
+>
+>
+getParameters
+(
+)
+;

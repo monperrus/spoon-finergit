@@ -1,0 +1,23 @@
+public
+void
+methodC
+(
+)
+{
+myClass3
+.
+methodI
+(
+1
+)
+;
+myClass3
+.
+methodII
+(
+42
+,
+"Call method II"
+)
+;
+}

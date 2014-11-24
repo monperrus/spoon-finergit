@@ -39,7 +39,7 @@ actualTypeArguments
 .
 add
 (
-type
+actualTypeArgument
 )
 ;
 }

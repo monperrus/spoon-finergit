@@ -1,0 +1,14 @@
+public
+void
+methodA
+(
+)
+{
+myClass
+.
+method1
+(
+"guyfez"
+)
+;
+}

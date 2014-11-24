@@ -1,0 +1,15 @@
+public
+MyClass
+(
+String
+param
+)
+{
+this
+(
+param
+,
+0
+)
+;
+}
