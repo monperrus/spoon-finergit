@@ -1,0 +1,13 @@
+public
+void
+methodB
+(
+)
+{
+myClass
+.
+method2
+(
+)
+;
+}

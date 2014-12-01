@@ -1,0 +1,12 @@
+public
+void
+methodD
+(
+)
+{
+methodE
+(
+"Call method B"
+)
+;
+}

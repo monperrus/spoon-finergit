@@ -30,7 +30,7 @@ actualTypeArguments
 .
 remove
 (
-type
+actualTypeArgument
 )
 ;
 }

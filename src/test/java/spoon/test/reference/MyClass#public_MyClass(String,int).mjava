@@ -1,0 +1,11 @@
+public
+MyClass
+(
+String
+param
+,
+int
+paramint
+)
+{
+}
