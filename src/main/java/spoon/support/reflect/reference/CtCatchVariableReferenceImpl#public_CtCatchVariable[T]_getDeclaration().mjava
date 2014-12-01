@@ -1,0 +1,13 @@
+public
+CtCatchVariable
+<
+T
+>
+getDeclaration
+(
+)
+{
+return
+declaration
+;
+}

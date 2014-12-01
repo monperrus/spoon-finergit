@@ -1,0 +1,13 @@
+/** 
+ * Removes a type for the element.
+ */
+boolean
+removeMultiType
+(
+CtTypeReference
+<
+?
+>
+ref
+)
+;

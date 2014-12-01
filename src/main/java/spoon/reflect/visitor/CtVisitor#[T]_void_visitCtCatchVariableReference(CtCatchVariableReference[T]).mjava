@@ -1,0 +1,16 @@
+/** 
+ * Visits a reference to a catch variable.
+ */
+<
+T
+>
+void
+visitCtCatchVariableReference
+(
+CtCatchVariableReference
+<
+T
+>
+reference
+)
+;

@@ -1,0 +1,14 @@
+/** 
+ * Creates a catch variable declaration statement.
+ */
+<
+T
+>
+CtCatchVariable
+<
+T
+>
+createCatchVariable
+(
+)
+;

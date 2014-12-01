@@ -24,15 +24,6 @@ scan
 (
 tryBlock
 .
-getResources
-(
-)
-)
-;
-scan
-(
-tryBlock
-.
 getBody
 (
 )

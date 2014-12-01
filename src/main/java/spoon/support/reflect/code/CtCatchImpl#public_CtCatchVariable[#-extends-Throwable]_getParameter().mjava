@@ -1,0 +1,14 @@
+public
+CtCatchVariable
+<
+?
+Throwable
+>
+getParameter
+(
+)
+{
+return
+parameter
+;
+}

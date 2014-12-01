@@ -1,0 +1,14 @@
+/** 
+ * Gets all types of the element.
+ */
+List
+<
+CtTypeReference
+<
+?
+>
+>
+getMultiTypes
+(
+)
+;

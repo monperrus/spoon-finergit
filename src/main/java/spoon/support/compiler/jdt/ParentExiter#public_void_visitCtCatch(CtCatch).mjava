@@ -35,7 +35,7 @@ if
 (
 child
 instanceof
-CtLocalVariable
+CtCatchVariable
 )
 {
 catchBlock
@@ -43,7 +43,7 @@ catchBlock
 setParameter
 (
 (
-CtLocalVariable
+CtCatchVariable
 <
 ?
 Throwable

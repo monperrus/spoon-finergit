@@ -1,0 +1,10 @@
+/** 
+ * Visits a <code>try</code> with resource statement.
+ */
+void
+visitCtTryWithResource
+(
+CtTryWithResource
+tryWithResource
+)
+;

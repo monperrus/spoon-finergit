@@ -1,0 +1,13 @@
+/** 
+ * Sets the catch variable declaration that corresponds to this catch variable reference.
+ */
+void
+setDeclaration
+(
+CtCatchVariable
+<
+T
+>
+declaration
+)
+;

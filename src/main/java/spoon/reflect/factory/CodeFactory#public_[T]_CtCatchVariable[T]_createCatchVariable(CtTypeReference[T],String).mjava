@@ -1,0 +1,61 @@
+/** 
+ * Creates a catch variable declaration.
+ * @param < T > the catch variable type
+ * @param type the reference to the type
+ * @param name the name of the variable
+ * @return a new catch variable declaration
+ */
+public
+<
+T
+>
+CtCatchVariable
+<
+T
+>
+createCatchVariable
+(
+CtTypeReference
+<
+T
+>
+type
+,
+String
+name
+)
+{
+CtCatchVariable
+<
+T
+>
+var
+=
+factory
+.
+Core
+(
+)
+.
+createCatchVariable
+(
+)
+;
+var
+.
+setSimpleName
+(
+name
+)
+;
+var
+.
+setType
+(
+type
+)
+;
+return
+var
+;
+}

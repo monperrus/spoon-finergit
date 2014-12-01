@@ -1,0 +1,17 @@
+@Override
+public
+List
+<
+CtTypeReference
+<
+?
+>
+>
+getMultiTypes
+(
+)
+{
+return
+types
+;
+}
