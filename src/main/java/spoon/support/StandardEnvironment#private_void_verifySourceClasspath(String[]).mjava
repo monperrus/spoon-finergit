@@ -88,11 +88,11 @@ size
 0
 )
 {
-throw
-new
-InvalidClassPathException
+logger
+.
+warn
 (
-"you're trying to give source code in the classpath, this should be given to addInputSource "
+"You're trying to give source code in the classpath, this should be given to addInputSource "
 +
 javaFiles
 )

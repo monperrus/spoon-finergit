@@ -71,10 +71,6 @@ setSourceClasspath
 "src"
 )
 ;
-fail
-(
-)
-;
 }
 catch
 (
@@ -82,5 +78,9 @@ InvalidClassPathException
 e
 )
 {
+fail
+(
+)
+;
 }
 }
