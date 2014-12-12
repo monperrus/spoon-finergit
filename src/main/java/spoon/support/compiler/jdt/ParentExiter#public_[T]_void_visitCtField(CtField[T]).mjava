@@ -26,6 +26,13 @@ null
 child
 instanceof
 CtExpression
+&&
+!
+(
+child
+instanceof
+CtAnnotation
+)
 )
 {
 f

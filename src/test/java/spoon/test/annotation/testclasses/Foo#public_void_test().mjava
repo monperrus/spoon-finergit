@@ -1,0 +1,8 @@
+@OuterAnnotation({@MiddleAnnotation(@InnerAnnotation("hello")),@MiddleAnnotation(@InnerAnnotation("hello again"))})
+public
+void
+test
+(
+)
+{
+}
