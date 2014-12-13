@@ -99,6 +99,9 @@ getActualClass
 for
 (
 CtCase
+<
+?
+>
 aCase
 :
 ctSwitch

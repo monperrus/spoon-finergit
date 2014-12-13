@@ -31,10 +31,16 @@ TemplateException
 ;
 }
 CtClass
+<
+?
+>
 targetType
 =
 (
 CtClass
+<
+?
+>
 )
 target
 ;

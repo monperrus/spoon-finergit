@@ -23,6 +23,9 @@ T
 targetClass
 ,
 Template
+<
+?
+>
 template
 ,
 CtMethod

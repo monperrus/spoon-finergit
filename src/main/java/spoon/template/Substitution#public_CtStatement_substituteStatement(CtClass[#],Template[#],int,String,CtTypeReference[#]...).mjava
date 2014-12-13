@@ -1,18 +1,16 @@
 /** 
- * Gets a body from a template executable with all the template parameters substituted.
+ * Gets a statement from a template executable with all the template parameters substituted.
  * @param targetClass the target class
  * @param template the template that holds the executable
+ * @param statementIndex the statement index in the executable's body
  * @param executableName the source executable template
  * @param parameterTypes the parameter types of the source executable
  * @return the body expression of the source executable template with allthe template parameters substituted
  */
 public
 static
-CtBlock
-<
-?
->
-substituteMethodBody
+CtStatement
+substituteStatement
 (
 CtClass
 <
@@ -21,7 +19,13 @@ CtClass
 targetClass
 ,
 Template
+<
+?
+>
 template
+,
+int
+statementIndex
 ,
 String
 executableName
@@ -107,6 +111,11 @@ sourceExecutable
 .
 getBody
 (
+)
+.
+getStatement
+(
+statementIndex
 )
 )
 ;

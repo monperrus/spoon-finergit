@@ -6,6 +6,9 @@ static
 List
 <
 CtField
+<
+?
+>
 >
 getAllTemplateParameterFields
 (
@@ -13,6 +16,9 @@ Class
 <
 ?
 Template
+<
+?
+>
 >
 clazz
 ,
@@ -21,6 +27,9 @@ factory
 )
 {
 CtClass
+<
+?
+>
 c
 =
 factory
@@ -52,6 +61,9 @@ IllegalArgumentException
 List
 <
 CtField
+<
+?
+>
 >
 result
 =
@@ -59,6 +71,9 @@ new
 ArrayList
 <
 CtField
+<
+?
+>
 >
 (
 )

@@ -10,6 +10,9 @@ Exception
 List
 <
 CtClass
+<
+?
+>
 >
 classes
 =
@@ -23,6 +26,9 @@ new
 TypeFilter
 <
 CtClass
+<
+?
+>
 >
 (
 CtClass
@@ -34,6 +40,9 @@ class
 List
 <
 CtExecutableReference
+<
+?
+>
 >
 refsExecutableClass1
 =
@@ -52,6 +61,9 @@ new
 AbstractReferenceFilter
 <
 CtExecutableReference
+<
+?
+>
 >
 (
 CtExecutableReference
@@ -64,6 +76,9 @@ boolean
 matches
 (
 CtExecutableReference
+<
+?
+>
 reference
 )
 {
@@ -77,6 +92,9 @@ true
 List
 <
 CtExecutableReference
+<
+?
+>
 >
 refsExecutableClass2
 =
@@ -95,6 +113,9 @@ new
 AbstractReferenceFilter
 <
 CtExecutableReference
+<
+?
+>
 >
 (
 CtExecutableReference
@@ -107,6 +128,9 @@ boolean
 matches
 (
 CtExecutableReference
+<
+?
+>
 reference
 )
 {
@@ -131,6 +155,9 @@ size
 for
 (
 CtExecutableReference
+<
+?
+>
 ref
 :
 refsExecutableClass1
@@ -181,6 +208,9 @@ size
 for
 (
 CtExecutableReference
+<
+?
+>
 ref
 :
 refsExecutableClass2

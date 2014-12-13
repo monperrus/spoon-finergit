@@ -9,6 +9,9 @@ static
 T
 extends
 Template
+<
+?
+>
 >
 void
 insertAll

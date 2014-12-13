@@ -11,6 +11,9 @@ final
 List
 <
 CtConstructor
+<
+?
+>
 >
 constructors
 =
@@ -20,6 +23,9 @@ getConstructorsByClass
 )
 ;
 CtConstructor
+<
+?
+>
 emptyConstructor
 =
 constructors
@@ -30,6 +36,9 @@ get
 )
 ;
 CtConstructor
+<
+?
+>
 oneParamConstructor
 =
 constructors
@@ -40,6 +49,9 @@ get
 )
 ;
 CtConstructor
+<
+?
+>
 twoParamsConstructor
 =
 constructors
@@ -52,6 +64,9 @@ get
 List
 <
 CtExecutableReference
+<
+?
+>
 >
 refConstructors
 =

@@ -8,6 +8,9 @@ void
 setValue
 (
 Template
+<
+?
+>
 template
 ,
 String

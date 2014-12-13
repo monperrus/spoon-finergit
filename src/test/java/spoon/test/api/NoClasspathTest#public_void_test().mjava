@@ -526,6 +526,9 @@ get
 )
 ;
 CtLocalVariable
+<
+?
+>
 statement
 =
 method
@@ -540,10 +543,16 @@ getStatement
 )
 ;
 CtFieldAccess
+<
+?
+>
 fa
 =
 (
 CtFieldAccess
+<
+?
+>
 )
 statement
 .

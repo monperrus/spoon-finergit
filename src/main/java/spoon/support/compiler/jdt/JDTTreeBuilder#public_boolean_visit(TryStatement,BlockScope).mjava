@@ -215,6 +215,9 @@ final
 List
 <
 CtTypeReference
+<
+?
+>
 >
 refs
 =
@@ -222,6 +225,9 @@ new
 ArrayList
 <
 CtTypeReference
+<
+?
+>
 >
 (
 )
