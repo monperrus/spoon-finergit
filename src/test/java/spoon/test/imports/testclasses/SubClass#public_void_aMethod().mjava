@@ -1,0 +1,15 @@
+public
+void
+aMethod
+(
+)
+{
+new
+SubClass
+.
+Item
+(
+""
+)
+;
+}
