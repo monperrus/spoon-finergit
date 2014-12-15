@@ -2,6 +2,9 @@ private
 List
 <
 CtExecutableReference
+<
+?
+>
 >
 getReferencesOfAMethod
 (
@@ -21,6 +24,9 @@ new
 ReferenceTypeFilter
 <
 CtExecutableReference
+<
+?
+>
 >
 (
 CtExecutableReference

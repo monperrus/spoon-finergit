@@ -1,12 +1,12 @@
 /** 
- * Inserts all the methods from a given template by substituting all the template parameters by their values. Members annotated with {@link spoon.template.Local} or {@link Parameter} are not inserted.
+ * Inserts all the fields from a given template by substituting all the template parameters by their values. Members annotated with {@link spoon.template.Local} or {@link Parameter} are not inserted.
  * @param targetType the target type
  * @param template the source template
  */
 public
 static
 void
-insertAllMethods
+insertAllFields
 (
 CtType
 <
@@ -15,6 +15,9 @@ CtType
 targetType
 ,
 Template
+<
+?
+>
 template
 )
 {
@@ -45,22 +48,22 @@ getClass
 ;
 for
 (
-CtMethod
+CtField
 <
 ?
 >
-m
+f
 :
 sourceClass
 .
-getMethods
+getFields
 (
 )
 )
 {
 if
 (
-m
+f
 .
 getAnnotation
 (
@@ -75,26 +78,26 @@ continue
 ;
 if
 (
-m
+Parameters
 .
-getAnnotation
+isParameterSource
 (
-Parameter
+f
 .
-class
+getReference
+(
 )
-!=
-null
+)
 )
 continue
 ;
-insertMethod
+insertField
 (
 targetType
 ,
 template
 ,
-m
+f
 )
 ;
 }

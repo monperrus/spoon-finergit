@@ -24,6 +24,9 @@ T
 targetClass
 ,
 Template
+<
+?
+>
 template
 ,
 CtConstructor

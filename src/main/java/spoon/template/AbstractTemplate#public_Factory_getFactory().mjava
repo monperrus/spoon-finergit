@@ -85,7 +85,7 @@ throw
 new
 TemplateException
 (
-"no factory found is this template"
+"no factory found in this template"
 )
 ;
 }

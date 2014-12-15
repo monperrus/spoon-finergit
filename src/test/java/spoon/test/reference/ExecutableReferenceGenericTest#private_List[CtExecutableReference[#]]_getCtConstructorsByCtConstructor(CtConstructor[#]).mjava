@@ -2,10 +2,16 @@ private
 List
 <
 CtExecutableReference
+<
+?
+>
 >
 getCtConstructorsByCtConstructor
 (
 CtConstructor
+<
+?
+>
 emptyConstructor
 )
 {
@@ -18,6 +24,9 @@ new
 AbstractReferenceFilter
 <
 CtExecutableReference
+<
+?
+>
 >
 (
 CtExecutableReference
@@ -31,6 +40,9 @@ boolean
 matches
 (
 CtExecutableReference
+<
+?
+>
 reference
 )
 {

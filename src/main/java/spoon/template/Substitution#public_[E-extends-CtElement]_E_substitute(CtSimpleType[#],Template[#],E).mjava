@@ -22,6 +22,9 @@ CtSimpleType
 targetType
 ,
 Template
+<
+?
+>
 template
 ,
 E

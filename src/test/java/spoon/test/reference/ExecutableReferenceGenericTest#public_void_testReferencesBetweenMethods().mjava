@@ -35,6 +35,9 @@ clazz2
 List
 <
 CtExecutableReference
+<
+?
+>
 >
 refsMethodD
 =
@@ -86,6 +89,9 @@ getDeclaration
 List
 <
 CtExecutableReference
+<
+?
+>
 >
 refsMethodE
 =

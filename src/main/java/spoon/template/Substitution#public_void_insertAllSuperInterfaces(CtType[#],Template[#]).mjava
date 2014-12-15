@@ -15,6 +15,9 @@ CtType
 targetType
 ,
 Template
+<
+?
+>
 template
 )
 {
@@ -22,6 +25,9 @@ CtClass
 <
 ?
 Template
+<
+?
+>
 >
 sourceClass
 =

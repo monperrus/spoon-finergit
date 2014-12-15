@@ -15,6 +15,9 @@ var
 CtVariableAccess
 <
 Collection
+<
+?
+>
 >
 va
 =
@@ -40,6 +43,9 @@ setVariable
 CtVariableReference
 <
 Collection
+<
+?
+>
 >
 )
 var

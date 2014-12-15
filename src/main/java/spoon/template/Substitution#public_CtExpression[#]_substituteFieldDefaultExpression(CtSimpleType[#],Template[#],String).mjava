@@ -20,6 +20,9 @@ CtSimpleType
 targetType
 ,
 Template
+<
+?
+>
 template
 ,
 String

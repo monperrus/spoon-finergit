@@ -2,6 +2,9 @@ private
 List
 <
 CtConstructor
+<
+?
+>
 >
 getConstructorsByClass
 (
@@ -21,6 +24,9 @@ new
 AbstractFilter
 <
 CtConstructor
+<
+?
+>
 >
 (
 CtConstructor
@@ -34,6 +40,9 @@ boolean
 matches
 (
 CtConstructor
+<
+?
+>
 element
 )
 {
@@ -45,6 +54,9 @@ equals
 (
 (
 CtClass
+<
+?
+>
 )
 element
 .

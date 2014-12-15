@@ -16,12 +16,6 @@ createFactory
 (
 )
 ;
-CtClass
-<
-?
->
-clazz
-=
 factory
 .
 Code

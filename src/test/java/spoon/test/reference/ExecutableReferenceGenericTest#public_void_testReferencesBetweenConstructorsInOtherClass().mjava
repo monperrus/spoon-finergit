@@ -11,6 +11,9 @@ final
 List
 <
 CtConstructor
+<
+?
+>
 >
 constructors
 =
@@ -21,6 +24,9 @@ getConstructorsByClass
 ;
 final
 CtConstructor
+<
+?
+>
 ctConstructor
 =
 constructors
@@ -34,6 +40,9 @@ final
 List
 <
 CtExecutableReference
+<
+?
+>
 >
 refConstructors
 =
@@ -56,6 +65,9 @@ getCtClassByName
 ;
 final
 CtConstructor
+<
+?
+>
 emptyConstructorClass1
 =
 getConstructorsByClass
@@ -86,6 +98,9 @@ getCtClassByName
 ;
 final
 CtConstructor
+<
+?
+>
 emptyConstructorClass3
 =
 getConstructorsByClass
