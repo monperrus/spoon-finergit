@@ -1,0 +1,14 @@
+public
+void
+testMethod
+(
+)
+{
+String
+.
+valueOf
+(
+"Hello World"
+)
+;
+}
