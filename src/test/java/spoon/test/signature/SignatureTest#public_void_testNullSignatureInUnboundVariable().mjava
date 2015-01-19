@@ -73,6 +73,12 @@ build
 (
 )
 ;
+Assert
+.
+fail
+(
+)
+;
 }
 catch
 (
@@ -106,14 +112,6 @@ getAll
 get
 (
 0
-)
-;
-System
-.
-out
-.
-println
-(
 )
 ;
 CtMethod
