@@ -1,0 +1,16 @@
+@Override
+public
+void
+setCopyResources
+(
+boolean
+copyResources
+)
+{
+this
+.
+copyResources
+=
+copyResources
+;
+}

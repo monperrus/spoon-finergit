@@ -1,0 +1,10 @@
+/** 
+ * Sets the option copy-resources to copy all resources in a project on the folder destination.
+ */
+void
+setCopyResources
+(
+boolean
+copyResources
+)
+;
