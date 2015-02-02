@@ -219,7 +219,7 @@ throw
 new
 RuntimeException
 (
-"Unknow operator"
+"Unknown operator"
 )
 ;
 case
