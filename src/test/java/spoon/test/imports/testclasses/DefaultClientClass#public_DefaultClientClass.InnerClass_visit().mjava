@@ -1,0 +1,13 @@
+@Override
+public
+DefaultClientClass
+.
+InnerClass
+visit
+(
+)
+{
+return
+null
+;
+}
