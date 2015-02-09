@@ -86,7 +86,7 @@ assertEquals
 ,
 (
 (
-CtNewClass
+CtConstructorCall
 <
 ?
 >

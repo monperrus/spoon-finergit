@@ -67,7 +67,7 @@ getDefaultExpression
 (
 )
 instanceof
-CtNewClass
+CtConstructorCall
 )
 ;
 CtField
@@ -106,7 +106,7 @@ getDefaultExpression
 (
 )
 instanceof
-CtNewClass
+CtConstructorCall
 )
 ;
 CtField

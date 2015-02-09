@@ -84,14 +84,14 @@ getQualifiedName
 )
 )
 ;
-CtNewClass
+CtConstructorCall
 <
 ?
 >
-newClass
+constructorCall
 =
 (
-CtNewClass
+CtConstructorCall
 <
 ?
 >
@@ -104,7 +104,7 @@ getDefaultExpression
 ;
 assertTrue
 (
-newClass
+constructorCall
 .
 getExecutable
 (

@@ -1,0 +1,27 @@
+private
+void
+assertIsConstructor
+(
+CtConstructorCall
+<
+?
+>
+constructorCall
+)
+{
+assertTrue
+(
+"Method must be a constructor"
+,
+constructorCall
+.
+getExecutable
+(
+)
+.
+isConstructor
+(
+)
+)
+;
+}
