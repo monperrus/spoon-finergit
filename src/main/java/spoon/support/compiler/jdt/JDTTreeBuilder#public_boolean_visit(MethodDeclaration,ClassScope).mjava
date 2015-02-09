@@ -100,8 +100,6 @@ getTypeReference
 r
 .
 resolvedType
-,
-r
 )
 ;
 m

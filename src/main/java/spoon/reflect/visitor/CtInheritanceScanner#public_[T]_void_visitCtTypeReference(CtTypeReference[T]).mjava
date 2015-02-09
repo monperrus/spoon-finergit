@@ -22,6 +22,11 @@ scanCtGenericElementReference
 e
 )
 ;
+scanCtTypeAnnotationReference
+(
+e
+)
+;
 scanCtVisitable
 (
 e

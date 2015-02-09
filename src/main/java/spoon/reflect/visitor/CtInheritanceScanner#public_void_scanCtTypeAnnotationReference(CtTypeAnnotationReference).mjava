@@ -1,0 +1,12 @@
+/** 
+ * Scans a type annotation.
+ */
+public
+void
+scanCtTypeAnnotationReference
+(
+CtTypeAnnotationReference
+e
+)
+{
+}

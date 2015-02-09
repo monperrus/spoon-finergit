@@ -1,10 +1,8 @@
 public
 String
-m
+m2
 (
 )
-throws
-Exception
 {
 Object
 s
@@ -12,7 +10,6 @@ s
 new
 String
 (
-""
 )
 ;
 return

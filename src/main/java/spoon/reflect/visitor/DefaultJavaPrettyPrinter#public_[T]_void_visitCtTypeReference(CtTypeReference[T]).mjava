@@ -33,6 +33,11 @@ getSimpleName
 return
 ;
 }
+printTypeAnnotations
+(
+ref
+)
+;
 if
 (
 !
