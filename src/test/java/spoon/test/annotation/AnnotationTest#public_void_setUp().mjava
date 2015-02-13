@@ -35,6 +35,17 @@ createFactory
 (
 )
 ;
+factory
+.
+getEnvironment
+(
+)
+.
+setComplianceLevel
+(
+8
+)
+;
 SpoonCompiler
 compiler
 =

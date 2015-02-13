@@ -48,6 +48,9 @@ write
 ;
 scan
 (
+(
+CtStatement
+)
 ifElement
 .
 getThenStatement
@@ -148,6 +151,9 @@ write
 ;
 scan
 (
+(
+CtStatement
+)
 ifElement
 .
 getElseStatement
@@ -175,6 +181,9 @@ write
 ;
 scan
 (
+(
+CtStatement
+)
 ifElement
 .
 getElseStatement

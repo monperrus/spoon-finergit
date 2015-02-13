@@ -31,6 +31,9 @@ getCondition
 ;
 scan
 (
+(
+CtStatement
+)
 ifElement
 .
 getThenStatement
@@ -40,6 +43,9 @@ getThenStatement
 ;
 scan
 (
+(
+CtStatement
+)
 ifElement
 .
 getElseStatement
