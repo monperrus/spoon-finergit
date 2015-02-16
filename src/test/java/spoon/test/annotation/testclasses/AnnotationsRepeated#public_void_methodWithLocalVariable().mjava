@@ -1,0 +1,14 @@
+public
+void
+methodWithLocalVariable
+(
+)
+{
+@AnnotationRepeated("Local 1")
+@AnnotationRepeated("Local 2")
+String
+s
+=
+""
+;
+}

@@ -1,0 +1,11 @@
+public
+void
+methodWithParameter
+(
+@AnnotationRepeated("Param 1")
+@AnnotationRepeated("Param 2")
+String
+param
+)
+{
+}
