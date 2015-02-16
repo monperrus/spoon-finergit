@@ -12,13 +12,6 @@ CtExecutableReference
 executable
 )
 {
-super
-(
-CtInvocation
-.
-class
-)
-;
 this
 .
 executable
