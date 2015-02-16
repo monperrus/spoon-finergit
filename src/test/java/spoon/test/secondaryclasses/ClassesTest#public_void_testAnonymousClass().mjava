@@ -145,7 +145,7 @@ getAnonymousClass
 ;
 assertEquals
 (
-"0"
+"1"
 ,
 anonymousClass0
 .
@@ -156,7 +156,7 @@ getSimpleName
 ;
 assertEquals
 (
-"1"
+"2"
 ,
 anonymousClass1
 .
@@ -167,7 +167,7 @@ getSimpleName
 ;
 assertEquals
 (
-"spoon.test.secondaryclasses.AnonymousClass$0"
+"spoon.test.secondaryclasses.AnonymousClass$1"
 ,
 anonymousClass0
 .
@@ -178,7 +178,7 @@ getQualifiedName
 ;
 assertEquals
 (
-"spoon.test.secondaryclasses.AnonymousClass$1"
+"spoon.test.secondaryclasses.AnonymousClass$2"
 ,
 anonymousClass1
 .
@@ -232,7 +232,7 @@ getDeclaration
 ;
 assertEquals
 (
-"."
+"spoon.test.secondaryclasses.AnonymousClass.2.2"
 ,
 y
 .
