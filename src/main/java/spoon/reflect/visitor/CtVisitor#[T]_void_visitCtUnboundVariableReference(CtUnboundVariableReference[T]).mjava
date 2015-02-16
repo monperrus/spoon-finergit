@@ -1,0 +1,16 @@
+/** 
+ * Visits a reference to an unbound field
+ */
+<
+T
+>
+void
+visitCtUnboundVariableReference
+(
+CtUnboundVariableReference
+<
+T
+>
+reference
+)
+;

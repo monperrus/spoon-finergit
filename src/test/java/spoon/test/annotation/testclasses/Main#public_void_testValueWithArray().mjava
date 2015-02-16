@@ -1,0 +1,8 @@
+@AnnotArray({RuntimeException.class})
+public
+void
+testValueWithArray
+(
+)
+{
+}

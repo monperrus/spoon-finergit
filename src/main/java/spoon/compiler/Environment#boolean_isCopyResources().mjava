@@ -1,0 +1,8 @@
+/** 
+ * Returns the value of the option copy-resources.
+ */
+boolean
+isCopyResources
+(
+)
+;
