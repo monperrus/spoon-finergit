@@ -1,7 +1,7 @@
 @Test
 public
 void
-testUsageOfTypeAnnotationInReturnTypeInMethod
+testUsageOfTypeAnnotationOnParameterInMethod
 (
 )
 throws
@@ -30,7 +30,9 @@ Type
 .
 get
 (
-"spoon.test.annotation.testclasses.AnnotationsAppliedOnAnyTypeInAClass"
+AnnotationsAppliedOnAnyTypeInAClass
+.
+class
 )
 ;
 final
@@ -44,7 +46,25 @@ ctClass
 .
 getMethodsByName
 (
-"m3"
+"m6"
+)
+.
+get
+(
+0
+)
+;
+final
+CtParameter
+<
+?
+>
+ctParameter
+=
+method
+.
+getParameters
+(
 )
 .
 get
@@ -57,9 +77,9 @@ CtTypeReference
 <
 ?
 >
-returnReference
+parameterType
 =
-method
+ctParameter
 .
 getType
 (
@@ -76,7 +96,7 @@ Annotation
 >
 typeAnnotations
 =
-returnReference
+parameterType
 .
 getTypeAnnotations
 (
@@ -84,7 +104,7 @@ getTypeAnnotations
 ;
 assertEquals
 (
-"Return type with a type annotation must have it in its model"
+"Parameter type with a type annotation must have it in its model"
 ,
 1
 ,
@@ -97,7 +117,7 @@ size
 ;
 assertEquals
 (
-"Type annotation with the return type must be typed by TypeAnnotation"
+"Type annotation with the parameter type must be typed by TypeAnnotation"
 ,
 TypeAnnotation
 .
@@ -121,11 +141,11 @@ getActualClass
 ;
 assertEquals
 (
-"Return type with an type annotation must be well printed"
+"Parameter type with an type annotation must be well printed"
 ,
-"public @spoon.test.annotation.testclasses.TypeAnnotation\njava.lang.String m3() {\n    return \"\";\n}"
+"@spoon.test.annotation.testclasses.TypeAnnotation\njava.lang.String param"
 ,
-method
+ctParameter
 .
 toString
 (
