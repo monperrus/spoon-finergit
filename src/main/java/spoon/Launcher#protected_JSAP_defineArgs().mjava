@@ -314,7 +314,7 @@ opt2
 .
 setHelp
 (
-"Java source code compliance level (1,2,3,4,5, 6 or 7)."
+"Java source code compliance level (1,2,3,4,5, 6, 7 or 8)."
 )
 ;
 opt2
@@ -1209,6 +1209,49 @@ sw1
 setHelp
 (
 "Disable the copy of resources from source to destination folder."
+)
+;
+sw1
+.
+setDefault
+(
+"false"
+)
+;
+jsap
+.
+registerParameter
+(
+sw1
+)
+;
+sw1
+=
+new
+Switch
+(
+"generate-javadoc"
+)
+;
+sw1
+.
+setShortFlag
+(
+'j'
+)
+;
+sw1
+.
+setLongFlag
+(
+"generate-javadoc"
+)
+;
+sw1
+.
+setHelp
+(
+"Enable the generation of the javadoc."
 )
 ;
 sw1
