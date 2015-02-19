@@ -1,0 +1,11 @@
+@Override
+public
+boolean
+isDefaultMethod
+(
+)
+{
+return
+defaultMethod
+;
+}

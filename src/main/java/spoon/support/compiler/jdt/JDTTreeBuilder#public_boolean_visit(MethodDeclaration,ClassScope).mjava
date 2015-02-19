@@ -67,6 +67,17 @@ modifiers
 )
 )
 ;
+m
+.
+setDefaultMethod
+(
+methodDeclaration
+.
+isDefaultMethod
+(
+)
+)
+;
 if
 (
 methodDeclaration
