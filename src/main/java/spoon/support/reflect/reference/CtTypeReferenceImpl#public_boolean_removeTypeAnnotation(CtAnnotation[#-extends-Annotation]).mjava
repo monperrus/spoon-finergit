@@ -11,6 +11,17 @@ Annotation
 annotation
 )
 {
+if
+(
+annotation
+==
+null
+)
+{
+return
+false
+;
+}
 return
 this
 .

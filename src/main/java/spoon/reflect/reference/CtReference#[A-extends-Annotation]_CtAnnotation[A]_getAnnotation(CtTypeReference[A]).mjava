@@ -3,6 +3,7 @@
  * @param annotationType the annotation type
  * @return the annotation if this element is annotated by one annotation ofthe given type
  */
+@Deprecated
 <
 A
 extends

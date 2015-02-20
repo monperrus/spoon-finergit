@@ -13,6 +13,17 @@ annotation
 {
 if
 (
+annotation
+==
+null
+)
+{
+return
+false
+;
+}
+if
+(
 (
 List
 <
