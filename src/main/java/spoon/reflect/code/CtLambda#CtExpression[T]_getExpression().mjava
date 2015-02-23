@@ -1,0 +1,11 @@
+/** 
+ * Gets the expression in the body. Null if the body is a list of statements.
+ */
+CtExpression
+<
+T
+>
+getExpression
+(
+)
+;

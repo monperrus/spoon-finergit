@@ -1,0 +1,16 @@
+/** 
+ * Sets the parameters.
+ */
+void
+setParameters
+(
+List
+<
+CtParameter
+<
+?
+>
+>
+parameters
+)
+;

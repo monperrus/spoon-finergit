@@ -1,0 +1,25 @@
+private
+void
+assertPrintLambda
+(
+CtLambda
+lambda
+,
+String
+expected
+)
+{
+assertEquals
+(
+"Lambda must be well printed"
+,
+expected
+,
+lambda
+.
+toString
+(
+)
+)
+;
+}

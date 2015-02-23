@@ -1,0 +1,16 @@
+/** 
+ * add a thrown type.
+ * @param throwType
+ * @return <tt>true</tt> if this element changed as a result of the call
+ */
+boolean
+addThrownType
+(
+CtTypeReference
+<
+?
+Throwable
+>
+throwType
+)
+;

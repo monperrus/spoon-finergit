@@ -1,0 +1,13 @@
+/** 
+ * Sets the expression in the body of the lambda. Nothing will change if the lambda already has a value in the body attribute.
+ */
+void
+setExpression
+(
+CtExpression
+<
+T
+>
+expression
+)
+;

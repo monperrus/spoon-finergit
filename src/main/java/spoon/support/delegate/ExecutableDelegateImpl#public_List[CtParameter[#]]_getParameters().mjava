@@ -1,0 +1,17 @@
+@Override
+public
+List
+<
+CtParameter
+<
+?
+>
+>
+getParameters
+(
+)
+{
+return
+parameters
+;
+}

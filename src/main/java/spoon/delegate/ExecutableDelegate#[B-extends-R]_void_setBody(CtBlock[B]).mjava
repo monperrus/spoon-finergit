@@ -1,0 +1,18 @@
+/** 
+ * Sets the body expression.
+ */
+<
+B
+extends
+R
+>
+void
+setBody
+(
+CtBlock
+<
+B
+>
+body
+)
+;

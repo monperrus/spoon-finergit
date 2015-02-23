@@ -1,0 +1,25 @@
+private
+void
+assertNameParameter
+(
+CtParameter
+parameter
+,
+String
+name
+)
+{
+assertEquals
+(
+"Lambda has a parameter with a name"
+,
+name
+,
+parameter
+.
+getSimpleName
+(
+)
+)
+;
+}
