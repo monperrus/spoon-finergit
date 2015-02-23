@@ -1,3 +1,4 @@
+@Override
 public
 void
 setModifiers
@@ -9,10 +10,11 @@ ModifierKind
 modifiers
 )
 {
-this
+modifiableDelegate
 .
+setModifiers
+(
 modifiers
-=
-modifiers
+)
 ;
 }

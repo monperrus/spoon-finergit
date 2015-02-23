@@ -1,0 +1,10 @@
+/** 
+ * Sets the visibility of this modifiable element (replaces old visibility).
+ */
+void
+setVisibility
+(
+ModifierKind
+visibility
+)
+;

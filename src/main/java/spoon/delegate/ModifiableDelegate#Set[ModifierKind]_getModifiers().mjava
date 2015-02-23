@@ -1,0 +1,12 @@
+/** 
+ * Returns the modifiers of this element, excluding annotations. Implicit modifiers, such as the  {@code public} and {@code static} modifiers ofinterface members, are included.
+ * @return the modifiers of this declaration in undefined order; an emptyset if there are none
+ */
+Set
+<
+ModifierKind
+>
+getModifiers
+(
+)
+;

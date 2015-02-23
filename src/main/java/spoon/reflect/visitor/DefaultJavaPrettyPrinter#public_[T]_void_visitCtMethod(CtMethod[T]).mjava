@@ -17,6 +17,11 @@ visitCtNamedElement
 m
 )
 ;
+writeModifiers
+(
+m
+)
+;
 if
 (
 m

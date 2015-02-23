@@ -39,4 +39,9 @@ visitCtNamedElement
 type
 )
 ;
+writeModifiers
+(
+type
+)
+;
 }

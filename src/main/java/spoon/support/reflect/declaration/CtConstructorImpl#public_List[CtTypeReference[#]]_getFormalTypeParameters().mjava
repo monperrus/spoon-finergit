@@ -1,0 +1,17 @@
+@Override
+public
+List
+<
+CtTypeReference
+<
+?
+>
+>
+getFormalTypeParameters
+(
+)
+{
+return
+formalTypeParameters
+;
+}

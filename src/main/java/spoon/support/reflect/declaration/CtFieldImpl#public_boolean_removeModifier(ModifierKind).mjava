@@ -1,3 +1,4 @@
+@Override
 public
 boolean
 removeModifier
@@ -7,9 +8,9 @@ modifier
 )
 {
 return
-modifiers
+modifiableDelegate
 .
-remove
+removeModifier
 (
 modifier
 )

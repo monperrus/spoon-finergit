@@ -1,4 +1,6 @@
-public
+/** 
+ * Sets the modifiers.
+ */
 void
 setModifiers
 (
@@ -8,11 +10,4 @@ ModifierKind
 >
 modifiers
 )
-{
-this
-.
-modifiers
-=
-modifiers
 ;
-}

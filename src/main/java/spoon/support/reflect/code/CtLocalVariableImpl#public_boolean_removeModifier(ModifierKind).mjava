@@ -1,3 +1,4 @@
+@Override
 public
 boolean
 removeModifier
@@ -6,14 +7,10 @@ ModifierKind
 modifier
 )
 {
-setMutable
-(
-)
-;
 return
-modifiers
+modifiableDelegate
 .
-remove
+removeModifier
 (
 modifier
 )

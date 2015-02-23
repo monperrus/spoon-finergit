@@ -22,7 +22,7 @@ scanCtGenericElementReference
 e
 )
 ;
-scanCtTypeAnnotationReference
+scanCtTypeAnnotableReference
 (
 e
 )

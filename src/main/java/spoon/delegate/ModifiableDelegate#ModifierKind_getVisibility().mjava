@@ -1,0 +1,8 @@
+/** 
+ * Gets the visibility of this modifiable element.
+ */
+ModifierKind
+getVisibility
+(
+)
+;

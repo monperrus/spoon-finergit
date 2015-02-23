@@ -190,9 +190,4 @@ e
 )
 ;
 }
-writeModifiers
-(
-e
-)
-;
 }
