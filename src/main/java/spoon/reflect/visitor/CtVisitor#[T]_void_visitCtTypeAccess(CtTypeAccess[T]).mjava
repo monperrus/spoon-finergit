@@ -1,0 +1,16 @@
+/** 
+ * Visits a type access.
+ */
+<
+T
+>
+void
+visitCtTypeAccess
+(
+CtTypeAccess
+<
+T
+>
+typeAccess
+)
+;

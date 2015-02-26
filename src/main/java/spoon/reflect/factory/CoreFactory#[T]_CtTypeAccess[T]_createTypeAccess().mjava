@@ -1,0 +1,14 @@
+/** 
+ * Creates a type access expression.
+ */
+<
+T
+>
+CtTypeAccess
+<
+T
+>
+createTypeAccess
+(
+)
+;

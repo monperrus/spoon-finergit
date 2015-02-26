@@ -1,7 +1,7 @@
 @Test
 public
 void
-testOutputGeneratedByTypeAnnotation
+testCompileMethodReferenceGeneratedBySpoon
 (
 )
 throws
@@ -16,7 +16,7 @@ canBeBuild
 new
 File
 (
-"./target/spooned/spoon/test/annotation/testclasses/"
+"./target/spooned/spoon/test/methodreference/testclasses/"
 )
 ,
 8

@@ -1,0 +1,32 @@
+private
+void
+assertTargetedBy
+(
+String
+expected
+,
+CtExpression
+target
+)
+{
+assertNotNull
+(
+"Method reference must have a target expression."
+,
+target
+)
+;
+assertEquals
+(
+"Target reference correspond to the enclosing class."
+,
+expected
+,
+target
+.
+toString
+(
+)
+)
+;
+}

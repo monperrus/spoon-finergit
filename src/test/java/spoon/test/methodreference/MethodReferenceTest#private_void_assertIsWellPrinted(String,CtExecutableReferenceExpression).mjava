@@ -1,0 +1,25 @@
+private
+void
+assertIsWellPrinted
+(
+String
+methodReference
+,
+CtExecutableReferenceExpression
+reference
+)
+{
+assertEquals
+(
+"Method reference must be well printed"
+,
+methodReference
+,
+reference
+.
+toString
+(
+)
+)
+;
+}
