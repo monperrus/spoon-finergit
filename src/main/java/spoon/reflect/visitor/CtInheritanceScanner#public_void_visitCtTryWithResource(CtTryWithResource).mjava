@@ -4,12 +4,12 @@ void
 visitCtTryWithResource
 (
 CtTryWithResource
-tryWithResource
+e
 )
 {
-scanCtStatement
+visitCtTry
 (
-tryWithResource
+e
 )
 ;
 }

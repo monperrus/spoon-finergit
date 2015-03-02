@@ -18,9 +18,4 @@ A
 assignment
 )
 {
-visitCtAssignment
-(
-assignment
-)
-;
 }

@@ -9,12 +9,12 @@ CtArrayTypeReference
 <
 T
 >
-reference
+e
 )
 {
 visitCtTypeReference
 (
-reference
+e
 )
 ;
 }

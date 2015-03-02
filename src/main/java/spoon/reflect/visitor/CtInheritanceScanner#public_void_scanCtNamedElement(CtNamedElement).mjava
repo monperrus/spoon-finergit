@@ -9,14 +9,4 @@ CtNamedElement
 e
 )
 {
-scanCtElement
-(
-e
-)
-;
-scanCtModifiable
-(
-e
-)
-;
 }

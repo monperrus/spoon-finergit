@@ -7,7 +7,7 @@ extends
 T
 >
 void
-visitCtOperatorAssignement
+visitCtOperatorAssignment
 (
 CtOperatorAssignment
 <
@@ -15,7 +15,12 @@ T
 ,
 A
 >
-assignment
+e
 )
 {
+visitCtAssignment
+(
+e
+)
+;
 }

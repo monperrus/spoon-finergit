@@ -3,13 +3,13 @@ public
 T
 >
 void
-visitCtTargetedAccess
+scanCtTargetedAccess
 (
 CtTargetedAccess
 <
 T
 >
-targetedAccess
+e
 )
 {
 }
