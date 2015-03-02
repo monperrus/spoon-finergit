@@ -1,8 +1,0 @@
-/** 
- * Gets the stack of the symbolic abstract evaluation step.
- */
-SymbolicEvaluationStack
-getStack
-(
-)
-;
