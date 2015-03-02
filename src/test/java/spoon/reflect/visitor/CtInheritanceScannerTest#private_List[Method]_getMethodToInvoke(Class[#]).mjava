@@ -1,3 +1,9 @@
+/** 
+ * Create the list of method we have to call for a class
+ * @param entry
+ * @return
+ * @throws Exception
+ */
 private
 List
 <
