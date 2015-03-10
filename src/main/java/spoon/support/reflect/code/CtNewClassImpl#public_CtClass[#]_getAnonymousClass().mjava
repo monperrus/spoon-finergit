@@ -9,6 +9,6 @@ getAnonymousClass
 )
 {
 return
-annonymousClass
+anonymousClass
 ;
 }

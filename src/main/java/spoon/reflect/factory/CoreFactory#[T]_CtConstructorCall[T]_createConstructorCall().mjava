@@ -1,0 +1,14 @@
+/** 
+ * Creates a constructor call expression.
+ */
+<
+T
+>
+CtConstructorCall
+<
+T
+>
+createConstructorCall
+(
+)
+;

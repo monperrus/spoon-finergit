@@ -1,0 +1,16 @@
+/** 
+ * Visits a call to a constructor.
+ */
+<
+T
+>
+void
+visitCtConstructorCall
+(
+CtConstructorCall
+<
+T
+>
+ctConstructorCall
+)
+;

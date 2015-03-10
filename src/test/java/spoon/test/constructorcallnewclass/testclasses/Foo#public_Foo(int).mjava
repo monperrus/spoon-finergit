@@ -1,0 +1,14 @@
+public
+Foo
+(
+int
+i
+)
+{
+this
+.
+i
+=
+i
+;
+}

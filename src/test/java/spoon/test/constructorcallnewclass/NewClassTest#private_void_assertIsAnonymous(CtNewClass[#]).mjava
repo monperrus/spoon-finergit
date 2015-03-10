@@ -1,0 +1,27 @@
+private
+void
+assertIsAnonymous
+(
+CtNewClass
+<
+?
+>
+newClass
+)
+{
+assertTrue
+(
+"Class in CtNewClass is anonymous"
+,
+newClass
+.
+getAnonymousClass
+(
+)
+.
+isAnonymous
+(
+)
+)
+;
+}
