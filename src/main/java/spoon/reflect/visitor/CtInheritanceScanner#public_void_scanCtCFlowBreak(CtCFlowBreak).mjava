@@ -9,9 +9,4 @@ CtCFlowBreak
 flowBreak
 )
 {
-scanCtCodeElement
-(
-flowBreak
-)
-;
 }

@@ -3,12 +3,12 @@ void
 visitCtTypeParameterReference
 (
 CtTypeParameterReference
-ref
+e
 )
 {
 visitCtTypeReference
 (
-ref
+e
 )
 ;
 }

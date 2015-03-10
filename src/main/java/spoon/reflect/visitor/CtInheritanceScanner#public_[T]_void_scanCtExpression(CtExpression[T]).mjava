@@ -15,14 +15,4 @@ T
 expression
 )
 {
-scanCtCodeElement
-(
-expression
-)
-;
-scanCtTypedElement
-(
-expression
-)
-;
 }

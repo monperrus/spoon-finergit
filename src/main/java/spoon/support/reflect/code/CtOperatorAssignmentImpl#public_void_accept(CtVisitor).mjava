@@ -9,7 +9,7 @@ visitor
 {
 visitor
 .
-visitCtOperatorAssignement
+visitCtOperatorAssignment
 (
 this
 )

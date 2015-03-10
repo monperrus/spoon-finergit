@@ -14,12 +14,12 @@ CtEnum
 <
 T
 >
-ctEnum
+e
 )
 {
 visitCtClass
 (
-ctEnum
+e
 )
 ;
 }

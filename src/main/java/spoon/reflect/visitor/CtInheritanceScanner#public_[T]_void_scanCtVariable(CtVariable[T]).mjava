@@ -15,14 +15,4 @@ T
 v
 )
 {
-scanCtNamedElement
-(
-v
-)
-;
-scanCtTypedElement
-(
-v
-)
-;
 }

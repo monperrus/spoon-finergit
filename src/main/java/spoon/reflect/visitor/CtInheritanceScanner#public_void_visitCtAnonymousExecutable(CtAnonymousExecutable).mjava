@@ -16,4 +16,14 @@ scanCtModifiable
 e
 )
 ;
+scanCtTypeMember
+(
+e
+)
+;
+scanCtVisitable
+(
+e
+)
+;
 }

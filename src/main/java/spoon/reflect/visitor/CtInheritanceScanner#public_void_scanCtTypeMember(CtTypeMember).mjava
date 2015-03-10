@@ -1,0 +1,9 @@
+public
+void
+scanCtTypeMember
+(
+CtTypeMember
+e
+)
+{
+}

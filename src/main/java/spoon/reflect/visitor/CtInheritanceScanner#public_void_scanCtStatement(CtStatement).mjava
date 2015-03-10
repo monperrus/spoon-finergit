@@ -9,9 +9,4 @@ CtStatement
 s
 )
 {
-scanCtCodeElement
-(
-s
-)
-;
 }

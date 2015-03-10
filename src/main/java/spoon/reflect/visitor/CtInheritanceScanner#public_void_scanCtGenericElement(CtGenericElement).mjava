@@ -9,9 +9,4 @@ CtGenericElement
 e
 )
 {
-scanCtElement
-(
-e
-)
-;
 }

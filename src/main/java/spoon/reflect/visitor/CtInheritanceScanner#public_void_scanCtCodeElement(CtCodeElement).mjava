@@ -9,9 +9,4 @@ CtCodeElement
 e
 )
 {
-scanCtElement
-(
-e
-)
-;
 }
