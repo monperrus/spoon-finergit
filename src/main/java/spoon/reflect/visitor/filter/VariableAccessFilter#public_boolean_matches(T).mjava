@@ -1,11 +1,9 @@
+@Override
 public
 boolean
 matches
 (
-CtVariableAccess
-<
-?
->
+T
 variableAccess
 )
 {

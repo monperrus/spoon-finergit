@@ -21,7 +21,7 @@ getElements
 factory
 ,
 new
-AbstractFilter
+Filter
 <
 CtConstructor
 <
@@ -29,9 +29,6 @@ CtConstructor
 >
 >
 (
-CtConstructor
-.
-class
 )
 {
 @Override

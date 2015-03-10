@@ -12,13 +12,6 @@ CtVariableReference
 variable
 )
 {
-super
-(
-CtVariableAccess
-.
-class
-)
-;
 this
 .
 variable

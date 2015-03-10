@@ -14,15 +14,7 @@ field
 {
 super
 (
-CtFieldAccess
-.
-class
+field
 )
-;
-this
-.
-field
-=
-field
 ;
 }
