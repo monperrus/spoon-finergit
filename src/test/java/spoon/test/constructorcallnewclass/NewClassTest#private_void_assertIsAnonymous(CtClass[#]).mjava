@@ -2,22 +2,18 @@ private
 void
 assertIsAnonymous
 (
-CtNewClass
+CtClass
 <
 ?
 >
-newClass
+anonymousClass
 )
 {
 assertTrue
 (
 "Class in CtNewClass is anonymous"
 ,
-newClass
-.
-getAnonymousClass
-(
-)
+anonymousClass
 .
 isAnonymous
 (

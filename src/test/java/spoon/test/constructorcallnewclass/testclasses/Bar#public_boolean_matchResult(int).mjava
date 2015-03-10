@@ -1,0 +1,9 @@
+public
+abstract
+boolean
+matchResult
+(
+int
+result
+)
+;

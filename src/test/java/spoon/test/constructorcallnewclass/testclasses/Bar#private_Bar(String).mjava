@@ -1,0 +1,15 @@
+private
+Bar
+(
+final
+String
+symbol
+)
+{
+this
+.
+symbol
+=
+symbol
+;
+}
