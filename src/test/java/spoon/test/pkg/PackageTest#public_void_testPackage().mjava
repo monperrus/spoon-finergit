@@ -144,8 +144,6 @@ getDocComment
 )
 )
 ;
-Assert
-.
 assertTrue
 (
 CtPackage
@@ -351,8 +349,6 @@ getLine
 )
 )
 ;
-Assert
-.
 assertTrue
 (
 CtPackage
