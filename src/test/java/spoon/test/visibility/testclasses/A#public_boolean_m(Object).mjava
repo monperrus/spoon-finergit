@@ -1,0 +1,16 @@
+public
+boolean
+m
+(
+Object
+o
+)
+{
+return
+o
+instanceof
+A
+.
+B
+;
+}
