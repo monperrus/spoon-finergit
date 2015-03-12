@@ -2,22 +2,18 @@ private
 void
 assertIsConstructor
 (
-CtNewClass
+CtExecutableReference
 <
 ?
 >
-newClass
+executable
 )
 {
 assertTrue
 (
 "Method must be a constructor"
 ,
-newClass
-.
-getExecutable
-(
-)
+executable
 .
 isConstructor
 (
