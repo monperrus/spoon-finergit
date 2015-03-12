@@ -36,7 +36,7 @@ getParameters
 )
 )
 ;
-assertParameterWithNoType
+assertParameterTyped
 (
 (
 CtParameter
@@ -54,6 +54,12 @@ get
 (
 0
 )
+,
+Foo
+.
+Person
+.
+class
 ,
 "p"
 )
@@ -130,7 +136,7 @@ final
 String
 expected
 =
-"if (((java.util.function.Predicate<spoon.test.lambda.testclasses.Foo.Person>)(( p) -> (p.age) > 18)).test(new spoon.test.lambda.testclasses.Foo.Person(10))) {\n"
+"if (((java.util.function.Predicate<spoon.test.lambda.testclasses.Foo.Person>)((spoon.test.lambda.testclasses.Foo.Person p) -> (p.age) > 18)).test(new spoon.test.lambda.testclasses.Foo.Person(10))) {\n"
 +
 "    java.lang.System.err.println(\"Enjoy, you have more than 18.\");\n"
 +

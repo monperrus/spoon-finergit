@@ -50,4 +50,17 @@ lambda
 "((spoon.test.lambda.testclasses.Foo.Check)(() -> false))"
 )
 ;
+System
+.
+err
+.
+println
+(
+foo
+.
+toString
+(
+)
+)
+;
 }
