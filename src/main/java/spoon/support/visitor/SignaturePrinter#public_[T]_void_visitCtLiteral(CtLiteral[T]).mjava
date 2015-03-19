@@ -26,10 +26,6 @@ write
 (
 literal
 .
-getValue
-(
-)
-.
 toString
 (
 )
