@@ -1,6 +1,6 @@
 public
 static
-boolean
+void
 canBeBuild
 (
 File
@@ -62,7 +62,6 @@ testDirectory
 ;
 try
 {
-return
 compiler
 .
 build
@@ -76,8 +75,20 @@ Exception
 e
 )
 {
-return
-false
+throw
+new
+AssertionError
+(
+"Can't compile "
++
+testDirectory
+.
+getName
+(
+)
+,
+e
+)
 ;
 }
 }

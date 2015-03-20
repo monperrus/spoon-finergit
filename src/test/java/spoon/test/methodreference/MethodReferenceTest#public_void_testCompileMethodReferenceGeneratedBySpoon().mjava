@@ -7,8 +7,6 @@ testCompileMethodReferenceGeneratedBySpoon
 throws
 Exception
 {
-assertTrue
-(
 TestUtils
 .
 canBeBuild
@@ -20,7 +18,6 @@ File
 )
 ,
 8
-)
 )
 ;
 }

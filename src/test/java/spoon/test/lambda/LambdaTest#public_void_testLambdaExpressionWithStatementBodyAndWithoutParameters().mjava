@@ -16,18 +16,22 @@ getLambdaByName
 "lambda$6"
 )
 ;
-assertType
+assertTypedBy
 (
-lambda
-,
 Foo
 .
 Check
 .
 class
+,
+lambda
+.
+getType
+(
+)
 )
 ;
-assertParametersSize
+assertParametersSizeIs
 (
 0
 ,
@@ -43,10 +47,8 @@ assertStatementBody
 lambda
 )
 ;
-assertPrintLambda
+assertIsWellPrinted
 (
-lambda
-,
 "((spoon.test.lambda.testclasses.Foo.Check)(() -> {\n"
 +
 "    java.lang.System.err.println(\"\");\n"
@@ -54,6 +56,8 @@ lambda
 "    return false;\n"
 +
 "}))"
+,
+lambda
 )
 ;
 }

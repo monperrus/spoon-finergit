@@ -1,12 +1,12 @@
 private
 void
-assertPrintLambda
+assertIsWellPrinted
 (
-CtLambda
-lambda
-,
 String
 expected
+,
+CtLambda
+lambda
 )
 {
 assertEquals

@@ -16,16 +16,20 @@ getLambdaByName
 "lambda$7"
 )
 ;
-assertType
+assertTypedBy
 (
-lambda
-,
 Predicate
 .
 class
+,
+lambda
+.
+getType
+(
+)
 )
 ;
-assertParametersSize
+assertParametersSizeIs
 (
 1
 ,
@@ -36,8 +40,10 @@ getParameters
 )
 )
 ;
-assertParameterTyped
-(
+final
+CtParameter
+parameter
+=
 (
 CtParameter
 )
@@ -51,14 +57,23 @@ get
 (
 0
 )
-,
+;
+assertParameterTypedBy
+(
 Foo
 .
 Person
 .
 class
 ,
+parameter
+)
+;
+assertParameterIsNamedBy
+(
 "p"
+,
+parameter
 )
 ;
 assertStatementBody
@@ -66,10 +81,8 @@ assertStatementBody
 lambda
 )
 ;
-assertPrintLambda
+assertIsWellPrinted
 (
-lambda
-,
 "((java.util.function.Predicate<spoon.test.lambda.testclasses.Foo.Person>)((spoon.test.lambda.testclasses.Foo.Person p) -> {\n"
 +
 "    p.doSomething();\n"
@@ -77,6 +90,8 @@ lambda
 "    return (p.age) > 10;\n"
 +
 "}))"
+,
+lambda
 )
 ;
 }
