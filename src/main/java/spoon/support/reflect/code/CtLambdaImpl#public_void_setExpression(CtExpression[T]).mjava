@@ -12,11 +12,7 @@ expression
 {
 if
 (
-executableDelegate
-.
-getBody
-(
-)
+body
 !=
 null
 )

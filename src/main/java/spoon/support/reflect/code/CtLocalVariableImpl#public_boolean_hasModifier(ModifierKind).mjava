@@ -8,9 +8,11 @@ modifier
 )
 {
 return
-modifiableDelegate
+getModifiers
+(
+)
 .
-hasModifier
+contains
 (
 modifier
 )

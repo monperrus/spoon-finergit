@@ -12,9 +12,9 @@ throwType
 )
 {
 return
-executableDelegate
+thrownTypes
 .
-removeThrownType
+remove
 (
 throwType
 )

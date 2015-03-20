@@ -13,11 +13,10 @@ CtParameter
 parameters
 )
 {
-executableDelegate
+this
 .
-setParameters
-(
 parameters
-)
+=
+parameters
 ;
 }

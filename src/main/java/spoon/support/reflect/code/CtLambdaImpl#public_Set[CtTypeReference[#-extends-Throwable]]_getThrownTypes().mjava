@@ -13,10 +13,6 @@ getThrownTypes
 )
 {
 return
-executableDelegate
-.
-getThrownTypes
-(
-)
+thrownTypes
 ;
 }

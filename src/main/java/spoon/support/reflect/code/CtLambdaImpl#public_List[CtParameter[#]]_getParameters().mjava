@@ -12,10 +12,6 @@ getParameters
 )
 {
 return
-executableDelegate
-.
-getParameters
-(
-)
+parameters
 ;
 }

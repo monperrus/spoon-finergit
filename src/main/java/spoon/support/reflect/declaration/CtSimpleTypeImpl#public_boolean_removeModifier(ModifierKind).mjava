@@ -8,9 +8,9 @@ modifier
 )
 {
 return
-modifiableDelegate
+modifiers
 .
-removeModifier
+remove
 (
 modifier
 )

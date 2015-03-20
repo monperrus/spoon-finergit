@@ -11,9 +11,9 @@ parameter
 )
 {
 return
-executableDelegate
+parameters
 .
-removeParameter
+remove
 (
 parameter
 )

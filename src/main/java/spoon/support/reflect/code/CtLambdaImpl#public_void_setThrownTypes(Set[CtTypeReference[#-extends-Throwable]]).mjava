@@ -14,11 +14,10 @@ Throwable
 thrownTypes
 )
 {
-executableDelegate
+this
 .
-setThrownTypes
-(
 thrownTypes
-)
+=
+thrownTypes
 ;
 }

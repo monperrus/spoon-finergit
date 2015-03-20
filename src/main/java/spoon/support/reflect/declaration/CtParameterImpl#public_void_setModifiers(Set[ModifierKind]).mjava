@@ -10,11 +10,10 @@ ModifierKind
 modifiers
 )
 {
-modifiableDelegate
+this
 .
-setModifiers
-(
 modifiers
-)
+=
+modifiers
 ;
 }
