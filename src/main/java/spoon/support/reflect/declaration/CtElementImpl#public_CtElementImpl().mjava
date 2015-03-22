@@ -7,4 +7,11 @@ super
 (
 )
 ;
+setParent
+(
+this
+.
+ROOT_ELEMENT
+)
+;
 }
