@@ -83,7 +83,7 @@ init
 ;
 spoon
 .
-setArgs
+run
 (
 new
 String
@@ -98,12 +98,6 @@ String
 ,
 "target/spooned-apitest"
 }
-)
-;
-spoon
-.
-run
-(
 )
 ;
 Assert

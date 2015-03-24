@@ -1,0 +1,11 @@
+/** 
+ * Sets the output directory 
+ */
+public
+void
+setOutputDirectory
+(
+String
+string
+)
+;

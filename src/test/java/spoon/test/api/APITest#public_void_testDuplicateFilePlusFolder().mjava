@@ -19,7 +19,7 @@ Launcher
 ;
 spoon
 .
-setArgs
+main
 (
 new
 String
@@ -40,12 +40,6 @@ pathSeparator
 ,
 "target/spooned-apitest"
 }
-)
-;
-spoon
-.
-run
-(
 )
 ;
 }

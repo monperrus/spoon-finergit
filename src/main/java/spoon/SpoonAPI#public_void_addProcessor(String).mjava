@@ -1,0 +1,11 @@
+/** 
+ * Adds a processor (fully qualified name).
+ */
+public
+void
+addProcessor
+(
+String
+name
+)
+;

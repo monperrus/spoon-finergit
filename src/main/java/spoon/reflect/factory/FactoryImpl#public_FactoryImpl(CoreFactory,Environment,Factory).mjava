@@ -15,10 +15,6 @@ parentFactory
 )
 {
 this
-(
-)
-;
-this
 .
 Environment
 =

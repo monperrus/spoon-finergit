@@ -10,8 +10,6 @@ SpoonFile
 >
 files
 )
-throws
-Exception
 {
 startTime
 =

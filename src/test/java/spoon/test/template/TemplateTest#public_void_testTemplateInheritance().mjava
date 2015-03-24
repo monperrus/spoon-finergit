@@ -20,7 +20,7 @@ factory
 =
 spoon
 .
-createFactory
+getFactory
 (
 )
 ;

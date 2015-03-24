@@ -8,6 +8,4 @@ addTemplateSource
 File
 source
 )
-throws
-IOException
 ;

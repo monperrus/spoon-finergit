@@ -1,0 +1,16 @@
+private
+void
+addInputResource
+(
+SpoonResource
+resource
+)
+{
+modelBuilder
+.
+addInputSource
+(
+resource
+)
+;
+}

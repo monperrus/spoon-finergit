@@ -1,5 +1,5 @@
 /** 
- * The constructor.
+ * Should not be called directly. Use  {@link spoon.Launcher#createFactory()} instead.
  */
 public
 FactoryImpl

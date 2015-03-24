@@ -22,7 +22,7 @@ invalidEntry
 ;
 spoon
 .
-setArgs
+main
 (
 new
 String
@@ -37,12 +37,6 @@ invalidEntry
 ,
 "target/spooned-apitest"
 }
-)
-;
-spoon
-.
-run
-(
 )
 ;
 }

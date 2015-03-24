@@ -5,6 +5,13 @@ testFullyQualifiedException
 (
 )
 {
+Factory
+factory
+=
+createFactory
+(
+)
+;
 CtClass
 <
 ?

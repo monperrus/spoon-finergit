@@ -3,6 +3,7 @@
  * @return the JSAP arguments
  */
 protected
+static
 JSAP
 defineArgs
 (
@@ -373,6 +374,13 @@ false
 ;
 opt2
 .
+setDefault
+(
+"UTF-8"
+)
+;
+opt2
+.
 setHelp
 (
 "Forces the compiler to use a specific encoding (UTF-8, UTF-16, ...)."
@@ -626,7 +634,7 @@ opt2
 .
 setDefault
 (
-"spooned"
+OUTPUTDIR
 )
 ;
 opt2

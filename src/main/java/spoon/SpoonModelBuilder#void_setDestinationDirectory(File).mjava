@@ -8,6 +8,4 @@ setDestinationDirectory
 File
 destinationDirectory
 )
-throws
-IOException
 ;

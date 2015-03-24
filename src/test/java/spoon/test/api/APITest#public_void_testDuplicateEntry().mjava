@@ -52,7 +52,7 @@ getCanonicalFile
 ;
 spoon
 .
-setArgs
+main
 (
 new
 String
@@ -75,12 +75,6 @@ duplicateEntry
 ,
 "target/spooned-apitest"
 }
-)
-;
-spoon
-.
-run
-(
 )
 ;
 }

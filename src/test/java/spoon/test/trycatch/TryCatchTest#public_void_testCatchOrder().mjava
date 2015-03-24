@@ -5,6 +5,13 @@ testCatchOrder
 (
 )
 {
+Factory
+factory
+=
+createFactory
+(
+)
+;
 CtClass
 <
 ?

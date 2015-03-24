@@ -9,6 +9,4 @@ boolean
 build
 (
 )
-throws
-Exception
 ;

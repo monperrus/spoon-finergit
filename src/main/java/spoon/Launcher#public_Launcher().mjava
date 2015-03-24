@@ -6,12 +6,6 @@ Launcher
 (
 )
 {
-jsapSpec
-=
-defineArgs
-(
-)
-;
 processArguments
 (
 )

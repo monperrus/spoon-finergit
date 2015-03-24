@@ -8,6 +8,4 @@ setOutputDirectory
 File
 outputDirectory
 )
-throws
-IOException
 ;

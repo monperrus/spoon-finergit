@@ -6,8 +6,6 @@ setOutputDirectory
 File
 outputDirectory
 )
-throws
-IOException
 {
 this
 .

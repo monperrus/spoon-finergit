@@ -1,0 +1,11 @@
+/** 
+ * Adds an input resource to be processed by Spoon (either a file or a folder).
+ */
+public
+void
+addInputResource
+(
+String
+file
+)
+;
