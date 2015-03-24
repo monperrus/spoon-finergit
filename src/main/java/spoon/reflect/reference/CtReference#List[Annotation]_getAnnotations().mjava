@@ -1,6 +1,7 @@
 /** 
  * Returns the annotations that are present on this element.
  */
+@Deprecated
 List
 <
 Annotation

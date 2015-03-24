@@ -1,0 +1,11 @@
+/** 
+ * Gets the executable referenced by the expression.
+ */
+CtExecutableReference
+<
+T
+>
+getExecutable
+(
+)
+;

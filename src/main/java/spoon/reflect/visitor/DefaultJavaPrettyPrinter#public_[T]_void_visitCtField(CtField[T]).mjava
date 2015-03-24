@@ -17,6 +17,11 @@ visitCtNamedElement
 f
 )
 ;
+writeModifiers
+(
+f
+)
+;
 scan
 (
 f

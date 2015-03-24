@@ -1,0 +1,16 @@
+@Override
+public
+void
+setGenerateJavadoc
+(
+boolean
+generateJavadoc
+)
+{
+this
+.
+generateJavadoc
+=
+generateJavadoc
+;
+}

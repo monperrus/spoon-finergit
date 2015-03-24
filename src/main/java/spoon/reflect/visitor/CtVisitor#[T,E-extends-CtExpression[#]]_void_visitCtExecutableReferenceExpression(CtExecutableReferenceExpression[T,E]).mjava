@@ -1,0 +1,25 @@
+/** 
+ * Visits a reference to an executable.
+ */
+<
+T
+,
+E
+extends
+CtExpression
+<
+?
+>
+>
+void
+visitCtExecutableReferenceExpression
+(
+CtExecutableReferenceExpression
+<
+T
+,
+E
+>
+expression
+)
+;

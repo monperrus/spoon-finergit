@@ -1,0 +1,10 @@
+/** 
+ * Sets the option generate-javadoc to generate javadoc of the project on the source generated.
+ */
+void
+setGenerateJavadoc
+(
+boolean
+generateJavadoc
+)
+;

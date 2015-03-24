@@ -1,0 +1,14 @@
+@Override
+public
+CtExpression
+<
+T
+>
+getExpression
+(
+)
+{
+return
+expression
+;
+}

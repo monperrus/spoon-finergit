@@ -17,6 +17,26 @@ visitCtNamedElement
 m
 )
 ;
+writeModifiers
+(
+m
+)
+;
+if
+(
+m
+.
+isDefaultMethod
+(
+)
+)
+{
+write
+(
+"default "
+)
+;
+}
 writeGenericsParameter
 (
 m

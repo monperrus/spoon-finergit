@@ -6,6 +6,11 @@ CtTypeParameterReference
 ref
 )
 {
+printTypeAnnotations
+(
+ref
+)
+;
 if
 (
 importsContext

@@ -1,0 +1,10 @@
+/** 
+ * Sets the default value state of a method.
+ */
+void
+setDefaultMethod
+(
+boolean
+defaultMethod
+)
+;

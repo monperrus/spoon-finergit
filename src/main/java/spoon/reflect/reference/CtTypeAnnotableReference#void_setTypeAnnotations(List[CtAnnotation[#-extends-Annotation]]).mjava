@@ -1,0 +1,17 @@
+/** 
+ * Sets the type annotations for this type.
+ */
+void
+setTypeAnnotations
+(
+List
+<
+CtAnnotation
+<
+?
+Annotation
+>
+>
+annotations
+)
+;

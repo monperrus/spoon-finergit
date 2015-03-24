@@ -1,0 +1,17 @@
+public
+void
+m5
+(
+)
+{
+typeFactory
+(
+Type
+<
+String
+>
+::
+new
+)
+;
+}

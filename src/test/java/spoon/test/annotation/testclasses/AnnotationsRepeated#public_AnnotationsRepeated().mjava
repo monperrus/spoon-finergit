@@ -1,0 +1,8 @@
+@AnnotationRepeated("Constructor 1")
+@AnnotationRepeated("Constructor 2")
+public
+AnnotationsRepeated
+(
+)
+{
+}

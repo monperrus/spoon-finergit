@@ -1,0 +1,16 @@
+public
+void
+m6
+(
+@TypeAnnotation
+String
+param
+)
+{
+@TypeAnnotation
+String
+s
+=
+""
+;
+}

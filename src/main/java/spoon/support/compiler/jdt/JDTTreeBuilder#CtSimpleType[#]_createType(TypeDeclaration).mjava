@@ -31,11 +31,7 @@ AccAnnotation
 0
 )
 {
-CtSimpleType
-<
-?
->
-annotationType
+type
 =
 factory
 .
@@ -46,10 +42,6 @@ Core
 createAnnotationType
 (
 )
-;
-type
-=
-annotationType
 ;
 }
 else
@@ -199,6 +191,7 @@ typeParameters
 !=
 null
 )
+{
 for
 (
 TypeParameter
@@ -223,6 +216,7 @@ binding
 )
 )
 ;
+}
 }
 type
 =
@@ -316,6 +310,7 @@ typeParameters
 !=
 null
 )
+{
 for
 (
 TypeParameter
@@ -340,6 +335,7 @@ binding
 )
 )
 ;
+}
 }
 type
 =

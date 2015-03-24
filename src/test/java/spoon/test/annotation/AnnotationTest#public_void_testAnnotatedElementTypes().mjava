@@ -40,7 +40,7 @@ getAnnotations
 ;
 assertEquals
 (
-1
+2
 ,
 annotations
 .

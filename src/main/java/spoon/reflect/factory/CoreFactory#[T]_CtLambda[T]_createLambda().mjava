@@ -1,0 +1,14 @@
+/** 
+ * Creates a new anonymous method expression.
+ */
+<
+T
+>
+CtLambda
+<
+T
+>
+createLambda
+(
+)
+;

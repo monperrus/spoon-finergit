@@ -15,9 +15,11 @@ isPreserveLineNumbers
 (
 )
 &&
-context
+env
 .
-printDocs
+isGenerateJavadoc
+(
+)
 &&
 (
 e
@@ -188,9 +190,4 @@ e
 )
 ;
 }
-writeModifiers
-(
-e
-)
-;
 }

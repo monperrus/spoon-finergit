@@ -1,0 +1,9 @@
+@AnnotationRepeated("Method 1")
+@AnnotationRepeated("Method 2")
+public
+void
+method
+(
+)
+{
+}

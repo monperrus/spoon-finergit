@@ -1,0 +1,16 @@
+/** 
+ * Visits an anonymous method construction.
+ */
+<
+T
+>
+void
+visitCtLambda
+(
+CtLambda
+<
+T
+>
+lambda
+)
+;

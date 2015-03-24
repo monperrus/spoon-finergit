@@ -1,0 +1,14 @@
+@Override
+public
+CtExecutableReference
+<
+T
+>
+getExecutable
+(
+)
+{
+return
+executable
+;
+}

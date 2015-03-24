@@ -1,0 +1,31 @@
+private
+void
+assertStatementBody
+(
+CtLambda
+lambda
+)
+{
+assertNotNull
+(
+"Lambda has a body with statements."
+,
+lambda
+.
+getBody
+(
+)
+)
+;
+assertNull
+(
+"Lambda don't have an expression for its body"
+,
+lambda
+.
+getExpression
+(
+)
+)
+;
+}

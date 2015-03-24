@@ -17,6 +17,11 @@ visitCtNamedElement
 c
 )
 ;
+writeModifiers
+(
+c
+)
+;
 writeGenericsParameter
 (
 c

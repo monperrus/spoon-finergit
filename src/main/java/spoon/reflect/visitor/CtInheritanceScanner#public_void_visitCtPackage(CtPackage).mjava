@@ -11,11 +11,6 @@ scanCtNamedElement
 e
 )
 ;
-scanCtModifiable
-(
-e
-)
-;
 scanCtElement
 (
 e

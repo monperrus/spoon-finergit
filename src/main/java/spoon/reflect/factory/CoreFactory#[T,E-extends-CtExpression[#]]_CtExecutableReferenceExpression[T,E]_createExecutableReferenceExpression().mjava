@@ -1,0 +1,23 @@
+/** 
+ * Creates a new executable reference expression.
+ */
+<
+T
+,
+E
+extends
+CtExpression
+<
+?
+>
+>
+CtExecutableReferenceExpression
+<
+T
+,
+E
+>
+createExecutableReferenceExpression
+(
+)
+;
