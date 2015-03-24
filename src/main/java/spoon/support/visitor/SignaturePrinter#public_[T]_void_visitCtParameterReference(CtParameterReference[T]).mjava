@@ -16,6 +16,24 @@ write
 (
 reference
 .
+getType
+(
+)
+.
+getQualifiedName
+(
+)
+)
+.
+write
+(
+" "
+)
+;
+write
+(
+reference
+.
 getSimpleName
 (
 )

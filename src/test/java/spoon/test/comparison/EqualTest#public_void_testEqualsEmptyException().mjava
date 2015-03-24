@@ -184,7 +184,7 @@ getSignature
 ;
 assertEquals
 (
-""
+realParam1
 ,
 signatureArg1
 )
@@ -232,7 +232,7 @@ getReturnedExpression
 ;
 assertEquals
 (
-""
+realParam1
 ,
 returnExp
 .
