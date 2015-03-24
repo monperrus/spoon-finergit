@@ -17,4 +17,11 @@ add
 type
 )
 ;
+type
+.
+setParent
+(
+this
+)
+;
 }

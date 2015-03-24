@@ -98,17 +98,6 @@ exceptionMsg
 )
 ;
 }
-if
-(
-parent
-==
-ROOT_ELEMENT
-)
-{
-return
-null
-;
-}
 return
 parent
 ;
