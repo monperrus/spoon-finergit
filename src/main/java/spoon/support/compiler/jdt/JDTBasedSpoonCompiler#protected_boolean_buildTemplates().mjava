@@ -3,8 +3,6 @@ boolean
 buildTemplates
 (
 )
-throws
-Exception
 {
 if
 (
@@ -106,6 +104,14 @@ this
 templateClasspath
 !=
 null
+&&
+this
+.
+templateClasspath
+.
+length
+>
+0
 )
 {
 args

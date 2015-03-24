@@ -4,8 +4,6 @@ boolean
 compileInputSources
 (
 )
-throws
-Exception
 {
 initInputClassLoader
 (

@@ -1,0 +1,8 @@
+/** 
+ * Returns the working factory 
+ */
+Factory
+getFactory
+(
+)
+;

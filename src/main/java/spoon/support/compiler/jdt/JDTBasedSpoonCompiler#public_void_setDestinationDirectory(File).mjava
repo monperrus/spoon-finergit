@@ -6,8 +6,6 @@ setDestinationDirectory
 File
 destinationDirectory
 )
-throws
-IOException
 {
 this
 .

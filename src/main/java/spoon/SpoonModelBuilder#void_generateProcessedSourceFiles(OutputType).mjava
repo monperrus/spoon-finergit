@@ -8,6 +8,4 @@ generateProcessedSourceFiles
 OutputType
 outputType
 )
-throws
-Exception
 ;

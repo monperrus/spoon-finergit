@@ -1,6 +1,4 @@
-/** 
- * Creates a default Spoon factory, which holds the Java model (AST) compiled from the source files and which can be processed by Spoon processors.
- */
+@Override
 public
 Factory
 createFactory
@@ -8,8 +6,14 @@ createFactory
 )
 {
 return
-createFactory
+new
+FactoryImpl
 (
+new
+DefaultCoreFactory
+(
+)
+,
 createEnvironment
 (
 )

@@ -6,6 +6,4 @@ boolean
 compileInputSources
 (
 )
-throws
-Exception
 ;

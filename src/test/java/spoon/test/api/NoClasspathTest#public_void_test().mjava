@@ -17,10 +17,6 @@ Launcher
 ;
 spoon
 .
-getFactory
-(
-)
-.
 getEnvironment
 (
 )
@@ -34,15 +30,7 @@ spoon
 .
 addInputResource
 (
-new
-FileSystemFolder
-(
-new
-File
-(
 "./src/test/resources/spoon/test/noclasspath"
-)
-)
 )
 ;
 spoon

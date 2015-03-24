@@ -20,15 +20,15 @@ public
 SpoonCompiler
 createCompiler
 (
-Factory
-factory
 )
 {
 return
 new
 JDTBasedSpoonCompiler
 (
-factory
+getFactory
+(
+)
 )
 {
 @Override
@@ -49,6 +49,7 @@ this
 useFactory
 )
 {
+@Override
 public
 CompilationUnitDeclaration
 [
@@ -61,8 +62,6 @@ SpoonFile
 >
 files
 )
-throws
-Exception
 {
 startTime
 =

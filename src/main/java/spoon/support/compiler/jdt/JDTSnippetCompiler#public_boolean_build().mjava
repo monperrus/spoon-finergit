@@ -4,8 +4,6 @@ boolean
 build
 (
 )
-throws
-Exception
 {
 if
 (
@@ -16,7 +14,7 @@ null
 {
 throw
 new
-Exception
+SpoonException
 (
 "Factory not initialized"
 )

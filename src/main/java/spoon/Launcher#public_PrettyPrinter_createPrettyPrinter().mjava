@@ -2,10 +2,15 @@ public
 PrettyPrinter
 createPrettyPrinter
 (
-Environment
-environment
 )
 {
+Environment
+environment
+=
+getEnvironment
+(
+)
+;
 if
 (
 environment

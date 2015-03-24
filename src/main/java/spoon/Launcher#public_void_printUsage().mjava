@@ -1,13 +1,8 @@
-/** 
- * Print the usage for this command-line launcher.
- */
 public
 void
 printUsage
 (
 )
-throws
-Exception
 {
 this
 .

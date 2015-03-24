@@ -3,8 +3,6 @@ void
 generateProcessedSourceFilesUsingTypes
 (
 )
-throws
-Exception
 {
 if
 (

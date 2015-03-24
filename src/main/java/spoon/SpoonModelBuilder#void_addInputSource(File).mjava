@@ -8,6 +8,4 @@ addInputSource
 File
 source
 )
-throws
-IOException
 ;

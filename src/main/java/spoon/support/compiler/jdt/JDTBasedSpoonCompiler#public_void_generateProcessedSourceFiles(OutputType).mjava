@@ -6,8 +6,6 @@ generateProcessedSourceFiles
 OutputType
 outputType
 )
-throws
-Exception
 {
 initInputClassLoader
 (

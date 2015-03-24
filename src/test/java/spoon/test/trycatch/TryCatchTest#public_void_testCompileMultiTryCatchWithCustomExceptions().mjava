@@ -39,15 +39,6 @@ Launcher
 (
 )
 ;
-Factory
-factory
-=
-launcher
-.
-createFactory
-(
-)
-;
 final
 SpoonCompiler
 newCompiler
@@ -56,7 +47,6 @@ launcher
 .
 createCompiler
 (
-factory
 )
 ;
 newCompiler
