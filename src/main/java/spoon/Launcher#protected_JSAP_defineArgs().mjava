@@ -331,7 +331,7 @@ opt2
 .
 setDefault
 (
-"7"
+"8"
 )
 ;
 jsap
