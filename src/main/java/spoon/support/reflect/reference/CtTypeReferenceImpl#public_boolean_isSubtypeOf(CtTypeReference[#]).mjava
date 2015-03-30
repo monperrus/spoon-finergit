@@ -90,6 +90,12 @@ CtSimpleType
 >
 superTypeDecl
 =
+(
+CtSimpleType
+<
+?
+>
+)
 type
 .
 getDeclaration

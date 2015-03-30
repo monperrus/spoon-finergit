@@ -15,6 +15,12 @@ CtSimpleType
 >
 t
 =
+(
+CtSimpleType
+<
+?
+>
+)
 getAnnotationType
 (
 )

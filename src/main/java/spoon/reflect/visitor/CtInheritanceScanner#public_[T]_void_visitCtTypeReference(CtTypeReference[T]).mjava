@@ -17,6 +17,11 @@ scanCtReference
 e
 )
 ;
+scanCtTypeInformation
+(
+e
+)
+;
 scanCtGenericElementReference
 (
 e

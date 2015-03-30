@@ -22,6 +22,11 @@ scanCtSimpleType
 e
 )
 ;
+scanCtTypeInformation
+(
+e
+)
+;
 scanCtGenericElement
 (
 e

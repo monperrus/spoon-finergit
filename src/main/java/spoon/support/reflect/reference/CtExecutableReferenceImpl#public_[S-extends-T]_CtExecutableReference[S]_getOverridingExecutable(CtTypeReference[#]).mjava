@@ -46,6 +46,12 @@ CtSimpleType
 >
 t
 =
+(
+CtSimpleType
+<
+?
+>
+)
 subType
 .
 getDeclaration

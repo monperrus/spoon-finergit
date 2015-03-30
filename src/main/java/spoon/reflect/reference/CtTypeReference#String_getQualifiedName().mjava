@@ -1,9 +1,0 @@
-/** 
- * Gets the qualified name.
- * @return the fully-qualified name of the referenced type
- */
-String
-getQualifiedName
-(
-)
-;

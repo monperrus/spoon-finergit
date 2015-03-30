@@ -1,6 +1,5 @@
-/** 
- * Gets the super interfaces of this type.
- */
+@Override
+public
 Set
 <
 CtTypeReference
@@ -11,4 +10,12 @@ CtTypeReference
 getSuperInterfaces
 (
 )
+{
+return
+Collections
+.
+emptySet
+(
+)
 ;
+}

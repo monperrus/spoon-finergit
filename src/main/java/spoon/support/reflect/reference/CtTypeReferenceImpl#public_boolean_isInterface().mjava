@@ -35,10 +35,10 @@ isInterface
 else
 {
 return
-(
 t
-instanceof
-CtInterface
+.
+isInterface
+(
 )
 ;
 }

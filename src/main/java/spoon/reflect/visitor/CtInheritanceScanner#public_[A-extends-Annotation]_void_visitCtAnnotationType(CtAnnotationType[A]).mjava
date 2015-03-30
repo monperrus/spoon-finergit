@@ -19,6 +19,11 @@ scanCtSimpleType
 e
 )
 ;
+scanCtTypeInformation
+(
+e
+)
+;
 scanCtNamedElement
 (
 e

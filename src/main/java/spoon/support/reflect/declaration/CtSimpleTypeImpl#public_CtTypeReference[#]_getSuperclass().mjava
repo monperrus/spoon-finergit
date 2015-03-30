@@ -9,6 +9,6 @@ getSuperclass
 )
 {
 return
-superClass
+null
 ;
 }
