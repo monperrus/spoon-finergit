@@ -1,0 +1,13 @@
+public
+static
+String
+toHexString
+(
+double
+d
+)
+{
+return
+""
+;
+}
