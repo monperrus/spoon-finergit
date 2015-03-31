@@ -30,7 +30,7 @@ CtFieldReference
 (
 )
 ;
-CtSimpleType
+CtType
 <
 ?
 >

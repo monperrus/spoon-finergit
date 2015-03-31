@@ -165,7 +165,7 @@ getFile
 )
 )
 ;
-CtSimpleType
+CtType
 <
 ?
 >

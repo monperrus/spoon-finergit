@@ -7,7 +7,7 @@ testStatements
 throws
 Exception
 {
-CtSimpleType
+CtType
 <
 ?
 >

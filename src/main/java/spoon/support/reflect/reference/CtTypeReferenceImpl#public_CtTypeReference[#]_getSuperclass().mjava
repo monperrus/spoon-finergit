@@ -7,7 +7,7 @@ getSuperclass
 (
 )
 {
-CtSimpleType
+CtType
 <
 T
 >

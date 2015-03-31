@@ -7,7 +7,7 @@ testModelBuildingFieldAccesses
 throws
 Exception
 {
-CtSimpleType
+CtType
 <
 ?
 >

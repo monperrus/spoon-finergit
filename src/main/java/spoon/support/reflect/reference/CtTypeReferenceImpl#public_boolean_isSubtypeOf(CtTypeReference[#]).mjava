@@ -84,14 +84,14 @@ type
 )
 ;
 }
-CtSimpleType
+CtType
 <
 ?
 >
 superTypeDecl
 =
 (
-CtSimpleType
+CtType
 <
 ?
 >
@@ -102,7 +102,7 @@ getDeclaration
 (
 )
 ;
-CtSimpleType
+CtType
 <
 ?
 >

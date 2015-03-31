@@ -93,7 +93,7 @@ get
 )
 ;
 final
-CtSimpleType
+CtType
 <
 Object
 >

@@ -7,7 +7,7 @@ testArrayReferences
 throws
 Exception
 {
-CtSimpleType
+CtType
 <
 ?
 >

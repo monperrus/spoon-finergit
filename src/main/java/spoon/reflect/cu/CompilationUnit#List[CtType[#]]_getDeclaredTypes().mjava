@@ -1,0 +1,14 @@
+/** 
+ * Gets all the types declared in this compilation unit.
+ */
+List
+<
+CtType
+<
+?
+>
+>
+getDeclaredTypes
+(
+)
+;

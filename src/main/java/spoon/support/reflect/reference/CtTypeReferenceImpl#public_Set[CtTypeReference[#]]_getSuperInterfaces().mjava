@@ -10,7 +10,7 @@ getSuperInterfaces
 (
 )
 {
-CtSimpleType
+CtType
 <
 ?
 >

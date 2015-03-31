@@ -1,0 +1,26 @@
+/** 
+ * Gets a annotation type from its name.
+ */
+public
+<
+T
+extends
+Annotation
+>
+CtType
+<
+T
+>
+getAnnotationType
+(
+String
+qualifiedName
+)
+{
+return
+get
+(
+qualifiedName
+)
+;
+}

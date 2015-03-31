@@ -7,7 +7,7 @@ getModifiers
 (
 )
 {
-CtSimpleType
+CtType
 <
 T
 >

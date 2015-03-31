@@ -1,0 +1,16 @@
+/** 
+ * Sets the types declared in this compilation unit.
+ */
+void
+setDeclaredTypes
+(
+List
+<
+CtType
+<
+?
+>
+>
+types
+)
+;

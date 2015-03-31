@@ -9,14 +9,14 @@ getDeclaration
 (
 )
 {
-CtSimpleType
+CtType
 <
 ?
 >
 type
 =
 (
-CtSimpleType
+CtType
 <
 ?
 >

@@ -22,11 +22,6 @@ scanCtStatement
 e
 )
 ;
-scanCtSimpleType
-(
-e
-)
-;
 scanCtTypeInformation
 (
 e

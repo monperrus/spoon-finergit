@@ -7,7 +7,7 @@ testTargetedAccessPosition
 throws
 Exception
 {
-CtSimpleType
+CtType
 <
 ?
 >

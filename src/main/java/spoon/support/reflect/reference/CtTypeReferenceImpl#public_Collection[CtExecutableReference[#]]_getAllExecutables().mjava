@@ -30,7 +30,7 @@ CtExecutableReference
 (
 )
 ;
-CtSimpleType
+CtType
 <
 T
 >

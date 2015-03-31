@@ -7,7 +7,7 @@ testModelBuildingDoWhile
 throws
 Exception
 {
-CtSimpleType
+CtType
 <
 ?
 >

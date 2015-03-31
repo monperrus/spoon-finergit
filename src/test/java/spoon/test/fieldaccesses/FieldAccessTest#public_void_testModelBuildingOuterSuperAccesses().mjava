@@ -7,7 +7,7 @@ testModelBuildingOuterSuperAccesses
 throws
 Exception
 {
-CtSimpleType
+CtType
 <
 ?
 >

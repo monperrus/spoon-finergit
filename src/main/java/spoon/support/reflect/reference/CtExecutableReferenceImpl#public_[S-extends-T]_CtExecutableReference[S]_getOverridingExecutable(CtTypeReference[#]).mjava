@@ -40,14 +40,14 @@ return
 null
 ;
 }
-CtSimpleType
+CtType
 <
 ?
 >
 t
 =
 (
-CtSimpleType
+CtType
 <
 ?
 >

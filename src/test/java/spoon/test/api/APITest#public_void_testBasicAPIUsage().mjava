@@ -71,7 +71,7 @@ getQualifiedName
 }
 for
 (
-CtSimpleType
+CtType
 <
 ?
 >

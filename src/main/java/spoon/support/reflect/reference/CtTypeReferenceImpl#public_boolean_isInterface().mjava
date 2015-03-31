@@ -5,7 +5,7 @@ isInterface
 (
 )
 {
-CtSimpleType
+CtType
 <
 T
 >

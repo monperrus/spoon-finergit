@@ -7,7 +7,7 @@ testPersistenceProperty
 throws
 Exception
 {
-CtSimpleType
+CtType
 <
 ?
 >

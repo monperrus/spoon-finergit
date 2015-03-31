@@ -73,7 +73,7 @@ getAttribute
 ;
 for
 (
-CtSimpleType
+CtType
 <
 ?
 >

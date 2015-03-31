@@ -87,7 +87,7 @@ getSignature
 (
 )
 ;
-CtSimpleType
+CtType
 <
 ?
 >
@@ -97,7 +97,7 @@ sta2
 .
 getParent
 (
-CtSimpleType
+CtType
 .
 class
 )
@@ -152,7 +152,7 @@ toSBef
 toSgAf
 )
 ;
-CtSimpleType
+CtType
 <
 ?
 >
@@ -162,7 +162,7 @@ des
 .
 getParent
 (
-CtSimpleType
+CtType
 .
 class
 )
@@ -172,7 +172,7 @@ assertNotNull
 typeDes
 )
 ;
-CtSimpleType
+CtType
 <
 ?
 >
