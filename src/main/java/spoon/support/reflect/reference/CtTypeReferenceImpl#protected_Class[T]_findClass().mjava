@@ -42,13 +42,25 @@ getQualifiedName
 }
 catch
 (
+java
+.
+lang
+.
 ClassNotFoundException
 cnfe
 )
 {
 throw
 new
-SpoonException
+spoon
+.
+support
+.
+reflect
+.
+reference
+.
+SpoonClassNotFoundException
 (
 "cannot load class: "
 +
