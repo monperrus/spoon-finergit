@@ -17,6 +17,10 @@ build
 ExecutableRefTestSource
 .
 class
+,
+MyIntf
+.
+class
 )
 ;
 CtMethod
