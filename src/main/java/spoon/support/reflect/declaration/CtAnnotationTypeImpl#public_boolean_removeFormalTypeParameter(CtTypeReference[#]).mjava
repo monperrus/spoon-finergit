@@ -1,0 +1,20 @@
+@Override
+public
+boolean
+removeFormalTypeParameter
+(
+CtTypeReference
+<
+?
+>
+formalTypeParameter
+)
+{
+throw
+new
+UnsupportedOperationException
+(
+"You can't have generics in an annotation."
+)
+;
+}

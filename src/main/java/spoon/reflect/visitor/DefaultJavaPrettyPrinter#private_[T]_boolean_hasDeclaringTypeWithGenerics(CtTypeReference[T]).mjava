@@ -84,10 +84,7 @@ false
 ;
 }
 final
-CtSimpleType
-<
-?
->
+CtElement
 declaration
 =
 reference

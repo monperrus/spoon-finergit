@@ -1,0 +1,23 @@
+@Override
+public
+void
+setSuperInterfaces
+(
+Set
+<
+CtTypeReference
+<
+?
+>
+>
+interfaces
+)
+{
+throw
+new
+UnsupportedOperationException
+(
+"You can't have super interfaces in an annotation."
+)
+;
+}
