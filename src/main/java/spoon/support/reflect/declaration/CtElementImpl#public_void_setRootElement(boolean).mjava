@@ -14,7 +14,9 @@ rootElement
 {
 parent
 =
-ROOT_ELEMENT
+RootElement
+.
+ROOT
 ;
 }
 else
