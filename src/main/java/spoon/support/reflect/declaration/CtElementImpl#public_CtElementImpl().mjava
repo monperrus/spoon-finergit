@@ -9,9 +9,9 @@ super
 ;
 setParent
 (
-this
+RootElement
 .
-ROOT_ELEMENT
+ROOT
 )
 ;
 }

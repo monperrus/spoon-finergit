@@ -6,9 +6,9 @@ getParentNoExceptions
 {
 if
 (
-parent
-==
-ROOT_ELEMENT
+isRootElement
+(
+)
 )
 {
 return

@@ -6,8 +6,10 @@ isRootElement
 )
 {
 return
+(
 parent
-==
-ROOT_ELEMENT
+instanceof
+RootElement
+)
 ;
 }
