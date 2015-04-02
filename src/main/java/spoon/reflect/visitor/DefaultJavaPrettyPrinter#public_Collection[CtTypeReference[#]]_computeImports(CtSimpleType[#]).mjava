@@ -9,7 +9,7 @@ CtTypeReference
 ?
 >
 >
-makeImports
+computeImports
 (
 CtSimpleType
 <

@@ -1,0 +1,10 @@
+/** 
+ * Computes imports for all elements.
+ */
+void
+computeImports
+(
+CtElement
+element
+)
+;
