@@ -28,23 +28,6 @@ reportProgressMessage
 "running Spoon..."
 )
 ;
-if
-(
-env
-.
-isUsingSourceCodeFragments
-(
-)
-)
-{
-env
-.
-reportProgressMessage
-(
-"running in 'fragments' mode: AST changes will be ignored"
-)
-;
-}
 env
 .
 reportProgressMessage
