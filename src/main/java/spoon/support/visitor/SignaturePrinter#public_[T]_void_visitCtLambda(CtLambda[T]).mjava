@@ -49,6 +49,9 @@ isEmpty
 for
 (
 CtParameter
+<
+?
+>
 parameter
 :
 lambda

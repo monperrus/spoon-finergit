@@ -24,6 +24,9 @@ class
 )
 ;
 CtMethod
+<
+?
+>
 method
 =
 factory
@@ -45,6 +48,9 @@ getMethod
 )
 ;
 CtExecutableReference
+<
+?
+>
 ref
 =
 method

@@ -9,6 +9,9 @@ Class
 expectedType
 ,
 CtParameter
+<
+?
+>
 parameter
 )
 {

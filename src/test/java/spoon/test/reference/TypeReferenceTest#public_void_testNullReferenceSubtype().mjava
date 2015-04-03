@@ -25,6 +25,9 @@ createFactory
 )
 ;
 CtTypeReference
+<
+?
+>
 ref
 =
 factory
@@ -41,6 +44,9 @@ class
 )
 ;
 CtTypeReference
+<
+?
+>
 nullRef
 =
 factory

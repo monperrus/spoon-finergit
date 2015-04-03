@@ -24,6 +24,9 @@ final
 List
 <
 CtClass
+<
+?
+>
 >
 anonymousClass
 =
@@ -35,6 +38,9 @@ new
 AbstractFilter
 <
 CtClass
+<
+?
+>
 >
 (
 CtClass
@@ -48,6 +54,9 @@ boolean
 matches
 (
 CtClass
+<
+?
+>
 element
 )
 {

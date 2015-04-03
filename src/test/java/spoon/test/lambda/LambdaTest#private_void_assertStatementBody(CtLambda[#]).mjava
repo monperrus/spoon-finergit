@@ -3,6 +3,9 @@ void
 assertStatementBody
 (
 CtLambda
+<
+?
+>
 lambda
 )
 {

@@ -9,6 +9,9 @@ Exception
 {
 final
 CtLambda
+<
+?
+>
 lambda
 =
 getLambdaByName
