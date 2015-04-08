@@ -1,5 +1,5 @@
 /** 
- * Converts a collection of object into an array of type </code>type<code>.
+ * Converts a collection of object into an array of type <code>type</code>.
  * @param < T > the actual type of the array
  * @param type the type to convert the object into
  * @param val the collection to be converted
