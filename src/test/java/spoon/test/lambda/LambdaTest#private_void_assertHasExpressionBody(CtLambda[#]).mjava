@@ -3,6 +3,9 @@ void
 assertHasExpressionBody
 (
 CtLambda
+<
+?
+>
 lambda
 )
 {

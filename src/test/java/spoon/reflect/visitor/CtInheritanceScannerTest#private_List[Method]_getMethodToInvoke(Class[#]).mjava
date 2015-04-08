@@ -23,6 +23,9 @@ Exception
 Queue
 <
 Class
+<
+?
+>
 >
 tocheck
 =
@@ -64,6 +67,9 @@ isEmpty
 )
 {
 Class
+<
+?
+>
 intf
 =
 tocheck

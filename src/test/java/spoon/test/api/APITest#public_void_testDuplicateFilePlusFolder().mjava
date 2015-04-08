@@ -10,14 +10,6 @@ Exception
 try
 {
 Launcher
-spoon
-=
-new
-Launcher
-(
-)
-;
-spoon
 .
 main
 (

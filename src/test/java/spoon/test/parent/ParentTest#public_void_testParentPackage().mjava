@@ -8,6 +8,9 @@ throws
 Exception
 {
 CtClass
+<
+?
+>
 clazz
 =
 factory

@@ -9,6 +9,9 @@ Class
 expectedType
 ,
 CtTypeReference
+<
+?
+>
 type
 )
 {

@@ -1,5 +1,8 @@
 private
 CtLambda
+<
+?
+>
 getLambdaByName
 (
 String
@@ -15,6 +18,9 @@ new
 NameFilter
 <
 CtLambda
+<
+?
+>
 >
 (
 name

@@ -9,14 +9,6 @@ Exception
 {
 try
 {
-Launcher
-spoon
-=
-new
-Launcher
-(
-)
-;
 String
 duplicateEntry
 =
@@ -50,7 +42,7 @@ getCanonicalFile
 )
 )
 ;
-spoon
+Launcher
 .
 main
 (

@@ -75,6 +75,9 @@ createReference
 (
 (
 CtMethod
+<
+T
+>
 )
 e
 )
@@ -117,6 +120,9 @@ createReference
 (
 (
 CtConstructor
+<
+T
+>
 )
 e
 )

@@ -69,6 +69,9 @@ class
 ;
 final
 CtInvocation
+<
+?
+>
 thisInvocation
 =
 aClass
@@ -79,6 +82,9 @@ new
 AbstractFilter
 <
 CtInvocation
+<
+?
+>
 >
 (
 CtInvocation
@@ -92,6 +98,9 @@ boolean
 matches
 (
 CtInvocation
+<
+?
+>
 element
 )
 {

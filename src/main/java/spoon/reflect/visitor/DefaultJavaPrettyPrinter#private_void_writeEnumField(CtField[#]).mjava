@@ -133,6 +133,9 @@ scan
 (
 (
 CtNewClass
+<
+?
+>
 )
 constructorCall
 )
