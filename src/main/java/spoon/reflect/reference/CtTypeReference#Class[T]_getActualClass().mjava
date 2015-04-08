@@ -1,7 +1,7 @@
 /** 
  * Gets the Java runtime class of the referenced type.
  * @return the Java class or null if the class is not found (not inclasspath)
- * @throws spoon.reflect.reference.SpoonClassNotFoundException if the class is not in the classpath
+ * @throws spoon.support.reflect.reference.SpoonClassNotFoundException if the class is not in the classpath
  */
 Class
 <
