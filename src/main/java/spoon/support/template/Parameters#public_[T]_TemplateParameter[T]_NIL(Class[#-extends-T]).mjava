@@ -52,7 +52,7 @@ public
 CtCodeElement
 getSubstitution
 (
-CtSimpleType
+CtType
 <
 ?
 >
@@ -89,7 +89,7 @@ public
 CtCodeElement
 getSubstitution
 (
-CtSimpleType
+CtType
 <
 ?
 >

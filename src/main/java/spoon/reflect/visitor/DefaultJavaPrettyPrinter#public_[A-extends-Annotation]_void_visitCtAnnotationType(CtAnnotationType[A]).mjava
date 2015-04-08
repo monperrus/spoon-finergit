@@ -14,7 +14,7 @@ A
 annotationType
 )
 {
-visitCtSimpleType
+visitCtType
 (
 annotationType
 )

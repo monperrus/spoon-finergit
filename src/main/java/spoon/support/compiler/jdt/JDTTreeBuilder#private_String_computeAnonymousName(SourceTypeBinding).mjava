@@ -29,7 +29,7 @@ poolName
 .
 lastIndexOf
 (
-CtSimpleType
+CtType
 .
 INNERTTYPE_SEPARATOR
 )

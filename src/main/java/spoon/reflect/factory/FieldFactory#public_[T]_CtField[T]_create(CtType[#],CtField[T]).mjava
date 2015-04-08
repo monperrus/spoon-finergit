@@ -1,6 +1,6 @@
 /** 
  * Creates a field by copying an existing field.
- * @param < T > the type of the field
+ * @param < T >    the type of the field
  * @param target the target type where the new field has to be inserted to
  * @param source the source field to be copied
  * @return the newly created field
@@ -51,6 +51,7 @@ target
 !=
 null
 )
+{
 target
 .
 getFields
@@ -62,6 +63,7 @@ add
 newField
 )
 ;
+}
 return
 newField
 ;

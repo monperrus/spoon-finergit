@@ -93,7 +93,7 @@ true
 }
 else
 {
-CtSimpleType
+CtType
 <
 ?
 >

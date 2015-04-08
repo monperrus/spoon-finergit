@@ -1,0 +1,13 @@
+/** 
+ * Adds a type to this package.
+ */
+void
+addType
+(
+CtType
+<
+?
+>
+type
+)
+;

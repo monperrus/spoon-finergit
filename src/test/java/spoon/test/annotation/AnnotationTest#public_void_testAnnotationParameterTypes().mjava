@@ -7,7 +7,7 @@ testAnnotationParameterTypes
 throws
 Exception
 {
-CtSimpleType
+CtType
 <
 ?
 >

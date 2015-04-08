@@ -22,7 +22,7 @@ scanCtStatement
 e
 )
 ;
-scanCtSimpleType
+scanCtTypeInformation
 (
 e
 )

@@ -1,0 +1,26 @@
+/** 
+ * Tells if this type is a subtype of the given type.
+ */
+@Override
+public
+boolean
+isSubtypeOf
+(
+CtTypeReference
+<
+?
+>
+type
+)
+{
+return
+type
+.
+isSubtypeOf
+(
+getReference
+(
+)
+)
+;
+}

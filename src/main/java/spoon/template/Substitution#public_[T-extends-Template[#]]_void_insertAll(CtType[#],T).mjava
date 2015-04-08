@@ -516,7 +516,7 @@ f
 }
 for
 (
-CtSimpleType
+CtType
 <
 ?
 >
@@ -544,7 +544,7 @@ null
 )
 continue
 ;
-CtSimpleType
+CtType
 <
 ?
 >

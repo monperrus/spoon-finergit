@@ -1,0 +1,11 @@
+@Override
+public
+boolean
+isInterface
+(
+)
+{
+return
+true
+;
+}

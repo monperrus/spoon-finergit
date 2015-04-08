@@ -10,7 +10,7 @@ BlockScope
 scope
 )
 {
-CtSimpleType
+CtType
 <
 ?
 >

@@ -1,0 +1,11 @@
+/** 
+ * Returns the corresponding type reference. Overrides the return type.
+ */
+CtTypeReference
+<
+T
+>
+getReference
+(
+)
+;

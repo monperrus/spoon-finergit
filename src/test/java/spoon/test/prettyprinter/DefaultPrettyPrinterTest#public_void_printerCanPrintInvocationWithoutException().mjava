@@ -135,7 +135,7 @@ getFactory
 (
 )
 ;
-CtSimpleType
+CtType
 <
 ?
 >

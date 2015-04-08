@@ -7,7 +7,7 @@ testModelBuildingAnnotationBound
 throws
 Exception
 {
-CtSimpleType
+CtType
 <
 ?
 >

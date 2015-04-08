@@ -27,7 +27,7 @@ cl
 {
 try
 {
-CtSimpleType
+CtType
 <
 T
 >

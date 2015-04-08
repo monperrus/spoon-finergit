@@ -17,7 +17,7 @@ scanCtType
 e
 )
 ;
-scanCtSimpleType
+scanCtTypeInformation
 (
 e
 )

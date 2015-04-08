@@ -14,7 +14,7 @@ A
 e
 )
 {
-scanCtSimpleType
+scanCtType
 (
 e
 )
@@ -24,7 +24,17 @@ scanCtNamedElement
 e
 )
 ;
+scanCtTypeInformation
+(
+e
+)
+;
 scanCtTypeMember
+(
+e
+)
+;
+scanCtGenericElement
 (
 e
 )

@@ -7,7 +7,7 @@ testModelBuildingFor
 throws
 Exception
 {
-CtSimpleType
+CtType
 <
 ?
 >

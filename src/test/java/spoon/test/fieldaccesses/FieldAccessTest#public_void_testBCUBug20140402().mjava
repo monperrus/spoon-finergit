@@ -7,7 +7,7 @@ testBCUBug20140402
 throws
 Exception
 {
-CtSimpleType
+CtType
 <
 ?
 >

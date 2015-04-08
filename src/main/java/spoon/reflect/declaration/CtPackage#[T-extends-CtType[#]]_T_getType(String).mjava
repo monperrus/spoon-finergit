@@ -1,0 +1,19 @@
+/** 
+ * Finds a top-level type by name.
+ * @return the found type or null
+ */
+<
+T
+extends
+CtType
+<
+?
+>
+>
+T
+getType
+(
+String
+simpleName
+)
+;

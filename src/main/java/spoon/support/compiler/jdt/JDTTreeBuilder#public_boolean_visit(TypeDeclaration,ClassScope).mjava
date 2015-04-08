@@ -10,7 +10,7 @@ ClassScope
 scope
 )
 {
-CtSimpleType
+CtType
 <
 ?
 >

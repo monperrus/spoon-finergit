@@ -7,7 +7,7 @@ testWritingAnnotParamArray
 throws
 Exception
 {
-CtSimpleType
+CtType
 <
 ?
 >

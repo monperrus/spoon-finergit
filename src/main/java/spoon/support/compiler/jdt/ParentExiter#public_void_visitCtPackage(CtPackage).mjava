@@ -11,7 +11,7 @@ if
 (
 child
 instanceof
-CtSimpleType
+CtType
 )
 {
 if
@@ -49,7 +49,7 @@ getTypes
 add
 (
 (
-CtSimpleType
+CtType
 <
 ?
 >
@@ -66,7 +66,7 @@ context
 addCreatedType
 (
 (
-CtSimpleType
+CtType
 <
 ?
 >
@@ -114,7 +114,7 @@ getDeclaredTypes
 add
 (
 (
-CtSimpleType
+CtType
 <
 ?
 >
