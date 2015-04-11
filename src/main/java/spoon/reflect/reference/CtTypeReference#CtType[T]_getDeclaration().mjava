@@ -1,0 +1,12 @@
+/** 
+ * Tries to get the declaration that corresponds to the referenced element.
+ * @return referenced element or null if element does not exist
+ */
+CtType
+<
+T
+>
+getDeclaration
+(
+)
+;
