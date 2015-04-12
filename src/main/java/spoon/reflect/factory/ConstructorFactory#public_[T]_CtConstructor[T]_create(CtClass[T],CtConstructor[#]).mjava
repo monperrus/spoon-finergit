@@ -53,11 +53,7 @@ source
 ;
 target
 .
-getConstructors
-(
-)
-.
-add
+addConstructor
 (
 newConstructor
 )

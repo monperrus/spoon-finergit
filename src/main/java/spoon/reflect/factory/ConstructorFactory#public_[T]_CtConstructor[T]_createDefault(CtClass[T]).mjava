@@ -47,11 +47,7 @@ PUBLIC
 ;
 target
 .
-getConstructors
-(
-)
-.
-add
+addConstructor
 (
 constructor
 )
