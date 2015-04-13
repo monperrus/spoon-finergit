@@ -25,6 +25,15 @@ env
 .
 reportProgressMessage
 (
+getVersionMessage
+(
+)
+)
+;
+env
+.
+reportProgressMessage
+(
 "running Spoon..."
 )
 ;
