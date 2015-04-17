@@ -15,6 +15,7 @@ f
 {
 if
 (
+(
 f
 .
 getDefaultExpression
@@ -33,6 +34,11 @@ child
 instanceof
 CtAnnotation
 )
+)
+||
+jdtTreeBuilder
+.
+defaultValue
 )
 {
 f

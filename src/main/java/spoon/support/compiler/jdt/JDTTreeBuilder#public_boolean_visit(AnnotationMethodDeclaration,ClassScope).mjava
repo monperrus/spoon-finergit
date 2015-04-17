@@ -113,6 +113,10 @@ scope
 )
 ;
 }
+defaultValue
+=
+true
+;
 if
 (
 annotationTypeDeclaration
@@ -136,6 +140,10 @@ scope
 )
 ;
 }
+defaultValue
+=
+false
+;
 return
 false
 ;
