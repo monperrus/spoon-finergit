@@ -25,15 +25,7 @@ null
 )
 {
 return
-(
-(
-CtClass
-<
-T
->
-)
 t
-)
 .
 getSuperclass
 (
