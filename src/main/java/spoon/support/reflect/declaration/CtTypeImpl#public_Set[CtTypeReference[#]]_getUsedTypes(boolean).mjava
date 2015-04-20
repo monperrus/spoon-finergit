@@ -124,10 +124,9 @@ toString
 !
 includeSamePackage
 &&
-typeRef
-.
-getPackage
+getPackageReference
 (
+typeRef
 )
 .
 equals

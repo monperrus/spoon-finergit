@@ -1,7 +1,7 @@
 @Test
 public
 void
-test
+testGetAllExecutables
 (
 )
 throws
@@ -37,14 +37,9 @@ size
 ;
 assertEquals
 (
-2
+3
 ,
-(
-(
-CtType
-)
 type
-)
 .
 getMethods
 (
@@ -57,7 +52,7 @@ size
 ;
 assertEquals
 (
-3
+4
 ,
 type
 .
@@ -102,7 +97,7 @@ getAllExecutables
 ;
 assertEquals
 (
-7
+8
 ,
 allExecutables
 .
