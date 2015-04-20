@@ -122,7 +122,15 @@ final
 String
 expected
 =
-" catch (spoon.test.trycatch.testclasses.internal.MyException | spoon.test.trycatch.testclasses.internal.MyException2 ignore) {\n}"
+" catch (spoon.test.trycatch.testclasses.internal.MyException | spoon.test.trycatch.testclasses.internal.MyException2 ignore) {"
++
+System
+.
+lineSeparator
+(
+)
++
+"}"
 ;
 assertEquals
 (

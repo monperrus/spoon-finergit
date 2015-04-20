@@ -95,7 +95,15 @@ assertEquals
 (
 "First generic type must have type annotation"
 ,
-"@spoon.test.annotation.testclasses.TypeAnnotation\nT"
+"@spoon.test.annotation.testclasses.TypeAnnotation"
++
+System
+.
+lineSeparator
+(
+)
++
+"T"
 ,
 formalTypeParameters
 .
@@ -113,7 +121,15 @@ assertEquals
 (
 "Second generic type must have type annotation"
 ,
-"@spoon.test.annotation.testclasses.TypeAnnotation\nK"
+"@spoon.test.annotation.testclasses.TypeAnnotation"
++
+System
+.
+lineSeparator
+(
+)
++
+"K"
 ,
 formalTypeParameters
 .
@@ -158,7 +174,15 @@ final
 String
 expected
 =
-"spoon.test.annotation.testclasses.BasicAnnotation<@spoon.test.annotation.testclasses.TypeAnnotation\nT>"
+"spoon.test.annotation.testclasses.BasicAnnotation<@spoon.test.annotation.testclasses.TypeAnnotation"
++
+System
+.
+lineSeparator
+(
+)
++
+"T>"
 ;
 assertEquals
 (

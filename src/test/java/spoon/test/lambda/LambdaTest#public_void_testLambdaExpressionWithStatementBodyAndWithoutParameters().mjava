@@ -52,11 +52,29 @@ lambda
 ;
 assertIsWellPrinted
 (
-"((spoon.test.lambda.testclasses.Foo.Check)(() -> {\n"
+"((spoon.test.lambda.testclasses.Foo.Check)(() -> {"
 +
-"    java.lang.System.err.println(\"\");\n"
+System
+.
+lineSeparator
+(
+)
 +
-"    return false;\n"
+"    java.lang.System.err.println(\"\");"
++
+System
+.
+lineSeparator
+(
+)
++
+"    return false;"
++
+System
+.
+lineSeparator
+(
+)
 +
 "}))"
 ,

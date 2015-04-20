@@ -94,13 +94,37 @@ final
 String
 expected
 =
-"public class AClass {\n"
+"public class AClass {"
 +
-"    public List<?> aMethod() {\n"
+System
+.
+lineSeparator
+(
+)
 +
-"        return new ArrayList<java.lang.Object>();\n"
+"    public List<?> aMethod() {"
 +
-"    }\n"
+System
+.
+lineSeparator
+(
+)
++
+"        return new ArrayList<java.lang.Object>();"
++
+System
+.
+lineSeparator
+(
+)
++
+"    }"
++
+System
+.
+lineSeparator
+(
+)
 +
 "}"
 ;
