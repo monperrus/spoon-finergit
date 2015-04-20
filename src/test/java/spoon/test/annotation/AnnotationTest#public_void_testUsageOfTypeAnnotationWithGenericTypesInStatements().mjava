@@ -164,7 +164,7 @@ final
 String
 expectedThirdStatement
 =
-"java.util.List<@spoon.test.annotation.testclasses.TypeAnnotation\nspoon.test.annotation.testclasses.BasicAnnotation> list3 = new java.util.ArrayList<@spoon.test.annotation.testclasses.TypeAnnotation\nspoon.test.annotation.testclasses.BasicAnnotation>()"
+"java.util.List<spoon.test.annotation.testclasses.@spoon.test.annotation.testclasses.TypeAnnotation BasicAnnotation> list3 = new java.util.ArrayList<spoon.test.annotation.testclasses.@spoon.test.annotation.testclasses.TypeAnnotation BasicAnnotation>()"
 ;
 assertEquals
 (

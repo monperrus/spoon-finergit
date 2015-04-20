@@ -33,11 +33,6 @@ getSimpleName
 return
 ;
 }
-printTypeAnnotations
-(
-ref
-)
-;
 if
 (
 !
@@ -63,6 +58,11 @@ null
 )
 )
 {
+printTypeAnnotations
+(
+ref
+)
+;
 write
 (
 ref

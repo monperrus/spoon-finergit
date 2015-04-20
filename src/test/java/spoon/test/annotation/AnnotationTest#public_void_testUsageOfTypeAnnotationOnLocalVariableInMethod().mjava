@@ -178,7 +178,7 @@ assertEquals
 (
 "Local variable type with an type annotation must be well printed"
 ,
-"@spoon.test.annotation.testclasses.TypeAnnotation\njava.lang.String s = \"\""
+"java.lang.@spoon.test.annotation.testclasses.TypeAnnotation String s = \"\""
 ,
 ctLocalVariable
 .

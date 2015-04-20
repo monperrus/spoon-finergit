@@ -157,7 +157,7 @@ assertEquals
 (
 "New class with an type annotation must be well printed"
 ,
-"new @spoon.test.annotation.testclasses.TypeAnnotation\njava.lang.String()"
+"new java.lang.@spoon.test.annotation.testclasses.TypeAnnotation String()"
 ,
 ctConstructorCall
 .
