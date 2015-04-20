@@ -135,11 +135,7 @@ getParameters
 ;
 target
 .
-getConstructors
-(
-)
-.
-add
+addConstructor
 (
 newConstructor
 )

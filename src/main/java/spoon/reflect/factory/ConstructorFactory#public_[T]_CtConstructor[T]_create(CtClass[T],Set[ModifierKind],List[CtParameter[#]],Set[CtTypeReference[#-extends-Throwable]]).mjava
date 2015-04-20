@@ -85,11 +85,7 @@ thrownTypes
 ;
 target
 .
-getConstructors
-(
-)
-.
-add
+addConstructor
 (
 constructor
 )
