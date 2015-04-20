@@ -96,7 +96,7 @@ final
 String
 superClassExpected
 =
-"@spoon.test.annotation.testclasses.TypeAnnotation\nspoon.test.annotation.testclasses.AnnotArrayInnerClass"
+"spoon.test.annotation.testclasses.@spoon.test.annotation.testclasses.TypeAnnotation AnnotArrayInnerClass"
 ;
 assertEquals
 (
@@ -208,7 +208,7 @@ final
 String
 superInterfaceExpected
 =
-"@spoon.test.annotation.testclasses.TypeAnnotation\nspoon.test.annotation.testclasses.BasicAnnotation"
+"spoon.test.annotation.testclasses.@spoon.test.annotation.testclasses.TypeAnnotation BasicAnnotation"
 ;
 assertEquals
 (
@@ -349,7 +349,7 @@ final
 String
 enumExpected
 =
-"public enum DummyEnum implements @spoon.test.annotation.testclasses.TypeAnnotation\nspoon.test.annotation.testclasses.BasicAnnotation {\n}"
+"public enum DummyEnum implements spoon.test.annotation.testclasses.@spoon.test.annotation.testclasses.TypeAnnotation BasicAnnotation {\n}"
 ;
 assertEquals
 (
@@ -490,7 +490,7 @@ final
 String
 interfaceExpected
 =
-"public interface DummyInterface extends @spoon.test.annotation.testclasses.TypeAnnotation\nspoon.test.annotation.testclasses.BasicAnnotation {}"
+"public interface DummyInterface extends spoon.test.annotation.testclasses.@spoon.test.annotation.testclasses.TypeAnnotation BasicAnnotation {}"
 ;
 assertEquals
 (

@@ -123,7 +123,7 @@ assertEquals
 (
 "Return type with an type annotation must be well printed"
 ,
-"public @spoon.test.annotation.testclasses.TypeAnnotation\njava.lang.String m3() {\n    return \"\";\n}"
+"public java.lang.@spoon.test.annotation.testclasses.TypeAnnotation String m3() {\n    return \"\";\n}"
 ,
 method
 .
