@@ -1,0 +1,14 @@
+@Override
+public
+void
+foo
+(
+)
+{
+throw
+new
+UnsupportedOperationException
+(
+)
+;
+}
