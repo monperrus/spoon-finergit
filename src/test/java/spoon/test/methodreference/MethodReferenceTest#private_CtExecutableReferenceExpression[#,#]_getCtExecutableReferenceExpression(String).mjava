@@ -1,5 +1,10 @@
 private
 CtExecutableReferenceExpression
+<
+?
+,
+?
+>
 getCtExecutableReferenceExpression
 (
 final
@@ -16,6 +21,11 @@ new
 AbstractFilter
 <
 CtExecutableReferenceExpression
+<
+?
+,
+?
+>
 >
 (
 CtExecutableReferenceExpression
@@ -29,6 +39,11 @@ boolean
 matches
 (
 CtExecutableReferenceExpression
+<
+?
+,
+?
+>
 element
 )
 {

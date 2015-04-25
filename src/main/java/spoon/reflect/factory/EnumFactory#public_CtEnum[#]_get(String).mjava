@@ -19,6 +19,9 @@ try
 return
 (
 CtEnum
+<
+?
+>
 )
 super
 .

@@ -90,12 +90,6 @@ CtType
 >
 superTypeDecl
 =
-(
-CtType
-<
-?
->
-)
 type
 .
 getDeclaration

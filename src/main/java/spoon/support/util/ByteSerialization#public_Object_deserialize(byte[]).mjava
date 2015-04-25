@@ -36,9 +36,6 @@ bi
 ;
 objInput
 =
-(
-Object
-)
 si
 .
 readObject
