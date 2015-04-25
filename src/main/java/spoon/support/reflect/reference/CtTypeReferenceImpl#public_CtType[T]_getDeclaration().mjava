@@ -94,6 +94,9 @@ new
 AbstractFilter
 <
 CtNewClass
+<
+?
+>
 >
 (
 CtNewClass
@@ -107,6 +110,9 @@ boolean
 matches
 (
 CtNewClass
+<
+?
+>
 element
 )
 {
