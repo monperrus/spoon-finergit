@@ -25,6 +25,13 @@ field
 )
 )
 {
+field
+.
+setParent
+(
+this
+)
+;
 return
 this
 .
