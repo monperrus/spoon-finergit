@@ -17,6 +17,11 @@ TEST_CLASS
 ;
 final
 CtExecutableReferenceExpression
+<
+?
+,
+?
+>
 reference
 =
 getCtExecutableReferenceExpression

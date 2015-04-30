@@ -6,6 +6,9 @@ String
 expected
 ,
 CtExecutableReference
+<
+?
+>
 executable
 )
 {

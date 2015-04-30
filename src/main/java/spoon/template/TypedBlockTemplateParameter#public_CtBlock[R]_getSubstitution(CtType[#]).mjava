@@ -72,9 +72,6 @@ getClass
 CtMethod
 m
 =
-(
-CtMethod
-)
 c
 .
 getMethod

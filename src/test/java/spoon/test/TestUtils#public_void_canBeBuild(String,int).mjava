@@ -9,8 +9,6 @@ outputDirectory
 int
 complianceLevel
 )
-throws
-IOException
 {
 canBeBuild
 (

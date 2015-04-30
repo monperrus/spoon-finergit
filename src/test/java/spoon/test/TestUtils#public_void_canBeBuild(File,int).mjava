@@ -9,8 +9,6 @@ outputDirectoryFile
 int
 complianceLevel
 )
-throws
-IOException
 {
 final
 Launcher

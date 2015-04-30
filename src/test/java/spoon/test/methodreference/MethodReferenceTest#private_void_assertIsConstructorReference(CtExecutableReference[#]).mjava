@@ -3,6 +3,9 @@ void
 assertIsConstructorReference
 (
 CtExecutableReference
+<
+?
+>
 executable
 )
 {
