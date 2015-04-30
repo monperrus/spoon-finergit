@@ -83,11 +83,7 @@ null
 {
 target
 .
-getFields
-(
-)
-.
-add
+addField
 (
 field
 )
