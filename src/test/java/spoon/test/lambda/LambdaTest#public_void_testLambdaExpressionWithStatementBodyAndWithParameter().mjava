@@ -92,11 +92,29 @@ lambda
 ;
 assertIsWellPrinted
 (
-"((java.util.function.Predicate<spoon.test.lambda.testclasses.Foo.Person>)((spoon.test.lambda.testclasses.Foo.Person p) -> {\n"
+"((java.util.function.Predicate<spoon.test.lambda.testclasses.Foo.Person>)((spoon.test.lambda.testclasses.Foo.Person p) -> {"
 +
-"    p.doSomething();\n"
+System
+.
+lineSeparator
+(
+)
 +
-"    return (p.age) > 10;\n"
+"    p.doSomething();"
++
+System
+.
+lineSeparator
+(
+)
++
+"    return (p.age) > 10;"
++
+System
+.
+lineSeparator
+(
+)
 +
 "}))"
 ,

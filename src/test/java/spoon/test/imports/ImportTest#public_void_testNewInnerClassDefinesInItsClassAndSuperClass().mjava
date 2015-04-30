@@ -139,25 +139,83 @@ final
 String
 expected
 =
-"public class SubClass extends spoon.test.imports.testclasses.SuperClass {\n"
+"public class SubClass extends spoon.test.imports.testclasses.SuperClass {"
 +
-"    public void aMethod() {\n"
+System
+.
+lineSeparator
+(
+)
 +
-"        new spoon.test.imports.testclasses.SubClass.Item(\"\");\n"
+"    public void aMethod() {"
 +
-"    }\n"
+System
+.
+lineSeparator
+(
+)
 +
-"\n"
+"        new spoon.test.imports.testclasses.SubClass.Item(\"\");"
 +
-"    public static class Item extends spoon.test.imports.testclasses.SuperClass.Item {\n"
+System
+.
+lineSeparator
+(
+)
 +
-"        public Item(java.lang.String s) {\n"
+"    }"
 +
-"            super(1, s);\n"
+System
+.
+lineSeparator
+(
+)
 +
-"        }\n"
+System
+.
+lineSeparator
+(
+)
 +
-"    }\n"
+"    public static class Item extends spoon.test.imports.testclasses.SuperClass.Item {"
++
+System
+.
+lineSeparator
+(
+)
++
+"        public Item(java.lang.String s) {"
++
+System
+.
+lineSeparator
+(
+)
++
+"            super(1, s);"
++
+System
+.
+lineSeparator
+(
+)
++
+"        }"
++
+System
+.
+lineSeparator
+(
+)
++
+"    }"
++
+System
+.
+lineSeparator
+(
+)
 +
 "}"
 ;

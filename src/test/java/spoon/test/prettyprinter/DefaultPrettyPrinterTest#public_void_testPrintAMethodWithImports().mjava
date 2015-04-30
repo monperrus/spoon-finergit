@@ -94,9 +94,21 @@ final
 String
 expected
 =
-"public List<?> aMethod() {\n"
+"public List<?> aMethod() {"
 +
-"    return new ArrayList<java.lang.Object>();\n"
+System
+.
+lineSeparator
+(
+)
++
+"    return new ArrayList<java.lang.Object>();"
++
+System
+.
+lineSeparator
+(
+)
 +
 "}"
 ;

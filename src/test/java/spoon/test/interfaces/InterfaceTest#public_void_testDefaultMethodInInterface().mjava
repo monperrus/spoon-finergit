@@ -67,7 +67,23 @@ final
 String
 expected
 =
-"default java.time.ZonedDateTime getZonedDateTime(java.lang.String zoneString) {\n    return java.time.ZonedDateTime.of(getLocalDateTime(), spoon.test.interfaces.testclasses.InterfaceWithDefaultMethods.getZoneId(zoneString));\n}"
+"default java.time.ZonedDateTime getZonedDateTime(java.lang.String zoneString) {"
++
+System
+.
+lineSeparator
+(
+)
++
+"    return java.time.ZonedDateTime.of(getLocalDateTime(), spoon.test.interfaces.testclasses.InterfaceWithDefaultMethods.getZoneId(zoneString));"
++
+System
+.
+lineSeparator
+(
+)
++
+"}"
 ;
 assertEquals
 (

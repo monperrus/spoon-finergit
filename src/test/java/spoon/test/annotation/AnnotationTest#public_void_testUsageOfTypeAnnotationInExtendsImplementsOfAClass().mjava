@@ -349,7 +349,15 @@ final
 String
 enumExpected
 =
-"public enum DummyEnum implements spoon.test.annotation.testclasses.@spoon.test.annotation.testclasses.TypeAnnotation BasicAnnotation {\n}"
+"public enum DummyEnum implements spoon.test.annotation.testclasses.@spoon.test.annotation.testclasses.TypeAnnotation BasicAnnotation {"
++
+System
+.
+lineSeparator
+(
+)
++
+"}"
 ;
 assertEquals
 (

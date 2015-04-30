@@ -85,7 +85,15 @@ assertEquals
 (
 "Method with an type annotation must be well printed"
 ,
-"@spoon.test.annotation.testclasses.TypeAnnotation\nT"
+"@spoon.test.annotation.testclasses.TypeAnnotation"
++
+System
+.
+lineSeparator
+(
+)
++
+"T"
 ,
 formalTypeParameters
 .
@@ -116,7 +124,23 @@ final
 String
 expectedFirstStatement
 =
-"java.util.List<@spoon.test.annotation.testclasses.TypeAnnotation\nT> list = new java.util.ArrayList<@spoon.test.annotation.testclasses.TypeAnnotation\nT>()"
+"java.util.List<@spoon.test.annotation.testclasses.TypeAnnotation"
++
+System
+.
+lineSeparator
+(
+)
++
+"T> list = new java.util.ArrayList<@spoon.test.annotation.testclasses.TypeAnnotation"
++
+System
+.
+lineSeparator
+(
+)
++
+"T>()"
 ;
 assertEquals
 (
@@ -140,7 +164,15 @@ final
 String
 expectedSecondStatement
 =
-"java.util.List<@spoon.test.annotation.testclasses.TypeAnnotation\n?> list2 = new java.util.ArrayList<java.lang.Object>()"
+"java.util.List<@spoon.test.annotation.testclasses.TypeAnnotation"
++
+System
+.
+lineSeparator
+(
+)
++
+"?> list2 = new java.util.ArrayList<java.lang.Object>()"
 ;
 assertEquals
 (
