@@ -54,11 +54,7 @@ null
 {
 target
 .
-getFields
-(
-)
-.
-add
+addField
 (
 newField
 )
