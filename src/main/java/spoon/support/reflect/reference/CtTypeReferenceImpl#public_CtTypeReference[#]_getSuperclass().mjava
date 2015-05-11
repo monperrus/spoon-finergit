@@ -56,6 +56,17 @@ getSuperclass
 (
 )
 ;
+if
+(
+sc
+==
+null
+)
+{
+return
+null
+;
+}
 return
 getFactory
 (
