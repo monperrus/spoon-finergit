@@ -9,6 +9,13 @@ E
 caseExpression
 )
 {
+caseExpression
+.
+setParent
+(
+this
+)
+;
 this
 .
 caseExpression

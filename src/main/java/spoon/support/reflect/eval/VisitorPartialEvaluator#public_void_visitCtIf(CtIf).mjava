@@ -151,6 +151,17 @@ flowEnded
 false
 ;
 }
+if
+(
+ifElement
+.
+getElseStatement
+(
+)
+!=
+null
+)
+{
 ifRes
 .
 setElseStatement
@@ -167,6 +178,7 @@ getElseStatement
 )
 )
 ;
+}
 if
 (
 flowEnded

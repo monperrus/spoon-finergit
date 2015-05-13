@@ -1,0 +1,13 @@
+/** 
+ * Adds a new key-value pair for this annotation 
+ */
+void
+addValue
+(
+String
+elementName
+,
+Object
+value
+)
+;

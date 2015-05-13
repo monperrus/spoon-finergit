@@ -11,9 +11,9 @@ parent
 null
 )
 {
-setRootElement
+setParent
 (
-true
+ROOT_PACKAGE
 )
 ;
 }

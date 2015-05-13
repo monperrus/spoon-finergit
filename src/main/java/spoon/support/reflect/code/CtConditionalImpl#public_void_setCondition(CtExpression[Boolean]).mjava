@@ -9,6 +9,13 @@ Boolean
 condition
 )
 {
+condition
+.
+setParent
+(
+this
+)
+;
 this
 .
 condition

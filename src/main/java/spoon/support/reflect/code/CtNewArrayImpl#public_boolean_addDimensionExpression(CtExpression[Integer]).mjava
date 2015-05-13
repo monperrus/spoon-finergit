@@ -35,6 +35,13 @@ Integer
 )
 ;
 }
+dimension
+.
+setParent
+(
+this
+)
+;
 return
 dimensionExpressions
 .

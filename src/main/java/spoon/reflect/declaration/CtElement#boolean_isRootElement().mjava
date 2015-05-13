@@ -1,8 +1,0 @@
-/** 
- * Tells if this element is a root of the element tree (and thus has no parent, which is different from being not initialized). When an element is a root element,  {@link #getParent()} will return null without throwingan exception.
- */
-boolean
-isRootElement
-(
-)
-;

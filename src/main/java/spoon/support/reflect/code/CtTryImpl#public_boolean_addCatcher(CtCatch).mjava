@@ -29,6 +29,13 @@ CtCatch
 )
 ;
 }
+catcher
+.
+setParent
+(
+this
+)
+;
 return
 catchers
 .

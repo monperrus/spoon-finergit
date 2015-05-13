@@ -33,6 +33,13 @@ CtStatement
 )
 ;
 }
+statement
+.
+setParent
+(
+this
+)
+;
 this
 .
 statements

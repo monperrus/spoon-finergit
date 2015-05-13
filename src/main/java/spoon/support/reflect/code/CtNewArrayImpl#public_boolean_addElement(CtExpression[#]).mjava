@@ -37,6 +37,13 @@ CtExpression
 )
 ;
 }
+expression
+.
+setParent
+(
+this
+)
+;
 return
 expressions
 .

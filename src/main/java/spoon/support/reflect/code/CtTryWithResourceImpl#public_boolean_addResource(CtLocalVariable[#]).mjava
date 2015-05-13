@@ -35,6 +35,13 @@ CtLocalVariable
 )
 ;
 }
+resource
+.
+setParent
+(
+this
+)
+;
 return
 resources
 .

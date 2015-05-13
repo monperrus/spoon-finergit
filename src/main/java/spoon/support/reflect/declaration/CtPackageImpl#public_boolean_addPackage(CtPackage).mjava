@@ -6,6 +6,13 @@ CtPackage
 pack
 )
 {
+pack
+.
+setParent
+(
+this
+)
+;
 return
 packs
 .

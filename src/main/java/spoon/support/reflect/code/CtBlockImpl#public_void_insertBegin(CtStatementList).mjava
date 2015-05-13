@@ -8,13 +8,13 @@ statements
 {
 if
 (
-getParentNoExceptions
+getParent
 (
 )
 !=
 null
 &&
-getParentNoExceptions
+getParent
 (
 )
 instanceof

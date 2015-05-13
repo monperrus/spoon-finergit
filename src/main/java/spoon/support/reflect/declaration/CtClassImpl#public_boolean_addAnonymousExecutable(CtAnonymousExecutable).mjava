@@ -28,6 +28,13 @@ CtAnonymousExecutable
 )
 ;
 }
+e
+.
+setParent
+(
+this
+)
+;
 return
 anonymousExecutables
 .

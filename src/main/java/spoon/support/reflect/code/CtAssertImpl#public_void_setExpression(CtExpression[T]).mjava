@@ -9,6 +9,13 @@ T
 value
 )
 {
+value
+.
+setParent
+(
+this
+)
+;
 this
 .
 value

@@ -48,6 +48,15 @@ setType
 r
 )
 ;
+if
+(
+intLiteral
+.
+constant
+!=
+null
+)
+{
 l
 .
 setValue
@@ -61,6 +70,7 @@ intValue
 )
 )
 ;
+}
 context
 .
 enter

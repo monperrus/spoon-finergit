@@ -9,6 +9,13 @@ Boolean
 expression
 )
 {
+expression
+.
+setParent
+(
+this
+)
+;
 this
 .
 expression

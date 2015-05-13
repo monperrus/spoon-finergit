@@ -9,6 +9,13 @@ CtLocalVariable
 variable
 )
 {
+variable
+.
+setParent
+(
+this
+)
+;
 this
 .
 variable

@@ -9,6 +9,13 @@ T
 defaultExpression
 )
 {
+defaultExpression
+.
+setParent
+(
+this
+)
+;
 this
 .
 defaultExpression

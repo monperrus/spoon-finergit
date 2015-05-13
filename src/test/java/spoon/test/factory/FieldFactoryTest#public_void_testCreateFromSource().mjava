@@ -144,17 +144,6 @@ getParent
 ;
 Assert
 .
-assertFalse
-(
-parent
-.
-isRootElement
-(
-)
-)
-;
-Assert
-.
 assertTrue
 (
 parent

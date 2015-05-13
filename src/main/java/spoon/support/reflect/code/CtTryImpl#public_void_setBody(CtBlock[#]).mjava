@@ -9,6 +9,13 @@ CtBlock
 body
 )
 {
+body
+.
+setParent
+(
+this
+)
+;
 this
 .
 body

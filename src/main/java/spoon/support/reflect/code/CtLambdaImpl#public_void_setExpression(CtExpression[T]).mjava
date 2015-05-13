@@ -25,6 +25,13 @@ SpoonException
 )
 ;
 }
+expression
+.
+setParent
+(
+this
+)
+;
 this
 .
 expression

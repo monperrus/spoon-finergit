@@ -6,6 +6,13 @@ CtStatement
 labelledStatement
 )
 {
+labelledStatement
+.
+setParent
+(
+this
+)
+;
 this
 .
 labelledStatement

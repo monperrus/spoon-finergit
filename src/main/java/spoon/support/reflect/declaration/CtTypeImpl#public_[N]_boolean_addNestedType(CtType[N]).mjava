@@ -12,6 +12,13 @@ N
 nestedType
 )
 {
+nestedType
+.
+setParent
+(
+this
+)
+;
 return
 this
 .
