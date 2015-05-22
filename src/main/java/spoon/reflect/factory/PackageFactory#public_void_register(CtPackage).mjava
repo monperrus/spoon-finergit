@@ -9,36 +9,6 @@ CtPackage
 pck
 )
 {
-if
-(
-packages
-.
-containsKey
-(
-pck
-.
-getQualifiedName
-(
-)
-)
-)
-{
-throw
-new
-RuntimeException
-(
-"package "
-+
-pck
-.
-getQualifiedName
-(
-)
-+
-" already created"
-)
-;
-}
 packages
 .
 put

@@ -9,6 +9,13 @@ CtBlock
 finalizer
 )
 {
+finalizer
+.
+setParent
+(
+this
+)
+;
 this
 .
 finalizer

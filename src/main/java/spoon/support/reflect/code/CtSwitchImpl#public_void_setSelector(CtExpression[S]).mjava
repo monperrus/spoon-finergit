@@ -9,6 +9,13 @@ S
 selector
 )
 {
+selector
+.
+setParent
+(
+this
+)
+;
 this
 .
 expression

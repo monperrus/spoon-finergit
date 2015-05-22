@@ -9,6 +9,13 @@ T
 expression
 )
 {
+expression
+.
+setParent
+(
+this
+)
+;
 this
 .
 operand

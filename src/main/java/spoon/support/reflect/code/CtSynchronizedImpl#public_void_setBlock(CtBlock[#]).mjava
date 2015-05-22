@@ -9,6 +9,13 @@ CtBlock
 block
 )
 {
+block
+.
+setParent
+(
+this
+)
+;
 this
 .
 block

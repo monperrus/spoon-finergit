@@ -12,6 +12,11 @@ getParameters
 )
 {
 return
+Collections
+.
+unmodifiableList
+(
 parameters
+)
 ;
 }

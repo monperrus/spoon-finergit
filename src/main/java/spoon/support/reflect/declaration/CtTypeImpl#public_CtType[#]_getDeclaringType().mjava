@@ -14,9 +14,11 @@ parent
 null
 )
 {
-setRootElement
+setParent
 (
-true
+CtPackageImpl
+.
+ROOT_PACKAGE
 )
 ;
 }

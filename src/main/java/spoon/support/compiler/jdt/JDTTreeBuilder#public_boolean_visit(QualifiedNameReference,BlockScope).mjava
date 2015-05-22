@@ -163,13 +163,6 @@ setTarget
 fa
 )
 ;
-fa
-.
-setParent
-(
-other
-)
-;
 CompilationUnit
 cu
 =
@@ -474,13 +467,6 @@ ref
 )
 ;
 }
-va
-.
-setParent
-(
-fa
-)
-;
 CompilationUnit
 cu
 =

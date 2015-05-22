@@ -108,11 +108,7 @@ getType
 }
 annotation
 .
-getElementValues
-(
-)
-.
-put
+addValue
 (
 name
 ,

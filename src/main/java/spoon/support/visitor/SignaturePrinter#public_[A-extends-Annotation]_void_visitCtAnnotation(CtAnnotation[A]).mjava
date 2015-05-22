@@ -44,25 +44,4 @@ getQualifiedName
 )
 ;
 }
-else
-{
-logger
-.
-error
-(
-"null annotation type at "
-+
-annotation
-.
-getPosition
-(
-)
-,
-new
-Exception
-(
-)
-)
-;
-}
 }

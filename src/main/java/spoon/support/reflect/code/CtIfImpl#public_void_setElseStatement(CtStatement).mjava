@@ -6,6 +6,13 @@ CtStatement
 elseStatement
 )
 {
+elseStatement
+.
+setParent
+(
+this
+)
+;
 this
 .
 elseStatement

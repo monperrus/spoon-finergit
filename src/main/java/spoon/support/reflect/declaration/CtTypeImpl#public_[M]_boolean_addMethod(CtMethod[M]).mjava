@@ -37,6 +37,13 @@ CtMethod
 )
 ;
 }
+method
+.
+setParent
+(
+this
+)
+;
 return
 methods
 .

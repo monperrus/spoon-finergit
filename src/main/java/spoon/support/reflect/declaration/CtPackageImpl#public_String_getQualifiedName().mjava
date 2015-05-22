@@ -11,6 +11,12 @@ getDeclaringPackage
 )
 ==
 null
+||
+getDeclaringPackage
+(
+)
+==
+ROOT_PACKAGE
 )
 return
 getSimpleName

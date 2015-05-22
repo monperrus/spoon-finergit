@@ -9,6 +9,13 @@ T
 thenExpression
 )
 {
+thenExpression
+.
+setParent
+(
+this
+)
+;
 this
 .
 thenExpression

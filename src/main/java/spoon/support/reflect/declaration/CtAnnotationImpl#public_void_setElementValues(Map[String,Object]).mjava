@@ -11,6 +11,14 @@ Object
 values
 )
 {
+this
+.
+elementValues
+.
+clear
+(
+)
+;
 for
 (
 Entry
@@ -28,11 +36,7 @@ entrySet
 )
 )
 {
-this
-.
-elementValues
-.
-put
+addValue
 (
 e
 .

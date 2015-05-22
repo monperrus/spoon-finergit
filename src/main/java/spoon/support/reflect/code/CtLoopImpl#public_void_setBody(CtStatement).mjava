@@ -6,6 +6,13 @@ CtStatement
 body
 )
 {
+body
+.
+setParent
+(
+this
+)
+;
 this
 .
 body

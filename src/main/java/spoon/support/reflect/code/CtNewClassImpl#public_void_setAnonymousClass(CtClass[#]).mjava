@@ -10,6 +10,13 @@ CtClass
 anonymousClass
 )
 {
+anonymousClass
+.
+setParent
+(
+this
+)
+;
 this
 .
 anonymousClass

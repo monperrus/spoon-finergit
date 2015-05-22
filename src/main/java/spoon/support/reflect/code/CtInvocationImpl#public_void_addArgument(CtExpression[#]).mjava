@@ -35,6 +35,13 @@ CtExpression
 )
 ;
 }
+argument
+.
+setParent
+(
+this
+)
+;
 arguments
 .
 add

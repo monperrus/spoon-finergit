@@ -41,6 +41,16 @@ getSimpleName
 (
 )
 +
+"("
++
+this
+.
+getClass
+(
+)
++
+")"
++
 (
 getPosition
 (

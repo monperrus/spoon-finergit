@@ -9,6 +9,13 @@ CtExpression
 target
 )
 {
+target
+.
+setParent
+(
+this
+)
+;
 this
 .
 target

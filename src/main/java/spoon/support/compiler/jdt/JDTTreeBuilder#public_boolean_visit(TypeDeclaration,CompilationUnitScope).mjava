@@ -198,6 +198,13 @@ TOP_LEVEL_PACKAGE_NAME
 )
 ;
 }
+pack
+.
+addType
+(
+type
+)
+;
 context
 .
 enter

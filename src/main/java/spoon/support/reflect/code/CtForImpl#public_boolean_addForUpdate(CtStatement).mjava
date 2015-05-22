@@ -29,6 +29,13 @@ CtStatement
 )
 ;
 }
+statement
+.
+setParent
+(
+this
+)
+;
 return
 forUpdate
 .

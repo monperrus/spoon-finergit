@@ -9,6 +9,13 @@ T
 assigned
 )
 {
+assigned
+.
+setParent
+(
+this
+)
+;
 this
 .
 assigned
