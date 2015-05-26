@@ -16,7 +16,7 @@ String
 "--help"
 }
 ;
-run
+processArguments
 (
 )
 ;
