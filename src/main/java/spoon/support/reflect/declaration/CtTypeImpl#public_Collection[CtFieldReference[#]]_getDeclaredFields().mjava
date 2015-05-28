@@ -29,6 +29,13 @@ CtFieldReference
 >
 >
 (
+getFields
+(
+)
+.
+size
+(
+)
 )
 ;
 for

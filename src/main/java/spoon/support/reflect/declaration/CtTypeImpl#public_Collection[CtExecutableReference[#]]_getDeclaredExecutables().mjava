@@ -31,6 +31,13 @@ CtExecutableReference
 >
 >
 (
+getMethods
+(
+)
+.
+size
+(
+)
 )
 ;
 for

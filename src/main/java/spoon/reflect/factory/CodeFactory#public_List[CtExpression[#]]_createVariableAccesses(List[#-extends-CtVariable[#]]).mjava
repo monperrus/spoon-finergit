@@ -41,6 +41,11 @@ CtExpression
 >
 >
 (
+variables
+.
+size
+(
+)
 )
 ;
 for

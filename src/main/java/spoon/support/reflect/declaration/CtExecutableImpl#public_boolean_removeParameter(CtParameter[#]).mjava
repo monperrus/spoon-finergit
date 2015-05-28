@@ -12,6 +12,14 @@ parameter
 {
 return
 parameters
+!=
+CtElementImpl
+.
+EMPTY_LIST
+(
+)
+&&
+parameters
 .
 remove
 (

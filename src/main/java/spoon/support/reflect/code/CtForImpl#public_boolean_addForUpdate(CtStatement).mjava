@@ -26,6 +26,7 @@ ArrayList
 CtStatement
 >
 (
+FOR_UPDATE_STATEMENTS_CONTAINER_DEFAULT_CAPACITY
 )
 ;
 }
