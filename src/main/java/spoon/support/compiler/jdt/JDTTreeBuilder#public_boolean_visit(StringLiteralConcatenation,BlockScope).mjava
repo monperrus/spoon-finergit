@@ -56,6 +56,9 @@ ArrayList
 Expression
 >
 (
+literal
+.
+counter
 )
 ;
 for

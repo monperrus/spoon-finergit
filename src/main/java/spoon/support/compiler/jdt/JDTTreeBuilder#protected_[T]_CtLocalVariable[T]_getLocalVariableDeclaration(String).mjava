@@ -25,6 +25,13 @@ ArrayList
 CtElement
 >
 (
+context
+.
+stack
+.
+size
+(
+)
 )
 ;
 for

@@ -9,6 +9,14 @@ modifier
 {
 return
 modifiers
+!=
+CtElementImpl
+.
+EMPTY_SET
+(
+)
+&&
+modifiers
 .
 remove
 (
