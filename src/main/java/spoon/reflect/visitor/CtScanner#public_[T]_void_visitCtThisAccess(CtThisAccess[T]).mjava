@@ -36,6 +36,15 @@ getTypeCasts
 )
 )
 ;
+scan
+(
+thisAccess
+.
+getTarget
+(
+)
+)
+;
 exit
 (
 thisAccess

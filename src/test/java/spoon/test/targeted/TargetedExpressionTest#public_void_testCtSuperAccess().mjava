@@ -1,7 +1,7 @@
 @Test
 public
 void
-testTargetOfSuperAccesses
+testCtSuperAccess
 (
 )
 throws
