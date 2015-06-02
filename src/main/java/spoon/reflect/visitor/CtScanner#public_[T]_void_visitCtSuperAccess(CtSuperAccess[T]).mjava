@@ -54,15 +54,6 @@ getTarget
 )
 )
 ;
-scan
-(
-f
-.
-getVariable
-(
-)
-)
-;
 exit
 (
 f
