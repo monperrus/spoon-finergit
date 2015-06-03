@@ -1,0 +1,16 @@
+/** 
+ * Visits a variable write access.
+ */
+<
+T
+>
+void
+visitCtVariableWrite
+(
+CtVariableWrite
+<
+T
+>
+variableWrite
+)
+;

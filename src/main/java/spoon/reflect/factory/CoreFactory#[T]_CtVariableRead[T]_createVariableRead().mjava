@@ -1,0 +1,14 @@
+/** 
+ * Creates a variable read expression.
+ */
+<
+T
+>
+CtVariableRead
+<
+T
+>
+createVariableRead
+(
+)
+;

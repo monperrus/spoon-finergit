@@ -59,7 +59,7 @@ getTarget
 (
 )
 instanceof
-CtVariableAccess
+CtVariableRead
 )
 ;
 assertExecutableNamedBy

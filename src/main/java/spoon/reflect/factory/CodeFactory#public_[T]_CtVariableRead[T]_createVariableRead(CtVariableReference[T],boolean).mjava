@@ -5,11 +5,11 @@ public
 <
 T
 >
-CtVariableAccess
+CtVariableRead
 <
 T
 >
-createVariableAccess
+createVariableRead
 (
 CtVariableReference
 <
@@ -21,7 +21,7 @@ boolean
 isStatic
 )
 {
-CtVariableAccess
+CtVariableRead
 <
 T
 >
@@ -94,7 +94,7 @@ Core
 (
 )
 .
-createVariableAccess
+createVariableRead
 (
 )
 ;

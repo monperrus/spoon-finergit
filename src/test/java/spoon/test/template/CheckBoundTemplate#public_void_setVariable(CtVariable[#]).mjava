@@ -12,7 +12,7 @@ CtVariable
 var
 )
 {
-CtVariableAccess
+CtVariableRead
 <
 Collection
 <
@@ -31,7 +31,7 @@ Core
 (
 )
 .
-createVariableAccess
+createVariableRead
 (
 )
 ;

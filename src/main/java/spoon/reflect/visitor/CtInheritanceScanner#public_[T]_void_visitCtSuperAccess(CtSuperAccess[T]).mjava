@@ -17,7 +17,7 @@ scanCtTargetedAccess
 f
 )
 ;
-visitCtVariableAccess
+visitCtVariableRead
 (
 f
 )

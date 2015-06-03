@@ -1,6 +1,7 @@
 /** 
  * Creates a variable access expression.
  */
+@Deprecated
 <
 T
 >

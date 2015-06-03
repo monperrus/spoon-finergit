@@ -1,5 +1,5 @@
 /** 
- * Visits a variable access.
+ * Visits a variable access (read or write).
  */
 <
 T
