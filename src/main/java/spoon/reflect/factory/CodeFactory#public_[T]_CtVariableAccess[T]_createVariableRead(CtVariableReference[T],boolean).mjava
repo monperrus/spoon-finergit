@@ -5,7 +5,7 @@ public
 <
 T
 >
-CtVariableRead
+CtVariableAccess
 <
 T
 >
@@ -21,7 +21,7 @@ boolean
 isStatic
 )
 {
-CtVariableRead
+CtVariableAccess
 <
 T
 >
@@ -42,7 +42,7 @@ Core
 (
 )
 .
-createFieldAccess
+createFieldRead
 (
 )
 ;

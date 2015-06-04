@@ -1,6 +1,7 @@
 /** 
  * Creates a field access expression.
  */
+@Deprecated
 <
 T
 >

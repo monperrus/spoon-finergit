@@ -1,0 +1,14 @@
+/** 
+ * Creates a field read access.
+ */
+<
+T
+>
+CtFieldRead
+<
+T
+>
+createFieldRead
+(
+)
+;
