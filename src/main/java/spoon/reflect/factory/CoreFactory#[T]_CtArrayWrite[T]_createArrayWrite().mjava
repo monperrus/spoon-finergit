@@ -1,0 +1,14 @@
+/** 
+ * Creates an array write access expression.
+ */
+<
+T
+>
+CtArrayWrite
+<
+T
+>
+createArrayWrite
+(
+)
+;
