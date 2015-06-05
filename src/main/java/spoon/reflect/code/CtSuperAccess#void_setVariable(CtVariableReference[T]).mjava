@@ -1,0 +1,11 @@
+@Deprecated
+void
+setVariable
+(
+CtVariableReference
+<
+T
+>
+variable
+)
+;
