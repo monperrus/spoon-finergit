@@ -107,6 +107,17 @@ ArrayList
 CtStatement
 >
 (
+statements
+.
+getStatements
+(
+)
+.
+size
+(
+)
++
+BLOCK_STATEMENTS_CONTAINER_DEFAULT_CAPACITY
 )
 ;
 }

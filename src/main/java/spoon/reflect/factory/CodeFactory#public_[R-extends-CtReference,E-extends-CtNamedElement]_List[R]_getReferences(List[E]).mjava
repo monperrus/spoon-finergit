@@ -41,6 +41,11 @@ ArrayList
 R
 >
 (
+elements
+.
+size
+(
+)
 )
 ;
 for

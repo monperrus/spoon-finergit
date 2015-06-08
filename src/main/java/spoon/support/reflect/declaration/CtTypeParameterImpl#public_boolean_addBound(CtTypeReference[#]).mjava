@@ -31,6 +31,7 @@ CtTypeReference
 >
 >
 (
+TYPE_BOUNDS_CONTAINER_DEFAULT_CAPACITY
 )
 ;
 }

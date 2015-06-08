@@ -61,6 +61,7 @@ Annotation
 >
 >
 (
+ANNOTATIONS_CONTAINER_DEFAULT_CAPACITY
 )
 ;
 }

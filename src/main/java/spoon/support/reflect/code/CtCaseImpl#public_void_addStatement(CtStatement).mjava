@@ -26,6 +26,7 @@ ArrayList
 CtStatement
 >
 (
+CASE_STATEMENTS_CONTAINER_DEFAULT_CAPACITY
 )
 ;
 }

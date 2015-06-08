@@ -54,6 +54,9 @@ CtExpression
 >
 >
 (
+arguments
+.
+length
 )
 ;
 for

@@ -16,6 +16,14 @@ formalTypeParameter
 null
 &&
 formalTypeParameters
+!=
+CtElementImpl
+.
+EMPTY_LIST
+(
+)
+&&
+formalTypeParameters
 .
 remove
 (

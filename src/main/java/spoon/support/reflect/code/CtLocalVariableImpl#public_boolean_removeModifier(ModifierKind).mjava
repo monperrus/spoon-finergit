@@ -8,6 +8,13 @@ modifier
 )
 {
 return
+!
+modifiers
+.
+isEmpty
+(
+)
+&&
 modifiers
 .
 remove

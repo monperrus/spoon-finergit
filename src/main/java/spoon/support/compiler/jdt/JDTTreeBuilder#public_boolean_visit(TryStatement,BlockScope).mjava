@@ -230,6 +230,11 @@ CtTypeReference
 >
 >
 (
+utr
+.
+typeReferences
+.
+length
 )
 ;
 for
