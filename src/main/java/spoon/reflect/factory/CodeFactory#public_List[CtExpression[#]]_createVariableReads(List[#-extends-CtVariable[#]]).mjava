@@ -10,7 +10,7 @@ CtExpression
 ?
 >
 >
-createVariableAccesses
+createVariableReads
 (
 List
 <
@@ -63,7 +63,7 @@ result
 .
 add
 (
-createVariableAccess
+createVariableRead
 (
 v
 .

@@ -1,0 +1,14 @@
+/** 
+ * Creates a field write access.
+ */
+<
+T
+>
+CtFieldWrite
+<
+T
+>
+createFieldWrite
+(
+)
+;

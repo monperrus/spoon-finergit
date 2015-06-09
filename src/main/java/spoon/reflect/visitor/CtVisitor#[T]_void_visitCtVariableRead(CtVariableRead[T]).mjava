@@ -1,0 +1,16 @@
+/** 
+ * Visits a variable read access.
+ */
+<
+T
+>
+void
+visitCtVariableRead
+(
+CtVariableRead
+<
+T
+>
+variableRead
+)
+;

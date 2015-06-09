@@ -1,3 +1,4 @@
+@Override
 public
 <
 T
@@ -30,11 +31,9 @@ getDeclaration
 ;
 if
 (
-(
 v
 !=
 null
-)
 &&
 v
 .
@@ -45,7 +44,6 @@ ModifierKind
 FINAL
 )
 &&
-(
 v
 .
 getDefaultExpression
@@ -53,7 +51,6 @@ getDefaultExpression
 )
 !=
 null
-)
 )
 {
 setResult

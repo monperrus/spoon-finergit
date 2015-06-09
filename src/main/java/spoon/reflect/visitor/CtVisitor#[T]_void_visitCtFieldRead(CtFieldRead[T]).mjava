@@ -1,0 +1,16 @@
+/** 
+ * Visits a field read access.
+ */
+<
+T
+>
+void
+visitCtFieldRead
+(
+CtFieldRead
+<
+T
+>
+fieldRead
+)
+;

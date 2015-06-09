@@ -1,6 +1,7 @@
 /** 
  * Creates an array access expression.
  */
+@Deprecated
 <
 T
 ,

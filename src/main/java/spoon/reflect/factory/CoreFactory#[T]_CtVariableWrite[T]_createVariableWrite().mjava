@@ -1,0 +1,14 @@
+/** 
+ * Creates a variable write expression.
+ */
+<
+T
+>
+CtVariableWrite
+<
+T
+>
+createVariableWrite
+(
+)
+;

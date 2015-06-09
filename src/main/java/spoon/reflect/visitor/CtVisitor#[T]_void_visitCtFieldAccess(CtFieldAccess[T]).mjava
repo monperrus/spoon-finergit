@@ -1,3 +1,6 @@
+/** 
+ * Visits a field access (read and write).
+ */
 <
 T
 >

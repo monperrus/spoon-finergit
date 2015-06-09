@@ -1,0 +1,16 @@
+/** 
+ * Visits an array read access.
+ */
+<
+T
+>
+void
+visitCtArrayRead
+(
+CtArrayRead
+<
+T
+>
+arrayRead
+)
+;

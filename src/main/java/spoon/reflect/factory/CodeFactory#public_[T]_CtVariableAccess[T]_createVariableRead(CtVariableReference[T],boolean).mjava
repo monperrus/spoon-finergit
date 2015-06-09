@@ -9,7 +9,7 @@ CtVariableAccess
 <
 T
 >
-createVariableAccess
+createVariableRead
 (
 CtVariableReference
 <
@@ -42,7 +42,7 @@ Core
 (
 )
 .
-createFieldAccess
+createFieldRead
 (
 )
 ;
@@ -94,7 +94,7 @@ Core
 (
 )
 .
-createVariableAccess
+createVariableRead
 (
 )
 ;
