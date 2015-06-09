@@ -22,9 +22,11 @@ if
 (
 thisAccess
 .
-isQualified
+getTarget
 (
 )
+!=
+null
 &&
 thisAccess
 .
@@ -45,9 +47,11 @@ if
 (
 thisAccess
 .
-isQualified
+getTarget
 (
 )
+!=
+null
 )
 {
 visitCtTypeReferenceWithoutGenerics

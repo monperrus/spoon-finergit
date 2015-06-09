@@ -164,7 +164,7 @@ assertEquals
 ,
 (
 (
-CtTargetedAccess
+CtFieldAccess
 <
 ?
 >
@@ -195,7 +195,7 @@ getSourceEnd
 -
 (
 (
-CtTargetedAccess
+CtFieldAccess
 <
 ?
 >

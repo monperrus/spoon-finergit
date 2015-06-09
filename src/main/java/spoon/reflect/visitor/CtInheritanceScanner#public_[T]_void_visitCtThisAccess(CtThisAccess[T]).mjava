@@ -12,6 +12,11 @@ T
 e
 )
 {
+scanCtTargetedExpression
+(
+e
+)
+;
 scanCtExpression
 (
 e

@@ -1,7 +1,7 @@
 @Test
 public
 void
-testModelBuildingOuterThisAccesses
+testCtThisAccess
 (
 )
 throws
@@ -15,7 +15,7 @@ type
 =
 build
 (
-"spoon.test.fieldaccesses"
+"spoon.test.targeted.testclasses"
 ,
 "InnerClassThisAccess"
 )
@@ -61,7 +61,7 @@ get
 ;
 assertEquals
 (
-"spoon.test.fieldaccesses.InnerClassThisAccess.this.method()"
+"spoon.test.targeted.testclasses.InnerClassThisAccess.this.method()"
 ,
 meth1
 .

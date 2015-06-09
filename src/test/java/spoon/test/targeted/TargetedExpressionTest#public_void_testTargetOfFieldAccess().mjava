@@ -15,7 +15,7 @@ type
 =
 build
 (
-"spoon.test.fieldaccesses.testclasses"
+"spoon.test.targeted.testclasses"
 ,
 "Foo"
 )
