@@ -1,10 +1,18 @@
 /** 
  * Replaces this element by another one.
  */
+<
+T
+extends
+R
+>
 void
 replace
 (
-CtElement
+CtBlock
+<
+T
+>
 element
 )
 ;

@@ -107,10 +107,16 @@ parent
 ;
 CtExpression
 <
-?
+Integer
 >
 s1
 =
+(
+CtExpression
+<
+Integer
+>
+)
 assignment
 .
 getAssignment
@@ -119,7 +125,7 @@ getAssignment
 ;
 CtExpression
 <
-?
+Integer
 >
 s2
 =

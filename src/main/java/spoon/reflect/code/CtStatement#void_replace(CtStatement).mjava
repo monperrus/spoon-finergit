@@ -1,0 +1,10 @@
+/** 
+ * Replaces this element by another one.
+ */
+void
+replace
+(
+CtStatement
+element
+)
+;
