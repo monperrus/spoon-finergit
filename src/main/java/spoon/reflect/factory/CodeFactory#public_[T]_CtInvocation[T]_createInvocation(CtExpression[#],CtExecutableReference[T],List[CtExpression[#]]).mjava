@@ -1,7 +1,7 @@
 /** 
  * Creates an invocation (can be a statement or an expression).
  * @param < T > the return type of the invoked method
- * @param target the target expression
+ * @param target the target expression (may be null for static methods)
  * @param executable the invoked executable
  * @param arguments the argument list
  * @return the new invocation
@@ -54,6 +54,13 @@ createInvocation
 (
 )
 ;
+if
+(
+target
+!=
+null
+)
+{
 invocation
 .
 setTarget
@@ -61,6 +68,7 @@ setTarget
 target
 )
 ;
+}
 invocation
 .
 setExecutable
