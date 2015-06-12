@@ -1,3 +1,6 @@
+/** 
+ * @deprecated super isn't a variable. So this method will be removed in a next release.
+ */
 @Deprecated
 CtFieldReference
 <
