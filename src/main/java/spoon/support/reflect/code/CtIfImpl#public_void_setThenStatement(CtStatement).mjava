@@ -6,6 +6,12 @@ CtStatement
 thenStatement
 )
 {
+if
+(
+thenStatement
+!=
+null
+)
 thenStatement
 .
 setParent

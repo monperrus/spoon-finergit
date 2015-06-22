@@ -9,6 +9,12 @@ T
 value
 )
 {
+if
+(
+value
+!=
+null
+)
 value
 .
 setParent

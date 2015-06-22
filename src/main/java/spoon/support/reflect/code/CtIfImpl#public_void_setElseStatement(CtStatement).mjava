@@ -6,6 +6,12 @@ CtStatement
 elseStatement
 )
 {
+if
+(
+elseStatement
+!=
+null
+)
 elseStatement
 .
 setParent
