@@ -9,6 +9,12 @@ T
 defaultExpression
 )
 {
+if
+(
+defaultExpression
+!=
+null
+)
 defaultExpression
 .
 setParent

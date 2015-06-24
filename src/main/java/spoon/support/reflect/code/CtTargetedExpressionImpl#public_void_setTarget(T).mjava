@@ -6,6 +6,12 @@ T
 target
 )
 {
+if
+(
+target
+!=
+null
+)
 target
 .
 setParent

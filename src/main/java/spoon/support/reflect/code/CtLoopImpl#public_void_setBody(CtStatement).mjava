@@ -6,6 +6,12 @@ CtStatement
 body
 )
 {
+if
+(
+body
+!=
+null
+)
 body
 .
 setParent

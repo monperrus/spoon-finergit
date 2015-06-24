@@ -6,6 +6,12 @@ CtStatement
 labelledStatement
 )
 {
+if
+(
+labelledStatement
+!=
+null
+)
 labelledStatement
 .
 setParent

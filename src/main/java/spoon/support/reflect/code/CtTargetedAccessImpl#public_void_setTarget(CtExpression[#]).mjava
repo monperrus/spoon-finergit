@@ -9,6 +9,12 @@ CtExpression
 target
 )
 {
+if
+(
+target
+!=
+null
+)
 target
 .
 setParent

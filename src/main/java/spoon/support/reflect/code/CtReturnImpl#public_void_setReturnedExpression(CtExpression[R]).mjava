@@ -9,6 +9,12 @@ R
 expression
 )
 {
+if
+(
+expression
+!=
+null
+)
 expression
 .
 setParent
