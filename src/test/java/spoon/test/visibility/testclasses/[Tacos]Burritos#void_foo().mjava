@@ -1,0 +1,17 @@
+void
+foo
+(
+)
+{
+System
+.
+out
+.
+println
+(
+x
+.
+length
+)
+;
+}
