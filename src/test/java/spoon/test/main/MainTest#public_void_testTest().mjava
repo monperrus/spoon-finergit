@@ -60,9 +60,7 @@ getAllRoots
 )
 )
 {
-ParentTest
-.
-checkParentContract
+checkGenericContracts
 (
 pack
 )
