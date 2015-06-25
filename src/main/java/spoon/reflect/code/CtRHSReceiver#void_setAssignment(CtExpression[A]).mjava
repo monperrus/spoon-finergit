@@ -1,0 +1,13 @@
+/** 
+ * Sets the right-hand side expression (RHS) of the "=" operator.
+ */
+void
+setAssignment
+(
+CtExpression
+<
+A
+>
+assignment
+)
+;

@@ -1,5 +1,5 @@
 /** 
- * Sets the expression that is set to the assigned expression.
+ * {@inheritDoc}
  */
 void
 setAssignment
