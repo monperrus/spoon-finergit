@@ -262,17 +262,6 @@ e
 }
 }
 }
-if
-(
-!
-(
-t
-instanceof
-CtType
-)
-)
-continue
-;
 List
 <
 CtExecutable
