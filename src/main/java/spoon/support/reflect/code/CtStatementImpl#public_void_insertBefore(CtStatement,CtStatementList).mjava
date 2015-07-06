@@ -226,6 +226,7 @@ if
 (
 inThen
 )
+{
 (
 (
 CtIf
@@ -238,7 +239,9 @@ setThenStatement
 block
 )
 ;
+}
 else
+{
 (
 (
 CtIf
@@ -251,6 +254,7 @@ setElseStatement
 block
 )
 ;
+}
 parentBlock
 =
 block

@@ -175,10 +175,16 @@ getParent
 ;
 CtLiteral
 <
-?
+Integer
 >
 lit
 =
+(
+CtLiteral
+<
+Integer
+>
+)
 foo
 .
 getElements
@@ -215,7 +221,7 @@ getParent
 ;
 CtLiteral
 <
-?
+Integer
 >
 newLit
 =

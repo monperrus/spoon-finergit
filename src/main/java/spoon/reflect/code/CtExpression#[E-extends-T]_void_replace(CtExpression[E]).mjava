@@ -1,0 +1,18 @@
+/** 
+ * Replaces this element by another one.
+ */
+<
+E
+extends
+T
+>
+void
+replace
+(
+CtExpression
+<
+E
+>
+element
+)
+;

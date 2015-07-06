@@ -46,7 +46,7 @@ getStatement
 0
 )
 ;
-CtStatementList
+CtBlock
 lst
 =
 sample
