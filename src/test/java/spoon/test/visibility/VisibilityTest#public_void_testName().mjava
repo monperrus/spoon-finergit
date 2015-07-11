@@ -35,6 +35,9 @@ final
 List
 <
 CtFieldReference
+<
+?
+>
 >
 references
 =
@@ -52,6 +55,9 @@ new
 AbstractReferenceFilter
 <
 CtFieldReference
+<
+?
+>
 >
 (
 CtFieldReference
@@ -65,6 +71,9 @@ boolean
 matches
 (
 CtFieldReference
+<
+?
+>
 reference
 )
 {
@@ -97,6 +106,9 @@ size
 ;
 final
 CtFieldReference
+<
+?
+>
 field
 =
 references

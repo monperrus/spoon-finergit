@@ -87,6 +87,9 @@ isDirectory
 {
 final
 Collection
+<
+?
+>
 resources
 =
 FileUtils

@@ -33,6 +33,9 @@ getMethod
 )
 ;
 CtVariable
+<
+?
+>
 var
 =
 sample
@@ -68,6 +71,9 @@ assertEquals
 (
 (
 CtLiteral
+<
+?
+>
 )
 var
 .
@@ -121,6 +127,9 @@ assertEquals
 (
 (
 CtLiteral
+<
+?
+>
 )
 var
 .

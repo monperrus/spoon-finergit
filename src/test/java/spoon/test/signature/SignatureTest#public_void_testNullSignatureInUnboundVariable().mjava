@@ -168,12 +168,6 @@ CtExpression
 >
 argument1
 =
-(
-CtExpression
-<
-?
->
-)
 invo
 .
 getArguments

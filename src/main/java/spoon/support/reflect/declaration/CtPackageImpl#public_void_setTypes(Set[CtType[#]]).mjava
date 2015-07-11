@@ -23,6 +23,9 @@ clear
 for
 (
 CtType
+<
+?
+>
 t
 :
 types

@@ -151,6 +151,9 @@ assertEquals
 (
 (
 CtArrayTypeReference
+<
+?
+>
 )
 param1
 .
