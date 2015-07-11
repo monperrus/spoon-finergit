@@ -15,12 +15,6 @@ CtType
 >
 type
 =
-(
-CtType
-<
-?
->
-)
 declaringType
 .
 getDeclaration

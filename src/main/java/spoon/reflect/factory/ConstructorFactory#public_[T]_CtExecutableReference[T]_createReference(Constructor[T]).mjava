@@ -58,15 +58,6 @@ Type
 .
 createReferences
 (
-(
-List
-<
-Class
-<
-?
->
->
-)
 Arrays
 .
 asList
