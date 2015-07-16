@@ -11,10 +11,13 @@ TestUtils
 .
 canBeBuild
 (
-new
-File
+TestUtils
+.
+getSpoonedDirectory
 (
-"./target/spooned/spoon/test/lambda/testclasses/"
+getClass
+(
+)
 )
 ,
 8
