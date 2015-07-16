@@ -28,6 +28,11 @@ scanCtStatement
 e
 )
 ;
+scanCtGenericElementReference
+(
+e
+)
+;
 scanCtExpression
 (
 e

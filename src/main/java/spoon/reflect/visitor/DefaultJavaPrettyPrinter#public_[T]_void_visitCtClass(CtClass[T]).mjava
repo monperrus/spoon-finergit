@@ -64,7 +64,7 @@ getSimpleName
 )
 )
 ;
-writeGenericsParameter
+writeFormalTypeParameters
 (
 ctClass
 .

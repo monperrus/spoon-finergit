@@ -22,7 +22,7 @@ writeModifiers
 c
 )
 ;
-writeGenericsParameter
+writeFormalTypeParameters
 (
 c
 .

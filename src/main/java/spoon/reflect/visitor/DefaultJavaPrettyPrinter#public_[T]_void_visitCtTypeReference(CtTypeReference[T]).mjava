@@ -195,13 +195,9 @@ context
 ignoreGenerics
 )
 {
-writeGenericsParameter
+writeActualTypeArguments
 (
 ref
-.
-getActualTypeArguments
-(
-)
 )
 ;
 }

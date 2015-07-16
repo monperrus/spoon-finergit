@@ -37,7 +37,7 @@ write
 )
 ;
 }
-writeGenericsParameter
+writeFormalTypeParameters
 (
 m
 .

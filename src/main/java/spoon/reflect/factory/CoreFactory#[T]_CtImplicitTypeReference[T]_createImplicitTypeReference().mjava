@@ -1,0 +1,14 @@
+/** 
+ * Creates a inference type reference.
+ */
+<
+T
+>
+CtImplicitTypeReference
+<
+T
+>
+createImplicitTypeReference
+(
+)
+;
