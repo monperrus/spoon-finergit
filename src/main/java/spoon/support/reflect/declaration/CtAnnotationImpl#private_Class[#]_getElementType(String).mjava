@@ -15,12 +15,6 @@ CtType
 >
 t
 =
-(
-CtType
-<
-?
->
-)
 getAnnotationType
 (
 )

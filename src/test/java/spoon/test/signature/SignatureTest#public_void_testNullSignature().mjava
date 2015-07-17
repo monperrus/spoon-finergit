@@ -54,12 +54,6 @@ CtReturn
 >
 returnEl
 =
-(
-CtReturn
-<
-?
->
-)
 clazz
 .
 getElements

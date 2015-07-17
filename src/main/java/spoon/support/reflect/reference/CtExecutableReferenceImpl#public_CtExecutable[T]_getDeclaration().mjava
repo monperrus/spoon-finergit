@@ -14,12 +14,6 @@ CtType
 >
 typeDecl
 =
-(
-CtType
-<
-?
->
-)
 getDeclaringType
 (
 )

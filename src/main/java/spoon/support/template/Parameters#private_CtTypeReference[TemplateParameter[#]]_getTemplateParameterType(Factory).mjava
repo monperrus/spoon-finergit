@@ -26,15 +26,6 @@ templateParameterType
 =
 (
 CtTypeReference
-<
-TemplateParameter
-<
-?
->
->
-)
-(
-CtTypeReference
 )
 factory
 .
