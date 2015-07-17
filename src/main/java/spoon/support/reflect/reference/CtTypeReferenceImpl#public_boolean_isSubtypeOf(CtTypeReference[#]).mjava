@@ -275,13 +275,6 @@ subTypeDecl
 null
 )
 {
-if
-(
-subTypeDecl
-instanceof
-CtType
-)
-{
 for
 (
 CtTypeReference
@@ -414,7 +407,6 @@ isSubtypeOf
 type
 )
 ;
-}
 }
 }
 return
