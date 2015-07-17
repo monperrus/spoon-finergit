@@ -4,11 +4,13 @@ CtExpression
 <
 T
 >
-getDefaultExpression
+getAssignment
 (
 )
 {
 return
-null
+getDefaultExpression
+(
+)
 ;
 }

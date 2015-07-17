@@ -35,15 +35,6 @@ getType
 )
 )
 ;
-scan
-(
-parameter
-.
-getDefaultExpression
-(
-)
-)
-;
 exit
 (
 parameter

@@ -1,0 +1,11 @@
+/** 
+ * Returns the right-hand side of the "=" operator.
+ */
+CtExpression
+<
+A
+>
+getAssignment
+(
+)
+;
