@@ -1,0 +1,21 @@
+/** 
+ * Sets the type in which the field is declared.
+ */
+<
+C
+extends
+CtFieldReference
+<
+T
+>
+>
+C
+setDeclaringType
+(
+CtTypeReference
+<
+?
+>
+declaringType
+)
+;

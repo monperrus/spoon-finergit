@@ -1,0 +1,21 @@
+/** 
+ * Sets the bounds (aka generics) of the referenced parameter.
+ */
+<
+T
+extends
+CtTypeParameterReference
+>
+T
+setBounds
+(
+List
+<
+CtTypeReference
+<
+?
+>
+>
+bounds
+)
+;

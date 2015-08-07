@@ -1,0 +1,22 @@
+/** 
+ * Sets the annotations for this element.
+ */
+<
+E
+extends
+CtElement
+>
+E
+setAnnotations
+(
+List
+<
+CtAnnotation
+<
+?
+Annotation
+>
+>
+annotation
+)
+;

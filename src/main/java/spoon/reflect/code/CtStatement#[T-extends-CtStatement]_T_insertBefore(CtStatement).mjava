@@ -1,0 +1,17 @@
+/** 
+ * Inserts a statement given as parameter before the current statement (this).
+ */
+<
+T
+extends
+CtStatement
+>
+T
+insertBefore
+(
+CtStatement
+statement
+)
+throws
+ParentNotInitializedException
+;

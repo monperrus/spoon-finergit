@@ -1,0 +1,25 @@
+/** 
+ * Sets the thrown types.
+ */
+<
+T
+extends
+CtExecutable
+<
+R
+>
+>
+T
+setThrownTypes
+(
+Set
+<
+CtTypeReference
+<
+?
+Throwable
+>
+>
+thrownTypes
+)
+;

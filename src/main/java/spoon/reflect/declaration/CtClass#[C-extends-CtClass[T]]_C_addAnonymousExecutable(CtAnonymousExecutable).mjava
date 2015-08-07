@@ -1,0 +1,20 @@
+/** 
+ * Add an anonymous block to this class.
+ * @param e
+ * @return <tt>true</tt> if this element changed as a result of the call
+ */
+<
+C
+extends
+CtClass
+<
+T
+>
+>
+C
+addAnonymousExecutable
+(
+CtAnonymousExecutable
+e
+)
+;

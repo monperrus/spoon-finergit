@@ -1,0 +1,24 @@
+/** 
+ * Sets the type casts.
+ */
+<
+C
+extends
+CtExpression
+<
+T
+>
+>
+C
+setTypeCasts
+(
+List
+<
+CtTypeReference
+<
+?
+>
+>
+types
+)
+;

@@ -1,0 +1,39 @@
+/** 
+ * Creates a block.
+ * @param element Statement of the block.
+ * @param < T > Subclasses of CtStatement.
+ * @return a block.
+ */
+public
+<
+T
+extends
+CtStatement
+>
+CtBlock
+<
+?
+>
+createCtBlock
+(
+T
+element
+)
+{
+return
+factory
+.
+Core
+(
+)
+.
+createBlock
+(
+)
+.
+addStatement
+(
+element
+)
+;
+}

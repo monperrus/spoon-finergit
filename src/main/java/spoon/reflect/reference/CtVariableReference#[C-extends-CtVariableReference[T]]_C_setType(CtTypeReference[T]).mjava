@@ -1,0 +1,21 @@
+/** 
+ * Sets the type of the variable.
+ */
+<
+C
+extends
+CtVariableReference
+<
+T
+>
+>
+C
+setType
+(
+CtTypeReference
+<
+T
+>
+type
+)
+;

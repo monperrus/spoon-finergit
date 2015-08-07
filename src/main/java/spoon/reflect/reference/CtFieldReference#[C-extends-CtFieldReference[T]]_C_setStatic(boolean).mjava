@@ -1,0 +1,18 @@
+/** 
+ * Forces a reference to a static element.
+ */
+<
+C
+extends
+CtFieldReference
+<
+T
+>
+>
+C
+setStatic
+(
+boolean
+b
+)
+;

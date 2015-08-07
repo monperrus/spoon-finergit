@@ -1,0 +1,24 @@
+/** 
+ * Sets the expressions that define the array's dimensions.
+ */
+<
+C
+extends
+CtNewArray
+<
+T
+>
+>
+C
+setDimensionExpressions
+(
+List
+<
+CtExpression
+<
+Integer
+>
+>
+dimensions
+)
+;

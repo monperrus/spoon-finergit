@@ -1,0 +1,24 @@
+/** 
+ * add a thrown type.
+ * @param throwType
+ * @return <tt>true</tt> if this element changed as a result of the call
+ */
+<
+T
+extends
+CtExecutable
+<
+R
+>
+>
+T
+addThrownType
+(
+CtTypeReference
+<
+?
+Throwable
+>
+throwType
+)
+;

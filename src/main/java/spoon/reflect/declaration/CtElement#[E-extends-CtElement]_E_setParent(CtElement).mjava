@@ -1,0 +1,16 @@
+/** 
+ * Manually sets the parent element of the current element. Note that the parents of an entire tree of elements can be automatically set by using the  {@link #updateAllParentsBelow()}.
+ * @param element parent
+ */
+<
+E
+extends
+CtElement
+>
+E
+setParent
+(
+CtElement
+element
+)
+;

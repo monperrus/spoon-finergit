@@ -1,0 +1,18 @@
+/** 
+ * Sets the statement list.
+ */
+<
+T
+extends
+CtStatementList
+>
+T
+setStatements
+(
+List
+<
+CtStatement
+>
+statements
+)
+;

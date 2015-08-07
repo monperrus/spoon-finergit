@@ -1,0 +1,24 @@
+/** 
+ * @param interfac
+ * @return <tt>true</tt> if this element changed as a result of the call
+ */
+<
+S
+,
+C
+extends
+CtType
+<
+T
+>
+>
+C
+addSuperInterface
+(
+CtTypeReference
+<
+S
+>
+interfac
+)
+;

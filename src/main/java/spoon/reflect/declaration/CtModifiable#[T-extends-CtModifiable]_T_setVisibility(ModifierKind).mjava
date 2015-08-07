@@ -1,0 +1,15 @@
+/** 
+ * Sets the visibility of this modifiable element (replaces old visibility).
+ */
+<
+T
+extends
+CtModifiable
+>
+T
+setVisibility
+(
+ModifierKind
+visibility
+)
+;

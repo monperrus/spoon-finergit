@@ -1,0 +1,21 @@
+/** 
+ * Sets the local variable declaration that corresponds to this local variable reference.
+ */
+<
+C
+extends
+CtLocalVariableReference
+<
+T
+>
+>
+C
+setDeclaration
+(
+CtLocalVariable
+<
+T
+>
+declaration
+)
+;

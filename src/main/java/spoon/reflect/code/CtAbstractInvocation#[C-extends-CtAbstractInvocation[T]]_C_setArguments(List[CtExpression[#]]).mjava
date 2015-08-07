@@ -1,0 +1,24 @@
+/** 
+ * Sets the invocation's arguments.
+ */
+<
+C
+extends
+CtAbstractInvocation
+<
+T
+>
+>
+C
+setArguments
+(
+List
+<
+CtExpression
+<
+?
+>
+>
+arguments
+)
+;

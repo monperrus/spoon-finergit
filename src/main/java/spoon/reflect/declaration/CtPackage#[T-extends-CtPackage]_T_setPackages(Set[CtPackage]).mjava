@@ -1,0 +1,19 @@
+/** 
+ * Sets the children defined in this package
+ * @param pack new set of child packages
+ */
+<
+T
+extends
+CtPackage
+>
+T
+setPackages
+(
+Set
+<
+CtPackage
+>
+pack
+)
+;

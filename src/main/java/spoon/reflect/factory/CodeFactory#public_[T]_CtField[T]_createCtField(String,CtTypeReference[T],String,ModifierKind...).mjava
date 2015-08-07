@@ -1,0 +1,76 @@
+/** 
+ * Creates a field.
+ * @param name Name of the field.
+ * @param type Type of the field.
+ * @param exp Default expression of the field.
+ * @param visibilities All visibilities of the field.
+ * @param < T > Generic type for the type of the field.
+ * @return a field
+ */
+public
+<
+T
+>
+CtField
+<
+T
+>
+createCtField
+(
+String
+name
+,
+CtTypeReference
+<
+T
+>
+type
+,
+String
+exp
+,
+ModifierKind
+...
+visibilities
+)
+{
+return
+factory
+.
+Core
+(
+)
+.
+createField
+(
+)
+.
+setModifiers
+(
+modifiers
+(
+visibilities
+)
+)
+.
+setSimpleName
+(
+name
+)
+.
+setType
+(
+type
+)
+.
+setDefaultExpression
+(
+this
+.
+createCodeSnippetExpression
+(
+exp
+)
+)
+;
+}

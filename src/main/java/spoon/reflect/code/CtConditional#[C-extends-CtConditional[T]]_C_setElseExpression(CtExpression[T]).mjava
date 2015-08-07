@@ -1,0 +1,21 @@
+/** 
+ * Sets the "false" expression.
+ */
+<
+C
+extends
+CtConditional
+<
+T
+>
+>
+C
+setElseExpression
+(
+CtExpression
+<
+T
+>
+elseExpression
+)
+;

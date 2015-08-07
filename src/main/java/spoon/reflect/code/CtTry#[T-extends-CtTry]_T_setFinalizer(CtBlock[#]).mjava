@@ -1,0 +1,18 @@
+/** 
+ * Sets the <i>finalizer</i> block of this <code>try</code> ( <code>finally</code> part).
+ */
+<
+T
+extends
+CtTry
+>
+T
+setFinalizer
+(
+CtBlock
+<
+?
+>
+finalizer
+)
+;

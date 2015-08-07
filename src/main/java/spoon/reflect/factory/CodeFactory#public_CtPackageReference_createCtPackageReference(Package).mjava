@@ -1,0 +1,34 @@
+/** 
+ * Creates a package reference.
+ * @param originalPackage Original package of the reference.
+ * @return a package reference.
+ */
+public
+CtPackageReference
+createCtPackageReference
+(
+Package
+originalPackage
+)
+{
+return
+factory
+.
+Core
+(
+)
+.
+createPackageReference
+(
+)
+.
+setSimpleName
+(
+originalPackage
+.
+getName
+(
+)
+)
+;
+}

@@ -1,0 +1,25 @@
+/** 
+ * Sets the list of cases defined for this switch.
+ */
+<
+T
+extends
+CtSwitch
+<
+S
+>
+>
+T
+setCases
+(
+List
+<
+CtCase
+<
+?
+S
+>
+>
+cases
+)
+;

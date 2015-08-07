@@ -1,0 +1,18 @@
+/** 
+ * Sets the synchronized block.
+ */
+<
+T
+extends
+CtSynchronized
+>
+T
+setBlock
+(
+CtBlock
+<
+?
+>
+block
+)
+;

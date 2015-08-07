@@ -1,0 +1,18 @@
+/** 
+ * Inserts the given statement at the beginning of the block.
+ */
+<
+T
+extends
+CtBlock
+<
+R
+>
+>
+T
+insertBegin
+(
+CtStatement
+statement
+)
+;

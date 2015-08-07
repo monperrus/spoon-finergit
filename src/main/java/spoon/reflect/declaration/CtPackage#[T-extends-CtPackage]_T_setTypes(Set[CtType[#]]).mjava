@@ -1,0 +1,22 @@
+/** 
+ * Sets the types defined in the package.
+ * @param types new Set of types
+ */
+<
+T
+extends
+CtPackage
+>
+T
+setTypes
+(
+Set
+<
+CtType
+<
+?
+>
+>
+types
+)
+;

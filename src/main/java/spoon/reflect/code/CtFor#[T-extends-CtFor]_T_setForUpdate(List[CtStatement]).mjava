@@ -1,0 +1,18 @@
+/** 
+ * Sets the <i>update</i> statements.
+ */
+<
+T
+extends
+CtFor
+>
+T
+setForUpdate
+(
+List
+<
+CtStatement
+>
+forUpdate
+)
+;

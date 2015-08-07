@@ -1,0 +1,21 @@
+/** 
+ * Sets the right-hand operand.
+ */
+<
+C
+extends
+CtBinaryOperator
+<
+T
+>
+>
+C
+setRightHandOperand
+(
+CtExpression
+<
+?
+>
+expression
+)
+;

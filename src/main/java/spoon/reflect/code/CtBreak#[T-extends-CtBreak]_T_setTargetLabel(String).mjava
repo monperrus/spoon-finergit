@@ -1,0 +1,15 @@
+/** 
+ * Sets the label from which the control flow breaks (null if no label defined).
+ */
+<
+T
+extends
+CtBreak
+>
+T
+setTargetLabel
+(
+String
+targetLabel
+)
+;

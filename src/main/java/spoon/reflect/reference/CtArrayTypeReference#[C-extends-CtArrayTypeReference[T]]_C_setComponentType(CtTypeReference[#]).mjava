@@ -1,0 +1,21 @@
+/** 
+ * Sets the type of the elements contained in this array.
+ */
+<
+C
+extends
+CtArrayTypeReference
+<
+T
+>
+>
+C
+setComponentType
+(
+CtTypeReference
+<
+?
+>
+componentType
+)
+;

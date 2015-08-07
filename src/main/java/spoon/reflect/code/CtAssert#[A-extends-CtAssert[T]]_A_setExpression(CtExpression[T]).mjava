@@ -1,0 +1,21 @@
+/** 
+ * Sets the expression of the assertion.
+ */
+<
+A
+extends
+CtAssert
+<
+T
+>
+>
+A
+setExpression
+(
+CtExpression
+<
+T
+>
+expression
+)
+;

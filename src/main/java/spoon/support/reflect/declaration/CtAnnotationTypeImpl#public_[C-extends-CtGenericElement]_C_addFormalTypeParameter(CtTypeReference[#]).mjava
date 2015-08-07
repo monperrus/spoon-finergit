@@ -1,0 +1,25 @@
+@Override
+public
+<
+C
+extends
+CtGenericElement
+>
+C
+addFormalTypeParameter
+(
+CtTypeReference
+<
+?
+>
+formalTypeParameter
+)
+{
+throw
+new
+UnsupportedOperationException
+(
+"You can't have generics in an annotation."
+)
+;
+}

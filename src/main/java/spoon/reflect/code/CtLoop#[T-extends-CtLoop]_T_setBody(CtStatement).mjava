@@ -1,0 +1,15 @@
+/** 
+ * Sets the body of this loop.
+ */
+<
+T
+extends
+CtLoop
+>
+T
+setBody
+(
+CtStatement
+body
+)
+;

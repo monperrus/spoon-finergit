@@ -1,0 +1,56 @@
+/** 
+ * Creates a type reference.
+ * @param originalClass Original class of the reference.
+ * @param < T > Type of the reference.
+ * @return a type reference.
+ */
+public
+<
+T
+>
+CtTypeReference
+<
+T
+>
+createCtTypeReference
+(
+Class
+<
+?
+>
+originalClass
+)
+{
+return
+factory
+.
+Core
+(
+)
+.
+createTypeReference
+(
+)
+.
+setSimpleName
+(
+originalClass
+.
+getSimpleName
+(
+)
+)
+.
+setPackage
+(
+createCtPackageReference
+(
+originalClass
+.
+getPackage
+(
+)
+)
+)
+;
+}

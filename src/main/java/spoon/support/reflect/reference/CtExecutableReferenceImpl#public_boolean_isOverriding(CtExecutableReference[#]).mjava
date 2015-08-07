@@ -1,3 +1,4 @@
+@Override
 public
 boolean
 isOverriding
@@ -32,9 +33,7 @@ return
 false
 ;
 }
-if
-(
-!
+return
 getSimpleName
 (
 )
@@ -47,13 +46,5 @@ getSimpleName
 (
 )
 )
-)
-{
-return
-false
-;
-}
-return
-true
 ;
 }

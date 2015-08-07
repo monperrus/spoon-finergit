@@ -1,0 +1,15 @@
+/** 
+ * Sets the name of referenced element.
+ */
+<
+T
+extends
+CtReference
+>
+T
+setSimpleName
+(
+String
+simpleName
+)
+;

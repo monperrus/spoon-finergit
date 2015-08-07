@@ -1,0 +1,21 @@
+/** 
+ * Sets the type parameters of this generic element.
+ */
+<
+T
+extends
+CtGenericElement
+>
+T
+setFormalTypeParameters
+(
+List
+<
+CtTypeReference
+<
+?
+>
+>
+formalTypeParameters
+)
+;

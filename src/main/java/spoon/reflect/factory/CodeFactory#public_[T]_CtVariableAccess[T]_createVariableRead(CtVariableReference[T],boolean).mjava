@@ -99,14 +99,13 @@ createVariableRead
 )
 ;
 }
+return
 va
 .
 setVariable
 (
 variable
 )
-;
-va
 .
 setType
 (
@@ -116,8 +115,5 @@ getType
 (
 )
 )
-;
-return
-va
 ;
 }

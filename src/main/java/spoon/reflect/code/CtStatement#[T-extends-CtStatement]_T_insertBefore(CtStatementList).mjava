@@ -1,0 +1,17 @@
+/** 
+ * Inserts a statement list before the current statement.
+ */
+<
+T
+extends
+CtStatement
+>
+T
+insertBefore
+(
+CtStatementList
+statements
+)
+throws
+ParentNotInitializedException
+;

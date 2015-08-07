@@ -1,0 +1,25 @@
+/** 
+ * Sets the body expression.
+ */
+<
+B
+extends
+R
+,
+T
+extends
+CtExecutable
+<
+R
+>
+>
+T
+setBody
+(
+CtBlock
+<
+B
+>
+body
+)
+;

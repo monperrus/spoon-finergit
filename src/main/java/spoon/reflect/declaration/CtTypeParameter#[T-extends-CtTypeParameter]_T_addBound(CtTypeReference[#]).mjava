@@ -1,0 +1,19 @@
+/** 
+ * @param bounds
+ * @return
+ */
+<
+T
+extends
+CtTypeParameter
+>
+T
+addBound
+(
+CtTypeReference
+<
+?
+>
+bounds
+)
+;

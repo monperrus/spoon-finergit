@@ -1,0 +1,21 @@
+/** 
+ * Sets the anonymous blocks of this class.
+ */
+<
+C
+extends
+CtClass
+<
+T
+>
+>
+C
+setAnonymousExecutables
+(
+List
+<
+CtAnonymousExecutable
+>
+e
+)
+;

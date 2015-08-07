@@ -1,0 +1,21 @@
+/** 
+ * Adds a type cast.
+ */
+<
+C
+extends
+CtExpression
+<
+T
+>
+>
+C
+addTypeCast
+(
+CtTypeReference
+<
+?
+>
+type
+)
+;

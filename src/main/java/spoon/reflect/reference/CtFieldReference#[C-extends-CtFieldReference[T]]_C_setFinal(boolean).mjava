@@ -1,0 +1,18 @@
+/** 
+ * Forces a reference to a final element.
+ */
+<
+C
+extends
+CtFieldReference
+<
+T
+>
+>
+C
+setFinal
+(
+boolean
+b
+)
+;

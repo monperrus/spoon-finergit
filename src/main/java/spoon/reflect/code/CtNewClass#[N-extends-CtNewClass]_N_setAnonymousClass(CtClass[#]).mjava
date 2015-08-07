@@ -1,0 +1,18 @@
+/** 
+ * Sets the created class.
+ */
+<
+N
+extends
+CtNewClass
+>
+N
+setAnonymousClass
+(
+CtClass
+<
+?
+>
+anonymousClass
+)
+;

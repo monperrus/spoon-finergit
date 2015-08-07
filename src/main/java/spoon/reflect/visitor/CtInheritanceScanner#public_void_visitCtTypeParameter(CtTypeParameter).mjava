@@ -6,6 +6,11 @@ CtTypeParameter
 e
 )
 {
+scanCtNamedElement
+(
+e
+)
+;
 scanCtElement
 (
 e

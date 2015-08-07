@@ -1,0 +1,17 @@
+/** 
+ * Inserts a statement after the current statement.
+ */
+<
+T
+extends
+CtStatement
+>
+T
+insertAfter
+(
+CtStatement
+statement
+)
+throws
+ParentNotInitializedException
+;

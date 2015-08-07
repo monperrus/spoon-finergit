@@ -1,0 +1,15 @@
+/** 
+ * Adds an <i>init</i> statement.
+ */
+<
+T
+extends
+CtFor
+>
+T
+addForInit
+(
+CtStatement
+statement
+)
+;

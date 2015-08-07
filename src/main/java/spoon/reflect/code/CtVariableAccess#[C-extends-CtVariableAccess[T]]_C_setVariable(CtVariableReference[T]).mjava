@@ -1,0 +1,21 @@
+/** 
+ * Sets the reference to the accessed variable.
+ */
+<
+C
+extends
+CtVariableAccess
+<
+T
+>
+>
+C
+setVariable
+(
+CtVariableReference
+<
+T
+>
+variable
+)
+;

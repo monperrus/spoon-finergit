@@ -1,0 +1,15 @@
+/** 
+ * Sets this element to be implicit (will not be printed).
+ */
+<
+E
+extends
+CtElement
+>
+E
+setImplicit
+(
+boolean
+b
+)
+;

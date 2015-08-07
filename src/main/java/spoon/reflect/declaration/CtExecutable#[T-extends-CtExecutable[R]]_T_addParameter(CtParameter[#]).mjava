@@ -1,0 +1,23 @@
+/** 
+ * Add a parameter for this executable
+ * @param parameter
+ * @return <tt>true</tt> if this element changed as a result of the call
+ */
+<
+T
+extends
+CtExecutable
+<
+R
+>
+>
+T
+addParameter
+(
+CtParameter
+<
+?
+>
+parameter
+)
+;

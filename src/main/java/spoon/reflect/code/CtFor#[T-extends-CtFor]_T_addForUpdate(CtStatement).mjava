@@ -1,0 +1,15 @@
+/** 
+ * Adds an <i>update</i> statement.
+ */
+<
+T
+extends
+CtFor
+>
+T
+addForUpdate
+(
+CtStatement
+statement
+)
+;

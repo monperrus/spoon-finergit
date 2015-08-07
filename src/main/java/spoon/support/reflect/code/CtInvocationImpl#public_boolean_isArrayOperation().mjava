@@ -1,3 +1,4 @@
+@Deprecated
 public
 boolean
 isArrayOperation
