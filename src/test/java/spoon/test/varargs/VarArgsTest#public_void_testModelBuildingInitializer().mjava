@@ -173,7 +173,13 @@ toString
 ;
 assertEquals
 (
-"void foo(int arg0, java.lang.String... args) {\n}"
+"void foo(int arg0, java.lang.String... args) {"
++
+DefaultJavaPrettyPrinter
+.
+LINE_SEPARATOR
++
+"}"
 ,
 m
 .
