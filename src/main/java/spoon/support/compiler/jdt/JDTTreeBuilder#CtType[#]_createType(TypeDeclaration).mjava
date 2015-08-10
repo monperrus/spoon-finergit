@@ -257,6 +257,12 @@ resolvedType
 !=
 null
 &&
+typeDeclaration
+.
+enclosingType
+!=
+null
+&&
 !
 new
 String
