@@ -1,5 +1,4 @@
 @Test
-@Ignore
 public
 void
 testImportOfAnInnerClassInASuperClassPackage
