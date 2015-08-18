@@ -1,0 +1,18 @@
+/** 
+ * Does not assume a full classpath
+ */
+public
+void
+setNoClasspath
+(
+boolean
+noclasspath
+)
+{
+this
+.
+noclasspath
+=
+noclasspath
+;
+}
