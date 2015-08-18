@@ -1,0 +1,18 @@
+/** 
+ * Sets automatic imports in generated files.
+ */
+public
+void
+setImports
+(
+boolean
+imports
+)
+{
+this
+.
+imports
+=
+imports
+;
+}
