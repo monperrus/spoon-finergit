@@ -1,0 +1,17 @@
+public
+Set
+<
+CtAnnotation
+<
+?
+Annotation
+>
+>
+getAnnotations
+(
+)
+{
+return
+annotations
+;
+}

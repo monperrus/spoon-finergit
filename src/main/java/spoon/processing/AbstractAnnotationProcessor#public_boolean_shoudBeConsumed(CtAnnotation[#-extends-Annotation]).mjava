@@ -14,8 +14,7 @@ Annotation
 annotation
 )
 {
-if
-(
+return
 consumedAnnotationTypes
 .
 containsKey
@@ -30,13 +29,5 @@ getQualifiedName
 (
 )
 )
-)
-{
-return
-true
-;
-}
-return
-false
 ;
 }

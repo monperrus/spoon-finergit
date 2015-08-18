@@ -1,0 +1,16 @@
+@GlobalAnnotation
+public
+ClassProcessed
+(
+)
+{
+@GlobalAnnotation
+String
+s
+=
+new
+String
+(
+)
+;
+}
