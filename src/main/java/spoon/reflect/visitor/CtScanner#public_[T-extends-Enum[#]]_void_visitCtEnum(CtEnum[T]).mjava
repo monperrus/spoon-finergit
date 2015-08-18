@@ -44,6 +44,15 @@ scan
 (
 ctEnum
 .
+getConstructors
+(
+)
+)
+;
+scan
+(
+ctEnum
+.
 getMethods
 (
 )
