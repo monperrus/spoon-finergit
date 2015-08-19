@@ -96,7 +96,7 @@ String
 ,
 "-o"
 ,
-"target/spooned-apitest"
+"target/spooned/apitest"
 }
 )
 ;

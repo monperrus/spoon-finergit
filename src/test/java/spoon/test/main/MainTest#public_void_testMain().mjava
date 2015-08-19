@@ -107,6 +107,10 @@ String
 ,
 "target/spooned"
 ,
+"--destination"
+,
+"target/spooned-build"
+,
 "--source-classpath"
 ,
 systemClassPath

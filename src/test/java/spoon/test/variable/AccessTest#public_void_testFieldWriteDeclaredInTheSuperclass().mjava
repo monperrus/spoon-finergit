@@ -29,6 +29,10 @@ String
 ,
 "./src/test/resources/spoon/test/variable/Tacos.java"
 ,
+"-o"
+,
+"target/spooned/variable"
+,
 "--noclasspath"
 ,
 "--compliance"

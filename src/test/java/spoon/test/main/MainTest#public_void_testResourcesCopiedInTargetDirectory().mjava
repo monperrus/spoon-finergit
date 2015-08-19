@@ -101,6 +101,10 @@ String
 ,
 "target/spooned-with-resources"
 ,
+"--destination"
+,
+"target/spooned-build"
+,
 "--source-classpath"
 ,
 systemClassPath

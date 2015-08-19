@@ -31,7 +31,7 @@ tmpdir
 new
 File
 (
-"test_tmp"
+"target/spooned/staticFieldAccess"
 )
 ;
 tmpdir
@@ -42,7 +42,7 @@ mkdirs
 ;
 compiler
 .
-setDestinationDirectory
+setOutputDirectory
 (
 tmpdir
 )
