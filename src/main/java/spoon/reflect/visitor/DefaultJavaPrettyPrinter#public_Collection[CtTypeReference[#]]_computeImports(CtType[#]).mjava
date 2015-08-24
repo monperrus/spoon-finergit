@@ -47,6 +47,8 @@ currentTopLevel
 return
 Collections
 .
-EMPTY_LIST
+emptyList
+(
+)
 ;
 }

@@ -32,7 +32,9 @@ imports
 =
 Collections
 .
-EMPTY_LIST
+emptyList
+(
+)
 ;
 for
 (
