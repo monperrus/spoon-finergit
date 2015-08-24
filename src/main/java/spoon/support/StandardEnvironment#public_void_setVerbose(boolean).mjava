@@ -6,10 +6,4 @@ boolean
 verbose
 )
 {
-this
-.
-verbose
-=
-verbose
-;
 }

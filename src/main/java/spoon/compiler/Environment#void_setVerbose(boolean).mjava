@@ -1,6 +1,8 @@
 /** 
  * Sets/unsets the verbose mode.
+ * @see Environment#setLevel(String)
  */
+@Deprecated
 void
 setVerbose
 (

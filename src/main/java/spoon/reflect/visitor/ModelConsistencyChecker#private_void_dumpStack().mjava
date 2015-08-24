@@ -4,11 +4,9 @@ dumpStack
 (
 )
 {
-System
+environment
 .
-out
-.
-println
+debugMessage
 (
 "model consistency checker stack:"
 )
@@ -21,11 +19,9 @@ e
 stack
 )
 {
-System
+environment
 .
-out
-.
-println
+debugMessage
 (
 "    "
 +

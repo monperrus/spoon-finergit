@@ -37,6 +37,10 @@ String
 "--compliance"
 ,
 "8"
+,
+"--level"
+,
+"OFF"
 }
 )
 ;

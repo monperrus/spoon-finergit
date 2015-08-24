@@ -1,0 +1,8 @@
+/** 
+ * Gets the level of loggers asked by the user.
+ */
+Level
+getLevel
+(
+)
+;

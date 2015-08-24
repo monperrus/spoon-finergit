@@ -1,0 +1,10 @@
+/** 
+ * Sets the level of loggers asked by the user.
+ */
+void
+setLevel
+(
+String
+level
+)
+;

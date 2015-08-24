@@ -89,7 +89,7 @@ sw1
 .
 setHelp
 (
-"Output messages about what the compiler is doing."
+"Argument deprecated, see the argument level. Output messages about what the compiler is doing."
 )
 ;
 jsap
@@ -181,6 +181,57 @@ registerParameter
 opt2
 )
 ;
+opt2
+=
+new
+FlaggedOption
+(
+"level"
+)
+;
+opt2
+.
+setLongFlag
+(
+"level"
+)
+;
+opt2
+.
+setHelp
+(
+"Level of the ouput messages about what spoon is doing. Default value is ALL level."
+)
+;
+opt2
+.
+setStringParser
+(
+JSAP
+.
+STRING_PARSER
+)
+;
+opt2
+.
+setDefault
+(
+Level
+.
+OFF
+.
+toString
+(
+)
+)
+;
+jsap
+.
+registerParameter
+(
+opt2
+)
+;
 sw1
 =
 new
@@ -207,7 +258,7 @@ sw1
 .
 setHelp
 (
-"Generate all debugging info."
+"Argument deprecated, see the argument level. Generate all debugging info."
 )
 ;
 jsap

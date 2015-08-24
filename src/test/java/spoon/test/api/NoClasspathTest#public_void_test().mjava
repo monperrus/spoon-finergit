@@ -28,6 +28,17 @@ true
 ;
 spoon
 .
+getEnvironment
+(
+)
+.
+setLevel
+(
+"OFF"
+)
+;
+spoon
+.
 addInputResource
 (
 "./src/test/resources/spoon/test/noclasspath"

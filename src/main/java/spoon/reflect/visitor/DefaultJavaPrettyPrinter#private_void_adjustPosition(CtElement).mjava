@@ -105,9 +105,9 @@ report
 (
 null
 ,
-Severity
+Level
 .
-WARNING
+WARN
 ,
 e
 ,

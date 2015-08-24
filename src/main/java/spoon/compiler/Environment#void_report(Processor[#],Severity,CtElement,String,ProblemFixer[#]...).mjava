@@ -6,7 +6,7 @@
  * @param message The message to report
  * @param fixes The problem fixer(s) to correct this problem
  */
-public
+@Deprecated
 void
 report
 (

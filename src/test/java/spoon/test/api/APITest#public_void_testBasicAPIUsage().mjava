@@ -7,7 +7,7 @@ testBasicAPIUsage
 throws
 Exception
 {
-Launcher
+SpoonAPI
 spoon
 =
 new
@@ -72,11 +72,13 @@ getAll
 )
 )
 {
-System
+spoon
 .
-out
+getEnvironment
+(
+)
 .
-println
+debugMessage
 (
 "package: "
 +
@@ -107,11 +109,13 @@ getAll
 )
 )
 {
-System
+spoon
 .
-out
+getEnvironment
+(
+)
 .
-println
+debugMessage
 (
 "class: "
 +

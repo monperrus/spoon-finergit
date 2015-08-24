@@ -11,11 +11,11 @@ init
 (
 )
 ;
-System
+getEnvironment
+(
+)
 .
-out
-.
-println
+debugMessage
 (
 "MAIN METHODS: "
 +
