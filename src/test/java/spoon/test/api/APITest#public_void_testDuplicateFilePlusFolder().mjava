@@ -30,7 +30,7 @@ pathSeparator
 ,
 "-o"
 ,
-"target/spooned-apitest"
+"target/spooned/apitest"
 }
 )
 ;

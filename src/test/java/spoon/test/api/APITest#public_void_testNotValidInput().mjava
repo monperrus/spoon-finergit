@@ -27,7 +27,7 @@ invalidEntry
 ,
 "-o"
 ,
-"target/spooned-apitest"
+"target/spooned/apitest"
 }
 )
 ;

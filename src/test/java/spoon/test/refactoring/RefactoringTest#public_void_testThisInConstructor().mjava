@@ -28,6 +28,10 @@ String
 "-i"
 ,
 "src/test/java/spoon/test/refactoring/testclasses"
+,
+"-o"
+,
+"target/spooned/refactoring"
 }
 )
 ;

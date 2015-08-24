@@ -28,6 +28,10 @@ String
 "-i"
 ,
 "./src/test/java/spoon/test/visibility/testclasses/Tacos.java"
+,
+"-o"
+,
+"./target/spooned/visibility"
 }
 )
 ;

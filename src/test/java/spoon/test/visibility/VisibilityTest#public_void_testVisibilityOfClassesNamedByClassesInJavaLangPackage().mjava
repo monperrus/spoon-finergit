@@ -14,7 +14,7 @@ sourceOutputDir
 new
 File
 (
-"target/spooned"
+"target/spooned/visibility"
 )
 ;
 final
