@@ -16,6 +16,12 @@ CtType
 simpleType
 )
 {
+imports
+.
+clear
+(
+)
+;
 addImport
 (
 simpleType
