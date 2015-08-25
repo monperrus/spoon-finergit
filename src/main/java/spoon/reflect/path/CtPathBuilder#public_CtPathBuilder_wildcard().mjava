@@ -1,0 +1,18 @@
+/** 
+ * Add a simple wildcard. Match only on elements child of current one.
+ */
+public
+CtPathBuilder
+wildcard
+(
+)
+{
+return
+name
+(
+CtNamedPathElement
+.
+WILDCARD
+)
+;
+}

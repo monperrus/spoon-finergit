@@ -1,0 +1,14 @@
+CtPathRole
+(
+String
+...
+names
+)
+{
+this
+.
+names
+=
+names
+;
+}

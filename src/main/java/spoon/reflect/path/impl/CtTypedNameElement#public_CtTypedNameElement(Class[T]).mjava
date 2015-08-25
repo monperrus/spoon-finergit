@@ -1,0 +1,17 @@
+public
+CtTypedNameElement
+(
+Class
+<
+T
+>
+type
+)
+{
+this
+.
+type
+=
+type
+;
+}

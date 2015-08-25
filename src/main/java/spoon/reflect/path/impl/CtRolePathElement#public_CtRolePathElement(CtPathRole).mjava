@@ -1,0 +1,14 @@
+public
+CtRolePathElement
+(
+CtPathRole
+role
+)
+{
+this
+.
+role
+=
+role
+;
+}

@@ -7,9 +7,4 @@ super
 (
 )
 ;
-setParent
-(
-ROOT_PACKAGE
-)
-;
 }

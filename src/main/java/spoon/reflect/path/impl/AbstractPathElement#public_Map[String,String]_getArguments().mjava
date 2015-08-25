@@ -1,0 +1,15 @@
+public
+Map
+<
+String
+,
+String
+>
+getArguments
+(
+)
+{
+return
+arguments
+;
+}

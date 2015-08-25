@@ -1,6 +1,8 @@
 /** 
  * Gets the list of all created root packages
+ * @deprecated use getRootPackage
  */
+@Deprecated
 public
 Collection
 <
@@ -11,10 +13,11 @@ getAllRoots
 )
 {
 return
-packages
+Arrays
 .
-values
+asList
 (
+rootPackage
 )
 ;
 }

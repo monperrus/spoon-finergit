@@ -1,0 +1,13 @@
+/** 
+ * Return the unnamed top-level package.
+ */
+public
+CtPackage
+getRootPackage
+(
+)
+{
+return
+rootPackage
+;
+}
