@@ -52,10 +52,15 @@ resources
 )
 )
 ;
+Assert
+.
+assertTrue
+(
 compiler
 .
 build
 (
+)
 )
 ;
 }

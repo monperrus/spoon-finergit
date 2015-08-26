@@ -5,6 +5,14 @@ getContent
 )
 {
 return
-contents
+new
+ByteArrayInputStream
+(
+content
+.
+getBytes
+(
+)
+)
 ;
 }
