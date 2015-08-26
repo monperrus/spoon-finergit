@@ -1,0 +1,18 @@
+/** 
+ * Adds an instance of a processor. The user is responsible for keeping a pointer to it for later retrieving some processing information.
+ */
+<
+T
+extends
+CtElement
+>
+void
+addProcessor
+(
+Processor
+<
+T
+>
+processor
+)
+;

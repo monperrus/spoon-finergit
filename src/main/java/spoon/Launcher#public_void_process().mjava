@@ -23,6 +23,15 @@ getProcessorTypes
 )
 )
 ;
+modelBuilder
+.
+process
+(
+getProcessors
+(
+)
+)
+;
 getEnvironment
 (
 )

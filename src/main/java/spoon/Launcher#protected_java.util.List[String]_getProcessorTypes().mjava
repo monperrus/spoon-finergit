@@ -15,6 +15,6 @@ getProcessorTypes
 )
 {
 return
-processors
+processorTypes
 ;
 }

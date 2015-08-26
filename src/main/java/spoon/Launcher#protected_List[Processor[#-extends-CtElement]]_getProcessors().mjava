@@ -1,0 +1,20 @@
+/** 
+ * Gets the list of processors instance to be initially applied during the processing.
+ */
+protected
+List
+<
+Processor
+<
+?
+CtElement
+>
+>
+getProcessors
+(
+)
+{
+return
+processors
+;
+}

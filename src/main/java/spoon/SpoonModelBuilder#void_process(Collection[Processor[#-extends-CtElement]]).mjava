@@ -1,0 +1,17 @@
+/** 
+ * Processes the Java model with the given processors.
+ */
+void
+process
+(
+Collection
+<
+Processor
+<
+?
+CtElement
+>
+>
+processors
+)
+;
