@@ -7,13 +7,11 @@ Object
 object
 )
 {
-if
-(
+return
 object
 instanceof
 CtReference
-)
-return
+&&
 compareTo
 (
 (
@@ -23,8 +21,5 @@ object
 )
 ==
 0
-;
-return
-false
 ;
 }

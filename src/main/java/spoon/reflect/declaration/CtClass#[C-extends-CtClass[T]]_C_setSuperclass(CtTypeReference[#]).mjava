@@ -1,0 +1,21 @@
+/** 
+ * Sets the superclass type.
+ */
+<
+C
+extends
+CtClass
+<
+T
+>
+>
+C
+setSuperclass
+(
+CtTypeReference
+<
+?
+>
+classType
+)
+;

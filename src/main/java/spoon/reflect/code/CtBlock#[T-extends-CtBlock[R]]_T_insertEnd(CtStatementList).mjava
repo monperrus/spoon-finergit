@@ -1,0 +1,18 @@
+/** 
+ * Inserts the given statements at the end of the block.
+ */
+<
+T
+extends
+CtBlock
+<
+R
+>
+>
+T
+insertEnd
+(
+CtStatementList
+statements
+)
+;

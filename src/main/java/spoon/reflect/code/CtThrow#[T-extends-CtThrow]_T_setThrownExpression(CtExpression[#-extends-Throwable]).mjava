@@ -1,0 +1,19 @@
+/** 
+ * Sets the thrown expression (must be a throwable).
+ */
+<
+T
+extends
+CtThrow
+>
+T
+setThrownExpression
+(
+CtExpression
+<
+?
+Throwable
+>
+thrownExpression
+)
+;

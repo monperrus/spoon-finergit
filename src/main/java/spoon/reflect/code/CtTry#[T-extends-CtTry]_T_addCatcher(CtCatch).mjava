@@ -1,0 +1,15 @@
+/** 
+ * Adds a catch block.
+ */
+<
+T
+extends
+CtTry
+>
+T
+addCatcher
+(
+CtCatch
+catcher
+)
+;

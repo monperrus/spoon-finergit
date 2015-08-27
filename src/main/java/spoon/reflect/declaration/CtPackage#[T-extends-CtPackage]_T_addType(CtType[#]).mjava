@@ -1,0 +1,18 @@
+/** 
+ * Adds a type to this package.
+ */
+<
+T
+extends
+CtPackage
+>
+T
+addType
+(
+CtType
+<
+?
+>
+type
+)
+;

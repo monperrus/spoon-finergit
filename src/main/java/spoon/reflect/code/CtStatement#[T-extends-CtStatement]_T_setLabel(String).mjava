@@ -1,0 +1,15 @@
+/** 
+ * Sets the label of this statement.
+ */
+<
+T
+extends
+CtStatement
+>
+T
+setLabel
+(
+String
+label
+)
+;

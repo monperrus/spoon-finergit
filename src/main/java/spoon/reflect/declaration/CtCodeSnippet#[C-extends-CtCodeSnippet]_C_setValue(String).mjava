@@ -1,0 +1,15 @@
+/** 
+ * Sets the textual value of the code.
+ */
+<
+C
+extends
+CtCodeSnippet
+>
+C
+setValue
+(
+String
+value
+)
+;

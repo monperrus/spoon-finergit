@@ -1,0 +1,15 @@
+/** 
+ * Sets the kind of this operator.
+ */
+<
+C
+extends
+CtUnaryOperator
+>
+C
+setKind
+(
+UnaryOperatorKind
+kind
+)
+;

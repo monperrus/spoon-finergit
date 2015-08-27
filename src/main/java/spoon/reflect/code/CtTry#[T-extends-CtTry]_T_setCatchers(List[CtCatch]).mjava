@@ -1,0 +1,18 @@
+/** 
+ * Sets the <i>catchers</i> of this <code>try</code>.
+ */
+<
+T
+extends
+CtTry
+>
+T
+setCatchers
+(
+List
+<
+CtCatch
+>
+catchers
+)
+;

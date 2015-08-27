@@ -1,0 +1,23 @@
+/** 
+ * @deprecated super isn't a variable. So this method will be removed in a next release.
+ */
+@Deprecated
+@Override
+<
+C
+extends
+CtVariableAccess
+<
+T
+>
+>
+C
+setVariable
+(
+CtVariableReference
+<
+T
+>
+variable
+)
+;

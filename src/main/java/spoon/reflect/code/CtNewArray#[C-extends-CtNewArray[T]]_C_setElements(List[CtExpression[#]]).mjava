@@ -1,0 +1,24 @@
+/** 
+ * Sets the initialization expressions.
+ */
+<
+C
+extends
+CtNewArray
+<
+T
+>
+>
+C
+setElements
+(
+List
+<
+CtExpression
+<
+?
+>
+>
+expression
+)
+;

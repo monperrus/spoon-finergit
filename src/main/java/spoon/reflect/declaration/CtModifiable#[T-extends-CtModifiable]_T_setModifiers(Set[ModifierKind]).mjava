@@ -1,0 +1,18 @@
+/** 
+ * Sets the modifiers.
+ */
+<
+T
+extends
+CtModifiable
+>
+T
+setModifiers
+(
+Set
+<
+ModifierKind
+>
+modifiers
+)
+;

@@ -1,0 +1,22 @@
+/** 
+ * Sets the type annotations for this type.
+ */
+<
+T
+extends
+CtTypeAnnotableReference
+>
+T
+setTypeAnnotations
+(
+List
+<
+CtAnnotation
+<
+?
+Annotation
+>
+>
+annotations
+)
+;

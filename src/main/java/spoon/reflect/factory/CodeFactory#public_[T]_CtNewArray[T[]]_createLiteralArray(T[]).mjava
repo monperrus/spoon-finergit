@@ -33,6 +33,7 @@ isArray
 (
 )
 )
+{
 throw
 new
 RuntimeException
@@ -40,6 +41,7 @@ RuntimeException
 "value is not an array"
 )
 ;
+}
 if
 (
 value
@@ -56,6 +58,7 @@ isArray
 (
 )
 )
+{
 throw
 new
 RuntimeException
@@ -63,6 +66,7 @@ RuntimeException
 "can only create one-dimension arrays"
 )
 ;
+}
 CtNewArray
 <
 T
@@ -80,8 +84,6 @@ Core
 createNewArray
 (
 )
-;
-array
 .
 setType
 (
@@ -153,11 +155,7 @@ e
 ;
 array
 .
-getElements
-(
-)
-.
-add
+addElement
 (
 l
 )

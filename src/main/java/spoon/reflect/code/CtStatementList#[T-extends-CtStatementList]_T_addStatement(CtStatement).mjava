@@ -1,0 +1,15 @@
+/** 
+ * Adds a statement at the end of the list.
+ */
+<
+T
+extends
+CtStatementList
+>
+T
+addStatement
+(
+CtStatement
+statement
+)
+;

@@ -1,0 +1,21 @@
+/** 
+ * Adds a dimension expression.
+ */
+<
+C
+extends
+CtNewArray
+<
+T
+>
+>
+C
+addDimensionExpression
+(
+CtExpression
+<
+Integer
+>
+dimension
+)
+;

@@ -1,0 +1,22 @@
+/** 
+ * Adds a case;
+ */
+<
+T
+extends
+CtSwitch
+<
+S
+>
+>
+T
+addCase
+(
+CtCase
+<
+?
+S
+>
+c
+)
+;

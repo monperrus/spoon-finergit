@@ -1,0 +1,25 @@
+/** 
+ * Add a nested type.
+ * @param nestedType
+ * @return <tt>true</tt> if this element changed as a result of the call
+ */
+<
+N
+,
+C
+extends
+CtType
+<
+T
+>
+>
+C
+addNestedType
+(
+CtType
+<
+N
+>
+nestedType
+)
+;

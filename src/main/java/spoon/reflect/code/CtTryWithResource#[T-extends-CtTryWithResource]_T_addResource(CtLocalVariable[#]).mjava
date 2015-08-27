@@ -1,0 +1,18 @@
+/** 
+ * Adds a resource.
+ */
+<
+T
+extends
+CtTryWithResource
+>
+T
+addResource
+(
+CtLocalVariable
+<
+?
+>
+resource
+)
+;

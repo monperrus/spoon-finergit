@@ -1,0 +1,15 @@
+/** 
+ * Sets the simple (unqualified) name of this element.
+ */
+<
+T
+extends
+CtNamedElement
+>
+T
+setSimpleName
+(
+String
+simpleName
+)
+;

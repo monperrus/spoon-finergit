@@ -1,0 +1,21 @@
+/** 
+ * Sets the declaring type.
+ */
+<
+C
+extends
+CtExecutableReference
+<
+T
+>
+>
+C
+setDeclaringType
+(
+CtTypeReference
+<
+?
+>
+declaringType
+)
+;

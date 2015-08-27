@@ -1,0 +1,23 @@
+/** 
+ * Sets the expression that defines the index.
+ */
+<
+C
+extends
+CtArrayAccess
+<
+T
+,
+E
+>
+>
+C
+setIndexExpression
+(
+CtExpression
+<
+Integer
+>
+expression
+)
+;

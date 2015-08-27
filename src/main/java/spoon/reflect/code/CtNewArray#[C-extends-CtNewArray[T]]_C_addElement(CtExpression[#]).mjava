@@ -1,0 +1,21 @@
+/** 
+ * Adds an element.
+ */
+<
+C
+extends
+CtNewArray
+<
+T
+>
+>
+C
+addElement
+(
+CtExpression
+<
+?
+>
+expression
+)
+;

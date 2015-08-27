@@ -1,0 +1,18 @@
+/** 
+ * Adds a bound.
+ */
+<
+T
+extends
+CtTypeParameterReference
+>
+T
+addBound
+(
+CtTypeReference
+<
+?
+>
+bound
+)
+;

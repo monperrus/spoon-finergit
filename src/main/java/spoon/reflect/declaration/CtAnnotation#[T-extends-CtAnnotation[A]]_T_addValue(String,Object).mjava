@@ -1,0 +1,21 @@
+/** 
+ * Adds a new key-value pair for this annotation 
+ */
+<
+T
+extends
+CtAnnotation
+<
+A
+>
+>
+T
+addValue
+(
+String
+elementName
+,
+Object
+value
+)
+;

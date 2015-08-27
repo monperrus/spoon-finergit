@@ -1,0 +1,35 @@
+/** 
+ * Creates a throw.
+ * @param thrownExp Expression of the throw.
+ * @return a throw.
+ */
+public
+CtThrow
+createCtThrow
+(
+String
+thrownExp
+)
+{
+return
+factory
+.
+Core
+(
+)
+.
+createThrow
+(
+)
+.
+setThrownExpression
+(
+this
+.
+createCodeSnippetExpression
+(
+thrownExp
+)
+)
+;
+}

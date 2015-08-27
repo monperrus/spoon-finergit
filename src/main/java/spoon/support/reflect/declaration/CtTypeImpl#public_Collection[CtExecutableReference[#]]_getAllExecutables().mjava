@@ -1,6 +1,4 @@
-/** 
- * Gets the executables declared by this type and by all its supertypes if applicable.
- */
+@Override
 public
 Collection
 <

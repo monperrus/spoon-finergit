@@ -1,0 +1,25 @@
+/** 
+ * Inserts the given statement list before a set of insertion points given by a filter.
+ */
+<
+T
+extends
+CtBlock
+<
+R
+>
+>
+T
+insertBefore
+(
+Filter
+<
+?
+CtStatement
+>
+insertionPoints
+,
+CtStatementList
+statements
+)
+;

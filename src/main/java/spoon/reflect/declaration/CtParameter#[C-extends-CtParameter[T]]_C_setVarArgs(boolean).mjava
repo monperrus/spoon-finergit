@@ -1,0 +1,18 @@
+/** 
+ * Sets this parameter to have varargs.
+ */
+<
+C
+extends
+CtParameter
+<
+T
+>
+>
+C
+setVarArgs
+(
+boolean
+varArgs
+)
+;

@@ -1,0 +1,21 @@
+/** 
+ * Sets the right-hand side expression (RHS) of the "=" operator.
+ */
+<
+T
+extends
+CtRHSReceiver
+<
+A
+>
+>
+T
+setAssignment
+(
+CtExpression
+<
+A
+>
+assignment
+)
+;

@@ -1,0 +1,23 @@
+/** 
+ * Adds a method to this type.
+ */
+<
+M
+,
+C
+extends
+CtType
+<
+T
+>
+>
+C
+addMethod
+(
+CtMethod
+<
+M
+>
+method
+)
+;

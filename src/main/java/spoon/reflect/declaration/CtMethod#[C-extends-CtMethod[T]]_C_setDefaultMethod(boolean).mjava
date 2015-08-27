@@ -1,0 +1,18 @@
+/** 
+ * Sets the default value state of a method.
+ */
+<
+C
+extends
+CtMethod
+<
+T
+>
+>
+C
+setDefaultMethod
+(
+boolean
+defaultMethod
+)
+;

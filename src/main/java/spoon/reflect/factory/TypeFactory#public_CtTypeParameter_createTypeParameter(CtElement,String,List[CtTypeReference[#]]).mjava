@@ -39,7 +39,7 @@ createTypeParameter
 ;
 typeParam
 .
-setName
+setSimpleName
 (
 name
 )

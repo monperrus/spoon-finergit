@@ -1,0 +1,24 @@
+/** 
+ * Sets parameters of the executable.
+ */
+<
+C
+extends
+CtExecutableReference
+<
+T
+>
+>
+C
+setParameters
+(
+List
+<
+CtTypeReference
+<
+?
+>
+>
+parameters
+)
+;

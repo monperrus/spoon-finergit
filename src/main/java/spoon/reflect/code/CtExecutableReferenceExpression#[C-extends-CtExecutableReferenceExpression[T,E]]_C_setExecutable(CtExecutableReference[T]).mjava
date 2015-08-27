@@ -1,0 +1,23 @@
+/** 
+ * Sets the executable will be referenced by the expression.
+ */
+<
+C
+extends
+CtExecutableReferenceExpression
+<
+T
+,
+E
+>
+>
+C
+setExecutable
+(
+CtExecutableReference
+<
+T
+>
+executable
+)
+;

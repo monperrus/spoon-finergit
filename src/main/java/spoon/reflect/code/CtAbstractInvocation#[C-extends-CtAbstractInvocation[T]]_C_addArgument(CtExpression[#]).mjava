@@ -1,0 +1,21 @@
+/** 
+ * Adds an argument expression to the invocation.
+ */
+<
+C
+extends
+CtAbstractInvocation
+<
+T
+>
+>
+C
+addArgument
+(
+CtExpression
+<
+?
+>
+argument
+)
+;

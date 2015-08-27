@@ -1,0 +1,21 @@
+/** 
+ * Sets the invoked executable.
+ */
+<
+C
+extends
+CtAbstractInvocation
+<
+T
+>
+>
+C
+setExecutable
+(
+CtExecutableReference
+<
+T
+>
+executable
+)
+;

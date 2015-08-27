@@ -1,0 +1,21 @@
+/** 
+ * Sets the catch variable declaration that corresponds to this catch variable reference.
+ */
+<
+C
+extends
+CtCatchVariableReference
+<
+T
+>
+>
+C
+setDeclaration
+(
+CtCatchVariable
+<
+T
+>
+declaration
+)
+;

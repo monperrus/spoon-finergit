@@ -1,0 +1,23 @@
+/** 
+ * Sets the assigned expression (left hand side - LHS).
+ */
+<
+C
+extends
+CtAssignment
+<
+T
+,
+A
+>
+>
+C
+setAssigned
+(
+CtExpression
+<
+T
+>
+assigned
+)
+;

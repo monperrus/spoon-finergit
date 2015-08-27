@@ -1,0 +1,19 @@
+/** 
+ * Sets the catch's parameter (a throwable).
+ */
+<
+T
+extends
+CtCatch
+>
+T
+setParameter
+(
+CtCatchVariable
+<
+?
+Throwable
+>
+parameter
+)
+;

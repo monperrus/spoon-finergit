@@ -1,0 +1,21 @@
+/** 
+ * Adds a constructor to this class.
+ */
+<
+C
+extends
+CtClass
+<
+T
+>
+>
+C
+addConstructor
+(
+CtConstructor
+<
+T
+>
+constructor
+)
+;

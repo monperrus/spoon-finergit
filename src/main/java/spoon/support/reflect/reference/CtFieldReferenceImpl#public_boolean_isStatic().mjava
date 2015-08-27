@@ -1,6 +1,7 @@
 /** 
  * Tells if the referenced field is static.
  */
+@Override
 public
 boolean
 isStatic

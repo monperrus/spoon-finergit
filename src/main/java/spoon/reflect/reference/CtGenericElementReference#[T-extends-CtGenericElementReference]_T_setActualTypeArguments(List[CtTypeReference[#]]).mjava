@@ -1,0 +1,21 @@
+/** 
+ * Sets the type arguments.
+ */
+<
+T
+extends
+CtGenericElementReference
+>
+T
+setActualTypeArguments
+(
+List
+<
+CtTypeReference
+<
+?
+>
+>
+actualTypeArguments
+)
+;

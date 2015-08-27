@@ -1,0 +1,16 @@
+/** 
+ * @see CtNamedElement#setSimpleName(String)
+ */
+@Deprecated
+<
+T
+extends
+CtTypeParameter
+>
+T
+setName
+(
+String
+name
+)
+;
