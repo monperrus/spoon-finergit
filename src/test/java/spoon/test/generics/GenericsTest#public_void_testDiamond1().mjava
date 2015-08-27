@@ -100,7 +100,7 @@ toString
 ;
 assertEquals
 (
-"new java.util.ArrayList<java.lang.String>()"
+"new java.util.ArrayList<>()"
 ,
 val
 .

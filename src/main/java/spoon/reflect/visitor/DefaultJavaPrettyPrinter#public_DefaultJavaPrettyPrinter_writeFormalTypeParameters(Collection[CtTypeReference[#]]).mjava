@@ -1,9 +1,11 @@
 /** 
- * Writes a generics parameter.
+ * Writes formal type parameters given in parameter.
+ * @param params List of formal type parameters.
+ * @return current instance of the {@link DefaultJavaPrettyPrinter}
  */
 public
 DefaultJavaPrettyPrinter
-writeGenericsParameter
+writeFormalTypeParameters
 (
 Collection
 <

@@ -66,13 +66,9 @@ getSimpleName
 )
 ;
 }
-writeGenericsParameter
+writeActualTypeArguments
 (
 reference
-.
-getActualTypeArguments
-(
-)
 )
 ;
 writeParameters

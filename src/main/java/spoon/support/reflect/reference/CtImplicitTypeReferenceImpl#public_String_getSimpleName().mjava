@@ -1,0 +1,11 @@
+@Override
+public
+String
+getSimpleName
+(
+)
+{
+return
+name
+;
+}
