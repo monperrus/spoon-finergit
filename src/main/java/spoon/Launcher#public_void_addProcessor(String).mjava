@@ -7,7 +7,7 @@ String
 name
 )
 {
-processors
+processorTypes
 .
 add
 (
