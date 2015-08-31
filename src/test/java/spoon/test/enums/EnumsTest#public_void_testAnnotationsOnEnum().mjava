@@ -135,7 +135,19 @@ get
 ;
 assertEquals
 (
-"public enum Foo {\n@java.lang.Deprecated\n    Bar;}"
+"public enum Foo {"
++
+DefaultJavaPrettyPrinter
+.
+LINE_SEPARATOR
++
+"@java.lang.Deprecated"
++
+DefaultJavaPrettyPrinter
+.
+LINE_SEPARATOR
++
+"    Bar;}"
 ,
 foo
 .
