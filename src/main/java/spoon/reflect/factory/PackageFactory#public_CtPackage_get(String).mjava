@@ -49,7 +49,7 @@ PACKAGE_SEPARATOR
 CtPackage
 current
 =
-null
+rootPackage
 ;
 if
 (
@@ -62,13 +62,13 @@ hasMoreElements
 {
 current
 =
-packages
+current
 .
-get
+getPackage
 (
 token
 .
-nextElement
+nextToken
 (
 )
 )

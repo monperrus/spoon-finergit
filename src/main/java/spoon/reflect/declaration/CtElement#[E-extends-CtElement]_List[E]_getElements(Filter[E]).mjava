@@ -1,6 +1,5 @@
 /** 
- * @param filter
- * @return
+ * Returns all the children elements recursively matching the filter. If the receiver (this) matches the filter, it is also returned
  */
 <
 E

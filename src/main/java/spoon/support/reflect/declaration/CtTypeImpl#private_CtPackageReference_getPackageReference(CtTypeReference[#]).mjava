@@ -1,9 +1,9 @@
 /** 
  * Return the package reference for the corresponding type reference. For inner type, return the package reference of the top-most enclosing type. This helper method is meant to deal with package references that are <code>null</code> for inner types.
- * @param tref  the type reference
- * @return      the corresponding package reference
- * @since 4.0
+ * @param tref the type reference
+ * @return the corresponding package reference
  * @see CtTypeReference#getPackage()
+ * @since 4.0
  */
 private
 static

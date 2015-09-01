@@ -1,0 +1,14 @@
+public
+CtNamedPathElement
+(
+String
+pattern
+)
+{
+this
+.
+pattern
+=
+pattern
+;
+}

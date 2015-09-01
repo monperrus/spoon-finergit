@@ -1,0 +1,13 @@
+public
+CtPathException
+(
+String
+message
+)
+{
+super
+(
+message
+)
+;
+}

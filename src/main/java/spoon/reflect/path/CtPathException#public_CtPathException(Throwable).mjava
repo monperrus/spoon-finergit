@@ -1,0 +1,13 @@
+public
+CtPathException
+(
+Throwable
+cause
+)
+{
+super
+(
+cause
+)
+;
+}

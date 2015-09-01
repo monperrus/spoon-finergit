@@ -1,0 +1,37 @@
+/** 
+ * Build the CtPath
+ */
+public
+CtPath
+build
+(
+)
+{
+CtPathImpl
+path
+=
+new
+CtPathImpl
+(
+)
+;
+for
+(
+CtPathElement
+el
+:
+elements
+)
+{
+path
+.
+addLast
+(
+el
+)
+;
+}
+return
+path
+;
+}
