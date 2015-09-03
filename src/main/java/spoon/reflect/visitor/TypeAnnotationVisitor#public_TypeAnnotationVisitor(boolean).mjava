@@ -1,0 +1,14 @@
+public
+TypeAnnotationVisitor
+(
+boolean
+isToBeProcessed
+)
+{
+this
+.
+isToBeProcessed
+=
+isToBeProcessed
+;
+}

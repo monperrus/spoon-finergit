@@ -1,4 +1,4 @@
-private
+protected
 boolean
 shoudBeProcessed
 (
@@ -10,8 +10,7 @@ Annotation
 annotation
 )
 {
-if
-(
+return
 processedAnnotationTypes
 .
 containsKey
@@ -26,13 +25,5 @@ getQualifiedName
 (
 )
 )
-)
-{
-return
-true
-;
-}
-return
-false
 ;
 }
