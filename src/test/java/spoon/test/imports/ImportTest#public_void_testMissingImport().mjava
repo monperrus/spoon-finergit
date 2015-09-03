@@ -35,6 +35,17 @@ setNoClasspath
 true
 )
 ;
+factory
+.
+getEnvironment
+(
+)
+.
+setLevel
+(
+"OFF"
+)
+;
 SpoonCompiler
 compiler
 =

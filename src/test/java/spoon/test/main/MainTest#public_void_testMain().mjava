@@ -120,6 +120,10 @@ systemClassPath
 "--compliance"
 ,
 "7"
+,
+"--level"
+,
+"OFF"
 }
 )
 ;

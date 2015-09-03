@@ -33,7 +33,7 @@ report
 (
 this
 ,
-Severity
+Level
 .
 ERROR
 ,
@@ -88,9 +88,9 @@ report
 (
 this
 ,
-Severity
+Level
 .
-WARNING
+WARN
 ,
 element
 ,

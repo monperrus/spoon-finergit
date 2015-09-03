@@ -100,7 +100,7 @@ report
 (
 p
 ,
-Severity
+Level
 .
 ERROR
 ,
@@ -155,7 +155,7 @@ report
 (
 p
 ,
-Severity
+Level
 .
 ERROR
 ,

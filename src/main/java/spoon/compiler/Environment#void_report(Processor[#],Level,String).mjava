@@ -1,10 +1,9 @@
 /** 
  * This method should be called to print out a message during the processing.
  * @param processor The processor that report this message. Can be null.
- * @param severity The severity of the report
+ * @param level The level of the report
  * @param message The message to report
  */
-public
 void
 report
 (
@@ -14,8 +13,8 @@ Processor
 >
 processor
 ,
-Severity
-severity
+Level
+level
 ,
 String
 message

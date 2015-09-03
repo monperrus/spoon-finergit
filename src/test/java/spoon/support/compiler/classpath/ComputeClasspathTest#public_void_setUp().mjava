@@ -31,6 +31,17 @@ factory
 }
 }
 ;
+launcher
+.
+getEnvironment
+(
+)
+.
+setLevel
+(
+"OFF"
+)
+;
 this
 .
 compiler

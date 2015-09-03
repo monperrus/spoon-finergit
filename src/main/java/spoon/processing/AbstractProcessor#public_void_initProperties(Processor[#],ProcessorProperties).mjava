@@ -137,9 +137,9 @@ report
 (
 p
 ,
-Severity
+Level
 .
-WARNING
+WARN
 ,
 "No value found for property '"
 +

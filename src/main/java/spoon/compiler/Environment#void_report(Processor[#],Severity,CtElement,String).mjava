@@ -5,7 +5,7 @@
  * @param element The CtElement to which the report is associated
  * @param message The message to report
  */
-public
+@Deprecated
 void
 report
 (

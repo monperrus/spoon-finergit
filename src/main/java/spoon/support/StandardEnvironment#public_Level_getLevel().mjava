@@ -1,11 +1,13 @@
 @Override
 public
-boolean
-isAutoImports
+Level
+getLevel
 (
 )
 {
 return
-autoImports
+this
+.
+level
 ;
 }

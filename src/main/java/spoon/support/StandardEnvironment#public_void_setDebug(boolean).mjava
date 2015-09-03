@@ -6,10 +6,4 @@ boolean
 debug
 )
 {
-this
-.
-debug
-=
-debug
-;
 }

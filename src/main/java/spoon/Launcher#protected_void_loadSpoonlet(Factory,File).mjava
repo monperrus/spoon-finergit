@@ -47,7 +47,7 @@ report
 (
 null
 ,
-Severity
+Level
 .
 ERROR
 ,
@@ -60,15 +60,6 @@ getMessage
 )
 )
 ;
-if
-(
-env
-.
-isDebug
-(
-)
-)
-{
 logger
 .
 debug
@@ -82,7 +73,6 @@ getMessage
 e
 )
 ;
-}
 return
 ;
 }
@@ -168,7 +158,7 @@ report
 (
 null
 ,
-Severity
+Level
 .
 ERROR
 ,

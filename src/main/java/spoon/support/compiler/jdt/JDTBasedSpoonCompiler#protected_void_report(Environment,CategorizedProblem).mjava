@@ -112,13 +112,13 @@ isError
 (
 )
 ?
-Severity
+Level
 .
 ERROR
 :
-Severity
+Level
 .
-WARNING
+WARN
 ,
 message
 )

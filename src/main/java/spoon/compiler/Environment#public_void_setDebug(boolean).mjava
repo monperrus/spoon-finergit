@@ -1,6 +1,8 @@
 /** 
  * Sets the debug mode.
+ * @see Environment#setLevel(String)
  */
+@Deprecated
 public
 void
 setDebug
