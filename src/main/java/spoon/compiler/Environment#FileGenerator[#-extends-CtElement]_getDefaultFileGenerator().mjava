@@ -1,0 +1,12 @@
+/** 
+ * Returns the default file generator for this environment (gives the default output directory for the created files).
+ */
+FileGenerator
+<
+?
+CtElement
+>
+getDefaultFileGenerator
+(
+)
+;

@@ -1,0 +1,16 @@
+/** 
+ * Get elements childs of roots that match with this path.
+ */
+Collection
+<
+T
+>
+getElements
+(
+Collection
+<
+P
+>
+roots
+)
+;

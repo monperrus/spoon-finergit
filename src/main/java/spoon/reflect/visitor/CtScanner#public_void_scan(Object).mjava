@@ -15,6 +15,7 @@ o
 instanceof
 CtElement
 )
+{
 scan
 (
 (
@@ -23,12 +24,14 @@ CtElement
 o
 )
 ;
+}
 if
 (
 o
 instanceof
 CtReference
 )
+{
 scan
 (
 (
@@ -37,6 +40,7 @@ CtReference
 o
 )
 ;
+}
 if
 (
 o

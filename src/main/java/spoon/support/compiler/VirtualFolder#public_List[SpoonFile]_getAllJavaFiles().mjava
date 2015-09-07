@@ -31,6 +31,7 @@ getAllFiles
 (
 )
 )
+{
 if
 (
 f
@@ -39,6 +40,7 @@ isJava
 (
 )
 )
+{
 result
 .
 add
@@ -46,6 +48,8 @@ add
 f
 )
 ;
+}
+}
 return
 result
 ;

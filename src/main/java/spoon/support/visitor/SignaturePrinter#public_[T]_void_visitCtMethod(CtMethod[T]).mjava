@@ -112,10 +112,12 @@ isEmpty
 (
 )
 )
+{
 clearLast
 (
 )
 ;
+}
 write
 (
 ")"

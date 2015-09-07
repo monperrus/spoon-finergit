@@ -20,11 +20,13 @@ isTopLevel
 (
 )
 )
+{
 createJavaFile
 (
 type
 )
 ;
+}
 printer
 .
 reset

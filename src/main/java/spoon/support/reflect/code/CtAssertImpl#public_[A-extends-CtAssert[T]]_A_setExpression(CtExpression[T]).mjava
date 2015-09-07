@@ -24,6 +24,7 @@ value
 !=
 null
 )
+{
 value
 .
 setParent
@@ -31,6 +32,7 @@ setParent
 this
 )
 ;
+}
 this
 .
 value

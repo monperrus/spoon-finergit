@@ -1,0 +1,8 @@
+/** 
+ * Starts the complete Spoon processing (build model, process, write transformed files)
+ */
+void
+run
+(
+)
+;

@@ -1,0 +1,8 @@
+/** 
+ * Returns the current environment. This environment is modifiable.
+ */
+Environment
+getEnvironment
+(
+)
+;

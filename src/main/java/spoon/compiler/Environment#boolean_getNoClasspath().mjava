@@ -1,0 +1,8 @@
+/** 
+ * Returns the value ot the option noclasspath 
+ */
+boolean
+getNoClasspath
+(
+)
+;

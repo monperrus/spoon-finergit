@@ -37,6 +37,7 @@ AccPublic
 !=
 0
 )
+{
 ret
 .
 add
@@ -46,6 +47,7 @@ ModifierKind
 PUBLIC
 )
 ;
+}
 if
 (
 (
@@ -58,6 +60,7 @@ AccPrivate
 !=
 0
 )
+{
 ret
 .
 add
@@ -67,6 +70,7 @@ ModifierKind
 PRIVATE
 )
 ;
+}
 if
 (
 (
@@ -79,6 +83,7 @@ AccProtected
 !=
 0
 )
+{
 ret
 .
 add
@@ -88,6 +93,7 @@ ModifierKind
 PROTECTED
 )
 ;
+}
 if
 (
 (
@@ -100,6 +106,7 @@ AccStatic
 !=
 0
 )
+{
 ret
 .
 add
@@ -109,6 +116,7 @@ ModifierKind
 STATIC
 )
 ;
+}
 if
 (
 (
@@ -121,6 +129,7 @@ AccFinal
 !=
 0
 )
+{
 ret
 .
 add
@@ -130,6 +139,7 @@ ModifierKind
 FINAL
 )
 ;
+}
 if
 (
 (
@@ -142,6 +152,7 @@ AccSynchronized
 !=
 0
 )
+{
 ret
 .
 add
@@ -151,6 +162,7 @@ ModifierKind
 SYNCHRONIZED
 )
 ;
+}
 if
 (
 (
@@ -163,6 +175,7 @@ AccVolatile
 !=
 0
 )
+{
 ret
 .
 add
@@ -172,6 +185,7 @@ ModifierKind
 VOLATILE
 )
 ;
+}
 if
 (
 (
@@ -184,6 +198,7 @@ AccTransient
 !=
 0
 )
+{
 ret
 .
 add
@@ -193,6 +208,7 @@ ModifierKind
 TRANSIENT
 )
 ;
+}
 if
 (
 (
@@ -205,6 +221,7 @@ AccAbstract
 !=
 0
 )
+{
 ret
 .
 add
@@ -214,6 +231,7 @@ ModifierKind
 ABSTRACT
 )
 ;
+}
 if
 (
 (
@@ -226,6 +244,7 @@ AccStrictfp
 !=
 0
 )
+{
 ret
 .
 add
@@ -235,6 +254,7 @@ ModifierKind
 STRICTFP
 )
 ;
+}
 if
 (
 (
@@ -247,6 +267,7 @@ AccNative
 !=
 0
 )
+{
 ret
 .
 add
@@ -256,6 +277,7 @@ ModifierKind
 NATIVE
 )
 ;
+}
 return
 ret
 ;

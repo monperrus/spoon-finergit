@@ -22,9 +22,11 @@ object
 ==
 null
 )
+{
 return
 null
 ;
+}
 T
 result
 =
@@ -223,7 +225,7 @@ fieldValue
 ==
 CtElementImpl
 .
-EMPTY_COLLECTION
+emptyCollection
 (
 )
 ||
@@ -231,7 +233,7 @@ fieldValue
 ==
 CtElementImpl
 .
-EMPTY_SET
+emptySet
 (
 )
 )
@@ -532,7 +534,7 @@ e
 {
 Launcher
 .
-logger
+LOGGER
 .
 error
 (

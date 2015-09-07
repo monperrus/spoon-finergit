@@ -12,7 +12,7 @@ anonymousExecutables
 !=
 CtElementImpl
 .
-EMPTY_LIST
+emptyList
 (
 )
 &&

@@ -1,5 +1,5 @@
 /** 
- * Adds a file in this folder 
+ * Adds a file in this folder
  */
 void
 addFile

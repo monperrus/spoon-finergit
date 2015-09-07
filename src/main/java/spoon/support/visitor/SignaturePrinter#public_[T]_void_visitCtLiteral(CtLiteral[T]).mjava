@@ -22,6 +22,7 @@ getValue
 !=
 null
 )
+{
 write
 (
 literal
@@ -31,10 +32,13 @@ toString
 )
 )
 ;
+}
 else
+{
 write
 (
 "null"
 )
 ;
+}
 }

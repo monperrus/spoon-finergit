@@ -1,6 +1,6 @@
 @SuppressWarnings("unchecked")
-static
 public
+static
 <
 T
 >

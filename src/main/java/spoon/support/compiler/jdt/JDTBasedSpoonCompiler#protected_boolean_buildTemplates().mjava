@@ -16,9 +16,11 @@ isEmpty
 (
 )
 )
+{
 return
 true
 ;
+}
 JDTBatchCompiler
 batchCompiler
 =

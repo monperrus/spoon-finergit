@@ -97,6 +97,7 @@ annotationsLength
 i
 ++
 )
+{
 constructorDeclaration
 .
 annotations
@@ -113,6 +114,7 @@ constructorDeclaration
 scope
 )
 ;
+}
 }
 context
 .
@@ -153,6 +155,7 @@ argumentLength
 i
 ++
 )
+{
 constructorDeclaration
 .
 arguments
@@ -169,6 +172,7 @@ constructorDeclaration
 scope
 )
 ;
+}
 }
 context
 .
@@ -229,6 +233,7 @@ binding
 !=
 null
 )
+{
 for
 (
 TypeBinding
@@ -253,6 +258,7 @@ b
 )
 )
 ;
+}
 }
 if
 (
@@ -298,6 +304,7 @@ constructorCall
 !=
 null
 )
+{
 constructorDeclaration
 .
 constructorCall
@@ -311,6 +318,7 @@ constructorDeclaration
 scope
 )
 ;
+}
 if
 (
 constructorDeclaration
@@ -329,6 +337,7 @@ constructorDeclaration
 .
 statements
 )
+{
 s
 .
 traverse
@@ -340,6 +349,7 @@ constructorDeclaration
 scope
 )
 ;
+}
 }
 return
 false

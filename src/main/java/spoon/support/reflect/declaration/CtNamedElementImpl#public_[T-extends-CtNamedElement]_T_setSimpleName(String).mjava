@@ -25,6 +25,7 @@ factory
 instanceof
 FactoryImpl
 )
+{
 simpleName
 =
 (
@@ -39,6 +40,7 @@ dedup
 simpleName
 )
 ;
+}
 this
 .
 simpleName

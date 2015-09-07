@@ -1,0 +1,8 @@
+/** 
+ * Creates a new Spoon factory (may be overridden)
+ */
+Factory
+createFactory
+(
+)
+;

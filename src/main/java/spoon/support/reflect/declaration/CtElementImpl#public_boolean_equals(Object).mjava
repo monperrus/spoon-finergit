@@ -16,9 +16,11 @@ instanceof
 CtElement
 )
 )
+{
 return
 false
 ;
+}
 String
 current
 =

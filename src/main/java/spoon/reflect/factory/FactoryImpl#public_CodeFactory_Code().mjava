@@ -1,6 +1,7 @@
 /** 
  * The  {@link spoon.reflect.code.CtCodeElement} sub-factory.
  */
+@Override
 public
 CodeFactory
 Code
@@ -9,12 +10,12 @@ Code
 {
 if
 (
-Code
+code
 ==
 null
 )
 {
-Code
+code
 =
 new
 CodeFactory
@@ -24,6 +25,6 @@ this
 ;
 }
 return
-Code
+code
 ;
 }

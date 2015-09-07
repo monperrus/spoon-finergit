@@ -17,9 +17,11 @@ string
 ==
 null
 )
+{
 return
 false
 ;
+}
 if
 (
 string
@@ -29,9 +31,11 @@ equals
 "<init>"
 )
 )
+{
 return
 true
 ;
+}
 return
 isLegalJavaIdentifier
 (

@@ -1,0 +1,10 @@
+/** 
+ * Returns true if Spoon is in verbose mode.
+ * @see Environment#getLevel()
+ */
+@Deprecated
+boolean
+isVerbose
+(
+)
+;

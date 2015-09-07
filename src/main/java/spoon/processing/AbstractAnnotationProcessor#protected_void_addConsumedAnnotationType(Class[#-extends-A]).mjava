@@ -1,8 +1,8 @@
 /** 
  * Adds a consumed annotation type (to be used in subclasses constructors). A consumed annotation type is also part of the processed annotation types.
  */
-final
 protected
+final
 void
 addConsumedAnnotationType
 (

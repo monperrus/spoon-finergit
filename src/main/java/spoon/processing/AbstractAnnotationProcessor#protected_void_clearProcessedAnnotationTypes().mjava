@@ -1,8 +1,8 @@
 /** 
  * Clears the processed annotation types.
  */
-final
 protected
+final
 void
 clearProcessedAnnotationTypes
 (

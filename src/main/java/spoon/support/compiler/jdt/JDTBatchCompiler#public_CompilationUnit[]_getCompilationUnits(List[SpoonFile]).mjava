@@ -185,7 +185,7 @@ e
 {
 Launcher
 .
-logger
+LOGGER
 .
 error
 (

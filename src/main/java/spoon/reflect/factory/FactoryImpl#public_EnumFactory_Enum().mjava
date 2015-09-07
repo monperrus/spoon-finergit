@@ -1,6 +1,7 @@
 /** 
  * The  {@link CtEnum} sub-factory.
  */
+@Override
 public
 EnumFactory
 Enum
@@ -9,12 +10,12 @@ Enum
 {
 if
 (
-Enum
+enumF
 ==
 null
 )
 {
-Enum
+enumF
 =
 new
 EnumFactory
@@ -24,6 +25,6 @@ this
 ;
 }
 return
-Enum
+enumF
 ;
 }

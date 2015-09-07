@@ -24,7 +24,7 @@ dimensionExpressions
 ==
 CtElementImpl
 .
-EMPTY_LIST
+emptyList
 (
 )
 )

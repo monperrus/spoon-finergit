@@ -1,6 +1,7 @@
 /** 
  * The  {@link CtType} sub-factory.
  */
+@Override
 public
 TypeFactory
 Type
@@ -9,12 +10,12 @@ Type
 {
 if
 (
-Type
+type
 ==
 null
 )
 {
-Type
+type
 =
 new
 TypeFactory
@@ -24,6 +25,6 @@ this
 ;
 }
 return
-Type
+type
 ;
 }

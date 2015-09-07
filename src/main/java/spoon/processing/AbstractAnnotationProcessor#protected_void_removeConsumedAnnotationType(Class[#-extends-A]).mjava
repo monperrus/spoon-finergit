@@ -1,8 +1,8 @@
 /** 
  * Removes a processed annotation type.
  */
-final
 protected
+final
 void
 removeConsumedAnnotationType
 (

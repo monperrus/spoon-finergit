@@ -62,6 +62,7 @@ scope
 !=
 null
 )
+{
 unit
 .
 scope
@@ -70,6 +71,7 @@ faultInTypes
 (
 )
 ;
+}
 if
 (
 unit
@@ -78,6 +80,7 @@ scope
 !=
 null
 )
+{
 unit
 .
 scope
@@ -91,6 +94,7 @@ methodVerifier
 )
 )
 ;
+}
 unit
 .
 resolve

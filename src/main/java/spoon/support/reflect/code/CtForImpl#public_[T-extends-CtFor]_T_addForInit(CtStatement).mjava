@@ -18,7 +18,7 @@ forInit
 ==
 CtElementImpl
 .
-EMPTY_LIST
+emptyList
 (
 )
 )

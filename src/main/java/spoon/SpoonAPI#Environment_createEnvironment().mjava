@@ -1,0 +1,8 @@
+/** 
+ * Creates a new Spoon environment (may be overridden)
+ */
+Environment
+createEnvironment
+(
+)
+;

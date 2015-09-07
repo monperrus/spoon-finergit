@@ -10,6 +10,7 @@ visitor
 ==
 null
 )
+{
 visitor
 =
 new
@@ -20,6 +21,7 @@ getFactory
 )
 )
 ;
+}
 return
 visitor
 ;

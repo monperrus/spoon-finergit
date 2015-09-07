@@ -52,14 +52,6 @@ cnfe
 {
 throw
 new
-spoon
-.
-support
-.
-reflect
-.
-reference
-.
 SpoonClassNotFoundException
 (
 "cannot load class: "

@@ -325,8 +325,10 @@ class
 !=
 null
 )
+{
 continue
 ;
+}
 if
 (
 m
@@ -340,8 +342,10 @@ class
 !=
 null
 )
+{
 continue
 ;
+}
 insertMethod
 (
 targetType
@@ -382,8 +386,10 @@ isImplicit
 (
 )
 )
+{
 continue
 ;
+}
 if
 (
 c
@@ -397,8 +403,10 @@ class
 !=
 null
 )
+{
 continue
 ;
+}
 insertConstructor
 (
 (
@@ -487,8 +495,10 @@ class
 !=
 null
 )
+{
 continue
 ;
+}
 if
 (
 Parameters
@@ -502,8 +512,10 @@ getReference
 )
 )
 )
+{
 continue
 ;
+}
 insertField
 (
 targetType
@@ -542,8 +554,10 @@ class
 !=
 null
 )
+{
 continue
 ;
+}
 CtType
 <
 ?

@@ -1,6 +1,7 @@
 /** 
  * Gets the Spoon environment that encloses this factory.
  */
+@Override
 public
 Environment
 getEnvironment
@@ -9,12 +10,12 @@ getEnvironment
 {
 if
 (
-Environment
+environment
 ==
 null
 )
 {
-Environment
+environment
 =
 new
 StandardEnvironment
@@ -23,6 +24,6 @@ StandardEnvironment
 ;
 }
 return
-Environment
+environment
 ;
 }

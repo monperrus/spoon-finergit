@@ -1,0 +1,8 @@
+/** 
+ * Returns true is we let Spoon handle imports
+ */
+boolean
+isAutoImports
+(
+)
+;

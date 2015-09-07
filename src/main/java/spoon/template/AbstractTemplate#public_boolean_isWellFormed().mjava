@@ -1,5 +1,5 @@
 /** 
- * verifies whether there is at least one template parameter. 
+ * verifies whether there is at least one template parameter.
  */
 public
 boolean

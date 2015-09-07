@@ -41,9 +41,11 @@ targetClass
 instanceof
 CtInterface
 )
+{
 return
 null
 ;
+}
 CtConstructor
 <
 T

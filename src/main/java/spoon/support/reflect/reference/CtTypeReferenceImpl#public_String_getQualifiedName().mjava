@@ -42,6 +42,12 @@ getPackage
 null
 &&
 !
+CtPackage
+.
+TOP_LEVEL_PACKAGE_NAME
+.
+equals
+(
 getPackage
 (
 )
@@ -49,12 +55,6 @@ getPackage
 getSimpleName
 (
 )
-.
-equals
-(
-CtPackage
-.
-TOP_LEVEL_PACKAGE_NAME
 )
 )
 {

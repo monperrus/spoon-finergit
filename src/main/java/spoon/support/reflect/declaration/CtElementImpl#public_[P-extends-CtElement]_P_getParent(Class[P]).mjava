@@ -25,9 +25,11 @@ getParent
 ==
 null
 )
+{
 return
 null
 ;
+}
 if
 (
 parentType
@@ -43,6 +45,7 @@ getClass
 )
 )
 )
+{
 return
 (
 P
@@ -51,6 +54,7 @@ getParent
 (
 )
 ;
+}
 return
 getParent
 (

@@ -239,6 +239,7 @@ annotations
 !=
 null
 )
+{
 for
 (
 Annotation
@@ -261,6 +262,7 @@ BlockScope
 null
 )
 ;
+}
 }
 if
 (
@@ -294,6 +296,7 @@ length
 i
 ++
 )
+{
 typeDeclaration
 .
 memberTypes
@@ -310,6 +313,7 @@ typeDeclaration
 scope
 )
 ;
+}
 }
 if
 (
@@ -425,6 +429,7 @@ length
 i
 ++
 )
+{
 typeDeclaration
 .
 methods
@@ -441,6 +446,7 @@ typeDeclaration
 scope
 )
 ;
+}
 }
 return
 false

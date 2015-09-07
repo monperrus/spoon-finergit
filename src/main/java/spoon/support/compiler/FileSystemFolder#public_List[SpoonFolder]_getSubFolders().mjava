@@ -53,6 +53,7 @@ isFile
 )
 )
 )
+{
 try
 {
 subFolders
@@ -76,7 +77,7 @@ e
 {
 Launcher
 .
-logger
+LOGGER
 .
 error
 (
@@ -89,6 +90,7 @@ getMessage
 e
 )
 ;
+}
 }
 }
 return

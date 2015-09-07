@@ -1,6 +1,7 @@
 /** 
  * The  {@link CtAnnotationType} sub-factory.
  */
+@Override
 public
 AnnotationFactory
 Annotation
@@ -9,12 +10,12 @@ Annotation
 {
 if
 (
-Annotation
+annotation
 ==
 null
 )
 {
-Annotation
+annotation
 =
 new
 AnnotationFactory
@@ -24,6 +25,6 @@ this
 ;
 }
 return
-Annotation
+annotation
 ;
 }

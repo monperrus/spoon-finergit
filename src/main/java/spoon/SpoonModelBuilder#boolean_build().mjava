@@ -1,7 +1,7 @@
 /** 
  * Builds the program's model with this compiler's factory and stores the result into this factory. Note that this method should only be used once on a given factory.
  * @return true if the Java was successfully compiled with the core Javacompiler, false if some errors were encountered while compiling
- * @exception spoon.SpoonException when a building problem occurs
+ * @throws spoon.SpoonException when a building problem occurs
  * @see #getSourceClasspath()
  * @see #getTemplateClasspath()
  */

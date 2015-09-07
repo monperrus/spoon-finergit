@@ -2,8 +2,8 @@
  * Returns true if the element is annotated with an annotation whose type is processed.
  */
 @Override
-final
 public
+final
 boolean
 isToBeProcessed
 (

@@ -53,6 +53,7 @@ getType
 ==
 null
 )
+{
 result
 .
 add
@@ -60,6 +61,7 @@ add
 field
 )
 ;
+}
 }
 return
 Collections

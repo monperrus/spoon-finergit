@@ -1,0 +1,8 @@
+/** 
+ * Returns a short String that represent this fixer.
+ */
+String
+getLabel
+(
+)
+;

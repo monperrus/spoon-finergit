@@ -15,7 +15,7 @@ expressions
 !=
 CtElementImpl
 .
-EMPTY_LIST
+emptyList
 (
 )
 &&

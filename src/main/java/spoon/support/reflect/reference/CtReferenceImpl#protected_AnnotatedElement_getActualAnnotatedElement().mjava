@@ -1,5 +1,5 @@
-abstract
 protected
+abstract
 AnnotatedElement
 getActualAnnotatedElement
 (

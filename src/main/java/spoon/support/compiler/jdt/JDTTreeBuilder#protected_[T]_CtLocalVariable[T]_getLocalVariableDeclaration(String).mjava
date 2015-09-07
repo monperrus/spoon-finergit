@@ -149,7 +149,7 @@ get
 ;
 }
 }
-logger
+LOGGER
 .
 error
 (

@@ -60,7 +60,7 @@ getLevel
 ;
 Launcher
 .
-logger
+LOGGER
 .
 info
 (
@@ -69,7 +69,7 @@ info
 ;
 Launcher
 .
-logger
+LOGGER
 .
 warn
 (
@@ -78,7 +78,7 @@ warn
 ;
 Launcher
 .
-logger
+LOGGER
 .
 error
 (
@@ -87,7 +87,7 @@ error
 ;
 Launcher
 .
-logger
+LOGGER
 .
 debug
 (
@@ -100,7 +100,7 @@ isInfo
 ,
 Launcher
 .
-logger
+LOGGER
 .
 isEnabledFor
 (
@@ -116,7 +116,7 @@ isWarn
 ,
 Launcher
 .
-logger
+LOGGER
 .
 isEnabledFor
 (
@@ -132,7 +132,7 @@ isError
 ,
 Launcher
 .
-logger
+LOGGER
 .
 isEnabledFor
 (
@@ -148,7 +148,7 @@ isDebug
 ,
 Launcher
 .
-logger
+LOGGER
 .
 isEnabledFor
 (

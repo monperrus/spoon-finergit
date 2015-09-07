@@ -1,9 +1,0 @@
-/** 
- * Tells if the processing is stopped, generally because one of the processors called  {@link #setProcessingStopped(boolean)} after reportingan error.
- */
-public
-boolean
-isProcessingStopped
-(
-)
-;

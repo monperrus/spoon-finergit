@@ -21,7 +21,7 @@ resources
 ==
 CtElementImpl
 .
-EMPTY_LIST
+emptyList
 (
 )
 )

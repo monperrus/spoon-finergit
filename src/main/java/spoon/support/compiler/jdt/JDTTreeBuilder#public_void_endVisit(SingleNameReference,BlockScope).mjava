@@ -24,6 +24,7 @@ node
 ==
 singleNameReference
 )
+{
 context
 .
 exit
@@ -31,4 +32,5 @@ exit
 singleNameReference
 )
 ;
+}
 }

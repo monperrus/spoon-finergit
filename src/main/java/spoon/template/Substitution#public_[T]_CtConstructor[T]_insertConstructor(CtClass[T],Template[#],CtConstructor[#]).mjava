@@ -94,6 +94,7 @@ isImplicit
 (
 )
 )
+{
 targetClass
 .
 getConstructors
@@ -105,6 +106,7 @@ remove
 c
 )
 ;
+}
 }
 targetClass
 .

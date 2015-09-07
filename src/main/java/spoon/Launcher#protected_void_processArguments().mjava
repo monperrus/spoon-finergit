@@ -92,7 +92,7 @@ setLevel
 )
 ;
 }
-logger
+LOGGER
 .
 setLevel
 (
@@ -382,7 +382,7 @@ getMessage
 )
 )
 ;
-logger
+LOGGER
 .
 error
 (

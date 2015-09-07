@@ -1,8 +1,8 @@
 /** 
  * Clears the consumed annotation types.
  */
-final
 protected
+final
 void
 clearConsumedAnnotationTypes
 (
