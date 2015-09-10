@@ -31,13 +31,13 @@ String
 ,
 "-o"
 ,
-"./target/spooned/visibility"
+"./target/spooned/spoon/test/visibility_generics/testclasses/"
 }
 )
 ;
 canBeBuild
 (
-"./target/spooned/spoon/test/visibility/testclasses/"
+"./target/spooned/spoon/test/visibility_generics/testclasses/"
 ,
 8
 )

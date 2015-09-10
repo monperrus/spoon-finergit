@@ -14,7 +14,7 @@ sourceOutputDir
 new
 File
 (
-"target/spooned/visibility"
+"target/spooned/spoon/test/visibility_package/testclasses"
 )
 ;
 final
@@ -241,7 +241,7 @@ canBeBuild
 new
 File
 (
-"./target/spooned/spoon/test/visibility/testclasses/"
+"./target/spooned/spoon/test/visibility_package/testclasses/"
 )
 ,
 7
