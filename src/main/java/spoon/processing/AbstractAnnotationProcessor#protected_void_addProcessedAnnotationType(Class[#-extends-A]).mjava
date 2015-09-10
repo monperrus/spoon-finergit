@@ -1,8 +1,8 @@
 /** 
  * Adds a processed annotation type (to be used in subclasses constructors).
  */
-final
 protected
+final
 void
 addProcessedAnnotationType
 (

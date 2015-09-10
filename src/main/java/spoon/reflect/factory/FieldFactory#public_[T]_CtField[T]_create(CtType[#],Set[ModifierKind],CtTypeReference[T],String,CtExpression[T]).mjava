@@ -1,9 +1,9 @@
 /** 
  * Creates a field.
- * @param target            the target type to which the field is added
- * @param modifiers         the modifiers
- * @param type              the field's type
- * @param name              the field's name
+ * @param target the target type to which the field is added
+ * @param modifiers the modifiers
+ * @param type the field's type
+ * @param name the field's name
  * @param defaultExpression the initializing expression
  */
 public

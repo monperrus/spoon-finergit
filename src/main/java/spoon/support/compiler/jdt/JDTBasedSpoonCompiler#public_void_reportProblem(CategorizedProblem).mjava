@@ -1,5 +1,5 @@
 /** 
- * report a compilation problem (callback for JDT) 
+ * report a compilation problem (callback for JDT)
  */
 public
 void

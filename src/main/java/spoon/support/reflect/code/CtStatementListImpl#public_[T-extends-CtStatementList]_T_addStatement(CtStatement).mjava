@@ -20,7 +20,7 @@ statements
 ==
 CtElementImpl
 .
-EMPTY_LIST
+emptyList
 (
 )
 )

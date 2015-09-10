@@ -15,7 +15,7 @@ actualTypeArguments
 !=
 CtElementImpl
 .
-EMPTY_LIST
+emptyList
 (
 )
 &&

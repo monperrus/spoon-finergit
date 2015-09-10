@@ -24,6 +24,7 @@ ret
 !=
 e
 )
+{
 throw
 new
 RuntimeException
@@ -31,6 +32,7 @@ RuntimeException
 "Unconsitant Stack"
 )
 ;
+}
 super
 .
 exitReference

@@ -1,5 +1,5 @@
 /** 
- * Returns the working factory 
+ * Returns the working factory
  */
 Factory
 getFactory

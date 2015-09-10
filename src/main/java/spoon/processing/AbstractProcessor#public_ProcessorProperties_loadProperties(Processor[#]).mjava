@@ -121,7 +121,7 @@ getName
 ;
 Launcher
 .
-logger
+LOGGER
 .
 error
 (
@@ -182,7 +182,7 @@ getMessage
 ;
 Launcher
 .
-logger
+LOGGER
 .
 error
 (

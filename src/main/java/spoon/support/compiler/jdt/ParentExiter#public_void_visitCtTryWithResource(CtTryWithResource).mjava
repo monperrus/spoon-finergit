@@ -43,6 +43,7 @@ peek
 ==
 tryWithResource
 )
+{
 tryWithResource
 .
 setFinalizer
@@ -56,7 +57,9 @@ CtBlock
 child
 )
 ;
+}
 else
+{
 tryWithResource
 .
 setBody
@@ -70,6 +73,7 @@ CtBlock
 child
 )
 ;
+}
 return
 ;
 }

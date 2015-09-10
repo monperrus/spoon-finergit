@@ -1,0 +1,24 @@
+/** 
+ * Search some element matching this CtPatch from given nodes.
+ * @param startNode
+ * @return
+ */
+<
+T
+extends
+CtElement
+>
+Collection
+<
+T
+>
+evaluateOn
+(
+Collection
+<
+?
+CtElement
+>
+startNode
+)
+;

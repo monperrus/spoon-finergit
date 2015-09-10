@@ -32,9 +32,11 @@ isSubtypeOf
 type
 )
 )
+{
 return
 true
 ;
+}
 }
 return
 false

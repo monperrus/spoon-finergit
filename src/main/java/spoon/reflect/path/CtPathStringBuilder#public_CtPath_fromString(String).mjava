@@ -1,5 +1,5 @@
 /** 
- * Build path from a string representation. for example:  new CtPathBuilder().fromString(".spoon.test.path.Foo.foo#statement[index=0]") Match the first statement of method foo from class spoon.test.path.Foo. Some specials characters  . :  match with the given name # : match with a CtPathRole / : match with a element type (for example, to match all classes, use /CtClass
+ * Build path from a string representation. for example: new CtPathBuilder().fromString(".spoon.test.path.Foo.foo#statement[index=0]") Match the first statement of method foo from class spoon.test.path.Foo. Some specials characters . :  match with the given name # : match with a CtPathRole / : match with a element type (for example, to match all classes, use /CtClass
  */
 public
 CtPath
@@ -14,7 +14,7 @@ CtPathException
 Matcher
 matcher
 =
-PATH_PATTERN
+pathPattern
 .
 matcher
 (
@@ -174,7 +174,7 @@ split
 Matcher
 argmatcher
 =
-ARGUMENT_PATTERN
+argumentPattern
 .
 matcher
 (

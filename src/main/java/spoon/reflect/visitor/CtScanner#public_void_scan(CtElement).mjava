@@ -17,6 +17,7 @@ element
 null
 )
 )
+{
 element
 .
 accept
@@ -24,4 +25,5 @@ accept
 this
 )
 ;
+}
 }

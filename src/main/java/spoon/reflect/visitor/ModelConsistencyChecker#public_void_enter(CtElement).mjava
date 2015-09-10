@@ -86,6 +86,29 @@ peek
 }
 else
 {
+final
+String
+name
+=
+element
+instanceof
+CtNamedElement
+?
+" - "
++
+(
+(
+CtNamedElement
+)
+element
+)
+.
+getSimpleName
+(
+)
+:
+""
+;
 environment
 .
 report
@@ -116,26 +139,7 @@ getClass
 (
 )
 +
-(
-element
-instanceof
-CtNamedElement
-?
-" - "
-+
-(
-(
-CtNamedElement
-)
-element
-)
-.
-getSimpleName
-(
-)
-:
-""
-)
+name
 +
 " - "
 +

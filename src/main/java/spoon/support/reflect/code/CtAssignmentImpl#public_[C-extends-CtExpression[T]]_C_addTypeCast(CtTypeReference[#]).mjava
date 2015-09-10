@@ -24,7 +24,7 @@ typeCasts
 ==
 CtElementImpl
 .
-EMPTY_LIST
+emptyList
 (
 )
 )

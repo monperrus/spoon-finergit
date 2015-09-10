@@ -47,10 +47,12 @@ isEmpty
 (
 )
 )
+{
 clearLast
 (
 )
 ;
+}
 write
 (
 ";"
@@ -106,10 +108,12 @@ isEmpty
 (
 )
 )
+{
 clearLast
 (
 )
 ;
+}
 write
 (
 ")"

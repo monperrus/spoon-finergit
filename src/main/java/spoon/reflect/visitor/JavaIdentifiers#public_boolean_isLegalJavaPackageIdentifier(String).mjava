@@ -17,9 +17,11 @@ string
 ==
 null
 )
+{
 return
 false
 ;
+}
 StringTokenizer
 st
 =
@@ -57,9 +59,11 @@ isLegalJavaIdentifier
 s
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true

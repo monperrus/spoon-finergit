@@ -1,6 +1,6 @@
 /** 
  * Creates a new package (see also  {@link #getOrCreate(String)}).
- * @param parent     the parent package (can be null)
+ * @param parent the parent package (can be null)
  * @param simpleName the package's simple name (no dots)
  * @return the newly created package
  */

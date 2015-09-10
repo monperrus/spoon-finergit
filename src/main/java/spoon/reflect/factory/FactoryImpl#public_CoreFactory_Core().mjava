@@ -1,6 +1,7 @@
 /** 
  * The core factory.
  */
+@Override
 public
 CoreFactory
 Core
@@ -9,12 +10,12 @@ Core
 {
 if
 (
-Core
+core
 ==
 null
 )
 {
-Core
+core
 =
 new
 DefaultCoreFactory
@@ -23,6 +24,6 @@ DefaultCoreFactory
 ;
 }
 return
-Core
+core
 ;
 }

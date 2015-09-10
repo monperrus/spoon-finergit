@@ -22,9 +22,11 @@ getPosition
 ==
 null
 )
+{
 return
 1
 ;
+}
 if
 (
 o2
@@ -35,10 +37,12 @@ getPosition
 ==
 null
 )
+{
 return
 -
 1
 ;
+}
 if
 (
 o1

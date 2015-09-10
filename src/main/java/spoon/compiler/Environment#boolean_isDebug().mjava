@@ -1,0 +1,10 @@
+/** 
+ * Returns true if Spoon is in debug mode.
+ * @see Environment#getLevel()
+ */
+@Deprecated
+boolean
+isDebug
+(
+)
+;

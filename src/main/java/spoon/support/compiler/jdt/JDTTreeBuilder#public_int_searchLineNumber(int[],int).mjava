@@ -22,9 +22,11 @@ startLineIndexes
 ==
 null
 )
+{
 return
 1
 ;
+}
 int
 length
 =
@@ -38,9 +40,11 @@ length
 ==
 0
 )
+{
 return
 1
 ;
+}
 int
 g
 =

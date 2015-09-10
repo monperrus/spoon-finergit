@@ -67,7 +67,7 @@ null
 {
 final
 int
-BUFFER
+buffer
 =
 2048
 ;
@@ -77,7 +77,7 @@ output
 new
 ByteArrayOutputStream
 (
-BUFFER
+buffer
 )
 ;
 int
@@ -104,7 +104,7 @@ data
 ,
 0
 ,
-BUFFER
+buffer
 )
 )
 !=
@@ -175,7 +175,7 @@ e
 {
 Launcher
 .
-logger
+LOGGER
 .
 error
 (

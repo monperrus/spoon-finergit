@@ -1,0 +1,10 @@
+/** 
+ * This method should be called to print out a message with a source position link during the processing.
+ */
+void
+debugMessage
+(
+String
+message
+)
+;

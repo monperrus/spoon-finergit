@@ -60,7 +60,7 @@ getMessage
 )
 )
 ;
-logger
+LOGGER
 .
 debug
 (
@@ -238,7 +238,7 @@ SAXException
 e
 )
 {
-logger
+LOGGER
 .
 error
 (
@@ -258,7 +258,7 @@ IOException
 e
 )
 {
-logger
+LOGGER
 .
 error
 (

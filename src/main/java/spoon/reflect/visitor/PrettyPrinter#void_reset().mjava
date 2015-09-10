@@ -1,0 +1,8 @@
+/** 
+ * Resets the buffering of results
+ */
+void
+reset
+(
+)
+;

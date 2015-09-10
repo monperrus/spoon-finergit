@@ -256,6 +256,7 @@ argumentLength
 i
 ++
 )
+{
 explicitConstructor
 .
 arguments
@@ -270,6 +271,7 @@ this
 scope
 )
 ;
+}
 }
 context
 .

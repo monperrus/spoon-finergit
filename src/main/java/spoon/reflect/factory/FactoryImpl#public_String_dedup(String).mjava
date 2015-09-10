@@ -1,5 +1,5 @@
 /** 
- * Returns a String equal to the given symbol. Performs probablilistic deduplication. 
+ * Returns a String equal to the given symbol. Performs probablilistic deduplication.
  */
 public
 String

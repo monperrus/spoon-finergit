@@ -89,7 +89,9 @@ sw1
 .
 setHelp
 (
-"Argument deprecated, see the argument level. Output messages about what the compiler is doing."
+"Argument deprecated, see the argument level. "
++
+"Output messages about what the compiler is doing."
 )
 ;
 jsap
@@ -743,7 +745,11 @@ opt2
 .
 setHelp
 (
-"An optional classpath to be passed to the internal Java compiler when building or compiling the input sources."
+"An optional classpath to be passed to the internal "
++
+"Java compiler when building or compiling the "
++
+"input sources."
 )
 ;
 opt2
@@ -788,7 +794,11 @@ opt2
 .
 setHelp
 (
-"An optional classpath to be passed to the internal Java compiler when building the template sources."
+"An optional classpath to be passed to the "
++
+"internal Java compiler when building "
++
+"the template sources."
 )
 ;
 opt2
@@ -1035,45 +1045,77 @@ sw1
 .
 setHelp
 (
-"Enable pre-compilation of input source files before processing. Compiled classes will be added to the classpath so that they are accessible to the processing manager (typically, processors, annotations, and templates should be pre-compiled most of the time)."
-)
-;
-sw1
-.
-setDefault
-(
-"false"
-)
-;
-jsap
-.
-registerParameter
-(
-sw1
-)
-;
-sw1
-=
-new
-Switch
-(
-"buildOnlyOutdatedFiles"
-)
-;
-sw1
-.
-setLongFlag
-(
-"buildOnlyOutdatedFiles"
-)
-;
-sw1
-.
-setHelp
-(
-"Set Spoon to build only the source files that have been modified since the latest source code generation, for performance purpose. Note that this option requires to have the --ouput-type option not set to none."
+"Enable pre-compilation of input source files "
 +
-"This option is not appropriate to all kinds of processing. In particular processings that implement or rely on a global analysis should avoid this option because the processor will only have access to the outdated source code (the files modified since the latest processing)."
+"before processing. Compiled classes "
++
+"will be added to the classpath so that "
++
+"they are accessible to the processing "
++
+"manager (typically, processors, "
++
+"annotations, and templates should be "
++
+"pre-compiled most of the time)."
+)
+;
+sw1
+.
+setDefault
+(
+"false"
+)
+;
+jsap
+.
+registerParameter
+(
+sw1
+)
+;
+sw1
+=
+new
+Switch
+(
+"buildOnlyOutdatedFiles"
+)
+;
+sw1
+.
+setLongFlag
+(
+"buildOnlyOutdatedFiles"
+)
+;
+sw1
+.
+setHelp
+(
+"Set Spoon to build only the source files that "
++
+"have been modified since the latest "
++
+"source code generation, for performance "
++
+"purpose. Note that this option requires "
++
+"to have the --ouput-type option not set "
++
+"to none. This option is not appropriate "
++
+"to all kinds of processing. In particular "
++
+"processings that implement or rely on a "
++
+"global analysis should avoid this option "
++
+"because the processor will only have access "
++
+"to the outdated source code (the files "
++
+"modified since the latest processing)."
 )
 ;
 sw1
@@ -1109,7 +1151,13 @@ sw1
 .
 setHelp
 (
-"Set Spoon to try to preserve the original line numbers when generating the source code (may lead to human-unfriendly formatting)."
+"Set Spoon to try to preserve the original line "
++
+"numbers when generating the source "
++
+"code (may lead to human-unfriendly "
++
+"formatting)."
 )
 ;
 sw1

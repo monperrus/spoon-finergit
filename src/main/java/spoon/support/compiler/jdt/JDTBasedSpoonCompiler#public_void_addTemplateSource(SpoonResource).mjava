@@ -14,6 +14,7 @@ isFile
 (
 )
 )
+{
 this
 .
 templates
@@ -26,7 +27,9 @@ SpoonFile
 source
 )
 ;
+}
 else
+{
 this
 .
 templates
@@ -39,4 +42,5 @@ SpoonFolder
 source
 )
 ;
+}
 }

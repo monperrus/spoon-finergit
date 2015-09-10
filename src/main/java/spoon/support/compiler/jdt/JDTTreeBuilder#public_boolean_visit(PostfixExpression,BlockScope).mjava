@@ -36,6 +36,7 @@ OperatorIds
 .
 PLUS
 )
+{
 op
 .
 setKind
@@ -45,6 +46,7 @@ UnaryOperatorKind
 POSTINC
 )
 ;
+}
 if
 (
 postfixExpression
@@ -55,6 +57,7 @@ OperatorIds
 .
 MINUS
 )
+{
 op
 .
 setKind
@@ -64,6 +67,7 @@ UnaryOperatorKind
 POSTDEC
 )
 ;
+}
 context
 .
 enter

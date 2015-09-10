@@ -24,7 +24,7 @@ constructors
 ==
 CtElementImpl
 .
-EMPTY_SET
+emptySet
 (
 )
 )

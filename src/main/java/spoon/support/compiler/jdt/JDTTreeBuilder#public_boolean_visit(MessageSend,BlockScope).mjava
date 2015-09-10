@@ -136,6 +136,7 @@ class
 )
 )
 )
+{
 messageSend
 .
 receiver
@@ -147,6 +148,7 @@ this
 scope
 )
 ;
+}
 context
 .
 pushArgument
@@ -162,6 +164,7 @@ arguments
 !=
 null
 )
+{
 for
 (
 Expression
@@ -181,6 +184,7 @@ this
 scope
 )
 ;
+}
 }
 if
 (

@@ -1,0 +1,8 @@
+/** 
+ * Gets the Java version compliance level.
+ */
+int
+getComplianceLevel
+(
+)
+;

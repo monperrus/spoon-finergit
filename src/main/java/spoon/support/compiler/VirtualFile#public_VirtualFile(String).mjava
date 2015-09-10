@@ -2,13 +2,13 @@ public
 VirtualFile
 (
 String
-_contents
+content
 )
 {
 this
 .
 content
 =
-_contents
+content
 ;
 }

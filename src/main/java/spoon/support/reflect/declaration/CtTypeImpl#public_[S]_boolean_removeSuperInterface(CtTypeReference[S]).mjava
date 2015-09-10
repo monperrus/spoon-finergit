@@ -52,7 +52,7 @@ interfaces
 =
 CtElementImpl
 .
-EMPTY_SET
+emptySet
 (
 )
 ;

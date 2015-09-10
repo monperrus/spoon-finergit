@@ -19,7 +19,7 @@ formalTypeParameters
 !=
 CtElementImpl
 .
-EMPTY_LIST
+emptyList
 (
 )
 &&

@@ -1,5 +1,5 @@
 /** 
- * verifies whether all template parameters are filled. 
+ * verifies whether all template parameters are filled.
  */
 public
 boolean

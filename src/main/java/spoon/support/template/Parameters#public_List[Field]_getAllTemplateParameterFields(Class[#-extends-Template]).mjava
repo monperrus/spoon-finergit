@@ -1,5 +1,5 @@
 /** 
- * returns all the runtime fields of a template representing a template parameter 
+ * returns all the runtime fields of a template representing a template parameter
  */
 public
 static

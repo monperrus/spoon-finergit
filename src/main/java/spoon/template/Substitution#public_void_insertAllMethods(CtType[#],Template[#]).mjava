@@ -74,8 +74,10 @@ class
 !=
 null
 )
+{
 continue
 ;
+}
 if
 (
 m
@@ -89,8 +91,10 @@ class
 !=
 null
 )
+{
 continue
 ;
+}
 insertMethod
 (
 targetType

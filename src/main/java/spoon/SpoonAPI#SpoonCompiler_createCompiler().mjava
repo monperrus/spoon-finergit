@@ -1,5 +1,5 @@
 /** 
- * Creates a new Spoon compiler (for building the model) 
+ * Creates a new Spoon compiler (for building the model)
  */
 SpoonCompiler
 createCompiler

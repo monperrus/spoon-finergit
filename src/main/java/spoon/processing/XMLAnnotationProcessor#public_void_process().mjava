@@ -1,5 +1,5 @@
-final
 public
+final
 void
 process
 (
@@ -103,8 +103,10 @@ t
 nameExpr
 )
 )
+{
 continue
 ;
+}
 try
 {
 annotateElement
@@ -123,7 +125,7 @@ e
 {
 Launcher
 .
-logger
+LOGGER
 .
 error
 (
@@ -189,8 +191,10 @@ getParentNode
 !=
 clazz
 )
+{
 continue
 ;
+}
 String
 fieldExpr
 =
@@ -226,8 +230,10 @@ field
 fieldExpr
 )
 )
+{
 continue
 ;
+}
 try
 {
 annotateElement
@@ -246,7 +252,7 @@ e
 {
 Launcher
 .
-logger
+LOGGER
 .
 error
 (
@@ -380,8 +386,10 @@ getParentNode
 !=
 clazz
 )
+{
 continue
 ;
+}
 String
 executableExpr
 =
@@ -413,8 +421,10 @@ executable
 executableExpr
 )
 )
+{
 continue
 ;
+}
 try
 {
 annotateElement
@@ -433,7 +443,7 @@ e
 {
 Launcher
 .
-logger
+LOGGER
 .
 error
 (

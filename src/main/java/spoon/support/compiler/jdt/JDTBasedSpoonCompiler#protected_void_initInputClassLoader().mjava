@@ -47,7 +47,7 @@ try
 {
 Launcher
 .
-logger
+LOGGER
 .
 debug
 (
@@ -116,7 +116,7 @@ e
 {
 Launcher
 .
-logger
+LOGGER
 .
 error
 (

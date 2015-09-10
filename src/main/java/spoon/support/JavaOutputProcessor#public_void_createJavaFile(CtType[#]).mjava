@@ -227,6 +227,7 @@ mkdirs
 (
 )
 )
+{
 throw
 new
 RuntimeException
@@ -234,6 +235,7 @@ RuntimeException
 "Error creating output directory"
 )
 ;
+}
 }
 if
 (
@@ -287,6 +289,7 @@ contains
 packageAnnot
 )
 )
+{
 printedFiles
 .
 add
@@ -294,6 +297,7 @@ add
 packageAnnot
 )
 ;
+}
 try
 {
 stream
@@ -330,7 +334,7 @@ e
 {
 Launcher
 .
-logger
+LOGGER
 .
 error
 (
@@ -352,12 +356,14 @@ stream
 !=
 null
 )
+{
 stream
 .
 close
 (
 )
 ;
+}
 }
 }
 try
@@ -477,7 +483,7 @@ e
 {
 Launcher
 .
-logger
+LOGGER
 .
 error
 (
@@ -499,7 +505,7 @@ e
 {
 Launcher
 .
-logger
+LOGGER
 .
 error
 (
@@ -521,11 +527,13 @@ stream
 !=
 null
 )
+{
 stream
 .
 close
 (
 )
 ;
+}
 }
 }

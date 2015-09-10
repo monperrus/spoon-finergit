@@ -27,7 +27,11 @@ throw
 new
 TemplateException
 (
-"Template type is null. Use the template factory to access a template CtClass and check your template source path."
+"Template type is null. Use the template factory "
++
+"to access a template CtClass and check "
++
+"your template source path."
 )
 ;
 }

@@ -70,6 +70,7 @@ initializationsLength
 i
 ++
 )
+{
 forStatement
 .
 initializations
@@ -84,6 +85,7 @@ this
 scope
 )
 ;
+}
 context
 .
 forinit
@@ -99,6 +101,7 @@ condition
 !=
 null
 )
+{
 forStatement
 .
 condition
@@ -110,6 +113,7 @@ this
 scope
 )
 ;
+}
 if
 (
 forStatement
@@ -148,6 +152,7 @@ incrementsLength
 i
 ++
 )
+{
 forStatement
 .
 increments
@@ -162,6 +167,7 @@ this
 scope
 )
 ;
+}
 context
 .
 forupdate
@@ -177,6 +183,7 @@ action
 !=
 null
 )
+{
 forStatement
 .
 action
@@ -188,6 +195,7 @@ this
 scope
 )
 ;
+}
 return
 false
 ;

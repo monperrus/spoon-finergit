@@ -98,7 +98,7 @@ ok
 {
 Launcher
 .
-logger
+LOGGER
 .
 debug
 (

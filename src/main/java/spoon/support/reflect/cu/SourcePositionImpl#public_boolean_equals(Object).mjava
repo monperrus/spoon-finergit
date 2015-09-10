@@ -16,9 +16,11 @@ instanceof
 SourcePosition
 )
 )
+{
 return
 false
 ;
+}
 SourcePosition
 s
 =

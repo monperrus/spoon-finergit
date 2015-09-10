@@ -24,6 +24,7 @@ expression
 !=
 null
 )
+{
 expression
 .
 setParent
@@ -31,6 +32,7 @@ setParent
 this
 )
 ;
+}
 this
 .
 returnedExpression

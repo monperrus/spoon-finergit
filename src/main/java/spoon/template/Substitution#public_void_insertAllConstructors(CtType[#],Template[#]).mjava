@@ -76,8 +76,10 @@ isImplicit
 (
 )
 )
+{
 continue
 ;
+}
 if
 (
 c
@@ -91,8 +93,10 @@ class
 !=
 null
 )
+{
 continue
 ;
+}
 insertConstructor
 (
 (

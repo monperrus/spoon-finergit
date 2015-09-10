@@ -31,6 +31,7 @@ label
 !=
 null
 )
+{
 b
 .
 setTargetLabel
@@ -44,6 +45,7 @@ label
 )
 )
 ;
+}
 context
 .
 enter

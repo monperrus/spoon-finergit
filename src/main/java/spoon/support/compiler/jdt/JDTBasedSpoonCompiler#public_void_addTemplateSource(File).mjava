@@ -17,6 +17,7 @@ isFile
 source
 )
 )
+{
 this
 .
 templates
@@ -31,7 +32,9 @@ source
 )
 )
 ;
+}
 else
+{
 this
 .
 templates
@@ -46,6 +49,7 @@ source
 )
 )
 ;
+}
 }
 catch
 (

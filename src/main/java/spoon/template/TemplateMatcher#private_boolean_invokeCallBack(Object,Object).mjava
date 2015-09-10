@@ -229,7 +229,7 @@ e
 {
 Launcher
 .
-logger
+LOGGER
 .
 error
 (
@@ -254,7 +254,7 @@ e
 {
 Launcher
 .
-logger
+LOGGER
 .
 error
 (

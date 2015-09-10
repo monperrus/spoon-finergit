@@ -1,5 +1,5 @@
 /** 
- * returns a Spoon factory object from the first template parameter that contains one 
+ * returns a Spoon factory object from the first template parameter that contains one
  */
 public
 Factory

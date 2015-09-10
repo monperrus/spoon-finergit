@@ -1,6 +1,7 @@
 /** 
  * The  {@link CtClass} sub-factory.
  */
+@Override
 public
 ClassFactory
 Class
@@ -9,12 +10,12 @@ Class
 {
 if
 (
-Class
+clazz
 ==
 null
 )
 {
-Class
+clazz
 =
 new
 ClassFactory
@@ -24,6 +25,6 @@ this
 ;
 }
 return
-Class
+clazz
 ;
 }

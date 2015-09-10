@@ -52,7 +52,7 @@ nestedTypes
 =
 CtElementImpl
 .
-EMPTY_SET
+emptySet
 (
 )
 ;

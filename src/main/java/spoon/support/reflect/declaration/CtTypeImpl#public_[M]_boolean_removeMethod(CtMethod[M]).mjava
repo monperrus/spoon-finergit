@@ -52,7 +52,7 @@ methods
 =
 CtElementImpl
 .
-EMPTY_SET
+emptySet
 (
 )
 ;

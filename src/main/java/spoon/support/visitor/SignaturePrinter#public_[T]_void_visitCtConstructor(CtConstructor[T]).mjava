@@ -73,10 +73,12 @@ isEmpty
 (
 )
 )
+{
 clearLast
 (
 )
 ;
+}
 write
 (
 ")"

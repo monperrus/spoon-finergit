@@ -27,6 +27,7 @@ getDeclaredMethods
 (
 )
 )
+{
 methods
 .
 add
@@ -34,6 +35,7 @@ add
 m
 )
 ;
+}
 for
 (
 Class

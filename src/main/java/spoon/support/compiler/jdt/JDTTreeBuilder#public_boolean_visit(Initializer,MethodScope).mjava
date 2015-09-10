@@ -31,6 +31,7 @@ isStatic
 (
 )
 )
+{
 b
 .
 addModifier
@@ -40,6 +41,7 @@ ModifierKind
 STATIC
 )
 ;
+}
 context
 .
 enter

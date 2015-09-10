@@ -21,6 +21,7 @@ getTargetLabel
 !=
 null
 )
+{
 write
 (
 breakStatement
@@ -30,4 +31,5 @@ getTargetLabel
 )
 )
 ;
+}
 }

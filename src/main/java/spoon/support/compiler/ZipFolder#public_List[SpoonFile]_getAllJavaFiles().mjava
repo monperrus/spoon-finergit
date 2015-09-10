@@ -30,6 +30,7 @@ getFiles
 (
 )
 )
+{
 if
 (
 f
@@ -38,6 +39,7 @@ isJava
 (
 )
 )
+{
 files
 .
 add
@@ -45,6 +47,8 @@ add
 f
 )
 ;
+}
+}
 return
 files
 ;

@@ -19,6 +19,7 @@ child
 instanceof
 CtExpression
 )
+{
 if
 (
 !
@@ -82,6 +83,7 @@ child
 ;
 return
 ;
+}
 }
 super
 .

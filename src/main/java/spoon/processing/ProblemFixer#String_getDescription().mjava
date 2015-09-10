@@ -1,0 +1,8 @@
+/** 
+ * Returns the description of this fixer
+ */
+String
+getDescription
+(
+)
+;

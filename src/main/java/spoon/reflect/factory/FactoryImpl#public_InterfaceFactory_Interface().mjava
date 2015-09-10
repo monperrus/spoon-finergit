@@ -1,6 +1,7 @@
 /** 
  * The  {@link CtInterface} sub-factory.
  */
+@Override
 public
 InterfaceFactory
 Interface
@@ -9,12 +10,12 @@ Interface
 {
 if
 (
-Interface
+interfaceF
 ==
 null
 )
 {
-Interface
+interfaceF
 =
 new
 InterfaceFactory
@@ -24,6 +25,6 @@ this
 ;
 }
 return
-Interface
+interfaceF
 ;
 }

@@ -35,7 +35,7 @@ e1
 {
 Launcher
 .
-logger
+LOGGER
 .
 error
 (

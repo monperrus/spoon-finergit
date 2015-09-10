@@ -1,6 +1,7 @@
 /** 
  * The  {@link CompilationUnit} sub-factory.
  */
+@Override
 public
 CompilationUnitFactory
 CompilationUnit
@@ -9,12 +10,12 @@ CompilationUnit
 {
 if
 (
-CompilationUnit
+compilationUnit
 ==
 null
 )
 {
-CompilationUnit
+compilationUnit
 =
 new
 CompilationUnitFactory
@@ -24,6 +25,6 @@ this
 ;
 }
 return
-CompilationUnit
+compilationUnit
 ;
 }

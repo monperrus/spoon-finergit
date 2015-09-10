@@ -23,6 +23,7 @@ target
 !=
 null
 )
+{
 target
 .
 setParent
@@ -30,6 +31,7 @@ setParent
 this
 )
 ;
+}
 this
 .
 target

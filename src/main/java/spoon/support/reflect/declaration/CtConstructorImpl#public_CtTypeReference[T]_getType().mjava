@@ -16,9 +16,11 @@ getDeclaringType
 ==
 null
 )
+{
 return
 null
 ;
+}
 return
 getDeclaringType
 (

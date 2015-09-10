@@ -74,7 +74,7 @@ getModifiers
 return
 CtElementImpl
 .
-EMPTY_SET
+emptySet
 (
 )
 ;

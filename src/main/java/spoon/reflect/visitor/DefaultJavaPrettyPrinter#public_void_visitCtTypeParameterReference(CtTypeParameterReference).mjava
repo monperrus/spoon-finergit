@@ -101,6 +101,10 @@ size
 1
 )
 &&
+"java.lang.Object"
+.
+equals
+(
 ref
 .
 getBounds
@@ -115,10 +119,6 @@ get
 getQualifiedName
 (
 )
-.
-equals
-(
-"java.lang.Object"
 )
 )
 )

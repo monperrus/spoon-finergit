@@ -15,7 +15,7 @@ factory
 =
 factory
 ;
-logger
+LOGGER
 .
 setLevel
 (

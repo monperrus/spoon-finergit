@@ -64,6 +64,7 @@ dimensions
 !=
 null
 )
+{
 for
 (
 Expression
@@ -73,12 +74,14 @@ arrayAllocationExpression
 .
 dimensions
 )
+{
 if
 (
 e
 !=
 null
 )
+{
 e
 .
 traverse
@@ -88,6 +91,9 @@ this
 scope
 )
 ;
+}
+}
+}
 context
 .
 popArgument
@@ -123,6 +129,7 @@ initializer
 .
 expressions
 )
+{
 e
 .
 traverse
@@ -132,6 +139,7 @@ this
 scope
 )
 ;
+}
 }
 return
 false

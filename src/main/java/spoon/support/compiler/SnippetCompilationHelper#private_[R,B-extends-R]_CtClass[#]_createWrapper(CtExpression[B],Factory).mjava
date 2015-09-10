@@ -130,13 +130,13 @@ class
 ,
 CtElementImpl
 .
-EMPTY_LIST
+emptyList
 (
 )
 ,
 CtElementImpl
 .
-EMPTY_SET
+emptySet
 (
 )
 ,

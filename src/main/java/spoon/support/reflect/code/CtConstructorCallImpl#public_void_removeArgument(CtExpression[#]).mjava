@@ -16,7 +16,7 @@ arguments
 !=
 CtElementImpl
 .
-EMPTY_LIST
+emptyList
 (
 )
 )

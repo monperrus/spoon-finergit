@@ -19,6 +19,7 @@ child
 instanceof
 CtExpression
 )
+{
 if
 (
 operator
@@ -73,6 +74,7 @@ child
 ;
 return
 ;
+}
 }
 super
 .

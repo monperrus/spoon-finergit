@@ -1,5 +1,5 @@
 /** 
- * Adds a sub folder in this folder 
+ * Adds a sub folder in this folder
  */
 void
 addFolder

@@ -1,7 +1,7 @@
 @SuppressWarnings({"rawtypes","unchecked"})
-synchronized
 private
 static
+synchronized
 CtTypeReference
 <
 TemplateParameter

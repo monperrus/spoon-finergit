@@ -235,11 +235,9 @@ if
 isArray
 ==
 (
-(
 value
 instanceof
 Collection
-)
 ||
 value
 .

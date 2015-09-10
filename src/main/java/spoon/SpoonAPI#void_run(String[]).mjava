@@ -1,0 +1,12 @@
+/** 
+ * Runs Spoon with these arguments (used by the "main" method)
+ */
+void
+run
+(
+String
+[
+]
+args
+)
+;
