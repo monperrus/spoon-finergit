@@ -232,7 +232,7 @@ getDeclaration
 ;
 assertEquals
 (
-"spoon.test.secondaryclasses.AnonymousClass.2.2"
+"spoon.test.secondaryclasses.AnonymousClass$2#2()"
 ,
 y
 .
