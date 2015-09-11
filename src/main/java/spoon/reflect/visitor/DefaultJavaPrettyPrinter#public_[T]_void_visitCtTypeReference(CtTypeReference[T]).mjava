@@ -35,12 +35,6 @@ return
 }
 if
 (
-!
-context
-.
-ignoreImport
-&&
-(
 importsContext
 .
 isImported
@@ -55,7 +49,6 @@ getPackage
 )
 !=
 null
-)
 )
 {
 printTypeAnnotations
