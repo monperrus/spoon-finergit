@@ -1,6 +1,7 @@
 /** 
  * Sets the output directory
  */
+@Deprecated
 void
 setOutputDirectory
 (

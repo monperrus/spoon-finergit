@@ -2,6 +2,7 @@
  * Sets the output directory for the source files.
  * @param outputDirectory output directory
  */
+@Deprecated
 void
 setOutputDirectory
 (

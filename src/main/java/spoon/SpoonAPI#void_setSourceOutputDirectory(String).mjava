@@ -1,0 +1,11 @@
+/** 
+ * Sets the output directory for source generated.
+ * @param path Path for the output directory.
+ */
+void
+setSourceOutputDirectory
+(
+String
+path
+)
+;

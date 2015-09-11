@@ -50,7 +50,7 @@ factory
 ;
 compiler
 .
-setOutputDirectory
+setSourceOutputDirectory
 (
 TestUtils
 .

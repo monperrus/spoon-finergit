@@ -82,7 +82,7 @@ factory
 ;
 compiler
 .
-setOutputDirectory
+setSourceOutputDirectory
 (
 sourceOutputDir
 )
