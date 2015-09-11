@@ -1,0 +1,11 @@
+/** 
+ * Sets the output directory for binary generated.
+ * @param binaryOutputDirectory {@link File} for binary output directory.
+ */
+void
+setBinaryOutputDirectory
+(
+File
+binaryOutputDirectory
+)
+;

@@ -1,0 +1,11 @@
+/** 
+ * Sets the output directory for binary generated.
+ * @param path Path for the binary output directory.
+ */
+void
+setBinaryOutputDirectory
+(
+String
+path
+)
+;

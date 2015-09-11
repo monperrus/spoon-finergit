@@ -1,0 +1,17 @@
+@Override
+public
+void
+setBinaryOutputDirectory
+(
+File
+outputDirectory
+)
+{
+modelBuilder
+.
+setBinaryOutputDirectory
+(
+outputDirectory
+)
+;
+}

@@ -1,0 +1,16 @@
+@Override
+public
+void
+setShouldCompile
+(
+boolean
+shouldCompile
+)
+{
+this
+.
+shouldCompile
+=
+shouldCompile
+;
+}

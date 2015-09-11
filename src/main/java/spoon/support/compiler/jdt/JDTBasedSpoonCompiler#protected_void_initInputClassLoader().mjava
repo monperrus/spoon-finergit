@@ -21,7 +21,7 @@ if
 (
 buildOnlyOutdatedFiles
 &&
-getDestinationDirectory
+getBinaryOutputDirectory
 (
 )
 !=
@@ -53,7 +53,7 @@ debug
 (
 "setting classloader for "
 +
-getDestinationDirectory
+getBinaryOutputDirectory
 (
 )
 .
@@ -82,7 +82,7 @@ URL
 [
 ]
 {
-getDestinationDirectory
+getBinaryOutputDirectory
 (
 )
 .

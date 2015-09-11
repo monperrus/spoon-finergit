@@ -54,7 +54,7 @@ getBoolean
 ;
 comp
 .
-setDestinationDirectory
+setBinaryOutputDirectory
 (
 jsapActualArgs
 .
@@ -142,7 +142,7 @@ debugMessage
 +
 comp
 .
-getDestinationDirectory
+getBinaryOutputDirectory
 (
 )
 )

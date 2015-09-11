@@ -64,7 +64,7 @@ getClass
 ;
 compiler
 .
-setDestinationDirectory
+setBinaryOutputDirectory
 (
 TestUtils
 .

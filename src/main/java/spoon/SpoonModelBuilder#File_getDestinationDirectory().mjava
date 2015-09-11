@@ -1,6 +1,7 @@
 /** 
  * Gets the output directory of this compiler.
  */
+@Deprecated
 File
 getDestinationDirectory
 (

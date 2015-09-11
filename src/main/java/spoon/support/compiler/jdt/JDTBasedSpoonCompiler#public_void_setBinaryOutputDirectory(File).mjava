@@ -1,0 +1,16 @@
+@Override
+public
+void
+setBinaryOutputDirectory
+(
+File
+binaryOutputDirectory
+)
+{
+this
+.
+binaryOutputDirectory
+=
+binaryOutputDirectory
+;
+}

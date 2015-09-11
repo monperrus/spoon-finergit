@@ -1,0 +1,10 @@
+/** 
+ * Sets the compile argument.
+ */
+void
+setShouldCompile
+(
+boolean
+shouldCompile
+)
+;
