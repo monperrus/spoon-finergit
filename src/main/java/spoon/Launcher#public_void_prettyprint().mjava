@@ -36,6 +36,8 @@ modelBuilder
 generateProcessedSourceFiles
 (
 outputType
+,
+typeFilter
 )
 ;
 }

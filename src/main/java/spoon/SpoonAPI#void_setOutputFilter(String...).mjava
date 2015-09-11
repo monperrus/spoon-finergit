@@ -1,0 +1,12 @@
+/** 
+ * Creates a filter from names in argument when the output-type is defined on classes.
+ * @param qualifedNames Names of class in fully qualified name to know which type Spoon must print.
+ */
+void
+setOutputFilter
+(
+String
+...
+qualifedNames
+)
+;
