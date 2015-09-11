@@ -29,6 +29,10 @@ String
 ,
 "./src/test/java/spoon/test/imports/testclasses"
 ,
+"-o"
+,
+"./target/spooned"
+,
 "--with-imports"
 }
 )

@@ -9,7 +9,7 @@ outputDirectory
 {
 modelBuilder
 .
-setOutputDirectory
+setSourceOutputDirectory
 (
 outputDirectory
 )

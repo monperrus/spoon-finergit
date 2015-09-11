@@ -25,7 +25,7 @@ addInputResource
 ;
 launcher
 .
-setOutputDirectory
+setSourceOutputDirectory
 (
 "./target/spoon/test/output/"
 )

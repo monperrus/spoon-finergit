@@ -23,6 +23,13 @@ addInputResource
 "./src/test/java/spoon/test/api/testclasses"
 )
 ;
+launcher
+.
+setSourceOutputDirectory
+(
+"./target/spooned"
+)
+;
 final
 AwesomeProcessor
 processor
