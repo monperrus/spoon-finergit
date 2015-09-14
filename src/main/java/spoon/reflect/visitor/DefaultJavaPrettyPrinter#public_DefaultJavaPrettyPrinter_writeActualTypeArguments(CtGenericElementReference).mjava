@@ -51,12 +51,6 @@ isImplicitTypeReference
 =
 true
 ;
-context
-.
-ignoreImport
-=
-true
-;
 for
 (
 CtTypeReference
@@ -94,12 +88,6 @@ write
 ;
 }
 }
-context
-.
-ignoreImport
-=
-false
-;
 if
 (
 !

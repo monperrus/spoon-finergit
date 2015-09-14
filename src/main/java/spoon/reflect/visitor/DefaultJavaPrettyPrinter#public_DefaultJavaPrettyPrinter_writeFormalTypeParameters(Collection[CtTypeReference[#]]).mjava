@@ -44,12 +44,6 @@ write
 "<"
 )
 ;
-context
-.
-ignoreImport
-=
-true
-;
 for
 (
 CtTypeReference
@@ -72,12 +66,6 @@ write
 )
 ;
 }
-context
-.
-ignoreImport
-=
-false
-;
 removeLastChar
 (
 )

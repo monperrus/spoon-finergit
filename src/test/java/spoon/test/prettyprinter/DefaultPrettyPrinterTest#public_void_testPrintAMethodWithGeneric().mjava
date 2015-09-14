@@ -1,7 +1,7 @@
 @Test
 public
 void
-testPrintAClassWithImports
+testPrintAMethodWithGeneric
 (
 )
 throws
@@ -94,7 +94,7 @@ final
 String
 expected
 =
-"public class AClass {"
+"public List<? extends ArrayList> aMethodWithGeneric() {"
 +
 System
 .
@@ -102,53 +102,7 @@ lineSeparator
 (
 )
 +
-"    public List<?> aMethod() {"
-+
-System
-.
-lineSeparator
-(
-)
-+
-"        return new ArrayList<>();"
-+
-System
-.
-lineSeparator
-(
-)
-+
-"    }"
-+
-System
-.
-lineSeparator
-(
-)
-+
-System
-.
-lineSeparator
-(
-)
-+
-"    public List<? extends ArrayList> aMethodWithGeneric() {"
-+
-System
-.
-lineSeparator
-(
-)
-+
-"        return new ArrayList<>();"
-+
-System
-.
-lineSeparator
-(
-)
-+
-"    }"
+"    return new ArrayList<>();"
 +
 System
 .
@@ -163,6 +117,16 @@ assertEquals
 expected
 ,
 aClass
+.
+getMethodsByName
+(
+"aMethodWithGeneric"
+)
+.
+get
+(
+0
+)
 .
 toString
 (
