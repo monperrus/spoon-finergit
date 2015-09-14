@@ -151,7 +151,7 @@ targetDirectory
 =
 modelBuilder
 .
-getOutputDirectory
+getSourceOutputDirectory
 (
 )
 +

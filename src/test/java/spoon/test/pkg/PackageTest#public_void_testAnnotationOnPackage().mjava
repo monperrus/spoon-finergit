@@ -84,7 +84,7 @@ File
 ;
 compiler
 .
-setOutputDirectory
+setSourceOutputDirectory
 (
 new
 File

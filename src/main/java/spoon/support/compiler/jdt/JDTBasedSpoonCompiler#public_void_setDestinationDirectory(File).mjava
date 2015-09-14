@@ -7,10 +7,9 @@ File
 destinationDirectory
 )
 {
-this
-.
+setBinaryOutputDirectory
+(
 destinationDirectory
-=
-destinationDirectory
+)
 ;
 }

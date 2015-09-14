@@ -1,0 +1,8 @@
+/** 
+ * Gets the binary output directory of the compiler.
+ */
+File
+getBinaryOutputDirectory
+(
+)
+;

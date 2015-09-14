@@ -42,7 +42,7 @@ mkdirs
 ;
 compiler
 .
-setOutputDirectory
+setSourceOutputDirectory
 (
 tmpdir
 )

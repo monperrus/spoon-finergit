@@ -1,0 +1,11 @@
+/** 
+ * Sets the output directory for source generated.
+ * @param outputDirectory {@link File} for output directory.
+ */
+void
+setSourceOutputDirectory
+(
+File
+outputDirectory
+)
+;

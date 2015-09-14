@@ -130,7 +130,7 @@ add
 ;
 if
 (
-getDestinationDirectory
+getBinaryOutputDirectory
 (
 )
 !=
@@ -148,7 +148,7 @@ args
 .
 add
 (
-getDestinationDirectory
+getBinaryOutputDirectory
 (
 )
 .

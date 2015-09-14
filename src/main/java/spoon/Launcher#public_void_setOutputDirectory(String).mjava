@@ -7,15 +7,9 @@ String
 path
 )
 {
-modelBuilder
-.
-setOutputDirectory
-(
-new
-File
+setSourceOutputDirectory
 (
 path
-)
 )
 ;
 }

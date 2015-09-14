@@ -1,0 +1,8 @@
+/** 
+ * Checks if we want compile the target source code and get their binary.
+ */
+boolean
+shouldCompile
+(
+)
+;

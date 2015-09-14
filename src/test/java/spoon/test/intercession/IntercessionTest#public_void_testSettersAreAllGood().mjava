@@ -104,6 +104,10 @@ String
 ,
 "./src/main/java"
 ,
+"-o"
+,
+"./target/spooned"
+,
 "--source-classpath"
 ,
 systemClassPath

@@ -50,7 +50,7 @@ factory
 ;
 compiler
 .
-setOutputDirectory
+setSourceOutputDirectory
 (
 TestUtils
 .
@@ -64,7 +64,7 @@ getClass
 ;
 compiler
 .
-setDestinationDirectory
+setBinaryOutputDirectory
 (
 TestUtils
 .
