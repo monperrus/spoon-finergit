@@ -135,6 +135,9 @@ toString
 ;
 final
 CtConstructorCall
+<
+?
+>
 constructorCall
 =
 aClass
@@ -145,6 +148,9 @@ new
 TypeFilter
 <
 CtConstructorCall
+<
+?
+>
 >
 (
 CtConstructorCall

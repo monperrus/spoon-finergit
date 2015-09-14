@@ -65,6 +65,44 @@ build
 )
 ;
 final
+String
+expected
+=
+"public class AClass {"
++
+nl
++
+"    public List<?> aMethod() {"
++
+nl
++
+"        return new ArrayList<>();"
++
+nl
++
+"    }"
++
+nl
++
+""
++
+nl
++
+"    public List<? extends ArrayList> aMethodWithGeneric() {"
++
+nl
++
+"        return new ArrayList<>();"
++
+nl
++
+"    }"
++
+nl
++
+"}"
+;
+final
 CtClass
 <
 ?
@@ -90,74 +128,6 @@ AClass
 class
 )
 ;
-final
-String
-expected
-=
-"public class AClass {"
-+
-System
-.
-lineSeparator
-(
-)
-+
-"    public List<?> aMethod() {"
-+
-System
-.
-lineSeparator
-(
-)
-+
-"        return new ArrayList<>();"
-+
-System
-.
-lineSeparator
-(
-)
-+
-"    }"
-+
-System
-.
-lineSeparator
-(
-)
-+
-System
-.
-lineSeparator
-(
-)
-+
-"    public List<? extends ArrayList> aMethodWithGeneric() {"
-+
-System
-.
-lineSeparator
-(
-)
-+
-"        return new ArrayList<>();"
-+
-System
-.
-lineSeparator
-(
-)
-+
-"    }"
-+
-System
-.
-lineSeparator
-(
-)
-+
-"}"
-;
 assertEquals
 (
 expected
@@ -171,6 +141,9 @@ toString
 ;
 final
 CtConstructorCall
+<
+?
+>
 constructorCall
 =
 aClass
@@ -181,6 +154,9 @@ new
 TypeFilter
 <
 CtConstructorCall
+<
+?
+>
 >
 (
 CtConstructorCall

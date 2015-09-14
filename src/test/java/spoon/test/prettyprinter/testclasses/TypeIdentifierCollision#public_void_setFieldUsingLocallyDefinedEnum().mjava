@@ -1,0 +1,17 @@
+public
+void
+setFieldUsingLocallyDefinedEnum
+(
+)
+{
+localField
+=
+ENUM
+.
+E1
+.
+ordinal
+(
+)
+;
+}
