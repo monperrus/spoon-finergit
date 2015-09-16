@@ -179,7 +179,7 @@ toString
 .
 equals
 (
-"java.lang.Object.Object"
+"java.lang.Object#Object()"
 )
 )
 {
@@ -232,7 +232,7 @@ toString
 .
 equals
 (
-"java.lang.Object.Object"
+"java.lang.Object#Object()"
 )
 )
 {
