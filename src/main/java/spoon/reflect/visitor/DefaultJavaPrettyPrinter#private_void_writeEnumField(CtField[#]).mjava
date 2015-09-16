@@ -110,13 +110,9 @@ write
 )
 ;
 }
-write
+scan
 (
 ctexpr
-.
-toString
-(
-)
 )
 ;
 }
