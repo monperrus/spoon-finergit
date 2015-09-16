@@ -40,6 +40,10 @@ peek
 element
 instanceof
 CtAssignment
+&&
+context
+.
+assigned
 )
 {
 va
@@ -110,6 +114,10 @@ peek
 element
 instanceof
 CtAssignment
+&&
+context
+.
+assigned
 )
 {
 va
@@ -321,6 +329,10 @@ peek
 element
 instanceof
 CtAssignment
+&&
+context
+.
+assigned
 )
 {
 va
