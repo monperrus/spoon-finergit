@@ -29,6 +29,10 @@ peek
 element
 instanceof
 CtAssignment
+&&
+context
+.
+assigned
 )
 {
 fieldAccess

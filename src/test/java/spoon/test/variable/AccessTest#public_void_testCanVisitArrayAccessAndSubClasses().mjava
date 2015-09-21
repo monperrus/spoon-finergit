@@ -76,7 +76,7 @@ element
 ;
 assertEquals
 (
-1
+2
 ,
 arraysRead
 .
@@ -221,7 +221,7 @@ element
 ;
 assertEquals
 (
-2
+3
 ,
 arraysAccess
 .

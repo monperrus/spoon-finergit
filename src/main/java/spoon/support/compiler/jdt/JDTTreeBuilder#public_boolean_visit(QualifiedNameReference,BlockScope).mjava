@@ -63,6 +63,10 @@ length
 ==
 0
 )
+&&
+context
+.
+assigned
 )
 {
 fa
@@ -549,6 +553,10 @@ otherBindings
 length
 ==
 0
+&&
+context
+.
+assigned
 )
 )
 {
@@ -973,6 +981,10 @@ peek
 element
 instanceof
 CtAssignment
+&&
+context
+.
+assigned
 )
 {
 va
