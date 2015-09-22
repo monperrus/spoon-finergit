@@ -13,15 +13,13 @@ start
 ;
 process
 (
-getFactory
-(
-)
+factory
 .
 Package
 (
 )
 .
-getAllRoots
+getRootPackage
 (
 )
 )

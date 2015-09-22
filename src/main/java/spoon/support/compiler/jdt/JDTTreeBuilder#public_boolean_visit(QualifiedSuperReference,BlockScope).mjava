@@ -53,13 +53,6 @@ createSuperAccess
 (
 )
 ;
-addVariableToSuperAccess
-(
-typeRefOfSuper
-,
-superAccess
-)
-;
 CtTypeAccess
 <
 Object
