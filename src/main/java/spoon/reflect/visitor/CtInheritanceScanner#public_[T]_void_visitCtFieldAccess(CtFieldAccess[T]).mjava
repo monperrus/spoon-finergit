@@ -17,11 +17,6 @@ visitCtVariableRead
 f
 )
 ;
-scanCtTargetedAccess
-(
-f
-)
-;
 scanCtTargetedExpression
 (
 f

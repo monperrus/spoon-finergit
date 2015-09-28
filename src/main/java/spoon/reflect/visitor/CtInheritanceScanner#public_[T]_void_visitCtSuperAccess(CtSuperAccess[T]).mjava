@@ -12,11 +12,6 @@ T
 f
 )
 {
-scanCtTargetedAccess
-(
-f
-)
-;
 visitCtVariableRead
 (
 f

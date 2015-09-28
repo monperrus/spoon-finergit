@@ -1,9 +1,0 @@
-/** 
- * @see CtNamedElement#getSimpleName()
- */
-@Deprecated
-String
-getName
-(
-)
-;
