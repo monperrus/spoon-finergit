@@ -20,7 +20,7 @@ launcher
 .
 setArgs
 (
-"--tabs --tabsize 42 --compliance 5 --verbose --with-imports -r --lines -o spooned2 -i src/main/java --encoding UTF-16"
+"--tabs --tabsize 42 --compliance 5 --with-imports -r --lines -o spooned2 -i src/main/java --encoding UTF-16"
 .
 split
 (
@@ -77,8 +77,6 @@ isPreserveLineNumbers
 )
 )
 ;
-Assert
-.
 assertEquals
 (
 42
@@ -90,8 +88,6 @@ getTabulationSize
 )
 )
 ;
-Assert
-.
 assertEquals
 (
 5
