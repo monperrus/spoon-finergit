@@ -111,6 +111,13 @@ ensureModifiableStatementsList
 (
 )
 ;
+statement
+.
+setParent
+(
+this
+)
+;
 this
 .
 statements
