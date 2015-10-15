@@ -1,0 +1,13 @@
+/** 
+ * Visits a circular reference.
+ */
+<
+T
+>
+void
+visitCtCircularTypeReference
+(
+CtCircularTypeReference
+reference
+)
+;

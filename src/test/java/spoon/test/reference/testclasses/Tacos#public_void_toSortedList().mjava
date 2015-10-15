@@ -1,0 +1,15 @@
+@SuppressWarnings({"unchecked","rawtypes"})
+public
+final
+void
+toSortedList
+(
+)
+{
+Comparator
+.
+naturalOrder
+(
+)
+;
+}
