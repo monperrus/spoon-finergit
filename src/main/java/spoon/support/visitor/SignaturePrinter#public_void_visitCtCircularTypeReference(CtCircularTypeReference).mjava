@@ -1,8 +1,5 @@
 @Override
 public
-<
-T
->
 void
 visitCtCircularTypeReference
 (

@@ -106,6 +106,12 @@ type
 null
 )
 {
+context
+.
+isLambdaParameterImplicitlyTyped
+=
+false
+;
 if
 (
 argument
@@ -164,6 +170,12 @@ type
 )
 ;
 }
+context
+.
+isLambdaParameterImplicitlyTyped
+=
+true
+;
 }
 context
 .

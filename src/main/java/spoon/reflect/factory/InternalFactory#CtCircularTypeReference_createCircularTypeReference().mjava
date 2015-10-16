@@ -1,9 +1,6 @@
 /** 
  * Creates a circular type reference.
  */
-<
-T
->
 CtCircularTypeReference
 createCircularTypeReference
 (

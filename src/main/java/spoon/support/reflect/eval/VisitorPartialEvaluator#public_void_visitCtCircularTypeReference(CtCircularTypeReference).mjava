@@ -1,8 +1,5 @@
 @Override
 public
-<
-T
->
 void
 visitCtCircularTypeReference
 (
@@ -10,4 +7,11 @@ CtCircularTypeReference
 reference
 )
 {
+throw
+new
+RuntimeException
+(
+"Unknow Element"
+)
+;
 }
