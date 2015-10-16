@@ -12,6 +12,13 @@ ref
 {
 if
 (
+!
+(
+ref
+instanceof
+CtImplicitTypeReference
+)
+&&
 imports
 .
 containsKey

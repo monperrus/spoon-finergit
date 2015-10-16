@@ -1,13 +1,10 @@
-/** 
- * Visits a circular reference.
- */
-<
-T
->
+@Override
+public
 void
 visitCtCircularTypeReference
 (
 CtCircularTypeReference
 reference
 )
-;
+{
+}

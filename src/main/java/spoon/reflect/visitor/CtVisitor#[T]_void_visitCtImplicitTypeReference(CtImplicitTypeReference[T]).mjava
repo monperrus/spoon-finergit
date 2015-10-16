@@ -1,0 +1,16 @@
+/** 
+ * Visits a reference to an implicit type.
+ */
+<
+T
+>
+void
+visitCtImplicitTypeReference
+(
+CtImplicitTypeReference
+<
+T
+>
+reference
+)
+;
