@@ -1,0 +1,16 @@
+/** 
+ * Visits a reference to an implicit array type.
+ */
+<
+T
+>
+void
+visitCtImplicitArrayTypeReference
+(
+CtImplicitArrayTypeReference
+<
+T
+>
+reference
+)
+;

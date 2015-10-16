@@ -1,0 +1,14 @@
+/** 
+ * Creates an implicit array type reference.
+ */
+<
+T
+>
+CtImplicitArrayTypeReference
+<
+T
+>
+createImplicitArrayTypeReference
+(
+)
+;
