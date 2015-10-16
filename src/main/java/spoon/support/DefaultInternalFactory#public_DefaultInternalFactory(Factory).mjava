@@ -1,0 +1,12 @@
+public
+DefaultInternalFactory
+(
+Factory
+factory
+)
+{
+mainFactory
+=
+factory
+;
+}
