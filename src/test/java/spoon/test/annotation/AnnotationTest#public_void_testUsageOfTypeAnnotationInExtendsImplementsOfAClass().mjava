@@ -357,6 +357,14 @@ lineSeparator
 (
 )
 +
+"    ;"
++
+System
+.
+lineSeparator
+(
+)
++
 "}"
 ;
 assertEquals
