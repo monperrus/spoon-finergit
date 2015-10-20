@@ -26,6 +26,12 @@ actualReceiverType
 isAnnotationType
 (
 )
+||
+messageSend
+.
+binding
+instanceof
+MethodBinding
 )
 {
 CtInvocation
