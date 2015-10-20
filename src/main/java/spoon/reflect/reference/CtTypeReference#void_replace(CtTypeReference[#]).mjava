@@ -1,0 +1,13 @@
+/** 
+ * Replaces a type reference by another one.
+ */
+void
+replace
+(
+CtTypeReference
+<
+?
+>
+reference
+)
+;

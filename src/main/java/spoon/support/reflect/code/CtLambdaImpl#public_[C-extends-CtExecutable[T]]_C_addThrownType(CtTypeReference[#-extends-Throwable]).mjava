@@ -45,6 +45,13 @@ Throwable
 )
 ;
 }
+throwType
+.
+setParent
+(
+this
+)
+;
 thrownTypes
 .
 add

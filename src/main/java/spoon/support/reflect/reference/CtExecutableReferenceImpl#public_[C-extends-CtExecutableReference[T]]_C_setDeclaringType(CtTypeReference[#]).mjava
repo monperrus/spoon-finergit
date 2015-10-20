@@ -18,6 +18,13 @@ CtTypeReference
 declaringType
 )
 {
+declaringType
+.
+setParent
+(
+this
+)
+;
 this
 .
 declaringType

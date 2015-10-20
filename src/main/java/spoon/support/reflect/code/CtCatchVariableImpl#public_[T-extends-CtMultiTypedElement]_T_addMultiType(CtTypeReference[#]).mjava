@@ -41,6 +41,13 @@ CATCH_VARIABLE_MULTI_TYPES_CONTAINER_DEFAULT_CAPACITY
 )
 ;
 }
+ref
+.
+setParent
+(
+this
+)
+;
 types
 .
 add

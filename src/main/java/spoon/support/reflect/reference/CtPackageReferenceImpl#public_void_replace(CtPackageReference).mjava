@@ -1,0 +1,17 @@
+@Override
+public
+void
+replace
+(
+CtPackageReference
+packageReference
+)
+{
+super
+.
+replace
+(
+packageReference
+)
+;
+}

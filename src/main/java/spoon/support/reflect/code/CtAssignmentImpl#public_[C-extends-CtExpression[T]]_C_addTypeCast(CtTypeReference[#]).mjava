@@ -44,6 +44,13 @@ CASTS_CONTAINER_DEFAULT_CAPACITY
 )
 ;
 }
+type
+.
+setParent
+(
+this
+)
+;
 typeCasts
 .
 add

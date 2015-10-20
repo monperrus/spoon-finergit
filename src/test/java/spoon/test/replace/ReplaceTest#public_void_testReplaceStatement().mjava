@@ -19,7 +19,7 @@ Package
 .
 get
 (
-"spoon.test.replace"
+"spoon.test.replace.testclasses"
 )
 .
 getType
