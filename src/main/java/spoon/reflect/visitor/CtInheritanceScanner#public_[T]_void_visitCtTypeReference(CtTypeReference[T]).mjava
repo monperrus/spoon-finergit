@@ -32,6 +32,11 @@ scanCtTypeAnnotableReference
 e
 )
 ;
+scanCtElement
+(
+e
+)
+;
 scanCtVisitable
 (
 e

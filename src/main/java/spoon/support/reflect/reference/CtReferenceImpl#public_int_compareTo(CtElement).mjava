@@ -3,7 +3,7 @@ public
 int
 compareTo
 (
-CtReference
+CtElement
 o
 )
 {

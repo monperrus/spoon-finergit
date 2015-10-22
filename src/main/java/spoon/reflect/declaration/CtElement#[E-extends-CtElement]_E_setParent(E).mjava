@@ -5,12 +5,12 @@
 <
 E
 extends
-CtReference
+CtElement
 >
 E
 setParent
 (
-Object
+E
 parent
 )
 ;

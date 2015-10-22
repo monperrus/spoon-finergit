@@ -41,10 +41,6 @@ if
 object
 instanceof
 CtElement
-||
-object
-instanceof
-CtReference
 )
 )
 {

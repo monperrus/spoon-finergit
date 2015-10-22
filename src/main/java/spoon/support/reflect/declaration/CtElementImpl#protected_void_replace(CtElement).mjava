@@ -2,8 +2,8 @@ protected
 void
 replace
 (
-CtReference
-reference
+CtElement
+element
 )
 {
 try
@@ -12,7 +12,7 @@ replaceIn
 (
 this
 ,
-reference
+element
 ,
 getParent
 (

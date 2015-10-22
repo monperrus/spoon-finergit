@@ -1,5 +1,5 @@
 /** 
- * Gets the parent of current element, which can be null. Elements that are manually added to the tree may have a null parent if not manually set. Note that the parents of an entire tree of elements can be automatically set by using the  {@link #updateAllParentsBelow()}.
+ * Gets the parent of current reference.
  * @throws ParentNotInitializedException when the parent of this element is not initialized
  */
 CtElement
