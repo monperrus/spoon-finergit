@@ -1,0 +1,14 @@
+public
+boolean
+isMySubclass
+(
+Object
+o
+)
+{
+return
+o
+instanceof
+AClass
+;
+}
