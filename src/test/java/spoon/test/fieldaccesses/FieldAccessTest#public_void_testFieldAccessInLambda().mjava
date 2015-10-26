@@ -119,9 +119,21 @@ getActualClass
 String
 expectedLambda
 =
-"() -> {\n"
+"() -> {"
 +
-"    spoon.test.fieldaccesses.MyClass.LOG.info(\"bla\");\n"
+System
+.
+lineSeparator
+(
+)
++
+"    spoon.test.fieldaccesses.MyClass.LOG.info(\"bla\");"
++
+System
+.
+lineSeparator
+(
+)
 +
 "}"
 ;
