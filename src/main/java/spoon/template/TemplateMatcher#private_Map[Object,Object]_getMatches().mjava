@@ -1,7 +1,7 @@
 /** 
  * Returns all the matches in a map where the keys are the corresponding template parameters. The  {@link #match(CtElement,CtElement)} method musthave been called before.
  */
-public
+private
 Map
 <
 Object
