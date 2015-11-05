@@ -1,6 +1,8 @@
 /** 
  * Processes the Java model with the given processors.
+ * @see #instantiateAndProcess(List)
  */
+@Deprecated
 void
 process
 (

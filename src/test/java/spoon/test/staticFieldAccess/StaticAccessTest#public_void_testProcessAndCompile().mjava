@@ -9,7 +9,7 @@ Exception
 {
 compiler
 .
-process
+instantiateAndProcess
 (
 Arrays
 .
