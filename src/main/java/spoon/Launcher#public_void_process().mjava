@@ -16,7 +16,7 @@ currentTimeMillis
 ;
 modelBuilder
 .
-process
+instantiateAndProcess
 (
 getProcessorTypes
 (
