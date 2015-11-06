@@ -5,7 +5,7 @@
  * @return true if matches
  * @see #getMatches()
  */
-public
+private
 boolean
 match
 (
