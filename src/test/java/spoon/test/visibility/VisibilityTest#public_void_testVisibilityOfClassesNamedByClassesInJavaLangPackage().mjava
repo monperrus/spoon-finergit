@@ -236,7 +236,9 @@ getActualClass
 )
 )
 ;
-canBeBuild
+TestUtils
+.
+canBeBuilt
 (
 new
 File

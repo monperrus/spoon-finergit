@@ -1,0 +1,22 @@
+/** 
+ * Pops segments off of segmentInfos stack down to minSegment, merges them, and pushes the merged index onto the top of the segmentInfos stack. 
+ */
+private
+final
+void
+mergeSegments
+(
+int
+minSegment
+)
+throws
+IOException
+{
+mergeSegments
+(
+minSegment
+,
+true
+)
+;
+}

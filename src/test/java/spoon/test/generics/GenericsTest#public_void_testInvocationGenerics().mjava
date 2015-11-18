@@ -291,7 +291,7 @@ toString
 ;
 TestUtils
 .
-canBeBuild
+canBeBuilt
 (
 "./target/spooned/spoon/test/generics/testclasses/"
 ,
