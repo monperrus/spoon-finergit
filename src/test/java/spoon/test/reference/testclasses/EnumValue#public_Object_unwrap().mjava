@@ -1,0 +1,12 @@
+public
+Object
+unwrap
+(
+)
+{
+return
+asEnum
+(
+)
+;
+}
