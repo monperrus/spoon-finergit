@@ -67,8 +67,6 @@ assertNotNull
 method
 )
 ;
-Assert
-.
 assertEquals
 (
 "Hello World"

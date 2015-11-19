@@ -68,8 +68,6 @@ getActualMethod
 (
 )
 ;
-Assert
-.
 assertEquals
 (
 "myMethod"
@@ -81,8 +79,6 @@ getName
 )
 )
 ;
-Assert
-.
 assertEquals
 (
 0

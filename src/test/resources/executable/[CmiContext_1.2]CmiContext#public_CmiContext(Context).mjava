@@ -1,0 +1,17 @@
+/** 
+ * Constructs an CMI Wrapper context
+ * @param cmiContext the inital CMI context
+ */
+public
+CmiContext
+(
+Context
+cmiContext
+)
+{
+super
+(
+cmiContext
+)
+;
+}

@@ -1,0 +1,31 @@
+/** 
+ * If this object is a reference wrapper return the reference If this object is a resource wrapper return the resource
+ * @param o the object to resolve
+ * @param name name of the object to unwrap
+ * @return the unwrapped object
+ * @throws NamingException if the object cannot be unwraped
+ */
+protected
+Object
+unwrapObject
+(
+Object
+o
+,
+Name
+name
+)
+throws
+NamingException
+{
+return
+super
+.
+defaultUnwrapObject
+(
+o
+,
+name
+)
+;
+}
