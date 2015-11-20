@@ -1,7 +1,7 @@
 @Test
 public
 void
-testImportOfInvocationOfPrivateClass
+testImportOfInvocationOfStaticMethod
 (
 )
 throws
@@ -13,9 +13,9 @@ factory
 =
 getFactory
 (
-"./src/test/java/spoon/test/imports/testclasses/internal2/Chimichanga.java"
+"./src/test/java/spoon/test/imports/testclasses/internal2/Menudo.java"
 ,
-"./src/test/java/spoon/test/imports/testclasses/Mole.java"
+"./src/test/java/spoon/test/imports/testclasses/Pozole.java"
 )
 ;
 ImportScanner
@@ -47,7 +47,7 @@ Class
 .
 get
 (
-Mole
+Pozole
 .
 class
 )
@@ -66,7 +66,7 @@ size
 ;
 assertEquals
 (
-"spoon.test.imports.testclasses.internal2.Chimichanga"
+"spoon.test.imports.testclasses.internal2.Menudo"
 ,
 imports
 .
