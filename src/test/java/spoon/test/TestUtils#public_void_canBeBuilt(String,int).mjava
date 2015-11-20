@@ -1,7 +1,7 @@
 public
 static
 void
-canBeBuild
+canBeBuilt
 (
 String
 outputDirectory
@@ -10,15 +10,13 @@ int
 complianceLevel
 )
 {
-canBeBuild
-(
-new
-File
+canBeBuilt
 (
 outputDirectory
-)
 ,
 complianceLevel
+,
+false
 )
 ;
 }

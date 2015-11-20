@@ -97,7 +97,9 @@ toString
 )
 )
 ;
-canBeBuild
+TestUtils
+.
+canBeBuilt
 (
 "./target/spooned/spoon/test/constructor/testclasses/"
 ,

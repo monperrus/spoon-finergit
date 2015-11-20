@@ -9,7 +9,7 @@ Exception
 {
 TestUtils
 .
-canBeBuild
+canBeBuilt
 (
 TestUtils
 .
