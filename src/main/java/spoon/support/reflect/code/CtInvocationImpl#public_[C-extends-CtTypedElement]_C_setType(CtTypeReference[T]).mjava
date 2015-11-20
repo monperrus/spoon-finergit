@@ -1,0 +1,25 @@
+@Override
+public
+<
+C
+extends
+CtTypedElement
+>
+C
+setType
+(
+CtTypeReference
+<
+T
+>
+type
+)
+{
+throw
+new
+UnsupportedOperationException
+(
+"Uses getExecutable().setType(CtTypeReference<T>)"
+)
+;
+}

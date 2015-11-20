@@ -34,17 +34,6 @@ createInvocation
 ;
 i
 .
-setType
-(
-invocation
-.
-getType
-(
-)
-)
-;
-i
-.
 setExecutable
 (
 invocation
