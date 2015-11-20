@@ -70,8 +70,6 @@ assertNotNull
 constructor
 )
 ;
-Assert
-.
 assertEquals
 (
 "Hello World"

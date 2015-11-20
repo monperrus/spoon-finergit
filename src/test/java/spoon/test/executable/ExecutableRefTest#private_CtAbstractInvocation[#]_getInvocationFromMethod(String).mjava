@@ -69,8 +69,6 @@ getMethodsByName
 methodName
 )
 ;
-Assert
-.
 assertEquals
 (
 1
@@ -132,8 +130,6 @@ getStatements
 (
 )
 ;
-Assert
-.
 assertEquals
 (
 1
