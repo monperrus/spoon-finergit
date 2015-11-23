@@ -49,15 +49,6 @@ scan
 (
 invocation
 .
-getExecutable
-(
-)
-)
-;
-scan
-(
-invocation
-.
 getArguments
 (
 )
