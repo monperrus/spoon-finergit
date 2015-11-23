@@ -1,0 +1,12 @@
+public
+int
+m2
+(
+int
+parm1
+)
+{
+return
+parm1
+;
+}
