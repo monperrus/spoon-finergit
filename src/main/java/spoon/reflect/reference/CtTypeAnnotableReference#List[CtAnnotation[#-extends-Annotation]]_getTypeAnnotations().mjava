@@ -1,6 +1,7 @@
 /** 
  * Returns the type annotations that are present on this type. For sake of encapsulation, the returned list is unmodifiable.
  */
+@Deprecated
 List
 <
 CtAnnotation

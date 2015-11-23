@@ -19,11 +19,10 @@ Annotation
 annotations
 )
 {
-this
-.
+setAnnotations
+(
 annotations
-=
-annotations
+)
 ;
 return
 (

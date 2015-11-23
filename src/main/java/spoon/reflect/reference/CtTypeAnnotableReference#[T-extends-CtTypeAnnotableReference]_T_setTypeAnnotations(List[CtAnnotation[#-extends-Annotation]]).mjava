@@ -1,6 +1,7 @@
 /** 
  * Sets the type annotations for this type.
  */
+@Deprecated
 <
 T
 extends

@@ -61,7 +61,7 @@ getSimpleName
 if
 (
 !
-getTypeAnnotations
+getAnnotations
 (
 )
 .
@@ -94,7 +94,7 @@ Annotation
 >
 ctAnnotation
 :
-getTypeAnnotations
+getAnnotations
 (
 )
 )

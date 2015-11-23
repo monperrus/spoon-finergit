@@ -12,15 +12,7 @@ annotation
 )
 {
 return
-annotation
-!=
-null
-&&
-this
-.
-annotations
-.
-remove
+removeAnnotation
 (
 annotation
 )
