@@ -29,7 +29,7 @@ getDeclaringType
 )
 )
 ;
-scanReferences
+scan
 (
 ref
 .
@@ -38,7 +38,7 @@ getActualTypeArguments
 )
 )
 ;
-scanReferences
+scan
 (
 ref
 .

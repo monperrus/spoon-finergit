@@ -35,6 +35,15 @@ scan
 (
 ctEnum
 .
+getSuperInterfaces
+(
+)
+)
+;
+scan
+(
+ctEnum
+.
 getFields
 (
 )

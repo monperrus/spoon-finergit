@@ -20,7 +20,7 @@ getAnnotations
 )
 )
 ;
-scanReferences
+scan
 (
 typeParameter
 .

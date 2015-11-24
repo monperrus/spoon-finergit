@@ -31,15 +31,6 @@ scan
 (
 ctConstructorCall
 .
-getType
-(
-)
-)
-;
-scanReferences
-(
-ctConstructorCall
-.
 getTypeCasts
 (
 )

@@ -51,7 +51,16 @@ getDeclaringType
 )
 ;
 }
-scanReferences
+scan
+(
+reference
+.
+getType
+(
+)
+)
+;
+scan
 (
 reference
 .

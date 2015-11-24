@@ -36,7 +36,7 @@ getAnnotations
 )
 )
 ;
-scanReferences
+scan
 (
 f
 .

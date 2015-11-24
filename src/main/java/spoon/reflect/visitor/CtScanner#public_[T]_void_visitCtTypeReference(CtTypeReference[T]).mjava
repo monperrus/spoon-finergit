@@ -35,7 +35,7 @@ getDeclaringType
 )
 )
 ;
-scanReferences
+scan
 (
 reference
 .

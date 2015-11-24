@@ -128,7 +128,7 @@ getAll
 ;
 assertEquals
 (
-27
+30
 ,
 processor
 .
