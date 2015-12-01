@@ -1,0 +1,17 @@
+/** 
+ * Returns an instance of a <code>TextUtililities</code> class on which text calculations can be performed. Clients may override to customize.
+ * @return the <code>TextUtililities</code> instance
+ * @since 3.4
+ */
+protected
+TextUtilities
+getTextUtilities
+(
+)
+{
+return
+TextUtilities
+.
+INSTANCE
+;
+}
