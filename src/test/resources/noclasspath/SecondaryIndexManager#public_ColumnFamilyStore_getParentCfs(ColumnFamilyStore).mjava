@@ -1,0 +1,35 @@
+/** 
+ * Returns the parent of the specified  {@link ColumnFamilyStore}.
+ * @param cfs the <code>ColumnFamilyStore</code>
+ * @return the parent of the specified <code>ColumnFamilyStore</code>
+ */
+public
+static
+ColumnFamilyStore
+getParentCfs
+(
+ColumnFamilyStore
+cfs
+)
+{
+String
+parentCfs
+=
+getParentCfsName
+(
+cfs
+.
+name
+)
+;
+return
+cfs
+.
+keyspace
+.
+getColumnFamilyStore
+(
+parentCfs
+)
+;
+}

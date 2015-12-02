@@ -1,0 +1,34 @@
+/** 
+ * Returns the parent name of the specified  {@link ColumnFamilyStore}.
+ * @param cfName the <code>ColumnFamilyStore</code> name
+ * @return the parent name of the specified <code>ColumnFamilyStore</code>
+ */
+public
+static
+String
+getParentCfsName
+(
+String
+cfName
+)
+{
+assert
+isIndexColumnFamily
+(
+cfName
+)
+:
+;
+return
+StringUtils
+.
+substringBefore
+(
+cfName
+,
+Directories
+.
+SECONDARY_INDEX_NAME_SEPARATOR
+)
+;
+}

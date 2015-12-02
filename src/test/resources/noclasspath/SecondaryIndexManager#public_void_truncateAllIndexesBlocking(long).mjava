@@ -1,0 +1,37 @@
+/** 
+ * Truncate all indexes
+ */
+public
+void
+truncateAllIndexesBlocking
+(
+final
+long
+truncatedAt
+)
+{
+executeAllBlocking
+(
+indexes
+.
+values
+(
+)
+.
+stream
+(
+)
+,
+(
+index
+)
+->
+index
+.
+getTruncateTask
+(
+truncatedAt
+)
+)
+;
+}

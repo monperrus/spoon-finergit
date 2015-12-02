@@ -1,0 +1,42 @@
+/** 
+ * IndexRegistry methods
+ */
+public
+void
+registerIndex
+(
+Index
+index
+)
+{
+indexes
+.
+put
+(
+index
+.
+getIndexMetadata
+(
+)
+.
+name
+,
+index
+)
+;
+logger
+.
+trace
+(
+"Registered index {}"
+,
+index
+.
+getIndexMetadata
+(
+)
+.
+name
+)
+;
+}

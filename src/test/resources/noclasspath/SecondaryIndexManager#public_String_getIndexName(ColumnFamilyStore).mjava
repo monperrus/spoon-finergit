@@ -1,0 +1,23 @@
+/** 
+ * Returns the index name
+ * @param cfName the <code>ColumnFamilyStore</code> name
+ * @return the index name
+ */
+public
+static
+String
+getIndexName
+(
+ColumnFamilyStore
+cfs
+)
+{
+return
+getIndexName
+(
+cfs
+.
+name
+)
+;
+}

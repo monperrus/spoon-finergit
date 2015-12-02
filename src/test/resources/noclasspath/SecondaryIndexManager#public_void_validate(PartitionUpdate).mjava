@@ -1,0 +1,54 @@
+/** 
+ * Called at write time to ensure that values present in the update are valid according to the rules of all registered indexes which will process it. The partition key as well as the clustering and cell values for each row in the update may be checked by index implementations
+ * @param update PartitionUpdate containing the values to be validated by registered Index implementations
+ * @throws InvalidRequestException
+ */
+public
+void
+validate
+(
+PartitionUpdate
+update
+)
+throws
+InvalidRequestException
+{
+indexes
+.
+values
+(
+)
+.
+stream
+(
+)
+.
+filter
+(
+i
+->
+i
+.
+indexes
+(
+update
+.
+columns
+(
+)
+)
+)
+.
+forEach
+(
+i
+->
+i
+.
+validate
+(
+update
+)
+)
+;
+}
