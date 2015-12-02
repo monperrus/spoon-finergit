@@ -175,6 +175,14 @@ allocationExpression
 type
 !=
 null
+&&
+allocationExpression
+.
+type
+.
+resolvedType
+!=
+null
 )
 {
 final

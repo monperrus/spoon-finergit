@@ -1,0 +1,14 @@
+public
+SecondaryIndexManager
+(
+ColumnFamilyStore
+baseCfs
+)
+{
+this
+.
+baseCfs
+=
+baseCfs
+;
+}

@@ -1,0 +1,17 @@
+public
+Index
+getIndexByName
+(
+String
+indexName
+)
+{
+return
+indexes
+.
+get
+(
+indexName
+)
+;
+}

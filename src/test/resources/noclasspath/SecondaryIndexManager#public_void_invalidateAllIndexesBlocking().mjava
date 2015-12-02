@@ -1,0 +1,31 @@
+/** 
+ * Remove all indexes
+ */
+public
+void
+invalidateAllIndexesBlocking
+(
+)
+{
+markAllIndexesRemoved
+(
+)
+;
+executeAllBlocking
+(
+indexes
+.
+values
+(
+)
+.
+stream
+(
+)
+,
+Index
+::
+getInvalidateTask
+)
+;
+}

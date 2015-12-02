@@ -1,0 +1,21 @@
+/** 
+ * Called when dropping a Table
+ */
+public
+void
+markAllIndexesRemoved
+(
+)
+{
+getBuiltIndexNames
+(
+)
+.
+forEach
+(
+this
+::
+markIndexRemoved
+)
+;
+}

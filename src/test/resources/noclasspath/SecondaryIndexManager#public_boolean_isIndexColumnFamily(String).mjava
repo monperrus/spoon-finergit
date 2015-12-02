@@ -1,0 +1,25 @@
+/** 
+ * Checks if the specified  {@link ColumnFamilyStore} is the one secondary index.
+ * @param cfs the name of the <code>ColumnFamilyStore</code> to check.
+ * @return <code>true</code> if the specified <code>ColumnFamilyStore</code> is a secondary index,<code>false</code> otherwise.
+ */
+public
+static
+boolean
+isIndexColumnFamily
+(
+String
+cfName
+)
+{
+return
+cfName
+.
+contains
+(
+Directories
+.
+SECONDARY_INDEX_NAME_SEPARATOR
+)
+;
+}

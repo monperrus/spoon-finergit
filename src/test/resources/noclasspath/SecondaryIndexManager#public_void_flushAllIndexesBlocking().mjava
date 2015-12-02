@@ -1,0 +1,24 @@
+/** 
+ * Perform a blocking flush all indexes
+ */
+public
+void
+flushAllIndexesBlocking
+(
+)
+{
+flushIndexesBlocking
+(
+ImmutableSet
+.
+copyOf
+(
+indexes
+.
+values
+(
+)
+)
+)
+;
+}

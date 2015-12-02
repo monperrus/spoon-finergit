@@ -1,0 +1,41 @@
+/** 
+ * Adds and builds a index
+ * @param indexDef the IndexMetadata describing the index
+ */
+public
+synchronized
+Future
+<
+?
+>
+addIndex
+(
+IndexMetadata
+indexDef
+)
+{
+if
+(
+indexes
+.
+containsKey
+(
+indexDef
+.
+name
+)
+)
+return
+reloadIndex
+(
+indexDef
+)
+;
+else
+return
+createIndex
+(
+indexDef
+)
+;
+}

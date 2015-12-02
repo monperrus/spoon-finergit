@@ -1,0 +1,18 @@
+/** 
+ * @return if there are ANY indexes registered for this table
+ */
+public
+boolean
+hasIndexes
+(
+)
+{
+return
+!
+indexes
+.
+isEmpty
+(
+)
+;
+}

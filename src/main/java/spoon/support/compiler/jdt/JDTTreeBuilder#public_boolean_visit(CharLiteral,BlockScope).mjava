@@ -26,6 +26,12 @@ createLiteral
 (
 )
 ;
+charLiteral
+.
+computeConstant
+(
+)
+;
 l
 .
 setValue

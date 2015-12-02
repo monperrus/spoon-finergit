@@ -1,0 +1,34 @@
+/** 
+ * Returns the index name
+ * @param cfName the <code>ColumnFamilyStore</code> name
+ * @return the index name
+ */
+public
+static
+String
+getIndexName
+(
+String
+cfName
+)
+{
+assert
+isIndexColumnFamily
+(
+cfName
+)
+:
+;
+return
+StringUtils
+.
+substringAfter
+(
+cfName
+,
+Directories
+.
+SECONDARY_INDEX_NAME_SEPARATOR
+)
+;
+}
