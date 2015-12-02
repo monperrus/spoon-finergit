@@ -4,13 +4,13 @@ public
 void
 scan
 (
-CtReference
-reference
+CtElement
+element
 )
 {
 if
 (
-reference
+element
 ==
 null
 )
@@ -28,7 +28,7 @@ getType
 .
 isAssignableFrom
 (
-reference
+element
 .
 getClass
 (
@@ -45,7 +45,7 @@ matches
 (
 T
 )
-reference
+element
 )
 )
 {
@@ -56,7 +56,7 @@ add
 (
 T
 )
-reference
+element
 )
 ;
 }
@@ -65,7 +65,7 @@ super
 .
 scan
 (
-reference
+element
 )
 ;
 }

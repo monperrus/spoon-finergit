@@ -41,7 +41,7 @@ getType
 )
 )
 ;
-scanReferences
+scan
 (
 assignment
 .

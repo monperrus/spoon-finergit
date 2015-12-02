@@ -44,7 +44,7 @@ getType
 )
 )
 ;
-scanReferences
+scan
 (
 arrayAccess
 .

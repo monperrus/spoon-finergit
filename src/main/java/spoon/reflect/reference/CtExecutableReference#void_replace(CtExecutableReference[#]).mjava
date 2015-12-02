@@ -1,0 +1,13 @@
+/** 
+ * Replaces an executable reference by another one.
+ */
+void
+replace
+(
+CtExecutableReference
+<
+?
+>
+reference
+)
+;

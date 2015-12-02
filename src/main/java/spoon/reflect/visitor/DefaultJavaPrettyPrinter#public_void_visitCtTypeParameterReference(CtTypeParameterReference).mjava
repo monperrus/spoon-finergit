@@ -6,7 +6,7 @@ CtTypeParameterReference
 ref
 )
 {
-printTypeAnnotations
+writeAnnotations
 (
 ref
 )

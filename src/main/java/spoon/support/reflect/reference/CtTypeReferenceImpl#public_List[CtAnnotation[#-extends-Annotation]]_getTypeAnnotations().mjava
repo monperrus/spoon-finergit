@@ -17,7 +17,9 @@ Collections
 .
 unmodifiableList
 (
-annotations
+getAnnotations
+(
+)
 )
 ;
 }

@@ -27,7 +27,7 @@ getType
 )
 )
 ;
-scanReferences
+scan
 (
 thisAccess
 .

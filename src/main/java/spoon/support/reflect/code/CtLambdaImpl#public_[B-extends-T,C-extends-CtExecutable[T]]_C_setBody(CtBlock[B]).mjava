@@ -37,6 +37,13 @@ SpoonException
 )
 ;
 }
+if
+(
+body
+!=
+null
+)
+{
 body
 .
 setParent
@@ -44,6 +51,7 @@ setParent
 this
 )
 ;
+}
 this
 .
 body

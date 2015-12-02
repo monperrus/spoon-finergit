@@ -27,7 +27,7 @@ getAnnotations
 )
 )
 ;
-scanReferences
+scan
 (
 invocation
 .

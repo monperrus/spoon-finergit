@@ -1,3 +1,4 @@
+@Override
 public
 <
 E
@@ -7,15 +8,15 @@ CtElement
 E
 setParent
 (
-CtElement
-parentElement
+E
+parent
 )
 {
 this
 .
 parent
 =
-parentElement
+parent
 ;
 return
 (

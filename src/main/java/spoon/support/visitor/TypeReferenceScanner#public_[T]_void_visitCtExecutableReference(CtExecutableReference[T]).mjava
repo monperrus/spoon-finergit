@@ -18,16 +18,7 @@ enterReference
 reference
 )
 ;
-scanReferences
-(
-reference
-.
-getActualTypeArguments
-(
-)
-)
-;
-scanReferences
+scan
 (
 reference
 .

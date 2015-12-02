@@ -35,7 +35,7 @@ getParameters
 )
 )
 ;
-scanReferences
+scan
 (
 c
 .
@@ -44,7 +44,7 @@ getThrownTypes
 )
 )
 ;
-scanReferences
+scan
 (
 c
 .

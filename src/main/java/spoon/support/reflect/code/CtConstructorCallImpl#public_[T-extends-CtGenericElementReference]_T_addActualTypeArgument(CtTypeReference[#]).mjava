@@ -41,6 +41,13 @@ CONSTRUCTOR_CALL_TYPE_PARAMETERS_CONTAINER_DEFAULT_CAPACITY
 )
 ;
 }
+actualTypeArgument
+.
+setParent
+(
+this
+)
+;
 actualTypeArguments
 .
 add

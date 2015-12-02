@@ -1,6 +1,7 @@
 @GlobalAnnotation
 public
-void
+@TypeAnnotation
+Void
 m
 (
 )
@@ -14,5 +15,8 @@ T
 >
 (
 )
+;
+return
+null
 ;
 }

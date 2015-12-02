@@ -1,0 +1,16 @@
+/** 
+ * Manually sets the parent element of the current element.
+ * @param parent parent reference.
+ */
+<
+E
+extends
+CtElement
+>
+E
+setParent
+(
+E
+parent
+)
+;

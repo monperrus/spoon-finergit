@@ -45,6 +45,13 @@ CtTypeReference
 )
 ;
 }
+interfac
+.
+setParent
+(
+this
+)
+;
 interfaces
 .
 add

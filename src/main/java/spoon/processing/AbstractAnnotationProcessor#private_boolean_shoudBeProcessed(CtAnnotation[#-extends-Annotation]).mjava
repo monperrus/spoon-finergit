@@ -1,4 +1,4 @@
-protected
+private
 boolean
 shoudBeProcessed
 (

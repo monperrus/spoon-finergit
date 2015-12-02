@@ -11,6 +11,11 @@ scanCtReference
 e
 )
 ;
+scanCtElement
+(
+e
+)
+;
 scanCtVisitable
 (
 e

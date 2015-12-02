@@ -141,6 +141,24 @@ getActualClass
 ;
 assertEquals
 (
+CtAnnotatedElementType
+.
+TYPE_USE
+,
+typeAnnotations
+.
+get
+(
+0
+)
+.
+getAnnotatedElementType
+(
+)
+)
+;
+assertEquals
+(
 "Parameter type with an type annotation must be well printed"
 ,
 "java.lang.@spoon.test.annotation.testclasses.TypeAnnotation String param"

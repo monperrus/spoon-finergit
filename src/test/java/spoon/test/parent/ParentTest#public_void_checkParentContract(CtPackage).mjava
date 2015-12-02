@@ -96,6 +96,16 @@ return
 }
 if
 (
+e
+instanceof
+CtReference
+)
+{
+return
+;
+}
+if
+(
 !
 elementStack
 .

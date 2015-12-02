@@ -16,7 +16,9 @@ return
 (
 CtPackage
 )
-parent
+getParent
+(
+)
 ;
 }
 else
