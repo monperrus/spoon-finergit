@@ -1,0 +1,17 @@
+/** 
+ * Initialize NIS suppression
+ */
+public
+static
+void
+setup_NISuppression
+(
+)
+{
+NIS
+.
+init_ni_suppression
+(
+)
+;
+}

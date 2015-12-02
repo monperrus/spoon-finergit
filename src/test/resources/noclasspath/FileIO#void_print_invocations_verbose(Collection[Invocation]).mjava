@@ -1,0 +1,37 @@
+/** 
+ * Print all the invocations in the collection, in order. 
+ */
+static
+void
+print_invocations_verbose
+(
+Collection
+<
+Invocation
+>
+invocations
+)
+{
+for
+(
+Invocation
+invok
+:
+invocations
+)
+{
+System
+.
+out
+.
+println
+(
+invok
+.
+format
+(
+)
+)
+;
+}
+}

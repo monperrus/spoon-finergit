@@ -1,0 +1,35 @@
+/** 
+ * Returns whether the line is the start of a ppt declaration 
+ */
+private
+static
+boolean
+is_declaration_header
+(
+String
+line
+)
+{
+if
+(
+new_decl_format
+)
+return
+(
+line
+.
+startsWith
+(
+"ppt "
+)
+)
+;
+else
+return
+(
+line
+==
+declaration_header
+)
+;
+}

@@ -1,0 +1,13 @@
+private
+Daikon
+(
+)
+{
+throw
+new
+Error
+(
+"do not instantiate"
+)
+;
+}

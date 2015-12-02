@@ -1,0 +1,39 @@
+/** 
+ * Throws a DeclError if the scanner is not at end of line 
+ */
+public
+static
+void
+need_eol
+(
+ParseState
+state
+,
+Scanner
+scanner
+)
+throws
+DeclError
+{
+if
+(
+scanner
+.
+hasNext
+(
+)
+)
+decl_error
+(
+state
+,
+"'%s' found where end-of-line expected"
+,
+scanner
+.
+next
+(
+)
+)
+;
+}
