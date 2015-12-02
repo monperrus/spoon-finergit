@@ -1,0 +1,31 @@
+/** 
+ * Gets the ellipsis width.
+ * @param font the font to be used in the calculation
+ * @return the width of the ellipsis
+ * @since 3.4
+ */
+private
+int
+getEllipsisWidth
+(
+Font
+font
+)
+{
+return
+getTextUtilities
+(
+)
+.
+getStringExtents
+(
+TextFlow
+.
+ELLIPSIS
+,
+font
+)
+.
+width
+;
+}

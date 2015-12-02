@@ -1,0 +1,60 @@
+/** 
+ * Gets the average character width.
+ * @param fragment the supplied TextFragmentBox to use for calculation.if the length is 0 or if the width is or below 0, the average character width is taken from standard  font metrics.
+ * @param font     the font to use in case the TextFragmentBox conditions above are true.
+ * @return         the average character width
+ */
+protected
+float
+getAverageCharWidth
+(
+TextFragmentBox
+fragment
+,
+Font
+font
+)
+{
+if
+(
+fragment
+.
+getWidth
+(
+)
+>
+0
+&&
+fragment
+.
+length
+!=
+0
+)
+return
+fragment
+.
+getWidth
+(
+)
+/
+(
+float
+)
+fragment
+.
+length
+;
+return
+FigureUtilities
+.
+getFontMetrics
+(
+font
+)
+.
+getAverageCharWidth
+(
+)
+;
+}

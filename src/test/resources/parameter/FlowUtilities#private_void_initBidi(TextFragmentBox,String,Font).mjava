@@ -1,0 +1,53 @@
+/** 
+ * @param frag
+ * @param string
+ * @param font
+ * @since 3.1
+ */
+private
+static
+void
+initBidi
+(
+TextFragmentBox
+frag
+,
+String
+string
+,
+Font
+font
+)
+{
+if
+(
+frag
+.
+requiresBidi
+(
+)
+)
+{
+TextLayout
+textLayout
+=
+getTextLayout
+(
+)
+;
+textLayout
+.
+setFont
+(
+font
+)
+;
+textLayout
+.
+setText
+(
+string
+)
+;
+}
+}
