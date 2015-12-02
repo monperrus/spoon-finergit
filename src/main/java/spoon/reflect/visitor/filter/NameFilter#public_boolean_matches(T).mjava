@@ -6,6 +6,8 @@ T
 element
 )
 {
+try
+{
 return
 name
 .
@@ -18,4 +20,15 @@ getSimpleName
 )
 )
 ;
+}
+catch
+(
+UnsupportedOperationException
+e
+)
+{
+return
+false
+;
+}
 }

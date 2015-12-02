@@ -1,0 +1,21 @@
+@Override
+public
+List
+<
+CtParameter
+<
+?
+>
+>
+getParameters
+(
+)
+{
+throw
+new
+UnsupportedOperationException
+(
+"You can't have parameters in a anonymous executable"
+)
+;
+}

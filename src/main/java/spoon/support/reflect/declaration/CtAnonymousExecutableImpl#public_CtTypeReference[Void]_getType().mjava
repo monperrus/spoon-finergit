@@ -1,0 +1,18 @@
+@Override
+public
+CtTypeReference
+<
+Void
+>
+getType
+(
+)
+{
+throw
+new
+UnsupportedOperationException
+(
+"An anonymous executable isn't typed"
+)
+;
+}
