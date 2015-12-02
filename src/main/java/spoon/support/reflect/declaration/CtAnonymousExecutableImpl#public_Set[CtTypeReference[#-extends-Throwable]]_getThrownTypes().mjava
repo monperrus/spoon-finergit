@@ -1,0 +1,22 @@
+@Override
+public
+Set
+<
+CtTypeReference
+<
+?
+Throwable
+>
+>
+getThrownTypes
+(
+)
+{
+throw
+new
+UnsupportedOperationException
+(
+"You can't have throw types in a anonymous executable"
+)
+;
+}

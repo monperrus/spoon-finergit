@@ -1,0 +1,22 @@
+@Override
+public
+<
+T
+extends
+CtNamedElement
+>
+T
+setSimpleName
+(
+String
+simpleName
+)
+{
+throw
+new
+UnsupportedOperationException
+(
+"You can't have a name in a anonymous executable"
+)
+;
+}

@@ -1,0 +1,17 @@
+@Override
+public
+boolean
+removeParameter
+(
+CtParameter
+parameter
+)
+{
+throw
+new
+UnsupportedOperationException
+(
+"You can't have parameters in a anonymous executable"
+)
+;
+}
