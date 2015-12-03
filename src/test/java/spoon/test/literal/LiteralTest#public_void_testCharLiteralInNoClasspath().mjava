@@ -20,7 +20,7 @@ launcher
 .
 addInputResource
 (
-"./src/test/resources/noclasspath/"
+"./src/test/resources/noclasspath/SecondaryIndexManager.java"
 )
 ;
 launcher

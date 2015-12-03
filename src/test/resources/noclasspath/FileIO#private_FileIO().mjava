@@ -1,0 +1,15 @@
+/** 
+ * Nobody should ever instantiate a FileIO. 
+ */
+private
+FileIO
+(
+)
+{
+throw
+new
+Error
+(
+)
+;
+}

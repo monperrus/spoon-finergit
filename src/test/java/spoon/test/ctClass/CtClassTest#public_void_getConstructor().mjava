@@ -46,8 +46,6 @@ Foo
 class
 )
 ;
-Assert
-.
 assertEquals
 (
 3
@@ -95,8 +93,6 @@ getConstructor
 typeString
 )
 ;
-Assert
-.
 assertEquals
 (
 typeString
@@ -149,8 +145,6 @@ getConstructor
 typeStringArray
 )
 ;
-Assert
-.
 assertEquals
 (
 typeStringArray
@@ -203,8 +197,6 @@ getConstructor
 typeStringArrayArray
 )
 ;
-Assert
-.
 assertEquals
 (
 typeStringArrayArray

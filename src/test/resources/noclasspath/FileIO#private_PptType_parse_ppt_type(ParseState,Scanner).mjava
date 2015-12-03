@@ -1,0 +1,46 @@
+/** 
+ * Parses a ppt-type record and returns the type 
+ */
+private
+static
+PptType
+parse_ppt_type
+(
+ParseState
+state
+,
+Scanner
+scanner
+)
+throws
+DeclError
+{
+PptType
+ppt_type
+=
+parse_enum_val
+(
+state
+,
+scanner
+,
+PptType
+.
+class
+,
+"ppt type"
+)
+;
+need_eol
+(
+state
+,
+scanner
+)
+;
+return
+(
+ppt_type
+)
+;
+}
