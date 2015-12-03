@@ -1,0 +1,47 @@
+/** 
+ * Reconfigures the SelectorFigure's bounds if the scales have changed.
+ * @param scaleX The X scale
+ * @param scaleY The Y scale
+ * @see org.eclipse.draw2d.parts.Thumbnail#setScales(float,float)
+ */
+protected
+void
+setScales
+(
+float
+scaleX
+,
+float
+scaleY
+)
+{
+if
+(
+scaleX
+==
+getScaleX
+(
+)
+&&
+scaleY
+==
+getScaleY
+(
+)
+)
+return
+;
+super
+.
+setScales
+(
+scaleX
+,
+scaleY
+)
+;
+reconfigureSelectorBounds
+(
+)
+;
+}

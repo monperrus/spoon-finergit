@@ -1,0 +1,35 @@
+/** 
+ * Sets the Viewport that this ScrollableThumbnail will synch with.
+ * @param port The Viewport
+ */
+public
+void
+setViewport
+(
+Viewport
+port
+)
+{
+port
+.
+addPropertyChangeListener
+(
+Viewport
+.
+PROPERTY_VIEW_LOCATION
+,
+propListener
+)
+;
+port
+.
+addFigureListener
+(
+figureListener
+)
+;
+viewport
+=
+port
+;
+}

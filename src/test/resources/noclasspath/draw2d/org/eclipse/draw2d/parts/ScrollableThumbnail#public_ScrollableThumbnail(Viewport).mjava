@@ -1,0 +1,25 @@
+/** 
+ * Creates a new ScrollableThumbnail that synchs with the given Viewport.
+ * @param port The Viewport
+ */
+public
+ScrollableThumbnail
+(
+Viewport
+port
+)
+{
+super
+(
+)
+;
+setViewport
+(
+port
+)
+;
+initialize
+(
+)
+;
+}

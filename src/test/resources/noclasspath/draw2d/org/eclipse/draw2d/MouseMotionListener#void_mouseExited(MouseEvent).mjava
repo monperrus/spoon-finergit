@@ -1,0 +1,11 @@
+/** 
+ * Called when the mouse has exited the listened to object.
+ * @param me The MouseEvent object
+ */
+void
+mouseExited
+(
+MouseEvent
+me
+)
+;
