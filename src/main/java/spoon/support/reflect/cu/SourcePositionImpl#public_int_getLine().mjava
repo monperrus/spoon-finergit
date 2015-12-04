@@ -5,11 +5,6 @@ getLine
 )
 {
 return
-searchLineNumber
-(
-lineSeparatorPositions
-,
-sourceStart
-)
+line
 ;
 }
