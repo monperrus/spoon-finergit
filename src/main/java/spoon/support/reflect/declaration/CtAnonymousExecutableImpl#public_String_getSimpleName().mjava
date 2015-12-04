@@ -5,11 +5,7 @@ getSimpleName
 (
 )
 {
-throw
-new
-UnsupportedOperationException
-(
-"You can't have a name in a anonymous executable"
-)
+return
+""
 ;
 }

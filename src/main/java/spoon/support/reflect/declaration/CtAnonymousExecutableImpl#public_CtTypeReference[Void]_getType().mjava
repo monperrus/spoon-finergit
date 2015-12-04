@@ -8,11 +8,13 @@ getType
 (
 )
 {
-throw
-new
-UnsupportedOperationException
+return
+factory
+.
+Type
 (
-"An anonymous executable isn't typed"
 )
+.
+VOID_PRIMITIVE
 ;
 }
