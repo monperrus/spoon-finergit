@@ -1,0 +1,11 @@
+/** 
+ * Called when the mouse has entered the listened to object.
+ * @param me The MouseEvent object
+ */
+void
+mouseEntered
+(
+MouseEvent
+me
+)
+;

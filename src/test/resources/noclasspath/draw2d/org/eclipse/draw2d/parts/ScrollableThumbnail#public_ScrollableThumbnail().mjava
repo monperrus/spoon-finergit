@@ -1,0 +1,17 @@
+/** 
+ * Creates a new ScrollableThumbnail.
+ */
+public
+ScrollableThumbnail
+(
+)
+{
+super
+(
+)
+;
+initialize
+(
+)
+;
+}

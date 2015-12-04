@@ -1,0 +1,11 @@
+/** 
+ * Called when the mouse has moved over the listened to object while a button was pressed.
+ * @param me The MouseEvent object
+ */
+void
+mouseDragged
+(
+MouseEvent
+me
+)
+;
