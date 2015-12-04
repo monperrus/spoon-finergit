@@ -12,11 +12,9 @@ getThrownTypes
 (
 )
 {
-throw
-new
-UnsupportedOperationException
+return
+emptySet
 (
-"You can't have throw types in a anonymous executable"
 )
 ;
 }

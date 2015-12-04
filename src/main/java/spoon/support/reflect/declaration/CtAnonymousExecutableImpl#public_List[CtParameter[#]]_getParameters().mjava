@@ -11,11 +11,9 @@ getParameters
 (
 )
 {
-throw
-new
-UnsupportedOperationException
+return
+emptyList
 (
-"You can't have parameters in a anonymous executable"
 )
 ;
 }
