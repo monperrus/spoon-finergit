@@ -429,6 +429,13 @@ fieldValue
 instanceof
 CtElement
 )
+&&
+!
+(
+fieldValue
+instanceof
+CtReference
+)
 )
 {
 f

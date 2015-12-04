@@ -30,15 +30,6 @@ scan
 (
 invocation
 .
-getType
-(
-)
-)
-;
-scan
-(
-invocation
-.
 getTypeCasts
 (
 )

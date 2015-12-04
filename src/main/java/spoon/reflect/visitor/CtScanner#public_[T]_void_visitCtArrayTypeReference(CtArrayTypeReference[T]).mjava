@@ -12,7 +12,7 @@ T
 reference
 )
 {
-enterReference
+enter
 (
 reference
 )
@@ -53,7 +53,7 @@ getActualTypeArguments
 )
 )
 ;
-exitReference
+exit
 (
 reference
 )
