@@ -1,7 +1,7 @@
 private
 static
 void
-compile
+build
 (
 Factory
 f
@@ -12,8 +12,6 @@ CtType
 >
 w
 )
-throws
-SnippetCompilationError
 {
 String
 contents

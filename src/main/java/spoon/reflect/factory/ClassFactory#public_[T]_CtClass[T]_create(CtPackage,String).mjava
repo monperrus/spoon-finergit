@@ -59,11 +59,7 @@ c
 {
 owner
 .
-getTypes
-(
-)
-.
-remove
+removeType
 (
 c
 )
@@ -71,11 +67,7 @@ c
 }
 owner
 .
-getTypes
-(
-)
-.
-add
+addType
 (
 c
 )
