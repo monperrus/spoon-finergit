@@ -1,3 +1,8 @@
+/** 
+ * Get the top level type. The method returns null if the parent is not initialized.
+ * @param e the element
+ * @return the top level types or null if not initialized.
+ */
 private
 CtType
 <
@@ -9,8 +14,11 @@ CtElement
 e
 )
 {
-final
 CtType
+parent
+;
+try
+{
 parent
 =
 e
@@ -22,6 +30,18 @@ CtType
 class
 )
 ;
+}
+catch
+(
+ParentNotInitializedException
+ex
+)
+{
+parent
+=
+null
+;
+}
 if
 (
 parent
