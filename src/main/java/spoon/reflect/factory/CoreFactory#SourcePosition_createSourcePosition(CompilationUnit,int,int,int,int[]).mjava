@@ -8,7 +8,10 @@ CompilationUnit
 compilationUnit
 ,
 int
-start
+startDeclaration
+,
+int
+startSource
 ,
 int
 end

@@ -5,7 +5,10 @@ CompilationUnit
 compilationUnit
 ,
 int
-sourceStart
+sourceStartDeclaration
+,
+int
+sourceStartSource
 ,
 int
 sourceEnd
@@ -30,7 +33,7 @@ this
 .
 sourceStart
 =
-sourceStart
+sourceStartDeclaration
 ;
 this
 .
@@ -43,5 +46,16 @@ this
 lineSeparatorPositions
 =
 lineSeparatorPositions
+;
+this
+.
+line
+=
+searchLineNumber
+(
+lineSeparatorPositions
+,
+sourceStartSource
+)
 ;
 }

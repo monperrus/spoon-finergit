@@ -59,7 +59,7 @@ getPosition
 ;
 assertEquals
 (
-3
+4
 ,
 position
 .
