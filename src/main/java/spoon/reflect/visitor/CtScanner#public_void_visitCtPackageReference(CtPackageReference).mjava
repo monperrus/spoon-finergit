@@ -6,12 +6,12 @@ CtPackageReference
 reference
 )
 {
-enterReference
+enter
 (
 reference
 )
 ;
-exitReference
+exit
 (
 reference
 )

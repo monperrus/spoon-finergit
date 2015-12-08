@@ -6,7 +6,7 @@ CtTypeParameterReference
 ref
 )
 {
-enterReference
+enter
 (
 ref
 )
@@ -47,7 +47,7 @@ getBounds
 )
 )
 ;
-exitReference
+exit
 (
 ref
 )

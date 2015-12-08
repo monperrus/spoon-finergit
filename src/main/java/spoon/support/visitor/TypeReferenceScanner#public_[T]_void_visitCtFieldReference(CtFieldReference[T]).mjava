@@ -13,7 +13,7 @@ T
 reference
 )
 {
-enterReference
+enter
 (
 reference
 )
@@ -27,7 +27,7 @@ getDeclaringType
 )
 )
 ;
-exitReference
+exit
 (
 reference
 )
