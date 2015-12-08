@@ -55,11 +55,7 @@ getModifiers
 ;
 workCopy
 .
-getModifiers
-(
-)
-.
-remove
+removeModifier
 (
 ModifierKind
 .
