@@ -1,0 +1,21 @@
+/** 
+ * Creates a new overriding method filter.
+ * @param method the executable to be tested for being invoked
+ */
+public
+OverridingMethodFilter
+(
+CtMethod
+<
+?
+>
+method
+)
+{
+this
+.
+method
+=
+method
+;
+}

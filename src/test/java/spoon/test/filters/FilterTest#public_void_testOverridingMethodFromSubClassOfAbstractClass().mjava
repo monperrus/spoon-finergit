@@ -94,10 +94,6 @@ get
 (
 0
 )
-.
-getReference
-(
-)
 )
 )
 ;
@@ -211,10 +207,6 @@ getMethodsByName
 get
 (
 0
-)
-.
-getReference
-(
 )
 )
 )
