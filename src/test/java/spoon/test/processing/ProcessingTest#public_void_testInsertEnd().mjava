@@ -1,7 +1,7 @@
 @Test
 public
 void
-testInsertBegin
+testInsertEnd
 (
 )
 throws
@@ -58,7 +58,7 @@ getBody
 (
 )
 .
-insertBegin
+insertEnd
 (
 type
 .
@@ -72,7 +72,7 @@ Code
 .
 createCodeSnippetStatement
 (
-"int i = 0;"
+"int i = 0"
 )
 )
 ;
@@ -115,7 +115,7 @@ getSimpleName
 (
 )
 ,
-"int i = 0;"
+"int i = 0"
 ,
 meth
 .
@@ -125,7 +125,21 @@ getBody
 .
 getStatement
 (
-0
+meth
+.
+getBody
+(
+)
+.
+getStatements
+(
+)
+.
+size
+(
+)
+-
+1
 )
 .
 toString
@@ -172,7 +186,7 @@ getBody
 (
 )
 .
-insertBegin
+insertEnd
 (
 type
 .
@@ -186,7 +200,7 @@ Code
 .
 createCodeSnippetStatement
 (
-"int i = 0;"
+"int i = 0"
 )
 )
 ;
@@ -221,15 +235,9 @@ size
 ;
 assertEquals
 (
-"insert failed for constructor "
-+
-constructor
-.
-getSimpleName
-(
-)
+"insert failed for constructor"
 ,
-"int i = 0;"
+"int i = 0"
 ,
 constructor
 .
@@ -239,6 +247,20 @@ getBody
 .
 getStatement
 (
+constructor
+.
+getBody
+(
+)
+.
+getStatements
+(
+)
+.
+size
+(
+)
+-
 1
 )
 .
@@ -274,7 +296,7 @@ INTEGER_PRIMITIVE
 String
 myBeforeStatementAsString
 =
-"int before"
+"int after"
 ;
 for
 (
@@ -306,7 +328,7 @@ class
 {
 ctSwitch
 .
-insertBefore
+insertAfter
 (
 type
 .
@@ -325,6 +347,15 @@ myBeforeStatementAsString
 )
 ;
 }
+System
+.
+out
+.
+println
+(
+type
+)
+;
 assertEquals
 (
 "insert has not been done at the right position"
