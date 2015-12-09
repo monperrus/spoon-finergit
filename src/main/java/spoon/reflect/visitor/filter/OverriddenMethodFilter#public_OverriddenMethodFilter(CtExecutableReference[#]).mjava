@@ -1,0 +1,17 @@
+public
+OverriddenMethodFilter
+(
+CtExecutableReference
+<
+?
+>
+executableReference
+)
+{
+this
+.
+executableReference
+=
+executableReference
+;
+}
