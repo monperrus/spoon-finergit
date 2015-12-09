@@ -13,7 +13,7 @@ T
 variableWrite
 )
 {
-visitCtVariableAccess
+visitVariableAccess
 (
 variableWrite
 )

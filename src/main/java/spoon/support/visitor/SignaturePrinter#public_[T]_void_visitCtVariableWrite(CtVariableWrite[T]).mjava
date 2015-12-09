@@ -13,9 +13,13 @@ T
 variableWrite
 )
 {
-visitCtVariableAccess
+scan
 (
 variableWrite
+.
+getVariable
+(
+)
 )
 ;
 }

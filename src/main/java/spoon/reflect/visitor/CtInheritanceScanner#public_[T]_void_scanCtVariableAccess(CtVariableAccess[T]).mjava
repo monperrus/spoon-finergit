@@ -1,0 +1,18 @@
+/** 
+ * Scans a variable access (read and write).
+ */
+public
+<
+T
+>
+void
+scanCtVariableAccess
+(
+CtVariableAccess
+<
+T
+>
+variableAccess
+)
+{
+}

@@ -13,7 +13,7 @@ T
 arrayRead
 )
 {
-visitCtArrayAccess
+printCtArrayAccess
 (
 arrayRead
 )

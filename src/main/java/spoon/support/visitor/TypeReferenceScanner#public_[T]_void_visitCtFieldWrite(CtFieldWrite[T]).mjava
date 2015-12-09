@@ -22,7 +22,7 @@ scan
 (
 fieldWrite
 .
-getAnnotations
+getVariable
 (
 )
 )
@@ -31,7 +31,7 @@ scan
 (
 fieldWrite
 .
-getType
+getAnnotations
 (
 )
 )
@@ -49,7 +49,7 @@ scan
 (
 fieldWrite
 .
-getTarget
+getVariable
 (
 )
 )
@@ -58,7 +58,7 @@ scan
 (
 fieldWrite
 .
-getVariable
+getTarget
 (
 )
 )

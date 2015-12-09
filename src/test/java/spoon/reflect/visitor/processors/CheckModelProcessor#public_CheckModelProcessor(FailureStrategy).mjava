@@ -1,0 +1,14 @@
+public
+CheckModelProcessor
+(
+FailureStrategy
+failure
+)
+{
+this
+.
+failure
+=
+failure
+;
+}

@@ -1,7 +1,7 @@
 /** 
- * Visits an array access.
+ * Scans an array access (read and write).
  */
-@Deprecated
+public
 <
 T
 ,
@@ -13,7 +13,7 @@ CtExpression
 >
 >
 void
-visitCtArrayAccess
+scanCtArrayAccess
 (
 CtArrayAccess
 <
@@ -23,4 +23,5 @@ E
 >
 arrayAccess
 )
-;
+{
+}

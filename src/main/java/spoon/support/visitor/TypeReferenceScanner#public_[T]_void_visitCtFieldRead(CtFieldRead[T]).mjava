@@ -13,6 +13,13 @@ T
 fieldRead
 )
 {
+super
+.
+visitCtFieldRead
+(
+fieldRead
+)
+;
 enter
 (
 fieldRead
@@ -22,7 +29,7 @@ scan
 (
 fieldRead
 .
-getAnnotations
+getVariable
 (
 )
 )
@@ -31,7 +38,7 @@ scan
 (
 fieldRead
 .
-getType
+getAnnotations
 (
 )
 )
@@ -49,7 +56,7 @@ scan
 (
 fieldRead
 .
-getTarget
+getVariable
 (
 )
 )
@@ -58,7 +65,7 @@ scan
 (
 fieldRead
 .
-getVariable
+getTarget
 (
 )
 )

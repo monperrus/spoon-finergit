@@ -1,6 +1,7 @@
 /** 
  * Visits a variable access (read and write).
  */
+@Deprecated
 <
 T
 >
