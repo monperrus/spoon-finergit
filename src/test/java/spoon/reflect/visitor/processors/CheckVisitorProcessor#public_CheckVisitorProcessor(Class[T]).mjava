@@ -1,0 +1,17 @@
+public
+CheckVisitorProcessor
+(
+Class
+<
+T
+>
+visitor
+)
+{
+this
+.
+visitor
+=
+visitor
+;
+}

@@ -1,7 +1,7 @@
 @Test
 public
 void
-testMethodsInInheritanceScanner
+testMethodsInVisitor
 (
 )
 throws
@@ -34,13 +34,9 @@ addProcessor
 new
 CheckVisitorProcessor
 (
-CtInheritanceScanner
+CtVisitor
 .
 class
-)
-.
-withScanners
-(
 )
 .
 withVisitors
@@ -101,7 +97,7 @@ launcher
 .
 addInputResource
 (
-"./src/main/java/spoon/reflect/visitor/CtInheritanceScanner.java"
+"./src/main/java/spoon/reflect/visitor/CtVisitor.java"
 )
 ;
 launcher
