@@ -13,9 +13,13 @@ T
 fieldWrite
 )
 {
-visitCtFieldAccess
+scan
 (
 fieldWrite
+.
+getVariable
+(
+)
 )
 ;
 }

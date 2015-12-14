@@ -17,7 +17,7 @@ T
 e
 =
 new
-CtAnnotationFieldAccesImpl
+CtAnnotationFieldAccessImpl
 <
 T
 >

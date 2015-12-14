@@ -1,3 +1,6 @@
+/** 
+ * Visits a field of an annotation.
+ */
 <
 T
 >

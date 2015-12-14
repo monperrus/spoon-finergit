@@ -1,6 +1,7 @@
 /** 
  * Visits a field access (read and write).
  */
+@Deprecated
 <
 T
 >

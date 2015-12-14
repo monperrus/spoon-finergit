@@ -1,0 +1,18 @@
+/** 
+ * Scans a field access (read and write).
+ */
+public
+<
+T
+>
+void
+scanCtFieldAccess
+(
+CtFieldAccess
+<
+T
+>
+fieldAccess
+)
+{
+}

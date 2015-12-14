@@ -1,0 +1,27 @@
+/** 
+ * Scans an array access (read and write).
+ */
+public
+<
+T
+,
+E
+extends
+CtExpression
+<
+?
+>
+>
+void
+scanCtArrayAccess
+(
+CtArrayAccess
+<
+T
+,
+E
+>
+arrayAccess
+)
+{
+}

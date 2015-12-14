@@ -1,0 +1,14 @@
+public
+CheckVisitorProcessor
+withScanners
+(
+)
+{
+hasScanners
+=
+true
+;
+return
+this
+;
+}

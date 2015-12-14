@@ -1,0 +1,14 @@
+public
+CheckVisitorProcessor
+withVisitors
+(
+)
+{
+hasVisitors
+=
+true
+;
+return
+this
+;
+}

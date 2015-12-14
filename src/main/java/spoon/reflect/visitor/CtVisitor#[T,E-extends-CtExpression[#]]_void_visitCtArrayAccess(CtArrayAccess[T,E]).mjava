@@ -1,6 +1,7 @@
 /** 
  * Visits an array access.
  */
+@Deprecated
 <
 T
 ,
