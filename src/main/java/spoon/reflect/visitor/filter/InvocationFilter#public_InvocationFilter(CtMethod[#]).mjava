@@ -1,0 +1,24 @@
+/** 
+ * Creates a new invocation filter.
+ * @param method the executable to be tested for being invoked.
+ */
+public
+InvocationFilter
+(
+CtMethod
+<
+?
+>
+method
+)
+{
+this
+(
+method
+.
+getReference
+(
+)
+)
+;
+}

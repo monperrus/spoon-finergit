@@ -347,15 +347,6 @@ myBeforeStatementAsString
 )
 ;
 }
-System
-.
-out
-.
-println
-(
-type
-)
-;
 assertEquals
 (
 "insert has not been done at the right position"
