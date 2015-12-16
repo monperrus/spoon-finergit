@@ -35,6 +35,15 @@ getType
 )
 )
 ;
+scan
+(
+reference
+.
+getAnnotations
+(
+)
+)
+;
 exit
 (
 reference

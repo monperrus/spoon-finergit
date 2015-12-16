@@ -42,6 +42,15 @@ scan
 (
 ref
 .
+getAnnotations
+(
+)
+)
+;
+scan
+(
+ref
+.
 getBounds
 (
 )

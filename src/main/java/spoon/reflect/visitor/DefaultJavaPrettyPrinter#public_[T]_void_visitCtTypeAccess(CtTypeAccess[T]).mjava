@@ -13,6 +13,11 @@ T
 typeAccess
 )
 {
+enterCtExpression
+(
+typeAccess
+)
+;
 scan
 (
 typeAccess
@@ -20,6 +25,11 @@ typeAccess
 getType
 (
 )
+)
+;
+exitCtExpression
+(
+typeAccess
 )
 ;
 }
