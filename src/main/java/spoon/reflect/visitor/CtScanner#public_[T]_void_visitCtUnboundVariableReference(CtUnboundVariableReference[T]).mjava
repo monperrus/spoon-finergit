@@ -12,4 +12,14 @@ T
 reference
 )
 {
+enter
+(
+reference
+)
+;
+exit
+(
+reference
+)
+;
 }

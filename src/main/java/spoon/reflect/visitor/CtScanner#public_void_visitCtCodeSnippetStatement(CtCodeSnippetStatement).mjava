@@ -6,4 +6,14 @@ CtCodeSnippetStatement
 statement
 )
 {
+enter
+(
+statement
+)
+;
+exit
+(
+statement
+)
+;
 }
