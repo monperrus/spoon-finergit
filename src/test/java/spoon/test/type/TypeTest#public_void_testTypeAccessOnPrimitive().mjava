@@ -151,7 +151,7 @@ isPrimitive
 ;
 assertEquals
 (
-"short"
+"Class"
 ,
 op
 .
@@ -179,7 +179,7 @@ instanceof
 CtFieldRead
 )
 ;
-assertTrue
+assertFalse
 (
 op
 .
