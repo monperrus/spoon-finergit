@@ -540,7 +540,7 @@ name
 .
 target
 (
-"E"
+"pack3.E"
 )
 .
 declaringType
@@ -600,7 +600,7 @@ name
 .
 target
 (
-"E"
+"pack3.E"
 )
 .
 declaringType
