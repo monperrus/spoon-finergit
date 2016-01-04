@@ -18,4 +18,9 @@ checkAssignmentContracts
 pack
 )
 ;
+checkContractCtScanner
+(
+pack
+)
+;
 }

@@ -12,4 +12,14 @@ T
 expression
 )
 {
+enter
+(
+expression
+)
+;
+exit
+(
+expression
+)
+;
 }
