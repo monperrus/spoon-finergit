@@ -53,6 +53,15 @@ getActualTypeArguments
 )
 )
 ;
+scan
+(
+reference
+.
+getAnnotations
+(
+)
+)
+;
 exit
 (
 reference

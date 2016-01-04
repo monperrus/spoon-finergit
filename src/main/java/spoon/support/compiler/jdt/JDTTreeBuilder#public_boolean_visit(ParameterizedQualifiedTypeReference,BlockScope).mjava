@@ -6,7 +6,7 @@ visit
 ParameterizedQualifiedTypeReference
 parameterizedQualifiedTypeReference
 ,
-ClassScope
+BlockScope
 scope
 )
 {

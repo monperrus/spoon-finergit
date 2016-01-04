@@ -63,7 +63,7 @@ getTarget
 (
 )
 instanceof
-CtLiteral
+CtTypeAccess
 )
 ;
 assertIsConstructorReference
