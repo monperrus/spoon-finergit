@@ -45,6 +45,15 @@ getTypeCasts
 )
 )
 ;
+scan
+(
+typeAccess
+.
+getAccessedType
+(
+)
+)
+;
 exit
 (
 typeAccess

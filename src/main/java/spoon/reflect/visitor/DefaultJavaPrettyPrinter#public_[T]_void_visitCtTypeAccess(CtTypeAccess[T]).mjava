@@ -22,7 +22,7 @@ scan
 (
 typeAccess
 .
-getType
+getAccessedType
 (
 )
 )
