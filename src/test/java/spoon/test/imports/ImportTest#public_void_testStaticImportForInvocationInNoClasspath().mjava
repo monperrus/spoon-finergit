@@ -405,7 +405,7 @@ target
 .
 declaringType
 (
-"C.D"
+"D"
 )
 .
 typeIsNull
@@ -475,7 +475,7 @@ target
 .
 declaringType
 (
-"C.D"
+"D"
 )
 .
 typeIsNull
