@@ -111,7 +111,7 @@ getVariable
 }
 assertEquals
 (
-"java.lang.Class mclass = ((java.lang.Class)(ModelFacade.USE_CASE))"
+"java.lang.Class mclass = ((java.lang.Class)(org.argouml.model.ModelFacade.USE_CASE))"
 ,
 elements
 .
@@ -131,7 +131,7 @@ toString
 ;
 assertEquals
 (
-"new PropPanelButton(this , buttonPanel , _navUpIcon , Translator.localize(\"UMLMenu\", \"button.go-up\") , \"navigateNamespace\" , null)"
+"new PropPanelButton(this , buttonPanel , _navUpIcon , org.argouml.i18n.Translator.localize(\"UMLMenu\", \"button.go-up\") , \"navigateNamespace\" , null)"
 ,
 elements
 .
