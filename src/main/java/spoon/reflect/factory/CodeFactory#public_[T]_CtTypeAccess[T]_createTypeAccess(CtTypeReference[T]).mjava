@@ -1,0 +1,51 @@
+/** 
+ * Creates a accessed type.
+ * @param accessedType a type reference to the accessed type.
+ * @param < T > the type of the expression.
+ * @return a accessed type expression.
+ */
+public
+<
+T
+>
+CtTypeAccess
+<
+T
+>
+createTypeAccess
+(
+CtTypeReference
+<
+T
+>
+accessedType
+)
+{
+final
+CtTypeAccess
+<
+T
+>
+typeAccess
+=
+factory
+.
+Core
+(
+)
+.
+createTypeAccess
+(
+)
+;
+typeAccess
+.
+setAccessedType
+(
+accessedType
+)
+;
+return
+typeAccess
+;
+}

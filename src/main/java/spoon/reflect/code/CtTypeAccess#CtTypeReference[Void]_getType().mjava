@@ -1,0 +1,13 @@
+/** 
+ * Returns always VOID.
+ * @see #getAccessedType() to get the accessed type.
+ */
+@Override
+CtTypeReference
+<
+Void
+>
+getType
+(
+)
+;

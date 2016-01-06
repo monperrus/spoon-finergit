@@ -1,0 +1,14 @@
+@Override
+public
+CtTypeReference
+<
+A
+>
+getAccessedType
+(
+)
+{
+return
+type
+;
+}

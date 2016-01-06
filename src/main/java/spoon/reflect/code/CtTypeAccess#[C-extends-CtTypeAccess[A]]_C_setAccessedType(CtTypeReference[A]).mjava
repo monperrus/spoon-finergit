@@ -1,0 +1,22 @@
+/** 
+ * Set the accessed type.
+ * @param accessedType CtTypeReference.
+ */
+<
+C
+extends
+CtTypeAccess
+<
+A
+>
+>
+C
+setAccessedType
+(
+CtTypeReference
+<
+A
+>
+accessedType
+)
+;

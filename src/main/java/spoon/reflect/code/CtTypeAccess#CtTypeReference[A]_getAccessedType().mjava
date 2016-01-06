@@ -1,0 +1,12 @@
+/** 
+ * Returns type represented and contained in the type access.
+ * @return CtTypeReference.
+ */
+CtTypeReference
+<
+A
+>
+getAccessedType
+(
+)
+;
