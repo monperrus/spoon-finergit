@@ -3,8 +3,8 @@ public
 boolean
 visit
 (
-ArrayTypeReference
-arrayTypeReference
+ArrayQualifiedTypeReference
+arrayQualifiedTypeReference
 ,
 BlockScope
 scope
@@ -35,7 +35,7 @@ references
 .
 getTypeReference
 (
-arrayTypeReference
+arrayQualifiedTypeReference
 .
 resolvedType
 )
@@ -47,7 +47,7 @@ enter
 (
 typeAccess
 ,
-arrayTypeReference
+arrayQualifiedTypeReference
 )
 ;
 return
