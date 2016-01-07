@@ -17,6 +17,12 @@ enterCtExpression
 f
 )
 ;
+context
+.
+ignoreGenerics
+=
+true
+;
 if
 (
 f
@@ -49,12 +55,6 @@ ignoreStaticAccess
 true
 ;
 }
-context
-.
-ignoreGenerics
-=
-true
-;
 scan
 (
 f
