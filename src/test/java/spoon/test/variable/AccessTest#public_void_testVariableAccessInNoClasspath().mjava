@@ -131,7 +131,7 @@ toString
 ;
 assertEquals
 (
-"new PropPanelButton(this , buttonPanel , _navUpIcon , org.argouml.i18n.Translator.localize(\"UMLMenu\", \"button.go-up\") , \"navigateNamespace\" , null)"
+"new org.argouml.uml.ui.PropPanelButton(this , buttonPanel , _navUpIcon , org.argouml.i18n.Translator.localize(\"UMLMenu\", \"button.go-up\") , \"navigateNamespace\" , null)"
 ,
 elements
 .
