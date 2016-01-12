@@ -311,6 +311,10 @@ peek
 element
 instanceof
 CtAssignment
+&&
+context
+.
+assigned
 )
 {
 other
