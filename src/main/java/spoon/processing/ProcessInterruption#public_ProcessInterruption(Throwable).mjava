@@ -1,0 +1,13 @@
+public
+ProcessInterruption
+(
+Throwable
+cause
+)
+{
+super
+(
+cause
+)
+;
+}

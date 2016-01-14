@@ -1,0 +1,14 @@
+@Override
+public
+void
+interrupt
+(
+)
+{
+throw
+new
+ProcessInterruption
+(
+)
+;
+}

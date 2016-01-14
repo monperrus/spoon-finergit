@@ -1,0 +1,8 @@
+/** 
+ * Interrupts the processing of this processor but changes on your AST are kept and the invocation of this method doesn't interrupt the processing of all processors specified in the  {@link ProcessingManager}.
+ */
+void
+interrupt
+(
+)
+;

@@ -19,6 +19,8 @@ Processor
 processor
 )
 {
+try
+{
 getFactory
 (
 )
@@ -94,4 +96,12 @@ getName
 )
 )
 ;
+}
+catch
+(
+ProcessInterruption
+ignored
+)
+{
+}
 }
