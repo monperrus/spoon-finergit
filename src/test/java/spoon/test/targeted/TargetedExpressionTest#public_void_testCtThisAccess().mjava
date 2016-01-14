@@ -152,7 +152,7 @@ class
 ;
 assertEquals
 (
-"this.b = b"
+"InnerClass.this.b = b"
 ,
 ctr
 .

@@ -32,6 +32,10 @@ class
 Bar
 .
 class
+,
+SuperClass
+.
+class
 )
 ;
 final

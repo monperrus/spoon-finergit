@@ -104,7 +104,7 @@ get
 ;
 assertEquals
 (
-"this.<java.lang.Class<? extends java.lang.Throwable>>foo()"
+"spoon.test.generics.Tree.this.<java.lang.Class<? extends java.lang.Throwable>>foo()"
 ,
 node5
 .

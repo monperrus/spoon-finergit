@@ -41,7 +41,7 @@ spoon
 .
 addInputResource
 (
-"./src/test/resources/spoon/test/noclasspath"
+"./src/test/resources/spoon/test/noclasspath/fields"
 )
 ;
 spoon
