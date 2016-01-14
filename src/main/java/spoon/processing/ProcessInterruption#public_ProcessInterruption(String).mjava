@@ -1,0 +1,13 @@
+public
+ProcessInterruption
+(
+String
+message
+)
+{
+super
+(
+message
+)
+;
+}
