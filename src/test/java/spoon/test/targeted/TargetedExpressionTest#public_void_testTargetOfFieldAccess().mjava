@@ -135,9 +135,9 @@ getClass
 )
 )
 ;
-assertNull
+assertNotNull
 (
-"Targets is null if there isn't a 'this' explicit."
+"Target isn't null if there is a 'this' explicit."
 ,
 elements
 .
@@ -147,6 +147,24 @@ get
 )
 .
 getTarget
+(
+)
+)
+;
+assertTrue
+(
+elements
+.
+get
+(
+1
+)
+.
+getTarget
+(
+)
+.
+isImplicit
 (
 )
 )
