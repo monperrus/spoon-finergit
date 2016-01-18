@@ -9,6 +9,17 @@ getDeclaration
 (
 )
 {
+if
+(
+declaringType
+==
+null
+)
+{
+return
+null
+;
+}
 CtType
 <
 ?

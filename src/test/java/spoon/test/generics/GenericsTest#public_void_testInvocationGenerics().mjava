@@ -217,7 +217,7 @@ size
 ;
 assertEquals
 (
-"this.<java.lang.String>makeTacos(null)"
+"spoon.test.generics.testclasses.Tacos.this.<java.lang.String>makeTacos(null)"
 ,
 invocation1
 .
@@ -280,7 +280,7 @@ size
 ;
 assertEquals
 (
-"makeTacos(null)"
+"spoon.test.generics.testclasses.Tacos.this.makeTacos(null)"
 ,
 invocation2
 .

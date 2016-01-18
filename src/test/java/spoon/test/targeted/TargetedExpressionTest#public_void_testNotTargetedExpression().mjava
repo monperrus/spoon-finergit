@@ -15,6 +15,14 @@ build
 Foo
 .
 class
+,
+Bar
+.
+class
+,
+SuperClass
+.
+class
 )
 ;
 CtClass
