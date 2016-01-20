@@ -1,0 +1,12 @@
+/** 
+ * Gets the executable that declares the referenced type.
+ * @return the declaring executable if the type reference is a local class; null in other cases.
+ */
+CtExecutableReference
+<
+?
+>
+getDeclaringExecutable
+(
+)
+;
