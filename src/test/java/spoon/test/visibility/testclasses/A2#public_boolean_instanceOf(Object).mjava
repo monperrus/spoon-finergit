@@ -1,6 +1,6 @@
 public
 boolean
-m
+instanceOf
 (
 Object
 o
@@ -9,7 +9,7 @@ o
 return
 o
 instanceof
-A
+A2
 .
 B
 ;

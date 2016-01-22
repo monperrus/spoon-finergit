@@ -1,9 +1,9 @@
 public
 C
 <
-T
+String
 >
-m
+returnType
 (
 )
 {
@@ -11,7 +11,7 @@ return
 new
 C
 <
-T
+String
 >
 (
 )
