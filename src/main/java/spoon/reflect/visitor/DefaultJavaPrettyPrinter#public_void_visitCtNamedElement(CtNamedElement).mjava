@@ -85,10 +85,6 @@ lines
 [
 i
 ]
-.
-trim
-(
-)
 ;
 if
 (
@@ -166,6 +162,10 @@ write
 )
 .
 writeln
+(
+)
+.
+writeTabs
 (
 )
 ;

@@ -262,7 +262,7 @@ Assert
 .
 assertEquals
 (
-"\n This is test\n JavaDoc.\n \n"
+"This is test\n JavaDoc."
 ,
 ctPackage
 .
