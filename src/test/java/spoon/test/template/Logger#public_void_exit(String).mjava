@@ -1,0 +1,21 @@
+public
+static
+void
+exit
+(
+String
+methodName
+)
+{
+System
+.
+err
+.
+println
+(
+"exit: "
++
+methodName
+)
+;
+}
