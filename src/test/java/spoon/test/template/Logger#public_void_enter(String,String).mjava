@@ -1,0 +1,28 @@
+public
+static
+void
+enter
+(
+String
+className
+,
+String
+methodName
+)
+{
+System
+.
+out
+.
+println
+(
+"enter: "
++
+className
++
+" - "
++
+methodName
+)
+;
+}
