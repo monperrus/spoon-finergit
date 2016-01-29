@@ -223,10 +223,10 @@ size
 )
 )
 ;
-assertInvocation
+assertEqualsInvocation
 (
 new
-Expected
+ExpectedTargetedExpression
 (
 )
 .
@@ -253,10 +253,10 @@ get
 )
 )
 ;
-assertInvocation
+assertEqualsInvocation
 (
 new
-Expected
+ExpectedTargetedExpression
 (
 )
 .

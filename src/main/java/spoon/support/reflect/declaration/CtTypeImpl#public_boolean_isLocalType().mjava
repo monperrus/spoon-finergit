@@ -1,0 +1,17 @@
+@Override
+public
+boolean
+isLocalType
+(
+)
+{
+return
+getReference
+(
+)
+.
+isLocalType
+(
+)
+;
+}

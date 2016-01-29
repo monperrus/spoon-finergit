@@ -26,6 +26,17 @@ if
 context
 .
 ignoreEnclosingClass
+&&
+!
+ref
+.
+getDeclaringType
+(
+)
+.
+isAnonymous
+(
+)
 )
 {
 visitCtTypeReferenceWithoutGenerics
