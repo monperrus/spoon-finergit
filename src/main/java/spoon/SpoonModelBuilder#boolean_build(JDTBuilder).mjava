@@ -1,0 +1,15 @@
+/** 
+ * Builds the program's model with this compiler's factory and stores the result into this factory. Note that this method should only be used once on a given factory.
+ * @param builder Parameters given at JDT compiler.
+ * @return true if the Java was successfully compiled with the core Javacompiler, false if some errors were encountered while compiling
+ * @throws spoon.SpoonException when a building problem occurs
+ * @see #getSourceClasspath()
+ * @see #getTemplateClasspath()
+ */
+boolean
+build
+(
+JDTBuilder
+builder
+)
+;

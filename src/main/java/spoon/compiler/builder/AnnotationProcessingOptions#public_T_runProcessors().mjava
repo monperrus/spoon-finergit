@@ -1,0 +1,17 @@
+public
+T
+runProcessors
+(
+)
+{
+args
+.
+add
+(
+"-proc:only"
+)
+;
+return
+myself
+;
+}

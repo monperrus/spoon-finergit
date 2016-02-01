@@ -1,0 +1,17 @@
+public
+T
+enableJavadoc
+(
+)
+{
+args
+.
+add
+(
+"-enableJavadoc"
+)
+;
+return
+myself
+;
+}

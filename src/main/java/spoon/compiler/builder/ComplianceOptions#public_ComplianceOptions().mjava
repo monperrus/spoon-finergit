@@ -1,0 +1,13 @@
+public
+ComplianceOptions
+(
+)
+{
+super
+(
+ComplianceOptions
+.
+class
+)
+;
+}

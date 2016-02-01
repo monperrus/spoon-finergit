@@ -1,0 +1,13 @@
+/** 
+ * Advanced options for the compiler.
+ */
+JDTBuilder
+advancedOptions
+(
+AdvancedOptions
+<
+?
+>
+options
+)
+;

@@ -1,0 +1,13 @@
+/** 
+ * Compliance options for the compiler.
+ */
+JDTBuilder
+complianceOptions
+(
+ComplianceOptions
+<
+?
+>
+options
+)
+;
