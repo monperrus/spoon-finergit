@@ -1,0 +1,7 @@
+Object
+getMetadata
+(
+String
+key
+)
+;
