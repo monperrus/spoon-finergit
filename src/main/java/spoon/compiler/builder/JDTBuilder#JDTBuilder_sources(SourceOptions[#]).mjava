@@ -1,0 +1,13 @@
+/** 
+ * Sources for the compiler.
+ */
+JDTBuilder
+sources
+(
+SourceOptions
+<
+?
+>
+options
+)
+;

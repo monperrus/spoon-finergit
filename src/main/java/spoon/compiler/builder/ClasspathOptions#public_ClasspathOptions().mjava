@@ -1,0 +1,13 @@
+public
+ClasspathOptions
+(
+)
+{
+super
+(
+ClasspathOptions
+.
+class
+)
+;
+}

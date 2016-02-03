@@ -1,3 +1,7 @@
+/** 
+ * Adds a list of files/directories (as a  {@link SpoonResource} to be built.By default, the files could be Java source files of Java files. Directories are processed recursively.
+ * @param resources files or directories to add.
+ */
 void
 addInputSources
 (

@@ -1,0 +1,13 @@
+/** 
+ * Annotation processing options for the compiler.
+ */
+JDTBuilder
+annotationProcessingOptions
+(
+AnnotationProcessingOptions
+<
+?
+>
+options
+)
+;

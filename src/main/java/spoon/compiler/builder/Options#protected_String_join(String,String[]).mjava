@@ -1,7 +1,10 @@
-private
+protected
 String
-computeClasspath
+join
 (
+String
+delimiter
+,
 String
 [
 ]
@@ -25,6 +28,7 @@ return
 ""
 ;
 }
+final
 StringBuilder
 builder
 =
@@ -52,9 +56,7 @@ builder
 .
 append
 (
-File
-.
-pathSeparatorChar
+delimiter
 )
 ;
 }

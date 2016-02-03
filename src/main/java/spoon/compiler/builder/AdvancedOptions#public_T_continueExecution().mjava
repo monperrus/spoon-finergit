@@ -1,0 +1,17 @@
+public
+T
+continueExecution
+(
+)
+{
+args
+.
+add
+(
+"-noExit"
+)
+;
+return
+myself
+;
+}

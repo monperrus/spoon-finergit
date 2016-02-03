@@ -1,0 +1,17 @@
+public
+T
+compileProcessors
+(
+)
+{
+args
+.
+add
+(
+"-proc:none"
+)
+;
+return
+myself
+;
+}

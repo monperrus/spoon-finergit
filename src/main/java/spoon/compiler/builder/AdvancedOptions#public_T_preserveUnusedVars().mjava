@@ -1,0 +1,17 @@
+public
+T
+preserveUnusedVars
+(
+)
+{
+args
+.
+add
+(
+"-preserveAllLocals"
+)
+;
+return
+myself
+;
+}

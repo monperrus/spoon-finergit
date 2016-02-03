@@ -1,0 +1,13 @@
+/** 
+ * Classpath options for the compiler.
+ */
+JDTBuilder
+classpathOptions
+(
+ClasspathOptions
+<
+?
+>
+options
+)
+;
