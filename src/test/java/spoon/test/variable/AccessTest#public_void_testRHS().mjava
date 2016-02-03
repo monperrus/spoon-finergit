@@ -13,8 +13,6 @@ RHSSample
 >
 type
 =
-TestUtils
-.
 buildClass
 (
 RHSSample

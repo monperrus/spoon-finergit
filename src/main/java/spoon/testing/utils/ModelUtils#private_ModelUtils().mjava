@@ -1,0 +1,12 @@
+private
+ModelUtils
+(
+)
+{
+throw
+new
+AssertionError
+(
+)
+;
+}

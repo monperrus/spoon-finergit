@@ -9,8 +9,6 @@ testSnippetFullClass
 Factory
 factory
 =
-TestUtils
-.
 createFactory
 (
 )

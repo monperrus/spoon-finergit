@@ -1,0 +1,68 @@
+/** 
+ * Applies the processor on the actual value.
+ * @param processor the class of the given processor.
+ * @return {@code this} assertion object.
+ */
+public
+T
+withProcessor
+(
+Class
+<
+?
+Processor
+<
+?
+>
+>
+processor
+)
+{
+try
+{
+withProcessor
+(
+processor
+.
+newInstance
+(
+)
+)
+;
+}
+catch
+(
+InstantiationException
+e
+)
+{
+throw
+new
+RuntimeException
+(
+"Can't instante class processor."
+,
+e
+)
+;
+}
+catch
+(
+IllegalAccessException
+e
+)
+{
+throw
+new
+RuntimeException
+(
+"Can't instante class processor."
+,
+e
+)
+;
+}
+return
+myself
+;
+}

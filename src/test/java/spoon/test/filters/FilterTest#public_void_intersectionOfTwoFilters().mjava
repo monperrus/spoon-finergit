@@ -11,8 +11,6 @@ Exception
 Factory
 factory
 =
-TestUtils
-.
 build
 (
 "spoon.test"

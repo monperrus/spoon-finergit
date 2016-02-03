@@ -1,0 +1,17 @@
+public
+CtPackageAssert
+(
+CtPackage
+actual
+)
+{
+super
+(
+actual
+,
+CtPackageAssert
+.
+class
+)
+;
+}

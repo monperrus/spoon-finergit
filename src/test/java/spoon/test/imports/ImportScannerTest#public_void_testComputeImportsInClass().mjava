@@ -29,8 +29,6 @@ className
 Factory
 aFactory
 =
-TestUtils
-.
 build
 (
 packageName

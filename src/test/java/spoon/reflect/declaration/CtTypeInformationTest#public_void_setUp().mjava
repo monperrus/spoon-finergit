@@ -9,8 +9,6 @@ Exception
 {
 factory
 =
-TestUtils
-.
 build
 (
 ExtendsObject

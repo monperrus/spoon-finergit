@@ -1,0 +1,17 @@
+public
+FileAssert
+(
+File
+actual
+)
+{
+super
+(
+actual
+,
+FileAssert
+.
+class
+)
+;
+}

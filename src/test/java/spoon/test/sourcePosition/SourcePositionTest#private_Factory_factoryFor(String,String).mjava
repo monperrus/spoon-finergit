@@ -12,8 +12,6 @@ throws
 Exception
 {
 return
-TestUtils
-.
 build
 (
 packageName

@@ -8,8 +8,6 @@ testDiamond1
 Factory
 factory
 =
-TestUtils
-.
 createFactory
 (
 )

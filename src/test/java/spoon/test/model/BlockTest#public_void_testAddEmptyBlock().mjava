@@ -8,8 +8,6 @@ testAddEmptyBlock
 Factory
 factory
 =
-TestUtils
-.
 createFactory
 (
 )

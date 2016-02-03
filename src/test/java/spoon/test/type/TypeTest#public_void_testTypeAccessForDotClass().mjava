@@ -197,8 +197,6 @@ CtTypeAccess
 )
 ;
 }
-TestUtils
-.
 canBeBuilt
 (
 target

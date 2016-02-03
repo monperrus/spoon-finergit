@@ -212,8 +212,6 @@ toString
 )
 )
 ;
-TestUtils
-.
 canBeBuilt
 (
 "./src/test/resources/noclasspath/TestBot.java"
