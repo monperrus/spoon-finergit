@@ -1,8 +1,8 @@
 private
 void
-assertInvocation
+assertEqualsInvocation
 (
-Expected
+ExpectedTargetedExpression
 expected
 ,
 CtInvocation

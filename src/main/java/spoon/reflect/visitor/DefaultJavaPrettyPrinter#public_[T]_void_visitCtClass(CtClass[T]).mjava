@@ -53,6 +53,36 @@ visitCtType
 ctClass
 )
 ;
+if
+(
+ctClass
+.
+isLocalType
+(
+)
+)
+{
+write
+(
+"class "
++
+ctClass
+.
+getSimpleName
+(
+)
+.
+replaceAll
+(
+"^[0-9]*"
+,
+""
+)
+)
+;
+}
+else
+{
 write
 (
 "class "
@@ -64,6 +94,7 @@ getSimpleName
 )
 )
 ;
+}
 writeFormalTypeParameters
 (
 ctClass

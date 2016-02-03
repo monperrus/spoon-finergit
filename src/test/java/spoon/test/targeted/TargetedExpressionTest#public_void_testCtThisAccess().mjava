@@ -102,7 +102,7 @@ CtClass
 >
 >
 (
-"InnerClass"
+"1InnerClass"
 )
 )
 .
@@ -113,7 +113,7 @@ get
 ;
 assertEquals
 (
-"InnerClass"
+"1InnerClass"
 ,
 c
 .
