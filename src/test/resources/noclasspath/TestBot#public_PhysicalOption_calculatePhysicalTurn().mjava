@@ -1,0 +1,15 @@
+public
+PhysicalOption
+calculatePhysicalTurn
+(
+)
+{
+return
+pcalc
+.
+calculatePhysicalTurn
+(
+this
+)
+;
+}

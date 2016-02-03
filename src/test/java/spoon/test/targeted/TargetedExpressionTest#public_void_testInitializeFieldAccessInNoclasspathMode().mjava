@@ -159,10 +159,10 @@ size
 )
 )
 ;
-assertFieldAccess
+assertEqualsFieldAccess
 (
 new
-Expected
+ExpectedTargetedExpression
 (
 )
 .
