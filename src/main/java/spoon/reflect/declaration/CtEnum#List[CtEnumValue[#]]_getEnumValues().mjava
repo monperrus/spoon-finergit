@@ -1,0 +1,15 @@
+/** 
+ * Gets all enum values of the enumeration.
+ * @return All enum values.
+ */
+List
+<
+CtEnumValue
+<
+?
+>
+>
+getEnumValues
+(
+)
+;

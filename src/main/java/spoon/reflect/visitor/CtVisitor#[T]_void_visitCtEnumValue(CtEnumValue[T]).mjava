@@ -1,0 +1,16 @@
+/** 
+ * Visits an enum value declaration.
+ */
+<
+T
+>
+void
+visitCtEnumValue
+(
+CtEnumValue
+<
+T
+>
+enumValue
+)
+;

@@ -50,7 +50,7 @@ assertEquals
 ,
 enumeration
 .
-getValues
+getEnumValues
 (
 )
 .
@@ -65,7 +65,7 @@ assertEquals
 ,
 enumeration
 .
-getValues
+getEnumValues
 (
 )
 .

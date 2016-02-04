@@ -1,0 +1,23 @@
+/** 
+ * Adds an enum value.
+ * @param enumValue An enum value.
+ * @return <tt>true</tt> if this element changed as a result of the call
+ */
+<
+C
+extends
+CtEnum
+<
+T
+>
+>
+C
+addEnumValue
+(
+CtEnumValue
+<
+?
+>
+enumValue
+)
+;

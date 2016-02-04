@@ -1,0 +1,14 @@
+/** 
+ * Creates an enum value.
+ */
+<
+T
+>
+CtEnumValue
+<
+T
+>
+createEnumValue
+(
+)
+;
