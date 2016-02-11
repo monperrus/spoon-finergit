@@ -764,7 +764,7 @@ getAnnotatedElementType
 ;
 List
 <
-CtField
+CtEnumValue
 <
 ?
 >
@@ -773,7 +773,7 @@ fields
 =
 enumeration
 .
-getValues
+getEnumValues
 (
 )
 ;

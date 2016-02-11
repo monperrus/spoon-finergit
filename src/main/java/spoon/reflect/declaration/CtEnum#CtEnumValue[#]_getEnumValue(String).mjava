@@ -1,0 +1,15 @@
+/** 
+ * Gets an enum value by its name.
+ * @param name Name of the enum value.
+ * @return An enum value.
+ */
+CtEnumValue
+<
+?
+>
+getEnumValue
+(
+String
+name
+)
+;

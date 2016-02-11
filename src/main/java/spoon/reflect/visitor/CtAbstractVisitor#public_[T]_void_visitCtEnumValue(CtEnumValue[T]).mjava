@@ -1,0 +1,16 @@
+@Override
+public
+<
+T
+>
+void
+visitCtEnumValue
+(
+CtEnumValue
+<
+T
+>
+enumValue
+)
+{
+}
