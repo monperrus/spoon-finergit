@@ -181,8 +181,12 @@ toString
 )
 )
 ;
-assertNull
+assertEquals
 (
+CtType
+.
+NAME_UNKNOWN
+,
 anonymousClass
 .
 getSimpleName

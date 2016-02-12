@@ -37,6 +37,15 @@ createClass
 (
 )
 ;
+t
+.
+setSimpleName
+(
+CtType
+.
+NAME_UNKNOWN
+)
+;
 (
 (
 CtClass
