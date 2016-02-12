@@ -142,8 +142,6 @@ getValue
 )
 )
 ;
-TestUtils
-.
 canBeBuilt
 (
 "./target/literal"

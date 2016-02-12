@@ -146,8 +146,6 @@ getSuperclass
 )
 )
 ;
-TestUtils
-.
 canBeBuilt
 (
 "./target/class"

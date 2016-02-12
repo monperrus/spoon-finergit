@@ -14,8 +14,6 @@ Panini
 >
 aMole
 =
-TestUtils
-.
 buildClass
 (
 Panini

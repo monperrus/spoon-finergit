@@ -16,8 +16,6 @@ try
 {
 build
 =
-TestUtils
-.
 build
 (
 MyClass

@@ -97,8 +97,6 @@ toString
 )
 )
 ;
-TestUtils
-.
 canBeBuilt
 (
 "./target/spooned/spoon/test/constructor/testclasses/"

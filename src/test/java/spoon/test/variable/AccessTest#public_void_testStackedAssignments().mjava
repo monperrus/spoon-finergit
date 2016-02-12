@@ -13,8 +13,6 @@ StackedAssignmentSample
 >
 type
 =
-TestUtils
-.
 buildClass
 (
 StackedAssignmentSample

@@ -1,0 +1,17 @@
+protected
+CtElementAssert
+(
+CtElement
+actual
+)
+{
+super
+(
+actual
+,
+CtElementAssert
+.
+class
+)
+;
+}

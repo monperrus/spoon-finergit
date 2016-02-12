@@ -181,8 +181,6 @@ toString
 )
 )
 ;
-TestUtils
-.
 canBeBuilt
 (
 target

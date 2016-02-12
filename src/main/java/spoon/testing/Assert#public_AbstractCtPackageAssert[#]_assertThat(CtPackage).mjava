@@ -1,0 +1,30 @@
+/** 
+ * Create a new instance of <code> {@link CtPackageAssert}</code>. Note that this assert will be make a deep equals with its content (all types).
+ * @param actual The actual value.
+ * @return the created assertion object.
+ */
+public
+static
+AbstractCtPackageAssert
+<
+?
+>
+assertThat
+(
+CtPackage
+actual
+)
+{
+assertNotNull
+(
+actual
+)
+;
+return
+new
+CtPackageAssert
+(
+actual
+)
+;
+}

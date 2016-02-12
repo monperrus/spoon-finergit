@@ -52,8 +52,6 @@ compiler
 .
 setSourceOutputDirectory
 (
-TestUtils
-.
 getSpoonedDirectory
 (
 getClass
@@ -66,8 +64,6 @@ compiler
 .
 setBinaryOutputDirectory
 (
-TestUtils
-.
 getBuildDirectory
 (
 getClass

@@ -81,6 +81,7 @@ getElements
 new
 TypeFilter
 <
+CtConstructorCall
 >
 (
 CtConstructorCall
@@ -107,8 +108,6 @@ getExecutable
 )
 ;
 }
-TestUtils
-.
 canBeBuilt
 (
 "./target/executable"

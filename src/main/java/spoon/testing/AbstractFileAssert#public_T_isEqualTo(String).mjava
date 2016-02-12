@@ -1,0 +1,24 @@
+/** 
+ * Verifies that the actual value is equal to the given one.
+ * @param expected The expected location of source code.
+ * @return {@code this} assertion object.
+ */
+public
+T
+isEqualTo
+(
+String
+expected
+)
+{
+return
+isEqualTo
+(
+new
+File
+(
+expected
+)
+)
+;
+}

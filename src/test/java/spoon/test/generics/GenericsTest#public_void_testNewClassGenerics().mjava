@@ -234,8 +234,6 @@ toString
 )
 )
 ;
-TestUtils
-.
 canBeBuilt
 (
 "./target/spooned/spoon/test/generics/testclasses/"

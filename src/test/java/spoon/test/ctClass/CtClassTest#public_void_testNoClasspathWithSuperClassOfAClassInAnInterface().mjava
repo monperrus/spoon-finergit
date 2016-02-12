@@ -98,8 +98,6 @@ getQualifiedName
 )
 )
 ;
-TestUtils
-.
 canBeBuilt
 (
 "./target/draw2d"

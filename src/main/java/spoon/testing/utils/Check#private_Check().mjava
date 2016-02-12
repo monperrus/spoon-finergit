@@ -1,0 +1,12 @@
+private
+Check
+(
+)
+{
+throw
+new
+AssertionError
+(
+)
+;
+}

@@ -7,8 +7,6 @@ testOutputGeneratedByTypeAnnotation
 throws
 Exception
 {
-TestUtils
-.
 canBeBuilt
 (
 new

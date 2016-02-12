@@ -10,8 +10,6 @@ try
 Factory
 factory
 =
-TestUtils
-.
 createFactory
 (
 )

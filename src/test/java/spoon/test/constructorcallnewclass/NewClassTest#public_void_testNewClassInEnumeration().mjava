@@ -16,8 +16,6 @@ try
 {
 factory
 =
-TestUtils
-.
 build
 (
 Bar

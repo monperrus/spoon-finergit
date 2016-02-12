@@ -1,0 +1,27 @@
+/** 
+ * Applies the processor on the actual value.
+ * @param processor the given processor.
+ * @return {@code this} assertion object.
+ */
+public
+T
+withProcessor
+(
+Processor
+<
+?
+>
+processor
+)
+{
+processors
+.
+add
+(
+processor
+)
+;
+return
+myself
+;
+}

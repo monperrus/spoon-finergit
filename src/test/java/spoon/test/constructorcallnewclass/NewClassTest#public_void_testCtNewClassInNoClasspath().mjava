@@ -205,8 +205,6 @@ size
 )
 )
 ;
-TestUtils
-.
 canBeBuilt
 (
 "./target/new-class"
