@@ -104,17 +104,6 @@ toString
 )
 )
 ;
-assertEquals
-(
-"null"
-,
-lit
-.
-getSignature
-(
-)
-)
-;
 CtLiteral
 <
 ?

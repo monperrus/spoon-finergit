@@ -1,0 +1,14 @@
+public
+void
+reset
+(
+)
+{
+representation
+=
+new
+StringBuffer
+(
+)
+;
+}

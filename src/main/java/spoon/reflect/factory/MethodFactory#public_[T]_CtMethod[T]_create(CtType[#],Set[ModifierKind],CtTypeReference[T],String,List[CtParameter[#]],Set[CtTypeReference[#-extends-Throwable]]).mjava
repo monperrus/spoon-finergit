@@ -74,13 +74,6 @@ createMethod
 (
 )
 ;
-target
-.
-addMethod
-(
-method
-)
-;
 if
 (
 modifiers
@@ -140,6 +133,13 @@ thrownTypes
 )
 ;
 }
+target
+.
+addMethod
+(
+method
+)
+;
 return
 method
 ;

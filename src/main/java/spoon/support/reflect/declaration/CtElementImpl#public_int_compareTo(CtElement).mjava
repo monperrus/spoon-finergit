@@ -1,3 +1,6 @@
+/** 
+ * the ordering  between CtElement is lexicographic, based on the deep representation which is also used in  {@link #equals(Object)}.
+ */
 public
 int
 compareTo
@@ -9,17 +12,17 @@ o
 String
 current
 =
-getSignature
+getDeepRepresentation
 (
+this
 )
 ;
 String
 other
 =
-o
-.
-getSignature
+getDeepRepresentation
 (
+o
 )
 ;
 if
