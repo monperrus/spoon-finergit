@@ -23,7 +23,7 @@ arrayWrite
 {
 super
 .
-visitCtArrayAccess
+visitCtArrayWrite
 (
 arrayWrite
 )
