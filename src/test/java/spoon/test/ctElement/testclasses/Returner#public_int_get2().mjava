@@ -1,0 +1,11 @@
+public
+static
+int
+get2
+(
+)
+{
+return
+1
+;
+}
