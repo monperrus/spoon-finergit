@@ -10,6 +10,10 @@ a
 )
 {
 return
+binding
+==
+null
+||
 !
 binding
 .
