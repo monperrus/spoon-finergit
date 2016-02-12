@@ -88,7 +88,7 @@ extendsTypeAnnotations
 =
 extendsActual
 .
-getTypeAnnotations
+getAnnotations
 (
 )
 ;
@@ -218,7 +218,7 @@ implementsTypeAnnotations
 =
 firstSuperInterface
 .
-getTypeAnnotations
+getAnnotations
 (
 )
 ;
@@ -377,7 +377,7 @@ enumTypeAnnotations
 =
 firstSuperInterfaceOfEnum
 .
-getTypeAnnotations
+getAnnotations
 (
 )
 ;
@@ -552,7 +552,7 @@ interfaceTypeAnnotations
 =
 firstSuperInterfaceOfInterface
 .
-getTypeAnnotations
+getAnnotations
 (
 )
 ;

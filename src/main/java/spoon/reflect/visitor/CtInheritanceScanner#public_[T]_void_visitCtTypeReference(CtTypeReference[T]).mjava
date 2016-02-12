@@ -27,11 +27,6 @@ scanCtGenericElementReference
 e
 )
 ;
-scanCtTypeAnnotableReference
-(
-e
-)
-;
 scanCtElement
 (
 e

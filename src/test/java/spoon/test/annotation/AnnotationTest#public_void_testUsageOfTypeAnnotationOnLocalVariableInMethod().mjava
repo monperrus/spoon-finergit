@@ -133,7 +133,7 @@ typeAnnotations
 =
 localVariableType
 .
-getTypeAnnotations
+getAnnotations
 (
 )
 ;

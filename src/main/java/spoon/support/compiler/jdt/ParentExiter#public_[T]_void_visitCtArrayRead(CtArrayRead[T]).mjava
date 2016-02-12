@@ -23,7 +23,7 @@ arrayRead
 {
 super
 .
-visitCtArrayAccess
+visitCtArrayRead
 (
 arrayRead
 )
