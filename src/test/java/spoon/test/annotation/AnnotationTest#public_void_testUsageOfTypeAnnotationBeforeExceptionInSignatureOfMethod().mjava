@@ -155,7 +155,15 @@ assertEquals
 (
 "Thrown type with an type annotation must be well printed"
 ,
-"public void m() throws java.lang.@spoon.test.annotation.testclasses.TypeAnnotation Exception {"
+"public void m() throws java.lang.@spoon.test.annotation.testclasses.TypeAnnotation"
++
+System
+.
+lineSeparator
+(
+)
++
+"Exception {"
 +
 System
 .
