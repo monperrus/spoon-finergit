@@ -1,0 +1,18 @@
+/** 
+ * Adds a bound.
+ */
+<
+C
+extends
+CtIntersectionTypeReference
+>
+C
+addBound
+(
+CtTypeReference
+<
+?
+>
+bound
+)
+;

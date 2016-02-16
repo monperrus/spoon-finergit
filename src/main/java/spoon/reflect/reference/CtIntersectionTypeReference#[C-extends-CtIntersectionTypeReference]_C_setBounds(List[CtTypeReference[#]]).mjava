@@ -1,0 +1,21 @@
+/** 
+ * Sets the bounds of the intersection type.
+ */
+<
+C
+extends
+CtIntersectionTypeReference
+>
+C
+setBounds
+(
+List
+<
+CtTypeReference
+<
+?
+>
+>
+bounds
+)
+;

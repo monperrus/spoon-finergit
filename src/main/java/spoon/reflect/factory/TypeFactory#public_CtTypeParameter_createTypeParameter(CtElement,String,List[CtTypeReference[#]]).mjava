@@ -46,9 +46,12 @@ name
 ;
 typeParam
 .
-setBounds
+setSuperType
+(
+createIntersectionTypeReference
 (
 bounds
+)
 )
 ;
 return

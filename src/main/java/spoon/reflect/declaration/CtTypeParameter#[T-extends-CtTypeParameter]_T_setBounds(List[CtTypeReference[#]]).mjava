@@ -1,6 +1,7 @@
 /** 
  * Sets the bounds of this type parameter.
  */
+@Deprecated
 <
 T
 extends

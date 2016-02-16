@@ -4,6 +4,10 @@ prepare
 (
 )
 {
+class
+Test
+{
+}
 final
 Runnable
 runnable

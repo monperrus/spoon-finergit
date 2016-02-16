@@ -1,0 +1,14 @@
+@Override
+public
+CtTypeReference
+<
+?
+>
+getBoundingType
+(
+)
+{
+return
+superType
+;
+}

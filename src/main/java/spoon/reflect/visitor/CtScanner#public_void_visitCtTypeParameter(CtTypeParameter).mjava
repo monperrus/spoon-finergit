@@ -24,7 +24,7 @@ scan
 (
 typeParameter
 .
-getBounds
+getSuperType
 (
 )
 )

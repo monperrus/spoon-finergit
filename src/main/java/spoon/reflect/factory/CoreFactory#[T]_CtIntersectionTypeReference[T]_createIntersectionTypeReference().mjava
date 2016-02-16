@@ -1,0 +1,14 @@
+/** 
+ * Creates an intersection type reference.
+ */
+<
+T
+>
+CtIntersectionTypeReference
+<
+T
+>
+createIntersectionTypeReference
+(
+)
+;

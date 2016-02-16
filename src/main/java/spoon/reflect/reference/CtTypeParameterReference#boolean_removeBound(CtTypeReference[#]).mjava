@@ -1,6 +1,7 @@
 /** 
  * Removes a bound.
  */
+@Deprecated
 boolean
 removeBound
 (

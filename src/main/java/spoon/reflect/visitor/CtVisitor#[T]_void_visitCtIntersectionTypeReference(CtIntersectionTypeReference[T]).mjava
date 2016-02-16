@@ -1,0 +1,16 @@
+/** 
+ * Visits an intersection type.
+ */
+<
+T
+>
+void
+visitCtIntersectionTypeReference
+(
+CtIntersectionTypeReference
+<
+T
+>
+reference
+)
+;

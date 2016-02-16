@@ -1,6 +1,7 @@
 /** 
  * Adds a bound.
  */
+@Deprecated
 <
 T
 extends

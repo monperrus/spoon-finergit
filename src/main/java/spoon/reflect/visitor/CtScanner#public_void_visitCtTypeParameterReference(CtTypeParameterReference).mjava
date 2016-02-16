@@ -51,7 +51,7 @@ scan
 (
 ref
 .
-getBounds
+getBoundingType
 (
 )
 )
