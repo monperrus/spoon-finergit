@@ -161,7 +161,15 @@ assertEquals
 (
 "Parameter type with an type annotation must be well printed"
 ,
-"java.lang.@spoon.test.annotation.testclasses.TypeAnnotation String param"
+"java.lang.@spoon.test.annotation.testclasses.TypeAnnotation"
++
+System
+.
+lineSeparator
+(
+)
++
+"String param"
 ,
 ctParameter
 .
