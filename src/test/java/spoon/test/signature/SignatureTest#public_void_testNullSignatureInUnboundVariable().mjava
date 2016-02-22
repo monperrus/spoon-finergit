@@ -42,7 +42,7 @@ content
 +
 "class X {"
 +
-"public Object foo() {"
+"public Object foo(java.util.List<String> l) {"
 +
 " Integer.toString("
 +
@@ -139,6 +139,17 @@ toArray
 0
 ]
 ;
+assertEquals
+(
+"java.lang.Object foo(java.util.List)"
+,
+method
+.
+getSignature
+(
+)
+)
+;
 CtInvocation
 <
 ?
@@ -179,41 +190,14 @@ get
 0
 )
 ;
-String
-signatureUnbound
-=
-argument1
-.
-getSignature
-(
-)
-;
-assertTrue
+assertEquals
 (
 unboundVarAccess
-.
-equals
-(
-signatureUnbound
-)
-)
-;
-String
-toStringUnbound
-=
+,
 argument1
 .
 toString
 (
-)
-;
-assertTrue
-(
-unboundVarAccess
-.
-equals
-(
-toStringUnbound
 )
 )
 ;

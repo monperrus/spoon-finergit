@@ -40,7 +40,7 @@ content
 +
 "class PR {"
 +
-"public Object foo(String p) {"
+"public java.io.File foo(String p) {"
 +
 " this.mfield = p; 	"
 +
@@ -138,6 +138,17 @@ toArray
 0
 ]
 ;
+assertEquals
+(
+"java.io.File foo(java.lang.String)"
+,
+methodString
+.
+getSignature
+(
+)
+)
+;
 CtAssignment
 <
 ?
@@ -165,15 +176,6 @@ getStatement
 0
 )
 ;
-String
-sigAssign
-=
-invoToInt1
-.
-getSignature
-(
-)
-;
 CtExpression
 <
 ?
@@ -186,33 +188,36 @@ getAssigned
 (
 )
 ;
-String
-sigleft
-=
+assertEquals
+(
+"PR.this.mfield"
+,
 left
 .
-getSignature
+toString
 (
 )
+)
 ;
-assertNotEquals
+assertEquals
 (
-""
+null
 ,
-sigleft
+left
 .
-trim
+getType
 (
 )
 )
 ;
-assertTrue
+assertEquals
 (
-sigAssign
+"PR.this.mfield = p"
+,
+invoToInt1
 .
-contains
+toString
 (
-"<no type>"
 )
 )
 ;

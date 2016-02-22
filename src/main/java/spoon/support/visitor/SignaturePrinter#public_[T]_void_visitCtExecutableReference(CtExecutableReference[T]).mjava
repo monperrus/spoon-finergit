@@ -1,3 +1,4 @@
+@Override
 public
 <
 T
@@ -139,6 +140,21 @@ write
 )
 ;
 }
+if
+(
+reference
+.
+getParameters
+(
+)
+.
+size
+(
+)
+>
+0
+)
+{
 clearLast
 (
 )
@@ -147,6 +163,7 @@ clearLast
 (
 )
 ;
+}
 }
 write
 (
