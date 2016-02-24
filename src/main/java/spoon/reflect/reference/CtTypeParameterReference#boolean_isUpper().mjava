@@ -1,5 +1,5 @@
 /** 
- * Returns  {@code true} if the bounds are upper bounds.
+ * Returns  {@code true} if the bounds are in <code>extends</code> clause.{@code false} means a <code>super</code> clause.
  */
 boolean
 isUpper

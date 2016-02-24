@@ -1,6 +1,5 @@
 /** 
- * @param bounds
- * @return
+ * Removes a bound.
  */
 boolean
 removeBound
@@ -9,6 +8,6 @@ CtTypeReference
 <
 ?
 >
-bounds
+bound
 )
 ;

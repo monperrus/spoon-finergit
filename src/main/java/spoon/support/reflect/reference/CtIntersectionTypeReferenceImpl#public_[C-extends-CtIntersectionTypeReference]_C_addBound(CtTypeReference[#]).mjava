@@ -1,11 +1,11 @@
 @Override
 public
 <
-T
+C
 extends
-CtTypeParameter
+CtIntersectionTypeReference
 >
-T
+C
 addBound
 (
 CtTypeReference
@@ -48,8 +48,6 @@ setParent
 this
 )
 ;
-this
-.
 bounds
 .
 add
@@ -59,7 +57,7 @@ bound
 ;
 return
 (
-T
+C
 )
 this
 ;

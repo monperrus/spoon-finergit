@@ -12,6 +12,11 @@ getBounds
 )
 {
 return
+Collections
+.
+unmodifiableList
+(
 bounds
+)
 ;
 }

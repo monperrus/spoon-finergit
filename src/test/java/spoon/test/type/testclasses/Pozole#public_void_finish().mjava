@@ -1,6 +1,6 @@
 public
 void
-prepare
+finish
 (
 )
 {
@@ -14,8 +14,6 @@ runnable
 =
 (
 Runnable
-&
-Serializable
 )
 (
 )

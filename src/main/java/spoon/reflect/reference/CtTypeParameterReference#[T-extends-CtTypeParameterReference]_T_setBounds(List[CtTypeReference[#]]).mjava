@@ -1,6 +1,7 @@
 /** 
  * Sets the bounds (aka generics) of the referenced parameter.
  */
+@Deprecated
 <
 T
 extends

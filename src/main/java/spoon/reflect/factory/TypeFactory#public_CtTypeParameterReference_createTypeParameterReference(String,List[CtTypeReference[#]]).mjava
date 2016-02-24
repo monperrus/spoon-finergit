@@ -42,9 +42,12 @@ name
 ;
 typeParam
 .
-setBounds
+setBoundingType
+(
+createIntersectionTypeReference
 (
 bounds
+)
 )
 ;
 return

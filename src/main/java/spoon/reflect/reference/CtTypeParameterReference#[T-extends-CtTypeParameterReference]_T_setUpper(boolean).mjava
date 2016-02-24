@@ -1,5 +1,5 @@
 /** 
- * Set to  {@code true} if the bounds are upper bounds.
+ * Set to  {@code true} to write <code>extends</code> clause for bounds types.
  */
 <
 T

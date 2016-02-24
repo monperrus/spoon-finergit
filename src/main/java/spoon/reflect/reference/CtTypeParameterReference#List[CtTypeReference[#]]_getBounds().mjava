@@ -1,6 +1,7 @@
 /** 
  * Gets the bounds (aka generics) of the referenced parameter.
  */
+@Deprecated
 List
 <
 CtTypeReference

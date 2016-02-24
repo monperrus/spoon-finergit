@@ -4,12 +4,12 @@ void
 accept
 (
 CtVisitor
-v
+visitor
 )
 {
-v
+visitor
 .
-visitCtTypeParameter
+visitCtIntersectionTypeReference
 (
 this
 )

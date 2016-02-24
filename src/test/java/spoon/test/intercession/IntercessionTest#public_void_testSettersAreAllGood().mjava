@@ -379,6 +379,14 @@ CtTypeParameterReference
 ctTypeReference
 )
 .
+getBoundingType
+(
+)
+.
+asCtIntersectionTypeReference
+(
+)
+.
 getBounds
 (
 )

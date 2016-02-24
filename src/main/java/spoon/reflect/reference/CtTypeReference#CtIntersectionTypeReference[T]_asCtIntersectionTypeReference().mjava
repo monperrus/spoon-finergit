@@ -1,0 +1,11 @@
+/** 
+ * Casts the type reference in  {@link CtIntersectionTypeReference}.
+ */
+CtIntersectionTypeReference
+<
+T
+>
+asCtIntersectionTypeReference
+(
+)
+;

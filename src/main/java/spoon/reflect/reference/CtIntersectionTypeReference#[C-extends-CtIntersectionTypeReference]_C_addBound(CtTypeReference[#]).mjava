@@ -1,19 +1,18 @@
 /** 
- * @param bounds
- * @return
+ * Adds a bound.
  */
 <
-T
+C
 extends
-CtTypeParameter
+CtIntersectionTypeReference
 >
-T
+C
 addBound
 (
 CtTypeReference
 <
 ?
 >
-bounds
+bound
 )
 ;
