@@ -31,15 +31,6 @@ scan
 (
 fieldWrite
 .
-getType
-(
-)
-)
-;
-scan
-(
-fieldWrite
-.
 getTypeCasts
 (
 )

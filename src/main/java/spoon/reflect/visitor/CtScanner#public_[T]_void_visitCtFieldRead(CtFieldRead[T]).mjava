@@ -31,15 +31,6 @@ scan
 (
 fieldRead
 .
-getType
-(
-)
-)
-;
-scan
-(
-fieldRead
-.
 getTypeCasts
 (
 )
