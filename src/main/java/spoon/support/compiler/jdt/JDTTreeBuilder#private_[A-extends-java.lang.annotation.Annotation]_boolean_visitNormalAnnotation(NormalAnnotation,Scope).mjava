@@ -16,7 +16,7 @@ visitNormalAnnotation
 NormalAnnotation
 annotation
 ,
-BlockScope
+Scope
 scope
 )
 {

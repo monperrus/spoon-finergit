@@ -1,0 +1,17 @@
+@Override
+public
+CtTypeReference
+<
+?
+>
+getArrayType
+(
+)
+{
+return
+getLastComponentTypeReference
+(
+componentType
+)
+;
+}

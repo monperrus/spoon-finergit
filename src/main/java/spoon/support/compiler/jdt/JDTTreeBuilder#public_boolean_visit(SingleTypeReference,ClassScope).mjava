@@ -10,6 +10,15 @@ ClassScope
 scope
 )
 {
+if
+(
+skipTypeInAnnotation
+)
+{
+return
+true
+;
+}
 CtTypeAccess
 <
 Object

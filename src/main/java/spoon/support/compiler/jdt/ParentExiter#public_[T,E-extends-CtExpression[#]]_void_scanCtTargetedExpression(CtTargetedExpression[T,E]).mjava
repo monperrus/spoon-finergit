@@ -50,6 +50,10 @@ peek
 )
 ==
 targetedExpression
+&&
+child
+instanceof
+CtExpression
 )
 {
 targetedExpression

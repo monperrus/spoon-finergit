@@ -76,14 +76,11 @@ getAnonymousClass
 )
 )
 ;
-assertEquals
-(
-"Super interface is typed by the class of the constructor"
-,
-String
-.
-class
-,
+CtTypeReference
+[
+]
+ctTypeReferences
+=
 newClass
 .
 getAnonymousClass
@@ -101,6 +98,16 @@ CtTypeReference
 [
 ]
 )
+;
+assertEquals
+(
+"Super interface is typed by the class of the constructor"
+,
+String
+.
+class
+,
+ctTypeReferences
 [
 0
 ]

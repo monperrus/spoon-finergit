@@ -15,6 +15,13 @@ invocation
 {
 if
 (
+child
+instanceof
+CtExpression
+)
+{
+if
+(
 this
 .
 jdtTreeBuilder
@@ -25,10 +32,6 @@ isArgument
 (
 invocation
 )
-&&
-child
-instanceof
-CtExpression
 )
 {
 invocation
@@ -48,12 +51,6 @@ return
 ;
 }
 else
-if
-(
-child
-instanceof
-CtExpression
-)
 {
 invocation
 .
@@ -70,6 +67,7 @@ child
 ;
 return
 ;
+}
 }
 super
 .

@@ -181,7 +181,15 @@ getKind
 ;
 assertEquals
 (
-"a instanceof java.lang.Object[]"
+"a instanceof java.lang.@spoon.test.annotation.testclasses.TypeAnnotation(integer = 1)"
++
+System
+.
+lineSeparator
+(
+)
++
+"Object[]"
 ,
 typeAccesses
 .

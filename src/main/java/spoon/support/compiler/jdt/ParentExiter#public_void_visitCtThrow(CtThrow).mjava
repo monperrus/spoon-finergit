@@ -16,6 +16,10 @@ getThrownExpression
 )
 ==
 null
+&&
+child
+instanceof
+CtExpression
 )
 {
 throwStatement

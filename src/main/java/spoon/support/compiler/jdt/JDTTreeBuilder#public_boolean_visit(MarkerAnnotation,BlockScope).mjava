@@ -11,7 +11,7 @@ scope
 )
 {
 return
-visitMarkerAnnoation
+visitMarkerAnnotation
 (
 annotation
 ,
