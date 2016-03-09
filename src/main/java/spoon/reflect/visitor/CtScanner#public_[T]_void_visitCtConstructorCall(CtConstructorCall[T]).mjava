@@ -63,6 +63,15 @@ getArguments
 )
 )
 ;
+scan
+(
+ctConstructorCall
+.
+getComments
+(
+)
+)
+;
 exit
 (
 ctConstructorCall

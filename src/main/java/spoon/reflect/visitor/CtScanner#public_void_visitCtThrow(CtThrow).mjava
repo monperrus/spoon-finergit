@@ -29,6 +29,15 @@ getThrownExpression
 )
 )
 ;
+scan
+(
+throwStatement
+.
+getComments
+(
+)
+)
+;
 exit
 (
 throwStatement

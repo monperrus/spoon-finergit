@@ -44,6 +44,15 @@ getCases
 )
 )
 ;
+scan
+(
+switchStatement
+.
+getComments
+(
+)
+)
+;
 exit
 (
 switchStatement

@@ -54,6 +54,15 @@ getTarget
 )
 )
 ;
+scan
+(
+f
+.
+getComments
+(
+)
+)
+;
 exit
 (
 f

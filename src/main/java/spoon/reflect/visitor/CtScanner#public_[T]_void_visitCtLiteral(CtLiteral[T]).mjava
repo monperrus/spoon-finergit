@@ -53,6 +53,15 @@ getTypeCasts
 )
 )
 ;
+scan
+(
+literal
+.
+getComments
+(
+)
+)
+;
 exit
 (
 literal

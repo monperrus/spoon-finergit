@@ -1,0 +1,41 @@
+/** 
+ * Creates a comment
+ * @param content The content of the comment
+ * @param type The comment type
+ * @return a new CtComment
+ */
+public
+CtComment
+createComment
+(
+String
+content
+,
+CtComment
+.
+CommentType
+type
+)
+{
+return
+factory
+.
+Core
+(
+)
+.
+createComment
+(
+)
+.
+setContent
+(
+content
+)
+.
+setCommentType
+(
+type
+)
+;
+}

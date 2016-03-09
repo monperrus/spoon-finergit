@@ -53,6 +53,15 @@ getOperand
 )
 )
 ;
+scan
+(
+operator
+.
+getComments
+(
+)
+)
+;
 exit
 (
 operator

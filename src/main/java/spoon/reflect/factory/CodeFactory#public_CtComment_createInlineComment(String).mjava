@@ -1,0 +1,26 @@
+/** 
+ * Creates an inline comment
+ * @param content The content of the comment
+ * @return a new CtComment
+ */
+public
+CtComment
+createInlineComment
+(
+String
+content
+)
+{
+return
+createComment
+(
+content
+,
+CtComment
+.
+CommentType
+.
+INLINE
+)
+;
+}

@@ -1,6 +1,5 @@
 @Override
 public
-final
 boolean
 equals
 (

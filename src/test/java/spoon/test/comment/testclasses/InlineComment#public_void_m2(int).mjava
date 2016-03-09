@@ -1,0 +1,13 @@
+public
+void
+m2
+(
+int
+i
+)
+throws
+Exception
+,
+Error
+{
+}

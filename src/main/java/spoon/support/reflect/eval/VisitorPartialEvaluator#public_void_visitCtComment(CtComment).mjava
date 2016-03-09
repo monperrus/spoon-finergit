@@ -1,0 +1,17 @@
+@Override
+public
+void
+visitCtComment
+(
+CtComment
+comment
+)
+{
+throw
+new
+RuntimeException
+(
+"Unknow Element"
+)
+;
+}

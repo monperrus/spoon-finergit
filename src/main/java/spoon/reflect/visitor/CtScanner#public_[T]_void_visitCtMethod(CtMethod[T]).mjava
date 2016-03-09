@@ -71,6 +71,15 @@ getBody
 )
 )
 ;
+scan
+(
+m
+.
+getComments
+(
+)
+)
+;
 exit
 (
 m

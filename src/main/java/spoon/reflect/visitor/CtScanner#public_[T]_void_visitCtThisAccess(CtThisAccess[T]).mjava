@@ -45,6 +45,15 @@ getTarget
 )
 )
 ;
+scan
+(
+thisAccess
+.
+getComments
+(
+)
+)
+;
 exit
 (
 thisAccess

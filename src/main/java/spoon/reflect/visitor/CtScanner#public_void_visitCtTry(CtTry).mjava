@@ -47,6 +47,15 @@ getFinalizer
 )
 )
 ;
+scan
+(
+tryBlock
+.
+getComments
+(
+)
+)
+;
 exit
 (
 tryBlock

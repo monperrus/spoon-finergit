@@ -1,0 +1,8 @@
+/** 
+ * Creates a comment.
+ */
+CtComment
+createComment
+(
+)
+;

@@ -9,6 +9,15 @@ CtStatement
 s
 )
 {
+printComment
+(
+s
+,
+CommentOffset
+.
+BEFORE
+)
+;
 mapLine
 (
 line

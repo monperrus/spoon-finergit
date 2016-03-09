@@ -35,6 +35,15 @@ getReturnedExpression
 )
 )
 ;
+scan
+(
+returnStatement
+.
+getComments
+(
+)
+)
+;
 exit
 (
 returnStatement

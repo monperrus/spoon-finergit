@@ -54,6 +54,15 @@ getVariable
 )
 )
 ;
+scan
+(
+variableWrite
+.
+getComments
+(
+)
+)
+;
 exit
 (
 variableWrite

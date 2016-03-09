@@ -54,6 +54,15 @@ getAccessedType
 )
 )
 ;
+scan
+(
+typeAccess
+.
+getComments
+(
+)
+)
+;
 exit
 (
 typeAccess

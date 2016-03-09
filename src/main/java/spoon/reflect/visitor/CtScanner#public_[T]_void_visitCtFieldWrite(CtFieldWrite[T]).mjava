@@ -54,6 +54,15 @@ getVariable
 )
 )
 ;
+scan
+(
+fieldWrite
+.
+getComments
+(
+)
+)
+;
 exit
 (
 fieldWrite

@@ -98,6 +98,15 @@ getMethods
 )
 )
 ;
+scan
+(
+ctClass
+.
+getComments
+(
+)
+)
+;
 exit
 (
 ctClass

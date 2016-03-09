@@ -72,6 +72,15 @@ getExpression
 )
 )
 ;
+scan
+(
+lambda
+.
+getComments
+(
+)
+)
+;
 exit
 (
 lambda

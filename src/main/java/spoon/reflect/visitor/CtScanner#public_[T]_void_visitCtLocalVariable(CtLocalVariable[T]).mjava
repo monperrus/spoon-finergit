@@ -44,6 +44,15 @@ getDefaultExpression
 )
 )
 ;
+scan
+(
+localVariable
+.
+getComments
+(
+)
+)
+;
 exit
 (
 localVariable

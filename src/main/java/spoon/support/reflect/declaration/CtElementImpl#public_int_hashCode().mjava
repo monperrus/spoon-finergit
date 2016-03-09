@@ -1,6 +1,5 @@
 @Override
 public
-final
 int
 hashCode
 (

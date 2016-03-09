@@ -1,0 +1,16 @@
+/** 
+ * Remove a comment
+ * @param comment the comment to remove
+ */
+<
+E
+extends
+CtElement
+>
+E
+removeComment
+(
+CtComment
+comment
+)
+;

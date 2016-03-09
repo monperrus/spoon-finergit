@@ -1,0 +1,9 @@
+/** 
+ * Get the type of the comment
+ * @return the comment type
+ */
+CommentType
+getCommentType
+(
+)
+;

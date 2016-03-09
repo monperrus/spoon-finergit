@@ -71,6 +71,15 @@ getMethods
 )
 )
 ;
+scan
+(
+intrface
+.
+getComments
+(
+)
+)
+;
 exit
 (
 intrface

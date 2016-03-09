@@ -56,6 +56,15 @@ getBody
 )
 )
 ;
+scan
+(
+forLoop
+.
+getComments
+(
+)
+)
+;
 exit
 (
 forLoop

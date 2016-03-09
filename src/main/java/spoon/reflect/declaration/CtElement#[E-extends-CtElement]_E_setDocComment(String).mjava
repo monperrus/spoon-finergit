@@ -1,5 +1,5 @@
 /** 
- * Sets the text of the documentation ("javadoc") comment of this declaration.
+ * Sets the text of the documentation ("javadoc") comment of this declaration. This API will set the content of the first javadoc {@link CtComment} or create a new  javadoc {@link CtComment} ifno javadoc  {@link CtComment} is available on this object.
  */
 <
 E

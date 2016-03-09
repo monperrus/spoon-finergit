@@ -1,0 +1,16 @@
+/** 
+ * Add a comment to the current element <code>element.addComment(element.getFactory().Code().createComment("comment", CtComment.CommentType.INLINE)</code>
+ * @param comment the comment
+ */
+<
+E
+extends
+CtElement
+>
+E
+addComment
+(
+CtComment
+comment
+)
+;

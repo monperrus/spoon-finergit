@@ -1,0 +1,10 @@
+/** 
+ * Visits a comment
+ */
+void
+visitCtComment
+(
+CtComment
+comment
+)
+;

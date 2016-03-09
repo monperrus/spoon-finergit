@@ -44,6 +44,15 @@ getStatements
 )
 )
 ;
+scan
+(
+caseStatement
+.
+getComments
+(
+)
+)
+;
 exit
 (
 caseStatement

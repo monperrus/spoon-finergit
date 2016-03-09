@@ -38,6 +38,15 @@ getTypes
 )
 )
 ;
+scan
+(
+ctPackage
+.
+getComments
+(
+)
+)
+;
 exit
 (
 ctPackage

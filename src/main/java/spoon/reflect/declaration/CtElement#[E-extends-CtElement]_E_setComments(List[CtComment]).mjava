@@ -1,0 +1,18 @@
+/** 
+ * Set the comment list
+ */
+<
+E
+extends
+CtElement
+>
+E
+setComments
+(
+List
+<
+CtComment
+>
+comments
+)
+;

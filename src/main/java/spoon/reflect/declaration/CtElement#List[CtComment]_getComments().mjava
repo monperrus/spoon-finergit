@@ -1,0 +1,12 @@
+/** 
+ * The list of comments
+ * @return the list of comment
+ */
+List
+<
+CtComment
+>
+getComments
+(
+)
+;

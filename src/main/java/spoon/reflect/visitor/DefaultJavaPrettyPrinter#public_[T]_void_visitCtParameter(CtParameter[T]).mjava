@@ -12,6 +12,11 @@ T
 parameter
 )
 {
+printComment
+(
+parameter
+)
+;
 writeAnnotations
 (
 parameter
