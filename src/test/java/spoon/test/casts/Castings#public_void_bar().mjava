@@ -1,0 +1,15 @@
+public
+void
+bar
+(
+)
+{
+String
+s
+=
+(
+String
+)
+""
+;
+}

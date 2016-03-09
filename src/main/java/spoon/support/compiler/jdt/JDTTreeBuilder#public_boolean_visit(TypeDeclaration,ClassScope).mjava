@@ -39,15 +39,6 @@ referenceCompilationUnit
 )
 )
 ;
-context
-.
-enter
-(
-type
-,
-memberTypeDeclaration
-)
-;
 return
 true
 ;

@@ -21,6 +21,11 @@ isPrimitive
 )
 )
 {
+writeAnnotations
+(
+ref
+)
+;
 write
 (
 ref

@@ -11,12 +11,12 @@ annotation
 Annotation
 >
 boolean
-visitMarkerAnnoation
+visitMarkerAnnotation
 (
-MarkerAnnotation
+Annotation
 annotation
 ,
-BlockScope
+Scope
 scope
 )
 {

@@ -23,6 +23,13 @@ arrayAccess
 {
 if
 (
+child
+instanceof
+CtExpression
+)
+{
+if
+(
 this
 .
 jdtTreeBuilder
@@ -94,6 +101,7 @@ child
 return
 false
 ;
+}
 }
 return
 true

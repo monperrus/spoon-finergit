@@ -164,11 +164,4 @@ assertNotNull
 circularRef
 )
 ;
-assertTrue
-(
-circularRef
-instanceof
-CtCircularTypeReference
-)
-;
 }

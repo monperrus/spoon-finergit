@@ -21,6 +21,13 @@ assignement
 {
 if
 (
+child
+instanceof
+CtExpression
+)
+{
+if
+(
 assignement
 .
 getAssigned
@@ -73,6 +80,7 @@ child
 ;
 return
 ;
+}
 }
 super
 .

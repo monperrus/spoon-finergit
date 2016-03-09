@@ -15,6 +15,13 @@ newArray
 {
 if
 (
+child
+instanceof
+CtExpression
+)
+{
+if
+(
 this
 .
 jdtTreeBuilder
@@ -44,12 +51,6 @@ return
 ;
 }
 else
-if
-(
-child
-instanceof
-CtExpression
-)
 {
 newArray
 .
@@ -66,5 +67,6 @@ child
 ;
 return
 ;
+}
 }
 }
