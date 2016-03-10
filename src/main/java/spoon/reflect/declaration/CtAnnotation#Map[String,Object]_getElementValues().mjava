@@ -1,7 +1,9 @@
 /** 
- * Returns this annotation's elements and their values. This is returned in the form of a map that associates element names with their corresponding values. <p> Note that <code>getElementValue("key")</code> is not completely similar to <code>getElementValues().get("key")</code> since the former converts type references into the actual types.
+ * Returns this annotation's elements and their values. This is returned in the form of a map that associates element names with their corresponding values. <p> Note that <code>getElementValue("key")</code> is not completely similar to <code>getElementValues().get("key")</code> since the former converts type references into the actual types. </p> <p> Content changed: A class access (e.g., String.class) is saved as a CtFieldAccess and no more a CtFieldReference. </p>
  * @return this annotation's element names and their values, or an empty mapif there are none
+ * @see #getValues()
  */
+@Deprecated
 Map
 <
 String

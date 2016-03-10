@@ -274,7 +274,7 @@ get
 "classes"
 )
 instanceof
-List
+CtNewArray
 )
 ;
 assertEquals
@@ -283,10 +283,7 @@ assertEquals
 ,
 (
 (
-List
-<
-CtExpression
->
+CtNewArray
 )
 foo
 .
@@ -307,6 +304,10 @@ get
 (
 "classes"
 )
+)
+.
+getElements
+(
 )
 .
 size
@@ -320,10 +321,7 @@ assertEquals
 ,
 (
 (
-List
-<
-CtExpression
->
+CtNewArray
 )
 foo
 .
@@ -344,6 +342,10 @@ get
 (
 "classes"
 )
+)
+.
+getElements
+(
 )
 .
 get
