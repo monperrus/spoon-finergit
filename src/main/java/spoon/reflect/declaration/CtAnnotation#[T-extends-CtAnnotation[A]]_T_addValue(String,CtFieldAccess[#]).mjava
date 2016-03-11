@@ -1,0 +1,24 @@
+/** 
+ * Adds a new key-field access pair for this annotation.
+ */
+<
+T
+extends
+CtAnnotation
+<
+A
+>
+>
+T
+addValue
+(
+String
+elementName
+,
+CtFieldAccess
+<
+?
+>
+value
+)
+;

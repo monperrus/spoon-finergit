@@ -1,0 +1,25 @@
+/** 
+ * Adds a new key-array pair for this annotation.
+ */
+<
+T
+extends
+CtAnnotation
+<
+A
+>
+>
+T
+addValue
+(
+String
+elementName
+,
+CtNewArray
+<
+?
+CtExpression
+>
+value
+)
+;
