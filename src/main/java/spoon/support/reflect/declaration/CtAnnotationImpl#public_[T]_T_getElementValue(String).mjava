@@ -390,6 +390,10 @@ isArray
 )
 &&
 ret
+!=
+null
+&&
+ret
 .
 getClass
 (
