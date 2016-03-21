@@ -175,8 +175,6 @@ getTypeReference
 argument
 .
 type
-.
-resolvedType
 )
 )
 ;
