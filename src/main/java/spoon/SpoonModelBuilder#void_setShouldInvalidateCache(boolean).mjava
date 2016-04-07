@@ -1,0 +1,10 @@
+/** 
+ * Sets invalidation cache.
+ */
+void
+setShouldInvalidateCache
+(
+boolean
+shouldInvalidateCache
+)
+;

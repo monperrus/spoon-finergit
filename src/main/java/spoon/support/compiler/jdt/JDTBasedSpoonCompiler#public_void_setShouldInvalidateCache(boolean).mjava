@@ -1,0 +1,16 @@
+@Override
+public
+void
+setShouldInvalidateCache
+(
+boolean
+shouldInvalidateCache
+)
+{
+this
+.
+shouldInvalidateCache
+=
+shouldInvalidateCache
+;
+}
