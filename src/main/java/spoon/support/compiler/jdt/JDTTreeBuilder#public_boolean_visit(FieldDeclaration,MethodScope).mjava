@@ -148,11 +148,9 @@ fieldDeclaration
 .
 javadoc
 ,
-scope
+context
 .
-referenceCompilationUnit
-(
-)
+compilationunitdeclaration
 )
 )
 ;
