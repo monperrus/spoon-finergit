@@ -38,6 +38,15 @@ getBody
 )
 )
 ;
+scan
+(
+whileLoop
+.
+getComments
+(
+)
+)
+;
 exit
 (
 whileLoop

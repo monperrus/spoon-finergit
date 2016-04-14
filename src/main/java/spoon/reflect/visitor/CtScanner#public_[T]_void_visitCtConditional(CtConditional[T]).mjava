@@ -53,6 +53,15 @@ getElseExpression
 )
 )
 ;
+scan
+(
+conditional
+.
+getComments
+(
+)
+)
+;
 exit
 (
 conditional

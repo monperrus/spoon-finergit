@@ -38,6 +38,15 @@ getBlock
 )
 )
 ;
+scan
+(
+synchro
+.
+getComments
+(
+)
+)
+;
 exit
 (
 synchro

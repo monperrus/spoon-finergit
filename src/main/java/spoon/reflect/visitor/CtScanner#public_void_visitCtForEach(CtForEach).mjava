@@ -47,6 +47,15 @@ getBody
 )
 )
 ;
+scan
+(
+foreach
+.
+getComments
+(
+)
+)
+;
 exit
 (
 foreach

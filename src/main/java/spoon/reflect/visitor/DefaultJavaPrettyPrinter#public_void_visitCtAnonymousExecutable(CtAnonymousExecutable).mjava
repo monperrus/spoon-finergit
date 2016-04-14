@@ -6,6 +6,11 @@ CtAnonymousExecutable
 impl
 )
 {
+printComment
+(
+impl
+)
+;
 writeAnnotations
 (
 impl

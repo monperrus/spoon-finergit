@@ -1,5 +1,5 @@
 /** 
- * Returns the text of the documentation ("javadoc") comment of this element.
+ * Returns the text of the documentation ("javadoc") comment of this element. The documentation is also accessible via  {@link #getComments()}.
  */
 String
 getDocComment

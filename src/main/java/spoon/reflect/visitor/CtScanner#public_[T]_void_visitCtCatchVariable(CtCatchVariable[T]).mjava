@@ -35,6 +35,15 @@ getType
 )
 )
 ;
+scan
+(
+catchVariable
+.
+getComments
+(
+)
+)
+;
 exit
 (
 catchVariable

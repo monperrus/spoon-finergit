@@ -63,6 +63,15 @@ getIndexExpression
 )
 )
 ;
+scan
+(
+arrayWrite
+.
+getComments
+(
+)
+)
+;
 exit
 (
 arrayWrite

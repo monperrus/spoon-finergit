@@ -45,6 +45,15 @@ getDefaultExpression
 )
 )
 ;
+scan
+(
+enumValue
+.
+getComments
+(
+)
+)
+;
 exit
 (
 enumValue

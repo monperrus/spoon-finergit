@@ -62,6 +62,15 @@ getDimensionExpressions
 )
 )
 ;
+scan
+(
+newArray
+.
+getComments
+(
+)
+)
+;
 exit
 (
 newArray

@@ -20,6 +20,15 @@ getAnnotations
 )
 )
 ;
+scan
+(
+breakStatement
+.
+getComments
+(
+)
+)
+;
 exit
 (
 breakStatement

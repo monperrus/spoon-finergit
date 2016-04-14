@@ -44,6 +44,15 @@ getDefaultExpression
 )
 )
 ;
+scan
+(
+f
+.
+getComments
+(
+)
+)
+;
 exit
 (
 f

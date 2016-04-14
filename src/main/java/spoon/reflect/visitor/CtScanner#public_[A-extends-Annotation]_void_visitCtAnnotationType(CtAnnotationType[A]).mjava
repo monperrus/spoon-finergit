@@ -46,6 +46,15 @@ getFields
 )
 )
 ;
+scan
+(
+annotationType
+.
+getComments
+(
+)
+)
+;
 exit
 (
 annotationType

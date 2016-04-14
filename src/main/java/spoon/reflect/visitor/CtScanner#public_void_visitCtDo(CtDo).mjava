@@ -38,6 +38,15 @@ getBody
 )
 )
 ;
+scan
+(
+doLoop
+.
+getComments
+(
+)
+)
+;
 exit
 (
 doLoop

@@ -1,0 +1,9 @@
+/** 
+ * Get the content of the comment
+ * @return the content of the comment
+ */
+String
+getContent
+(
+)
+;

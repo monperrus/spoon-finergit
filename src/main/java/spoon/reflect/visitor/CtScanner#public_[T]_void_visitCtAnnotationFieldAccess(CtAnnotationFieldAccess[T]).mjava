@@ -62,6 +62,15 @@ getVariable
 )
 )
 ;
+scan
+(
+annotationFieldAccess
+.
+getComments
+(
+)
+)
+;
 exit
 (
 annotationFieldAccess

@@ -68,6 +68,15 @@ getAssignment
 )
 )
 ;
+scan
+(
+assignment
+.
+getComments
+(
+)
+)
+;
 exit
 (
 assignment

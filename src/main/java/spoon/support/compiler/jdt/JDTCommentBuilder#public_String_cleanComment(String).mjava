@@ -1,10 +1,10 @@
 public
 static
 String
-cleanJavadoc
+cleanComment
 (
 String
-doc
+comment
 )
 {
 StringBuffer
@@ -20,7 +20,7 @@ String
 ]
 lines
 =
-doc
+comment
 .
 split
 (
@@ -54,6 +54,10 @@ replaceAll
 "\\*+/$"
 ,
 ""
+)
+.
+trim
+(
 )
 ;
 }

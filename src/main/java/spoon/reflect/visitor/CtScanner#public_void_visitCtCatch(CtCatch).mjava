@@ -38,6 +38,15 @@ getBody
 )
 )
 ;
+scan
+(
+catchBlock
+.
+getComments
+(
+)
+)
+;
 exit
 (
 catchBlock

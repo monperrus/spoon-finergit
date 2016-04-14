@@ -29,6 +29,15 @@ getLabelledStatement
 )
 )
 ;
+scan
+(
+continueStatement
+.
+getComments
+(
+)
+)
+;
 exit
 (
 continueStatement

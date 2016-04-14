@@ -1,0 +1,12 @@
+<
+E
+extends
+CtComment
+>
+E
+setContent
+(
+String
+content
+)
+;

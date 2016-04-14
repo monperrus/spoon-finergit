@@ -53,6 +53,15 @@ getAnnotations
 )
 )
 ;
+scan
+(
+reference
+.
+getComments
+(
+)
+)
+;
 exit
 (
 reference

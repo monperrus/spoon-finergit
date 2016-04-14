@@ -53,6 +53,15 @@ getElseStatement
 )
 )
 ;
+scan
+(
+ifElement
+.
+getComments
+(
+)
+)
+;
 exit
 (
 ifElement

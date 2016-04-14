@@ -12,6 +12,11 @@ T
 m
 )
 {
+printComment
+(
+m
+)
+;
 visitCtNamedElement
 (
 m

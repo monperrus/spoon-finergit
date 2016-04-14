@@ -71,6 +71,15 @@ getIndexExpression
 )
 )
 ;
+scan
+(
+arrayAccess
+.
+getComments
+(
+)
+)
+;
 exit
 (
 arrayAccess

@@ -62,6 +62,15 @@ getArguments
 )
 )
 ;
+scan
+(
+invocation
+.
+getComments
+(
+)
+)
+;
 exit
 (
 invocation

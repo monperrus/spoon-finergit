@@ -44,6 +44,15 @@ getExpression
 )
 )
 ;
+scan
+(
+asserted
+.
+getComments
+(
+)
+)
+;
 exit
 (
 asserted

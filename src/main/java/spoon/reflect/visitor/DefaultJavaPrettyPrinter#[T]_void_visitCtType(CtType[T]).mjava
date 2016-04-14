@@ -11,6 +11,15 @@ T
 type
 )
 {
+printComment
+(
+type
+,
+CommentOffset
+.
+BEFORE
+)
+;
 mapLine
 (
 line

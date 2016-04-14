@@ -32,6 +32,15 @@ getStatements
 )
 )
 ;
+scan
+(
+statements
+.
+getComments
+(
+)
+)
+;
 exit
 (
 statements

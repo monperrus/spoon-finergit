@@ -35,6 +35,15 @@ getType
 )
 )
 ;
+scan
+(
+parameter
+.
+getComments
+(
+)
+)
+;
 exit
 (
 parameter

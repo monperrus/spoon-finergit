@@ -35,6 +35,15 @@ getStatements
 )
 )
 ;
+scan
+(
+block
+.
+getComments
+(
+)
+)
+;
 exit
 (
 block

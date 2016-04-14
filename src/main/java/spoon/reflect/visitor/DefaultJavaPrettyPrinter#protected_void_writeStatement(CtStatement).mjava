@@ -71,6 +71,12 @@ e
 instanceof
 CtClass
 )
+||
+(
+e
+instanceof
+CtComment
+)
 )
 )
 {
@@ -80,4 +86,13 @@ write
 )
 ;
 }
+printComment
+(
+e
+,
+CommentOffset
+.
+AFTER
+)
+;
 }

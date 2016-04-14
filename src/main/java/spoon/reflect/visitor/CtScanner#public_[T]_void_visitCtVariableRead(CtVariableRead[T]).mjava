@@ -54,6 +54,15 @@ getVariable
 )
 )
 ;
+scan
+(
+variableRead
+.
+getComments
+(
+)
+)
+;
 exit
 (
 variableRead
