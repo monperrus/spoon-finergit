@@ -105,6 +105,15 @@ FILE
 continue
 ;
 }
+assertNotNull
+(
+comment
+.
+getParent
+(
+)
+)
+;
 assertTrue
 (
 comment

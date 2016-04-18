@@ -3,7 +3,6 @@
  * @param declarationUnit the declaration unit
  * @param factory the Spoon AST
  */
-public
 JDTCommentBuilder
 (
 CompilationUnitDeclaration
