@@ -18,7 +18,7 @@ throw
 new
 RuntimeException
 (
-"Unknow Element"
+"Unknown Element"
 )
 ;
 }
