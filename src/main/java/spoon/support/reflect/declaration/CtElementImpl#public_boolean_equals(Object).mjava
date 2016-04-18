@@ -7,6 +7,17 @@ Object
 o
 )
 {
+if
+(
+this
+==
+o
+)
+{
+return
+true
+;
+}
 boolean
 ret
 =
