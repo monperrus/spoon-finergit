@@ -167,10 +167,7 @@ get
 final
 List
 <
-CtTypeReference
-<
-?
->
+CtTypeParameterReference
 >
 barGenerics
 =

@@ -9,10 +9,7 @@ writeFormalTypeParameters
 (
 Collection
 <
-CtTypeReference
-<
-?
->
+CtTypeParameterReference
 >
 params
 )

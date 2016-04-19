@@ -285,10 +285,7 @@ false
 ;
 for
 (
-CtTypeReference
-<
-?
->
+CtTypeParameterReference
 ctTypeReference
 :
 setter
@@ -339,22 +336,6 @@ null
 )
 {
 continue
-;
-}
-if
-(
-!
-(
-ctTypeReference
-instanceof
-CtTypeParameterReference
-)
-)
-{
-fail
-(
-"Malformed element."
-)
 ;
 }
 if

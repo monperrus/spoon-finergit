@@ -34,7 +34,7 @@ write
 ;
 for
 (
-CtTypeReference
+CtTypeParameterReference
 ref
 :
 m
