@@ -1,0 +1,13 @@
+public
+<
+T
+>
+Bar
+bar
+(
+)
+{
+return
+null
+;
+}
