@@ -292,7 +292,7 @@ class
 .
 result
 (
-"new spoon.test.targeted.testclasses.Foo(0 , 0).method()"
+"new spoon.test.targeted.testclasses.Foo(0, 0).method()"
 )
 ,
 elements

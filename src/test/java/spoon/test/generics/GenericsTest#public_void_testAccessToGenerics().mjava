@@ -178,7 +178,7 @@ getFormalTypeParameters
 )
 ;
 final
-CtClass
+CtTypeReference
 <
 ?
 >
@@ -186,7 +186,7 @@ anonymousBar
 =
 newAnonymousBar
 .
-getAnonymousClass
+getType
 (
 )
 ;
@@ -216,7 +216,7 @@ assertEquals
 ,
 anonymousBar
 .
-getFormalTypeParameters
+getActualTypeArguments
 (
 )
 .
@@ -256,7 +256,7 @@ assertEquals
 ,
 anonymousBar
 .
-getFormalTypeParameters
+getActualTypeArguments
 (
 )
 .
