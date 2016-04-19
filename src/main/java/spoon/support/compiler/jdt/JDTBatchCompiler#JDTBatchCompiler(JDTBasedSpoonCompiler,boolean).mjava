@@ -44,17 +44,6 @@ useFactory
 =
 useFactory
 ;
-if
-(
-this
-.
-jdtCompiler
-.
-shouldInvalidateCache
-(
-)
-)
-{
 this
 .
 jdtCompiler
@@ -65,7 +54,6 @@ clear
 (
 )
 ;
-}
 this
 .
 jdtCompiler

@@ -1,8 +1,0 @@
-/** 
- * Check if we invalidate the cache of the compiler.
- */
-boolean
-shouldInvalidateCache
-(
-)
-;
