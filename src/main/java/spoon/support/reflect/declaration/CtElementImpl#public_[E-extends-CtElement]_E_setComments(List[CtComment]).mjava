@@ -18,12 +18,8 @@ comments
 this
 .
 comments
-=
-new
-ArrayList
-<
-CtComment
->
+.
+clear
 (
 )
 ;
@@ -35,8 +31,6 @@ comment
 comments
 )
 {
-this
-.
 addComment
 (
 comment
