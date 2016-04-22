@@ -39,6 +39,15 @@ scan
 (
 reference
 .
+getParameters
+(
+)
+)
+;
+scan
+(
+reference
+.
 getActualTypeArguments
 (
 )
