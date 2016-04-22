@@ -1,0 +1,15 @@
+protected
+void
+setResult
+(
+T
+result
+)
+{
+this
+.
+result
+=
+result
+;
+}
