@@ -37,11 +37,8 @@ getAnnotations
 )
 )
 ;
-for
+scan
 (
-Object
-o
-:
 annotation
 .
 getElementValues
@@ -52,13 +49,7 @@ values
 (
 )
 )
-{
-scan
-(
-o
-)
 ;
-}
 exit
 (
 annotation
