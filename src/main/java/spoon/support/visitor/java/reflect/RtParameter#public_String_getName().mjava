@@ -1,0 +1,37 @@
+/** 
+ * Returns the name of the parameter.
+ * @return The name of the parameter, either provided by the classfile or synthesized if the class file does not provide a name.
+ */
+public
+String
+getName
+(
+)
+{
+if
+(
+name
+==
+null
+||
+name
+.
+equals
+(
+""
+)
+)
+{
+return
+"arg"
++
+index
+;
+}
+else
+{
+return
+name
+;
+}
+}

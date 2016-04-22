@@ -1,5 +1,5 @@
 /** 
- * Gets a type from its runtime Java class.
+ * Gets a type from its runtime Java class. If the class isn't in the spoon path, the class will be build from the Java reflection and will be marked as shadow (see  {@link spoon.reflect.declaration.CtShadowable}).
  * @param < T > actual type of the class
  * @param cl the java class: note that this class should be Class&lt;T&gt; but it then poses problem when T is a generic type itself
  */
@@ -21,13 +21,13 @@ Class
 cl
 )
 {
-return
-(
+final
 CtType
 <
 T
 >
-)
+aType
+=
 get
 (
 cl
@@ -36,5 +36,36 @@ getName
 (
 )
 )
+;
+if
+(
+aType
+==
+null
+)
+{
+return
+new
+JavaReflectionTreeBuilder
+(
+createFactory
+(
+)
+)
+.
+scan
+(
+(
+Class
+<
+T
+>
+)
+cl
+)
+;
+}
+return
+aType
 ;
 }

@@ -1,0 +1,16 @@
+@Override
+public
+void
+addPackage
+(
+CtPackage
+ctPackage
+)
+{
+throw
+new
+UnsupportedOperationException
+(
+)
+;
+}

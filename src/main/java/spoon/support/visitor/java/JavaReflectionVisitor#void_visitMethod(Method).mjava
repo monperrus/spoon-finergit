@@ -1,0 +1,7 @@
+void
+visitMethod
+(
+Method
+method
+)
+;

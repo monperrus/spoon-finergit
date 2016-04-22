@@ -1,0 +1,16 @@
+@Override
+public
+void
+addParameter
+(
+CtParameter
+ctParameter
+)
+{
+throw
+new
+UnsupportedOperationException
+(
+)
+;
+}

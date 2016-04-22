@@ -1,0 +1,13 @@
+<
+T
+>
+void
+visitInterfaceReference
+(
+Class
+<
+T
+>
+anInterface
+)
+;

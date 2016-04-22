@@ -1,0 +1,17 @@
+/** 
+ * Returns the  {@code Class} which is the type of the parameter.
+ * @return The type of the parameter.
+ */
+public
+Class
+<
+?
+>
+getType
+(
+)
+{
+return
+type
+;
+}

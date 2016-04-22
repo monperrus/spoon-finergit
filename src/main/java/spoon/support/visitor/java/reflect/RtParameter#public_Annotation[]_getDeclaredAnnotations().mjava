@@ -1,0 +1,41 @@
+/** 
+ * Return annotations which declared on the parameter.
+ * @return Annotations declared on the parameter.
+ */
+public
+Annotation
+[
+]
+getDeclaredAnnotations
+(
+)
+{
+if
+(
+method
+==
+null
+)
+{
+return
+constructor
+.
+getParameterAnnotations
+(
+)
+[
+index
+]
+;
+}
+return
+method
+.
+getParameterAnnotations
+(
+)
+[
+index
+]
+;
+}

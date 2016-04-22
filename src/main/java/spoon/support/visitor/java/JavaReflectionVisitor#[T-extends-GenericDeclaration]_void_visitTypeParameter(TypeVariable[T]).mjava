@@ -1,0 +1,15 @@
+<
+T
+extends
+GenericDeclaration
+>
+void
+visitTypeParameter
+(
+TypeVariable
+<
+T
+>
+parameter
+)
+;

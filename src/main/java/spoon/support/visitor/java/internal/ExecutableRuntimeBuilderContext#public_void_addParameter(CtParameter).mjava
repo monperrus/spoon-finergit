@@ -1,0 +1,17 @@
+@Override
+public
+void
+addParameter
+(
+CtParameter
+ctParameter
+)
+{
+ctExecutable
+.
+addParameter
+(
+ctParameter
+)
+;
+}

@@ -1,0 +1,17 @@
+@Override
+public
+void
+addPackage
+(
+CtPackage
+ctPackage
+)
+{
+ctPackage
+.
+addType
+(
+type
+)
+;
+}

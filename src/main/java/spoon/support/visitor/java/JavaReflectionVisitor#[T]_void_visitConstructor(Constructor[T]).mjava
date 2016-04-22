@@ -1,0 +1,13 @@
+<
+T
+>
+void
+visitConstructor
+(
+Constructor
+<
+T
+>
+constructor
+)
+;

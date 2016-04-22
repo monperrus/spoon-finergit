@@ -1,0 +1,7 @@
+void
+visitPackage
+(
+Package
+aPackage
+)
+;

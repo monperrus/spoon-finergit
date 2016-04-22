@@ -1,0 +1,37 @@
+/** 
+ * Returns a hash code based on the executable's hash code and the index.
+ * @return A hash code based on the executable's hash code.
+ */
+public
+int
+hashCode
+(
+)
+{
+if
+(
+method
+==
+null
+)
+{
+return
+constructor
+.
+hashCode
+(
+)
+^
+index
+;
+}
+return
+method
+.
+hashCode
+(
+)
+^
+index
+;
+}

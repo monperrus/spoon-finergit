@@ -1,0 +1,7 @@
+void
+visitType
+(
+WildcardType
+type
+)
+;

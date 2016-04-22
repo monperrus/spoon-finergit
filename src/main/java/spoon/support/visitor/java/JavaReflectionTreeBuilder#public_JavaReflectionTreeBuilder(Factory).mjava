@@ -1,0 +1,14 @@
+public
+JavaReflectionTreeBuilder
+(
+Factory
+factory
+)
+{
+this
+.
+factory
+=
+factory
+;
+}

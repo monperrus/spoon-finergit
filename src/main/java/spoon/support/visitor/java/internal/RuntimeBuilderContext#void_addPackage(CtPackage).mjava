@@ -1,0 +1,7 @@
+void
+addPackage
+(
+CtPackage
+ctPackage
+)
+;

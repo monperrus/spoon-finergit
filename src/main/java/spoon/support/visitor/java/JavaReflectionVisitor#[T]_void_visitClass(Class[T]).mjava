@@ -1,0 +1,13 @@
+<
+T
+>
+void
+visitClass
+(
+Class
+<
+T
+>
+clazz
+)
+;

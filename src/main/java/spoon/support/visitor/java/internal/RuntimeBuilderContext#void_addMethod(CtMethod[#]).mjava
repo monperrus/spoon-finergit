@@ -1,0 +1,10 @@
+void
+addMethod
+(
+CtMethod
+<
+?
+>
+ctMethod
+)
+;

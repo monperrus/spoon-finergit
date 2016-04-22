@@ -179,7 +179,7 @@ true
 ;
 assertEquals
 (
-9
+10
 ,
 refsExecutableClass1
 .

@@ -1,0 +1,10 @@
+void
+addAnnotation
+(
+CtAnnotation
+<
+Annotation
+>
+ctAnnotation
+)
+;

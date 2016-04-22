@@ -1,0 +1,9 @@
+/** 
+ * When an element isn't present in the factory (created in another factory), this element is considered as "shadow". e.g., a shadow element can be a CtType of java.lang.Class built when we call  {@link CtTypeReference#getTypeDeclaration()}on a reference of java.lang.Class.
+ * @return true if the element is a shadow element, otherwise false.
+ */
+boolean
+isShadow
+(
+)
+;

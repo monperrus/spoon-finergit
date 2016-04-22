@@ -1,0 +1,12 @@
+/** 
+ * Returns the  {@link CtType} that corresponds to the reference even if thetype isn't in the Spoon source path  (in this case, the Spoon elements are built with runtime reflection)
+ * @return the type declaration that corresponds to the reference.
+ */
+CtType
+<
+T
+>
+getTypeDeclaration
+(
+)
+;

@@ -1,0 +1,15 @@
+protected
+AbstractRuntimeBuilderContext
+(
+CtShadowable
+element
+)
+{
+element
+.
+setShadow
+(
+true
+)
+;
+}

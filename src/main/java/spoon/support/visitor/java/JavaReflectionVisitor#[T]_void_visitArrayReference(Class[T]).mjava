@@ -1,0 +1,13 @@
+<
+T
+>
+void
+visitArrayReference
+(
+Class
+<
+T
+>
+typeArray
+)
+;

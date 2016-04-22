@@ -1,0 +1,13 @@
+<
+T
+>
+void
+visitEnum
+(
+Class
+<
+T
+>
+clazz
+)
+;
