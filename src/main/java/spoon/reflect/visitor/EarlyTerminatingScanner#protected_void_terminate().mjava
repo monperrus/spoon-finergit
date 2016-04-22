@@ -1,0 +1,11 @@
+protected
+void
+terminate
+(
+)
+{
+terminate
+=
+true
+;
+}
