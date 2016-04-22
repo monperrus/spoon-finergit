@@ -8,10 +8,7 @@ CtGenericElement
 T
 addFormalTypeParameter
 (
-CtTypeReference
-<
-?
->
+CtTypeParameterReference
 formalTypeParameter
 )
 {
@@ -45,10 +42,7 @@ formalTypeParameters
 new
 ArrayList
 <
-CtTypeReference
-<
-?
->
+CtTypeParameterReference
 >
 (
 METHOD_TYPE_PARAMETERS_CONTAINER_DEFAULT_CAPACITY

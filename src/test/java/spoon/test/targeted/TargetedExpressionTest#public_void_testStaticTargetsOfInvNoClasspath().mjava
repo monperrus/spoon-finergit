@@ -272,7 +272,7 @@ class
 .
 result
 (
-"new Foo(0 , 0).staticMethod()"
+"new Foo(0, 0).staticMethod()"
 )
 ,
 elements

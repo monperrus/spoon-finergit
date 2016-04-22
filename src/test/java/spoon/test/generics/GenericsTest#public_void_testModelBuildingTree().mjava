@@ -34,9 +34,6 @@ getSimpleName
 CtTypeParameterReference
 generic
 =
-(
-CtTypeParameterReference
-)
 type
 .
 getFormalTypeParameters

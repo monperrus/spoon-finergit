@@ -56,10 +56,7 @@ getFactory
 )
 ;
 final
-CtTypeReference
-<
-?
->
+CtTypeParameterReference
 firstRef
 =
 factory
@@ -87,10 +84,7 @@ get
 )
 ;
 final
-CtTypeReference
-<
-?
->
+CtTypeParameterReference
 secondRef
 =
 factory

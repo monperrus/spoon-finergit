@@ -10,10 +10,7 @@ setFormalTypeParameters
 (
 List
 <
-CtTypeReference
-<
-?
->
+CtTypeParameterReference
 >
 formalTypeParameters
 )

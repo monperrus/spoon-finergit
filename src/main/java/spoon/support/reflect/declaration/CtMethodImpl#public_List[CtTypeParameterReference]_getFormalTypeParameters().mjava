@@ -2,10 +2,7 @@
 public
 List
 <
-CtTypeReference
-<
-?
->
+CtTypeParameterReference
 >
 getFormalTypeParameters
 (

@@ -133,9 +133,6 @@ final
 CtTypeParameterReference
 generic
 =
-(
-CtTypeParameterReference
-)
 localTypes
 .
 get

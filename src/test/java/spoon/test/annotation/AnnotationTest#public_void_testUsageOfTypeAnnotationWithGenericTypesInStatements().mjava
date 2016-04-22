@@ -55,10 +55,7 @@ get
 final
 List
 <
-CtTypeReference
-<
-?
->
+CtTypeParameterReference
 >
 formalTypeParameters
 =

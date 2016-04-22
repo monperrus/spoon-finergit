@@ -45,9 +45,6 @@ size
 CtTypeParameterReference
 genericT
 =
-(
-CtTypeParameterReference
-)
 aConstructor
 .
 getFormalTypeParameters

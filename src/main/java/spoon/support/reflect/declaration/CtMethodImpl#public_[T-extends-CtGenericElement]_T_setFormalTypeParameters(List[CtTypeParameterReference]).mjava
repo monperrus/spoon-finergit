@@ -10,10 +10,7 @@ setFormalTypeParameters
 (
 List
 <
-CtTypeReference
-<
-?
->
+CtTypeParameterReference
 >
 formalTypeParameters
 )
@@ -38,10 +35,7 @@ formalTypeParameters
 new
 ArrayList
 <
-CtTypeReference
-<
-?
->
+CtTypeParameterReference
 >
 (
 METHOD_TYPE_PARAMETERS_CONTAINER_DEFAULT_CAPACITY
@@ -58,10 +52,7 @@ clear
 ;
 for
 (
-CtTypeReference
-<
-?
->
+CtTypeParameterReference
 formalTypeParameter
 :
 formalTypeParameters

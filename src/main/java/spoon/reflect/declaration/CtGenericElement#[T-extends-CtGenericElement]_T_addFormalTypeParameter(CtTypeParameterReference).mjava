@@ -1,15 +1,17 @@
 /** 
- * Removes a type parameters from this generic element.
+ * Add a type parameter to this generic element.
  * @param formalTypeParameter
  * @return <tt>true</tt> if this element changed as a result of the call
  */
-boolean
-removeFormalTypeParameter
-(
-CtTypeReference
 <
-?
+T
+extends
+CtGenericElement
 >
+T
+addFormalTypeParameter
+(
+CtTypeParameterReference
 formalTypeParameter
 )
 ;

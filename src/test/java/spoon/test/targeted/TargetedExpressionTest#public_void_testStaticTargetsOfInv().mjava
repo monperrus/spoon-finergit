@@ -280,7 +280,7 @@ class
 .
 result
 (
-"new spoon.test.targeted.testclasses.Foo(0 , 0).staticMethod()"
+"new spoon.test.targeted.testclasses.Foo(0, 0).staticMethod()"
 )
 ,
 elements
