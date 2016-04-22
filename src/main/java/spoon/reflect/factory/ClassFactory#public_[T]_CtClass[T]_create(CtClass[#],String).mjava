@@ -46,6 +46,13 @@ setSimpleName
 simpleName
 )
 ;
+declaringClass
+.
+addNestedType
+(
+c
+)
+;
 return
 c
 ;
