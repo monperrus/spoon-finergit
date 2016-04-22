@@ -49,7 +49,15 @@ PACKAGE_SEPARATOR
 CtPackage
 current
 =
-rootPackage
+factory
+.
+getModel
+(
+)
+.
+getRootPackage
+(
+)
 ;
 if
 (

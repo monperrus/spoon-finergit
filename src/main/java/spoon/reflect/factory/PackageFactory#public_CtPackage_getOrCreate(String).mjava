@@ -26,7 +26,15 @@ PACKAGE_SEPARATOR
 CtPackage
 last
 =
-rootPackage
+factory
+.
+getModel
+(
+)
+.
+getRootPackage
+(
+)
 ;
 while
 (

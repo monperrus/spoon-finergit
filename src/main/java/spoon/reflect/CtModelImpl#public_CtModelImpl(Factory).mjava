@@ -1,0 +1,15 @@
+public
+CtModelImpl
+(
+Factory
+f
+)
+{
+rootPackage
+.
+setFactory
+(
+f
+)
+;
+}

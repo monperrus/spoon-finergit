@@ -1,0 +1,8 @@
+/** 
+ * returns the root package 
+ */
+CtPackage
+getRootPackage
+(
+)
+;

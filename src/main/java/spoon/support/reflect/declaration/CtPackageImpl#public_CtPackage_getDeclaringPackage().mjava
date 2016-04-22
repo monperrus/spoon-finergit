@@ -5,6 +5,8 @@ getDeclaringPackage
 (
 )
 {
+try
+{
 return
 getParent
 (
@@ -13,4 +15,15 @@ CtPackage
 class
 )
 ;
+}
+catch
+(
+ParentNotInitializedException
+e
+)
+{
+return
+null
+;
+}
 }

@@ -1,0 +1,21 @@
+/** 
+ * Returns all the model elements matching the filter. 
+ */
+<
+E
+extends
+CtElement
+>
+List
+<
+E
+>
+getElements
+(
+Filter
+<
+E
+>
+filter
+)
+;

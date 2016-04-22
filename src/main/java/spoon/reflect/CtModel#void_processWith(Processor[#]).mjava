@@ -1,0 +1,13 @@
+/** 
+ * process this model with the given processor 
+ */
+void
+processWith
+(
+Processor
+<
+?
+>
+processor
+)
+;

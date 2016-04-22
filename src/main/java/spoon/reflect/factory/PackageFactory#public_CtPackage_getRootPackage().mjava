@@ -8,6 +8,14 @@ getRootPackage
 )
 {
 return
-rootPackage
+factory
+.
+getModel
+(
+)
+.
+getRootPackage
+(
+)
 ;
 }

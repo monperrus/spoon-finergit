@@ -1,0 +1,14 @@
+/** 
+ * returns all top-level types of the model 
+ */
+Collection
+<
+CtType
+<
+?
+>
+>
+getAllTypes
+(
+)
+;

@@ -5,6 +5,6 @@ getMainFactory
 )
 {
 return
-mainFactory
+factory
 ;
 }

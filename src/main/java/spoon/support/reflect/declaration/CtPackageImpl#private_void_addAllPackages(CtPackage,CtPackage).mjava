@@ -1,0 +1,35 @@
+/** 
+ * add all packages of "from" in "to" 
+ */
+private
+void
+addAllPackages
+(
+CtPackage
+from
+,
+CtPackage
+to
+)
+{
+for
+(
+CtPackage
+p
+:
+from
+.
+getPackages
+(
+)
+)
+{
+to
+.
+addPackage
+(
+p
+)
+;
+}
+}

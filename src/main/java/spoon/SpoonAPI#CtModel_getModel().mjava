@@ -1,0 +1,8 @@
+/** 
+ * Returns the model built from the sources given via  {@link #addInputResource(String)} 
+ */
+CtModel
+getModel
+(
+)
+;

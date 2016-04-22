@@ -1,0 +1,11 @@
+/** 
+ * returns all packages of the model 
+ */
+Collection
+<
+CtPackage
+>
+getAllPackages
+(
+)
+;

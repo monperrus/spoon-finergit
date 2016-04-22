@@ -1,0 +1,24 @@
+/** 
+ * Creates a filter with the no typing constraint.
+ */
+@SuppressWarnings("unchecked")
+public
+AbstractFilter
+(
+)
+{
+this
+.
+type
+=
+(
+Class
+<
+T
+>
+)
+CtElement
+.
+class
+;
+}
