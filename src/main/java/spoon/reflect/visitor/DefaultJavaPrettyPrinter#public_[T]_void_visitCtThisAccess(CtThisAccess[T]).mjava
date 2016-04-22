@@ -48,6 +48,17 @@ thisAccess
 isImplicit
 (
 )
+&&
+!
+thisAccess
+.
+getTarget
+(
+)
+.
+isImplicit
+(
+)
 )
 {
 final
