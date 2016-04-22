@@ -6,12 +6,6 @@ getQualifiedName
 )
 {
 return
-Array
-.
-class
-.
-getCanonicalName
-(
-)
+ARRAY_CANONICAL_NAME
 ;
 }

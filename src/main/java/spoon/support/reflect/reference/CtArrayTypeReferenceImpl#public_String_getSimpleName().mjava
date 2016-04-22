@@ -6,12 +6,6 @@ getSimpleName
 )
 {
 return
-Array
-.
-class
-.
-getSimpleName
-(
-)
+ARRAY_SIMPLE_NAME
 ;
 }
