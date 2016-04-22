@@ -3,10 +3,7 @@ public
 void
 addFormalType
 (
-CtTypeReference
-<
-?
->
+CtTypeParameterReference
 parameterRef
 )
 {

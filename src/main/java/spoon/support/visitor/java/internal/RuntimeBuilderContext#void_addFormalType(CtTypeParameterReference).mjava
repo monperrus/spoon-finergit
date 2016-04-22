@@ -1,10 +1,7 @@
 void
 addFormalType
 (
-CtTypeReference
-<
-?
->
+CtTypeParameterReference
 parameterRef
 )
 ;
