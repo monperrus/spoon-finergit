@@ -32,7 +32,7 @@ Code
 (
 )
 .
-createTypeAccess
+createTypeAccessWithoutCloningReference
 (
 references
 .

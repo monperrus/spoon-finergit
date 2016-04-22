@@ -65,7 +65,7 @@ Code
 (
 )
 .
-createTypeAccess
+createTypeAccessWithoutCloningReference
 (
 typeRefOfSuper
 )

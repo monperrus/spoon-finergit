@@ -352,7 +352,7 @@ Code
 (
 )
 .
-createTypeAccess
+createTypeAccessWithoutCloningReference
 (
 references
 .
