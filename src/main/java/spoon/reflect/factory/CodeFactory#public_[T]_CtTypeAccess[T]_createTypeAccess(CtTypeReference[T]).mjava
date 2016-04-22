@@ -1,5 +1,5 @@
 /** 
- * Creates a accessed type.
+ * Creates a accessed type. <p>This method sets a <i>clone</i> of the given  {@code accessedType} object to the{@linkplain CtTypeAccess#getAccessedType() accessedType} field of the returned {@link CtTypeAccess}. If the given  {@code accessedType} is unique and cloning is not needed, use{@link #createTypeAccessWithoutCloningReference(CtTypeReference)} instead of this method.</p>
  * @param accessedType a type reference to the accessed type.
  * @param < T > the type of the expression.
  * @return a accessed type expression.
@@ -21,12 +21,11 @@ T
 accessedType
 )
 {
-final
-CtTypeAccess
+CtTypeReference
 <
 T
 >
-typeAccess
+accessedTypeClone
 =
 factory
 .
@@ -34,18 +33,15 @@ Core
 (
 )
 .
-createTypeAccess
-(
-)
-;
-typeAccess
-.
-setAccessedType
+clone
 (
 accessedType
 )
 ;
 return
-typeAccess
+createTypeAccessWithoutCloningReference
+(
+accessedTypeClone
+)
 ;
 }

@@ -1215,7 +1215,7 @@ Code
 (
 )
 .
-createTypeAccess
+createTypeAccessWithoutCloningReference
 (
 references
 .
@@ -1315,7 +1315,7 @@ Code
 (
 )
 .
-createTypeAccess
+createTypeAccessWithoutCloningReference
 (
 typeReference
 )
