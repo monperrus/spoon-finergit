@@ -111,7 +111,7 @@ getVariable
 }
 assertEquals
 (
-"java.lang.Class mclass = ((java.lang.Class)(org.argouml.model.ModelFacade.USE_CASE))"
+"java.lang.Class mclass = ((java.lang.Class) (org.argouml.model.ModelFacade.USE_CASE))"
 ,
 elements
 .

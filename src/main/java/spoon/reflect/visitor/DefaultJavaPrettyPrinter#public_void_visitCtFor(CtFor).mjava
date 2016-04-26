@@ -111,7 +111,7 @@ false
 }
 write
 (
-" ; "
+"; "
 )
 ;
 scan
@@ -125,7 +125,7 @@ getExpression
 ;
 write
 (
-" ; "
+"; "
 )
 ;
 for

@@ -52,7 +52,7 @@ lambda
 ;
 assertIsWellPrinted
 (
-"((spoon.test.lambda.testclasses.Foo.Check)(() -> false))"
+"((spoon.test.lambda.testclasses.Foo.Check) (() -> false))"
 ,
 lambda
 )

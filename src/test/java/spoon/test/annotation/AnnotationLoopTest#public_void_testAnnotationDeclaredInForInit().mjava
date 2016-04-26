@@ -370,7 +370,7 @@ expected
 +
 nl
 +
-"java.lang.String u = \"\", p = \"\", e = \"\" ; u != e ; u = p , p = \"\") {"
+"java.lang.String u = \"\", p = \"\", e = \"\"; u != e; u = p , p = \"\") {"
 +
 nl
 +

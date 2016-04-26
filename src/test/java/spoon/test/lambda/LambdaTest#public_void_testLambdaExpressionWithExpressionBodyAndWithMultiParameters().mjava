@@ -136,7 +136,7 @@ lambda
 ;
 assertIsWellPrinted
 (
-"((spoon.test.lambda.testclasses.Foo.CheckPersons)(( p1, p2) -> ((p1.age) - (p2.age)) > 0))"
+"((spoon.test.lambda.testclasses.Foo.CheckPersons) (( p1, p2) -> ((p1.age) - (p2.age)) > 0))"
 ,
 lambda
 )

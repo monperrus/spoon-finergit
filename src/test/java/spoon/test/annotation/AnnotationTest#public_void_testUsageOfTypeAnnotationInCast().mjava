@@ -201,7 +201,7 @@ lineSeparator
 (
 )
 +
-"String)(s))"
+"String) (s))"
 ,
 returnedExpression
 .

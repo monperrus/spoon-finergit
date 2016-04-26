@@ -25,7 +25,7 @@ createCodeSnippetStatement
 +
 "public void foo() {"
 +
-" Class<String> x=(Class<String>)new Object();"
+" Class<String> x=(Class<String>) new Object();"
 +
 "}"
 +
@@ -63,7 +63,7 @@ toArray
 ;
 assertEquals
 (
-"java.lang.Class<java.lang.String> x = ((java.lang.Class<java.lang.String>)(new java.lang.Object()))"
+"java.lang.Class<java.lang.String> x = ((java.lang.Class<java.lang.String>) (new java.lang.Object()))"
 ,
 foo
 .

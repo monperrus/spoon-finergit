@@ -91,7 +91,7 @@ size
 ;
 assertEquals
 (
-"((spoon.test.targeted.testclasses.Pozole<T>)(v1))"
+"((spoon.test.targeted.testclasses.Pozole<T>) (v1))"
 ,
 elements
 .

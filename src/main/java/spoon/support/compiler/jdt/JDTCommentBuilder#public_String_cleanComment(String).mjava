@@ -44,7 +44,7 @@ lines
 .
 replaceAll
 (
-"^/\\*+"
+"^/\\*+ ?"
 ,
 ""
 )
@@ -94,7 +94,7 @@ cleanUpLine
 .
 replaceAll
 (
-"/\\*+"
+"/\\*+ ?"
 ,
 ""
 )
@@ -124,7 +124,7 @@ replaceAll
 .
 replaceAll
 (
-"^[ \t]*\\*+"
+"^[ \t]*\\*+ ?"
 ,
 ""
 )
@@ -138,7 +138,7 @@ cleanUpLine
 .
 replaceAll
 (
-"^[ \t]*\\*+"
+"^[ \t]*\\*+ ?"
 ,
 ""
 )

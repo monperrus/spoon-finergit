@@ -51,6 +51,27 @@ getFormalTypeParameters
 )
 )
 ;
+if
+(
+m
+.
+getFormalTypeParameters
+(
+)
+.
+size
+(
+)
+>
+0
+)
+{
+write
+(
+" "
+)
+;
+}
 final
 boolean
 old

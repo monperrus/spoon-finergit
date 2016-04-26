@@ -290,7 +290,7 @@ nl
 +
 nl
 +
-"    private ENUM(int num ,Enum<?> e) {"
+"    private ENUM(int num, Enum<?> e) {"
 +
 nl
 +
