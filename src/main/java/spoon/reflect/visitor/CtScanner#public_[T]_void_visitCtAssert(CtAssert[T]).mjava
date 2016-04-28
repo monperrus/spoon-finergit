@@ -5,6 +5,7 @@ T
 void
 visitCtAssert
 (
+final
 CtAssert
 <
 T

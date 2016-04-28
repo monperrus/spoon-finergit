@@ -6,6 +6,7 @@ T
 void
 visitCtArrayWrite
 (
+final
 CtArrayWrite
 <
 T

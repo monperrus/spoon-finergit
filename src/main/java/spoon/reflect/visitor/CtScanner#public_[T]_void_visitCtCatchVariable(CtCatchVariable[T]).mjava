@@ -5,6 +5,7 @@ T
 void
 visitCtCatchVariable
 (
+final
 CtCatchVariable
 <
 T

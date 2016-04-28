@@ -10,6 +10,7 @@ Enum
 void
 visitCtEnum
 (
+final
 CtEnum
 <
 T

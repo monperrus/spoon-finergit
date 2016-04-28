@@ -5,6 +5,7 @@ T
 void
 visitCtConstructor
 (
+final
 CtConstructor
 <
 T

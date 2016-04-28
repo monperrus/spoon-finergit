@@ -6,6 +6,7 @@ T
 void
 visitCtFieldWrite
 (
+final
 CtFieldWrite
 <
 T

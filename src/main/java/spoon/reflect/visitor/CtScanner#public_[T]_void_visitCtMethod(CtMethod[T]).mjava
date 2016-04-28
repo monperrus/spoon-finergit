@@ -5,6 +5,7 @@ T
 void
 visitCtMethod
 (
+final
 CtMethod
 <
 T

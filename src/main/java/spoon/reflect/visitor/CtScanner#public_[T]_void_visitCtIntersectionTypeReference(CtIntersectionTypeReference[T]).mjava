@@ -6,6 +6,7 @@ T
 void
 visitCtIntersectionTypeReference
 (
+final
 CtIntersectionTypeReference
 <
 T

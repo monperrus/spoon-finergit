@@ -5,6 +5,7 @@ T
 void
 visitCtTypeReference
 (
+final
 CtTypeReference
 <
 T

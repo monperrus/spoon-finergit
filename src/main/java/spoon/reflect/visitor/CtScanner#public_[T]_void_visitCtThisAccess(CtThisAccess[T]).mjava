@@ -6,6 +6,7 @@ T
 void
 visitCtThisAccess
 (
+final
 CtThisAccess
 <
 T

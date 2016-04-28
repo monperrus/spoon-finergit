@@ -6,6 +6,7 @@ T
 void
 visitCtFieldRead
 (
+final
 CtFieldRead
 <
 T

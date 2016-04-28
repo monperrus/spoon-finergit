@@ -3,6 +3,7 @@ public
 void
 visitCtCircularTypeReference
 (
+final
 CtCircularTypeReference
 reference
 )

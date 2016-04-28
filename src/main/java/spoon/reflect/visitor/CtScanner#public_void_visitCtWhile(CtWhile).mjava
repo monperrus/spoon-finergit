@@ -2,6 +2,7 @@ public
 void
 visitCtWhile
 (
+final
 CtWhile
 whileLoop
 )

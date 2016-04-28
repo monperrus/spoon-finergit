@@ -5,6 +5,7 @@ T
 void
 visitCtField
 (
+final
 CtField
 <
 T

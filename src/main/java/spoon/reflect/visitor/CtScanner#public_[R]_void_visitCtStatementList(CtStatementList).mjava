@@ -5,6 +5,7 @@ R
 void
 visitCtStatementList
 (
+final
 CtStatementList
 statements
 )

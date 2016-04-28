@@ -3,6 +3,7 @@ public
 void
 visitCtTryWithResource
 (
+final
 CtTryWithResource
 tryWithResource
 )

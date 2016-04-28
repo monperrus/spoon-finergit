@@ -9,6 +9,7 @@ T
 void
 visitCtAssignment
 (
+final
 CtAssignment
 <
 T

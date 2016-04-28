@@ -5,6 +5,7 @@ T
 void
 visitCtInvocation
 (
+final
 CtInvocation
 <
 T

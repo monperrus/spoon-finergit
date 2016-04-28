@@ -1,0 +1,16 @@
+public
+void
+visitCtPackageReference
+(
+final
+spoon
+.
+reflect
+.
+reference
+.
+CtPackageReference
+reference
+)
+{
+}

@@ -5,6 +5,7 @@ T
 void
 visitCtAnnotationFieldAccess
 (
+final
 CtAnnotationFieldAccess
 <
 T

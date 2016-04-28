@@ -5,6 +5,7 @@ S
 void
 visitCtSwitch
 (
+final
 CtSwitch
 <
 S

@@ -6,6 +6,7 @@ T
 void
 visitCtLambda
 (
+final
 CtLambda
 <
 T

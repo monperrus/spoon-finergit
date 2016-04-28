@@ -1,0 +1,17 @@
+@java.lang.Override
+public
+void
+visitCtCircularTypeReference
+(
+final
+spoon
+.
+reflect
+.
+internal
+.
+CtCircularTypeReference
+reference
+)
+{
+}

@@ -2,6 +2,7 @@ public
 void
 visitCtDo
 (
+final
 CtDo
 doLoop
 )

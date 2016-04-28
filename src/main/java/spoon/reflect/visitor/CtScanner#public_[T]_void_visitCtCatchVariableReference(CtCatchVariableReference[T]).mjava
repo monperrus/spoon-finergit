@@ -5,6 +5,7 @@ T
 void
 visitCtCatchVariableReference
 (
+final
 CtCatchVariableReference
 <
 T

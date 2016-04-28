@@ -2,6 +2,7 @@ public
 void
 visitCtIf
 (
+final
 CtIf
 ifElement
 )

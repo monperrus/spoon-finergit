@@ -2,6 +2,7 @@ public
 void
 visitCtPackageReference
 (
+final
 CtPackageReference
 reference
 )

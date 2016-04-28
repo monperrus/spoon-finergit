@@ -5,6 +5,7 @@ T
 void
 visitCtBinaryOperator
 (
+final
 CtBinaryOperator
 <
 T

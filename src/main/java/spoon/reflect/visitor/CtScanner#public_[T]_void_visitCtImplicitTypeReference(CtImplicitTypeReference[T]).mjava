@@ -6,6 +6,7 @@ T
 void
 visitCtImplicitTypeReference
 (
+final
 CtImplicitTypeReference
 <
 T

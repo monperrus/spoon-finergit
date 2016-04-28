@@ -2,6 +2,7 @@ public
 void
 visitCtPackage
 (
+final
 CtPackage
 ctPackage
 )

@@ -12,6 +12,7 @@ CtExpression
 void
 visitCtArrayAccess
 (
+final
 CtArrayAccess
 <
 T

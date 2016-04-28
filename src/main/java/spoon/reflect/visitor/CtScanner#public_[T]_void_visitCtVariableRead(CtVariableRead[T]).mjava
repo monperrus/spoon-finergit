@@ -6,6 +6,7 @@ T
 void
 visitCtVariableRead
 (
+final
 CtVariableRead
 <
 T

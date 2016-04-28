@@ -2,6 +2,7 @@ public
 void
 visitCtCodeSnippetStatement
 (
+final
 CtCodeSnippetStatement
 statement
 )

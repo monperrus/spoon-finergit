@@ -9,6 +9,7 @@ T
 void
 visitCtOperatorAssignment
 (
+final
 CtOperatorAssignment
 <
 T

@@ -6,6 +6,7 @@ T
 void
 visitCtConstructorCall
 (
+final
 CtConstructorCall
 <
 T

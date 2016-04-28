@@ -6,6 +6,7 @@ T
 void
 visitCtEnumValue
 (
+final
 CtEnumValue
 <
 T

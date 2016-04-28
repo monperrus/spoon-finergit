@@ -5,6 +5,7 @@ T
 void
 visitCtCodeSnippetExpression
 (
+final
 CtCodeSnippetExpression
 <
 T

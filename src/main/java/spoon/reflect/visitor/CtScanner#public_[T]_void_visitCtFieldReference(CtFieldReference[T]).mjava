@@ -5,6 +5,7 @@ T
 void
 visitCtFieldReference
 (
+final
 CtFieldReference
 <
 T

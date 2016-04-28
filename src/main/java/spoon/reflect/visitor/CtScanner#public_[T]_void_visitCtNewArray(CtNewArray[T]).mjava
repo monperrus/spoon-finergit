@@ -5,6 +5,7 @@ T
 void
 visitCtNewArray
 (
+final
 CtNewArray
 <
 T

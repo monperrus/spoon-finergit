@@ -15,6 +15,13 @@ Boolean
 condition
 )
 {
+if
+(
+condition
+!=
+null
+)
+{
 condition
 .
 setParent
@@ -22,6 +29,7 @@ setParent
 this
 )
 ;
+}
 this
 .
 condition

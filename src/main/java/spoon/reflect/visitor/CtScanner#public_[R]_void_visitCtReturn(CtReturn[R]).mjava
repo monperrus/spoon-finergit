@@ -5,6 +5,7 @@ R
 void
 visitCtReturn
 (
+final
 CtReturn
 <
 R

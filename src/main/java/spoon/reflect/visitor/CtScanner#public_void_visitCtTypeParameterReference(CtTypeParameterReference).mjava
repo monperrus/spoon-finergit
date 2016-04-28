@@ -2,6 +2,7 @@ public
 void
 visitCtTypeParameterReference
 (
+final
 CtTypeParameterReference
 ref
 )

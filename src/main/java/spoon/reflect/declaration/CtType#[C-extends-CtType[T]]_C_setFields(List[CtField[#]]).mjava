@@ -1,0 +1,24 @@
+/** 
+ * Sets all fields in the type.
+ */
+<
+C
+extends
+CtType
+<
+T
+>
+>
+C
+setFields
+(
+List
+<
+CtField
+<
+?
+>
+>
+fields
+)
+;

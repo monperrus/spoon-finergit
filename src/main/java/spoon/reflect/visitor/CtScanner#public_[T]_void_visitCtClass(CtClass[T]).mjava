@@ -5,6 +5,7 @@ T
 void
 visitCtClass
 (
+final
 CtClass
 <
 T

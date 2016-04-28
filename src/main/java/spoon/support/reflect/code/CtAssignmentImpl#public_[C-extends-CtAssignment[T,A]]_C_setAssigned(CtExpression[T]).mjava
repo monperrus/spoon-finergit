@@ -20,6 +20,13 @@ T
 assigned
 )
 {
+if
+(
+assigned
+!=
+null
+)
+{
 assigned
 .
 setParent
@@ -27,6 +34,7 @@ setParent
 this
 )
 ;
+}
 this
 .
 assigned

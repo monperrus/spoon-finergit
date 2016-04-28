@@ -2,6 +2,7 @@ public
 void
 visitCtCatch
 (
+final
 CtCatch
 catchBlock
 )

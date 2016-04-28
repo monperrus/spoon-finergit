@@ -2,6 +2,7 @@ public
 void
 visitCtThrow
 (
+final
 CtThrow
 throwStatement
 )

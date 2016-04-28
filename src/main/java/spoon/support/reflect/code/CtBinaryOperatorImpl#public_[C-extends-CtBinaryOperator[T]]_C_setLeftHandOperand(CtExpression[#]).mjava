@@ -18,6 +18,13 @@ CtExpression
 expression
 )
 {
+if
+(
+expression
+!=
+null
+)
+{
 expression
 .
 setParent
@@ -25,6 +32,7 @@ setParent
 this
 )
 ;
+}
 leftHandOperand
 =
 expression

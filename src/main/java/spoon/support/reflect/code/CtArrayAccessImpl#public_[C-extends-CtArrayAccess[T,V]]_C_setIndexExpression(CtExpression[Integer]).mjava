@@ -20,6 +20,13 @@ Integer
 expression
 )
 {
+if
+(
+expression
+!=
+null
+)
+{
 expression
 .
 setParent
@@ -27,6 +34,7 @@ setParent
 this
 )
 ;
+}
 this
 .
 expression

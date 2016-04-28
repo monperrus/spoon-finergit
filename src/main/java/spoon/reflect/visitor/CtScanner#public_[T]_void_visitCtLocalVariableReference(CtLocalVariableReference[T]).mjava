@@ -5,6 +5,7 @@ T
 void
 visitCtLocalVariableReference
 (
+final
 CtLocalVariableReference
 <
 T

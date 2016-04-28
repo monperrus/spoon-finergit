@@ -2,6 +2,7 @@ public
 void
 visitCtAnonymousExecutable
 (
+final
 CtAnonymousExecutable
 anonymousExec
 )

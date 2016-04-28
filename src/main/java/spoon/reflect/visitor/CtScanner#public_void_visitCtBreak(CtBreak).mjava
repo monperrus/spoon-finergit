@@ -2,6 +2,7 @@ public
 void
 visitCtBreak
 (
+final
 CtBreak
 breakStatement
 )

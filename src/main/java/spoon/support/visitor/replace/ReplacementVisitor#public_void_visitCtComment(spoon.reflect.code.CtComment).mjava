@@ -1,0 +1,17 @@
+@java.lang.Override
+public
+void
+visitCtComment
+(
+final
+spoon
+.
+reflect
+.
+code
+.
+CtComment
+comment
+)
+{
+}

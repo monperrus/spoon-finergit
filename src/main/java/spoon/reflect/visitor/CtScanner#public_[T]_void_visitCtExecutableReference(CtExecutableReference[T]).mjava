@@ -5,6 +5,7 @@ T
 void
 visitCtExecutableReference
 (
+final
 CtExecutableReference
 <
 T

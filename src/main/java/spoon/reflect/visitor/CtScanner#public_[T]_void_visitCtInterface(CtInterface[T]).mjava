@@ -5,6 +5,7 @@ T
 void
 visitCtInterface
 (
+final
 CtInterface
 <
 T
