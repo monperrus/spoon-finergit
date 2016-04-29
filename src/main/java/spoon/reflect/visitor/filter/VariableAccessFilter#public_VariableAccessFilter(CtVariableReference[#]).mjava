@@ -12,6 +12,21 @@ CtVariableReference
 variable
 )
 {
+if
+(
+variable
+==
+null
+)
+{
+throw
+new
+IllegalArgumentException
+(
+"The parameter variable cannot be null."
+)
+;
+}
 this
 .
 variable
