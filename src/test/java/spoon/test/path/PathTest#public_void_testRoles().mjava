@@ -54,7 +54,7 @@ getStatement
 )
 )
 .
-getThenStatement
+getElseStatement
 (
 )
 )
@@ -106,7 +106,7 @@ getStatement
 )
 )
 .
-getThenStatement
+getElseStatement
 (
 )
 )

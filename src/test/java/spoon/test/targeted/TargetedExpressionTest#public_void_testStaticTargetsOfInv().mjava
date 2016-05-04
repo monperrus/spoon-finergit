@@ -133,7 +133,7 @@ CtThisAccess
 <
 Foo
 >
-exepectedThisAccess
+expectedThisAccess
 =
 type
 .
@@ -141,17 +141,11 @@ getFactory
 (
 )
 .
-Core
+Code
 (
 )
 .
 createThisAccess
-(
-)
-;
-exepectedThisAccess
-.
-setType
 (
 expectedType
 )
@@ -337,7 +331,7 @@ expectedType
 .
 target
 (
-exepectedThisAccess
+expectedThisAccess
 )
 .
 result
