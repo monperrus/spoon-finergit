@@ -24,9 +24,9 @@ contains
 {
 throw
 new
-RuntimeException
+SpoonException
 (
-"argl"
+"A reference can't have a \"?\" in its name."
 )
 ;
 }
