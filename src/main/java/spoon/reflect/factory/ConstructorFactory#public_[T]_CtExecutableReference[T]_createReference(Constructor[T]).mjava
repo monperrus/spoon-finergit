@@ -44,7 +44,16 @@ createReference
 (
 type
 ,
+factory
+.
+Core
+(
+)
+.
+clone
+(
 type
+)
 ,
 CtExecutableReference
 .

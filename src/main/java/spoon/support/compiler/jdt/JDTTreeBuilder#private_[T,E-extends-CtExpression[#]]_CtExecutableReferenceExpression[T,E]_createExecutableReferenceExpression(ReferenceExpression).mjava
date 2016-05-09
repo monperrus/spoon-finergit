@@ -107,6 +107,14 @@ executableReference
 .
 setType
 (
+factory
+.
+Core
+(
+)
+.
+clone
+(
 (
 CtTypeReference
 <
@@ -117,6 +125,7 @@ executableReference
 .
 getDeclaringType
 (
+)
 )
 )
 ;

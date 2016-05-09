@@ -1,0 +1,33 @@
+private
+static
+String
+toDebugString
+(
+CtElement
+e
+)
+{
+return
+"Element: "
++
+e
++
+"\nSignature: "
++
+e
+.
+getSignature
+(
+)
++
+"\nClass: "
++
+e
+.
+getClass
+(
+)
++
+"\n"
+;
+}

@@ -898,6 +898,14 @@ va
 .
 setType
 (
+factory
+.
+Core
+(
+)
+.
+clone
+(
 va
 .
 getVariable
@@ -906,6 +914,7 @@ getVariable
 .
 getType
 (
+)
 )
 )
 ;
