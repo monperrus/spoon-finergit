@@ -40,6 +40,27 @@ if
 (
 c
 .
+getFormalTypeParameters
+(
+)
+.
+size
+(
+)
+>
+0
+)
+{
+write
+(
+' '
+)
+;
+}
+if
+(
+c
+.
 getDeclaringType
 (
 )
@@ -155,7 +176,7 @@ ref
 ;
 write
 (
-" , "
+", "
 )
 ;
 }
