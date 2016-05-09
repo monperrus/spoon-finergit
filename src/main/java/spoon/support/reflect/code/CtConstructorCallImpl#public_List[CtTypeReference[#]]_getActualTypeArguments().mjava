@@ -12,8 +12,6 @@ getActualTypeArguments
 )
 {
 return
-Collections
-.
 unmodifiableList
 (
 actualTypeArguments

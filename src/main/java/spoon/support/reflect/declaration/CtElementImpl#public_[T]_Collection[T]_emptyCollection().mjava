@@ -1,4 +1,10 @@
-@SuppressWarnings("unchecked")
+/** 
+ * Returns an empty collection.
+ * @param < T > type of elements
+ * @return an empty collection
+ * @deprecated use {@link #emptyList()} or {@link #emptySet()} instead
+ */
+@Deprecated
 public
 static
 <
@@ -13,12 +19,8 @@ emptyCollection
 )
 {
 return
+emptyList
 (
-Collection
-<
-T
->
 )
-EMPTY_LIST
 ;
 }

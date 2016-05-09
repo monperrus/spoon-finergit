@@ -1,0 +1,14 @@
+@Override
+public
+void
+remove
+(
+)
+{
+throw
+new
+IllegalStateException
+(
+)
+;
+}

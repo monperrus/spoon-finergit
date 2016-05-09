@@ -1,0 +1,10 @@
+private
+Object
+readResolve
+(
+)
+{
+return
+EMPTY_SET
+;
+}

@@ -61,7 +61,7 @@ getPackage
 (
 )
 ;
-Collection
+List
 <
 CtTypeReference
 <
@@ -163,7 +163,7 @@ ref
 return
 Collections
 .
-unmodifiableCollection
+unmodifiableList
 (
 refs
 )

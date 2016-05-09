@@ -1,4 +1,3 @@
-@SuppressWarnings("unchecked")
 public
 static
 <
@@ -13,12 +12,10 @@ emptyList
 )
 {
 return
+EmptyClearableList
+.
+instance
 (
-List
-<
-T
->
 )
-EMPTY_LIST
 ;
 }
