@@ -58,15 +58,6 @@ scan
 (
 newClass
 .
-getActualTypeArguments
-(
-)
-)
-;
-scan
-(
-newClass
-.
 getArguments
 (
 )

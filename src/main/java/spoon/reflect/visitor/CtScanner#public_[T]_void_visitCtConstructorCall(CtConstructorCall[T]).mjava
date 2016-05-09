@@ -59,15 +59,6 @@ scan
 (
 ctConstructorCall
 .
-getActualTypeArguments
-(
-)
-)
-;
-scan
-(
-ctConstructorCall
-.
 getArguments
 (
 )
