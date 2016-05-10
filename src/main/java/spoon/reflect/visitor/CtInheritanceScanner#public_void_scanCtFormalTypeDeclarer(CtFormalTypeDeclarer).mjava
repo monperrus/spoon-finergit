@@ -1,0 +1,12 @@
+/** 
+ * Scans a formal type declarer.
+ */
+public
+void
+scanCtFormalTypeDeclarer
+(
+CtFormalTypeDeclarer
+e
+)
+{
+}

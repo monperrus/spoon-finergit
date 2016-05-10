@@ -27,7 +27,7 @@ scanCtTypeInformation
 e
 )
 ;
-scanCtGenericElement
+scanCtFormalTypeDeclarer
 (
 e
 )

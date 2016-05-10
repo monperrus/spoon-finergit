@@ -22,6 +22,11 @@ scanCtStatement
 e
 )
 ;
+scanCtActualTypeContainer
+(
+e
+)
+;
 scanCtTargetedExpression
 (
 e

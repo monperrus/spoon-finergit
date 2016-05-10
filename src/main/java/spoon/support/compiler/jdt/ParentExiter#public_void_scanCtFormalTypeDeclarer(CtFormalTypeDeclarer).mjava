@@ -1,9 +1,9 @@
 @Override
 public
 void
-scanCtGenericElement
+scanCtFormalTypeDeclarer
 (
-CtGenericElement
+CtFormalTypeDeclarer
 e
 )
 {

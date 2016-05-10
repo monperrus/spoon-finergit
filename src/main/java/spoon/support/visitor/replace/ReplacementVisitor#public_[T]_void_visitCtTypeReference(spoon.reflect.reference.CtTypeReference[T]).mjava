@@ -88,7 +88,7 @@ replace
 .
 ReplacementVisitor
 .
-CtGenericElementReferenceActualTypeArgumentsReplaceListener
+CtActualTypeContainerActualTypeArgumentsReplaceListener
 (
 reference
 )

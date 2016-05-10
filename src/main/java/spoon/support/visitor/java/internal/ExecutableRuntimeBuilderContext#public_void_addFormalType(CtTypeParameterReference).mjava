@@ -11,12 +11,12 @@ if
 (
 ctExecutable
 instanceof
-CtGenericElement
+CtFormalTypeDeclarer
 )
 {
 (
 (
-CtGenericElement
+CtFormalTypeDeclarer
 )
 ctExecutable
 )

@@ -34,7 +34,7 @@ scanCtTypeMember
 e
 )
 ;
-scanCtGenericElement
+scanCtFormalTypeDeclarer
 (
 e
 )

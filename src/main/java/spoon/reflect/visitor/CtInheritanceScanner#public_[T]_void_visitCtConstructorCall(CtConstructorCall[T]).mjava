@@ -28,7 +28,7 @@ scanCtStatement
 e
 )
 ;
-scanCtGenericElementReference
+scanCtActualTypeContainer
 (
 e
 )

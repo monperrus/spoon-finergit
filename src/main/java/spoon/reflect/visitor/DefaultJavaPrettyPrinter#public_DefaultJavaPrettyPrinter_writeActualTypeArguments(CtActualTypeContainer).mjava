@@ -1,5 +1,5 @@
 /** 
- * Writes actual type arguments in a  {@link CtGenericElementReference} element.
+ * Writes actual type arguments in a  {@link CtActualTypeContainer} element.
  * @param ctGenericElementReference Reference with actual type arguments.
  * @return current instance of the {@link DefaultJavaPrettyPrinter}
  */
@@ -7,7 +7,7 @@ public
 DefaultJavaPrettyPrinter
 writeActualTypeArguments
 (
-CtGenericElementReference
+CtActualTypeContainer
 ctGenericElementReference
 )
 {

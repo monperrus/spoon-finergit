@@ -113,7 +113,7 @@ replace
 .
 ReplacementVisitor
 .
-CtGenericElementFormalTypeParametersReplaceListener
+CtFormalTypeDeclarerFormalTypeParametersReplaceListener
 (
 ctClass
 )

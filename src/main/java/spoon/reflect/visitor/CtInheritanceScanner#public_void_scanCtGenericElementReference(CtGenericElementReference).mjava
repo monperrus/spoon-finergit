@@ -1,6 +1,8 @@
 /** 
  * Scans an abstract generic element reference.
+ * @see #scanCtActualTypeContainer(CtActualTypeContainer)
  */
+@Deprecated
 public
 void
 scanCtGenericElementReference

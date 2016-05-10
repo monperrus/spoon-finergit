@@ -1,6 +1,8 @@
 /** 
  * Scans an abstract generic element.
+ * @see #scanCtFormalTypeDeclarer(CtFormalTypeDeclarer)
  */
+@Deprecated
 public
 void
 scanCtGenericElement

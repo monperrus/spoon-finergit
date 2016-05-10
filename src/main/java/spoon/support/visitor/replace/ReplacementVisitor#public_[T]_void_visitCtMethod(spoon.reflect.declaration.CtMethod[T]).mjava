@@ -63,7 +63,7 @@ replace
 .
 ReplacementVisitor
 .
-CtGenericElementFormalTypeParametersReplaceListener
+CtFormalTypeDeclarerFormalTypeParametersReplaceListener
 (
 m
 )

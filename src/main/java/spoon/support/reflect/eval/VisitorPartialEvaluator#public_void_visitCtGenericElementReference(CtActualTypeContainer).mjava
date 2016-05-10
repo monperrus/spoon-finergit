@@ -2,7 +2,7 @@ public
 void
 visitCtGenericElementReference
 (
-CtGenericElementReference
+CtActualTypeContainer
 reference
 )
 {

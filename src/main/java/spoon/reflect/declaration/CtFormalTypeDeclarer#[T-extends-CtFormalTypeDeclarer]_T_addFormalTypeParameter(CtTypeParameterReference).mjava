@@ -6,7 +6,7 @@
 <
 T
 extends
-CtGenericElement
+CtFormalTypeDeclarer
 >
 T
 addFormalTypeParameter

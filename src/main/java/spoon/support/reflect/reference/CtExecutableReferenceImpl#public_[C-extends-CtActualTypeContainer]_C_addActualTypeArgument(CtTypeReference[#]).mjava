@@ -3,7 +3,7 @@ public
 <
 C
 extends
-CtGenericElementReference
+CtActualTypeContainer
 >
 C
 addActualTypeArgument

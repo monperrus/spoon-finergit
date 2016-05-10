@@ -1,0 +1,12 @@
+/** 
+ * Scans an actual type container..
+ */
+public
+void
+scanCtActualTypeContainer
+(
+CtActualTypeContainer
+reference
+)
+{
+}

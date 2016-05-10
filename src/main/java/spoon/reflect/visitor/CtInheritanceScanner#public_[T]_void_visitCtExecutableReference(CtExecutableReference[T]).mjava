@@ -22,7 +22,7 @@ scanCtElement
 e
 )
 ;
-scanCtGenericElementReference
+scanCtActualTypeContainer
 (
 e
 )
