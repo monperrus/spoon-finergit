@@ -973,7 +973,15 @@ getSuperclass
 ;
 assertEquals
 (
-0
+annotationType
+.
+getFields
+(
+)
+.
+size
+(
+)
 ,
 annotationType
 .

@@ -234,11 +234,6 @@ isLanguageExecutable
 (
 reference
 )
-||
-isDeclaredInAnAnnotation
-(
-reference
-)
 )
 {
 super
