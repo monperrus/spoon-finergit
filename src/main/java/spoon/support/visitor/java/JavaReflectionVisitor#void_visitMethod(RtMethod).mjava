@@ -1,7 +1,7 @@
 void
 visitMethod
 (
-Method
+RtMethod
 method
 )
 ;

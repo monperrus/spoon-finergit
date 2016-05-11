@@ -10,7 +10,7 @@ RtParameter
 ]
 parametersOf
 (
-Method
+RtMethod
 method
 )
 {

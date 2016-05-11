@@ -3,7 +3,7 @@ public
 void
 visitMethod
 (
-Method
+RtMethod
 method
 )
 {

@@ -1,0 +1,15 @@
+public
+Class
+<
+?
+>
+[
+]
+getExceptionTypes
+(
+)
+{
+return
+exceptionTypes
+;
+}

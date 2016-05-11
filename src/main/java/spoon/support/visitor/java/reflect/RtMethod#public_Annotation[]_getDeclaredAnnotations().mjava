@@ -1,0 +1,12 @@
+public
+Annotation
+[
+]
+getDeclaredAnnotations
+(
+)
+{
+return
+annotations
+;
+}

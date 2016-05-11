@@ -1,0 +1,15 @@
+public
+Class
+<
+?
+>
+[
+]
+getParameterTypes
+(
+)
+{
+return
+parameterTypes
+;
+}

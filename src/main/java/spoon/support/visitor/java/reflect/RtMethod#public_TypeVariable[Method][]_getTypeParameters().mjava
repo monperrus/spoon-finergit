@@ -1,0 +1,15 @@
+public
+TypeVariable
+<
+Method
+>
+[
+]
+getTypeParameters
+(
+)
+{
+return
+typeParameters
+;
+}

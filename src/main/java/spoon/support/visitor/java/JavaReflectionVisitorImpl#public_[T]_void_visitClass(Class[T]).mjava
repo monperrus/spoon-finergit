@@ -114,13 +114,12 @@ constructor
 }
 for
 (
-Method
+RtMethod
 method
 :
-clazz
-.
 getDeclaredMethods
 (
+clazz
 )
 )
 {

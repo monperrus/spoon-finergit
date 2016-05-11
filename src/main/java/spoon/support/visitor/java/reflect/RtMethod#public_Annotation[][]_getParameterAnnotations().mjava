@@ -1,0 +1,14 @@
+public
+Annotation
+[
+]
+[
+]
+getParameterAnnotations
+(
+)
+{
+return
+parameterAnnotations
+;
+}
