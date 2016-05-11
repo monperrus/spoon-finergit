@@ -2,9 +2,7 @@
  * Creates an intersection type reference.
  * @param bounds List of bounds saved in the intersection type. The first bound will be the intersection type.
  * @param < T > Type of the first bound.
- * @see #createIntersectionTypeReferenceWithBounds(Set)
  */
-@Deprecated
 public
 <
 T
@@ -13,9 +11,9 @@ CtIntersectionTypeReference
 <
 T
 >
-createIntersectionTypeReference
+createIntersectionTypeReferenceWithBounds
 (
-List
+Set
 <
 CtTypeReference
 <
@@ -58,10 +56,19 @@ clone
 (
 bounds
 .
-get
+toArray
 (
-0
+new
+CtTypeReference
+<
+?
+>
+[
+]
 )
+[
+0
+]
 )
 ;
 intersectionRef
@@ -112,17 +119,7 @@ intersectionRef
 .
 setBounds
 (
-new
-TreeSet
-<
-CtTypeReference
-<
-?
->
->
-(
 bounds
-)
 )
 ;
 return

@@ -65,7 +65,17 @@ asCtIntersectionTypeReference
 .
 setBounds
 (
+new
+TreeSet
+<
+CtTypeReference
+<
+?
+>
+>
+(
 bounds
+)
 )
 ;
 }

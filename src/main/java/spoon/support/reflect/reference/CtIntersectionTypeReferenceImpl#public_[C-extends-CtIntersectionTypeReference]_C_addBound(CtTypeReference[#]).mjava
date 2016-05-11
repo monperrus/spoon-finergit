@@ -21,7 +21,7 @@ bounds
 ==
 CtElementImpl
 .
-emptyList
+emptySet
 (
 )
 )
@@ -29,7 +29,7 @@ emptyList
 bounds
 =
 new
-ArrayList
+TreeSet
 <
 CtTypeReference
 <
@@ -37,7 +37,10 @@ CtTypeReference
 >
 >
 (
-TYPE_BOUNDS_CONTAINER_DEFAULT_CAPACITY
+new
+SourcePositionComparator
+(
+)
 )
 ;
 }
