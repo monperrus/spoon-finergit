@@ -87,8 +87,10 @@ firstParam
 getType
 (
 )
-instanceof
-CtImplicitTypeReference
+.
+isImplicit
+(
+)
 )
 ;
 assertEquals
@@ -157,8 +159,10 @@ secondParam
 getType
 (
 )
-instanceof
-CtImplicitTypeReference
+.
+isImplicit
+(
+)
 )
 ;
 assertEquals

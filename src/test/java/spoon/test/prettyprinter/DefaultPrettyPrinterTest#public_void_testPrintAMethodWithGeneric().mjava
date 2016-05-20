@@ -189,8 +189,10 @@ get
 assertTrue
 (
 ctTypeReference
-instanceof
-CtImplicitTypeReference
+.
+isImplicit
+(
+)
 )
 ;
 assertEquals

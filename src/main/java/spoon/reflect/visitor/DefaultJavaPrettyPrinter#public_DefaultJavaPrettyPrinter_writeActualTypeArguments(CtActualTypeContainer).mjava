@@ -67,8 +67,10 @@ if
 !
 (
 param
-instanceof
-CtImplicitTypeReference
+.
+isImplicit
+(
+)
 )
 )
 {

@@ -205,8 +205,10 @@ get
 assertTrue
 (
 firstTypeReference
-instanceof
-CtImplicitTypeReference
+.
+isImplicit
+(
+)
 )
 ;
 assertEquals
@@ -308,8 +310,10 @@ get
 assertTrue
 (
 secondTypeReference
-instanceof
-CtImplicitTypeReference
+.
+isImplicit
+(
+)
 )
 ;
 assertEquals

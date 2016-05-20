@@ -87,8 +87,10 @@ ctParameterFirstLambda
 getType
 (
 )
-instanceof
-CtImplicitTypeReference
+.
+isImplicit
+(
+)
 )
 ;
 assertEquals
@@ -201,8 +203,10 @@ ctParameterSecondLambda
 getType
 (
 )
-instanceof
-CtImplicitTypeReference
+.
+isImplicit
+(
+)
 )
 ;
 assertEquals
