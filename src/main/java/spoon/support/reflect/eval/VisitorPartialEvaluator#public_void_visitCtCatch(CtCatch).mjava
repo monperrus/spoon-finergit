@@ -10,17 +10,8 @@ setResult
 (
 catchBlock
 .
-getFactory
-(
-)
-.
-Core
-(
-)
-.
 clone
 (
-catchBlock
 )
 )
 ;

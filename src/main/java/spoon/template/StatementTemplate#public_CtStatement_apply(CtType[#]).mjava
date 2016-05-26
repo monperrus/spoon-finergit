@@ -88,14 +88,6 @@ getClass
 CtStatement
 result
 =
-factory
-.
-Core
-(
-)
-.
-clone
-(
 c
 .
 getMethod
@@ -115,6 +107,9 @@ get
 (
 0
 )
+.
+clone
+(
 )
 ;
 new

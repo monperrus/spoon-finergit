@@ -41,6 +41,8 @@ value
 ;
 }
 return
+this
+.
 addValueExpression
 (
 elementName

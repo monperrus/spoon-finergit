@@ -21,17 +21,8 @@ r
 =
 catchVariable
 .
-getFactory
-(
-)
-.
-Core
-(
-)
-.
 clone
 (
-catchVariable
 )
 ;
 r

@@ -1,12 +1,8 @@
+@Override
 public
-CtCodeElement
-getSubstitution
+CtElement
+clone
 (
-CtType
-<
-?
->
-targetType
 )
 {
 return

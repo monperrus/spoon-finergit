@@ -59,17 +59,8 @@ m
 =
 m
 .
-getFactory
-(
-)
-.
-Core
-(
-)
-.
 clone
 (
-m
 )
 ;
 assertEquals

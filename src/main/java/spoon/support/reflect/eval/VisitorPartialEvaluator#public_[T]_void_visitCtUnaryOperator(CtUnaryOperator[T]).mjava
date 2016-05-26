@@ -126,17 +126,8 @@ setResult
 (
 operator
 .
-getFactory
-(
-)
-.
-Core
-(
-)
-.
 clone
 (
-operator
 )
 )
 ;

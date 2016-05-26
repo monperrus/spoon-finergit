@@ -1,0 +1,11 @@
+@Override
+CtExecutableReferenceExpression
+<
+T
+,
+E
+>
+clone
+(
+)
+;

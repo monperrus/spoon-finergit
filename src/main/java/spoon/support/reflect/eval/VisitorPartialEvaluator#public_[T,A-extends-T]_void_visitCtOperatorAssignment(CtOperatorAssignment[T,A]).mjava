@@ -22,17 +22,8 @@ setResult
 (
 assignment
 .
-getFactory
-(
-)
-.
-Core
-(
-)
-.
 clone
 (
-assignment
 )
 )
 ;

@@ -1,0 +1,11 @@
+@Override
+CtArrayAccess
+<
+T
+,
+E
+>
+clone
+(
+)
+;

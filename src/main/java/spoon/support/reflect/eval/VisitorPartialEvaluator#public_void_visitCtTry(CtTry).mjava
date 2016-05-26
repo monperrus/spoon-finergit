@@ -10,17 +10,8 @@ setResult
 (
 tryBlock
 .
-getFactory
-(
-)
-.
-Core
-(
-)
-.
 clone
 (
-tryBlock
 )
 )
 ;

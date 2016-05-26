@@ -16,17 +16,8 @@ setResult
 (
 newArray
 .
-getFactory
-(
-)
-.
-Core
-(
-)
-.
 clone
 (
-newArray
 )
 )
 ;

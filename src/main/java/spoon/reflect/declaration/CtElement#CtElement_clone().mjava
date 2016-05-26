@@ -1,0 +1,8 @@
+/** 
+ * Clone the element which calls this method in a new object.
+ */
+CtElement
+clone
+(
+)
+;

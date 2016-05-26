@@ -56,15 +56,10 @@ else
 {
 getterType
 =
-factory
-.
-Core
-(
-)
+type
 .
 clone
 (
-type
 )
 ;
 }

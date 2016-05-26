@@ -3,7 +3,9 @@
  * @param < T > the element's type
  * @param element the element
  * @return a clone of <code>element</code>
+ * @see spoon.reflect.declaration.CtElement#clone()
  */
+@Deprecated
 <
 T
 >

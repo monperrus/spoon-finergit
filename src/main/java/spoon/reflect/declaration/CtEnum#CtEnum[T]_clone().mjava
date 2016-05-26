@@ -1,0 +1,9 @@
+@Override
+CtEnum
+<
+T
+>
+clone
+(
+)
+;

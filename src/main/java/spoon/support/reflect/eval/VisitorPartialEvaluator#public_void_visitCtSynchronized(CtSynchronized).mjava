@@ -11,17 +11,8 @@ s
 =
 synchro
 .
-getFactory
-(
-)
-.
-Core
-(
-)
-.
 clone
 (
-synchro
 )
 ;
 s

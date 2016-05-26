@@ -22,14 +22,6 @@ listener
 =
 factory
 .
-Core
-(
-)
-.
-clone
-(
-factory
-.
 Class
 (
 )
@@ -40,6 +32,9 @@ GENERATING_REPLACE_PACKAGE
 +
 ".CtListener"
 )
+.
+clone
+(
 )
 ;
 listener

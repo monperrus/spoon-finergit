@@ -34,15 +34,10 @@ T
 >
 newField
 =
-factory
-.
-Core
-(
-)
+source
 .
 clone
 (
-source
 )
 ;
 if

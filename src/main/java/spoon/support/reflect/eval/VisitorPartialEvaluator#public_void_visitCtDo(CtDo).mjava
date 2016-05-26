@@ -11,17 +11,8 @@ w
 =
 doLoop
 .
-getFactory
-(
-)
-.
-Core
-(
-)
-.
 clone
 (
-doLoop
 )
 ;
 w

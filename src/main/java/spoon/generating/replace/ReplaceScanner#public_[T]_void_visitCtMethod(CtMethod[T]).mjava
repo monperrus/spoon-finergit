@@ -46,15 +46,10 @@ T
 >
 clone
 =
-factory
-.
-Core
-(
-)
+element
 .
 clone
 (
-element
 )
 ;
 clone

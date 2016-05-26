@@ -1,0 +1,9 @@
+@Override
+CtAssert
+<
+T
+>
+clone
+(
+)
+;

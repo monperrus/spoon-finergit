@@ -11,17 +11,8 @@ w
 =
 whileLoop
 .
-getFactory
-(
-)
-.
-Core
-(
-)
-.
 clone
 (
-whileLoop
 )
 ;
 w

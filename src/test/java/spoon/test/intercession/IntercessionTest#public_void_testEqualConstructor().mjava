@@ -59,15 +59,10 @@ CtConstructor
 >
 fooClone
 =
-factory
-.
-Core
-(
-)
+foo
 .
 clone
 (
-foo
 )
 ;
 Assert

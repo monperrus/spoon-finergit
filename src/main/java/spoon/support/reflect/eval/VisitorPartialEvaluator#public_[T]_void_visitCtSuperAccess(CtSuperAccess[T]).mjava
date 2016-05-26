@@ -17,17 +17,8 @@ setResult
 (
 f
 .
-getFactory
-(
-)
-.
-Core
-(
-)
-.
 clone
 (
-f
 )
 )
 ;

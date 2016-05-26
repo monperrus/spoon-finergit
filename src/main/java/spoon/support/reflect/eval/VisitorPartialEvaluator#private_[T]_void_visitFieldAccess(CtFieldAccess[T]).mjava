@@ -230,17 +230,8 @@ setResult
 (
 fieldAccess
 .
-getFactory
-(
-)
-.
-Core
-(
-)
-.
 clone
 (
-fieldAccess
 )
 )
 ;

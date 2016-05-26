@@ -34,14 +34,6 @@ T
 >
 method
 =
-factory
-.
-Core
-(
-)
-.
-clone
-(
 (
 CtMethod
 <
@@ -49,6 +41,9 @@ T
 >
 )
 source
+.
+clone
+(
 )
 ;
 CtConstructor

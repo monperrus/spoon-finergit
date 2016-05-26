@@ -10,17 +10,8 @@ setResult
 (
 breakStatement
 .
-getFactory
-(
-)
-.
-Core
-(
-)
-.
 clone
 (
-breakStatement
 )
 )
 ;

@@ -17,17 +17,8 @@ setResult
 (
 arrayRead
 .
-getFactory
-(
-)
-.
-Core
-(
-)
-.
 clone
 (
-arrayRead
 )
 )
 ;

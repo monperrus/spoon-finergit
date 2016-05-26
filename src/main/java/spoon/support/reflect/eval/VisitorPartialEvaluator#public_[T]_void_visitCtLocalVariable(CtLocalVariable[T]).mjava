@@ -21,17 +21,8 @@ r
 =
 localVariable
 .
-getFactory
-(
-)
-.
-Core
-(
-)
-.
 clone
 (
-localVariable
 )
 ;
 r

@@ -25,17 +25,8 @@ setResult
 (
 arrayAccess
 .
-getFactory
-(
-)
-.
-Core
-(
-)
-.
 clone
 (
-arrayAccess
 )
 )
 ;

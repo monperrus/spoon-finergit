@@ -10,17 +10,8 @@ targetType
 )
 {
 return
-getFactory
-(
-)
-.
-Core
-(
-)
-.
 clone
 (
-this
 )
 ;
 }

@@ -53,6 +53,13 @@ if
 object
 instanceof
 Cloneable
+&&
+!
+(
+object
+instanceof
+CtElement
+)
 )
 {
 return

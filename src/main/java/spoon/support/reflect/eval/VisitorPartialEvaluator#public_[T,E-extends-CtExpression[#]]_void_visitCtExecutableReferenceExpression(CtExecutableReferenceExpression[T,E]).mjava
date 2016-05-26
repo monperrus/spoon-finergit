@@ -26,17 +26,8 @@ setResult
 (
 expression
 .
-getFactory
-(
-)
-.
-Core
-(
-)
-.
 clone
 (
-expression
 )
 )
 ;

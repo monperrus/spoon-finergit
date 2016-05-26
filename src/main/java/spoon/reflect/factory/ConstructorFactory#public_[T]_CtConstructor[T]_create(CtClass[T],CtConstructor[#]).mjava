@@ -34,14 +34,6 @@ T
 >
 newConstructor
 =
-factory
-.
-Core
-(
-)
-.
-clone
-(
 (
 CtConstructor
 <
@@ -49,6 +41,9 @@ T
 >
 )
 source
+.
+clone
+(
 )
 ;
 target

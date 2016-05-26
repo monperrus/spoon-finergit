@@ -46,14 +46,6 @@ CtTypeReference
 >
 firstBound
 =
-factory
-.
-Core
-(
-)
-.
-clone
-(
 bounds
 .
 toArray
@@ -69,6 +61,9 @@ CtTypeReference
 [
 0
 ]
+.
+clone
+(
 )
 ;
 intersectionRef

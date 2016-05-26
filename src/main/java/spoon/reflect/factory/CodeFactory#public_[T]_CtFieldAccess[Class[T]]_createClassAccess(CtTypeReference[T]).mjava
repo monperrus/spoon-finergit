@@ -130,15 +130,10 @@ fieldRead
 .
 setType
 (
-factory
-.
-Core
-(
-)
+classType
 .
 clone
 (
-classType
 )
 )
 ;

@@ -73,17 +73,8 @@ setResult
 (
 variableAccess
 .
-getFactory
-(
-)
-.
-Core
-(
-)
-.
 clone
 (
-variableAccess
 )
 )
 ;

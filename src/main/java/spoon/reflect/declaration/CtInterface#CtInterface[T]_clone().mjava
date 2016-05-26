@@ -1,0 +1,9 @@
+@Override
+CtInterface
+<
+T
+>
+clone
+(
+)
+;

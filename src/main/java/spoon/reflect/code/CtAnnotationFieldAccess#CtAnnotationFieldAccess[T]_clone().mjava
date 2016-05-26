@@ -1,0 +1,9 @@
+@Override
+CtAnnotationFieldAccess
+<
+T
+>
+clone
+(
+)
+;

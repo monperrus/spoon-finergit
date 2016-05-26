@@ -38,15 +38,10 @@ T
 >
 newMethod
 =
-factory
-.
-Core
-(
-)
+source
 .
 clone
 (
-source
 )
 ;
 if

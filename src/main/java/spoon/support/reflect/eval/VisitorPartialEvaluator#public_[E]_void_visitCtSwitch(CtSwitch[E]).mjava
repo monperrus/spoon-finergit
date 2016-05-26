@@ -16,17 +16,8 @@ setResult
 (
 switchStatement
 .
-getFactory
-(
-)
-.
-Core
-(
-)
-.
 clone
 (
-switchStatement
 )
 )
 ;

@@ -10,17 +10,8 @@ setResult
 (
 foreach
 .
-getFactory
-(
-)
-.
-Core
-(
-)
-.
 clone
 (
-foreach
 )
 )
 ;

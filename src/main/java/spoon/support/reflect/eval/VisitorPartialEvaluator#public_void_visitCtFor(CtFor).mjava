@@ -114,17 +114,8 @@ setResult
 (
 forLoop
 .
-getFactory
-(
-)
-.
-Core
-(
-)
-.
 clone
 (
-forLoop
 )
 )
 ;

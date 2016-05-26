@@ -44,15 +44,10 @@ l
 .
 addStatement
 (
-factory
-.
-Core
-(
-)
+s
 .
 clone
 (
-s
 )
 )
 ;

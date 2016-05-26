@@ -16,17 +16,8 @@ setResult
 (
 newClass
 .
-getFactory
-(
-)
-.
-Core
-(
-)
-.
 clone
 (
-newClass
 )
 )
 ;

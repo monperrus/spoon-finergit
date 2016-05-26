@@ -17,17 +17,8 @@ setResult
 (
 arrayWrite
 .
-getFactory
-(
-)
-.
-Core
-(
-)
-.
 clone
 (
-arrayWrite
 )
 )
 ;
