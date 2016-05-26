@@ -15,6 +15,13 @@ isGenerateJavadoc
 (
 )
 ||
+!
+env
+.
+isCommentsEnabled
+(
+)
+||
 comment
 ==
 null

@@ -54,6 +54,17 @@ getEnvironment
 (
 )
 .
+setCommentEnabled
+(
+true
+)
+;
+launcher
+.
+getEnvironment
+(
+)
+.
 setCopyResources
 (
 false
@@ -107,8 +118,6 @@ Bar
 class
 )
 ;
-Assert
-.
 assertEquals
 (
 "public class Bar {"

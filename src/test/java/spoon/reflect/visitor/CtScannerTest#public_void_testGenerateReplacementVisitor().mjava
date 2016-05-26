@@ -142,6 +142,17 @@ getEnvironment
 (
 )
 .
+setCommentEnabled
+(
+true
+)
+;
+launcher
+.
+getEnvironment
+(
+)
+.
 useTabulations
 (
 true

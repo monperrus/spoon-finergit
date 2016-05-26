@@ -1,6 +1,7 @@
 /** 
  * Sets the option generate-javadoc to generate javadoc of the project on the source generated.
  */
+@Deprecated
 void
 setGenerateJavadoc
 (

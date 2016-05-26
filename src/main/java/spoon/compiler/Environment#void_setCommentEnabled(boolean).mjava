@@ -1,0 +1,10 @@
+/** 
+ * Sets the option enable-comments to parse comments of the target project.
+ */
+void
+setCommentEnabled
+(
+boolean
+commentEnabled
+)
+;

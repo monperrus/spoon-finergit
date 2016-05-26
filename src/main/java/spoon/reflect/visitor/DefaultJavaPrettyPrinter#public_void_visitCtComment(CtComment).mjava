@@ -16,6 +16,13 @@ isGenerateJavadoc
 (
 )
 &&
+!
+env
+.
+isCommentsEnabled
+(
+)
+&&
 context
 .
 elementStack

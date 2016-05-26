@@ -1,0 +1,16 @@
+@Override
+public
+void
+setCommentEnabled
+(
+boolean
+commentEnabled
+)
+{
+this
+.
+enableComments
+=
+commentEnabled
+;
+}
