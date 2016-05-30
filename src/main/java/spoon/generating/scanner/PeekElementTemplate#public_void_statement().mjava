@@ -1,0 +1,16 @@
+public
+void
+statement
+(
+)
+{
+CtElement
+other
+=
+stack
+.
+peek
+(
+)
+;
+}

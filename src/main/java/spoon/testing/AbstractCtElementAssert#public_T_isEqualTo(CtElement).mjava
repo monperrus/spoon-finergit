@@ -39,17 +39,9 @@ if
 !
 actual
 .
-toString
-(
-)
-.
 equals
 (
 expected
-.
-toString
-(
-)
 )
 )
 {

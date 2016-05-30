@@ -1,0 +1,15 @@
+public
+void
+setOther
+(
+CtElement
+other
+)
+{
+this
+.
+other
+=
+other
+;
+}

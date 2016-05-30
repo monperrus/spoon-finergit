@@ -1,0 +1,14 @@
+public
+boolean
+fail
+(
+)
+{
+isNotEqual
+=
+true
+;
+return
+true
+;
+}

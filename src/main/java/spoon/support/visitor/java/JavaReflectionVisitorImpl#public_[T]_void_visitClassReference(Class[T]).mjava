@@ -22,6 +22,14 @@ getPackage
 )
 !=
 null
+&&
+clazz
+.
+getEnclosingClass
+(
+)
+==
+null
 )
 {
 visitPackage
