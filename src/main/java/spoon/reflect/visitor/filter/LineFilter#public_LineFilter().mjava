@@ -1,0 +1,16 @@
+/** 
+ * Creates the filter.
+ */
+public
+LineFilter
+(
+)
+{
+super
+(
+CtStatement
+.
+class
+)
+;
+}
