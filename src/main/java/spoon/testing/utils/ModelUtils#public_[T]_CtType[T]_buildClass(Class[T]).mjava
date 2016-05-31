@@ -24,7 +24,7 @@ build
 classToBuild
 )
 .
-Class
+Type
 (
 )
 .

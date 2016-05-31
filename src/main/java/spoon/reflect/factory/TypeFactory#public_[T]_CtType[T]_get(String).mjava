@@ -55,6 +55,12 @@ T
 >
 t
 =
+factory
+.
+Type
+(
+)
+.
 get
 (
 s
