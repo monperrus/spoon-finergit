@@ -10,13 +10,8 @@ throws
 ParentNotInitializedException
 {
 return
-!
-CtPackage
-.
-TOP_LEVEL_PACKAGE_NAME
-.
-equals
-(
+this
+!=
 getFactory
 (
 )
@@ -27,11 +22,6 @@ getModel
 .
 getRootPackage
 (
-)
-.
-getSimpleName
-(
-)
 )
 &&
 (
