@@ -1,0 +1,10 @@
+/** 
+ * Enable or not checks on the AST. See  {@link #checksAreSkipped()} to know all checks enabled.true means that no self checks are made.
+ */
+void
+setSelfChecks
+(
+boolean
+skip
+)
+;

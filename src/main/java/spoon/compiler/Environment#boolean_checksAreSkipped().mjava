@@ -1,0 +1,8 @@
+/** 
+ * Checks if  {@link spoon.reflect.visitor.AstParentConsistencyChecker}, hashcode violation declared in CtElement#equals(CtElement) and method violation declared in  {@link spoon.reflect.declaration.CtType#addMethod(CtMethod)}are active or not.
+ */
+boolean
+checksAreSkipped
+(
+)
+;

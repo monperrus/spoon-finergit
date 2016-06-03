@@ -4,6 +4,20 @@ checkModel
 (
 )
 {
+if
+(
+!
+factory
+.
+getEnvironment
+(
+)
+.
+checksAreSkipped
+(
+)
+)
+{
 factory
 .
 getModel
@@ -22,4 +36,5 @@ AstParentConsistencyChecker
 )
 )
 ;
+}
 }
