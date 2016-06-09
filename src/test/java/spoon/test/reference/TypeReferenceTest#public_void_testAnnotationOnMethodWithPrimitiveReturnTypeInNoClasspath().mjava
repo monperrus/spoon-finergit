@@ -130,7 +130,7 @@ size
 ;
 assertEquals
 (
-"@Override"
+"@java.lang.Override"
 +
 System
 .

@@ -16,7 +16,7 @@ lambda
 =
 getLambdaByName
 (
-"lambda$5"
+"lambda$4"
 )
 ;
 assertTypedBy

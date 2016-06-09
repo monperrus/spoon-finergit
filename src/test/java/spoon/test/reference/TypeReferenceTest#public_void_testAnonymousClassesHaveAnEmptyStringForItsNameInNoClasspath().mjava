@@ -99,9 +99,7 @@ getAnonymousClass
 ;
 assertEquals
 (
-CtType
-.
-NAME_UNKNOWN
+"1"
 ,
 anonymousClass
 .
