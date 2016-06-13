@@ -1,0 +1,20 @@
+/** 
+ * Returns a reference on the float type.
+ */
+public
+CtTypeReference
+<
+Float
+>
+floatType
+(
+)
+{
+return
+FLOAT
+.
+clone
+(
+)
+;
+}

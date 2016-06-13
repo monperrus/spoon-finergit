@@ -1,0 +1,20 @@
+/** 
+ * Returns a reference on the double type.
+ */
+public
+CtTypeReference
+<
+Double
+>
+doubleType
+(
+)
+{
+return
+DOUBLE
+.
+clone
+(
+)
+;
+}

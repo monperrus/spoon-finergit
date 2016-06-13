@@ -1,0 +1,20 @@
+/** 
+ * Returns a reference on the float primitive type.
+ */
+public
+CtTypeReference
+<
+Float
+>
+floatPrimitiveType
+(
+)
+{
+return
+FLOAT_PRIMITIVE
+.
+clone
+(
+)
+;
+}

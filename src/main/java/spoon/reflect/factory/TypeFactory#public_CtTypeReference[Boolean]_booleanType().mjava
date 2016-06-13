@@ -1,0 +1,20 @@
+/** 
+ * Returns a reference on the boolean type.
+ */
+public
+CtTypeReference
+<
+Boolean
+>
+booleanType
+(
+)
+{
+return
+BOOLEAN
+.
+clone
+(
+)
+;
+}

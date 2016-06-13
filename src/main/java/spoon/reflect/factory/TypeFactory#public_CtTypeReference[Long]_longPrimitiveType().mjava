@@ -1,0 +1,20 @@
+/** 
+ * Returns a reference on the long primitive type.
+ */
+public
+CtTypeReference
+<
+Long
+>
+longPrimitiveType
+(
+)
+{
+return
+LONG_PRIMITIVE
+.
+clone
+(
+)
+;
+}

@@ -1,0 +1,20 @@
+/** 
+ * Returns a reference on the integer primitive type.
+ */
+public
+CtTypeReference
+<
+Integer
+>
+integerPrimitiveType
+(
+)
+{
+return
+INTEGER_PRIMITIVE
+.
+clone
+(
+)
+;
+}

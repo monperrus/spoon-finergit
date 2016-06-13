@@ -1,0 +1,20 @@
+/** 
+ * Returns a reference on the void primitive type.
+ */
+public
+CtTypeReference
+<
+Void
+>
+voidPrimitiveType
+(
+)
+{
+return
+VOID_PRIMITIVE
+.
+clone
+(
+)
+;
+}

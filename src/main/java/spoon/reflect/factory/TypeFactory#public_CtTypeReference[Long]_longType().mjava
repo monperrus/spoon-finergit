@@ -1,0 +1,20 @@
+/** 
+ * Returns a reference on the long type.
+ */
+public
+CtTypeReference
+<
+Long
+>
+longType
+(
+)
+{
+return
+LONG
+.
+clone
+(
+)
+;
+}

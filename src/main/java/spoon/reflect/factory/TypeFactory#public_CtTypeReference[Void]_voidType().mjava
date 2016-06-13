@@ -1,0 +1,20 @@
+/** 
+ * Returns a reference on the void type.
+ */
+public
+CtTypeReference
+<
+Void
+>
+voidType
+(
+)
+{
+return
+VOID
+.
+clone
+(
+)
+;
+}

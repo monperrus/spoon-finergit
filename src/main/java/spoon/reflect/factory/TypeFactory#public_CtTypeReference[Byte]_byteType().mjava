@@ -1,0 +1,20 @@
+/** 
+ * Returns a reference on the byte type.
+ */
+public
+CtTypeReference
+<
+Byte
+>
+byteType
+(
+)
+{
+return
+BYTE
+.
+clone
+(
+)
+;
+}

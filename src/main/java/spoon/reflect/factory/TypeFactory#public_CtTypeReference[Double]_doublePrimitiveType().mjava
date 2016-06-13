@@ -1,0 +1,20 @@
+/** 
+ * Returns a reference on the double primitive type.
+ */
+public
+CtTypeReference
+<
+Double
+>
+doublePrimitiveType
+(
+)
+{
+return
+DOUBLE_PRIMITIVE
+.
+clone
+(
+)
+;
+}

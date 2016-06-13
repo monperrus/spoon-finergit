@@ -1,0 +1,20 @@
+/** 
+ * Returns a reference on the boolean primitive type.
+ */
+public
+CtTypeReference
+<
+Boolean
+>
+booleanPrimitiveType
+(
+)
+{
+return
+BOOLEAN_PRIMITIVE
+.
+clone
+(
+)
+;
+}

@@ -1,0 +1,20 @@
+/** 
+ * Returns a reference on the date type.
+ */
+public
+CtTypeReference
+<
+?
+>
+dateType
+(
+)
+{
+return
+DATE
+.
+clone
+(
+)
+;
+}

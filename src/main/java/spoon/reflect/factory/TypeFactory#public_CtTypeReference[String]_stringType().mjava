@@ -1,0 +1,20 @@
+/** 
+ * Returns a reference on the string type.
+ */
+public
+CtTypeReference
+<
+String
+>
+stringType
+(
+)
+{
+return
+STRING
+.
+clone
+(
+)
+;
+}

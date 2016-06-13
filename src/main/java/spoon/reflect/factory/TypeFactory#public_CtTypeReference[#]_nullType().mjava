@@ -12,5 +12,9 @@ nullType
 {
 return
 NULL_TYPE
+.
+clone
+(
+)
 ;
 }

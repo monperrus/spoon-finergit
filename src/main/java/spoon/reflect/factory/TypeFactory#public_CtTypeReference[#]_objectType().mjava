@@ -1,0 +1,20 @@
+/** 
+ * Returns a reference on the object type.
+ */
+public
+CtTypeReference
+<
+?
+>
+objectType
+(
+)
+{
+return
+OBJECT
+.
+clone
+(
+)
+;
+}

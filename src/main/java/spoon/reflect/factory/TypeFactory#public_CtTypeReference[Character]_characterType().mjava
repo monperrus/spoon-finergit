@@ -1,0 +1,20 @@
+/** 
+ * Returns a reference on the character type.
+ */
+public
+CtTypeReference
+<
+Character
+>
+characterType
+(
+)
+{
+return
+CHARACTER
+.
+clone
+(
+)
+;
+}

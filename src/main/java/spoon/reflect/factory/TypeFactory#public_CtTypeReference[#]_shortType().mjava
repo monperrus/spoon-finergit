@@ -1,0 +1,20 @@
+/** 
+ * Returns a reference on the short type.
+ */
+public
+CtTypeReference
+<
+?
+>
+shortType
+(
+)
+{
+return
+SHORT
+.
+clone
+(
+)
+;
+}

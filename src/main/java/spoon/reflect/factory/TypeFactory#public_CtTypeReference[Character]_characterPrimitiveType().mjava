@@ -1,0 +1,20 @@
+/** 
+ * Returns a reference on the character primitive type.
+ */
+public
+CtTypeReference
+<
+Character
+>
+characterPrimitiveType
+(
+)
+{
+return
+CHARACTER_PRIMITIVE
+.
+clone
+(
+)
+;
+}

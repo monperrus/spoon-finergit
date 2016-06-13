@@ -1,0 +1,20 @@
+/** 
+ * Returns a reference on the integer type.
+ */
+public
+CtTypeReference
+<
+Integer
+>
+integerType
+(
+)
+{
+return
+INTEGER
+.
+clone
+(
+)
+;
+}
