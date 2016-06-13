@@ -61,14 +61,14 @@ CtScanner
 (
 )
 {
-Stack
+Deque
 <
 CtElement
 >
 elementStack
 =
 new
-Stack
+ArrayDeque
 <
 CtElement
 >

@@ -139,7 +139,7 @@ context
 .
 currentThis
 .
-lastElement
+peekFirst
 (
 )
 ;

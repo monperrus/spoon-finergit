@@ -1,0 +1,26 @@
+/** 
+ * Pushes the element.
+ */
+protected
+void
+enter
+(
+CtElement
+e
+)
+{
+elementsDeque
+.
+push
+(
+e
+)
+;
+super
+.
+enter
+(
+e
+)
+;
+}

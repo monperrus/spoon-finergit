@@ -9,7 +9,7 @@ clone
 T
 object
 ,
-Stack
+Deque
 <
 CtElement
 >
