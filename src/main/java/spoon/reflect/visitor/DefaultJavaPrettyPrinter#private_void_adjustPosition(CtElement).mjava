@@ -16,6 +16,13 @@ getPosition
 !=
 null
 &&
+!
+e
+.
+isImplicit
+(
+)
+&&
 e
 .
 getPosition
