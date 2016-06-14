@@ -126,10 +126,6 @@ parameters
 new
 ArrayList
 <
-CtTypeReference
-<
-?
->
 >
 (
 allocationExpression

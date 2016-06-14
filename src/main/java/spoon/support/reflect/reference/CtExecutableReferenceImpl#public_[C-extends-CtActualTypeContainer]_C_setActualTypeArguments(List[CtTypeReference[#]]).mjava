@@ -38,10 +38,6 @@ actualTypeArguments
 new
 ArrayList
 <
-CtTypeReference
-<
-?
->
 >
 (
 )

@@ -32,9 +32,6 @@ map
 new
 HashMap
 <
-K
-,
-V
 >
 (
 mapProtected

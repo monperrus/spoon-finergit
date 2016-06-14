@@ -22,7 +22,6 @@ reversedElements
 new
 ArrayList
 <
-CtElement
 >
 (
 context

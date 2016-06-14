@@ -187,10 +187,6 @@ interfaces
 new
 HashSet
 <
-CtTypeReference
-<
-?
->
 >
 (
 )

@@ -31,10 +31,6 @@ actualTypeArguments
 new
 ArrayList
 <
-CtTypeReference
-<
-?
->
 >
 (
 METHOD_TYPE_PARAMETERS_CONTAINER_DEFAULT_CAPACITY

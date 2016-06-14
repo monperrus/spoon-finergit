@@ -27,9 +27,6 @@ metadata
 new
 HashMap
 <
-String
-,
-Object
 >
 (
 )

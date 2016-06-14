@@ -146,10 +146,6 @@ actualTypes
 new
 ArrayList
 <
-CtType
-<
-?
->
 >
 (
 actual
@@ -184,10 +180,6 @@ expectedTypes
 new
 ArrayList
 <
-CtType
-<
-?
->
 >
 (
 expected
@@ -353,7 +345,6 @@ actualPackages
 new
 ArrayList
 <
-CtPackage
 >
 (
 actual
@@ -385,7 +376,6 @@ expectedPackages
 new
 ArrayList
 <
-CtPackage
 >
 (
 expected

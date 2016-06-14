@@ -37,7 +37,6 @@ l
 new
 ArrayList
 <
-CompilationUnit
 >
 (
 )
@@ -105,7 +104,6 @@ unitList
 new
 ArrayList
 <
-CompilationUnit
 >
 (
 )

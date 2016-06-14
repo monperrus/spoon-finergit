@@ -21,7 +21,6 @@ commentsToPrint
 new
 ArrayList
 <
-CtComment
 >
 (
 )

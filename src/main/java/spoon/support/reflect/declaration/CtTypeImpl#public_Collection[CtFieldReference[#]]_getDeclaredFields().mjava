@@ -42,10 +42,6 @@ l
 new
 ArrayList
 <
-CtFieldReference
-<
-?
->
 >
 (
 getFields

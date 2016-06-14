@@ -183,10 +183,6 @@ params
 new
 ArrayList
 <
-CtTypeReference
-<
-?
->
 >
 (
 PARAMETERS_CONTAINER_DEFAULT_CAPACITY

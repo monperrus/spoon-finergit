@@ -41,10 +41,6 @@ constructors
 new
 TreeSet
 <
-CtConstructor
-<
-T
->
 >
 (
 )

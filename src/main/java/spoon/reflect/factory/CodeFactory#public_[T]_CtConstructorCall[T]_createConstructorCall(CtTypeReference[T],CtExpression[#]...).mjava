@@ -106,10 +106,6 @@ typeReferences
 new
 ArrayList
 <
-CtTypeReference
-<
-?
->
 >
 (
 )

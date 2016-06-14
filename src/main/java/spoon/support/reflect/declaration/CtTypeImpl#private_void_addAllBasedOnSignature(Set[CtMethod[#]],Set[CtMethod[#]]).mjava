@@ -33,7 +33,6 @@ signatures
 new
 ArrayList
 <
-String
 >
 (
 )

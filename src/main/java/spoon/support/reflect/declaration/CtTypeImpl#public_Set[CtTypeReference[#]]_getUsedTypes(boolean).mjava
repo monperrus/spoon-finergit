@@ -25,10 +25,6 @@ typeRefs
 new
 HashSet
 <
-CtTypeReference
-<
-?
->
 >
 (
 )

@@ -50,7 +50,6 @@ util
 .
 ArrayList
 <
-T
 >
 (
 listProtected

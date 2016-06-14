@@ -20,7 +20,6 @@ nodes
 new
 ArrayDeque
 <
-DefaultMutableTreeNode
 >
 (
 )

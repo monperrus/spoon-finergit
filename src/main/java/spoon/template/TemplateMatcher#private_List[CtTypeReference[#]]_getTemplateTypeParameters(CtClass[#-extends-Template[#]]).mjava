@@ -33,10 +33,6 @@ ts
 new
 ArrayList
 <
-CtTypeReference
-<
-?
->
 >
 (
 )

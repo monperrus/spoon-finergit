@@ -26,7 +26,6 @@ list
 new
 ArrayList
 <
-T
 >
 (
 listProtected

@@ -33,21 +33,7 @@ newInstance
 catch
 (
 InstantiationException
-e
-)
-{
-throw
-new
-RuntimeException
-(
-"Can't instante class processor."
-,
-e
-)
-;
-}
-catch
-(
+|
 IllegalAccessException
 e
 )

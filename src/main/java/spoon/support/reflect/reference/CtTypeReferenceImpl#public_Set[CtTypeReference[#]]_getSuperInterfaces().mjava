@@ -91,10 +91,6 @@ set
 new
 TreeSet
 <
-CtTypeReference
-<
-?
->
 >
 (
 )
@@ -138,10 +134,6 @@ return
 new
 TreeSet
 <
-CtTypeReference
-<
-?
->
 >
 (
 )

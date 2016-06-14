@@ -28,7 +28,6 @@ forInit
 new
 ArrayList
 <
-CtStatement
 >
 (
 FOR_INIT_STATEMENTS_CONTAINER_DEFAULT_CAPACITY

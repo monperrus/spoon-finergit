@@ -36,7 +36,6 @@ visitor
 new
 ReferenceQueryVisitor
 <
-T
 >
 (
 filter

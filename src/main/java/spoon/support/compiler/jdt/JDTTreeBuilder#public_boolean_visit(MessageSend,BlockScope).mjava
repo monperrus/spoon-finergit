@@ -548,10 +548,6 @@ parameters
 new
 ArrayList
 <
-CtTypeReference
-<
-?
->
 >
 (
 )

@@ -100,10 +100,6 @@ l
 new
 ArrayList
 <
-CtTypeReference
-<
-?
->
 >
 (
 parameterTypes

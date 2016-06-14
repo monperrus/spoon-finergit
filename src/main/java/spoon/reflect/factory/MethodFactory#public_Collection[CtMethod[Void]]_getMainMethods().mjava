@@ -25,10 +25,6 @@ methods
 new
 ArrayList
 <
-CtMethod
-<
-Void
->
 >
 (
 )

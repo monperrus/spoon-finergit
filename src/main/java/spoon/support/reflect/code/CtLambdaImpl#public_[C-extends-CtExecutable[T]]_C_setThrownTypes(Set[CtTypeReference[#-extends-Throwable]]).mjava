@@ -42,11 +42,6 @@ thrownTypes
 new
 TreeSet
 <
-CtTypeReference
-<
-?
-Throwable
->
 >
 (
 )

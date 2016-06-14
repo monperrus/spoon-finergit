@@ -34,10 +34,6 @@ dimensionExpressions
 new
 ArrayList
 <
-CtExpression
-<
-Integer
->
 >
 (
 NEW_ARRAY_DEFAULT_EXPRESSIONS_CONTAINER_DEFAULT_CAPACITY

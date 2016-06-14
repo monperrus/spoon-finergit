@@ -16,7 +16,6 @@ unmodifiableList
 new
 ArrayList
 <
-SpoonFolder
 >
 (
 folders

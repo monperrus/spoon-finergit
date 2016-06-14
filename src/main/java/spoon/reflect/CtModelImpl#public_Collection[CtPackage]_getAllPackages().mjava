@@ -20,7 +20,6 @@ getElements
 new
 TypeFilter
 <
-CtPackage
 >
 (
 CtPackage

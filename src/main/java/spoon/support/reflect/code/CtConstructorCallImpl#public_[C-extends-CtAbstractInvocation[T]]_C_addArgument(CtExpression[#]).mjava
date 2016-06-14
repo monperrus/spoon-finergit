@@ -34,10 +34,6 @@ arguments
 new
 ArrayList
 <
-CtExpression
-<
-?
->
 >
 (
 PARAMETERS_CONTAINER_DEFAULT_CAPACITY

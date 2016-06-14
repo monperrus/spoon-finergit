@@ -31,9 +31,6 @@ e
 new
 CtExecutableReferenceExpressionImpl
 <
-T
-,
-E
 >
 (
 )

@@ -36,10 +36,6 @@ expressions
 new
 ArrayList
 <
-CtExpression
-<
-?
->
 >
 (
 )

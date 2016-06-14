@@ -36,10 +36,6 @@ interfaces
 new
 TreeSet
 <
-CtTypeReference
-<
-?
->
 >
 (
 )

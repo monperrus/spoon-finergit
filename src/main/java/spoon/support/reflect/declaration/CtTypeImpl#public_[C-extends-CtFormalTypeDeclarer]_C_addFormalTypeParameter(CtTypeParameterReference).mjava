@@ -28,7 +28,6 @@ formalTypeParameters
 new
 ArrayList
 <
-CtTypeParameterReference
 >
 (
 TYPE_TYPE_PARAMETERS_CONTAINER_DEFAULT_CAPACITY

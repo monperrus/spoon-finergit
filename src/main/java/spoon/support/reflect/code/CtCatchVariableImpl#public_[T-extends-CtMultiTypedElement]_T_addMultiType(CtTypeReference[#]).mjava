@@ -31,10 +31,6 @@ types
 new
 ArrayList
 <
-CtTypeReference
-<
-?
->
 >
 (
 CATCH_VARIABLE_MULTI_TYPES_CONTAINER_DEFAULT_CAPACITY

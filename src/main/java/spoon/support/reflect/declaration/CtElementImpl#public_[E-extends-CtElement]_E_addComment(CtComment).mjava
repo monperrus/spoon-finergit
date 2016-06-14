@@ -32,7 +32,6 @@ comments
 new
 ArrayList
 <
-CtComment
 >
 (
 COMMENT_CONTAINER_DEFAULT_CAPACITY

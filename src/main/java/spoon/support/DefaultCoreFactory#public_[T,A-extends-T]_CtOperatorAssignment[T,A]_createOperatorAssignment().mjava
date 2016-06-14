@@ -27,9 +27,6 @@ e
 new
 CtOperatorAssignmentImpl
 <
-T
-,
-A
 >
 (
 )

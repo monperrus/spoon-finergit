@@ -91,10 +91,6 @@ typeReferences
 new
 ArrayList
 <
-CtTypeReference
-<
-?
->
 >
 (
 )

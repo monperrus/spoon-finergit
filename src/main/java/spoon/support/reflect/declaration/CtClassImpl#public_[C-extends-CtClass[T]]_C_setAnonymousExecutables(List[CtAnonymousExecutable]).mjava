@@ -38,7 +38,6 @@ anonymousExecutables
 new
 ArrayList
 <
-CtAnonymousExecutable
 >
 (
 ANONYMOUS_EXECUTABLES_CONTAINER_DEFAULT_CAPACITY

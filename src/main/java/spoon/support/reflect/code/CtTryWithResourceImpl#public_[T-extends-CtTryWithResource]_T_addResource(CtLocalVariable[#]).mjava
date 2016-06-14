@@ -31,10 +31,6 @@ resources
 new
 ArrayList
 <
-CtLocalVariable
-<
-?
->
 >
 (
 RESOURCES_CONTAINER_DEFAULT_CAPACITY

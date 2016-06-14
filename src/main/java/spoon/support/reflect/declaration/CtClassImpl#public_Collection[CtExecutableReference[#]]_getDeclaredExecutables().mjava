@@ -38,10 +38,6 @@ l
 new
 ArrayList
 <
-CtExecutableReference
-<
-?
->
 >
 (
 declaredExecutables

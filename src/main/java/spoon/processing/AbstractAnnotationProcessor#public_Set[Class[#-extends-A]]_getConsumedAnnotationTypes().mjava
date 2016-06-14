@@ -16,11 +16,6 @@ return
 new
 TreeSet
 <
-Class
-<
-?
-A
->
 >
 (
 consumedAnnotationTypes

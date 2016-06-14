@@ -39,10 +39,6 @@ types
 new
 ArrayList
 <
-CtType
-<
-?
->
 >
 (
 )

@@ -24,7 +24,6 @@ statements
 new
 ArrayList
 <
-CtStatement
 >
 (
 BLOCK_STATEMENTS_CONTAINER_DEFAULT_CAPACITY

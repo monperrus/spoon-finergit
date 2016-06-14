@@ -35,11 +35,6 @@ cases
 new
 ArrayList
 <
-CtCase
-<
-?
-S
->
 >
 (
 SWITCH_CASES_CONTAINER_DEFAULT_CAPACITY

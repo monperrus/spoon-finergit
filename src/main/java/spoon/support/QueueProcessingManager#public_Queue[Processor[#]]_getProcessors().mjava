@@ -22,10 +22,6 @@ processors
 new
 LinkedList
 <
-Processor
-<
-?
->
 >
 (
 )

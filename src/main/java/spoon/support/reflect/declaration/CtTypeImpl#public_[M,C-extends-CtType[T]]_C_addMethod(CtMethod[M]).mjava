@@ -36,10 +36,6 @@ methods
 new
 TreeSet
 <
-CtMethod
-<
-?
->
 >
 (
 )
@@ -53,10 +49,6 @@ m
 new
 ArrayList
 <
-CtMethod
-<
-?
->
 >
 (
 methods

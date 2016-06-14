@@ -280,10 +280,6 @@ executables
 new
 ArrayList
 <
-CtExecutable
-<
-?
->
 >
 (
 )

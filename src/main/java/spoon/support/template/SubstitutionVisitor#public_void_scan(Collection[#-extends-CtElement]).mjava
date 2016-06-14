@@ -21,7 +21,6 @@ scan
 new
 ArrayList
 <
-CtElement
 >
 (
 elements

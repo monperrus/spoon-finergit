@@ -28,7 +28,6 @@ e
 new
 ArrayList
 <
-CtElement
 >
 (
 elements

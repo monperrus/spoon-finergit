@@ -27,9 +27,6 @@ e
 new
 CtAssignmentImpl
 <
-T
-,
-A
 >
 (
 )

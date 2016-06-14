@@ -41,10 +41,6 @@ parameters
 new
 ArrayList
 <
-CtParameter
-<
-?
->
 >
 (
 PARAMETERS_CONTAINER_DEFAULT_CAPACITY

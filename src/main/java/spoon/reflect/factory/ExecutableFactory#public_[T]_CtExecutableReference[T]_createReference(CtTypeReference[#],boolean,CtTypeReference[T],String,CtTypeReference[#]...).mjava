@@ -98,10 +98,6 @@ l
 new
 ArrayList
 <
-CtTypeReference
-<
-?
->
 >
 (
 asList

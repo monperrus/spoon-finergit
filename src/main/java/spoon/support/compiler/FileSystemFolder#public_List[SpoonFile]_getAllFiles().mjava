@@ -16,7 +16,6 @@ all
 new
 ArrayList
 <
-SpoonFile
 >
 (
 getFiles
