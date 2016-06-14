@@ -15,6 +15,13 @@ CtClass
 anonymousClass
 )
 {
+if
+(
+anonymousClass
+!=
+null
+)
+{
 anonymousClass
 .
 setParent
@@ -22,6 +29,7 @@ setParent
 this
 )
 ;
+}
 this
 .
 anonymousClass

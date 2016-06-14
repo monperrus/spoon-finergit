@@ -15,6 +15,13 @@ CtBlock
 block
 )
 {
+if
+(
+block
+!=
+null
+)
+{
 block
 .
 setParent
@@ -22,6 +29,7 @@ setParent
 this
 )
 ;
+}
 this
 .
 block

@@ -15,6 +15,17 @@ R
 field
 )
 {
+if
+(
+field
+==
+null
+)
+{
+return
+null
+;
+}
 final
 CtMethod
 <

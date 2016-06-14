@@ -1,0 +1,12 @@
+protected
+abstract
+boolean
+isToBeProcessed
+(
+CtMethod
+<
+?
+>
+candidate
+)
+;
