@@ -24,6 +24,10 @@ parameters
 if
 (
 parameters
+==
+null
+||
+parameters
 .
 isEmpty
 (
