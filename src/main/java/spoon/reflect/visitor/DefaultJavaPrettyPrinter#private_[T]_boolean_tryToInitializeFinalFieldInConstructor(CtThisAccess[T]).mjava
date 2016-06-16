@@ -15,6 +15,8 @@ T
 thisAccess
 )
 {
+try
+{
 final
 CtElement
 parent
@@ -132,4 +134,15 @@ ModifierKind
 FINAL
 )
 ;
+}
+catch
+(
+ParentNotInitializedException
+e
+)
+{
+return
+false
+;
+}
 }

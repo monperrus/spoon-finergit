@@ -48,6 +48,15 @@ ParentNotInitializedException
 ignore
 )
 {
+LOGGER
+.
+error
+(
+ERROR_MESSAGE_TO_STRING
+,
+ignore
+)
+;
 errorMessage
 =
 ERROR_MESSAGE_TO_STRING
