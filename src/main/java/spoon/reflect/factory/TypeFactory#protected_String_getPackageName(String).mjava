@@ -34,8 +34,6 @@ qualifiedName
 ;
 }
 return
-CtPackage
-.
-TOP_LEVEL_PACKAGE_NAME
+""
 ;
 }

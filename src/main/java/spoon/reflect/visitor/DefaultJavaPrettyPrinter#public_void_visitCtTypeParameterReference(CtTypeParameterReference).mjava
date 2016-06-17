@@ -25,9 +25,7 @@ ref
 ;
 if
 (
-importsContext
-.
-isImported
+printQualified
 (
 ref
 )
@@ -37,7 +35,7 @@ write
 (
 ref
 .
-getSimpleName
+getQualifiedName
 (
 )
 )
@@ -49,7 +47,7 @@ write
 (
 ref
 .
-getQualifiedName
+getSimpleName
 (
 )
 )

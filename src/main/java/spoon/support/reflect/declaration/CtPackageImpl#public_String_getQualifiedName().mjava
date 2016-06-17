@@ -13,20 +13,12 @@ getDeclaringPackage
 ==
 null
 ||
-TOP_LEVEL_PACKAGE_NAME
-.
-equals
-(
-(
-(
-CtPackageImpl
-)
 getDeclaringPackage
 (
 )
-)
 .
-simpleName
+isUnnamedPackage
+(
 )
 )
 {
@@ -36,6 +28,8 @@ getSimpleName
 )
 ;
 }
+else
+{
 return
 getDeclaringPackage
 (
@@ -51,4 +45,5 @@ getSimpleName
 (
 )
 ;
+}
 }

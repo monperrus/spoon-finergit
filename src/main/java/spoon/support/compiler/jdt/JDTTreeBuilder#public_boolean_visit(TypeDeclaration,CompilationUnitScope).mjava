@@ -209,11 +209,8 @@ Package
 (
 )
 .
-getOrCreate
+getRootPackage
 (
-CtPackage
-.
-TOP_LEVEL_PACKAGE_NAME
 )
 ;
 }

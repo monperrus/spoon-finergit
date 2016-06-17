@@ -69,12 +69,9 @@ get
 "Panini"
 )
 ;
-CtPackage
-pack2
+CtElement
+topLevelParent
 =
-(
-CtPackage
-)
 panini
 .
 getPackage
@@ -87,7 +84,7 @@ getParent
 ;
 assertNotNull
 (
-pack2
+topLevelParent
 )
 ;
 assertEquals
@@ -135,7 +132,7 @@ assertNotEquals
 (
 pack1
 ,
-pack2
+topLevelParent
 )
 ;
 final

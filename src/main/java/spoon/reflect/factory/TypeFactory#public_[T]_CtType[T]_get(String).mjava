@@ -362,11 +362,8 @@ Package
 (
 )
 .
-get
+getRootPackage
 (
-CtPackage
-.
-TOP_LEVEL_PACKAGE_NAME
 )
 ;
 }

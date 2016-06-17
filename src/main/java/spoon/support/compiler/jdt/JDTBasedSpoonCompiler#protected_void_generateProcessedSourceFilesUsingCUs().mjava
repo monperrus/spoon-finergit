@@ -198,15 +198,8 @@ if
 (
 pack
 .
-getQualifiedName
+isUnnamedPackage
 (
-)
-.
-equals
-(
-CtPackage
-.
-TOP_LEVEL_PACKAGE_NAME
 )
 )
 {
