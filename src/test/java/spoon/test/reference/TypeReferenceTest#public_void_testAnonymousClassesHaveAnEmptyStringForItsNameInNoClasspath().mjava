@@ -157,7 +157,7 @@ toList
 ;
 assertEquals
 (
-6
+7
 ,
 referencedTypeNames
 .
@@ -203,6 +203,16 @@ referencedTypeNames
 contains
 (
 "java.lang.Override"
+)
+)
+;
+assertTrue
+(
+referencedTypeNames
+.
+contains
+(
+"java.lang.Object"
 )
 )
 ;
