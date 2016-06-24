@@ -23,6 +23,10 @@ if
 body
 !=
 null
+&&
+expression
+!=
+null
 )
 {
 throw

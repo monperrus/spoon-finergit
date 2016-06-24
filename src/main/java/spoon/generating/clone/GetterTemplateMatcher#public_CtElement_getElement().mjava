@@ -1,0 +1,14 @@
+public
+CtElement
+getElement
+(
+)
+{
+return
+_element_
+.
+S
+(
+)
+;
+}

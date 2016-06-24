@@ -1,0 +1,14 @@
+/** 
+ * Creates an unbound variable used in noclasspath.
+ */
+<
+T
+>
+CtUnboundVariableReference
+<
+T
+>
+createUnboundVariableReference
+(
+)
+;

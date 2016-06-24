@@ -27,6 +27,10 @@ if
 expression
 !=
 null
+&&
+body
+!=
+null
 )
 {
 throw

@@ -6,13 +6,7 @@ clone
 )
 {
 return
-getFactory
-(
-)
-.
-Core
-(
-)
+CloneHelper
 .
 clone
 (
