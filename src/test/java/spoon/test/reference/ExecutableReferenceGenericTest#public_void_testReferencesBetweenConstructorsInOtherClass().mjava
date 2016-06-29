@@ -46,7 +46,7 @@ CtExecutableReference
 >
 refConstructors
 =
-getCtConstructorsByCtConstructor
+getCtConstructorsReferencedInCtConstructor
 (
 ctConstructor
 )

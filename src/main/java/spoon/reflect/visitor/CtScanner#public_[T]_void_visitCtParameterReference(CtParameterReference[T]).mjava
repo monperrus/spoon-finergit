@@ -36,6 +36,15 @@ getAnnotations
 )
 )
 ;
+scan
+(
+reference
+.
+getDeclaringExecutable
+(
+)
+)
+;
 exit
 (
 reference
