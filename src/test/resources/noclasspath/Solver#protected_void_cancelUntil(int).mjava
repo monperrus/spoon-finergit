@@ -1,0 +1,27 @@
+/** 
+ * Cancel several levels of assumptions
+ * @param level
+ */
+protected
+void
+cancelUntil
+(
+int
+level
+)
+{
+while
+(
+decisionLevel
+(
+)
+>
+level
+)
+{
+cancel
+(
+)
+;
+}
+}

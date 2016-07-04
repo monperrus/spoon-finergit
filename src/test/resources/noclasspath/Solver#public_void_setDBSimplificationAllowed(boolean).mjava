@@ -1,0 +1,15 @@
+public
+void
+setDBSimplificationAllowed
+(
+boolean
+status
+)
+{
+this
+.
+isDBSimplificationAllowed
+=
+status
+;
+}

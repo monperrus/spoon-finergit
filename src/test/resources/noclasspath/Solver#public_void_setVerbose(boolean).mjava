@@ -1,0 +1,19 @@
+/** 
+ * @param value
+ * @since 2.2
+ */
+public
+void
+setVerbose
+(
+boolean
+value
+)
+{
+this
+.
+verbose
+=
+value
+;
+}

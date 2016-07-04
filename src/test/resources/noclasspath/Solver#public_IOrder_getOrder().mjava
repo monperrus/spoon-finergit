@@ -1,0 +1,12 @@
+public
+IOrder
+getOrder
+(
+)
+{
+return
+this
+.
+order
+;
+}

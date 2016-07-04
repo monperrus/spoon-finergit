@@ -1,0 +1,15 @@
+/** 
+ * @since 2.3.2
+ */
+public
+int
+currentDecisionLevel
+(
+)
+{
+return
+decisionLevel
+(
+)
+;
+}

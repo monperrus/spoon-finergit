@@ -1,0 +1,38 @@
+/** 
+ * Propagate activity to a constraint
+ * @param confl a constraint
+ */
+public
+void
+claBumpActivity
+(
+Constr
+confl
+)
+{
+confl
+.
+incActivity
+(
+this
+.
+claInc
+)
+;
+if
+(
+confl
+.
+getActivity
+(
+)
+>
+CLAUSE_RESCALE_BOUND
+)
+{
+claRescalActivity
+(
+)
+;
+}
+}

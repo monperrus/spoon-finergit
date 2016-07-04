@@ -1,0 +1,19 @@
+/** 
+ * @since 2.3.2
+ */
+public
+void
+suggestNextLiteralToBranchOn
+(
+int
+l
+)
+{
+throw
+new
+UnsupportedOperationException
+(
+"Not implemented yet!"
+)
+;
+}

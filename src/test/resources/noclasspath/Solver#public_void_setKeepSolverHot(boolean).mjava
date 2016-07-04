@@ -1,0 +1,15 @@
+public
+void
+setKeepSolverHot
+(
+boolean
+keepHot
+)
+{
+this
+.
+keepHot
+=
+keepHot
+;
+}

@@ -1,0 +1,17 @@
+public
+void
+setLearner
+(
+LearningStrategy
+<
+D
+>
+strategy
+)
+{
+setLearningStrategy
+(
+strategy
+)
+;
+}

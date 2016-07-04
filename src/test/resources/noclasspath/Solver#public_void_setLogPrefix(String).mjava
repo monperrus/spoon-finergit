@@ -1,0 +1,18 @@
+/** 
+ * @since 2.2
+ */
+public
+void
+setLogPrefix
+(
+String
+prefix
+)
+{
+this
+.
+prefix
+=
+prefix
+;
+}

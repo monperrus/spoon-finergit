@@ -1,0 +1,15 @@
+public
+void
+setRestartStrategy
+(
+RestartStrategy
+restarter
+)
+{
+this
+.
+restarter
+=
+restarter
+;
+}

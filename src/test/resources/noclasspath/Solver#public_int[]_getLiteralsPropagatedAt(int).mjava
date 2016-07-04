@@ -1,0 +1,21 @@
+/** 
+ * @since 2.3.2
+ */
+public
+int
+[
+]
+getLiteralsPropagatedAt
+(
+int
+decisionLevel
+)
+{
+throw
+new
+UnsupportedOperationException
+(
+"Not implemented yet!"
+)
+;
+}

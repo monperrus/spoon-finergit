@@ -1,0 +1,12 @@
+public
+ILogAble
+getLogger
+(
+)
+{
+return
+this
+.
+out
+;
+}

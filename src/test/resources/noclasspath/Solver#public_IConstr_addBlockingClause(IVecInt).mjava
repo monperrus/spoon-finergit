@@ -1,0 +1,20 @@
+/** 
+ * @since 2.1
+ */
+public
+IConstr
+addBlockingClause
+(
+IVecInt
+literals
+)
+throws
+ContradictionException
+{
+return
+addClause
+(
+literals
+)
+;
+}

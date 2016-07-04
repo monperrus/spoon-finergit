@@ -1,0 +1,12 @@
+public
+boolean
+isDBSimplificationAllowed
+(
+)
+{
+return
+this
+.
+isDBSimplificationAllowed
+;
+}

@@ -1,0 +1,19 @@
+/** 
+ * @param myStats
+ * @since 2.2
+ */
+protected
+void
+initStats
+(
+SolverStats
+myStats
+)
+{
+this
+.
+stats
+=
+myStats
+;
+}

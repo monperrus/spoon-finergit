@@ -1,0 +1,20 @@
+/** 
+ * @return true iff the set of constraints is satisfiable, else false.
+ */
+public
+boolean
+isSatisfiable
+(
+)
+throws
+TimeoutException
+{
+return
+isSatisfiable
+(
+VecInt
+.
+EMPTY
+)
+;
+}

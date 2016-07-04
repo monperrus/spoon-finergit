@@ -1,0 +1,15 @@
+public
+void
+setUnitClauseProvider
+(
+UnitClauseProvider
+ucp
+)
+{
+this
+.
+unitClauseProvider
+=
+ucp
+;
+}

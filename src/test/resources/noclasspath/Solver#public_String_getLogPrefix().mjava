@@ -1,0 +1,15 @@
+/** 
+ * @since 2.2
+ */
+public
+String
+getLogPrefix
+(
+)
+{
+return
+this
+.
+prefix
+;
+}

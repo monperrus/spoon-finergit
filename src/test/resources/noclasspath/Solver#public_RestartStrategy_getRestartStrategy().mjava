@@ -1,0 +1,12 @@
+public
+RestartStrategy
+getRestartStrategy
+(
+)
+{
+return
+this
+.
+restarter
+;
+}

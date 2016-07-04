@@ -1,0 +1,17 @@
+public
+final
+int
+decisionLevel
+(
+)
+{
+return
+this
+.
+trailLim
+.
+size
+(
+)
+;
+}

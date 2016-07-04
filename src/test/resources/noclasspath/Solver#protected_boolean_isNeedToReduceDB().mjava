@@ -1,0 +1,12 @@
+protected
+boolean
+isNeedToReduceDB
+(
+)
+{
+return
+this
+.
+needToReduceDB
+;
+}

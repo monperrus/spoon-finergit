@@ -1,0 +1,12 @@
+public
+ILits
+getVocabulary
+(
+)
+{
+return
+this
+.
+voc
+;
+}

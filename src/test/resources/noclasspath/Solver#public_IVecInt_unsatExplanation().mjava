@@ -1,0 +1,37 @@
+/** 
+ * @since 2.2
+ */
+public
+IVecInt
+unsatExplanation
+(
+)
+{
+IVecInt
+copy
+=
+new
+VecInt
+(
+this
+.
+unsatExplanationInTermsOfAssumptions
+.
+size
+(
+)
+)
+;
+this
+.
+unsatExplanationInTermsOfAssumptions
+.
+copyTo
+(
+copy
+)
+;
+return
+copy
+;
+}

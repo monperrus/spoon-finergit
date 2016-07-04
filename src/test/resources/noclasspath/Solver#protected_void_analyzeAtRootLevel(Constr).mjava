@@ -1,0 +1,9 @@
+protected
+void
+analyzeAtRootLevel
+(
+Constr
+conflict
+)
+{
+}

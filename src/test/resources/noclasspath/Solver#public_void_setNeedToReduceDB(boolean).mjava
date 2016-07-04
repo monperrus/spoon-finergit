@@ -1,0 +1,15 @@
+public
+void
+setNeedToReduceDB
+(
+boolean
+needToReduceDB
+)
+{
+this
+.
+needToReduceDB
+=
+needToReduceDB
+;
+}

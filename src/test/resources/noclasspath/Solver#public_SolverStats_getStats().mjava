@@ -1,0 +1,12 @@
+public
+SolverStats
+getStats
+(
+)
+{
+return
+this
+.
+stats
+;
+}

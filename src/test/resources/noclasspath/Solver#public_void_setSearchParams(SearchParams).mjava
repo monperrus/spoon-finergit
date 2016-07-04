@@ -1,0 +1,15 @@
+public
+void
+setSearchParams
+(
+SearchParams
+sp
+)
+{
+this
+.
+params
+=
+sp
+;
+}

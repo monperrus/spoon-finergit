@@ -1,0 +1,15 @@
+public
+IVec
+<
+Constr
+>
+getLearnedConstraints
+(
+)
+{
+return
+this
+.
+learnts
+;
+}

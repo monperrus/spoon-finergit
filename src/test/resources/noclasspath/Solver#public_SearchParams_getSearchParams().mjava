@@ -1,0 +1,12 @@
+public
+SearchParams
+getSearchParams
+(
+)
+{
+return
+this
+.
+params
+;
+}

@@ -1,0 +1,12 @@
+public
+DataStructureFactory
+getDSFactory
+(
+)
+{
+return
+this
+.
+dsfactory
+;
+}

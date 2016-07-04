@@ -1,0 +1,12 @@
+public
+boolean
+isSolverKeptHot
+(
+)
+{
+return
+this
+.
+keepHot
+;
+}

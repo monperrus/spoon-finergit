@@ -1,0 +1,15 @@
+public
+void
+setSimplifier
+(
+ISimplifier
+simp
+)
+{
+this
+.
+simplifier
+=
+simp
+;
+}

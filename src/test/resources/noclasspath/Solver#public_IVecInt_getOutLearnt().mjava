@@ -1,0 +1,12 @@
+public
+IVecInt
+getOutLearnt
+(
+)
+{
+return
+this
+.
+moutLearnt
+;
+}

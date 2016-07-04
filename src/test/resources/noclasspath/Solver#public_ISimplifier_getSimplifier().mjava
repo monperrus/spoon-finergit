@@ -1,0 +1,12 @@
+public
+ISimplifier
+getSimplifier
+(
+)
+{
+return
+this
+.
+simplifier
+;
+}

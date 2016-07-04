@@ -1,0 +1,17 @@
+/** 
+ */
+private
+void
+claDecayActivity
+(
+)
+{
+this
+.
+claInc
+=
+this
+.
+claDecay
+;
+}

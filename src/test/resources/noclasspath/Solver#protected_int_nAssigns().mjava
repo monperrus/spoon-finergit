@@ -1,0 +1,16 @@
+protected
+int
+nAssigns
+(
+)
+{
+return
+this
+.
+trail
+.
+size
+(
+)
+;
+}

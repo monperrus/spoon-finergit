@@ -1,0 +1,16 @@
+public
+void
+printStat
+(
+PrintWriter
+out
+)
+{
+printStat
+(
+out
+,
+prefix
+)
+;
+}

@@ -1,0 +1,15 @@
+public
+void
+setLogger
+(
+ILogAble
+out
+)
+{
+this
+.
+out
+=
+out
+;
+}

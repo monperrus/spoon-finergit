@@ -1,0 +1,24 @@
+/** 
+ * returns the ith constraint in the solver.
+ * @param i the constraint number (begins at 0)
+ * @return the ith constraint
+ */
+public
+IConstr
+getIthConstr
+(
+int
+i
+)
+{
+return
+this
+.
+constrs
+.
+get
+(
+i
+)
+;
+}
