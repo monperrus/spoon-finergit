@@ -43,11 +43,7 @@ simpleName
 ;
 owner
 .
-getTypes
-(
-)
-.
-add
+addType
 (
 i
 )
