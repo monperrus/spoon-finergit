@@ -616,7 +616,7 @@ element
 =
 annotation
 .
-getElementValues
+getValues
 (
 )
 .

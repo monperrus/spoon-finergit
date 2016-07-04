@@ -21,7 +21,7 @@ CtLiteral
 )
 annotation
 .
-getElementValues
+getValues
 (
 )
 .

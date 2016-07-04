@@ -146,6 +146,10 @@ assertEquals
 ,
 "Constructor 1"
 ,
+(
+(
+CtLiteral
+)
 annotations
 .
 get
@@ -153,9 +157,14 @@ get
 0
 )
 .
-getElementValue
+getValue
 (
 "value"
+)
+)
+.
+getValue
+(
 )
 )
 ;
@@ -165,6 +174,10 @@ assertEquals
 ,
 "Constructor 2"
 ,
+(
+(
+CtLiteral
+)
 annotations
 .
 get
@@ -172,9 +185,14 @@ get
 1
 )
 .
-getElementValue
+getValue
 (
 "value"
+)
+)
+.
+getValue
+(
 )
 )
 ;

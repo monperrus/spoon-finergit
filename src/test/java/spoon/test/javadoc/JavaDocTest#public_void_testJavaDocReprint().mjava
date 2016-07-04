@@ -43,17 +43,6 @@ getEnvironment
 (
 )
 .
-setGenerateJavadoc
-(
-true
-)
-;
-launcher
-.
-getEnvironment
-(
-)
-.
 setCommentEnabled
 (
 true

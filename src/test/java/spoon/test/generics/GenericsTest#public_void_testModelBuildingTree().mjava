@@ -62,21 +62,6 @@ assertEquals
 ,
 generic
 .
-getBounds
-(
-)
-.
-toString
-(
-)
-)
-;
-assertEquals
-(
-"[java.io.Serializable, java.lang.Comparable<V>]"
-,
-generic
-.
 getBoundingType
 (
 )

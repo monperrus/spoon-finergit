@@ -37,7 +37,7 @@ if
 (
 annotation
 .
-getElementValues
+getValues
 (
 )
 .
@@ -59,13 +59,13 @@ Entry
 <
 String
 ,
-Object
+CtExpression
 >
 e
 :
 annotation
 .
-getElementValues
+getValues
 (
 )
 .

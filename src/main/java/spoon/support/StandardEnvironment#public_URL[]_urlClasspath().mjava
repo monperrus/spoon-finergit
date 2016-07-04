@@ -1,5 +1,5 @@
 /** 
- * Creates a URL class path from  {@link getSourceClasspath()}
+ * Creates a URL class path from  {@link Environment#getSourceClasspath()}
  */
 public
 URL

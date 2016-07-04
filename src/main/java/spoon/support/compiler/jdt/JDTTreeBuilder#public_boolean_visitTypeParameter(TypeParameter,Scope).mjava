@@ -140,7 +140,7 @@ bounds
 length
 ;
 final
-List
+Set
 <
 CtTypeReference
 <
@@ -150,7 +150,7 @@ CtTypeReference
 bounds
 =
 new
-ArrayList
+TreeSet
 <
 >
 (
@@ -213,7 +213,7 @@ Type
 (
 )
 .
-createIntersectionTypeReference
+createIntersectionTypeReferenceWithBounds
 (
 bounds
 )
