@@ -1,5 +1,5 @@
 /** 
- * Sets this element to be implicit (will not be printed).
+ * Sets this element to be implicit.
  */
 <
 E
