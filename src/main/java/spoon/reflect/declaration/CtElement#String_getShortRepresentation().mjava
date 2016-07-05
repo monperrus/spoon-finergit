@@ -1,0 +1,8 @@
+/** 
+ * Build a short representation of any element.
+ */
+String
+getShortRepresentation
+(
+)
+;

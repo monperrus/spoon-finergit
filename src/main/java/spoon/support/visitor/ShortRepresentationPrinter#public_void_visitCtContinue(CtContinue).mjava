@@ -1,0 +1,24 @@
+@Override
+public
+void
+visitCtContinue
+(
+CtContinue
+continueStatement
+)
+{
+write
+(
+"continue "
+)
+;
+scan
+(
+continueStatement
+.
+getLabelledStatement
+(
+)
+)
+;
+}

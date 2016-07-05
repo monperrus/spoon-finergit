@@ -54,7 +54,7 @@ format
 ,
 actual
 .
-getSignature
+getShortRepresentation
 (
 )
 ,

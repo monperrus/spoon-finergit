@@ -57,13 +57,13 @@ format
 ,
 actual
 .
-getSignature
+getShortRepresentation
 (
 )
 ,
 expected
 .
-getSignature
+getShortRepresentation
 (
 )
 )

@@ -74,7 +74,7 @@ sigBef
 =
 sta2
 .
-getSignature
+getShortRepresentation
 (
 )
 ;
@@ -83,7 +83,7 @@ sigAf
 =
 des
 .
-getSignature
+getShortRepresentation
 (
 )
 ;

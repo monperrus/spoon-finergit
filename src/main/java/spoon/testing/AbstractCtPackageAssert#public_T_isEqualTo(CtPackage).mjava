@@ -283,13 +283,13 @@ format
 ,
 actualType
 .
-getSignature
+getShortRepresentation
 (
 )
 ,
 expectedType
 .
-getSignature
+getShortRepresentation
 (
 )
 )

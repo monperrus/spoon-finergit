@@ -1,0 +1,14 @@
+public
+void
+reset
+(
+)
+{
+signature
+=
+new
+StringBuffer
+(
+)
+;
+}

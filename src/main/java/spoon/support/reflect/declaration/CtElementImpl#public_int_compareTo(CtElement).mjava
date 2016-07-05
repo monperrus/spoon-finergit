@@ -1,6 +1,7 @@
 /** 
  * the ordering  between CtElement is lexicographic, based on the deep representation which is also used in  {@link #equals(Object)}.
  */
+@Override
 public
 int
 compareTo

@@ -16,7 +16,7 @@ e
 +
 e
 .
-getSignature
+getShortRepresentation
 (
 )
 +

@@ -134,7 +134,7 @@ getSimpleName
 +
 e
 .
-getSignature
+getShortRepresentation
 (
 )
 +

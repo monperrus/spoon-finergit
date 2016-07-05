@@ -1,0 +1,14 @@
+public
+String
+getShortRepresentation
+(
+)
+{
+return
+signature
+.
+toString
+(
+)
+;
+}

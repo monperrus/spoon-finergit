@@ -1,0 +1,14 @@
+@Override
+public
+String
+getSignature
+(
+)
+{
+throw
+new
+UnsupportedOperationException
+(
+)
+;
+}
