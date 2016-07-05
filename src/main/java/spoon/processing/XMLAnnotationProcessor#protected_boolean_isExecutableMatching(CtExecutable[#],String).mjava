@@ -3,7 +3,7 @@
  * @param executable the candidate executable
  * @param executableExpression and expression to match the executable against.
  * @return true if the executable matches the expression
- * @see CtElement#getSignature()
+ * @see CtExecutable#getSignature()
  */
 protected
 boolean

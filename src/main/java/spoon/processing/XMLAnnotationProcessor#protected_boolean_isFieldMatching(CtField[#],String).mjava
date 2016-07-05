@@ -3,7 +3,7 @@
  * @param field the candidate field
  * @param fieldExpression and expression to match the field against.
  * @return true if the field matches the expression
- * @see CtElement#getSignature()
+ * @see CtElement#getShortRepresentation()
  */
 protected
 boolean

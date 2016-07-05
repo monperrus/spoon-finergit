@@ -3,7 +3,7 @@
  * @param type the candidate type
  * @param typeExpression and expression to match the type against.
  * @return true if the type matches the expression
- * @see CtElement#getSignature()
+ * @see CtType#getQualifiedName()
  */
 protected
 boolean
