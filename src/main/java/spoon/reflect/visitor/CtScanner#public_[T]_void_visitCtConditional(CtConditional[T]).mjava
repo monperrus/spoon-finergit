@@ -63,6 +63,15 @@ getComments
 )
 )
 ;
+scan
+(
+conditional
+.
+getTypeCasts
+(
+)
+)
+;
 exit
 (
 conditional
