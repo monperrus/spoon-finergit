@@ -26,7 +26,9 @@ this
 .
 jdtTreeBuilder
 .
-context
+getContextBuilder
+(
+)
 .
 isArgument
 (

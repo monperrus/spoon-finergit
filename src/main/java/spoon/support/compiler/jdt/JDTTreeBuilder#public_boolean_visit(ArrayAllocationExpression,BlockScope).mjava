@@ -113,6 +113,10 @@ getArrayType
 .
 setAnnotations
 (
+this
+.
+references
+.
 buildTypeReference
 (
 arrayAllocationExpression

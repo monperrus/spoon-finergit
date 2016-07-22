@@ -1,0 +1,10 @@
+public
+ParentExiter
+getExiter
+(
+)
+{
+return
+exiter
+;
+}

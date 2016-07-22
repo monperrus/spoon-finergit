@@ -84,6 +84,8 @@ for
 ModifierKind
 modifier
 :
+JDTTreeBuilderHelper
+.
 getModifiers
 (
 jdtCatch

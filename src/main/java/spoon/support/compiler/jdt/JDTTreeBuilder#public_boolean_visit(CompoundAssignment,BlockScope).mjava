@@ -32,6 +32,8 @@ a
 .
 setKind
 (
+JDTTreeBuilderHelper
+.
 getBinaryOperatorKind
 (
 compoundAssignment

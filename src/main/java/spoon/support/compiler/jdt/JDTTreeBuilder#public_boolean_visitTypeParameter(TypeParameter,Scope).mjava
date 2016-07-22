@@ -56,6 +56,10 @@ typeParameterRef
 .
 setBoundingType
 (
+this
+.
+references
+.
 buildTypeReference
 (
 typeParameter
@@ -186,6 +190,10 @@ bounds
 .
 add
 (
+this
+.
+references
+.
 buildTypeReference
 (
 typeParameter

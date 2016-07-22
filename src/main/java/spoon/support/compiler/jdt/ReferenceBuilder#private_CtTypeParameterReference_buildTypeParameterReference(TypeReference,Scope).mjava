@@ -1,0 +1,53 @@
+/** 
+ * Builds a type parameter reference from a  {@link TypeReference}
+ * @param type  Type from JDT.
+ * @param scope Scope of the parent element.
+ * @return a type parameter reference.
+ */
+private
+CtTypeParameterReference
+buildTypeParameterReference
+(
+TypeReference
+type
+,
+Scope
+scope
+)
+{
+if
+(
+type
+==
+null
+)
+{
+return
+null
+;
+}
+return
+(
+CtTypeParameterReference
+)
+this
+.
+buildTypeReferenceInternal
+(
+this
+.
+getTypeParameterReference
+(
+type
+.
+resolvedType
+,
+type
+)
+,
+type
+,
+scope
+)
+;
+}

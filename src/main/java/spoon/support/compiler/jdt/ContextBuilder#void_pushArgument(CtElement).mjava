@@ -1,0 +1,15 @@
+void
+pushArgument
+(
+CtElement
+e
+)
+{
+arguments
+.
+push
+(
+e
+)
+;
+}

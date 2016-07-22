@@ -149,6 +149,10 @@ final
 CtTypeReference
 superInterface
 =
+this
+.
+references
+.
 buildTypeReference
 (
 ref
@@ -288,6 +292,8 @@ disjoint
 (
 modifiers
 ,
+JDTTreeBuilderHelper
+.
 getModifiers
 (
 resolvedType
@@ -352,6 +358,10 @@ type
 .
 setSuperclass
 (
+this
+.
+references
+.
 buildTypeReference
 (
 typeDeclaration
@@ -365,14 +375,6 @@ scope
 )
 ;
 }
-}
-if
-(
-type
-instanceof
-CtClass
-)
-{
 if
 (
 typeDeclaration
@@ -406,6 +408,8 @@ type
 .
 setSimpleName
 (
+JDTTreeBuilderHelper
+.
 computeAnonymousName
 (
 typeDeclaration
@@ -452,6 +456,8 @@ type
 .
 setModifiers
 (
+JDTTreeBuilderHelper
+.
 getModifiers
 (
 typeDeclaration

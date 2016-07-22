@@ -52,6 +52,10 @@ f
 .
 setType
 (
+this
+.
+references
+.
 buildTypeReference
 (
 annotationTypeDeclaration
@@ -92,6 +96,8 @@ annotationTypeDeclaration
 scope
 )
 ;
+JDTTreeBuilderHelper
+.
 substituteAnnotation
 (
 f

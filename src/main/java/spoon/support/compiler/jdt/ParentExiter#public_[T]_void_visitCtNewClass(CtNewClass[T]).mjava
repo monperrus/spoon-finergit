@@ -19,7 +19,9 @@ this
 .
 jdtTreeBuilder
 .
-context
+getContextBuilder
+(
+)
 .
 isArgument
 (
@@ -77,7 +79,9 @@ QualifiedAllocationExpression
 )
 jdtTreeBuilder
 .
-context
+getContextBuilder
+(
+)
 .
 stack
 .

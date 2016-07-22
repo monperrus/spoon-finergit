@@ -27,7 +27,9 @@ this
 .
 jdtTreeBuilder
 .
-context
+getContextBuilder
+(
+)
 .
 arguments
 .
@@ -39,7 +41,9 @@ this
 .
 jdtTreeBuilder
 .
-context
+getContextBuilder
+(
+)
 .
 arguments
 .

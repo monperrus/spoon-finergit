@@ -1,0 +1,14 @@
+public
+PositionBuilder
+(
+JDTTreeBuilder
+jdtTreeBuilder
+)
+{
+this
+.
+jdtTreeBuilder
+=
+jdtTreeBuilder
+;
+}

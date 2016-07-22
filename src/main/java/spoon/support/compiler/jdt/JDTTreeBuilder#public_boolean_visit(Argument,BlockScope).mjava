@@ -54,6 +54,8 @@ p
 .
 setModifiers
 (
+JDTTreeBuilderHelper
+.
 getModifiers
 (
 argument
@@ -228,6 +230,10 @@ Object
 >
 ref
 =
+this
+.
+references
+.
 getQualifiedTypeReference
 (
 qualifiedNameReference
@@ -344,6 +350,8 @@ this
 scope
 )
 ;
+JDTTreeBuilderHelper
+.
 substituteAnnotation
 (
 p

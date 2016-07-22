@@ -269,6 +269,10 @@ getExecutable
 .
 setType
 (
+this
+.
+references
+.
 buildTypeReference
 (
 allocationExpression
@@ -342,6 +346,10 @@ constructorCall
 .
 addActualTypeArgument
 (
+this
+.
+references
+.
 buildTypeReference
 (
 typeArgument

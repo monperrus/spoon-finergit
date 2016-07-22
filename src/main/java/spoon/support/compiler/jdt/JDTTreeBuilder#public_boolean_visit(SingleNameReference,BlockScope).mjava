@@ -762,6 +762,10 @@ setDeclaration
 (
 CtLocalVariable
 )
+this
+.
+context
+.
 getLocalVariableDeclaration
 (
 ref

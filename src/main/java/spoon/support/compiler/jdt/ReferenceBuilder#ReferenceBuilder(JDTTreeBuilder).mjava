@@ -1,0 +1,13 @@
+ReferenceBuilder
+(
+JDTTreeBuilder
+jdtTreeBuilder
+)
+{
+this
+.
+jdtTreeBuilder
+=
+jdtTreeBuilder
+;
+}

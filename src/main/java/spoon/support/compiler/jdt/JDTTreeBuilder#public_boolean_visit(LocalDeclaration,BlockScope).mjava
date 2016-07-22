@@ -43,6 +43,10 @@ v
 .
 setType
 (
+this
+.
+references
+.
 buildTypeReference
 (
 localDeclaration
@@ -57,6 +61,8 @@ v
 .
 setModifiers
 (
+JDTTreeBuilderHelper
+.
 getModifiers
 (
 localDeclaration
@@ -140,6 +146,8 @@ this
 scope
 )
 ;
+JDTTreeBuilderHelper
+.
 substituteAnnotation
 (
 v

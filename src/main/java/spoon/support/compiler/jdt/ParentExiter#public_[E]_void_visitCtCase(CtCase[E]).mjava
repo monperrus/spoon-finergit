@@ -19,7 +19,9 @@ this
 .
 jdtTreeBuilder
 .
-context
+getContextBuilder
+(
+)
 .
 selector
 &&

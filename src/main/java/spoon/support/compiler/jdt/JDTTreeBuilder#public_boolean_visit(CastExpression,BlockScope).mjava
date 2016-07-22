@@ -16,6 +16,10 @@ casts
 .
 add
 (
+this
+.
+references
+.
 buildTypeReference
 (
 castExpression

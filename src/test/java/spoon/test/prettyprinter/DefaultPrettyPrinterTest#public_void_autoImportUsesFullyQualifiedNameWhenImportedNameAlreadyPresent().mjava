@@ -180,7 +180,7 @@ expected
 +
 nl
 +
-"    spoon.test.prettyprinter.testclasses.sub.TypeIdentifierCollision.globalField = localField;"
+"    TypeIdentifierCollision.globalField = localField;"
 +
 nl
 +

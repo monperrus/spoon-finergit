@@ -66,6 +66,10 @@ getArrayType
 .
 setAnnotations
 (
+this
+.
+references
+.
 buildTypeReference
 (
 arrayTypeReference

@@ -43,6 +43,10 @@ m
 .
 setType
 (
+this
+.
+references
+.
 buildTypeReference
 (
 methodDeclaration
@@ -57,6 +61,8 @@ m
 .
 setModifiers
 (
+JDTTreeBuilderHelper
+.
 getModifiers
 (
 methodDeclaration
@@ -110,6 +116,10 @@ Throwable
 >
 throwType
 =
+this
+.
+references
+.
 buildTypeReference
 (
 r
@@ -190,6 +200,8 @@ methodDeclaration
 scope
 )
 ;
+JDTTreeBuilderHelper
+.
 substituteAnnotation
 (
 m

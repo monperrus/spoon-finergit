@@ -1,0 +1,15 @@
+public
+void
+m
+(
+)
+{
+FooField
+.
+f
+.
+field2
+=
+0
+;
+}

@@ -50,6 +50,10 @@ field
 .
 setType
 (
+this
+.
+references
+.
 buildTypeReference
 (
 fieldDeclaration
@@ -130,6 +134,8 @@ field
 .
 setModifiers
 (
+JDTTreeBuilderHelper
+.
 getModifiers
 (
 fieldDeclaration

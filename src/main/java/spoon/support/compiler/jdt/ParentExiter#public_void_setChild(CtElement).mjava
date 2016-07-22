@@ -1,0 +1,15 @@
+public
+void
+setChild
+(
+CtElement
+child
+)
+{
+this
+.
+child
+=
+child
+;
+}

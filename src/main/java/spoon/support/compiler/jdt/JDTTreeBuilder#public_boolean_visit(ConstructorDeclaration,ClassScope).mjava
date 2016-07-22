@@ -30,6 +30,8 @@ c
 .
 setModifiers
 (
+JDTTreeBuilderHelper
+.
 getModifiers
 (
 constructorDeclaration
@@ -189,6 +191,10 @@ Throwable
 >
 throwType
 =
+this
+.
+references
+.
 buildTypeReference
 (
 r
