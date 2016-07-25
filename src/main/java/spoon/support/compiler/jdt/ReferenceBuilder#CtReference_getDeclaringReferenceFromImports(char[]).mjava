@@ -300,6 +300,11 @@ typeReference
 }
 else
 {
+PackageBinding
+packageBinding
+=
+null
+;
 char
 [
 ]
@@ -330,6 +335,15 @@ length
 1
 )
 ;
+if
+(
+chars
+.
+length
+>
+0
+)
+{
 Binding
 someBinding
 =
@@ -353,9 +367,6 @@ false
 ,
 false
 )
-;
-PackageBinding
-packageBinding
 ;
 if
 (
@@ -405,6 +416,8 @@ createPackage
 chars
 )
 ;
+}
+}
 if
 (
 packageBinding
@@ -436,7 +449,6 @@ scope
 environment
 )
 ;
-}
 }
 return
 getPackageReference
