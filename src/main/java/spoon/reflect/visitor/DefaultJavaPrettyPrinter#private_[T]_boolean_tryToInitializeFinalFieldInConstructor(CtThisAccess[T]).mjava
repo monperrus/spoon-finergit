@@ -117,11 +117,7 @@ true
 ;
 }
 return
-variable
-.
-getDeclaration
-(
-)
+declaration
 .
 getModifiers
 (

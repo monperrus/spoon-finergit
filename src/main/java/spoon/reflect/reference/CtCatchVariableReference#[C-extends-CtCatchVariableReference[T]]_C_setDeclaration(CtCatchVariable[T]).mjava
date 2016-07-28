@@ -1,6 +1,7 @@
 /** 
  * Sets the catch variable declaration that corresponds to this catch variable reference.
  */
+@Deprecated
 <
 C
 extends

@@ -1,6 +1,7 @@
 /** 
  * Sets the local variable declaration that corresponds to this local variable reference.
  */
+@Deprecated
 <
 C
 extends
