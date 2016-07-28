@@ -1,0 +1,16 @@
+@Override
+public
+void
+setDeclaredPackage
+(
+CtPackage
+ctPackage
+)
+{
+this
+.
+ctPackage
+=
+ctPackage
+;
+}

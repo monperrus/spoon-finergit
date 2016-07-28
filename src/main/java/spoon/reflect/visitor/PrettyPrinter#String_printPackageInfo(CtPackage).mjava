@@ -1,0 +1,10 @@
+/** 
+ * Prints the package info.
+ */
+String
+printPackageInfo
+(
+CtPackage
+pack
+)
+;

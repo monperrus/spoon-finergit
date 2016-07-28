@@ -1,0 +1,10 @@
+/** 
+ * Sets the package declared in the top level type of the compilation unit.
+ */
+void
+setDeclaredPackage
+(
+CtPackage
+ctPackage
+)
+;

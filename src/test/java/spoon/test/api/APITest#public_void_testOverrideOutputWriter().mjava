@@ -53,10 +53,7 @@ public
 void
 process
 (
-CtType
-<
-?
->
+CtNamedElement
 e
 )
 {
