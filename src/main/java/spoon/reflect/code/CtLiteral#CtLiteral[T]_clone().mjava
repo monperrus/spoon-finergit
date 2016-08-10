@@ -1,3 +1,6 @@
+/** 
+ * Overriding return type, a clone of a CtLiteral returns a CtLiteral 
+ */
 @Override
 CtLiteral
 <
