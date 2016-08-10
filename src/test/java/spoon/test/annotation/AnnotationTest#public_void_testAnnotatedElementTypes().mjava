@@ -985,7 +985,7 @@ size
 ,
 annotationType
 .
-getAllMethods
+getMethods
 (
 )
 .

@@ -122,7 +122,7 @@ CtMethod
 )
 clazz1
 .
-getAllMethods
+getMethods
 (
 )
 .
