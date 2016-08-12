@@ -1,0 +1,52 @@
+/** 
+ * Creates an annotation.
+ * @param annotationType Type of the annotation.
+ * @return an annotation.
+ */
+public
+<
+A
+extends
+Annotation
+>
+CtAnnotation
+<
+A
+>
+createAnnotation
+(
+CtTypeReference
+<
+A
+>
+annotationType
+)
+{
+final
+CtAnnotation
+<
+A
+>
+a
+=
+factory
+.
+Core
+(
+)
+.
+createAnnotation
+(
+)
+;
+a
+.
+setAnnotationType
+(
+annotationType
+)
+;
+return
+a
+;
+}

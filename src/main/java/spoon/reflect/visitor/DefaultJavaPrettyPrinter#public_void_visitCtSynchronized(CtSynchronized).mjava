@@ -1,3 +1,4 @@
+@Override
 public
 void
 visitCtSynchronized
@@ -11,6 +12,8 @@ enterCtStatement
 synchro
 )
 ;
+printer
+.
 write
 (
 "synchronized"
@@ -27,6 +30,8 @@ getExpression
 null
 )
 {
+printer
+.
 write
 (
 "("
@@ -41,6 +46,8 @@ getExpression
 )
 )
 ;
+printer
+.
 write
 (
 ") "

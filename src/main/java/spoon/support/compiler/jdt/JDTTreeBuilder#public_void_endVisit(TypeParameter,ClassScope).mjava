@@ -17,10 +17,4 @@ exit
 typeParameter
 )
 ;
-context
-.
-isTypeParameter
-=
-false
-;
 }

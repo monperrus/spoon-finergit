@@ -1,0 +1,16 @@
+@Override
+public
+boolean
+visit
+(
+Javadoc
+javadoc
+,
+BlockScope
+scope
+)
+{
+return
+false
+;
+}

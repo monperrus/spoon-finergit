@@ -1,0 +1,19 @@
+/** 
+ * Sets the current number of tabs.
+ */
+public
+PrinterHelper
+setTabCount
+(
+int
+tabCount
+)
+{
+nbTabs
+=
+tabCount
+;
+return
+this
+;
+}

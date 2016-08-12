@@ -1,3 +1,4 @@
+@Override
 public
 <
 T
@@ -37,6 +38,8 @@ getAssigned
 )
 )
 ;
+printer
+.
 write
 (
 " = "

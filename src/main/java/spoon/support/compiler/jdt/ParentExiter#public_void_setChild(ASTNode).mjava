@@ -1,0 +1,15 @@
+public
+void
+setChild
+(
+ASTNode
+child
+)
+{
+this
+.
+childJDT
+=
+child
+;
+}

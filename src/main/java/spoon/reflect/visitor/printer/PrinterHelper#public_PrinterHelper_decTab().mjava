@@ -1,0 +1,16 @@
+/** 
+ * Decrements the current number of tabs.
+ */
+public
+PrinterHelper
+decTab
+(
+)
+{
+nbTabs
+--
+;
+return
+this
+;
+}

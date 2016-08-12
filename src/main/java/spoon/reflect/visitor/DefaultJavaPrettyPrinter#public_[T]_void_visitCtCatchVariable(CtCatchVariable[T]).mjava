@@ -22,9 +22,13 @@ isPreserveLineNumbers
 )
 )
 {
+printer
+.
 adjustPosition
 (
 catchVariable
+,
+sourceCompilationUnit
 )
 ;
 }
@@ -36,6 +40,8 @@ context
 noTypeDecl
 )
 {
+elementPrinterHelper
+.
 writeModifiers
 (
 catchVariable
@@ -50,12 +56,16 @@ getType
 )
 )
 ;
+printer
+.
 write
 (
 " "
 )
 ;
 }
+printer
+.
 write
 (
 catchVariable

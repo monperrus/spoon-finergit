@@ -11,6 +11,8 @@ enterCtStatement
 whileLoop
 )
 ;
+printer
+.
 write
 (
 "while ("
@@ -25,6 +27,8 @@ getLoopingExpression
 )
 )
 ;
+printer
+.
 write
 (
 ")"
@@ -41,6 +45,8 @@ instanceof
 CtBlock
 )
 {
+printer
+.
 write
 (
 " "
@@ -58,6 +64,8 @@ getBody
 }
 else
 {
+printer
+.
 incTab
 (
 )
@@ -70,6 +78,8 @@ writeTabs
 (
 )
 ;
+elementPrinterHelper
+.
 writeStatement
 (
 whileLoop
@@ -79,6 +89,8 @@ getBody
 )
 )
 ;
+printer
+.
 decTab
 (
 )

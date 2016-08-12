@@ -10,9 +10,10 @@ BlockScope
 scope
 )
 {
-CtDo
-d
-=
+context
+.
+enter
+(
 factory
 .
 Core
@@ -22,12 +23,6 @@ Core
 createDo
 (
 )
-;
-context
-.
-enter
-(
-d
 ,
 doStatement
 )

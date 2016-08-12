@@ -1,3 +1,4 @@
+@Override
 public
 void
 visitCtThrow
@@ -11,6 +12,8 @@ enterCtStatement
 throwStatement
 )
 ;
+printer
+.
 write
 (
 "throw "

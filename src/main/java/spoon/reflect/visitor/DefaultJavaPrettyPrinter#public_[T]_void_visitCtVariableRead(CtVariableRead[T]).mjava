@@ -18,6 +18,8 @@ enterCtExpression
 variableRead
 )
 ;
+printer
+.
 write
 (
 variableRead

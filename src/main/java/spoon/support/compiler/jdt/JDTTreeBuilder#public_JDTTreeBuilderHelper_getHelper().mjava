@@ -1,0 +1,10 @@
+public
+JDTTreeBuilderHelper
+getHelper
+(
+)
+{
+return
+helper
+;
+}

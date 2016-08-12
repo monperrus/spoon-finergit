@@ -1327,7 +1327,7 @@ newLine
 +
 newLine
 +
-"new java.lang.Double((j / ((double) ((i - 1)))))"
+"new java.lang.Double((j / ((double) (i - 1))))"
 ,
 ctLocalVariable1
 .

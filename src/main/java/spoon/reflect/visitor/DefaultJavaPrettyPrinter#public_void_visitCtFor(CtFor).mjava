@@ -1,3 +1,4 @@
+@Override
 public
 void
 visitCtFor
@@ -11,6 +12,8 @@ enterCtStatement
 forLoop
 )
 ;
+printer
+.
 write
 (
 "for ("
@@ -86,6 +89,8 @@ i
 ++
 )
 {
+printer
+.
 write
 (
 ", "
@@ -109,6 +114,8 @@ noTypeDecl
 false
 ;
 }
+printer
+.
 write
 (
 "; "
@@ -123,6 +130,8 @@ getExpression
 )
 )
 ;
+printer
+.
 write
 (
 ";"
@@ -142,6 +151,8 @@ isEmpty
 )
 )
 {
+printer
+.
 write
 (
 " "
@@ -165,6 +176,8 @@ scan
 s
 )
 ;
+printer
+.
 write
 (
 " , "
@@ -186,11 +199,15 @@ size
 0
 )
 {
+printer
+.
 removeLastChar
 (
 )
 ;
 }
+printer
+.
 write
 (
 ")"
@@ -207,6 +224,8 @@ instanceof
 CtBlock
 )
 {
+printer
+.
 write
 (
 " "
@@ -224,6 +243,8 @@ getBody
 }
 else
 {
+printer
+.
 incTab
 (
 )
@@ -236,6 +257,8 @@ writeTabs
 (
 )
 ;
+elementPrinterHelper
+.
 writeStatement
 (
 forLoop
@@ -245,6 +268,8 @@ getBody
 )
 )
 ;
+printer
+.
 decTab
 (
 )

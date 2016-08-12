@@ -4,10 +4,10 @@ void
 endVisit
 (
 QualifiedTypeReference
-arg0
+qualifiedTypeReference
 ,
 BlockScope
-arg1
+scope
 )
 {
 if
@@ -26,7 +26,7 @@ context
 .
 exit
 (
-arg0
+qualifiedTypeReference
 )
 ;
 }

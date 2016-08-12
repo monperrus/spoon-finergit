@@ -1,0 +1,16 @@
+/** 
+ * Increments the current number of tabs.
+ */
+public
+PrinterHelper
+incTab
+(
+)
+{
+nbTabs
+++
+;
+return
+this
+;
+}

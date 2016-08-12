@@ -1,0 +1,13 @@
+JDTTreeBuilderHelper
+(
+JDTTreeBuilder
+jdtTreeBuilder
+)
+{
+this
+.
+jdtTreeBuilder
+=
+jdtTreeBuilder
+;
+}

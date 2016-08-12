@@ -1,3 +1,4 @@
+@Override
 public
 <
 E
@@ -17,6 +18,8 @@ enterCtStatement
 switchStatement
 )
 ;
+printer
+.
 write
 (
 "switch ("
@@ -31,6 +34,8 @@ getSelector
 )
 )
 ;
+printer
+.
 write
 (
 ") {"
@@ -55,6 +60,8 @@ getCases
 )
 )
 {
+printer
+.
 writeln
 (
 )
@@ -62,7 +69,7 @@ writeln
 writeTabs
 (
 )
-.
+;
 scan
 (
 c
@@ -78,6 +85,8 @@ isPreserveLineNumbers
 )
 )
 {
+printer
+.
 decTab
 (
 )
@@ -90,6 +99,8 @@ write
 }
 else
 {
+printer
+.
 decTab
 (
 )

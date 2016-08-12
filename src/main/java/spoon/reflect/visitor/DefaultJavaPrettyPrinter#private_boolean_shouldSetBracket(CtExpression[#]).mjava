@@ -77,6 +77,10 @@ e
 instanceof
 CtUnaryOperator
 )
+||
+e
+instanceof
+CtBinaryOperator
 ;
 }
 if

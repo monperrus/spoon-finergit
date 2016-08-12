@@ -89,6 +89,8 @@ isLocalType
 )
 )
 {
+printer
+.
 write
 (
 accessedType
@@ -124,6 +126,8 @@ visitCtTypeReferenceWithoutGenerics
 accessedType
 )
 ;
+printer
+.
 write
 (
 "."
@@ -141,6 +145,8 @@ isImplicit
 )
 )
 {
+printer
+.
 write
 (
 "this"

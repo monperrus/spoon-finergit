@@ -1,0 +1,22 @@
+/** 
+ * Outputs a char.
+ */
+public
+PrinterHelper
+write
+(
+char
+c
+)
+{
+sbf
+.
+append
+(
+c
+)
+;
+return
+this
+;
+}

@@ -1,3 +1,4 @@
+@Override
 public
 <
 A
@@ -14,11 +15,15 @@ A
 annotation
 )
 {
+elementPrinterHelper
+.
 writeAnnotations
 (
 annotation
 )
 ;
+printer
+.
 write
 (
 "@"
@@ -48,6 +53,8 @@ size
 0
 )
 {
+printer
+.
 write
 (
 "("
@@ -74,6 +81,8 @@ entrySet
 )
 )
 {
+printer
+.
 write
 (
 e
@@ -85,6 +94,8 @@ getKey
 " = "
 )
 ;
+elementPrinterHelper
+.
 writeAnnotationElement
 (
 annotation
@@ -100,22 +111,30 @@ getValue
 )
 )
 ;
+printer
+.
 write
 (
 ", "
 )
 ;
 }
+printer
+.
 removeLastChar
 (
 )
 ;
+printer
+.
 write
 (
 ")"
 )
 ;
 }
+printer
+.
 writeln
 (
 )

@@ -12,6 +12,12 @@ blockScope
 {
 context
 .
+isBuildLambda
+=
+false
+;
+context
+.
 exit
 (
 lambdaExpression

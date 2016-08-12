@@ -1,0 +1,23 @@
+/** 
+ * Generates a new line.
+ */
+public
+PrinterHelper
+writeln
+(
+)
+{
+sbf
+.
+append
+(
+LINE_SEPARATOR
+)
+;
+line
+++
+;
+return
+this
+;
+}

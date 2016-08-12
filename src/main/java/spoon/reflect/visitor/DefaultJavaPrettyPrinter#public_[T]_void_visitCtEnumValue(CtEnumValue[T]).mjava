@@ -13,11 +13,17 @@ T
 enumValue
 )
 {
+elementPrinterHelper
+.
 visitCtNamedElement
 (
 enumValue
+,
+sourceCompilationUnit
 )
 ;
+printer
+.
 write
 (
 enumValue
@@ -71,6 +77,8 @@ size
 0
 )
 {
+printer
+.
 write
 (
 "("
@@ -108,6 +116,8 @@ false
 }
 else
 {
+printer
+.
 write
 (
 ","
@@ -120,6 +130,8 @@ ctexpr
 )
 ;
 }
+printer
+.
 write
 (
 ")"

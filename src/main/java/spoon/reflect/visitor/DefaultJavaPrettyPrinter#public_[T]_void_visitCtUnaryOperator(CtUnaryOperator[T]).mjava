@@ -1,3 +1,4 @@
+@Override
 public
 <
 T
@@ -22,6 +23,8 @@ enterCtExpression
 operator
 )
 ;
+printer
+.
 preWriteUnaryOperator
 (
 operator
@@ -29,12 +32,6 @@ operator
 getKind
 (
 )
-)
-;
-context
-.
-enterTarget
-(
 )
 ;
 scan
@@ -46,12 +43,8 @@ getOperand
 )
 )
 ;
-context
+printer
 .
-exitTarget
-(
-)
-;
 postWriteUnaryOperator
 (
 operator

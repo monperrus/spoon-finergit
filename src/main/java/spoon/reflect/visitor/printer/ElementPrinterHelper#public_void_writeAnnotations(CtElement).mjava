@@ -1,0 +1,35 @@
+/** 
+ * Writes the annotations for the given element.
+ */
+public
+void
+writeAnnotations
+(
+CtElement
+element
+)
+{
+for
+(
+CtAnnotation
+<
+?
+>
+annotation
+:
+element
+.
+getAnnotations
+(
+)
+)
+{
+prettyPrinter
+.
+scan
+(
+annotation
+)
+;
+}
+}

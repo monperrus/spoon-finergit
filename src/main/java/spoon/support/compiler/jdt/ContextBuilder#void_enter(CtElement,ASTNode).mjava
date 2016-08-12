@@ -186,6 +186,13 @@ e
 instanceof
 CtTypedElement
 &&
+!
+(
+e
+instanceof
+CtConstructorCall
+)
+&&
 node
 instanceof
 Expression

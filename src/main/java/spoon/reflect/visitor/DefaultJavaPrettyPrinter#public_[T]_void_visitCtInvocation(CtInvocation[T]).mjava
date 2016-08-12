@@ -1,3 +1,4 @@
+@Override
 public
 <
 T
@@ -35,6 +36,8 @@ isConstructor
 )
 )
 {
+elementPrinterHelper
+.
 writeActualTypeArguments
 (
 invocation
@@ -113,6 +116,8 @@ getQualifiedName
 )
 )
 {
+printer
+.
 write
 (
 "this"
@@ -141,12 +146,16 @@ getTarget
 )
 )
 ;
+printer
+.
 write
 (
 "."
 )
 ;
 }
+printer
+.
 write
 (
 "super"
@@ -185,12 +194,6 @@ ignoreGenerics
 true
 ;
 }
-context
-.
-enterTarget
-(
-)
-;
 scan
 (
 invocation
@@ -198,12 +201,6 @@ invocation
 getTarget
 (
 )
-)
-;
-context
-.
-exitTarget
-(
 )
 ;
 context
@@ -226,6 +223,8 @@ isImplicit
 )
 )
 {
+printer
+.
 write
 (
 "."
@@ -233,6 +232,8 @@ write
 ;
 }
 }
+elementPrinterHelper
+.
 writeActualTypeArguments
 (
 invocation
@@ -247,12 +248,18 @@ isPreserveLineNumbers
 )
 )
 {
+printer
+.
 adjustPosition
 (
 invocation
+,
+sourceCompilationUnit
 )
 ;
 }
+printer
+.
 write
 (
 invocation
@@ -267,6 +274,8 @@ getSimpleName
 )
 ;
 }
+printer
+.
 write
 (
 "("
@@ -297,6 +306,8 @@ scan
 e
 )
 ;
+printer
+.
 write
 (
 ", "
@@ -312,11 +323,15 @@ if
 remove
 )
 {
+printer
+.
 removeLastChar
 (
 )
 ;
 }
+printer
+.
 write
 (
 ")"

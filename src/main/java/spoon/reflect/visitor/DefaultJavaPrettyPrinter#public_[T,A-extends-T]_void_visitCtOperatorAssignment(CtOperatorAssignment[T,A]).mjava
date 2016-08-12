@@ -1,3 +1,4 @@
+@Override
 public
 <
 T
@@ -37,11 +38,15 @@ getAssigned
 )
 )
 ;
+printer
+.
 write
 (
 " "
 )
 ;
+printer
+.
 writeOperator
 (
 assignment
@@ -51,6 +56,8 @@ getKind
 )
 )
 ;
+printer
+.
 write
 (
 "= "

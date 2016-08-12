@@ -18,6 +18,8 @@ enterCtExpression
 lambda
 )
 ;
+printer
+.
 write
 (
 "("
@@ -58,17 +60,23 @@ scan
 parameter
 )
 ;
+printer
+.
 write
 (
 ","
 )
 ;
 }
+printer
+.
 removeLastChar
 (
 )
 ;
 }
+printer
+.
 write
 (
 ") -> "

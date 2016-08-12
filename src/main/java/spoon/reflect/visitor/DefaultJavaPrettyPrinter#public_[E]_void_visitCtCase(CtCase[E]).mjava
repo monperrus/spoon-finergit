@@ -1,3 +1,4 @@
+@Override
 @SuppressWarnings("rawtypes")
 public
 <
@@ -29,6 +30,8 @@ getCaseExpression
 null
 )
 {
+printer
+.
 write
 (
 "case "
@@ -106,6 +109,8 @@ getQualifiedName
 )
 )
 {
+printer
+.
 write
 (
 variable
@@ -144,12 +149,16 @@ getCaseExpression
 }
 else
 {
+printer
+.
 write
 (
 "default"
 )
 ;
 }
+printer
+.
 write
 (
 " :"
@@ -162,7 +171,7 @@ incTab
 for
 (
 CtStatement
-s
+statement
 :
 caseStatement
 .
@@ -171,6 +180,8 @@ getStatements
 )
 )
 {
+printer
+.
 writeln
 (
 )
@@ -178,13 +189,17 @@ writeln
 writeTabs
 (
 )
+;
+elementPrinterHelper
 .
 writeStatement
 (
-s
+statement
 )
 ;
 }
+printer
+.
 decTab
 (
 )

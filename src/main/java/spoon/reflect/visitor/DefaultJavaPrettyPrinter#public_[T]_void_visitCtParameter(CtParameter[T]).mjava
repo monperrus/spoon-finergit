@@ -1,3 +1,4 @@
+@Override
 public
 <
 T
@@ -12,16 +13,22 @@ T
 parameter
 )
 {
-printComment
+elementPrinterHelper
+.
+writeComment
 (
 parameter
 )
 ;
+elementPrinterHelper
+.
 writeAnnotations
 (
 parameter
 )
 ;
+elementPrinterHelper
+.
 writeModifiers
 (
 parameter
@@ -57,6 +64,8 @@ getComponentType
 )
 )
 ;
+printer
+.
 write
 (
 "..."
@@ -75,11 +84,15 @@ getType
 )
 ;
 }
+printer
+.
 write
 (
 " "
 )
 ;
+printer
+.
 write
 (
 parameter

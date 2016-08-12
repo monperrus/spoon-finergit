@@ -1,0 +1,10 @@
+public
+ElementPrinterHelper
+getElementPrinterHelper
+(
+)
+{
+return
+elementPrinterHelper
+;
+}

@@ -1,3 +1,4 @@
+@Override
 public
 <
 T
@@ -28,6 +29,8 @@ getValue
 null
 )
 {
+printer
+.
 write
 (
 "null"
@@ -46,6 +49,8 @@ instanceof
 Long
 )
 {
+printer
+.
 write
 (
 literal
@@ -70,6 +75,8 @@ instanceof
 Float
 )
 {
+printer
+.
 write
 (
 literal
@@ -94,6 +101,8 @@ instanceof
 Character
 )
 {
+printer
+.
 write
 (
 "'"
@@ -144,6 +153,8 @@ stringLength
 1
 ;
 }
+printer
+.
 writeStringLiteral
 (
 new
@@ -168,6 +179,8 @@ getValue
 mayContainsSpecialCharacter
 )
 ;
+printer
+.
 write
 (
 "'"
@@ -186,6 +199,8 @@ instanceof
 String
 )
 {
+printer
+.
 write
 (
 '\"'
@@ -249,6 +264,8 @@ length
 stringLength
 ;
 }
+printer
+.
 writeStringLiteral
 (
 (
@@ -263,6 +280,8 @@ getValue
 mayContainsSpecialCharacters
 )
 ;
+printer
+.
 write
 (
 '\"'
@@ -281,6 +300,8 @@ instanceof
 Class
 )
 {
+printer
+.
 write
 (
 (
@@ -330,6 +351,8 @@ getValue
 }
 else
 {
+printer
+.
 write
 (
 literal

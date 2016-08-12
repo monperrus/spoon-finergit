@@ -1,0 +1,15 @@
+public
+Map
+<
+Integer
+,
+Integer
+>
+getLineNumberMapping
+(
+)
+{
+return
+lineNumberMapping
+;
+}

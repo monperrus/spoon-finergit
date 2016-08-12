@@ -1,3 +1,4 @@
+@Override
 public
 void
 visitCtIf
@@ -11,6 +12,8 @@ enterCtStatement
 ifElement
 )
 ;
+printer
+.
 write
 (
 "if ("
@@ -25,6 +28,8 @@ getCondition
 )
 )
 ;
+printer
+.
 write
 (
 ")"
@@ -41,6 +46,8 @@ instanceof
 CtBlock
 )
 {
+printer
+.
 write
 (
 " "
@@ -58,6 +65,8 @@ getThenStatement
 )
 )
 ;
+printer
+.
 write
 (
 " "
@@ -66,6 +75,8 @@ write
 }
 else
 {
+printer
+.
 incTab
 (
 )
@@ -84,6 +95,8 @@ CtComment
 >
 comments
 =
+elementPrinterHelper
+.
 getComments
 (
 ifElement
@@ -128,13 +141,17 @@ getSourceStart
 )
 )
 {
-printComment
+elementPrinterHelper
+.
+writeComment
 (
 comment
 )
 ;
 }
 }
+elementPrinterHelper
+.
 writeStatement
 (
 ifElement
@@ -153,6 +170,8 @@ isPreserveLineNumbers
 )
 )
 {
+printer
+.
 decTab
 (
 )
@@ -160,6 +179,8 @@ decTab
 }
 else
 {
+printer
+.
 decTab
 (
 )
@@ -191,6 +212,8 @@ CtComment
 >
 comments
 =
+elementPrinterHelper
+.
 getComments
 (
 ifElement
@@ -235,13 +258,17 @@ getSourceEnd
 )
 )
 {
-printComment
+elementPrinterHelper
+.
+writeComment
 (
 comment
 )
 ;
 }
 }
+printer
+.
 write
 (
 "else"
@@ -258,6 +285,8 @@ instanceof
 CtIf
 )
 {
+printer
+.
 write
 (
 " "
@@ -288,6 +317,8 @@ instanceof
 CtBlock
 )
 {
+printer
+.
 write
 (
 " "
@@ -308,6 +339,8 @@ getElseStatement
 }
 else
 {
+printer
+.
 incTab
 (
 )
@@ -320,6 +353,8 @@ writeTabs
 (
 )
 ;
+elementPrinterHelper
+.
 writeStatement
 (
 ifElement
@@ -338,6 +373,8 @@ isPreserveLineNumbers
 )
 )
 {
+printer
+.
 decTab
 (
 )
@@ -345,6 +382,8 @@ decTab
 }
 else
 {
+printer
+.
 decTab
 (
 )

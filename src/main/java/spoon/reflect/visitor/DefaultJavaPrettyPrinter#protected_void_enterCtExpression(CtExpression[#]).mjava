@@ -12,11 +12,13 @@ CtExpression
 e
 )
 {
+printer
+.
 mapLine
 (
-line
-,
 e
+,
+sourceCompilationUnit
 )
 ;
 if
@@ -36,6 +38,8 @@ push
 e
 )
 ;
+printer
+.
 write
 (
 "("
@@ -71,6 +75,8 @@ getTypeCasts
 )
 )
 {
+printer
+.
 write
 (
 "("
@@ -83,11 +89,15 @@ scan
 r
 )
 ;
+printer
+.
 write
 (
 ") "
 )
 ;
+printer
+.
 write
 (
 "("

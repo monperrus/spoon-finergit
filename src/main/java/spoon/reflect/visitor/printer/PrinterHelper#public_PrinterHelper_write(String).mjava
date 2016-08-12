@@ -1,0 +1,30 @@
+/** 
+ * Outputs a string.
+ */
+public
+PrinterHelper
+write
+(
+String
+s
+)
+{
+if
+(
+s
+!=
+null
+)
+{
+sbf
+.
+append
+(
+s
+)
+;
+}
+return
+this
+;
+}

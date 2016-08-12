@@ -1,3 +1,4 @@
+@Override
 @SuppressWarnings("rawtypes")
 public
 <
@@ -87,6 +88,8 @@ ref
 null
 )
 {
+printer
+.
 write
 (
 "new "
@@ -125,6 +128,8 @@ i
 ++
 )
 {
+printer
+.
 write
 (
 "["
@@ -172,7 +177,9 @@ CtStatement
 )
 )
 {
-printComment
+elementPrinterHelper
+.
+writeComment
 (
 e
 ,
@@ -197,7 +204,9 @@ CtStatement
 )
 )
 {
-printComment
+elementPrinterHelper
+.
+writeComment
 (
 e
 ,
@@ -208,6 +217,8 @@ AFTER
 ;
 }
 }
+printer
+.
 write
 (
 "]"
@@ -243,6 +254,8 @@ size
 0
 )
 {
+printer
+.
 write
 (
 "{ "
@@ -270,7 +283,9 @@ CtStatement
 )
 )
 {
-printComment
+elementPrinterHelper
+.
+writeComment
 (
 e
 ,
@@ -285,6 +300,8 @@ scan
 e
 )
 ;
+printer
+.
 write
 (
 " , "
@@ -300,7 +317,9 @@ CtStatement
 )
 )
 {
-printComment
+elementPrinterHelper
+.
+writeComment
 (
 e
 ,
@@ -326,11 +345,15 @@ size
 0
 )
 {
+printer
+.
 removeLastChar
 (
 )
 ;
 }
+printer
+.
 write
 (
 " }"

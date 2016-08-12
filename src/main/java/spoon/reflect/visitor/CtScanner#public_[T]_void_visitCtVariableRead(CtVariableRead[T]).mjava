@@ -32,15 +32,6 @@ scan
 (
 variableRead
 .
-getType
-(
-)
-)
-;
-scan
-(
-variableRead
-.
 getTypeCasts
 (
 )

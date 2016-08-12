@@ -1,3 +1,4 @@
+@Override
 public
 void
 visitCtTypeParameterReference
@@ -18,6 +19,8 @@ isImplicit
 return
 ;
 }
+elementPrinterHelper
+.
 writeAnnotations
 (
 ref
@@ -31,6 +34,8 @@ ref
 )
 )
 {
+printer
+.
 write
 (
 ref
@@ -43,6 +48,8 @@ getQualifiedName
 }
 else
 {
+printer
+.
 write
 (
 ref
@@ -55,24 +62,6 @@ getSimpleName
 }
 if
 (
-(
-!
-context
-.
-isInvocation
-||
-"?"
-.
-equals
-(
-ref
-.
-getSimpleName
-(
-)
-)
-)
-&&
 ref
 .
 getBoundingType
@@ -91,6 +80,8 @@ isUpper
 )
 )
 {
+printer
+.
 write
 (
 " extends "
@@ -99,6 +90,8 @@ write
 }
 else
 {
+printer
+.
 write
 (
 " super "

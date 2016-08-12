@@ -38,12 +38,16 @@ getTarget
 )
 )
 ;
+printer
+.
 write
 (
 "."
 )
 ;
 }
+printer
+.
 write
 (
 "super"

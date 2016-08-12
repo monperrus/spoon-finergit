@@ -32,15 +32,6 @@ scan
 (
 variableWrite
 .
-getType
-(
-)
-)
-;
-scan
-(
-variableWrite
-.
 getTypeCasts
 (
 )

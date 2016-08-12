@@ -10,11 +10,4 @@ BlockScope
 scope
 )
 {
-context
-.
-exit
-(
-caseStatement
-)
-;
 }

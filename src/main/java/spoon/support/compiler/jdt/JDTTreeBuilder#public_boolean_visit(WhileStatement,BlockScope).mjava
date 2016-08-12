@@ -10,9 +10,10 @@ BlockScope
 scope
 )
 {
-CtWhile
-w
-=
+context
+.
+enter
+(
 factory
 .
 Core
@@ -22,12 +23,6 @@ Core
 createWhile
 (
 )
-;
-context
-.
-enter
-(
-w
 ,
 whileStatement
 )

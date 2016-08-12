@@ -12,6 +12,8 @@ enterCtStatement
 tryWithResource
 )
 ;
+printer
+.
 write
 (
 "try "
@@ -39,6 +41,8 @@ isEmpty
 )
 )
 {
+printer
+.
 write
 (
 "("
@@ -64,16 +68,22 @@ scan
 r
 )
 ;
+printer
+.
 write
 (
 ";"
 )
 ;
 }
+printer
+.
 removeLastChar
 (
 )
 ;
+printer
+.
 write
 (
 ") "
@@ -118,6 +128,8 @@ getFinalizer
 null
 )
 {
+printer
+.
 write
 (
 " finally "

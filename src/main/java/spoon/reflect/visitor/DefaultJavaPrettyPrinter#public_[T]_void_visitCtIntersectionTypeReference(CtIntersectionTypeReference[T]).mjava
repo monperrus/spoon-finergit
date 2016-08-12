@@ -33,12 +33,16 @@ scan
 bound
 )
 ;
+printer
+.
 write
 (
 " & "
 )
 ;
 }
+printer
+.
 removeLastChar
 (
 )

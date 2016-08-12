@@ -1,3 +1,4 @@
+@Override
 public
 <
 R
@@ -17,6 +18,8 @@ enterCtStatement
 block
 )
 ;
+printer
+.
 write
 (
 "{"
@@ -29,7 +32,7 @@ incTab
 for
 (
 CtStatement
-e
+statement
 :
 block
 .
@@ -41,13 +44,15 @@ getStatements
 if
 (
 !
-e
+statement
 .
 isImplicit
 (
 )
 )
 {
+printer
+.
 writeln
 (
 )
@@ -56,9 +61,11 @@ writeTabs
 (
 )
 ;
+elementPrinterHelper
+.
 writeStatement
 (
-e
+statement
 )
 ;
 }
@@ -72,6 +79,8 @@ isPreserveLineNumbers
 )
 )
 {
+printer
+.
 decTab
 (
 )
@@ -84,6 +93,8 @@ write
 }
 else
 {
+printer
+.
 decTab
 (
 )

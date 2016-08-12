@@ -1,3 +1,4 @@
+@Override
 public
 void
 visitCtPackage
@@ -16,6 +17,8 @@ isUnnamedPackage
 )
 )
 {
+printer
+.
 write
 (
 "package "
@@ -32,6 +35,8 @@ getQualifiedName
 }
 else
 {
+printer
+.
 write
 (
 "// default package (CtPackage.TOP_LEVEL_PACKAGE_NAME in Spoon= unnamed package)\n"

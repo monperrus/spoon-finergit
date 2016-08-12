@@ -70,7 +70,7 @@ class
 )
 ;
 final
-CtFieldRead
+CtFieldWrite
 <
 Object
 >
@@ -86,7 +86,7 @@ Core
 (
 )
 .
-createFieldRead
+createFieldWrite
 (
 )
 ;
@@ -111,6 +111,8 @@ aMole
 getReference
 (
 )
+,
+true
 )
 )
 ;

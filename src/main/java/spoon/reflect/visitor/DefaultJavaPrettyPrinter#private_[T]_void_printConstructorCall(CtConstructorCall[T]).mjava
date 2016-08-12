@@ -31,6 +31,8 @@ getTarget
 (
 )
 )
+;
+printer
 .
 write
 (
@@ -63,6 +65,8 @@ ignoreEnclosingClass
 true
 ;
 }
+printer
+.
 write
 (
 "new "
@@ -83,6 +87,8 @@ size
 0
 )
 {
+elementPrinterHelper
+.
 writeActualTypeArguments
 (
 ctConstructorCall
@@ -104,6 +110,8 @@ ignoreEnclosingClass
 =
 false
 ;
+printer
+.
 write
 (
 "("
@@ -126,6 +134,8 @@ scan
 exp
 )
 ;
+printer
+.
 write
 (
 ", "
@@ -147,11 +157,15 @@ size
 0
 )
 {
+printer
+.
 removeLastChar
 (
 )
 ;
 }
+printer
+.
 write
 (
 ")"

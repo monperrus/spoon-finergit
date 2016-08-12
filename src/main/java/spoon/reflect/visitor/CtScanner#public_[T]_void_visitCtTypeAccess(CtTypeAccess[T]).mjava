@@ -32,15 +32,6 @@ scan
 (
 typeAccess
 .
-getType
-(
-)
-)
-;
-scan
-(
-typeAccess
-.
 getTypeCasts
 (
 )

@@ -27,13 +27,15 @@ size
 )
 )
 ;
-assertNull
+assertTrue
 (
 ctInvocation
 .
 getTarget
 (
 )
+instanceof
+CtThisAccess
 )
 ;
 assertNotNull

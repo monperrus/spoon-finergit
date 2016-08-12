@@ -45,6 +45,8 @@ pop
 (
 )
 ;
+printer
+.
 write
 (
 ")"

@@ -10,12 +10,8 @@ ClassScope
 scope
 )
 {
-CtType
-<
-?
->
-type
-=
+helper
+.
 createType
 (
 memberTypeDeclaration

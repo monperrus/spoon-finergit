@@ -30,8 +30,6 @@ op
 .
 setKind
 (
-JDTTreeBuilderHelper
-.
 getBinaryOperatorKind
 (
 (

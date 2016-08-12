@@ -1,3 +1,4 @@
+@Override
 public
 <
 T
@@ -39,7 +40,9 @@ CtStatement
 )
 )
 {
-printComment
+elementPrinterHelper
+.
+writeComment
 (
 condition
 ,
@@ -81,6 +84,8 @@ if
 parent
 )
 {
+printer
+.
 write
 (
 "("
@@ -97,6 +102,8 @@ if
 parent
 )
 {
+printer
+.
 write
 (
 ")"
@@ -113,7 +120,9 @@ CtStatement
 )
 )
 {
-printComment
+elementPrinterHelper
+.
+writeComment
 (
 condition
 ,
@@ -123,6 +132,8 @@ AFTER
 )
 ;
 }
+printer
+.
 write
 (
 " ? "
@@ -150,7 +161,9 @@ CtStatement
 )
 )
 {
-printComment
+elementPrinterHelper
+.
+writeComment
 (
 thenExpression
 ,
@@ -175,7 +188,9 @@ CtStatement
 )
 )
 {
-printComment
+elementPrinterHelper
+.
+writeComment
 (
 thenExpression
 ,
@@ -185,6 +200,8 @@ AFTER
 )
 ;
 }
+printer
+.
 write
 (
 " : "
@@ -218,6 +235,8 @@ CtAssignment
 )
 )
 {
+printer
+.
 write
 (
 "("
@@ -234,7 +253,9 @@ CtStatement
 )
 )
 {
-printComment
+elementPrinterHelper
+.
+writeComment
 (
 elseExpression
 ,
@@ -259,7 +280,9 @@ CtStatement
 )
 )
 {
-printComment
+elementPrinterHelper
+.
+writeComment
 (
 elseExpression
 ,
@@ -274,6 +297,8 @@ if
 isAssign
 )
 {
+printer
+.
 write
 (
 ")"

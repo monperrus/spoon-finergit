@@ -1,3 +1,4 @@
+@Override
 public
 void
 visitCtContinue
@@ -11,6 +12,8 @@ enterCtStatement
 continueStatement
 )
 ;
+printer
+.
 write
 (
 "continue"
@@ -27,6 +30,8 @@ getTargetLabel
 null
 )
 {
+printer
+.
 write
 (
 " "

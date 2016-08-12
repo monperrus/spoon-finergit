@@ -28,13 +28,6 @@ superReference
 )
 ;
 return
-super
-.
-visit
-(
-superReference
-,
-scope
-)
+true
 ;
 }
