@@ -66,9 +66,12 @@ enclosingInstance
 !=
 null
 &&
+getFinalExpressionFromCast
+(
 parent
 .
 enclosingInstance
+)
 .
 equals
 (

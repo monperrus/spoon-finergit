@@ -63,6 +63,11 @@ e
 {
 fail
 (
+e
+.
+getMessage
+(
+)
 )
 ;
 }
