@@ -80,7 +80,10 @@ dimension
 !=
 null
 &&
+getFinalExpressionFromCast
+(
 dimension
+)
 .
 equals
 (
