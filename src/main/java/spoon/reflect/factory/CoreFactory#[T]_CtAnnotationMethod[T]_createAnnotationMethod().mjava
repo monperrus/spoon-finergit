@@ -1,0 +1,14 @@
+/** 
+ * Creates an annotation method.
+ */
+<
+T
+>
+CtAnnotationMethod
+<
+T
+>
+createAnnotationMethod
+(
+)
+;

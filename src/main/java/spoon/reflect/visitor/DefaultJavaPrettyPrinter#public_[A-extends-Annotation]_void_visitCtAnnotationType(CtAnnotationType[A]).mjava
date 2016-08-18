@@ -78,6 +78,17 @@ getFields
 )
 )
 ;
+lst
+.
+addAll
+(
+annotationType
+.
+getMethods
+(
+)
+)
+;
 elementPrinterHelper
 .
 writeElementList

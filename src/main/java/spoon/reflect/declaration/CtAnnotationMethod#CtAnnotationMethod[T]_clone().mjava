@@ -1,0 +1,9 @@
+@Override
+CtAnnotationMethod
+<
+T
+>
+clone
+(
+)
+;

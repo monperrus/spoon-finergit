@@ -1,0 +1,24 @@
+/** 
+ * {@inheritDoc}The method passed as parameter must be a  {@link CtAnnotationMethod}.
+ */
+@Override
+<
+M
+,
+C
+extends
+CtType
+<
+T
+>
+>
+C
+addMethod
+(
+CtMethod
+<
+M
+>
+method
+)
+;

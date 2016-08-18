@@ -1,0 +1,11 @@
+/** 
+ * Gets the default expression assigned to the annotation method.
+ */
+CtExpression
+<
+T
+>
+getDefaultExpression
+(
+)
+;

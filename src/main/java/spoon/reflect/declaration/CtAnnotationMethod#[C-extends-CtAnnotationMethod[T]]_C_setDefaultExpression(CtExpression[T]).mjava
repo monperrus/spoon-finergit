@@ -1,0 +1,21 @@
+/** 
+ * Sets the default expression assigned to the annotation method.
+ */
+<
+C
+extends
+CtAnnotationMethod
+<
+T
+>
+>
+C
+setDefaultExpression
+(
+CtExpression
+<
+T
+>
+assignedExpression
+)
+;

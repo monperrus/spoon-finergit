@@ -77,7 +77,7 @@ res
 ,
 annotationInnerClass
 .
-getField
+getMethod
 (
 "value"
 )
@@ -138,7 +138,7 @@ res
 ,
 annotation
 .
-getField
+getMethod
 (
 "value"
 )

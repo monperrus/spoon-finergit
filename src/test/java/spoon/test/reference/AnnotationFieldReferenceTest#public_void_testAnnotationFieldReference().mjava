@@ -116,7 +116,7 @@ executableDeclaration
 )
 ;
 final
-CtField
+CtMethod
 <
 ?
 >
@@ -135,7 +135,7 @@ Parameter
 class
 )
 .
-getField
+getMethod
 (
 "value"
 )

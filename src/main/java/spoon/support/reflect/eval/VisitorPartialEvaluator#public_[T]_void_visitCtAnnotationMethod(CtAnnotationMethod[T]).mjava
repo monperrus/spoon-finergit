@@ -1,0 +1,23 @@
+@Override
+public
+<
+T
+>
+void
+visitCtAnnotationMethod
+(
+CtAnnotationMethod
+<
+T
+>
+annotationMethod
+)
+{
+throw
+new
+RuntimeException
+(
+"Unknown Element"
+)
+;
+}

@@ -82,7 +82,7 @@ ctAnnotationType
 null
 )
 {
-CtField
+CtMethod
 <
 ?
 >
@@ -90,7 +90,7 @@ e
 =
 ctAnnotationType
 .
-getField
+getMethod
 (
 annotationElementName
 )
