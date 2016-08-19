@@ -45,7 +45,7 @@ getQualifiedName
 )
 )
 ;
-assertNull
+assertNotNull
 (
 anEnum
 .

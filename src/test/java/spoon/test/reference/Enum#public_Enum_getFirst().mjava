@@ -1,0 +1,14 @@
+public
+static
+Enum
+getFirst
+(
+)
+{
+return
+valueOf
+(
+"A"
+)
+;
+}
