@@ -1,3 +1,7 @@
+/** 
+ * @see CtElement#replace(CtElement)
+ */
+@Deprecated
 public
 static
 void
