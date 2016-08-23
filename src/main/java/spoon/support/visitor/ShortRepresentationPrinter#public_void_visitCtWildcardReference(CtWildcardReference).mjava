@@ -1,0 +1,15 @@
+@Override
+public
+void
+visitCtWildcardReference
+(
+CtWildcardReference
+wildcardReference
+)
+{
+visitCtTypeParameterReference
+(
+wildcardReference
+)
+;
+}

@@ -1,0 +1,17 @@
+@Override
+public
+void
+accept
+(
+CtVisitor
+visitor
+)
+{
+visitor
+.
+visitCtWildcardReference
+(
+this
+)
+;
+}

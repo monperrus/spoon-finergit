@@ -1,0 +1,15 @@
+public
+<
+T
+extends
+Comparator
+<
+?
+String
+>
+>
+Paella
+(
+)
+{
+}

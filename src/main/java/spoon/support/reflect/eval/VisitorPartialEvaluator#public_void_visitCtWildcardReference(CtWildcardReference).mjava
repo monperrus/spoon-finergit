@@ -1,0 +1,17 @@
+@Override
+public
+void
+visitCtWildcardReference
+(
+CtWildcardReference
+wildcardReference
+)
+{
+throw
+new
+RuntimeException
+(
+"Unknown Element"
+)
+;
+}

@@ -1,0 +1,8 @@
+/** 
+ * Creates a wildcard reference.
+ */
+CtWildcardReference
+createWildcardReference
+(
+)
+;

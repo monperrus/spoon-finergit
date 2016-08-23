@@ -1,0 +1,10 @@
+/** 
+ * Visits a reference to a wildcard.
+ */
+void
+visitCtWildcardReference
+(
+CtWildcardReference
+wildcardReference
+)
+;
