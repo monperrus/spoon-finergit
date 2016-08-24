@@ -101,13 +101,13 @@ biScan
 (
 ctClass
 .
-getFormalTypeParameters
+getFormalCtTypeParameters
 (
 )
 ,
 other
 .
-getFormalTypeParameters
+getFormalCtTypeParameters
 (
 )
 )

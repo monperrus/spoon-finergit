@@ -1,0 +1,16 @@
+@Override
+public
+CtField
+<
+?
+>
+getField
+(
+String
+name
+)
+{
+return
+null
+;
+}

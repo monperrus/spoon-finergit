@@ -90,7 +90,7 @@ getAnnotations
 ;
 aCtMethod
 .
-setFormalTypeParameters
+setFormalCtTypeParameters
 (
 spoon
 .
@@ -106,7 +106,7 @@ clone
 (
 m
 .
-getFormalTypeParameters
+getFormalCtTypeParameters
 (
 )
 )

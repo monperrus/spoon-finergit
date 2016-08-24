@@ -73,7 +73,7 @@ replaceInListIfExist
 (
 intrface
 .
-getFormalTypeParameters
+getFormalCtTypeParameters
 (
 )
 ,
@@ -88,7 +88,7 @@ replace
 .
 ReplacementVisitor
 .
-CtFormalTypeDeclarerFormalTypeParametersReplaceListener
+CtFormalTypeDeclarerFormalCtTypeParametersReplaceListener
 (
 intrface
 )

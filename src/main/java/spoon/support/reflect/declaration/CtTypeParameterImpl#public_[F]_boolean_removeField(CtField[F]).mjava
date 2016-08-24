@@ -1,0 +1,23 @@
+@Override
+public
+<
+F
+>
+boolean
+removeField
+(
+CtField
+<
+F
+>
+field
+)
+{
+throw
+new
+UnsupportedOperationException
+(
+"Can't be used for a type parameter"
+)
+;
+}

@@ -98,7 +98,7 @@ replaceInListIfExist
 (
 c
 .
-getFormalTypeParameters
+getFormalCtTypeParameters
 (
 )
 ,
@@ -113,7 +113,7 @@ replace
 .
 ReplacementVisitor
 .
-CtFormalTypeDeclarerFormalTypeParametersReplaceListener
+CtFormalTypeDeclarerFormalCtTypeParametersReplaceListener
 (
 c
 )

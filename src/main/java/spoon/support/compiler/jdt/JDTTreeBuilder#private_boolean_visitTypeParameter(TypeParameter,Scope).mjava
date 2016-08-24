@@ -10,7 +10,7 @@ scope
 )
 {
 final
-CtTypeParameterReference
+CtTypeParameter
 typeParameterRef
 =
 factory
@@ -19,7 +19,7 @@ Core
 (
 )
 .
-createTypeParameterReference
+createTypeParameter
 (
 )
 ;

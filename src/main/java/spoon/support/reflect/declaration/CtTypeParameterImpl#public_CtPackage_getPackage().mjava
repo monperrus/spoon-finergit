@@ -1,0 +1,11 @@
+@Override
+public
+CtPackage
+getPackage
+(
+)
+{
+return
+null
+;
+}

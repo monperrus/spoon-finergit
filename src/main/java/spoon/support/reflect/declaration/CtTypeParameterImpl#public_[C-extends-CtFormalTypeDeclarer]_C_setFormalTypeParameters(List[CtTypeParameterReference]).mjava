@@ -1,0 +1,25 @@
+@Override
+public
+<
+C
+extends
+CtFormalTypeDeclarer
+>
+C
+setFormalTypeParameters
+(
+List
+<
+CtTypeParameterReference
+>
+formalTypeParameters
+)
+{
+throw
+new
+UnsupportedOperationException
+(
+"Can't be used for a type parameter"
+)
+;
+}

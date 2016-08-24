@@ -71,13 +71,13 @@ biScan
 (
 m
 .
-getFormalTypeParameters
+getFormalCtTypeParameters
 (
 )
 ,
 other
 .
-getFormalTypeParameters
+getFormalCtTypeParameters
 (
 )
 )

@@ -1,16 +1,17 @@
 @Override
 public
-void
-addFormalType
+boolean
+removeFormalTypeParameter
 (
 CtTypeParameterReference
-parameterRef
+formalTypeParameter
 )
 {
 throw
 new
 UnsupportedOperationException
 (
+"Can't be used for a type parameter"
 )
 ;
 }

@@ -86,13 +86,13 @@ biScan
 (
 intrface
 .
-getFormalTypeParameters
+getFormalCtTypeParameters
 (
 )
 ,
 other
 .
-getFormalTypeParameters
+getFormalCtTypeParameters
 (
 )
 )

@@ -49,7 +49,7 @@ scan
 (
 c
 .
-getFormalTypeParameters
+getFormalCtTypeParameters
 (
 )
 )

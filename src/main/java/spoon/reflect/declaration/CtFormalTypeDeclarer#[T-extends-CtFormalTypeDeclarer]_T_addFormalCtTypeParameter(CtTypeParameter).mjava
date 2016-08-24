@@ -1,0 +1,15 @@
+/** 
+ * Add a type parameter to this generic element.
+ */
+<
+T
+extends
+CtFormalTypeDeclarer
+>
+T
+addFormalCtTypeParameter
+(
+CtTypeParameter
+formalTypeParameter
+)
+;

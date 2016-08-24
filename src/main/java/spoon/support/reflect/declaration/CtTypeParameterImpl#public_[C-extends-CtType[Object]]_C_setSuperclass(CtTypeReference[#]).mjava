@@ -3,9 +3,9 @@ public
 <
 C
 extends
-CtClass
+CtType
 <
-T
+Object
 >
 >
 C

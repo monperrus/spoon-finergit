@@ -2,7 +2,9 @@
  * Removes a type parameters from this generic element.
  * @param formalTypeParameter
  * @return <tt>true</tt> if this element changed as a result of the call
+ * @see #removeFormalCtTypeParameter(CtTypeParameter)
  */
+@Deprecated
 boolean
 removeFormalTypeParameter
 (

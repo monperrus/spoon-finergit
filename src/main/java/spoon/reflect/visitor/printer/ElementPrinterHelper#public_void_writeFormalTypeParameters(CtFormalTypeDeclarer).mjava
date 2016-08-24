@@ -13,13 +13,13 @@ ctFormalTypeDeclarer
 final
 Collection
 <
-CtTypeParameterReference
+CtTypeParameter
 >
 parameters
 =
 ctFormalTypeDeclarer
 .
-getFormalTypeParameters
+getFormalCtTypeParameters
 (
 )
 ;
@@ -53,10 +53,7 @@ write
 ;
 for
 (
-CtTypeReference
-<
-?
->
+CtTypeParameter
 parameter
 :
 parameters

@@ -114,7 +114,7 @@ getSuperInterfaces
 ;
 aCtInterface
 .
-setFormalTypeParameters
+setFormalCtTypeParameters
 (
 spoon
 .
@@ -130,7 +130,7 @@ clone
 (
 intrface
 .
-getFormalTypeParameters
+getFormalCtTypeParameters
 (
 )
 )

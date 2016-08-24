@@ -1,6 +1,8 @@
 /** 
  * Returns the formal type parameters of this generic element.
+ * @see #getFormalCtTypeParameters()
  */
+@Deprecated
 List
 <
 CtTypeParameterReference

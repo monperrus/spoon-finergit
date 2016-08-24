@@ -49,7 +49,7 @@ scan
 (
 ctClass
 .
-getFormalTypeParameters
+getFormalCtTypeParameters
 (
 )
 )

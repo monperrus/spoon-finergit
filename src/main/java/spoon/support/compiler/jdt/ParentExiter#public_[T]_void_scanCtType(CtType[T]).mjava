@@ -18,6 +18,13 @@ if
 child
 instanceof
 CtType
+&&
+!
+(
+child
+instanceof
+CtTypeParameter
+)
 )
 {
 if

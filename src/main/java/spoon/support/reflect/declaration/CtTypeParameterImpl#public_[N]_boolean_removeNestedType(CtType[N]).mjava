@@ -1,0 +1,23 @@
+@Override
+public
+<
+N
+>
+boolean
+removeNestedType
+(
+CtType
+<
+N
+>
+nestedType
+)
+{
+throw
+new
+UnsupportedOperationException
+(
+"Can't be used for a type parameter"
+)
+;
+}

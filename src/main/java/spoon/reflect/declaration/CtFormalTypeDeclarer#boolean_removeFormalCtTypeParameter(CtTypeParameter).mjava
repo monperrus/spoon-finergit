@@ -1,0 +1,10 @@
+/** 
+ * Removes a type parameters from this generic element.
+ */
+boolean
+removeFormalCtTypeParameter
+(
+CtTypeParameter
+formalTypeParameter
+)
+;

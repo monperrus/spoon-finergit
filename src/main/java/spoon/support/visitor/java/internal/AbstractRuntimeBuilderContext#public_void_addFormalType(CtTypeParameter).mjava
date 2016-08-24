@@ -1,0 +1,16 @@
+@Override
+public
+void
+addFormalType
+(
+CtTypeParameter
+parameterRef
+)
+{
+throw
+new
+UnsupportedOperationException
+(
+)
+;
+}

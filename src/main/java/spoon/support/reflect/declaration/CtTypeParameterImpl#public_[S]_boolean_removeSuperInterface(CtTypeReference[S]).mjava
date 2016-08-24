@@ -1,0 +1,23 @@
+@Override
+public
+<
+S
+>
+boolean
+removeSuperInterface
+(
+CtTypeReference
+<
+S
+>
+interfac
+)
+{
+throw
+new
+UnsupportedOperationException
+(
+"Can't be used for a type parameter"
+)
+;
+}

@@ -1,0 +1,16 @@
+@Override
+public
+CtType
+<
+Object
+>
+getTypeDeclaration
+(
+)
+{
+return
+getDeclaration
+(
+)
+;
+}

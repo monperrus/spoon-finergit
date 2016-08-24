@@ -1,0 +1,11 @@
+/** 
+ * Returns the formal type parameters of this generic element.
+ */
+List
+<
+CtTypeParameter
+>
+getFormalCtTypeParameters
+(
+)
+;

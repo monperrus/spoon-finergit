@@ -1,0 +1,16 @@
+@Override
+public
+boolean
+isAssignableFrom
+(
+CtTypeReference
+<
+?
+>
+type
+)
+{
+return
+false
+;
+}

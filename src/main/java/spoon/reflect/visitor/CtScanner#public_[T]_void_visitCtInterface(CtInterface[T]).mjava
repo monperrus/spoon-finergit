@@ -40,7 +40,7 @@ scan
 (
 intrface
 .
-getFormalTypeParameters
+getFormalCtTypeParameters
 (
 )
 )

@@ -1,0 +1,25 @@
+@Override
+public
+<
+C
+extends
+CtModifiable
+>
+C
+setModifiers
+(
+Set
+<
+ModifierKind
+>
+modifiers
+)
+{
+throw
+new
+UnsupportedOperationException
+(
+"Can't be used for a type parameter"
+)
+;
+}

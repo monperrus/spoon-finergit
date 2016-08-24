@@ -1,0 +1,23 @@
+@Override
+public
+<
+M
+>
+boolean
+removeMethod
+(
+CtMethod
+<
+M
+>
+method
+)
+{
+throw
+new
+UnsupportedOperationException
+(
+"Can't be used for a type parameter"
+)
+;
+}

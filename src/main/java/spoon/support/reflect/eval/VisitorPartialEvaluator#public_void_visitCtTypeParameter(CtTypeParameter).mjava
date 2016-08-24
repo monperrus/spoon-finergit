@@ -1,0 +1,17 @@
+@Override
+public
+void
+visitCtTypeParameter
+(
+CtTypeParameter
+typeParameter
+)
+{
+throw
+new
+RuntimeException
+(
+"Unknown Element"
+)
+;
+}

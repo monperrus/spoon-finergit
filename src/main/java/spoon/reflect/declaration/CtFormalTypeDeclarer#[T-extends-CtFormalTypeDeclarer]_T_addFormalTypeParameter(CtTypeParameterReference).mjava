@@ -2,7 +2,9 @@
  * Add a type parameter to this generic element.
  * @param formalTypeParameter
  * @return <tt>true</tt> if this element changed as a result of the call
+ * @see #addFormalCtTypeParameter(CtTypeParameter)
  */
+@Deprecated
 <
 T
 extends
