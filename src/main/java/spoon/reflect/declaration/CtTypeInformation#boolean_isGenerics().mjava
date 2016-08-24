@@ -1,0 +1,8 @@
+/** 
+ * Returns true if this element is a generics (eg "T") and false if it is an actual type (eg 'Book" or "String")
+ */
+boolean
+isGenerics
+(
+)
+;
