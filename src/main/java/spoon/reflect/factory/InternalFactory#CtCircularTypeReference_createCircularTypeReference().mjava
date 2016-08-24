@@ -1,8 +1,0 @@
-/** 
- * Creates a circular type reference.
- */
-CtCircularTypeReference
-createCircularTypeReference
-(
-)
-;
