@@ -49,6 +49,17 @@ getParameters
 )
 )
 {
+if
+(
+param
+.
+getType
+(
+)
+!=
+null
+)
+{
 refs
 [
 i
@@ -65,6 +76,7 @@ clone
 (
 )
 ;
+}
 }
 if
 (

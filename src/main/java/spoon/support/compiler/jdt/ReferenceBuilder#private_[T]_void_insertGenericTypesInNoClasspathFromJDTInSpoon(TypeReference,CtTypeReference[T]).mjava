@@ -46,6 +46,13 @@ getTypeArguments
 )
 )
 {
+if
+(
+typeReferences
+!=
+null
+)
+{
 for
 (
 TypeReference
@@ -68,6 +75,7 @@ resolvedType
 )
 )
 ;
+}
 }
 }
 }
