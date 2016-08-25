@@ -6,11 +6,11 @@ CtElement
 elem
 )
 {
-EqualVisitor
+DeepRepresentationVisitor
 prThis
 =
 new
-EqualVisitor
+DeepRepresentationVisitor
 (
 )
 ;

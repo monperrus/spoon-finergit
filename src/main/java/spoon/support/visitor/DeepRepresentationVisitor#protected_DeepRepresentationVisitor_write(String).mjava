@@ -1,5 +1,5 @@
 protected
-EqualVisitor
+DeepRepresentationVisitor
 write
 (
 String
