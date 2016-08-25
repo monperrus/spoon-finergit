@@ -256,7 +256,7 @@ getBoundingType
 (
 )
 instanceof
-CtCircularTypeReference
+CtTypeReference
 )
 ;
 }

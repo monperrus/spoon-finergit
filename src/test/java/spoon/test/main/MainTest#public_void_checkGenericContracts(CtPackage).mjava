@@ -28,4 +28,9 @@ checkEqualityBetweenOriginalAndClone
 pack
 )
 ;
+checkBoundAndUnboundTypeReference
+(
+pack
+)
+;
 }
