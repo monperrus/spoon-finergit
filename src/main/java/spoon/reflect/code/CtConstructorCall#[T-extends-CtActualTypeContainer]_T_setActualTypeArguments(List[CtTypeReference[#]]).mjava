@@ -1,0 +1,23 @@
+/** 
+ * Delegate to the executable reference of the constructor call.
+ * @see CtExecutableReference#getActualTypeArguments()
+ */
+@Override
+<
+T
+extends
+CtActualTypeContainer
+>
+T
+setActualTypeArguments
+(
+List
+<
+CtTypeReference
+<
+?
+>
+>
+actualTypeArguments
+)
+;

@@ -1,0 +1,23 @@
+/** 
+ * Delegate to the executable reference of the new class.
+ * @see CtExecutableReference#getActualTypeArguments()
+ */
+@Override
+<
+T
+extends
+CtActualTypeContainer
+>
+T
+setActualTypeArguments
+(
+List
+<
+CtTypeReference
+<
+?
+>
+>
+actualTypeArguments
+)
+;
