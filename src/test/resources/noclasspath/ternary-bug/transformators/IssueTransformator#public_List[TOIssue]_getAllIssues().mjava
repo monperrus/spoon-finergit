@@ -1,0 +1,16 @@
+public
+List
+<
+TOIssue
+>
+getAllIssues
+(
+)
+{
+return
+getAll
+(
+null
+)
+;
+}

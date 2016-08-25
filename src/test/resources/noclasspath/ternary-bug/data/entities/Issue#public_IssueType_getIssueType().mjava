@@ -1,0 +1,10 @@
+public
+IssueType
+getIssueType
+(
+)
+{
+return
+null
+;
+}
