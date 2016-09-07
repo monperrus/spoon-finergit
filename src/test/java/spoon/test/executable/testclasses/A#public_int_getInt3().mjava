@@ -1,0 +1,11 @@
+public
+final
+int
+getInt3
+(
+)
+{
+return
+3
+;
+}

@@ -1,0 +1,12 @@
+public
+final
+static
+int
+getInt2
+(
+)
+{
+return
+2
+;
+}

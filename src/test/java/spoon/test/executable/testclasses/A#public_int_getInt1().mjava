@@ -1,0 +1,11 @@
+public
+static
+int
+getInt1
+(
+)
+{
+return
+1
+;
+}
