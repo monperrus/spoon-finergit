@@ -1,0 +1,17 @@
+/** 
+ * Returns ratings for ViolationTypes in a map of name of ViolationType -> rating
+ * @param userId the user to get the rating for
+ * @return the map
+ */
+Map
+<
+String
+,
+Integer
+>
+getViolationTypeRatings
+(
+String
+userId
+)
+;
