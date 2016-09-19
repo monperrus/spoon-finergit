@@ -10,6 +10,9 @@ Processor
 processor
 )
 {
+QueueProcessingManager
+processingManager
+=
 new
 QueueProcessingManager
 (
@@ -19,6 +22,15 @@ getFactory
 (
 )
 )
+;
+processingManager
+.
+addProcessor
+(
+processor
+)
+;
+processingManager
 .
 process
 (
