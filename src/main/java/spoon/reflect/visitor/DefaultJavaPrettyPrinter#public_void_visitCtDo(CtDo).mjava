@@ -16,25 +16,27 @@ printer
 .
 write
 (
-"do "
+"do"
 )
 ;
 elementPrinterHelper
 .
-writeStatement
+writeIfOrLoopBlock
 (
 doLoop
 .
 getBody
 (
 )
+,
+this
 )
 ;
 printer
 .
 write
 (
-" while ("
+"while ("
 )
 ;
 scan

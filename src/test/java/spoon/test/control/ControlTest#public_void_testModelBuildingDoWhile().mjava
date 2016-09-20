@@ -104,6 +104,10 @@ assertEquals
 ,
 (
 (
+CtBlock
+)
+(
+(
 CtDo
 )
 stmts
@@ -116,6 +120,12 @@ get
 .
 getBody
 (
+)
+)
+.
+getStatement
+(
+0
 )
 .
 toString
