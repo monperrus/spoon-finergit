@@ -46,10 +46,5 @@ getSimpleName
 (
 )
 )
-.
-setDeclaration
-(
-catchVariable
-)
 ;
 }

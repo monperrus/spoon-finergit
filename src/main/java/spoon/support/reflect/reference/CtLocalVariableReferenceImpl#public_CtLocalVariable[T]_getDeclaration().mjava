@@ -8,13 +8,6 @@ getDeclaration
 (
 )
 {
-if
-(
-declaration
-==
-null
-)
-{
 CtElement
 element
 =
@@ -131,9 +124,5 @@ null
 }
 return
 optional
-;
-}
-return
-declaration
 ;
 }

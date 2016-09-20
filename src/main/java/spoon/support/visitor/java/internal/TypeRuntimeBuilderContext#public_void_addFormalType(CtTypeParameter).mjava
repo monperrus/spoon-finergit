@@ -16,17 +16,4 @@ addFormalCtTypeParameter
 parameterRef
 )
 ;
-this
-.
-type
-.
-addFormalTypeParameter
-(
-parameterRef
-.
-getReference
-(
-)
-)
-;
 }

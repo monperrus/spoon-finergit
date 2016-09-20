@@ -70,13 +70,6 @@ getSimpleName
 )
 )
 ;
-ref
-.
-setDeclaration
-(
-localVariable
-)
-;
 return
 ref
 ;

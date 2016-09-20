@@ -97,17 +97,6 @@ getDocComment
 ;
 newConstructor
 .
-setFormalTypeParameters
-(
-method
-.
-getFormalTypeParameters
-(
-)
-)
-;
-newConstructor
-.
 setFormalCtTypeParameters
 (
 method
