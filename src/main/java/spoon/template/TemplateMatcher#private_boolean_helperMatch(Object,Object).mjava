@@ -560,17 +560,9 @@ true
 }
 if
 (
-(
 target
 instanceof
 CtElement
-)
-||
-(
-target
-instanceof
-CtReference
-)
 )
 {
 for
