@@ -10,6 +10,7 @@ setActualTypeArguments
 (
 List
 <
+?
 CtTypeReference
 <
 ?
@@ -70,7 +71,6 @@ ArrayList
 <
 >
 (
-TYPE_TYPE_PARAMETERS_CONTAINER_DEFAULT_CAPACITY
 )
 ;
 }

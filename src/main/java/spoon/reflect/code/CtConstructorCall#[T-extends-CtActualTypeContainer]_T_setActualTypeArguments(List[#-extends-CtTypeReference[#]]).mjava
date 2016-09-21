@@ -1,5 +1,5 @@
 /** 
- * Delegate to the executable reference of the new class.
+ * Delegate to the executable reference of the constructor call.
  * @see CtExecutableReference#getActualTypeArguments()
  */
 @Override
@@ -13,6 +13,7 @@ setActualTypeArguments
 (
 List
 <
+?
 CtTypeReference
 <
 ?

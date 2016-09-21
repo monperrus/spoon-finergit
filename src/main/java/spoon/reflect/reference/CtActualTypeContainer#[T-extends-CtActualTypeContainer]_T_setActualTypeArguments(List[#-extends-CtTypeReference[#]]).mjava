@@ -1,8 +1,6 @@
 /** 
- * Delegate to the executable reference of the invocation.
- * @see CtExecutableReference#getActualTypeArguments()
+ * Sets the type arguments.
  */
-@Override
 <
 T
 extends
@@ -13,6 +11,7 @@ setActualTypeArguments
 (
 List
 <
+?
 CtTypeReference
 <
 ?
