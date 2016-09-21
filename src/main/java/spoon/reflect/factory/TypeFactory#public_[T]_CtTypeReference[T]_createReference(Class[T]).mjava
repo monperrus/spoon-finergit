@@ -21,6 +21,17 @@ type
 if
 (
 type
+==
+null
+)
+{
+return
+null
+;
+}
+if
+(
+type
 .
 isArray
 (
