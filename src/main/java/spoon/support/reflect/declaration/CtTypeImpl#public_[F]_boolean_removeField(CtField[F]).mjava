@@ -14,11 +14,7 @@ field
 )
 {
 return
-this
-.
-fields
-.
-remove
+removeTypeMember
 (
 field
 )

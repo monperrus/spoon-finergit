@@ -33,16 +33,7 @@ scan
 (
 annotationType
 .
-getNestedTypes
-(
-)
-)
-;
-scan
-(
-annotationType
-.
-getFields
+getTypeMembers
 (
 )
 )

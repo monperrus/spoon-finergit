@@ -1,0 +1,21 @@
+/** 
+ * Adds a type member at a given position. Think to use this method if the order is important for you.
+ */
+<
+C
+extends
+CtType
+<
+T
+>
+>
+C
+addTypeMemberAt
+(
+int
+position
+,
+CtTypeMember
+member
+)
+;

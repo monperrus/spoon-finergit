@@ -35,7 +35,9 @@ CtMethod
 >
 method
 :
-methods
+getMethods
+(
+)
 )
 {
 annotationsMethods

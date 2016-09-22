@@ -31,7 +31,7 @@ if
 (
 type
 .
-getNestedTypes
+getTypeMembers
 (
 )
 .
@@ -43,12 +43,11 @@ child
 {
 type
 .
-getNestedTypes
+removeTypeMember
 (
+(
+CtType
 )
-.
-remove
-(
 child
 )
 ;

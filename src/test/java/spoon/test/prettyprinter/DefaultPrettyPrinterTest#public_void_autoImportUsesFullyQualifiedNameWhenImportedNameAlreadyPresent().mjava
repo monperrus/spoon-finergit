@@ -286,7 +286,11 @@ nl
 +
 nl
 +
+nl
++
 "    final Enum<?> e;"
++
+nl
 +
 nl
 +
@@ -302,7 +306,11 @@ nl
 +
 nl
 +
-"    }}"
+"    }"
++
+nl
++
+"}"
 ;
 computed
 =

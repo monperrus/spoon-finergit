@@ -1,0 +1,21 @@
+/** 
+ * Removes all types members with these new members.
+ */
+<
+C
+extends
+CtType
+<
+T
+>
+>
+C
+setTypeMembers
+(
+List
+<
+CtTypeMember
+>
+members
+)
+;

@@ -1,0 +1,18 @@
+/** 
+ * Adds a type member at the end of all type member of the type.
+ */
+<
+C
+extends
+CtType
+<
+T
+>
+>
+C
+addTypeMember
+(
+CtTypeMember
+member
+)
+;

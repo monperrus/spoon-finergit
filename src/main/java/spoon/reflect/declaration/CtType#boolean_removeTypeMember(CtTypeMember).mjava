@@ -1,0 +1,10 @@
+/** 
+ * Removes the type member.
+ */
+boolean
+removeTypeMember
+(
+CtTypeMember
+member
+)
+;

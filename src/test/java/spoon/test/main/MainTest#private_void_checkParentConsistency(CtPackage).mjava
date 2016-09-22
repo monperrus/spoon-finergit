@@ -6,6 +6,7 @@ CtPackage
 pack
 )
 {
+final
 Set
 <
 CtElement

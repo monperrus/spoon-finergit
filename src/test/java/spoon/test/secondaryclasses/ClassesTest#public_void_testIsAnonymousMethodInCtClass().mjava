@@ -121,7 +121,7 @@ size
 ;
 assertEquals
 (
-"spoon.test.secondaryclasses.AnonymousClass$2"
+"spoon.test.secondaryclasses.AnonymousClass$1"
 ,
 anonymousClass
 .
@@ -137,7 +137,7 @@ getQualifiedName
 ;
 assertEquals
 (
-"spoon.test.secondaryclasses.AnonymousClass$1"
+"spoon.test.secondaryclasses.AnonymousClass$2"
 ,
 anonymousClass
 .

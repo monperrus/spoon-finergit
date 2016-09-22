@@ -1,0 +1,11 @@
+/** 
+ * Gets all type members of the type like fields, methods, anonymous block, etc.
+ */
+List
+<
+CtTypeMember
+>
+getTypeMembers
+(
+)
+;

@@ -25,7 +25,7 @@ CtInterface
 <
 T
 >
-i
+ctInterface
 =
 factory
 .
@@ -37,7 +37,7 @@ createInterface
 (
 )
 ;
-i
+ctInterface
 .
 setSimpleName
 (
@@ -46,16 +46,12 @@ simpleName
 ;
 owner
 .
-getNestedTypes
+addNestedType
 (
-)
-.
-add
-(
-i
+ctInterface
 )
 ;
 return
-i
+ctInterface
 ;
 }
