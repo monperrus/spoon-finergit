@@ -86,7 +86,7 @@ getAccessedType
 else
 {
 final
-Set
+List
 <
 CtTypeReference
 <
@@ -96,7 +96,7 @@ CtTypeReference
 refs
 =
 new
-HashSet
+ArrayList
 <
 >
 (

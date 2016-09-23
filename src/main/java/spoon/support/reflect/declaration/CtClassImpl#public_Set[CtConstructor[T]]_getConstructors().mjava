@@ -21,7 +21,7 @@ T
 constructors
 =
 new
-TreeSet
+SignatureBasedSortedSet
 <
 >
 (

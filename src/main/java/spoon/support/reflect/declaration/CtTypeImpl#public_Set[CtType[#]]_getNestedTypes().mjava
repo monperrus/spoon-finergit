@@ -21,7 +21,7 @@ CtType
 nestedTypes
 =
 new
-TreeSet
+QualifiedNameBasedSortedSet
 <
 >
 (

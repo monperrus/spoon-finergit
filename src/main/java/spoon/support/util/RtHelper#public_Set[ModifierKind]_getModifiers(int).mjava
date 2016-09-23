@@ -20,7 +20,7 @@ ModifierKind
 set
 =
 new
-TreeSet
+HashSet
 <
 >
 (

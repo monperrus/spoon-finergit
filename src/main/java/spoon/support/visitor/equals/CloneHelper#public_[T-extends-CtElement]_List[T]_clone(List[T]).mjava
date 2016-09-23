@@ -21,6 +21,17 @@ elements
 if
 (
 elements
+instanceof
+EmptyClearableList
+)
+{
+return
+elements
+;
+}
+if
+(
+elements
 ==
 null
 ||

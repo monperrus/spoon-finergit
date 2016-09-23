@@ -19,7 +19,7 @@ tacos
 getElements
 (
 new
-NameFilter
+TypeFilter
 <
 CtLambda
 <
@@ -27,7 +27,9 @@ CtLambda
 >
 >
 (
-"lambda$0"
+CtLambda
+.
+class
 )
 )
 .

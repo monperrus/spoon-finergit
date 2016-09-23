@@ -44,10 +44,7 @@ this
 .
 types
 =
-new
-TreeSet
-<
->
+orderedTypeSet
 (
 )
 ;

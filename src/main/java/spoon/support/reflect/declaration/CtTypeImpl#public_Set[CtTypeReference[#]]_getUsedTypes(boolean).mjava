@@ -23,7 +23,7 @@ CtTypeReference
 typeRefs
 =
 new
-HashSet
+QualifiedNameBasedSortedSet
 <
 >
 (

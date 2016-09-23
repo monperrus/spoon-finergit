@@ -13,6 +13,17 @@ T
 c
 )
 {
+if
+(
+c
+.
+getDeclaringType
+(
+)
+!=
+null
+)
+{
 write
 (
 c
@@ -26,6 +37,7 @@ getQualifiedName
 )
 )
 ;
+}
 write
 (
 "("

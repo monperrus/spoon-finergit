@@ -31,6 +31,19 @@ CtFieldAccess
 >
 elements
 =
+new
+SortedList
+(
+new
+CtLineElementComparator
+(
+)
+)
+;
+elements
+.
+addAll
+(
 type
 .
 getElements
@@ -43,6 +56,7 @@ TypeFilter
 CtFieldAccess
 .
 class
+)
 )
 )
 ;

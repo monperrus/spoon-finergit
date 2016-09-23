@@ -20,7 +20,7 @@ T
 reference
 )
 {
-replaceInSetIfExist
+replaceInListIfExist
 (
 reference
 .

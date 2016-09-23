@@ -137,10 +137,9 @@ getModifiers
 ;
 }
 return
-new
-TreeSet
-<
->
+Collections
+.
+emptySet
 (
 )
 ;

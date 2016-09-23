@@ -14,7 +14,7 @@ getProcessedAnnotationTypes
 {
 return
 new
-TreeSet
+HashSet
 <
 >
 (

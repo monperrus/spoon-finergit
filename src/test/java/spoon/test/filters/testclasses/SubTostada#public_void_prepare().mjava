@@ -5,6 +5,15 @@ prepare
 (
 )
 {
+System
+.
+out
+.
+println
+(
+"SubTostada"
+)
+;
 super
 .
 prepare

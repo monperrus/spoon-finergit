@@ -1,6 +1,6 @@
 @Override
 public
-Set
+List
 <
 CtTypeReference
 <
@@ -12,9 +12,6 @@ getBounds
 )
 {
 return
-unmodifiableSet
-(
 bounds
-)
 ;
 }

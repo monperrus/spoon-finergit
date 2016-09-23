@@ -8,7 +8,7 @@ CtIntersectionTypeReference
 C
 setBounds
 (
-Set
+List
 <
 CtTypeReference
 <
@@ -37,7 +37,7 @@ bounds
 =
 CtElementImpl
 .
-emptySet
+emptyList
 (
 )
 ;
@@ -66,14 +66,10 @@ this
 bounds
 =
 new
-TreeSet
+ArrayList
 <
 >
 (
-new
-SourcePositionComparator
-(
-)
 )
 ;
 }

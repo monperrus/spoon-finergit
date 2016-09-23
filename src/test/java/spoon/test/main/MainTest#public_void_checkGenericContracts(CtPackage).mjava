@@ -6,6 +6,11 @@ CtPackage
 pack
 )
 {
+checkEqualityBetweenOriginalAndClone
+(
+pack
+)
+;
 ParentTest
 .
 checkParentContract
@@ -19,11 +24,6 @@ pack
 )
 ;
 checkContractCtScanner
-(
-pack
-)
-;
-checkEqualityBetweenOriginalAndClone
 (
 pack
 )

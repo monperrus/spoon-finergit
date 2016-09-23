@@ -14,9 +14,9 @@ CtLambda
 >
 lambda
 =
-getLambdaByName
+getLambdaInFooByNumber
 (
-"lambda$4"
+4
 )
 ;
 assertTypedBy

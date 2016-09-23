@@ -27,7 +27,7 @@ CtMethod
 result
 =
 new
-HashSet
+SignatureBasedSortedSet
 <
 >
 (

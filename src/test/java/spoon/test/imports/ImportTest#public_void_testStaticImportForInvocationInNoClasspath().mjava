@@ -47,6 +47,19 @@ CtInvocation
 >
 elements
 =
+new
+SortedList
+(
+new
+CtLineElementComparator
+(
+)
+)
+;
+elements
+.
+addAll
+(
 Query
 .
 getElements
@@ -104,6 +117,7 @@ element
 ;
 }
 }
+)
 )
 ;
 assertCorrectInvocation

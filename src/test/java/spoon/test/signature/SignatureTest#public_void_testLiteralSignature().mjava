@@ -127,9 +127,6 @@ assertEquals
 parameterWithQuotes
 )
 ;
-CtStatement
-stb1
-=
 (
 factory
 )

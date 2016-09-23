@@ -14,9 +14,9 @@ CtLambda
 >
 lambda
 =
-getLambdaByName
+getLambdaInFooByNumber
 (
-"lambda$7"
+7
 )
 ;
 assertTypedBy
@@ -179,7 +179,7 @@ lineSeparator
 (
 )
 +
-"} "
+"}"
 ;
 assertEquals
 (

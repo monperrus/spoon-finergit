@@ -67,19 +67,18 @@ IllegalStateException
 (
 "violation of equal/hashcode contract between \n"
 +
-getDeepRepresentation
-(
 this
+.
+toString
+(
 )
 +
 "\nand\n"
 +
-getDeepRepresentation
-(
-(
-CtElement
-)
 o
+.
+toString
+(
 )
 +
 "\n"

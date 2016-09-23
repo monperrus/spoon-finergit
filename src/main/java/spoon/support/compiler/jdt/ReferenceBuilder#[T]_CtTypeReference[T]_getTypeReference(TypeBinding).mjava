@@ -682,7 +682,7 @@ binding
 ref
 )
 ;
-Set
+List
 <
 CtTypeReference
 <
@@ -692,7 +692,7 @@ CtTypeReference
 bounds
 =
 new
-TreeSet
+ArrayList
 <
 >
 (
@@ -1608,7 +1608,7 @@ instanceof
 IntersectionTypeBinding18
 )
 {
-Set
+List
 <
 CtTypeReference
 <
@@ -1618,7 +1618,7 @@ CtTypeReference
 bounds
 =
 new
-TreeSet
+ArrayList
 <
 >
 (

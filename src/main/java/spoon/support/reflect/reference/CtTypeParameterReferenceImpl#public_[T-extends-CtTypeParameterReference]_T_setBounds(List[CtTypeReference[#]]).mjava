@@ -65,13 +65,7 @@ asCtIntersectionTypeReference
 .
 setBounds
 (
-new
-TreeSet
-<
->
-(
 bounds
-)
 )
 ;
 }
@@ -88,7 +82,7 @@ size
 )
 {
 final
-Set
+List
 <
 CtTypeReference
 <
@@ -98,7 +92,7 @@ CtTypeReference
 refs
 =
 new
-TreeSet
+ArrayList
 <
 >
 (

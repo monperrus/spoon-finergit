@@ -14,7 +14,7 @@ getConsumedAnnotationTypes
 {
 return
 new
-TreeSet
+HashSet
 <
 >
 (

@@ -1,0 +1,14 @@
+public
+QualifiedNameBasedSortedSet
+(
+)
+{
+super
+(
+new
+QualifiedNameComparator
+(
+)
+)
+;
+}

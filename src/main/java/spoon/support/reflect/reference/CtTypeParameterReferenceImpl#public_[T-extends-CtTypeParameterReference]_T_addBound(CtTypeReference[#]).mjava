@@ -74,7 +74,7 @@ bound
 else
 {
 final
-Set
+List
 <
 CtTypeReference
 <
@@ -84,7 +84,7 @@ CtTypeReference
 refs
 =
 new
-TreeSet
+ArrayList
 <
 >
 (

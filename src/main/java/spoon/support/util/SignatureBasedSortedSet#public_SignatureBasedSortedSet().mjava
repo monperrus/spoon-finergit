@@ -1,0 +1,14 @@
+public
+SignatureBasedSortedSet
+(
+)
+{
+super
+(
+new
+SignatureComparator
+(
+)
+)
+;
+}

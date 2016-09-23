@@ -1,6 +1,6 @@
 private
 void
-assertType
+assertConstructorCallWithType
 (
 Class
 <

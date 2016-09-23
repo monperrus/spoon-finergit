@@ -85,6 +85,17 @@ getParent
 instanceof
 CtForEach
 )
+&&
+!
+(
+block
+.
+getParent
+(
+)
+instanceof
+CtIf
+)
 )
 )
 {
