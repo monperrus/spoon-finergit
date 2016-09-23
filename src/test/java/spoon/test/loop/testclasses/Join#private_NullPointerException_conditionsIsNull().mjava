@@ -1,0 +1,15 @@
+private
+static
+NullPointerException
+conditionsIsNull
+(
+)
+{
+return
+new
+NullPointerException
+(
+"The given conditions should not be null"
+)
+;
+}
