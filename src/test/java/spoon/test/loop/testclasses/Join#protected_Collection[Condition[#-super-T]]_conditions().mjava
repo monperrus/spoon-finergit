@@ -1,0 +1,25 @@
+/** 
+ * Returns the conditions to join.
+ * @return the conditions to join.
+ */
+protected
+final
+Collection
+<
+Condition
+<
+?
+T
+>
+>
+conditions
+(
+)
+{
+return
+unmodifiableCollection
+(
+conditions
+)
+;
+}
