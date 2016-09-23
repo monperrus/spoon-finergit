@@ -32,7 +32,13 @@ for
 CtTypeMember
 typeMember
 :
+new
+ArrayList
+<
+>
+(
 typeMembers
+)
 )
 {
 if
