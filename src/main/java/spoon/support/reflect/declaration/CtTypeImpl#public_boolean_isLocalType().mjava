@@ -6,12 +6,14 @@ isLocalType
 )
 {
 return
-getReference
+isParentInitialized
 (
 )
-.
-isLocalType
+&&
+getParent
 (
 )
+instanceof
+CtBlock
 ;
 }
