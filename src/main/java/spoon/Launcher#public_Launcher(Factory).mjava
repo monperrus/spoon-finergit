@@ -1,0 +1,37 @@
+/** 
+ * Creates a  {@link Launcher} with {@link Factory} {@code pFactory}.
+ * @param pFactory The  {@link Factory} that will be utilized in {@link #buildModel()}.
+ * @throws IllegalArgumentException If  {@code pFactory == null}.
+ */
+public
+Launcher
+(
+final
+Factory
+pFactory
+)
+{
+if
+(
+pFactory
+==
+null
+)
+{
+throw
+new
+IllegalArgumentException
+(
+"unable to create launcher with null factory"
+)
+;
+}
+factory
+=
+pFactory
+;
+processArguments
+(
+)
+;
+}

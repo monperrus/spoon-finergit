@@ -1,11 +1,17 @@
 /** 
- * Constructor with no arguments.
+ * Creates a  {@link Launcher} using the {@link Factory} returned by {@link #createFactory()}.
  */
 public
 Launcher
 (
 )
 {
+factory
+=
+createFactory
+(
+)
+;
 processArguments
 (
 )
