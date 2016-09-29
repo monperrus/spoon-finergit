@@ -5,6 +5,8 @@ getSourceStart
 )
 {
 return
+this
+.
 sourceStart
 ;
 }

@@ -7,8 +7,6 @@ getEndLine
 return
 searchLineNumber
 (
-lineSeparatorPositions
-,
 sourceEnd
 )
 ;

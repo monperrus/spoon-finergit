@@ -1,13 +1,11 @@
+@Override
 public
 int
-getColumn
+getNameSourceStart
 (
 )
 {
 return
-searchColumnNumber
-(
 nameSourceStart
-)
 ;
 }

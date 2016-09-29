@@ -5,6 +5,8 @@ getSourceEnd
 )
 {
 return
+this
+.
 sourceEnd
 ;
 }

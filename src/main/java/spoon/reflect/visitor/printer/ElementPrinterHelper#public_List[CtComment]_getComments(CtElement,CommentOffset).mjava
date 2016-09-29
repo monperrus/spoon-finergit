@@ -232,7 +232,7 @@ getPosition
 getSourceStart
 (
 )
->=
+>
 sourceEnd
 )
 {
