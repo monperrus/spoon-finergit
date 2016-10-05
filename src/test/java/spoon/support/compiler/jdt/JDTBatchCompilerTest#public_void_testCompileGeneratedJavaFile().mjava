@@ -87,7 +87,7 @@ assertTrue
 new
 File
 (
-"./target/binaries/Test.class"
+"./target/binaries/spoon/Test.class"
 )
 .
 exists
