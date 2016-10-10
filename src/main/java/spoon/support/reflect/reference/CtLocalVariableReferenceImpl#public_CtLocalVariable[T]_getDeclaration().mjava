@@ -91,6 +91,15 @@ localVariables
 {
 if
 (
+getParent
+(
+)
+.
+equals
+(
+lv
+)
+||
 hasParent
 (
 lv
