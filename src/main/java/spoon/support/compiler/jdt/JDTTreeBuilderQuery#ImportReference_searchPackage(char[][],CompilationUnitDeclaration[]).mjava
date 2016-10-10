@@ -37,6 +37,16 @@ unit
 .
 currentPackage
 ;
+if
+(
+currentPackage
+==
+null
+)
+{
+continue
+;
+}
 final
 char
 [
