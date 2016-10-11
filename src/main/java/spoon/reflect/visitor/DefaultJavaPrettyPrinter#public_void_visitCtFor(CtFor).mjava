@@ -222,8 +222,6 @@ forLoop
 getBody
 (
 )
-,
-this
 )
 ;
 }

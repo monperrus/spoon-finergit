@@ -28,8 +28,6 @@ doLoop
 getBody
 (
 )
-,
-this
 )
 ;
 printer

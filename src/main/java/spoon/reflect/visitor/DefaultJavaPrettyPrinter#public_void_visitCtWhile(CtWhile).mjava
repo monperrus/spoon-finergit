@@ -43,8 +43,6 @@ whileLoop
 getBody
 (
 )
-,
-this
 )
 ;
 }
