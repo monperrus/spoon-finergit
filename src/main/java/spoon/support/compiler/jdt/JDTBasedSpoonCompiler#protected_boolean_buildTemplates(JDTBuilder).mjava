@@ -28,6 +28,9 @@ batchCompiler
 =
 createBatchCompiler
 (
+InputType
+.
+FILES
 )
 ;
 File

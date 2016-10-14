@@ -1,7 +1,7 @@
 /** 
- * Generates the bytecode by compiling the input sources. The bytecode is generated in the directory given by  {@link #getBinaryOutputDirectory()}.
- * @see #getSourceClasspath()
+ * replaced by  {@link #compile(InputType...)} 
  */
+@Deprecated
 boolean
 compileInputSources
 (

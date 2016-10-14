@@ -717,7 +717,7 @@ opt2
 .
 setDefault
 (
-"spooned-classes"
+SPOONED_CLASSES
 )
 ;
 opt2
@@ -876,7 +876,7 @@ sw1
 .
 setHelp
 (
-"Enable compilation and output class files."
+"Compiles the resulting classes (after transformation) to bytecode."
 )
 ;
 sw1

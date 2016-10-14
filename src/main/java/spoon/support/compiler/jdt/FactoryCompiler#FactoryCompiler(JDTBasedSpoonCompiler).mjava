@@ -1,0 +1,12 @@
+FactoryCompiler
+(
+JDTBasedSpoonCompiler
+jdtCompiler
+)
+{
+super
+(
+jdtCompiler
+)
+;
+}

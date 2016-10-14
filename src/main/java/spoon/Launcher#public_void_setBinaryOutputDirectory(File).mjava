@@ -7,11 +7,13 @@ File
 outputDirectory
 )
 {
-modelBuilder
-.
 setBinaryOutputDirectory
 (
 outputDirectory
+.
+getPath
+(
+)
 )
 ;
 }

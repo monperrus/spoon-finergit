@@ -1,9 +1,0 @@
-/** 
- * Generates the bytecode associated to the classes stored in this compiler's factory. The bytecode is generated in the directory given by {@link #getBinaryOutputDirectory()}.
- * @see #getSourceClasspath()
- */
-boolean
-compile
-(
-)
-;

@@ -6,6 +6,16 @@ getBinaryOutputDirectory
 )
 {
 return
-binaryOutputDirectory
+new
+File
+(
+getEnvironment
+(
+)
+.
+getBinaryOutputDirectory
+(
+)
+)
 ;
 }

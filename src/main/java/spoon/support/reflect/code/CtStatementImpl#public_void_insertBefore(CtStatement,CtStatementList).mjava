@@ -36,6 +36,8 @@ SpoonException
 )
 ;
 }
+try
+{
 if
 (
 target
@@ -88,6 +90,14 @@ SpoonException
 )
 ;
 }
+}
+}
+catch
+(
+ParentNotInitializedException
+ignore
+)
+{
 }
 new
 InsertVisitor

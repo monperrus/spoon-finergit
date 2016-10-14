@@ -2,7 +2,7 @@
  * Creates a new Spoon Java compiler in order to process and compile Java source code.
  */
 public
-SpoonCompiler
+SpoonModelBuilder
 createCompiler
 (
 Factory
@@ -21,7 +21,7 @@ SpoonResource
 templateSources
 )
 {
-SpoonCompiler
+SpoonModelBuilder
 c
 =
 createCompiler

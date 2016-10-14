@@ -1,0 +1,13 @@
+public
+FileCompiler
+(
+JDTBasedSpoonCompiler
+jdtCompiler
+)
+{
+super
+(
+jdtCompiler
+)
+;
+}

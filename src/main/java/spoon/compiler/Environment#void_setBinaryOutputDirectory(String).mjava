@@ -1,0 +1,10 @@
+/** 
+ * Return the directory where binary .class files are created 
+ */
+void
+setBinaryOutputDirectory
+(
+String
+directory
+)
+;

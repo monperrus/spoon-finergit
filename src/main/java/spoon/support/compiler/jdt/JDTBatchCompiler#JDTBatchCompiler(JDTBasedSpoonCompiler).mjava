@@ -2,16 +2,11 @@ JDTBatchCompiler
 (
 JDTBasedSpoonCompiler
 jdtCompiler
-,
-boolean
-useFactory
 )
 {
 this
 (
 jdtCompiler
-,
-useFactory
 ,
 System
 .

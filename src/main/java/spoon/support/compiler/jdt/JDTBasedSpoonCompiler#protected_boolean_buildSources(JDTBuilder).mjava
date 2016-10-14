@@ -32,6 +32,9 @@ batchCompiler
 =
 createBatchCompiler
 (
+InputType
+.
+FILES
 )
 ;
 String

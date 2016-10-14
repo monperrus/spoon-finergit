@@ -29,6 +29,9 @@ batchCompiler
 =
 createBatchCompiler
 (
+InputType
+.
+FILES
 )
 ;
 File
@@ -55,6 +58,15 @@ jdtBuilder
 null
 )
 {
+String
+[
+]
+sourceClasspath
+=
+getSourceClasspath
+(
+)
+;
 args
 =
 new
@@ -78,9 +90,7 @@ encoding
 .
 classpathFromListOrClassLoader
 (
-getSourceClasspath
-(
-)
+sourceClasspath
 )
 )
 .
