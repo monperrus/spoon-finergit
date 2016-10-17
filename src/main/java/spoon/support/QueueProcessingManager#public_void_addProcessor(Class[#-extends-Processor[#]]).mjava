@@ -39,20 +39,10 @@ Exception
 e
 )
 {
-factory
-.
-getEnvironment
+throw
+new
+SpoonException
 (
-)
-.
-report
-(
-null
-,
-Level
-.
-ERROR
-,
 "Unable to instantiate processor \""
 +
 type
@@ -62,6 +52,8 @@ getName
 )
 +
 "\" - Your processor should have a constructor with no arguments"
+,
+e
 )
 ;
 }
