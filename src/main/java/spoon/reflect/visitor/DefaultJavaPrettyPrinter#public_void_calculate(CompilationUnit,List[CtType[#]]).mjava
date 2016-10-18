@@ -22,7 +22,7 @@ sourceCompilationUnit
 =
 sourceCompilationUnit
 ;
-Collection
+Set
 <
 CtTypeReference
 <
@@ -31,9 +31,10 @@ CtTypeReference
 >
 imports
 =
-Collections
-.
-emptyList
+new
+HashSet
+<
+>
 (
 )
 ;
@@ -49,10 +50,13 @@ types
 )
 {
 imports
-=
+.
+addAll
+(
 computeImports
 (
 t
+)
 )
 ;
 }
