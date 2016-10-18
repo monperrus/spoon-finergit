@@ -1,0 +1,17 @@
+public
+FileSystemFolder
+(
+String
+path
+)
+{
+this
+(
+new
+File
+(
+path
+)
+)
+;
+}
