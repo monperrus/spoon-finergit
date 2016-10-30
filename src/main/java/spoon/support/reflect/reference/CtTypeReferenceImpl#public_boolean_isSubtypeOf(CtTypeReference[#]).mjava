@@ -223,7 +223,7 @@ this
 +
 "' ("
 +
-getActualClass
+getQualifiedName
 (
 )
 +
@@ -235,7 +235,7 @@ type
 +
 type
 .
-getActualClass
+getQualifiedName
 (
 )
 +
