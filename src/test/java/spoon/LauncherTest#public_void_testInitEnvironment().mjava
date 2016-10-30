@@ -166,6 +166,13 @@ getPath
 (
 )
 .
+replace
+(
+'\\'
+,
+'/'
+)
+.
 contains
 (
 "src/main/java"
