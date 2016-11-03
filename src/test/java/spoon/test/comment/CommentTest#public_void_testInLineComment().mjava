@@ -1311,7 +1311,7 @@ get
 ;
 assertEquals
 (
-"java.lang.Double dou = i == 1// comment after condition CtConditional"
+"java.lang.Double dou = (i == 1)// comment after condition CtConditional"
 +
 newLine
 +
