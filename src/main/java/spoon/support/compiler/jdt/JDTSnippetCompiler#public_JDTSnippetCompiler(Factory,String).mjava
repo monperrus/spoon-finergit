@@ -20,7 +20,15 @@ VirtualFile
 (
 contents
 ,
-""
+SNIPPET_FILENAME_PREFIX
++
+(
+snippetNumber
+.
+incrementAndGet
+(
+)
+)
 )
 )
 ;

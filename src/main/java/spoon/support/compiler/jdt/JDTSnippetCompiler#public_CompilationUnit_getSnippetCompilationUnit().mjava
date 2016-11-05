@@ -1,0 +1,13 @@
+/** 
+ * @return CompilationUnit which was produced by compiling of this snippet
+ */
+public
+CompilationUnit
+getSnippetCompilationUnit
+(
+)
+{
+return
+snippetCompilationUnit
+;
+}

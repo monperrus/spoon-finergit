@@ -1,0 +1,22 @@
+/** 
+ * Removes compilation unit from the cache and returns it Used by JDTSnippetCompiler to remove processed snippet from the cache
+ * @param filePath
+ * @return a cached compilation unit or null
+ */
+public
+CompilationUnit
+removeFromCache
+(
+String
+filePath
+)
+{
+return
+cachedCompilationUnits
+.
+remove
+(
+filePath
+)
+;
+}
