@@ -1,5 +1,5 @@
 /** 
- * Sets the class loader used to compile/process the input source code.
+ * Sets a specific classloader for JDT and reference resolution
  */
 void
 setInputClassLoader

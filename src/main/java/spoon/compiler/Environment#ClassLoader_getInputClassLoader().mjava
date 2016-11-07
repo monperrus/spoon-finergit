@@ -1,5 +1,5 @@
 /** 
- * Gets the class loader used to compile/process the input source code.
+ * Returns the  {@code ClassLoader} which is used by JDT and to resolve classes from references.By default, returns a class loader able to load classes from the Spoon-specific class path set with   {@link #setSourceClasspath(String[])}
  */
 ClassLoader
 getInputClassLoader

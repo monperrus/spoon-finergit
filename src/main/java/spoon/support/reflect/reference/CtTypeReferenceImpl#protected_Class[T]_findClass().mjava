@@ -1,5 +1,5 @@
 /** 
- * Finds the class requested in  {@link #getActualClass()}, using the {@code ClassLoader} of the {@code Environment}
+ * Finds the class requested in  {@link #getActualClass()}. Looks for the class in the standard Java classpath, but also in the sourceClassPath given as option.
  */
 @SuppressWarnings("unchecked")
 protected
@@ -42,12 +42,8 @@ getQualifiedName
 }
 catch
 (
-java
-.
-lang
-.
-ClassNotFoundException
-cnfe
+Throwable
+e
 )
 {
 throw
@@ -59,20 +55,8 @@ SpoonClassNotFoundException
 getQualifiedName
 (
 )
-+
-" with class loader "
-+
-Thread
-.
-currentThread
-(
-)
-.
-getContextClassLoader
-(
-)
 ,
-cnfe
+e
 )
 ;
 }

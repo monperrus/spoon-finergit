@@ -4,11 +4,7 @@ SpoonClassNotFoundException
 String
 msg
 ,
-java
-.
-lang
-.
-ClassNotFoundException
+Throwable
 cnfe
 )
 {

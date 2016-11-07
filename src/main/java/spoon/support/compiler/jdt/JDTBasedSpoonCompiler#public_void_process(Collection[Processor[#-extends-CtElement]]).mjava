@@ -14,10 +14,6 @@ CtElement
 processors
 )
 {
-initInputClassLoader
-(
-)
-;
 ProcessingManager
 processing
 =

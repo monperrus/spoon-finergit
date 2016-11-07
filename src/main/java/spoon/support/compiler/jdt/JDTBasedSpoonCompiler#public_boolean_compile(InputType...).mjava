@@ -8,10 +8,6 @@ InputType
 types
 )
 {
-initInputClassLoader
-(
-)
-;
 factory
 .
 getEnvironment
@@ -91,7 +87,7 @@ this
 encoding
 )
 .
-classpathFromListOrClassLoader
+classpath
 (
 getSourceClasspath
 (

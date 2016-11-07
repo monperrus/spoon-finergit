@@ -16,10 +16,6 @@ CtType
 typeFilter
 )
 {
-initInputClassLoader
-(
-)
-;
 switch
 (
 outputType

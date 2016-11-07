@@ -1,6 +1,7 @@
 /** 
- * Returns a  {@code ClassLoader} which is able to load classes from theclass path returned by  {@link #getSourceClasspath()}
+ * Use  {@link #getInputClassLoader()}
  */
+@Deprecated
 ClassLoader
 getClassLoader
 (
