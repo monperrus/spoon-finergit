@@ -42,17 +42,6 @@ createFactory
 (
 )
 ;
-factory
-.
-getEnvironment
-(
-)
-.
-setXmlRootFolder
-(
-tempFile
-)
-;
 SpoonCompiler
 compiler
 =
