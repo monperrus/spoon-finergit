@@ -253,7 +253,6 @@ batchCompiler
 .
 getUnits
 (
-filesToBuild
 )
 ;
 buildModel

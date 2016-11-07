@@ -198,11 +198,6 @@ batchCompiler
 .
 getUnits
 (
-sources
-.
-getAllJavaFiles
-(
-)
 )
 ;
 if

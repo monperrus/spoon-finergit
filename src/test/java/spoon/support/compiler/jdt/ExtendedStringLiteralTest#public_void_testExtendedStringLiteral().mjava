@@ -52,11 +52,6 @@ CompilationUnitDeclaration
 ]
 getUnits
 (
-List
-<
-SpoonFile
->
-files
 )
 {
 startTime
