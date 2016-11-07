@@ -1,13 +1,13 @@
-/** 
- * we force this method of JDT to be re-implemented, see subclasses 
- */
 @Override
 public
-abstract
 CompilationUnit
 [
 ]
 getCompilationUnits
 (
 )
+{
+return
+compilationUnits
 ;
+}

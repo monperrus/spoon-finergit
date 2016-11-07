@@ -1,0 +1,17 @@
+public
+FileCompilerConfig
+(
+List
+<
+SpoonFile
+>
+files
+)
+{
+this
+.
+files
+=
+files
+;
+}

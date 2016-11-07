@@ -1,0 +1,17 @@
+public
+void
+setCompilationUnits
+(
+CompilationUnit
+[
+]
+compilationUnits
+)
+{
+this
+.
+compilationUnits
+=
+compilationUnits
+;
+}

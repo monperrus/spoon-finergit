@@ -1,0 +1,14 @@
+protected
+JDTBatchCompiler
+createBatchCompiler
+(
+)
+{
+return
+new
+JDTBatchCompiler
+(
+this
+)
+;
+}

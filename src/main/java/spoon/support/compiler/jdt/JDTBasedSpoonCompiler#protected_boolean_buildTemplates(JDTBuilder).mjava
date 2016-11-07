@@ -28,9 +28,11 @@ batchCompiler
 =
 createBatchCompiler
 (
-InputType
-.
-FILES
+new
+FileCompilerConfig
+(
+templates
+)
 )
 ;
 File

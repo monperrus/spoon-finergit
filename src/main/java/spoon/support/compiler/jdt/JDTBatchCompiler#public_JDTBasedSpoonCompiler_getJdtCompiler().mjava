@@ -1,13 +1,10 @@
 public
-FileCompiler
-(
 JDTBasedSpoonCompiler
-jdtCompiler
+getJdtCompiler
+(
 )
 {
-super
-(
+return
 jdtCompiler
-)
 ;
 }

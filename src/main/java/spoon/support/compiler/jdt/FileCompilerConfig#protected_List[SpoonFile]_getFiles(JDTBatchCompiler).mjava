@@ -1,0 +1,15 @@
+protected
+List
+<
+SpoonFile
+>
+getFiles
+(
+JDTBatchCompiler
+compiler
+)
+{
+return
+files
+;
+}

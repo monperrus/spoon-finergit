@@ -36,14 +36,11 @@ protected
 JDTBatchCompiler
 createBatchCompiler
 (
-InputType
-...
-types
 )
 {
 return
 new
-FileCompiler
+JDTBatchCompiler
 (
 this
 )
