@@ -21,13 +21,15 @@ Processor
 >
 >
 )
-Thread
-.
-currentThread
+getFactory
 (
 )
 .
-getContextClassLoader
+getEnvironment
+(
+)
+.
+getClassLoader
 (
 )
 .
@@ -52,7 +54,7 @@ SpoonException
 +
 qualifiedName
 +
-"\" - Check your classpath. Did you use the --precompile option?"
+"\" - Check your classpath."
 ,
 e
 )

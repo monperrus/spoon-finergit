@@ -1,0 +1,30 @@
+@Override
+public
+void
+process
+(
+CtType
+<
+?
+>
+element
+)
+{
+System
+.
+out
+.
+println
+(
+">> Hello: "
++
+element
+.
+getSimpleName
+(
+)
++
+" <<"
+)
+;
+}
