@@ -1,7 +1,7 @@
 /** 
  * Gets the Java runtime class of the referenced type. This is a low-level feature, it should never been used. Use  {@link #getTypeDeclaration()} instead,in order to only stay in the Spoon world and manipulate CtType instead of java.lang.Class
  * @return the Java class or null if the class is not found (not inclasspath)
- * @throws spoon.support.reflect.reference.SpoonClassNotFoundException if the class is not in the classpath
+ * @throws SpoonClassNotFoundException if the class is not in the classpath
  */
 Class
 <

@@ -46,7 +46,7 @@ Core
 (
 )
 .
-createVirtualCompilationUnit
+createCompilationUnit
 (
 )
 ;
