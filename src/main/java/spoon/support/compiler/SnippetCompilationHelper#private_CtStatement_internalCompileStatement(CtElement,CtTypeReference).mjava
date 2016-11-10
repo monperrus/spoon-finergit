@@ -5,6 +5,9 @@ internalCompileStatement
 (
 CtElement
 st
+,
+CtTypeReference
+returnType
 )
 {
 Factory
@@ -27,6 +30,8 @@ createWrapper
 st
 ,
 f
+,
+returnType
 )
 ;
 build

@@ -10,6 +10,15 @@ CategorizedProblem
 problem
 )
 {
+if
+(
+problem
+.
+isError
+(
+)
+)
+{
 throw
 new
 SnippetCompilationError
@@ -29,4 +38,5 @@ getSourceLineNumber
 )
 )
 ;
+}
 }

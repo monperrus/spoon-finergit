@@ -1,5 +1,5 @@
 /** 
- * Compiles this statement code snippet to produce the corresponding AST statement.
+ * Compiles this statement code snippet to produce the corresponding AST statement. If you want to compile a non-void return or a snippet that uses a non-void  return, use,  {@link spoon.support.compiler.SnippetCompilationHelper#compileStatement(CtCodeSnippetStatement,CtTypeReference)}
  * @return a statement
  * @throws SnippetCompilationError when the current snippet is not valid Java code
  */
