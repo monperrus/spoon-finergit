@@ -1,0 +1,14 @@
+/** 
+ * Creates an instance of the concrete metamodel class given as parameter. This is in particular useful when one uses reflection.
+ */
+CtElement
+create
+(
+Class
+<
+?
+CtElement
+>
+klass
+)
+;
