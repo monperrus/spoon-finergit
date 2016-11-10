@@ -115,7 +115,7 @@ Enum
 class
 )
 .
-isAssignableFrom
+isSubtypeOf
 (
 fieldAccess
 .

@@ -67,7 +67,7 @@ TemplateParameter
 class
 )
 .
-isAssignableFrom
+isSubtypeOf
 (
 listCand
 .

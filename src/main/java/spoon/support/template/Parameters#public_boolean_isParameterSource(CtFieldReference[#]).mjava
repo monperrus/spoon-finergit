@@ -75,7 +75,7 @@ getFactory
 )
 )
 .
-isAssignableFrom
+isSubtypeOf
 (
 ref
 .

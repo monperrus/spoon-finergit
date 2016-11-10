@@ -42,7 +42,7 @@ class
 return
 expectedParent
 .
-isAssignableFrom
+isSubtypeOf
 (
 currentParent
 .

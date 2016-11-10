@@ -271,7 +271,7 @@ if
 (
 x
 .
-isAssignableFrom
+isSubtypeOf
 (
 launcher
 .
@@ -297,7 +297,7 @@ getReference
 ||
 x
 .
-isAssignableFrom
+isSubtypeOf
 (
 launcher
 .
