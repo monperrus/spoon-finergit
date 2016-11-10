@@ -57,6 +57,14 @@ startsWith
 &&
 method
 .
+getParameterCount
+(
+)
+==
+0
+&&
+method
+.
 getReturnType
 (
 )
