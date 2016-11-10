@@ -78,8 +78,6 @@ poll
 (
 )
 ;
-Assert
-.
 assertTrue
 (
 intf
