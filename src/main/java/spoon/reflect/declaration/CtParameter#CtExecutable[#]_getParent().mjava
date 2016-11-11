@@ -1,6 +1,8 @@
 /** 
- * Gets the executable that is the parent declaration of this parameter declaration.
+ * Gets the executable that is the parent declaration of this parameter declaration. (Overriding the return type)
  */
+@Override
+@DerivedProperty
 CtExecutable
 <
 ?

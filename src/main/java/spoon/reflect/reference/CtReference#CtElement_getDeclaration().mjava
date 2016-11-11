@@ -1,7 +1,8 @@
 /** 
- * Tries to get the declaration that corresponds to the referenced element.
+ * Tries to get the declaration that corresponds to the referenced element. Consider using the more robust  {@link CtTypeReference#getTypeDeclaration()} and {@link CtExecutableReference#getExecutableDeclaration()}.
  * @return referenced element or null if element does not exist
  */
+@DerivedProperty
 CtElement
 getDeclaration
 (

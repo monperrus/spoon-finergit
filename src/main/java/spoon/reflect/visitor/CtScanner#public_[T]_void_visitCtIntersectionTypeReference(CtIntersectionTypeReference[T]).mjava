@@ -23,6 +23,15 @@ scan
 (
 reference
 .
+getAnnotations
+(
+)
+)
+;
+scan
+(
+reference
+.
 getBounds
 (
 )

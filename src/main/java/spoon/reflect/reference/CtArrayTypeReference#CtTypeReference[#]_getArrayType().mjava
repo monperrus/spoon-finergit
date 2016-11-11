@@ -1,6 +1,7 @@
 /** 
  * Gets the type of the array elements at the finest grain. e.g., if you have the array <code>int[][][]</code>, this method returns a type reference to "int".
  */
+@DerivedProperty
 CtTypeReference
 <
 ?

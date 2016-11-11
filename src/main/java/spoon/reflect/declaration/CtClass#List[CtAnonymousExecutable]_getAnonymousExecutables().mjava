@@ -1,6 +1,7 @@
 /** 
- * Returns the anonymous blocks of this class.
+ * Returns the anonymous blocks of this class. Derived from  {@link #getTypeMembers()}
  */
+@DerivedProperty
 List
 <
 CtAnonymousExecutable

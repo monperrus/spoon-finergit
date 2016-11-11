@@ -22,7 +22,7 @@ scan
 (
 reference
 .
-getDeclaringType
+getComments
 (
 )
 )
@@ -31,7 +31,7 @@ scan
 (
 reference
 .
-getPackage
+getDeclaringType
 (
 )
 )

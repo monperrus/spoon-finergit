@@ -2,6 +2,7 @@
  * Gets the parent of current reference.
  * @throws ParentNotInitializedException when the parent of this element is not initialized
  */
+@DerivedProperty
 CtElement
 getParent
 (

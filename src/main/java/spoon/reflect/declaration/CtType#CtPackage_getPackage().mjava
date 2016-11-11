@@ -1,6 +1,7 @@
 /** 
  * Gets the package where this type is declared.
  */
+@DerivedProperty
 CtPackage
 getPackage
 (

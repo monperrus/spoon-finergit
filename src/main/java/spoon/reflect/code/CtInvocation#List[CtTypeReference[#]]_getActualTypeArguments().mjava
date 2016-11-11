@@ -3,6 +3,7 @@
  * @see CtExecutableReference#getActualTypeArguments()
  */
 @Override
+@DerivedProperty
 List
 <
 CtTypeReference

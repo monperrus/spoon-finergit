@@ -1,0 +1,13 @@
+/** 
+ * Useful proxy to  {@link #getDefaultExpression()}.
+ */
+@Override
+@DerivedProperty
+CtExpression
+<
+T
+>
+getAssignment
+(
+)
+;

@@ -1,6 +1,7 @@
 /** 
- * Returns the constructors of this class. This includes the default constructor if this class has no constructors explicitly declared.
+ * Returns the constructors of this class. This includes the default constructor if this class has no constructors explicitly declared. Derived from  {@link #getTypeMembers()}
  */
+@DerivedProperty
 Set
 <
 CtConstructor

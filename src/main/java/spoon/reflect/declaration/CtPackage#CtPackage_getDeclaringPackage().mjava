@@ -1,6 +1,7 @@
 /** 
  * Gets the declaring package of the current one. Returns null if the package is not yet in another one.
  */
+@DerivedProperty
 CtPackage
 getDeclaringPackage
 (

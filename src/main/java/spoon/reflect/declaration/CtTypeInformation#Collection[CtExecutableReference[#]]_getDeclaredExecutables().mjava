@@ -1,6 +1,7 @@
 /** 
  * Gets the executables declared by this type if applicable.
  */
+@DerivedProperty
 Collection
 <
 CtExecutableReference

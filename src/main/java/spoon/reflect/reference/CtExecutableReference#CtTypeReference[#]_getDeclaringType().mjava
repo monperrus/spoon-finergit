@@ -1,6 +1,7 @@
 /** 
  * Gets the reference to the type that declares this executable.
  */
+@DerivedProperty
 CtTypeReference
 <
 ?

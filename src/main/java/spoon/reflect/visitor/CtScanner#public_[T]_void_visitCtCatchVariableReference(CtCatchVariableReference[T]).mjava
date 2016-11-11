@@ -22,6 +22,15 @@ scan
 (
 reference
 .
+getComments
+(
+)
+)
+;
+scan
+(
+reference
+.
 getType
 (
 )
