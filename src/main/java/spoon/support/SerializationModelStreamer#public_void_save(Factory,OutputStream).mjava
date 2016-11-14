@@ -29,6 +29,12 @@ f
 ;
 oos
 .
+flush
+(
+)
+;
+oos
+.
 close
 (
 )
