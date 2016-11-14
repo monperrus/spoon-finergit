@@ -29,9 +29,9 @@ String
 ,
 "./src/test/java/spoon/test/imports/testclasses"
 ,
-"-o"
+"--output-type"
 ,
-"./target/spooned"
+"nooutput"
 ,
 "--with-imports"
 }

@@ -7,8 +7,6 @@ setUp
 throws
 Exception
 {
-final
-Launcher
 launcher
 =
 new
@@ -29,9 +27,9 @@ String
 ,
 "./src/test/java/spoon/test/annotation/testclasses/"
 ,
-"-o"
+"--output-type"
 ,
-"./target/spooned/"
+"nooutput"
 }
 )
 ;

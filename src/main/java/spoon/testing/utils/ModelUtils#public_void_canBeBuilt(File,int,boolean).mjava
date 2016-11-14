@@ -28,7 +28,7 @@ factory
 =
 launcher
 .
-createFactory
+getFactory
 (
 )
 ;

@@ -29,9 +29,9 @@ String
 ,
 "./src/test/resources/import-static"
 ,
-"-o"
+"--output-type"
 ,
-"./target/spoon"
+"nooutput"
 ,
 "--noclasspath"
 }

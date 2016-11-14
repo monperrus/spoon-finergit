@@ -104,9 +104,9 @@ String
 ,
 "./src/main/java"
 ,
-"-o"
+"--output-type"
 ,
-"./target/spooned"
+"nooutput"
 ,
 "--source-classpath"
 ,

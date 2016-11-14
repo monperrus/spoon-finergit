@@ -29,9 +29,9 @@ String
 ,
 "./src/test/resources/executable-reference"
 ,
-"-o"
+"--output-type"
 ,
-"./target/spooned/test/resources"
+"nooutput"
 ,
 "--noclasspath"
 }
