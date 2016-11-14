@@ -1,6 +1,7 @@
 /** 
  * Returns the corresponding reference.
  */
+@DerivedProperty
 CtReference
 getReference
 (

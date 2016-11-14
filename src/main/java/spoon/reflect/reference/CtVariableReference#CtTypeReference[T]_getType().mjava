@@ -1,6 +1,7 @@
 /** 
  * Gets the type of the variable.
  */
+@DerivedProperty
 CtTypeReference
 <
 T

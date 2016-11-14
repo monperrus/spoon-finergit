@@ -22,6 +22,15 @@ scan
 (
 annotationFieldAccess
 .
+getComments
+(
+)
+)
+;
+scan
+(
+annotationFieldAccess
+.
 getAnnotations
 (
 )

@@ -1,6 +1,7 @@
 /** 
- * Returns the methods that are directly declared by this class or interface.
+ * Returns the methods that are directly declared by this class or interface. Derived from  {@link #getTypeMembers()}
  */
+@DerivedProperty
 Set
 <
 CtMethod

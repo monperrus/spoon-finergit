@@ -2,6 +2,7 @@
  * Return the type returned by the invocation. If the invocation is to a method where the returned type is a generic type, this method returns the actual type bound to this particular invocation.
  */
 @Override
+@DerivedProperty
 CtTypeReference
 <
 T

@@ -1,6 +1,7 @@
 /** 
  * Returns the executable overridden by this one, if exists (null otherwise).
  */
+@DerivedProperty
 CtExecutableReference
 <
 ?

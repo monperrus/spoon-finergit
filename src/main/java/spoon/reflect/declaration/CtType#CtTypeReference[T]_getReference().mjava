@@ -1,6 +1,7 @@
 /** 
  * Returns the corresponding type reference. Overrides the return type.
  */
+@DerivedProperty
 CtTypeReference
 <
 T

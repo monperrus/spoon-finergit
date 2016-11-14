@@ -3,6 +3,7 @@
  * @see #getAccessedType() to get the accessed type.
  */
 @Override
+@DerivedProperty
 CtTypeReference
 <
 Void

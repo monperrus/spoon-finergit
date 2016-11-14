@@ -23,6 +23,15 @@ scan
 (
 f
 .
+getComments
+(
+)
+)
+;
+scan
+(
+f
+.
 getAnnotations
 (
 )
@@ -59,7 +68,7 @@ scan
 (
 f
 .
-getComments
+getVariable
 (
 )
 )

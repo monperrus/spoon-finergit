@@ -1,6 +1,7 @@
 /** 
  * Returns the declarations of the nested classes and interfaces that are directly declared by this class or interface.
  */
+@DerivedProperty
 Set
 <
 CtType

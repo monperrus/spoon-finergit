@@ -12,6 +12,15 @@ enter
 reference
 )
 ;
+scan
+(
+reference
+.
+getAnnotations
+(
+)
+)
+;
 exit
 (
 reference

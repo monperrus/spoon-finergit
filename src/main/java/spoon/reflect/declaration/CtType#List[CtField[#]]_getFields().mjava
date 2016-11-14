@@ -1,6 +1,7 @@
 /** 
- * Returns the fields that are directly declared by this class or interface. Includes enum constants.
+ * Returns the fields that are directly declared by this class or interface. Includes enum constants. Derived from  {@link #getTypeMembers()}
  */
+@DerivedProperty
 List
 <
 CtField
