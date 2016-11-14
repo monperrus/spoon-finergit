@@ -32,14 +32,6 @@ sourceCompilationUnit
 )
 ;
 }
-if
-(
-!
-context
-.
-noTypeDecl
-)
-{
 elementPrinterHelper
 .
 writeModifiers
@@ -63,7 +55,6 @@ write
 " "
 )
 ;
-}
 printer
 .
 write
