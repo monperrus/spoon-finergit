@@ -1,0 +1,15 @@
+public
+ClassWithSuperOutOfModel
+(
+byte
+[
+]
+p_buf
+)
+{
+super
+(
+p_buf
+)
+;
+}

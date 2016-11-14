@@ -1,0 +1,14 @@
+/** 
+ * Gets a field from this type or any super type or any implemented interface by field name.
+ * @return null if does not exit
+ */
+CtFieldReference
+<
+?
+>
+getDeclaredOrInheritedField
+(
+String
+fieldName
+)
+;

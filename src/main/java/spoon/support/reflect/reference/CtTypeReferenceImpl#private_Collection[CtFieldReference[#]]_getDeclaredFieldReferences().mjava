@@ -35,12 +35,11 @@ for
 Field
 f
 :
+getDeclaredFields
+(
 getActualClass
 (
 )
-.
-getDeclaredFields
-(
 )
 )
 {
