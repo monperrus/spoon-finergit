@@ -6,8 +6,8 @@ hasParent
 CtElement
 candidate
 )
-throws
-ParentNotInitializedException
+{
+try
 {
 return
 this
@@ -41,4 +41,15 @@ candidate
 )
 )
 ;
+}
+catch
+(
+ParentNotInitializedException
+e
+)
+{
+return
+false
+;
+}
 }
