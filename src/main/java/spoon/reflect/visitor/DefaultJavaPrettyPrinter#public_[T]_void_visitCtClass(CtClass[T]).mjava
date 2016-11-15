@@ -15,9 +15,7 @@ ctClass
 {
 context
 .
-currentThis
-.
-push
+pushCurrentThis
 (
 ctClass
 .
@@ -170,9 +168,7 @@ write
 ;
 context
 .
-currentThis
-.
-pop
+popCurrentThis
 (
 )
 ;

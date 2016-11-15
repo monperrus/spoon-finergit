@@ -1,0 +1,12 @@
+ImplicitStaticClassAccess
+(
+)
+{
+this
+(
+ImplicitStaticClassAccess
+.
+class
+)
+;
+}

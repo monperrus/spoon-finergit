@@ -1,0 +1,15 @@
+public
+void
+testLocalMethodInvocations
+(
+)
+{
+ImplicitStaticClassAccess
+.
+class
+.
+getName
+(
+)
+;
+}

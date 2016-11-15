@@ -1,0 +1,16 @@
+public
+void
+testLocalMethodInvocations
+(
+)
+{
+reader
+(
+)
+;
+longWriter
+(
+7
+)
+;
+}

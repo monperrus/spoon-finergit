@@ -1,0 +1,11 @@
+public
+static
+long
+longReader
+(
+)
+{
+return
+staticField
+;
+}

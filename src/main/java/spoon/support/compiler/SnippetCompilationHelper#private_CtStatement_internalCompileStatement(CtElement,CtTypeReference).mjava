@@ -19,13 +19,10 @@ getFactory
 (
 )
 ;
-CtClass
-<
-?
->
-w
+String
+contents
 =
-createWrapper
+createWrapperContent
 (
 st
 ,
@@ -38,7 +35,7 @@ build
 (
 f
 ,
-w
+contents
 )
 ;
 CtType

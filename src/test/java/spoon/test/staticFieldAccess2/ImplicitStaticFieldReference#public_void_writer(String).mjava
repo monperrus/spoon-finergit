@@ -1,0 +1,13 @@
+public
+void
+writer
+(
+String
+value
+)
+{
+ImplicitStaticFieldReference
+=
+value
+;
+}

@@ -1,0 +1,14 @@
+public
+static
+void
+longWriter
+(
+long
+value
+)
+{
+staticField
+=
+value
+;
+}

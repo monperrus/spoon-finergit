@@ -1,0 +1,15 @@
+public
+void
+setMemberField2
+(
+String
+memberField
+)
+{
+this
+.
+memberField
+=
+memberField
+;
+}

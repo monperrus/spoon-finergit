@@ -1,0 +1,13 @@
+public
+void
+setMemberField
+(
+String
+p_memberField
+)
+{
+memberField
+=
+p_memberField
+;
+}

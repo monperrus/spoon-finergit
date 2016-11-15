@@ -45,9 +45,7 @@ ctEnum
 ;
 context
 .
-currentThis
-.
-push
+pushCurrentThis
 (
 ctEnum
 .
@@ -174,9 +172,7 @@ write
 ;
 context
 .
-currentThis
-.
-pop
+popCurrentThis
 (
 )
 ;
