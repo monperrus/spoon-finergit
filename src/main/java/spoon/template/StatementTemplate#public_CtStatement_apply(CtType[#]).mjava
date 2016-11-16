@@ -60,6 +60,35 @@ getClass
 )
 )
 ;
+if
+(
+c
+.
+isShadow
+(
+)
+)
+{
+throw
+new
+SpoonException
+(
+"The template "
++
+this
+.
+getClass
+(
+)
+.
+getName
+(
+)
++
+" is not part of model. Add template sources to spoon template path."
+)
+;
+}
 CtStatement
 result
 =
