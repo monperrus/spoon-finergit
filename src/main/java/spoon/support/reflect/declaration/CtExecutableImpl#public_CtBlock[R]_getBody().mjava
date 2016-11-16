@@ -1,14 +1,9 @@
 @Override
 @SuppressWarnings("unchecked")
 public
-<
-B
-extends
-T
->
 CtBlock
 <
-B
+R
 >
 getBody
 (
@@ -18,7 +13,7 @@ return
 (
 CtBlock
 <
-B
+R
 >
 )
 body

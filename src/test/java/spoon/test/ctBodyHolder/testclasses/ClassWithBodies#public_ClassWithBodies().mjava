@@ -1,0 +1,10 @@
+public
+ClassWithBodies
+(
+)
+{
+var
+=
+"constructor_body"
+;
+}

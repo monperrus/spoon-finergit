@@ -1,0 +1,12 @@
+public
+CWBStatementTemplate
+(
+String
+val
+)
+{
+value
+=
+val
+;
+}

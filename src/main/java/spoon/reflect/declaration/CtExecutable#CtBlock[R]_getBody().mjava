@@ -1,14 +1,10 @@
 /** 
  * Gets the body expression.
  */
-<
-B
-extends
-R
->
+@Override
 CtBlock
 <
-B
+R
 >
 getBody
 (
