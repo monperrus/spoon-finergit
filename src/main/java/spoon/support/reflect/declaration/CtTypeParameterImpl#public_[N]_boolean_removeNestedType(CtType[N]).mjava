@@ -1,4 +1,5 @@
 @Override
+@UnsettableProperty
 public
 <
 N
@@ -13,11 +14,7 @@ N
 nestedType
 )
 {
-throw
-new
-UnsupportedOperationException
-(
-"Can't be used for a type parameter"
-)
+return
+false
 ;
 }

@@ -1,4 +1,5 @@
 @Override
+@UnsettableProperty
 public
 <
 F
@@ -20,11 +21,10 @@ F
 field
 )
 {
-throw
-new
-UnsupportedOperationException
+return
 (
-"Can't be used for a type parameter"
+C
 )
+this
 ;
 }

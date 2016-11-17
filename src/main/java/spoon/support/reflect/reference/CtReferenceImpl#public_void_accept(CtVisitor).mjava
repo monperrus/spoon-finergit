@@ -1,17 +1,10 @@
 @Override
 public
+abstract
 void
 accept
 (
 CtVisitor
 visitor
 )
-{
-throw
-new
-UnsupportedOperationException
-(
-"Must be implemented in subclasses."
-)
 ;
-}

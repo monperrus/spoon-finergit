@@ -1718,7 +1718,9 @@ throw
 new
 IllegalArgumentException
 (
-"not instantiable by CoreFactory()"
+"not instantiable by CoreFactory(): "
++
+klass
 )
 ;
 }

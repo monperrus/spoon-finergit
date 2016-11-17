@@ -1,4 +1,5 @@
 @Override
+@UnsettableProperty
 public
 <
 M
@@ -20,11 +21,10 @@ M
 method
 )
 {
-throw
-new
-UnsupportedOperationException
+return
 (
-"Can't be used for a type parameter"
+C
 )
+this
 ;
 }

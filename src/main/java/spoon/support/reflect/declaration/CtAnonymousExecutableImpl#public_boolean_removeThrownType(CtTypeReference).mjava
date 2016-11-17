@@ -1,4 +1,5 @@
 @Override
+@UnsettableProperty
 public
 boolean
 removeThrownType
@@ -7,11 +8,7 @@ CtTypeReference
 throwType
 )
 {
-throw
-new
-UnsupportedOperationException
-(
-"You can't have throw types in a anonymous executable"
-)
+return
+false
 ;
 }

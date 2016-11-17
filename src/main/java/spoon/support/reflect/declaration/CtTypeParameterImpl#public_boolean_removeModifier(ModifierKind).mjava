@@ -1,4 +1,5 @@
 @Override
+@UnsettableProperty
 public
 boolean
 removeModifier
@@ -7,11 +8,7 @@ ModifierKind
 modifier
 )
 {
-throw
-new
-UnsupportedOperationException
-(
-"Can't be used for a type parameter"
-)
+return
+true
 ;
 }

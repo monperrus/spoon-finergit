@@ -1,6 +1,5 @@
 @Override
 @UnsettableProperty
-public
 <
 C
 extends
@@ -15,11 +14,4 @@ T
 >
 type
 )
-{
-return
-(
-C
-)
-this
 ;
-}

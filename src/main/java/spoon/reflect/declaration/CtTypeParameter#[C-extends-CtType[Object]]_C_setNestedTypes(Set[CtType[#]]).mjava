@@ -1,6 +1,5 @@
 @Override
 @UnsettableProperty
-public
 <
 C
 extends
@@ -21,11 +20,4 @@ CtType
 >
 nestedTypes
 )
-{
-return
-(
-C
-)
-this
 ;
-}

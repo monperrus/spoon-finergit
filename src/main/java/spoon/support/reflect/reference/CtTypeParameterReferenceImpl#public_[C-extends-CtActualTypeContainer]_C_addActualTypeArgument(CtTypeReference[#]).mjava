@@ -1,4 +1,5 @@
 @Override
+@UnsettableProperty
 public
 <
 C
@@ -15,11 +16,10 @@ CtTypeReference
 actualTypeArgument
 )
 {
-throw
-new
-UnsupportedOperationException
+return
 (
-"Type parameter can't have an actual type argument"
+C
 )
+this
 ;
 }

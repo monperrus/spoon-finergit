@@ -1,4 +1,5 @@
 @Override
+@UnsettableProperty
 public
 <
 C
@@ -12,10 +13,10 @@ String
 simpleName
 )
 {
-throw
-new
-UnsupportedOperationException
+return
 (
+C
 )
+this
 ;
 }

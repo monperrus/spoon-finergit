@@ -1,4 +1,5 @@
 @Override
+@UnsettableProperty
 public
 <
 C
@@ -12,11 +13,10 @@ ModifierKind
 modifier
 )
 {
-throw
-new
-UnsupportedOperationException
+return
 (
-"Can't be used for a type parameter"
+C
 )
+this
 ;
 }

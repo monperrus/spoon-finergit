@@ -10,11 +10,7 @@ CtTypeReference
 actualTypeArgument
 )
 {
-throw
-new
-UnsupportedOperationException
-(
-"Type parameter can't have an actual type argument"
-)
+return
+false
 ;
 }
