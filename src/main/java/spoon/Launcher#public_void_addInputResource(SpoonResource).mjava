@@ -1,4 +1,7 @@
-private
+/** 
+ * adds a resource to be parsed to build the spoon model 
+ */
+public
 void
 addInputResource
 (
