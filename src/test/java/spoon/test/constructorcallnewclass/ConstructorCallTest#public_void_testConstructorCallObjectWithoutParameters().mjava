@@ -18,7 +18,7 @@ constructorCalls
 .
 get
 (
-2
+3
 )
 ;
 assertConstructorCallWithType
