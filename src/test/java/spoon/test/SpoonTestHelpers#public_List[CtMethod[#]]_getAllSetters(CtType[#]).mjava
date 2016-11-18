@@ -43,10 +43,9 @@ CtMethod
 >
 m
 :
-baseType
-.
-getAllMethods
+getAllMetamodelMethods
 (
+baseType
 )
 )
 {
@@ -100,6 +99,7 @@ continue
 }
 if
 (
+!
 isMetamodelRelatedType
 (
 m
@@ -119,6 +119,9 @@ getType
 )
 )
 {
+continue
+;
+}
 result
 .
 add
@@ -126,7 +129,6 @@ add
 m
 )
 ;
-}
 }
 return
 result

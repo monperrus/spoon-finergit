@@ -40,6 +40,15 @@ scan
 (
 catchVariable
 .
+getDefaultExpression
+(
+)
+)
+;
+scan
+(
+catchVariable
+.
 getType
 (
 )

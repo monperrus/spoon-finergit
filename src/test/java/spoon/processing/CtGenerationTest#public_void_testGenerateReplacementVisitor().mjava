@@ -205,7 +205,7 @@ throw
 new
 ComparisonFailure
 (
-"EqualsVisitor different"
+"ReplacementVisitor different"
 ,
 expected
 .

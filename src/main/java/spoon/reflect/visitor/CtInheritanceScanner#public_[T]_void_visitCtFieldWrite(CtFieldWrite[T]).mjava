@@ -13,12 +13,12 @@ T
 fieldWrite
 )
 {
-scanCtFieldAccess
+visitCtVariableWrite
 (
 fieldWrite
 )
 ;
-visitCtVariableRead
+scanCtFieldAccess
 (
 fieldWrite
 )

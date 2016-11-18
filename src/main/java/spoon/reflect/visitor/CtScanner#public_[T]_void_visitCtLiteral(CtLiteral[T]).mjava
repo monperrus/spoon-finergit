@@ -40,15 +40,6 @@ scan
 (
 literal
 .
-getValue
-(
-)
-)
-;
-scan
-(
-literal
-.
 getTypeCasts
 (
 )

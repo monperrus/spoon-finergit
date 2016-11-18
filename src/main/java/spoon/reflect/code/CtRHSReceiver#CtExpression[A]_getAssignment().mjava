@@ -1,7 +1,6 @@
 /** 
  * Returns the right-hand side of the "=" operator.
  */
-@DerivedProperty
 CtExpression
 <
 A

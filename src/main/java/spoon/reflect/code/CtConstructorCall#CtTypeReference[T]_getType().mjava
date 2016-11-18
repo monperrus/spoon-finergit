@@ -1,6 +1,5 @@
 @Override
 @DerivedProperty
-public
 CtTypeReference
 <
 T
@@ -8,14 +7,4 @@ T
 getType
 (
 )
-{
-return
-getVariable
-(
-)
-.
-getType
-(
-)
 ;
-}

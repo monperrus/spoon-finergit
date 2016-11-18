@@ -59,6 +59,15 @@ scan
 (
 lambda
 .
+getThrownTypes
+(
+)
+)
+;
+scan
+(
+lambda
+.
 getBody
 (
 )
