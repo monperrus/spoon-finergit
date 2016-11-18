@@ -1,8 +1,0 @@
-/** 
- * Gets the Java string declaration of the import.
- */
-String
-toString
-(
-)
-;
