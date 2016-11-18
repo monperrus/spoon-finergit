@@ -1,12 +1,12 @@
 /** 
- * Inserts all the fields from a given template by substituting all the template parameters by their values. Members annotated with {@link spoon.template.Local} or {@link Parameter} are not inserted.
+ * Inserts all the nested types from a given template by substituting all the template parameters by their values. Members annotated with {@link spoon.template.Local} are not inserted.
  * @param targetType the target type
  * @param template the source template
  */
 public
 static
 void
-insertAllFields
+insertAllNestedTypes
 (
 CtType
 <
@@ -50,22 +50,24 @@ if
 (
 typeMember
 instanceof
-CtField
+CtType
 )
 {
-insertGeneratedField
+insertGeneratedNestedType
 (
 targetType
 ,
 template
 ,
 (
-CtField
+CtType
 <
 ?
 >
 )
 typeMember
+,
+sourceClass
 )
 ;
 }
