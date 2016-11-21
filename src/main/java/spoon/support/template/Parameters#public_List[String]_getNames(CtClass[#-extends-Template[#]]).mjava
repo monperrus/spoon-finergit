@@ -3,7 +3,7 @@
  */
 public
 static
-Collection
+List
 <
 String
 >
@@ -20,7 +20,7 @@ Template
 templateType
 )
 {
-Collection
+List
 <
 String
 >
@@ -81,17 +81,11 @@ Exception
 e
 )
 {
-Launcher
-.
-LOGGER
-.
-error
+throw
+new
+SpoonException
 (
-e
-.
-getMessage
-(
-)
+"Getting of template parameters failed"
 ,
 e
 )
