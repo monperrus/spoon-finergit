@@ -20,4 +20,10 @@ sourceClasspath
 =
 sourceClasspath
 ;
+this
+.
+inputClassloader
+=
+null
+;
 }

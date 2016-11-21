@@ -16,7 +16,15 @@ return
 classloader
 ;
 }
-return
+if
+(
+inputClassloader
+==
+null
+)
+{
+inputClassloader
+=
 new
 URLClassLoader
 (
@@ -34,5 +42,9 @@ getContextClassLoader
 (
 )
 )
+;
+}
+return
+inputClassloader
 ;
 }
