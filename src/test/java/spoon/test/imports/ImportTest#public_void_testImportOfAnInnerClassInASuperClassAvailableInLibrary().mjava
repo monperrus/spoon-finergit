@@ -158,7 +158,7 @@ toString
 ;
 expected
 =
-"org.yaml.snakeyaml.representer.Representer.RepresentMap"
+"org.yaml.snakeyaml.representer.SafeRepresenter.RepresentMap"
 ;
 assertEquals
 (

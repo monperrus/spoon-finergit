@@ -46,8 +46,9 @@ addImport
 (
 reference
 .
-getDeclaringType
+getAccessType
 (
+targetType
 )
 )
 ;

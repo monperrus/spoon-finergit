@@ -13,11 +13,6 @@ CtTypeReference
 >
 getImports
 (
-CtType
-<
-?
->
-simpleType
 )
 {
 if
@@ -38,13 +33,9 @@ EMPTY_LIST
 CtPackageReference
 pack
 =
-simpleType
+targetType
 .
 getPackage
-(
-)
-.
-getReference
 (
 )
 ;

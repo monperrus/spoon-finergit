@@ -1,11 +1,5 @@
 private
-Collection
-<
-CtFieldReference
-<
-?
->
->
+void
 handleParentNotFound
 (
 SpoonClassNotFoundException
@@ -58,11 +52,6 @@ msg
 )
 ;
 return
-Collections
-.
-emptyList
-(
-)
 ;
 }
 else

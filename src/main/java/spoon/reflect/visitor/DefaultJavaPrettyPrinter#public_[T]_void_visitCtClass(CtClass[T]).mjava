@@ -129,6 +129,12 @@ ctClass
 )
 ;
 }
+context
+.
+markCurrentThisInBody
+(
+)
+;
 printer
 .
 write

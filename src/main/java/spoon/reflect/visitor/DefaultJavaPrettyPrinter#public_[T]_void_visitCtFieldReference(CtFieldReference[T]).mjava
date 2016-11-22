@@ -87,6 +87,7 @@ context
 .
 getCurrentTypeReference
 (
+false
 )
 ;
 if
