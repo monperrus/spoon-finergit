@@ -6,6 +6,14 @@ getSimpleName
 )
 {
 return
-ARRAY_SIMPLE_NAME
+getComponentType
+(
+)
+.
+getSimpleName
+(
+)
++
+"[]"
 ;
 }

@@ -12,24 +12,6 @@ String
 simplename
 )
 {
-if
-(
-simplename
-.
-contains
-(
-"?"
-)
-)
-{
-throw
-new
-SpoonException
-(
-"A reference can't have a \"?\" in its name."
-)
-;
-}
 Factory
 factory
 =

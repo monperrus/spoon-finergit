@@ -46,7 +46,7 @@ getType
 (
 )
 .
-toString
+getSimpleName
 (
 )
 )
@@ -182,7 +182,7 @@ CtArrayTypeReference
 ;
 assertEquals
 (
-"Array"
+"int[]"
 ,
 x
 .
@@ -197,7 +197,7 @@ getSimpleName
 ;
 assertEquals
 (
-"java.lang.reflect.Array"
+"int[]"
 ,
 x
 .

@@ -6,6 +6,14 @@ getQualifiedName
 )
 {
 return
-ARRAY_CANONICAL_NAME
+getComponentType
+(
+)
+.
+getQualifiedName
+(
+)
++
+"[]"
 ;
 }

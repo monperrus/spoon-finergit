@@ -93,7 +93,7 @@ toString
 ;
 assertEquals
 (
-"Array"
+"AtomicLong[]"
 ,
 implicitArrayTyped
 .

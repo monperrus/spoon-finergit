@@ -112,7 +112,7 @@ toString
 ;
 assertEquals
 (
-"Array"
+"Object[]"
 ,
 ctParameter
 .
