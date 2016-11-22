@@ -1,11 +1,11 @@
 @Override
 public
 int
-getNameSourceStart
+getSourceEnd
 (
 )
 {
 return
-nameSourceStart
+declarationSourceEnd
 ;
 }

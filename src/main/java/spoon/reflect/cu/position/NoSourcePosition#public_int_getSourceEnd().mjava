@@ -1,0 +1,12 @@
+@Override
+public
+int
+getSourceEnd
+(
+)
+{
+return
+-
+1
+;
+}

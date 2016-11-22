@@ -1,0 +1,13 @@
+public
+int
+getEndLine
+(
+)
+{
+return
+searchLineNumber
+(
+declarationSourceEnd
+)
+;
+}

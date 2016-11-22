@@ -7,7 +7,7 @@ getColumn
 return
 searchColumnNumber
 (
-nameSourceStart
+sourceStart
 )
 ;
 }

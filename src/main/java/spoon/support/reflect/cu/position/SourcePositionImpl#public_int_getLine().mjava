@@ -20,7 +20,7 @@ searchLineNumber
 (
 this
 .
-nameSourceStart
+sourceStart
 )
 ;
 }

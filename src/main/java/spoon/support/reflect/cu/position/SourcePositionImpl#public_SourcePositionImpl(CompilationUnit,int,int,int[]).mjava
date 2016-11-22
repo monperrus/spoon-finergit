@@ -8,9 +8,6 @@ int
 sourceStart
 ,
 int
-nameSourceStart
-,
-int
 sourceEnd
 ,
 int
@@ -28,12 +25,6 @@ this
 compilationUnit
 =
 compilationUnit
-;
-this
-.
-nameSourceStart
-=
-nameSourceStart
 ;
 this
 .

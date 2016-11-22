@@ -1,15 +1,11 @@
 /** 
  * Creates a source position.
  */
-@Deprecated
 SourcePosition
 createSourcePosition
 (
 CompilationUnit
 compilationUnit
-,
-int
-startDeclaration
 ,
 int
 startSource

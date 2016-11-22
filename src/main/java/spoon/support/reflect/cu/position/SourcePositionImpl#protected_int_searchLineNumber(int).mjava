@@ -1,7 +1,7 @@
 /** 
  * Search the line number corresponding to a specific position
  */
-private
+protected
 int
 searchLineNumber
 (
@@ -17,7 +17,6 @@ null
 )
 {
 return
--
 1
 ;
 }

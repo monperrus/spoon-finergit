@@ -1,0 +1,17 @@
+public
+@Deprecated
+static
+<
+S
+>
+S
+m
+(
+int
+parm1
+)
+{
+return
+null
+;
+}

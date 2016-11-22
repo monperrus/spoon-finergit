@@ -1,15 +1,10 @@
-/** 
- * Creates a source position.
- */
-@Deprecated
+@Override
+public
 SourcePosition
 createSourcePosition
 (
 CompilationUnit
 compilationUnit
-,
-int
-startDeclaration
 ,
 int
 startSource
@@ -22,4 +17,18 @@ int
 ]
 lineSeparatorPositions
 )
+{
+return
+new
+SourcePositionImpl
+(
+compilationUnit
+,
+startSource
+,
+end
+,
+lineSeparatorPositions
+)
 ;
+}

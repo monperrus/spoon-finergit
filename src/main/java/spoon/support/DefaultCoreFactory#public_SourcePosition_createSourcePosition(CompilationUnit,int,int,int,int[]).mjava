@@ -1,3 +1,5 @@
+@Override
+@Deprecated
 public
 SourcePosition
 createSourcePosition
@@ -25,8 +27,6 @@ new
 SourcePositionImpl
 (
 compilationUnit
-,
-startDeclaration
 ,
 startSource
 ,
