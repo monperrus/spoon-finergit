@@ -42,6 +42,10 @@ getParent
 ;
 if
 (
+folder
+!=
+null
+&&
 !
 result
 .

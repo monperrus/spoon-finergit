@@ -71,6 +71,8 @@ new
 RuntimeException
 (
 "File not found"
+,
+e
 )
 ;
 }

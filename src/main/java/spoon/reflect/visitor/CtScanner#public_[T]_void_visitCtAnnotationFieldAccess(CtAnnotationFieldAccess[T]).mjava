@@ -49,6 +49,15 @@ scan
 (
 annotationFieldAccess
 .
+getTarget
+(
+)
+)
+;
+scan
+(
+annotationFieldAccess
+.
 getType
 (
 )

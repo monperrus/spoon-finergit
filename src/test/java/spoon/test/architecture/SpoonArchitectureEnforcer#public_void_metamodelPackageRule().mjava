@@ -90,7 +90,7 @@ CtType
 <
 ?
 >
-t
+implType
 :
 implementations
 .
@@ -106,7 +106,7 @@ getAllTypes
 String
 impl
 =
-t
+implType
 .
 getQualifiedName
 (
@@ -127,7 +127,7 @@ replace
 )
 ;
 CtType
-itf
+interfaceType
 =
 interfaces
 .
@@ -146,11 +146,15 @@ impl
 ;
 assertTrue
 (
-itf
+implType
+.
+getReference
+(
+)
 .
 isSubtypeOf
 (
-t
+interfaceType
 .
 getReference
 (

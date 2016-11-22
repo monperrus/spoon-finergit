@@ -7,6 +7,17 @@ Object
 obj
 )
 {
+if
+(
+obj
+==
+null
+)
+{
+return
+false
+;
+}
 return
 toString
 (
