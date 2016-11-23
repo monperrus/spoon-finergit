@@ -1,0 +1,14 @@
+public
+CtPackageReference
+getPackage
+(
+)
+{
+return
+type
+.
+getPackage
+(
+)
+;
+}

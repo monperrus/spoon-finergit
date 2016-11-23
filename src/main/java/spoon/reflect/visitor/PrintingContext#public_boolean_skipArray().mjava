@@ -1,0 +1,16 @@
+public
+boolean
+skipArray
+(
+)
+{
+return
+(
+state
+&
+SKIP_ARRAY
+)
+!=
+0L
+;
+}

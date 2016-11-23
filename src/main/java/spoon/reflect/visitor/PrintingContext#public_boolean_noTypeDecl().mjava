@@ -1,0 +1,16 @@
+public
+boolean
+noTypeDecl
+(
+)
+{
+return
+(
+state
+&
+NO_TYPE_DECL
+)
+!=
+0L
+;
+}

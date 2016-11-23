@@ -1,0 +1,16 @@
+public
+boolean
+ignoreStaticAccess
+(
+)
+{
+return
+(
+state
+&
+IGNORE_STATIC_ACCESS
+)
+!=
+0L
+;
+}

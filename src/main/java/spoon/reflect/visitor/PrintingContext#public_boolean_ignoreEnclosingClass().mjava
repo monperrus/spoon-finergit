@@ -1,0 +1,16 @@
+public
+boolean
+ignoreEnclosingClass
+(
+)
+{
+return
+(
+state
+&
+IGNORE_ENCLOSING_CLASS
+)
+!=
+0L
+;
+}

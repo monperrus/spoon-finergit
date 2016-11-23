@@ -1,0 +1,13 @@
+public
+Writable
+modify
+(
+)
+{
+return
+new
+Writable
+(
+)
+;
+}

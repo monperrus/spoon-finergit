@@ -40,6 +40,8 @@ if
 context
 .
 skipArray
+(
+)
 )
 {
 printer

@@ -19,6 +19,8 @@ if
 context
 .
 noTypeDecl
+(
+)
 )
 {
 enterCtStatement
@@ -52,6 +54,8 @@ if
 context
 .
 noTypeDecl
+(
+)
 )
 {
 elementPrinterHelper

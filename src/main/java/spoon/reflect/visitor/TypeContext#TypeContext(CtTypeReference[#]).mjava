@@ -1,0 +1,14 @@
+TypeContext
+(
+CtTypeReference
+<
+?
+>
+p_type
+)
+{
+type
+=
+p_type
+;
+}
