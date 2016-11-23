@@ -202,9 +202,17 @@ if
 !
 expectedType
 .
+getQualifiedName
+(
+)
+.
 equals
 (
 ctParameterType
+.
+getQualifiedName
+(
+)
 )
 )
 {
