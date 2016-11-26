@@ -1,6 +1,5 @@
-@Override
 public
-CtClass
+CtType
 <
 ?
 >
@@ -10,7 +9,7 @@ getDeclaringType
 {
 return
 (
-CtClass
+CtType
 <
 ?
 >
