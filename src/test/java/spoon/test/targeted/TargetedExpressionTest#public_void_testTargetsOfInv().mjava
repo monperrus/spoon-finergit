@@ -583,7 +583,7 @@ getQualifiedName
 ;
 assertEquals
 (
-superClassTypeAccess
+fooTypeAccess
 ,
 (
 (
