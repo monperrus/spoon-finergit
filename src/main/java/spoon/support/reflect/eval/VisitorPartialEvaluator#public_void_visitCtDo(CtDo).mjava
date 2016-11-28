@@ -21,8 +21,6 @@ setLoopingExpression
 (
 evaluate
 (
-w
-,
 doLoop
 .
 getLoopingExpression
@@ -37,8 +35,6 @@ setBody
 (
 evaluate
 (
-w
-,
 doLoop
 .
 getBody

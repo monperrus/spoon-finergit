@@ -119,7 +119,7 @@ partiallyEvaluate
 ;
 assertEquals
 (
-0
+"// if removed"
 ,
 b
 .
@@ -127,7 +127,12 @@ getStatements
 (
 )
 .
-size
+get
+(
+0
+)
+.
+toString
 (
 )
 )

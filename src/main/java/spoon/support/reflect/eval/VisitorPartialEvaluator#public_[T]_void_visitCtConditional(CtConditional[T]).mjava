@@ -21,8 +21,6 @@ r
 evaluate
 (
 conditional
-,
-conditional
 .
 getCondition
 (
@@ -63,8 +61,6 @@ setResult
 (
 evaluate
 (
-null
-,
 conditional
 .
 getThenExpression
@@ -80,8 +76,6 @@ setResult
 (
 evaluate
 (
-null
-,
 conditional
 .
 getElseExpression
@@ -127,8 +121,6 @@ setThenExpression
 (
 evaluate
 (
-ifRes
-,
 conditional
 .
 getThenExpression
@@ -143,8 +135,6 @@ setElseExpression
 (
 evaluate
 (
-ifRes
-,
 conditional
 .
 getElseExpression

@@ -1,21 +1,17 @@
 /** 
  * Partially evaluates an element and all its sub-elements.
  * @param < R > the partially evaluated element type
- * @param parent the parent element of the partially evaluated element
  * @param element the element to be partially evaluated
  * @return the result of the partial evaluation
  */
 <
 R
 extends
-CtCodeElement
+CtElement
 >
 R
 evaluate
 (
-CtElement
-parent
-,
 R
 element
 )

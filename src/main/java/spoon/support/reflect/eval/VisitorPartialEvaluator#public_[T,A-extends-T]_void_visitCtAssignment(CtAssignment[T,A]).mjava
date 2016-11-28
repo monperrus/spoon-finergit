@@ -39,8 +39,6 @@ setAssignment
 evaluate
 (
 a
-,
-a
 .
 getAssignment
 (

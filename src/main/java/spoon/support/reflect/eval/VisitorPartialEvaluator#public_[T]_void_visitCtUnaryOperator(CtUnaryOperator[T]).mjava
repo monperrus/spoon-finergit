@@ -21,8 +21,6 @@ operand
 evaluate
 (
 operator
-,
-operator
 .
 getOperand
 (

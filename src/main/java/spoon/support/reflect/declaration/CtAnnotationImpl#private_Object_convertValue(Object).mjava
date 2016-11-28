@@ -473,8 +473,6 @@ eval
 .
 evaluate
 (
-null
-,
 (
 CtCodeElement
 )

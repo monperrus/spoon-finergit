@@ -29,8 +29,6 @@ setThrownExpression
 (
 evaluate
 (
-r
-,
 throwStatement
 .
 getThrownExpression

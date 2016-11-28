@@ -31,8 +31,6 @@ evaluateStatement
 =
 evaluate
 (
-forLoop
-,
 s
 )
 ;
@@ -58,8 +56,6 @@ setExpression
 (
 evaluate
 (
-forLoop
-,
 forLoop
 .
 getExpression
@@ -89,8 +85,6 @@ evaluateStatement
 =
 evaluate
 (
-forLoop
-,
 s
 )
 ;

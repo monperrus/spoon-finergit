@@ -214,8 +214,6 @@ setResult
 evaluate
 (
 f
-,
-f
 .
 getDefaultExpression
 (

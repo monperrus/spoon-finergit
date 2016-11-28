@@ -57,8 +57,6 @@ setResult
 evaluate
 (
 v
-,
-v
 .
 getDefaultExpression
 (

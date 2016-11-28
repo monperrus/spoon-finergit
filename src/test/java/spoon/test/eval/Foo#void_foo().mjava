@@ -1,0 +1,17 @@
+void
+foo
+(
+)
+{
+boolean
+b1
+=
+true
+?
+false
+||
+b0
+:
+b2
+;
+}
