@@ -5,7 +5,7 @@ getSimpleName
 )
 {
 return
-type
+typeRef
 .
 getSimpleName
 (

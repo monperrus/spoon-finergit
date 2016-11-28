@@ -1,6 +1,7 @@
 /** 
- * @param p_declType
- * @return last super class which extends from p_declType and which is visible from this or null if  this does not extends from targetType
+ * @param sourceType
+ * @param targetType
+ * @return sourceType or last super class of sourceType, which extends from targetType and which is visible from sourceType or null if sourceType does not extends from targetType
  */
 private
 static

@@ -18,10 +18,6 @@ context
 pushCurrentThis
 (
 ctClass
-.
-getReference
-(
-)
 )
 ;
 if
@@ -129,12 +125,6 @@ ctClass
 )
 ;
 }
-context
-.
-markCurrentThisInBody
-(
-)
-;
 printer
 .
 write

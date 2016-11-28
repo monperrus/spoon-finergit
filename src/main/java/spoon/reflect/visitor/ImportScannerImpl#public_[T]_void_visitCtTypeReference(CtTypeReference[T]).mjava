@@ -48,7 +48,6 @@ reference
 .
 getAccessType
 (
-targetType
 )
 )
 ;

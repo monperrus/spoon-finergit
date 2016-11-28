@@ -1,6 +1,6 @@
 TypeContext
 (
-CtTypeReference
+CtType
 <
 ?
 >
@@ -10,5 +10,13 @@ p_type
 type
 =
 p_type
+;
+typeRef
+=
+type
+.
+getReference
+(
+)
 ;
 }

@@ -2,7 +2,7 @@ public
 void
 pushCurrentThis
 (
-CtTypeReference
+CtType
 <
 ?
 >

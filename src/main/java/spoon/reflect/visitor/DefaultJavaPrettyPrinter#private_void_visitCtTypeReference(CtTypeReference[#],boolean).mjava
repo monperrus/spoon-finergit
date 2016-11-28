@@ -97,12 +97,6 @@ ref
 .
 getAccessType
 (
-context
-.
-getCurrentTypeReference
-(
-true
-)
 )
 ;
 if

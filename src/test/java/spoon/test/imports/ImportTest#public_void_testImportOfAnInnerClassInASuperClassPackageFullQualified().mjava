@@ -178,7 +178,7 @@ getQualifiedName
 ;
 expected
 =
-"spoon.test.imports.testclasses.internal.SuperClass.InnerClassProtected"
+"spoon.test.imports.testclasses.internal.ChildClass.InnerClassProtected"
 ;
 assertEquals
 (
