@@ -2,6 +2,7 @@
  * Creates the filter.
  * @param reference the matching reference
  */
+@SuppressWarnings("unchecked")
 public
 DirectReferenceFilter
 (
@@ -11,6 +12,12 @@ reference
 {
 super
 (
+(
+Class
+<
+T
+>
+)
 reference
 .
 getClass

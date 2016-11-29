@@ -3,7 +3,9 @@
  * @param < T > the type of the sought program element references
  * @param rootElement the element to start the recursive search on
  * @param filter the filter which defines the matching criteria
+ * @deprecated use {@link #getElements(CtElement,Filter)} instead.
  */
+@Deprecated
 public
 static
 <
@@ -20,39 +22,19 @@ getReferences
 CtElement
 rootElement
 ,
-ReferenceFilter
+Filter
 <
 T
 >
 filter
 )
 {
-ReferenceQueryVisitor
-<
-T
->
-visitor
-=
-new
-ReferenceQueryVisitor
-<
->
-(
-filter
-)
-;
-visitor
-.
-scan
+return
+getElements
 (
 rootElement
-)
-;
-return
-visitor
-.
-getResult
-(
+,
+filter
 )
 ;
 }

@@ -10,7 +10,7 @@ T
 >
 getReferences
 (
-ReferenceFilter
+Filter
 <
 T
 >
@@ -18,12 +18,8 @@ filter
 )
 {
 return
-Query
-.
-getReferences
+getElements
 (
-this
-,
 filter
 )
 ;

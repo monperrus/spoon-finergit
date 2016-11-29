@@ -13,12 +13,7 @@ filter
 {
 super
 (
+filter
 )
-;
-this
-.
-filter
-=
-filter
 ;
 }

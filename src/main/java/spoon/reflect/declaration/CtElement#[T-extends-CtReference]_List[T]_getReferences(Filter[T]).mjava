@@ -1,7 +1,9 @@
 /** 
  * @param filter
  * @return
+ * @deprecated use {@link #getElements(Filter)} instead.
  */
+@Deprecated
 <
 T
 extends
@@ -13,7 +15,7 @@ T
 >
 getReferences
 (
-ReferenceFilter
+Filter
 <
 T
 >
