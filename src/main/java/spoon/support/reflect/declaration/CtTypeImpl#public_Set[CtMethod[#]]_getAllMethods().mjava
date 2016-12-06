@@ -78,6 +78,12 @@ ignored
 }
 }
 else
+if
+(
+this
+instanceof
+CtClass
+)
 {
 addAllBasedOnSignature
 (
