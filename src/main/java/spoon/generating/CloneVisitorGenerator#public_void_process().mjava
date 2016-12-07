@@ -1134,8 +1134,6 @@ asList
 "spoon.support.reflect.declaration.CtMultiTypedElementImpl"
 ,
 "spoon.support.reflect.declaration.CtTypeMemberImpl"
-,
-"spoon.support.reflect.declaration.CtElementImpl"
 )
 ;
 private

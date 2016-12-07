@@ -97,8 +97,6 @@ scan
 ctClass
 )
 ;
-Assert
-.
 assertTrue
 (
 printer
