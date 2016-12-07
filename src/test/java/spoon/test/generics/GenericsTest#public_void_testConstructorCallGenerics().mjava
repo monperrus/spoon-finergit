@@ -177,7 +177,7 @@ Object
 )
 local1
 .
-getReferences
+getElements
 (
 new
 ReferenceTypeFilter
@@ -321,7 +321,7 @@ Object
 )
 local2
 .
-getReferences
+getElements
 (
 new
 ReferenceTypeFilter
@@ -413,7 +413,7 @@ Object
 )
 local3
 .
-getReferences
+getElements
 (
 new
 ReferenceTypeFilter
@@ -557,7 +557,7 @@ Object
 )
 local4
 .
-getReferences
+getElements
 (
 new
 ReferenceTypeFilter

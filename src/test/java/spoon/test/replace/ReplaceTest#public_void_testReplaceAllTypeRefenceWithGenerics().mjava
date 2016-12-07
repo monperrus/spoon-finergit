@@ -27,7 +27,7 @@ references
 =
 Query
 .
-getReferences
+getElements
 (
 factory
 ,

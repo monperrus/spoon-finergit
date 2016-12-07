@@ -18,7 +18,7 @@ method1
 return
 method1
 .
-getReferences
+getElements
 (
 new
 ReferenceTypeFilter
