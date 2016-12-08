@@ -1,9 +1,8 @@
 /** 
  * Gets imports in imports Map for the key simpleType given.
- * @param simpleType
  * @return Collection of {@link spoon.reflect.reference.CtTypeReference}
  */
-private
+protected
 Collection
 <
 CtTypeReference

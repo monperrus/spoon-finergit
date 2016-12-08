@@ -1,6 +1,7 @@
 /** 
  * Computes imports for all elements.
  */
+@Deprecated
 void
 computeImports
 (

@@ -1,0 +1,16 @@
+void
+foo
+(
+)
+{
+Object
+spoon
+=
+null
+;
+Object
+x
+=
+SPOONED_CLASSES
+;
+}

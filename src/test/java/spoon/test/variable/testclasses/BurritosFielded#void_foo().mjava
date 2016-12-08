@@ -1,0 +1,11 @@
+void
+foo
+(
+)
+{
+Object
+xx
+=
+SPOONED_CLASSES
+;
+}

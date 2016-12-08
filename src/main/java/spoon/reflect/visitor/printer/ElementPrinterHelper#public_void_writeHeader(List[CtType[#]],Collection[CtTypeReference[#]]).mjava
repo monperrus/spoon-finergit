@@ -127,15 +127,6 @@ writeTabs
 (
 )
 ;
-if
-(
-env
-.
-isAutoImports
-(
-)
-)
-{
 for
 (
 CtTypeReference
@@ -170,7 +161,6 @@ writeTabs
 (
 )
 ;
-}
 }
 printer
 .
