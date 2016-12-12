@@ -336,7 +336,7 @@ expectedThisAccess
 .
 result
 (
-"spoon.test.targeted.testclasses.Foo.this.staticMethod()"
+"this.staticMethod()"
 )
 ,
 elements

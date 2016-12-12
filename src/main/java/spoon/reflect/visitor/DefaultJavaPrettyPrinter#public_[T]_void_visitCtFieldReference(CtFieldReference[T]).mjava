@@ -79,15 +79,10 @@ getDeclaringType
 ;
 if
 (
-""
-.
-equals
-(
 declTypeRef
 .
-getSimpleName
+isAnonymous
 (
-)
 )
 )
 {

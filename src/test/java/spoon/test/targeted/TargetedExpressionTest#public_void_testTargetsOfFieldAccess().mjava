@@ -239,7 +239,7 @@ expectedThisAccess
 .
 result
 (
-"spoon.test.targeted.testclasses.Foo.this.i"
+"this.i"
 )
 ,
 elements
@@ -304,7 +304,7 @@ get
 .
 result
 (
-"spoon.test.targeted.testclasses.Foo.this.bar.i"
+"this.bar.i"
 )
 ,
 elements
@@ -334,7 +334,7 @@ expectedThisAccess
 .
 result
 (
-"spoon.test.targeted.testclasses.Foo.this.bar"
+"this.bar"
 )
 ,
 elements
@@ -429,7 +429,7 @@ expectedThisAccess
 .
 result
 (
-"spoon.test.targeted.testclasses.Foo.this.o"
+"this.o"
 )
 ,
 elements

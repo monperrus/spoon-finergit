@@ -24,15 +24,8 @@ tc
 =
 currentThis
 .
-get
+peek
 (
-currentThis
-.
-size
-(
-)
--
-1
 )
 ;
 return

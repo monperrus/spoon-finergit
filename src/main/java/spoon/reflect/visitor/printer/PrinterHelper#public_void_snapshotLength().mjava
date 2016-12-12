@@ -1,0 +1,23 @@
+/** 
+ * stores the length of the printer 
+ */
+public
+void
+snapshotLength
+(
+)
+{
+lengths
+.
+addLast
+(
+toString
+(
+)
+.
+length
+(
+)
+)
+;
+}

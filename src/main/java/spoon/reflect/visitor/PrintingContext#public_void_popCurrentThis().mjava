@@ -6,15 +6,8 @@ popCurrentThis
 {
 currentThis
 .
-remove
+pop
 (
-currentThis
-.
-size
-(
-)
--
-1
 )
 ;
 }

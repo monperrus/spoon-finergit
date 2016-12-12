@@ -109,7 +109,7 @@ getReference
 ;
 assertEquals
 (
-"spoon.test.targeted.testclasses.Foo.this.i"
+"this.i"
 ,
 fieldAccess
 .

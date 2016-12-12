@@ -328,7 +328,7 @@ expectedThisAccess
 .
 result
 (
-"Foo.this.staticMethod()"
+"this.staticMethod()"
 )
 ,
 elements

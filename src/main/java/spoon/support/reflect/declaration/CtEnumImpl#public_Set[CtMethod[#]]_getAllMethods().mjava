@@ -21,14 +21,8 @@ CtMethod
 allMethods
 =
 new
-TreeSet
-<
->
+SignatureBasedSortedSet
 (
-new
-SignatureComparator
-(
-)
 )
 ;
 allMethods

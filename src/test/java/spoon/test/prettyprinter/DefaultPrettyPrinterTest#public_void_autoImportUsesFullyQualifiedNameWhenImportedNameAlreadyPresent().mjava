@@ -131,18 +131,6 @@ expected
 +
 nl
 +
-"    localField = ENUM.E1.ordinal();"
-+
-nl
-+
-"}"
-;
-expected
-=
-"public void setFieldUsingLocallyDefinedEnum() {"
-+
-nl
-+
 "    localField = TypeIdentifierCollision.ENUM.E1.ordinal();"
 +
 nl
@@ -212,22 +200,6 @@ expected
 ,
 computed
 )
-;
-expected
-=
-"public void referToTwoInnerClassesWithTheSameName() {"
-+
-nl
-+
-"    ClassA.VAR0 = ClassA.getNum();"
-+
-nl
-+
-"    Class1.ClassA.VAR1 = Class1.ClassA.getNum();"
-+
-nl
-+
-"}"
 ;
 expected
 =

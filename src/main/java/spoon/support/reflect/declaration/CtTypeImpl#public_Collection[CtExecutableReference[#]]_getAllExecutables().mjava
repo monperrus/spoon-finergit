@@ -21,12 +21,8 @@ CtExecutableReference
 l
 =
 new
-TreeSet
+SignatureBasedSortedSet
 (
-new
-SignatureComparator
-(
-)
 )
 ;
 for

@@ -367,7 +367,7 @@ expectedThisAccess
 .
 result
 (
-"Foo.this.i"
+"this.i"
 )
 ,
 elements

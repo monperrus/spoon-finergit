@@ -190,7 +190,7 @@ getAssigned
 ;
 assertEquals
 (
-"PR.this.mfield"
+"this.mfield"
 ,
 left
 .
@@ -212,7 +212,7 @@ getType
 ;
 assertEquals
 (
-"PR.this.mfield = p"
+"this.mfield = p"
 ,
 invoToInt1
 .
