@@ -1,0 +1,13 @@
+public
+B
+createB
+(
+)
+{
+return
+new
+B
+(
+)
+;
+}
