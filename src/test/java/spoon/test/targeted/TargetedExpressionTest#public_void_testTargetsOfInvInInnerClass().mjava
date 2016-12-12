@@ -340,7 +340,7 @@ expectedThisAccess
 .
 result
 (
-"spoon.test.targeted.testclasses.Foo.this.inv()"
+"this.inv()"
 )
 ,
 elements
@@ -467,7 +467,7 @@ expectedThisAccess
 .
 result
 (
-"spoon.test.targeted.testclasses.Foo.this.superMethod()"
+"this.superMethod()"
 )
 ,
 elements
@@ -527,7 +527,7 @@ expectedInnerClassAccess
 .
 result
 (
-"spoon.test.targeted.testclasses.Foo.InnerClass.this.method()"
+"this.method()"
 )
 ,
 elements
@@ -600,7 +600,7 @@ expectedNestedAccess
 .
 result
 (
-"NestedTypeScanner.this.checkType(type)"
+"this.checkType(type)"
 )
 ,
 newElements

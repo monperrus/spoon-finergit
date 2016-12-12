@@ -1,5 +1,5 @@
 /** 
- * Creates an access to a <code>this</code> variable (of the form <code>type.this</code>).
+ * Creates an explicit access to a <code>this</code> variable (of the form <code>type.this</code>).
  * @param < T > the actual type of <code>this</code>
  * @param type the reference to the type that holds the <code>this</code> variable
  * @return a <code>type.this</code> expression
@@ -21,61 +21,12 @@ T
 type
 )
 {
-CtThisAccess
-<
-T
->
-thisAccess
-=
-factory
-.
-Core
-(
-)
-.
+return
 createThisAccess
 (
-)
-;
-thisAccess
-.
-setType
-(
 type
+,
+false
 )
-;
-CtTypeAccess
-<
-T
->
-typeAccess
-=
-factory
-.
-Code
-(
-)
-.
-createTypeAccess
-(
-type
-)
-;
-typeAccess
-.
-setImplicit
-(
-true
-)
-;
-thisAccess
-.
-setTarget
-(
-typeAccess
-)
-;
-return
-thisAccess
 ;
 }

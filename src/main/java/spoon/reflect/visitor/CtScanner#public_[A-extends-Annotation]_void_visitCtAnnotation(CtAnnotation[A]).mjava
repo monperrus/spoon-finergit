@@ -24,6 +24,15 @@ scan
 (
 annotation
 .
+getType
+(
+)
+)
+;
+scan
+(
+annotation
+.
 getComments
 (
 )

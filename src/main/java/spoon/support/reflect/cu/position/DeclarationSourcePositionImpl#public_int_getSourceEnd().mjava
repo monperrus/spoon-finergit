@@ -1,0 +1,11 @@
+@Override
+public
+int
+getSourceEnd
+(
+)
+{
+return
+declarationSourceEnd
+;
+}

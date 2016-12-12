@@ -1,0 +1,38 @@
+/** 
+ * @param typeRef
+ * @return true if typeRef is equal to current (actually printed) Type (currentThis)
+ */
+public
+boolean
+isInCurrentScope
+(
+CtTypeReference
+<
+?
+>
+typeRef
+)
+{
+CtTypeReference
+<
+?
+>
+currentTypeRef
+=
+getCurrentTypeReference
+(
+)
+;
+return
+currentTypeRef
+!=
+null
+&&
+typeRef
+.
+equals
+(
+currentTypeRef
+)
+;
+}

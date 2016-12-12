@@ -1,0 +1,13 @@
+public
+int
+getColumn
+(
+)
+{
+return
+searchColumnNumber
+(
+sourceStart
+)
+;
+}

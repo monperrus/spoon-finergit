@@ -27,7 +27,7 @@ references
 =
 Query
 .
-getReferences
+getElements
 (
 factory
 ,
@@ -176,6 +176,10 @@ getType
 assertEquals
 (
 expected
+.
+getTypeDeclaration
+(
+)
 ,
 aMethod
 .
@@ -198,6 +202,10 @@ get
 )
 .
 getType
+(
+)
+.
+getTypeDeclaration
 (
 )
 )

@@ -53,8 +53,6 @@ eval
 .
 evaluate
 (
-null
-,
 el
 )
 ;
@@ -108,8 +106,6 @@ eval
 .
 evaluate
 (
-null
-,
 el
 )
 ;
@@ -163,8 +159,6 @@ eval
 .
 evaluate
 (
-null
-,
 el
 )
 ;
@@ -218,8 +212,6 @@ eval
 .
 evaluate
 (
-null
-,
 el
 )
 ;

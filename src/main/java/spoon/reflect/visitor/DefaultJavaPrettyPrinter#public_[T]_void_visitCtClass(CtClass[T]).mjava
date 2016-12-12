@@ -18,10 +18,6 @@ context
 pushCurrentThis
 (
 ctClass
-.
-getReference
-(
-)
 )
 ;
 if

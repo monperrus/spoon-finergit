@@ -1,7 +1,6 @@
 /** 
  * Gets this element's type.
  */
-@DerivedProperty
 CtTypeReference
 <
 T

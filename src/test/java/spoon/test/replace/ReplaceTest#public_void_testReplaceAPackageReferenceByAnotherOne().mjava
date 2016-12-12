@@ -86,7 +86,7 @@ burritos
 =
 panini
 .
-getReferences
+getElements
 (
 new
 ReferenceTypeFilter

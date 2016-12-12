@@ -48,10 +48,6 @@ context
 pushCurrentThis
 (
 ctEnum
-.
-getReference
-(
-)
 )
 ;
 printer

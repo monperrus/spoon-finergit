@@ -40,7 +40,7 @@ ref
 =
 type
 .
-getReferences
+getElements
 (
 new
 AbstractReferenceFilter

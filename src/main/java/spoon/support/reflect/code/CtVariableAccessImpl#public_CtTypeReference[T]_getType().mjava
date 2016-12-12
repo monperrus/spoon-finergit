@@ -1,4 +1,5 @@
 @Override
+@DerivedProperty
 public
 CtTypeReference
 <
@@ -9,14 +10,6 @@ getType
 )
 {
 return
-getVariable
-(
-)
-==
-null
-?
-null
-:
 getVariable
 (
 )

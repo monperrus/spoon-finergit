@@ -1,3 +1,6 @@
+/** 
+ * For methods, this implementation of signature contains the return type, which corresponds to what the Java compile and virtual machine call a "descriptor". See chapter "8.4.2 Method Signature" of the Java specification
+ */
 @Override
 public
 <

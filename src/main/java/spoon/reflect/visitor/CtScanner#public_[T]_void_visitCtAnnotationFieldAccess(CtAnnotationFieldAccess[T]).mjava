@@ -40,15 +40,6 @@ scan
 (
 annotationFieldAccess
 .
-getType
-(
-)
-)
-;
-scan
-(
-annotationFieldAccess
-.
 getTypeCasts
 (
 )
@@ -67,7 +58,7 @@ scan
 (
 annotationFieldAccess
 .
-getVariable
+getType
 (
 )
 )
@@ -76,7 +67,7 @@ scan
 (
 annotationFieldAccess
 .
-getComments
+getVariable
 (
 )
 )

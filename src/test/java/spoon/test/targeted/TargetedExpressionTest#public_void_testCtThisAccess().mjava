@@ -61,7 +61,7 @@ get
 ;
 assertEquals
 (
-"spoon.test.targeted.testclasses.InnerClassThisAccess.this.method()"
+"this.method()"
 ,
 meth1
 .

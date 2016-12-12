@@ -31,6 +31,15 @@ scan
 (
 reference
 .
+getPackage
+(
+)
+)
+;
+scan
+(
+reference
+.
 getDeclaringType
 (
 )

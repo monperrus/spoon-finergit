@@ -1,0 +1,8 @@
+public
+FooGeneric
+(
+int
+arg1
+)
+{
+}

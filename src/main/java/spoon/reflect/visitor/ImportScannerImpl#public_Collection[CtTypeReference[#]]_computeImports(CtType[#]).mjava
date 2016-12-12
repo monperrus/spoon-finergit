@@ -22,6 +22,18 @@ clear
 (
 )
 ;
+targetType
+=
+simpleType
+.
+getReference
+(
+)
+.
+getTopLevelType
+(
+)
+;
 addImport
 (
 simpleType
@@ -39,7 +51,6 @@ simpleType
 return
 getImports
 (
-simpleType
 )
 ;
 }

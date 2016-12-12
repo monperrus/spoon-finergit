@@ -21,8 +21,6 @@ setBlock
 (
 evaluate
 (
-s
-,
 synchro
 .
 getBlock

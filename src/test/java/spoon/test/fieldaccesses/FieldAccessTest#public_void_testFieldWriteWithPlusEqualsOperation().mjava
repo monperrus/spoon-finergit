@@ -164,7 +164,7 @@ class
 ;
 assertEquals
 (
-1
+2
 ,
 variables
 .
@@ -181,7 +181,7 @@ variables
 .
 get
 (
-0
+1
 )
 .
 getParent
@@ -201,7 +201,7 @@ variables
 .
 get
 (
-0
+1
 )
 .
 toString

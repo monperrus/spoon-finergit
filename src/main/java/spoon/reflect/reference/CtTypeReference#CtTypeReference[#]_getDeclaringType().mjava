@@ -2,7 +2,6 @@
  * Gets the type that declares the referenced type.
  * @return the declaring type if this references an inner class; null inother cases
  */
-@DerivedProperty
 CtTypeReference
 <
 ?

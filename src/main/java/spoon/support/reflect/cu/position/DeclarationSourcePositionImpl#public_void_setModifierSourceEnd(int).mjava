@@ -1,0 +1,15 @@
+public
+void
+setModifierSourceEnd
+(
+int
+modifierSourceEnd
+)
+{
+this
+.
+modifierSourceEnd
+=
+modifierSourceEnd
+;
+}

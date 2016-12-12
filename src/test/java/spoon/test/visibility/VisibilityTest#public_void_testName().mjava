@@ -47,7 +47,7 @@ references
 =
 Query
 .
-getReferences
+getElements
 (
 launcher
 .

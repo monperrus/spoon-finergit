@@ -1,0 +1,24 @@
+/** 
+ * @param filter
+ * @return
+ * @deprecated use {@link #getElements(Filter)} instead.
+ */
+@Deprecated
+<
+T
+extends
+CtReference
+>
+List
+<
+T
+>
+getReferences
+(
+Filter
+<
+T
+>
+filter
+)
+;

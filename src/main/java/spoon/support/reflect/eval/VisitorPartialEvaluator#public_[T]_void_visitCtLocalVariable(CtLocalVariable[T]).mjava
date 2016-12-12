@@ -31,8 +31,6 @@ setDefaultExpression
 (
 evaluate
 (
-r
-,
 localVariable
 .
 getDefaultExpression

@@ -1,6 +1,7 @@
 /** 
  * Creates a source position.
  */
+@Deprecated
 SourcePosition
 createSourcePosition
 (

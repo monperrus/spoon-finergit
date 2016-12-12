@@ -36,12 +36,13 @@ throw
 new
 IllegalStateException
 (
-toDebugString
-(
 element
+.
+toString
+(
 )
 +
-"is set as child of\n"
+" is set as child of\n"
 +
 toDebugString
 (

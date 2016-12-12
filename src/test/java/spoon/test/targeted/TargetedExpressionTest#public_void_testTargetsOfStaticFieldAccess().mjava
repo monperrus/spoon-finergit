@@ -234,7 +234,7 @@ expectedThisAccess
 .
 result
 (
-"spoon.test.targeted.testclasses.Foo.this.k"
+"this.k"
 )
 ,
 elements
@@ -345,7 +345,7 @@ expectedThisAccess
 .
 result
 (
-"spoon.test.targeted.testclasses.Foo.this.k"
+"this.k"
 )
 ,
 elements

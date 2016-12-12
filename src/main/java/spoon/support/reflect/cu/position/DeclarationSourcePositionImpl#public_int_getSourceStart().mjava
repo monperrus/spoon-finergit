@@ -1,0 +1,11 @@
+@Override
+public
+int
+getSourceStart
+(
+)
+{
+return
+declarationSourceStart
+;
+}

@@ -189,8 +189,16 @@ p
 assertEquals
 (
 p
+.
+getSimpleName
+(
+)
 ,
 param
+.
+getSimpleName
+(
+)
 )
 ;
 return

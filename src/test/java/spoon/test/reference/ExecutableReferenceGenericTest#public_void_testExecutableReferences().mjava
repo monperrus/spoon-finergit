@@ -56,7 +56,7 @@ refsExecutableClass1
 =
 Query
 .
-getReferences
+getElements
 (
 classMyClass
 ,
@@ -141,7 +141,7 @@ refsExecutableClass2
 =
 Query
 .
-getReferences
+getElements
 (
 classMyClass2
 ,

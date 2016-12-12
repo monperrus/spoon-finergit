@@ -73,10 +73,9 @@ Type
 STRING
 )
 ;
-assertEquals
-(
-4
-,
+int
+n
+=
 adobada
 .
 getMethods
@@ -85,7 +84,6 @@ getMethods
 .
 size
 (
-)
 )
 ;
 method
@@ -96,7 +94,9 @@ delete
 ;
 assertEquals
 (
-3
+n
+-
+1
 ,
 adobada
 .

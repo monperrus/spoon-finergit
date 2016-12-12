@@ -230,7 +230,7 @@ expectedThisAccess
 .
 result
 (
-"spoon.test.targeted.testclasses.Foo.this.i"
+"this.i"
 )
 ,
 elements

@@ -27,7 +27,13 @@ for
 CtElement
 e
 :
+new
+ArrayList
+<
+>
+(
 elements
+)
 )
 {
 scan

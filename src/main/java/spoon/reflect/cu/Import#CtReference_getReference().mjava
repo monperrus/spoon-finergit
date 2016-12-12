@@ -1,8 +1,0 @@
-/** 
- * Gets the reference of the element that is imported.
- */
-CtReference
-getReference
-(
-)
-;

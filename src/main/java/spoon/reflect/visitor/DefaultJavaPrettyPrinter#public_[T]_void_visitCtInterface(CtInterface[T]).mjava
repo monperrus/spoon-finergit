@@ -107,6 +107,13 @@ removeLastChar
 )
 ;
 }
+context
+.
+pushCurrentThis
+(
+intrface
+)
+;
 printer
 .
 write
@@ -142,6 +149,12 @@ writeTabs
 write
 (
 "}"
+)
+;
+context
+.
+popCurrentThis
+(
 )
 ;
 }

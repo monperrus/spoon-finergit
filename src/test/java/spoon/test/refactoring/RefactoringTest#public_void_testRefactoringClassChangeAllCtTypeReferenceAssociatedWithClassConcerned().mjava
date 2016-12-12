@@ -191,7 +191,7 @@ references
 =
 Query
 .
-getReferences
+getElements
 (
 aClassX
 .

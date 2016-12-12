@@ -25,9 +25,6 @@ final
 List
 <
 CtFieldAccess
-<
-?
->
 >
 elements
 =
@@ -140,7 +137,7 @@ class
 .
 result
 (
-"InnerSubscriber.this.index"
+"this.index"
 )
 ,
 elements
@@ -216,7 +213,7 @@ class
 .
 result
 (
-"InnerSubscriber.this.index"
+"this.index"
 )
 .
 isLocal

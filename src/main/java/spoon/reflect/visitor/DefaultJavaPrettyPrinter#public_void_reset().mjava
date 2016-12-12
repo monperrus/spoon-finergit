@@ -20,4 +20,11 @@ setPrinter
 printer
 )
 ;
+context
+=
+new
+PrintingContext
+(
+)
+;
 }

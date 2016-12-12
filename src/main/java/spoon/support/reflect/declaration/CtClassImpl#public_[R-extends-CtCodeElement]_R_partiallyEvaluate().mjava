@@ -24,10 +24,6 @@ eval
 .
 evaluate
 (
-getParent
-(
-)
-,
 (
 R
 )

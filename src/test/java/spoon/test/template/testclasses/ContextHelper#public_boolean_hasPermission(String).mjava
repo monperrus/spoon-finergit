@@ -1,0 +1,12 @@
+public
+boolean
+hasPermission
+(
+String
+value
+)
+{
+return
+true
+;
+}

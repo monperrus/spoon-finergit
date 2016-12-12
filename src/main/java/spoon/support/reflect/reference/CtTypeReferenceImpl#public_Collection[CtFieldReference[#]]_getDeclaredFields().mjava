@@ -42,10 +42,16 @@ SpoonClassNotFoundException
 cnfe
 )
 {
-return
 handleParentNotFound
 (
 cnfe
+)
+;
+return
+Collections
+.
+emptyList
+(
 )
 ;
 }

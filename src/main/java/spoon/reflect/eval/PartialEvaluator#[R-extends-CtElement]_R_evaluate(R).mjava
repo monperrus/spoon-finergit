@@ -1,0 +1,18 @@
+/** 
+ * Partially evaluates an element and all its sub-elements.
+ * @param < R > the partially evaluated element type
+ * @param element the element to be partially evaluated
+ * @return the result of the partial evaluation
+ */
+<
+R
+extends
+CtElement
+>
+R
+evaluate
+(
+R
+element
+)
+;

@@ -1,0 +1,16 @@
+public
+boolean
+ignoreGenerics
+(
+)
+{
+return
+(
+state
+&
+IGNORE_GENERICS
+)
+!=
+0L
+;
+}

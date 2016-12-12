@@ -859,7 +859,7 @@ assertEquals
 +
 newLine
 +
-"spoon.test.comment.testclasses.InlineComment.this.m()"
+"this.m()"
 ,
 ctInvocation
 .
@@ -1145,7 +1145,7 @@ assertEquals
 +
 newLine
 +
-"synchronized(spoon.test.comment.testclasses.InlineComment.this) {"
+"synchronized(this) {"
 +
 newLine
 +

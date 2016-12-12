@@ -1,4 +1,5 @@
 @Test
+@Ignore
 public
 void
 testResetCollectionInSetters
@@ -145,11 +146,6 @@ candidate
 )
 &&
 avoidInterfaces
-(
-candidate
-)
-&&
-avoidSpecificMethods
 (
 candidate
 )

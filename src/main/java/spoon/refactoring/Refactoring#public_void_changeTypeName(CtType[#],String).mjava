@@ -31,7 +31,7 @@ references
 =
 Query
 .
-getReferences
+getElements
 (
 type
 .
@@ -40,7 +40,7 @@ getFactory
 )
 ,
 new
-AbstractReferenceFilter
+TypeFilter
 <
 CtTypeReference
 <

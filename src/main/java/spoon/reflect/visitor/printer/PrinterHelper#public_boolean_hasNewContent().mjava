@@ -1,0 +1,25 @@
+/** 
+ * returns true if something has been written since the last call to snapshotLength() 
+ */
+public
+boolean
+hasNewContent
+(
+)
+{
+return
+lengths
+.
+pollLast
+(
+)
+<
+toString
+(
+)
+.
+length
+(
+)
+;
+}

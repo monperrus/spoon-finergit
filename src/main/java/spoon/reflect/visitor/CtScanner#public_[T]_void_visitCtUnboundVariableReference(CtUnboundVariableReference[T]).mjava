@@ -18,6 +18,15 @@ enter
 reference
 )
 ;
+scan
+(
+reference
+.
+getType
+(
+)
+)
+;
 exit
 (
 reference

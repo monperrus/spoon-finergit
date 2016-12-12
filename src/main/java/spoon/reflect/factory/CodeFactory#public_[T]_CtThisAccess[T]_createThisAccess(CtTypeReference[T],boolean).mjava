@@ -72,13 +72,6 @@ createTypeAccess
 type
 )
 ;
-typeAccess
-.
-setImplicit
-(
-isImplicit
-)
-;
 thisAccess
 .
 setTarget

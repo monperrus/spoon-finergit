@@ -2,7 +2,6 @@
  * The list of comments
  * @return the list of comment
  */
-@IgnoredByEquals
 List
 <
 CtComment

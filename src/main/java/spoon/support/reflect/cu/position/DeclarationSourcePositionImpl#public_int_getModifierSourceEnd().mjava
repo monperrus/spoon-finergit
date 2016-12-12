@@ -1,0 +1,11 @@
+@Override
+public
+int
+getModifierSourceEnd
+(
+)
+{
+return
+modifierSourceEnd
+;
+}

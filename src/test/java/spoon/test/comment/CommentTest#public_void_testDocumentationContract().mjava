@@ -441,7 +441,7 @@ replace
 '/'
 )
 +
-".html)\n"
+".html)\n\n"
 )
 ;
 codeElementsDocumentationPage
