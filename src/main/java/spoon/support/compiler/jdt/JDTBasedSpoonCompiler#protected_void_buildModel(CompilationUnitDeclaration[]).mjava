@@ -17,7 +17,7 @@ JDTTreeBuilder
 factory
 )
 ;
-units
+unitLoop
 :
 for
 (
@@ -61,7 +61,7 @@ unitPath
 )
 {
 continue
-units
+unitLoop
 ;
 }
 }
