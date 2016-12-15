@@ -34,7 +34,7 @@ getDeclaringType
 null
 )
 {
-addImport
+addClassImport
 (
 reference
 )
@@ -42,7 +42,7 @@ reference
 }
 else
 {
-addImport
+addClassImport
 (
 reference
 .

@@ -39,10 +39,7 @@ class
 ;
 Collection
 <
-CtTypeReference
-<
-?
->
+CtReference
 >
 imports
 =

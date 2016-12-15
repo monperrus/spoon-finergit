@@ -43,13 +43,13 @@ output
 ;
 assertTrue
 (
-"The xx variable is attributed with Launcher.SPOONED_CLASSES"
+"The xx variable should be attributed with SPOONED_CLASSES"
 ,
 result
 .
 contains
 (
-"xx = Launcher.SPOONED_CLASSES"
+"xx = SPOONED_CLASSES"
 )
 )
 ;

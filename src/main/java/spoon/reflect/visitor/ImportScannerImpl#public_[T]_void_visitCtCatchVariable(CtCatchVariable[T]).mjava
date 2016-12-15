@@ -28,7 +28,7 @@ getMultiTypes
 )
 )
 {
-addImport
+addClassImport
 (
 type
 )

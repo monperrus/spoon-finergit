@@ -43,25 +43,25 @@ output
 ;
 assertTrue
 (
-"The java file contain import for Launcher"
+"The java file should contain import for Launcher"
 ,
 result
 .
 contains
 (
-"import spoon.Launcher"
+"import static spoon.Launcher.SPOONED_CLASSES;"
 )
 )
 ;
 assertTrue
 (
-"The x variable is attributed with Launcher.SPOONED_CLASSES"
+"The x variable should be attributed with SPOONED_CLASSES"
 ,
 result
 .
 contains
 (
-"x = Launcher.SPOONED_CLASSES"
+"x = SPOONED_CLASSES"
 )
 )
 ;
@@ -98,7 +98,7 @@ result
 .
 contains
 (
-"spoon.test.variable.testclasses.ForStaticVariables.Map"
+"ForStaticVariables.Map"
 )
 )
 ;

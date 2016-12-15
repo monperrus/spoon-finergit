@@ -1,9 +1,8 @@
-@Override
-public
+private
 boolean
-isImported
+isImportedInMethodImports
 (
-CtTypeReference
+CtExecutableReference
 <
 ?
 >
@@ -21,7 +20,7 @@ isImplicit
 )
 )
 &&
-imports
+methodImports
 .
 containsKey
 (
@@ -33,13 +32,13 @@ getSimpleName
 )
 )
 {
-CtTypeReference
+CtExecutableReference
 <
 ?
 >
 exist
 =
-imports
+methodImports
 .
 get
 (
@@ -54,7 +53,7 @@ if
 (
 exist
 .
-getQualifiedName
+getSignature
 (
 )
 .
@@ -62,7 +61,7 @@ equals
 (
 ref
 .
-getQualifiedName
+getSignature
 (
 )
 )

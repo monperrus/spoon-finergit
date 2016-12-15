@@ -4,10 +4,7 @@
 public
 Collection
 <
-CtTypeReference
-<
-?
->
+CtReference
 >
 computeImports
 (
@@ -27,7 +24,7 @@ type
 return
 importsContext
 .
-computeImports
+computeAllImports
 (
 context
 .

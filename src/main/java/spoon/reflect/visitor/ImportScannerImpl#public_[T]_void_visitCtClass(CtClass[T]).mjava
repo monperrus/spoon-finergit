@@ -13,7 +13,7 @@ T
 ctClass
 )
 {
-addImport
+addClassImport
 (
 ctClass
 .
@@ -47,7 +47,7 @@ CtType
 continue
 ;
 }
-addImport
+addClassImport
 (
 (
 (

@@ -24,10 +24,7 @@ sourceCompilationUnit
 ;
 Set
 <
-CtTypeReference
-<
-?
->
+CtReference
 >
 imports
 =

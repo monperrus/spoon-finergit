@@ -1,5 +1,5 @@
 /** 
- * Computes imports for all elements.
+ * Computes imports for an element.
  */
 @Deprecated
 void

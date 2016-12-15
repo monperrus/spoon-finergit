@@ -43,13 +43,13 @@ output
 ;
 assertTrue
 (
-"The java file contain import for Launcher"
+"The java file should contain import for Launcher"
 ,
 result
 .
 contains
 (
-"import spoon.Launcher"
+"import static spoon.Launcher.SPOONED_CLASSES;"
 )
 )
 ;
@@ -61,7 +61,7 @@ result
 .
 contains
 (
-"xx = Launcher.SPOONED_CLASSES"
+"xx = SPOONED_CLASSES"
 )
 )
 ;

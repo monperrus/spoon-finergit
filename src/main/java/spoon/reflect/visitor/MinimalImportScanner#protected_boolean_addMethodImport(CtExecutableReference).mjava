@@ -1,12 +1,9 @@
 @Override
 protected
 boolean
-addImport
+addMethodImport
 (
-CtTypeReference
-<
-?
->
+CtExecutableReference
 ref
 )
 {
@@ -28,7 +25,7 @@ shouldTypeBeImported
 return
 super
 .
-addImport
+addMethodImport
 (
 ref
 )

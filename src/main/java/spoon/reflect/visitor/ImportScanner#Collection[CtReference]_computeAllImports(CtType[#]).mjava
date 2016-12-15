@@ -1,0 +1,17 @@
+/** 
+ * Computes import of a  {@link spoon.reflect.declaration.CtType}(represent a class).
+ * @return imports computed by Spoon, it can be CtTypeReference (for classes), but also CtFieldReference (static field) or CtExecutableReference (static methods)
+ */
+Collection
+<
+CtReference
+>
+computeAllImports
+(
+CtType
+<
+?
+>
+simpleType
+)
+;
