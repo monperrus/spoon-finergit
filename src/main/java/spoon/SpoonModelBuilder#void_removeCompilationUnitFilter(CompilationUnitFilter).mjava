@@ -1,0 +1,12 @@
+/** 
+ * Removes  {@code filter}. Does nothing, if  {@code filter} has not beenadded beforehand.
+ * @param filter The  {@link CompilationUnitFilter} to remove.
+ */
+void
+removeCompilationUnitFilter
+(
+final
+CompilationUnitFilter
+filter
+)
+;

@@ -1,0 +1,17 @@
+@Override
+public
+void
+removeCompilationUnitFilter
+(
+CompilationUnitFilter
+filter
+)
+{
+compilationUnitFilters
+.
+remove
+(
+filter
+)
+;
+}

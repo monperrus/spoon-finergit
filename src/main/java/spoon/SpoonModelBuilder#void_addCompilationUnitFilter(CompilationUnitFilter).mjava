@@ -1,0 +1,12 @@
+/** 
+ * Adds  {@code filter}.
+ * @param filter The  {@link CompilationUnitFilter} to add.
+ */
+void
+addCompilationUnitFilter
+(
+final
+CompilationUnitFilter
+filter
+)
+;

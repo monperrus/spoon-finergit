@@ -1,0 +1,12 @@
+/** 
+ * Returns a copy of the internal list of  {@link CompilationUnitFilter}s.
+ * @return A copy of the internal list of  {@link CompilationUnitFilter}s.
+ */
+List
+<
+CompilationUnitFilter
+>
+getCompilationUnitFilter
+(
+)
+;
