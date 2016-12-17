@@ -204,6 +204,10 @@ write
 (
 "import static "
 +
+this
+.
+removeInnerTypeSeparator
+(
 execRef
 .
 getDeclaringType
@@ -212,6 +216,7 @@ getDeclaringType
 .
 getQualifiedName
 (
+)
 )
 +
 "."
@@ -257,6 +262,10 @@ write
 (
 "import static "
 +
+this
+.
+removeInnerTypeSeparator
+(
 fieldRef
 .
 getDeclaringType
@@ -265,6 +274,7 @@ getDeclaringType
 .
 getQualifiedName
 (
+)
 )
 +
 "."

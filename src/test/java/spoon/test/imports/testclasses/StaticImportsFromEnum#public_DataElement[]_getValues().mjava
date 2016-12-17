@@ -1,0 +1,16 @@
+public
+DataElement
+[
+]
+getValues
+(
+)
+{
+return
+DataElement
+.
+values
+(
+)
+;
+}
