@@ -31,15 +31,7 @@ ref
 }
 if
 (
-ref
-.
-getDeclaringType
-(
-)
-!=
-null
-&&
-isImportedInClassImports
+declaringTypeIsLocalOrImported
 (
 ref
 .

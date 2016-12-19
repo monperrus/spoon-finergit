@@ -31,6 +31,17 @@ getEnvironment
 (
 )
 .
+setAutoImports
+(
+false
+)
+;
+launcher
+.
+getEnvironment
+(
+)
+.
 setNoClasspath
 (
 true
