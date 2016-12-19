@@ -44,8 +44,6 @@ insertAllSuperInterfaces
 targetType
 ,
 template
-,
-templateClass
 )
 ;
 insertAllMethods
@@ -53,8 +51,6 @@ insertAllMethods
 targetType
 ,
 template
-,
-templateClass
 )
 ;
 insertAllConstructors
@@ -62,8 +58,6 @@ insertAllConstructors
 targetType
 ,
 template
-,
-templateClass
 )
 ;
 for
@@ -119,8 +113,6 @@ template
 CtType
 )
 typeMember
-,
-templateClass
 )
 ;
 }

@@ -66,8 +66,6 @@ CtType
 >
 )
 typeMember
-,
-sourceClass
 )
 ;
 }

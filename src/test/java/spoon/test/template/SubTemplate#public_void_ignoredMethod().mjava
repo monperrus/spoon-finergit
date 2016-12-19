@@ -1,0 +1,8 @@
+@Parameter
+public
+void
+ignoredMethod
+(
+)
+{
+}

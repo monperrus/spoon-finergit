@@ -3,7 +3,6 @@
  * @param targetType the target type
  * @param template the source template
  * @param nestedType to be insterted nested type
- * @param sourceClass the model of source template
  */
 static
 void
@@ -26,14 +25,21 @@ CtType
 ?
 >
 nestedType
-,
+)
+{
 CtClass
 <
 ?
 >
 sourceClass
+=
+getTemplateCtClass
+(
+targetType
+,
+template
 )
-{
+;
 if
 (
 nestedType
