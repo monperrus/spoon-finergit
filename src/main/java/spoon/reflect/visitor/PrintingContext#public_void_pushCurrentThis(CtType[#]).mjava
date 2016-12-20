@@ -11,7 +11,7 @@ type
 {
 currentThis
 .
-add
+push
 (
 new
 TypeContext
