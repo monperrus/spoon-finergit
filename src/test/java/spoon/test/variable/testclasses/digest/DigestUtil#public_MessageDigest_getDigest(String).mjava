@@ -1,0 +1,17 @@
+public
+static
+MessageDigest
+getDigest
+(
+final
+String
+algorithm
+)
+{
+return
+new
+MessageDigest
+(
+)
+;
+}

@@ -1,0 +1,16 @@
+public
+static
+MessageDigest
+getMd5Digest
+(
+)
+{
+return
+getDigest
+(
+MessageDigest
+.
+MD5
+)
+;
+}

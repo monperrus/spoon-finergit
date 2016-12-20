@@ -1,0 +1,16 @@
+public
+static
+MessageDigest
+getMd2Digest
+(
+)
+{
+return
+getDigest
+(
+MessageDigest
+.
+MD2
+)
+;
+}
