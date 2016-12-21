@@ -1,0 +1,26 @@
+/** 
+ * @return list of elements which will be used as input of the query
+ */
+public
+List
+<
+Object
+>
+getInputs
+(
+)
+{
+return
+inputs
+==
+null
+?
+Collections
+.
+emptyList
+(
+)
+:
+inputs
+;
+}

@@ -1,0 +1,10 @@
+private
+boolean
+isLogging
+(
+)
+{
+return
+logging
+;
+}

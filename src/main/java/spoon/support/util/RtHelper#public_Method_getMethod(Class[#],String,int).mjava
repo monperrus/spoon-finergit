@@ -3,17 +3,12 @@
  * @param clazz
  * @param methodName
  * @param numParams
- * @return the types of the parameters of such method or null if not found
+ * @return the found method or null
  */
 public
 static
-Class
-<
-?
->
-[
-]
-getMethodParameterTypes
+Method
+getMethod
 (
 Class
 <
@@ -85,7 +80,7 @@ numParams
 )
 {
 return
-params
+method
 ;
 }
 }

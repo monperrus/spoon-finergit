@@ -1,0 +1,12 @@
+/** 
+ * actually evaluates the query and returns all the produced elements collected in a List
+ * @return the list of elements collected by the query.
+ */
+List
+<
+O
+>
+list
+(
+)
+;
