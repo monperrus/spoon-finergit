@@ -1,0 +1,15 @@
+public
+void
+methodWithTemplatedParameters
+(
+Object
+params
+)
+{
+super
+.
+toBeOverriden
+(
+)
+;
+}
