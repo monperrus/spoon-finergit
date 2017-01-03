@@ -7,6 +7,17 @@ CtCatch
 catchBlock
 )
 {
+elementPrinterHelper
+.
+writeComment
+(
+catchBlock
+,
+CommentOffset
+.
+BEFORE
+)
+;
 printer
 .
 write

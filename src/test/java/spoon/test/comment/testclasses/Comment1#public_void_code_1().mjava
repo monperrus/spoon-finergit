@@ -1,0 +1,17 @@
+public
+void
+code_1
+(
+)
+{
+try
+{
+}
+catch
+(
+Exception
+ex
+)
+{
+}
+}

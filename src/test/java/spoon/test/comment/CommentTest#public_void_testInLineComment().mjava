@@ -70,7 +70,7 @@ class
 ;
 assertEquals
 (
-57
+59
 ,
 comments
 .
@@ -1087,7 +1087,15 @@ newLine
 +
 newLine
 +
-"} catch (java.lang.Exception e) {"
+"}// between"
++
+newLine
++
+"// try/catch"
++
+newLine
++
+" catch (java.lang.Exception e) {"
 +
 newLine
 +
