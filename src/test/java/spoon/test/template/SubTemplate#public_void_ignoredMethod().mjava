@@ -1,4 +1,4 @@
-@Parameter
+@Local
 public
 void
 ignoredMethod
