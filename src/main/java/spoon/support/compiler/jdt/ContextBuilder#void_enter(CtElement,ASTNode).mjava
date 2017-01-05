@@ -64,6 +64,13 @@ if
 compilationunitdeclaration
 !=
 null
+&&
+!
+e
+.
+isImplicit
+(
+)
 )
 {
 e
