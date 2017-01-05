@@ -70,7 +70,7 @@ class
 ;
 assertEquals
 (
-59
+61
 ,
 comments
 .
@@ -220,7 +220,7 @@ getField
 ;
 assertEquals
 (
-2
+3
 ,
 field
 .
@@ -257,6 +257,10 @@ get
 assertEquals
 (
 "// Comment Field"
++
+newLine
++
+"// comment field 2"
 +
 newLine
 +
@@ -1368,6 +1372,27 @@ getStatement
 .
 getDefaultExpression
 (
+)
+;
+assertEquals
+(
+createFakeComment
+(
+f
+,
+"last comment at the end of array"
+)
+,
+ctNewArray
+.
+getComments
+(
+)
+.
+get
+(
+0
+)
 )
 ;
 CtElement
