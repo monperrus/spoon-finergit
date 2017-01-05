@@ -1,0 +1,19 @@
+/** 
+ * @see CodeFactory#createThisAccess(CtTypeReference)
+ */
+<
+T
+>
+CtThisAccess
+<
+T
+>
+createThisAccess
+(
+CtTypeReference
+<
+T
+>
+type
+)
+;

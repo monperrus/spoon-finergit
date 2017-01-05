@@ -1,0 +1,17 @@
+@Override
+public
+CtTypeParameterReference
+createTypeParameterReference
+(
+)
+{
+return
+Core
+(
+)
+.
+createTypeParameterReference
+(
+)
+;
+}

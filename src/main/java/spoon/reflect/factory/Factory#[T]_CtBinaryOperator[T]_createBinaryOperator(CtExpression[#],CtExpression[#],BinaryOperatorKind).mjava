@@ -1,0 +1,28 @@
+/** 
+ * @see CodeFactory#createBinaryOperator(CtExpression,CtExpression,BinaryOperatorKind)
+ */
+<
+T
+>
+CtBinaryOperator
+<
+T
+>
+createBinaryOperator
+(
+CtExpression
+<
+?
+>
+left
+,
+CtExpression
+<
+?
+>
+right
+,
+BinaryOperatorKind
+kind
+)
+;

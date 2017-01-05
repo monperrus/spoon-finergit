@@ -1,0 +1,19 @@
+/** 
+ * @see CodeFactory#createCtTypeReference(Class)
+ */
+<
+T
+>
+CtTypeReference
+<
+T
+>
+createCtTypeReference
+(
+Class
+<
+?
+>
+originalClass
+)
+;

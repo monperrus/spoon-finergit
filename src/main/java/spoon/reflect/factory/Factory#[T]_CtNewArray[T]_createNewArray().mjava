@@ -1,0 +1,14 @@
+/** 
+ * @see CoreFactory#createNewArray()
+ */
+<
+T
+>
+CtNewArray
+<
+T
+>
+createNewArray
+(
+)
+;

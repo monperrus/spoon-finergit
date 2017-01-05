@@ -1,0 +1,14 @@
+/** 
+ * @see CoreFactory#createAnnotationFieldAccess()
+ */
+<
+T
+>
+CtAnnotationFieldAccess
+<
+T
+>
+createAnnotationFieldAccess
+(
+)
+;

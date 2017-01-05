@@ -1,0 +1,8 @@
+/** 
+ * @see CoreFactory#createBreak()
+ */
+CtBreak
+createBreak
+(
+)
+;

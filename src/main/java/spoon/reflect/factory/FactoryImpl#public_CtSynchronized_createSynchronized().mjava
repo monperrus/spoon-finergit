@@ -1,0 +1,17 @@
+@Override
+public
+CtSynchronized
+createSynchronized
+(
+)
+{
+return
+Core
+(
+)
+.
+createSynchronized
+(
+)
+;
+}

@@ -1,0 +1,14 @@
+/** 
+ * @see CoreFactory#createLambda()
+ */
+<
+T
+>
+CtLambda
+<
+T
+>
+createLambda
+(
+)
+;

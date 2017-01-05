@@ -1,0 +1,10 @@
+/** 
+ * @see CodeFactory#createCtThrow(String)
+ */
+CtThrow
+createCtThrow
+(
+String
+thrownExp
+)
+;

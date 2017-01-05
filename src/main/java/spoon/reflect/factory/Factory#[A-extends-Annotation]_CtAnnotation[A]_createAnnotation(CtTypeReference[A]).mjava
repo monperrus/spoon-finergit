@@ -1,0 +1,21 @@
+/** 
+ * @see CodeFactory#createAnnotation(CtTypeReference)
+ */
+<
+A
+extends
+Annotation
+>
+CtAnnotation
+<
+A
+>
+createAnnotation
+(
+CtTypeReference
+<
+A
+>
+annotationType
+)
+;

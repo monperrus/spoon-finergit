@@ -1,0 +1,17 @@
+@Override
+public
+CtForEach
+createForEach
+(
+)
+{
+return
+Core
+(
+)
+.
+createForEach
+(
+)
+;
+}

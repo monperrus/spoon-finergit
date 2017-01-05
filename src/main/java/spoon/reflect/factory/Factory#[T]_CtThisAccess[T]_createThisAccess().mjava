@@ -1,0 +1,14 @@
+/** 
+ * @see CoreFactory#createThisAccess()
+ */
+<
+T
+>
+CtThisAccess
+<
+T
+>
+createThisAccess
+(
+)
+;

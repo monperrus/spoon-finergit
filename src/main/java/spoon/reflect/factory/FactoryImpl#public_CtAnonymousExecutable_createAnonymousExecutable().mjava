@@ -1,0 +1,17 @@
+@Override
+public
+CtAnonymousExecutable
+createAnonymousExecutable
+(
+)
+{
+return
+Core
+(
+)
+.
+createAnonymousExecutable
+(
+)
+;
+}

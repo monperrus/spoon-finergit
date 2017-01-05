@@ -1,0 +1,32 @@
+/** 
+ * @see CodeFactory#createNewClass(CtTypeReference,CtClass,CtExpression[])
+ */
+<
+T
+>
+CtNewClass
+<
+T
+>
+createNewClass
+(
+CtTypeReference
+<
+T
+>
+type
+,
+CtClass
+<
+?
+>
+anonymousClass
+,
+CtExpression
+<
+?
+>
+...
+parameters
+)
+;

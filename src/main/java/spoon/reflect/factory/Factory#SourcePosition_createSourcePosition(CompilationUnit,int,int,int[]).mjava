@@ -1,0 +1,21 @@
+/** 
+ * @see CoreFactory#createSourcePosition(CompilationUnit,int,int,int[])
+ */
+SourcePosition
+createSourcePosition
+(
+CompilationUnit
+compilationUnit
+,
+int
+startSource
+,
+int
+end
+,
+int
+[
+]
+lineSeparatorPositions
+)
+;

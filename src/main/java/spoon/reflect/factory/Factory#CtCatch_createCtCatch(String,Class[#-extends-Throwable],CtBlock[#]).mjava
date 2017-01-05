@@ -1,0 +1,23 @@
+/** 
+ * @see CodeFactory#createCtCatch(String,Class,CtBlock)
+ */
+CtCatch
+createCtCatch
+(
+String
+nameCatch
+,
+Class
+<
+?
+Throwable
+>
+exception
+,
+CtBlock
+<
+?
+>
+ctBlock
+)
+;

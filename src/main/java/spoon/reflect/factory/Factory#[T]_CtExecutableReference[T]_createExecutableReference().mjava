@@ -1,0 +1,14 @@
+/** 
+ * @see CoreFactory#createExecutableReference()
+ */
+<
+T
+>
+CtExecutableReference
+<
+T
+>
+createExecutableReference
+(
+)
+;

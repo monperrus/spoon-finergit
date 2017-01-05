@@ -1,0 +1,22 @@
+/** 
+ * @see CodeFactory#createTypeAccess(CtTypeReference,boolean)
+ */
+<
+T
+>
+CtTypeAccess
+<
+T
+>
+createTypeAccess
+(
+CtTypeReference
+<
+T
+>
+accessedType
+,
+boolean
+isImplicit
+)
+;

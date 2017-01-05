@@ -1,0 +1,19 @@
+/** 
+ * @see ExecutableFactory#createAnonymous(CtClass,CtBlock)
+ */
+CtAnonymousExecutable
+createAnonymous
+(
+CtClass
+<
+?
+>
+target
+,
+CtBlock
+<
+Void
+>
+body
+)
+;

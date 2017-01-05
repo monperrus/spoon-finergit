@@ -1,0 +1,22 @@
+/** 
+ * @see TypeFactory#createIntersectionTypeReferenceWithBounds(List)
+ */
+<
+T
+>
+CtIntersectionTypeReference
+<
+T
+>
+createIntersectionTypeReferenceWithBounds
+(
+List
+<
+CtTypeReference
+<
+?
+>
+>
+bounds
+)
+;

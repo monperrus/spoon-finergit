@@ -1,0 +1,14 @@
+/** 
+ * @see CoreFactory#createField()
+ */
+<
+T
+>
+CtField
+<
+T
+>
+createField
+(
+)
+;

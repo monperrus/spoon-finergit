@@ -1,0 +1,10 @@
+/** 
+ * @see TypeFactory#createTypeParameterReference(String)
+ */
+CtTypeParameterReference
+createTypeParameterReference
+(
+String
+name
+)
+;

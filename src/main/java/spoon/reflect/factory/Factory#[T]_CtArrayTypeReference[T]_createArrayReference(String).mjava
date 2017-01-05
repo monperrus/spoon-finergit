@@ -1,0 +1,16 @@
+/** 
+ * @see TypeFactory#createArrayReference(String)
+ */
+<
+T
+>
+CtArrayTypeReference
+<
+T
+>
+createArrayReference
+(
+String
+qualifiedName
+)
+;

@@ -1,0 +1,23 @@
+/** 
+ * @see CodeFactory#createVariableReads(List)
+ */
+List
+<
+CtExpression
+<
+?
+>
+>
+createVariableReads
+(
+List
+<
+?
+CtVariable
+<
+?
+>
+>
+variables
+)
+;

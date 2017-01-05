@@ -1,0 +1,17 @@
+@Override
+public
+CtCatch
+createCatch
+(
+)
+{
+return
+Core
+(
+)
+.
+createCatch
+(
+)
+;
+}

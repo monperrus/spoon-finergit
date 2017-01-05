@@ -1,0 +1,21 @@
+/** 
+ * @see TypeFactory#createArrayReference(CtTypeReference)
+ */
+<
+T
+>
+CtArrayTypeReference
+<
+T
+[
+]
+>
+createArrayReference
+(
+CtTypeReference
+<
+T
+>
+reference
+)
+;

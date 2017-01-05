@@ -1,0 +1,19 @@
+/** 
+ * @see CoreFactory#createEnum()
+ */
+<
+T
+extends
+Enum
+<
+?
+>
+>
+CtEnum
+<
+T
+>
+createEnum
+(
+)
+;

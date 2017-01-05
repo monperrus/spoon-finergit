@@ -1,0 +1,14 @@
+/** 
+ * @see CoreFactory#createLocalVariableReference()
+ */
+<
+T
+>
+CtLocalVariableReference
+<
+T
+>
+createLocalVariableReference
+(
+)
+;

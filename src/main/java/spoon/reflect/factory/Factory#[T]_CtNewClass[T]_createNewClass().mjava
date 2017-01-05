@@ -1,0 +1,14 @@
+/** 
+ * @see CoreFactory#createNewClass()
+ */
+<
+T
+>
+CtNewClass
+<
+T
+>
+createNewClass
+(
+)
+;

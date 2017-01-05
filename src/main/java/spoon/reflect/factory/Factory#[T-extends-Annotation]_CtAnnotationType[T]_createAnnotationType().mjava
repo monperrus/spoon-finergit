@@ -1,0 +1,16 @@
+/** 
+ * @see CoreFactory#createAnnotationType()
+ */
+<
+T
+extends
+Annotation
+>
+CtAnnotationType
+<
+T
+>
+createAnnotationType
+(
+)
+;

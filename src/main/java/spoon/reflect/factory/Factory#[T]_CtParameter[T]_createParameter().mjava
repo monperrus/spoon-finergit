@@ -1,0 +1,14 @@
+/** 
+ * @see CoreFactory#createParameter()
+ */
+<
+T
+>
+CtParameter
+<
+T
+>
+createParameter
+(
+)
+;

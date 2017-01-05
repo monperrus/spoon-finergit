@@ -1,0 +1,17 @@
+@Override
+public
+CtBreak
+createBreak
+(
+)
+{
+return
+Core
+(
+)
+.
+createBreak
+(
+)
+;
+}

@@ -1,0 +1,32 @@
+/** 
+ * @see CodeFactory#createInvocation(CtExpression,CtExecutableReference,CtExpression[])
+ */
+<
+T
+>
+CtInvocation
+<
+T
+>
+createInvocation
+(
+CtExpression
+<
+?
+>
+target
+,
+CtExecutableReference
+<
+T
+>
+executable
+,
+CtExpression
+<
+?
+>
+...
+arguments
+)
+;

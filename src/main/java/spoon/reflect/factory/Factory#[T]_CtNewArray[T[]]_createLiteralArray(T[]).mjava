@@ -1,0 +1,21 @@
+/** 
+ * @see CodeFactory#createLiteralArray(T[])
+ */
+@SuppressWarnings(value="unchecked")
+<
+T
+>
+CtNewArray
+<
+T
+[
+]
+>
+createLiteralArray
+(
+T
+[
+]
+value
+)
+;

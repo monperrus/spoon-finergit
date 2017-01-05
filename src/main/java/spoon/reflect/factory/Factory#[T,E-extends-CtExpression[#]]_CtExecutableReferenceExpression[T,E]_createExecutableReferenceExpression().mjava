@@ -1,0 +1,23 @@
+/** 
+ * @see CoreFactory#createExecutableReferenceExpression()
+ */
+<
+T
+,
+E
+extends
+CtExpression
+<
+?
+>
+>
+CtExecutableReferenceExpression
+<
+T
+,
+E
+>
+createExecutableReferenceExpression
+(
+)
+;

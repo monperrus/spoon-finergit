@@ -1,0 +1,17 @@
+@Override
+public
+CtFor
+createFor
+(
+)
+{
+return
+Core
+(
+)
+.
+createFor
+(
+)
+;
+}

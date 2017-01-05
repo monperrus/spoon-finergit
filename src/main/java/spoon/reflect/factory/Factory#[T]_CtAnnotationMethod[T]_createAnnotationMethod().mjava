@@ -1,0 +1,14 @@
+/** 
+ * @see CoreFactory#createAnnotationMethod()
+ */
+<
+T
+>
+CtAnnotationMethod
+<
+T
+>
+createAnnotationMethod
+(
+)
+;

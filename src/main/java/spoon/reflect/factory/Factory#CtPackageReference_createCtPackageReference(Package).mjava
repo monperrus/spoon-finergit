@@ -1,0 +1,10 @@
+/** 
+ * @see CodeFactory#createCtPackageReference(Package)
+ */
+CtPackageReference
+createCtPackageReference
+(
+Package
+originalPackage
+)
+;

@@ -1,0 +1,19 @@
+/** 
+ * @see CodeFactory#createTypeAccessWithoutCloningReference(CtTypeReference)
+ */
+<
+T
+>
+CtTypeAccess
+<
+T
+>
+createTypeAccessWithoutCloningReference
+(
+CtTypeReference
+<
+T
+>
+accessedType
+)
+;

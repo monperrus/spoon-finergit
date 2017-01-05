@@ -1,0 +1,14 @@
+/** 
+ * @see CoreFactory#createArrayWrite()
+ */
+<
+T
+>
+CtArrayWrite
+<
+T
+>
+createArrayWrite
+(
+)
+;

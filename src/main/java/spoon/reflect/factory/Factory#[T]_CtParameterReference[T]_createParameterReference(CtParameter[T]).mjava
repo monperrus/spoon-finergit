@@ -1,0 +1,19 @@
+/** 
+ * @see ExecutableFactory#createParameterReference(CtParameter)
+ */
+<
+T
+>
+CtParameterReference
+<
+T
+>
+createParameterReference
+(
+CtParameter
+<
+T
+>
+parameter
+)
+;

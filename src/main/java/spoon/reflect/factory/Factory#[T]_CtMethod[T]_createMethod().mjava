@@ -1,0 +1,14 @@
+/** 
+ * @see CoreFactory#createMethod()
+ */
+<
+T
+>
+CtMethod
+<
+T
+>
+createMethod
+(
+)
+;

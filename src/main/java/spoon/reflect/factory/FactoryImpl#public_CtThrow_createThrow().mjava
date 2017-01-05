@@ -1,0 +1,17 @@
+@Override
+public
+CtThrow
+createThrow
+(
+)
+{
+return
+Core
+(
+)
+.
+createThrow
+(
+)
+;
+}

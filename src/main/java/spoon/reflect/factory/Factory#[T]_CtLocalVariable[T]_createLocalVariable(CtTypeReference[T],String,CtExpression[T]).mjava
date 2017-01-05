@@ -1,0 +1,28 @@
+/** 
+ * @see CodeFactory#createLocalVariable(CtTypeReference,String,CtExpression)
+ */
+<
+T
+>
+CtLocalVariable
+<
+T
+>
+createLocalVariable
+(
+CtTypeReference
+<
+T
+>
+type
+,
+String
+name
+,
+CtExpression
+<
+T
+>
+defaultExpression
+)
+;

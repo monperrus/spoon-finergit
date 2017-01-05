@@ -1,0 +1,17 @@
+@Override
+public
+CtTryWithResource
+createTryWithResource
+(
+)
+{
+return
+Core
+(
+)
+.
+createTryWithResource
+(
+)
+;
+}

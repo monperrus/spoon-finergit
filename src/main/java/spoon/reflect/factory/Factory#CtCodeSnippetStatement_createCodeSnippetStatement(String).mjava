@@ -1,0 +1,10 @@
+/** 
+ * @see CodeFactory#createCodeSnippetStatement(String)
+ */
+CtCodeSnippetStatement
+createCodeSnippetStatement
+(
+String
+statement
+)
+;

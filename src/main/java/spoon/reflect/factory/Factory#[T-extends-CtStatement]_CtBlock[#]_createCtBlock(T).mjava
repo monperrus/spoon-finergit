@@ -1,0 +1,18 @@
+/** 
+ * @see CodeFactory#createCtBlock(T)
+ */
+<
+T
+extends
+CtStatement
+>
+CtBlock
+<
+?
+>
+createCtBlock
+(
+T
+element
+)
+;

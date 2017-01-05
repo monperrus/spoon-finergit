@@ -1,0 +1,14 @@
+/** 
+ * @see CoreFactory#createArrayTypeReference()
+ */
+<
+T
+>
+CtArrayTypeReference
+<
+T
+>
+createArrayTypeReference
+(
+)
+;

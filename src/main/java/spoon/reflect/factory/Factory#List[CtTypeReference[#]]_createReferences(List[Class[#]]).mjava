@@ -1,0 +1,22 @@
+/** 
+ * @see TypeFactory#createReferences(List)
+ */
+List
+<
+CtTypeReference
+<
+?
+>
+>
+createReferences
+(
+List
+<
+Class
+<
+?
+>
+>
+classes
+)
+;

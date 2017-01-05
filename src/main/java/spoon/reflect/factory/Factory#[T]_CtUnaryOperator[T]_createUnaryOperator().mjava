@@ -1,0 +1,14 @@
+/** 
+ * @see CoreFactory#createUnaryOperator()
+ */
+<
+T
+>
+CtUnaryOperator
+<
+T
+>
+createUnaryOperator
+(
+)
+;

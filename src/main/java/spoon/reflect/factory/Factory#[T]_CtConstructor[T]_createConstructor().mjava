@@ -1,0 +1,14 @@
+/** 
+ * @see CoreFactory#createConstructor()
+ */
+<
+T
+>
+CtConstructor
+<
+T
+>
+createConstructor
+(
+)
+;

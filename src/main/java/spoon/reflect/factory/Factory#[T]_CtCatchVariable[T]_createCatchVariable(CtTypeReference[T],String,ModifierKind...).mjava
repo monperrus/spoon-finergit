@@ -1,0 +1,26 @@
+/** 
+ * @see CodeFactory#createCatchVariable(CtTypeReference,String,ModifierKind[])
+ */
+<
+T
+>
+CtCatchVariable
+<
+T
+>
+createCatchVariable
+(
+CtTypeReference
+<
+T
+>
+type
+,
+String
+name
+,
+ModifierKind
+...
+modifierKinds
+)
+;

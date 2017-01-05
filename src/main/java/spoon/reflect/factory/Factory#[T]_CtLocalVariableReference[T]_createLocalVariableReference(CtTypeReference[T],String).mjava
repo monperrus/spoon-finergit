@@ -1,0 +1,22 @@
+/** 
+ * @see CodeFactory#createLocalVariableReference(CtTypeReference,String)
+ */
+<
+T
+>
+CtLocalVariableReference
+<
+T
+>
+createLocalVariableReference
+(
+CtTypeReference
+<
+T
+>
+type
+,
+String
+name
+)
+;

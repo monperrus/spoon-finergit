@@ -1,0 +1,16 @@
+/** 
+ * @see CodeFactory#createCodeSnippetExpression(String)
+ */
+<
+T
+>
+CtCodeSnippetExpression
+<
+T
+>
+createCodeSnippetExpression
+(
+String
+expression
+)
+;

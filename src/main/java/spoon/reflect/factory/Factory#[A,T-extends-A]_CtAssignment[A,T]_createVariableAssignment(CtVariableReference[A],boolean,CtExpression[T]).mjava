@@ -1,0 +1,34 @@
+/** 
+ * @see CodeFactory#createVariableAssignment(CtVariableReference,boolean,CtExpression)
+ */
+<
+A
+,
+T
+extends
+A
+>
+CtAssignment
+<
+A
+,
+T
+>
+createVariableAssignment
+(
+CtVariableReference
+<
+A
+>
+variable
+,
+boolean
+isStatic
+,
+CtExpression
+<
+T
+>
+expression
+)
+;

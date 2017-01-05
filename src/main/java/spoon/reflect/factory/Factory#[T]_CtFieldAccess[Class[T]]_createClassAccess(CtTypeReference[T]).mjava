@@ -1,0 +1,22 @@
+/** 
+ * @see CodeFactory#createClassAccess(CtTypeReference)
+ */
+<
+T
+>
+CtFieldAccess
+<
+Class
+<
+T
+>
+>
+createClassAccess
+(
+CtTypeReference
+<
+T
+>
+type
+)
+;

@@ -1,0 +1,17 @@
+@Override
+public
+CtComment
+createComment
+(
+)
+{
+return
+Core
+(
+)
+.
+createComment
+(
+)
+;
+}

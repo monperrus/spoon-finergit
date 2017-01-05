@@ -1,0 +1,14 @@
+/** 
+ * @see CoreFactory#createConditional()
+ */
+<
+T
+>
+CtConditional
+<
+T
+>
+createConditional
+(
+)
+;

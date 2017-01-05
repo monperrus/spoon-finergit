@@ -1,0 +1,17 @@
+@Override
+public
+CtTry
+createTry
+(
+)
+{
+return
+Core
+(
+)
+.
+createTry
+(
+)
+;
+}

@@ -1,0 +1,17 @@
+@Override
+public
+PartialEvaluator
+createPartialEvaluator
+(
+)
+{
+return
+Eval
+(
+)
+.
+createPartialEvaluator
+(
+)
+;
+}

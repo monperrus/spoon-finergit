@@ -1,0 +1,17 @@
+@Override
+public
+CtCodeSnippetStatement
+createCodeSnippetStatement
+(
+)
+{
+return
+Core
+(
+)
+.
+createCodeSnippetStatement
+(
+)
+;
+}

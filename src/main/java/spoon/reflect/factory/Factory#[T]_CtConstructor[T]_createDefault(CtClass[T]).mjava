@@ -1,0 +1,19 @@
+/** 
+ * @see ConstructorFactory#createDefault(CtClass)
+ */
+<
+T
+>
+CtConstructor
+<
+T
+>
+createDefault
+(
+CtClass
+<
+T
+>
+target
+)
+;

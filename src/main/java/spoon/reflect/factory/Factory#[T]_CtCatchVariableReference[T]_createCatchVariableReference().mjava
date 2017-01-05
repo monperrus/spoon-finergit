@@ -1,0 +1,14 @@
+/** 
+ * @see CoreFactory#createCatchVariableReference()
+ */
+<
+T
+>
+CtCatchVariableReference
+<
+T
+>
+createCatchVariableReference
+(
+)
+;

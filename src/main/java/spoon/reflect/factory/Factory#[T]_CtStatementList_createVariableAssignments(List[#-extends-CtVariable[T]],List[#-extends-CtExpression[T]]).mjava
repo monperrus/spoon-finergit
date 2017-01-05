@@ -1,0 +1,30 @@
+/** 
+ * @see CodeFactory#createVariableAssignments(List,List)
+ */
+<
+T
+>
+CtStatementList
+createVariableAssignments
+(
+List
+<
+?
+CtVariable
+<
+T
+>
+>
+variables
+,
+List
+<
+?
+CtExpression
+<
+T
+>
+>
+expressions
+)
+;

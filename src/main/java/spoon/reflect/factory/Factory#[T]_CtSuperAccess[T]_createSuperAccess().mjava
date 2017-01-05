@@ -1,0 +1,14 @@
+/** 
+ * @see CoreFactory#createSuperAccess()
+ */
+<
+T
+>
+CtSuperAccess
+<
+T
+>
+createSuperAccess
+(
+)
+;

@@ -1,0 +1,8 @@
+/** 
+ * @see CoreFactory#createAnonymousExecutable()
+ */
+CtAnonymousExecutable
+createAnonymousExecutable
+(
+)
+;

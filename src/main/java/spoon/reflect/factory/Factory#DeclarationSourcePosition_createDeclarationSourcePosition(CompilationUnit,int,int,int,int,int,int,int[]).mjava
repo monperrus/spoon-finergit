@@ -1,0 +1,33 @@
+/** 
+ * @see CoreFactory#createDeclarationSourcePosition(CompilationUnit,int,int,int,int,int,int,int[])
+ */
+DeclarationSourcePosition
+createDeclarationSourcePosition
+(
+CompilationUnit
+compilationUnit
+,
+int
+startSource
+,
+int
+end
+,
+int
+modifierStart
+,
+int
+modifierEnd
+,
+int
+declarationStart
+,
+int
+declarationEnd
+,
+int
+[
+]
+lineSeparatorPositions
+)
+;

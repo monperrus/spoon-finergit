@@ -1,0 +1,19 @@
+/** 
+ * @see CodeFactory#createLocalVariableReference(CtLocalVariable)
+ */
+<
+T
+>
+CtLocalVariableReference
+<
+T
+>
+createLocalVariableReference
+(
+CtLocalVariable
+<
+T
+>
+localVariable
+)
+;

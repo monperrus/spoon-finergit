@@ -1,0 +1,8 @@
+/** 
+ * @see CoreFactory#createDo()
+ */
+CtDo
+createDo
+(
+)
+;

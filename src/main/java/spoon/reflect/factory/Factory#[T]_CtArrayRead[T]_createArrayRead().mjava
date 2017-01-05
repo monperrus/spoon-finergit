@@ -1,0 +1,14 @@
+/** 
+ * @see CoreFactory#createArrayRead()
+ */
+<
+T
+>
+CtArrayRead
+<
+T
+>
+createArrayRead
+(
+)
+;

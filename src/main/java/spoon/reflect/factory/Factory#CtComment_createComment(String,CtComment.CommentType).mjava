@@ -1,0 +1,15 @@
+/** 
+ * @see CodeFactory#createComment(String,CtComment.CommentType)
+ */
+CtComment
+createComment
+(
+String
+content
+,
+CtComment
+.
+CommentType
+type
+)
+;

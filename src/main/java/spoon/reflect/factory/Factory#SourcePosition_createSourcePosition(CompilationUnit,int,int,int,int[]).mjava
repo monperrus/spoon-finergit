@@ -1,0 +1,25 @@
+/** 
+ * @see CoreFactory#createSourcePosition(CompilationUnit,int,int,int,int[])
+ */
+@Deprecated
+SourcePosition
+createSourcePosition
+(
+CompilationUnit
+compilationUnit
+,
+int
+startDeclaration
+,
+int
+startSource
+,
+int
+end
+,
+int
+[
+]
+lineSeparatorPositions
+)
+;

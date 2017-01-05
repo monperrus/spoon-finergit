@@ -1,0 +1,19 @@
+/** 
+ * @see CodeFactory#createCatchVariableReference(CtCatchVariable)
+ */
+<
+T
+>
+CtCatchVariableReference
+<
+T
+>
+createCatchVariableReference
+(
+CtCatchVariable
+<
+T
+>
+catchVariable
+)
+;

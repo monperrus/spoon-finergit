@@ -1,0 +1,22 @@
+/** 
+ * @see CodeFactory#createVariableRead(CtVariableReference,boolean)
+ */
+<
+T
+>
+CtVariableAccess
+<
+T
+>
+createVariableRead
+(
+CtVariableReference
+<
+T
+>
+variable
+,
+boolean
+isStatic
+)
+;

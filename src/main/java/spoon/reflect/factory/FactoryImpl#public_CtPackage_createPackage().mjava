@@ -1,0 +1,17 @@
+@Override
+public
+CtPackage
+createPackage
+(
+)
+{
+return
+Core
+(
+)
+.
+createPackage
+(
+)
+;
+}

@@ -1,0 +1,20 @@
+/** 
+ * @see CoreFactory#createAssignment()
+ */
+<
+T
+,
+A
+extends
+T
+>
+CtAssignment
+<
+T
+,
+A
+>
+createAssignment
+(
+)
+;

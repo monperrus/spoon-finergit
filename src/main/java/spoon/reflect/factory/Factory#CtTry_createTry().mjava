@@ -1,0 +1,8 @@
+/** 
+ * @see CoreFactory#createTry()
+ */
+CtTry
+createTry
+(
+)
+;

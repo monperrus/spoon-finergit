@@ -1,0 +1,8 @@
+/** 
+ * @see CoreFactory#createWildcardReference()
+ */
+CtWildcardReference
+createWildcardReference
+(
+)
+;

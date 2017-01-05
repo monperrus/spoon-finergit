@@ -1,0 +1,17 @@
+@Override
+public
+CtContinue
+createContinue
+(
+)
+{
+return
+Core
+(
+)
+.
+createContinue
+(
+)
+;
+}

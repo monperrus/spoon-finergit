@@ -1,0 +1,14 @@
+/** 
+ * @see CoreFactory#createFieldReference()
+ */
+<
+T
+>
+CtFieldReference
+<
+T
+>
+createFieldReference
+(
+)
+;

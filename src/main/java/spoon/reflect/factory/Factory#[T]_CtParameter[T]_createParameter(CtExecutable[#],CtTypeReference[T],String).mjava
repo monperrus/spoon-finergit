@@ -1,0 +1,28 @@
+/** 
+ * @see ExecutableFactory#createParameter(CtExecutable,CtTypeReference,String)
+ */
+<
+T
+>
+CtParameter
+<
+T
+>
+createParameter
+(
+CtExecutable
+<
+?
+>
+parent
+,
+CtTypeReference
+<
+T
+>
+type
+,
+String
+name
+)
+;

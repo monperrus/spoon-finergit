@@ -1,0 +1,8 @@
+/** 
+ * @see CoreFactory#createContinue()
+ */
+CtContinue
+createContinue
+(
+)
+;

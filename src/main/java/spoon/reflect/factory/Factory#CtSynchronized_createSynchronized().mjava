@@ -1,0 +1,8 @@
+/** 
+ * @see CoreFactory#createSynchronized()
+ */
+CtSynchronized
+createSynchronized
+(
+)
+;

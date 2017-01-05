@@ -1,0 +1,17 @@
+@Override
+public
+CtWildcardReference
+createWildcardReference
+(
+)
+{
+return
+Core
+(
+)
+.
+createWildcardReference
+(
+)
+;
+}

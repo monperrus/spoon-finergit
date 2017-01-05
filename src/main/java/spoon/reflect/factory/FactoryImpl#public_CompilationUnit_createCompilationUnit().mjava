@@ -1,0 +1,17 @@
+@Override
+public
+CompilationUnit
+createCompilationUnit
+(
+)
+{
+return
+Core
+(
+)
+.
+createCompilationUnit
+(
+)
+;
+}
