@@ -203,12 +203,6 @@ instance
 findParameterMatcher
 (
 named
-,
-named
-.
-getSimpleName
-(
-)
 )
 ;
 return

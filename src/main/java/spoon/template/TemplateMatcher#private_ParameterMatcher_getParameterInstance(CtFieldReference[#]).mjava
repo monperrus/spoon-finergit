@@ -1,3 +1,6 @@
+/** 
+ * returns a specific ParameterMatcher corresponding to the field acting as template parameter 
+ */
 private
 ParameterMatcher
 getParameterInstance
@@ -13,6 +16,20 @@ InstantiationException
 ,
 IllegalAccessException
 {
+if
+(
+param
+==
+null
+)
+{
+return
+new
+DefaultParameterMatcher
+(
+)
+;
+}
 Parameter
 anParam
 =

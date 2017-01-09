@@ -4,9 +4,14 @@
  * @return the matched elements
  */
 public
+<
+T
+extends
+CtElement
+>
 List
 <
-CtElement
+T
 >
 find
 (
@@ -118,6 +123,12 @@ templateRoot
 ;
 }
 return
+(
+List
+<
+T
+>
+)
 finds
 ;
 }

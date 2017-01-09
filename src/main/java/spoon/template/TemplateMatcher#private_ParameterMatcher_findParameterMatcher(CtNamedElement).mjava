@@ -1,12 +1,12 @@
+/** 
+ * returns an appropriate ParameterMatcher defined in a template parameter, or else a default one if a template parameter (field annotated with @Parameter) whose name (field name) is a substring of the template name, it also works
+ */
 private
 ParameterMatcher
 findParameterMatcher
 (
-CtElement
-declaration
-,
-String
-name
+CtNamedElement
+templateDeclaration
 )
 throws
 InstantiationException
@@ -15,7 +15,7 @@ IllegalAccessException
 {
 if
 (
-declaration
+templateDeclaration
 ==
 null
 )
@@ -27,6 +27,15 @@ DefaultParameterMatcher
 )
 ;
 }
+String
+name
+=
+templateDeclaration
+.
+getSimpleName
+(
+)
+;
 CtClass
 <
 ?
@@ -39,7 +48,7 @@ try
 {
 clazz
 =
-declaration
+templateDeclaration
 .
 getParent
 (
@@ -160,9 +169,13 @@ value
 ;
 if
 (
-proxy
-!=
+!
 ""
+.
+equals
+(
+proxy
+)
 )
 {
 if
@@ -204,31 +217,6 @@ fieldRef
 break
 ;
 }
-}
-if
-(
-param
-==
-null
-)
-{
-throw
-new
-IllegalStateException
-(
-"Parameter not defined "
-+
-name
-+
-"at "
-+
-declaration
-.
-getPosition
-(
-)
-)
-;
 }
 return
 getParameterInstance
