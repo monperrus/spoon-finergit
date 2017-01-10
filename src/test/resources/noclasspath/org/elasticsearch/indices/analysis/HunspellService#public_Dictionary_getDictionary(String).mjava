@@ -1,0 +1,45 @@
+/** 
+ * Returns the hunspell dictionary for the given locale.
+ * @param locale The name of the locale
+ */
+public
+Dictionary
+getDictionary
+(
+String
+locale
+)
+{
+Dictionary
+dictionary
+=
+knownDictionaries
+.
+get
+(
+locale
+)
+;
+if
+(
+dictionary
+==
+null
+)
+{
+dictionary
+=
+dictionaries
+.
+computeIfAbsent
+(
+locale
+,
+loadingFunction
+)
+;
+}
+return
+dictionary
+;
+}
