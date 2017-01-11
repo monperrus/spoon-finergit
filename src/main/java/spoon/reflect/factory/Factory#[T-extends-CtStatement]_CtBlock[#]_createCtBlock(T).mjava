@@ -1,5 +1,5 @@
 /** 
- * @see CodeFactory#createCtBlock(T)
+ * @see CodeFactory#createCtBlock(CtStatement)
  */
 <
 T

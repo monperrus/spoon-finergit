@@ -1,5 +1,5 @@
 /** 
- * @see CodeFactory#createLiteralArray(T[])
+ * @see CodeFactory#createLiteralArray(Object[])
  */
 @SuppressWarnings(value="unchecked")
 <
