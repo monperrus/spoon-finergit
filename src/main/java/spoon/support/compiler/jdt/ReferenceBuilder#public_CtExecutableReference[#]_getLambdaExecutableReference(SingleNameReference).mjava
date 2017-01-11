@@ -46,6 +46,8 @@ potentialLambda
 =
 astPair
 ;
+break
+;
 }
 }
 if

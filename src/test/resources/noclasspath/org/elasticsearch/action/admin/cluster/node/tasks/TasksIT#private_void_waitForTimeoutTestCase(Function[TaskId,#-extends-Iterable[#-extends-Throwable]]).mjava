@@ -1,0 +1,25 @@
+/** 
+ * Test waiting for a task that times out.
+ * @param wait wait for the running task and return all the failures you accumulated waiting for it
+ */
+private
+void
+waitForTimeoutTestCase
+(
+Function
+<
+TaskId
+,
+?
+Iterable
+<
+?
+Throwable
+>
+>
+wait
+)
+throws
+Exception
+{
+}
