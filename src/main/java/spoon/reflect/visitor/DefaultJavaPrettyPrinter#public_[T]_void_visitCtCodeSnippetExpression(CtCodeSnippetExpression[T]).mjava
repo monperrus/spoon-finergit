@@ -13,6 +13,13 @@ T
 expression
 )
 {
+elementPrinterHelper
+.
+writeComment
+(
+expression
+)
+;
 printer
 .
 write
