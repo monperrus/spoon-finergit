@@ -1,0 +1,19 @@
+/** 
+ * Same as  {@link CtQuery#map(CtFunction)}, but the returned object is not handled by java's return statement, but by a call to  {@link CtConsumer#accept(Object)}, this allows efficient and easy to write chained processing, see  {@link CtConsumableFunction}.
+ * @param queryStep
+ * @return this to support fluent API
+ */
+@Override
+<
+I
+>
+CtQuery
+map
+(
+CtConsumableFunction
+<
+I
+>
+queryStep
+)
+;

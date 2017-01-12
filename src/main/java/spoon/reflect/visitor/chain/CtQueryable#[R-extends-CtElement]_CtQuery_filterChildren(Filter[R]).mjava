@@ -1,0 +1,18 @@
+/** 
+ * @see CtQuery#filterChildren(Filter)
+ */
+<
+R
+extends
+CtElement
+>
+CtQuery
+filterChildren
+(
+Filter
+<
+R
+>
+filter
+)
+;

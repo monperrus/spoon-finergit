@@ -1,0 +1,17 @@
+@Override
+public
+CtQueryImpl
+failurePolicy
+(
+QueryFailurePolicy
+policy
+)
+{
+failurePolicy
+=
+policy
+;
+return
+this
+;
+}

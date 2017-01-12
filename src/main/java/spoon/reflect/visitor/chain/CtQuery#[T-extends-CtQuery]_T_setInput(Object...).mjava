@@ -1,0 +1,18 @@
+/** 
+ * Sets (binds) the input of the query. If the query is created by  {@link CtElement#map} or {@link CtElement#filterChildren(Filter)}, then the query is already bound to this element. A new call of  {@link CtQuery#setInput(Object...)} is always possible, it resets the current binding and sets the new one.
+ * @param input
+ * @return this to support fluent API
+ */
+<
+T
+extends
+CtQuery
+>
+T
+setInput
+(
+Object
+...
+input
+)
+;

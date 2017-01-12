@@ -1,0 +1,20 @@
+/** 
+ * Same as  {@link CtQuery#list()}, but with static typing on the return type and the final filtering, which matches only results, which are assignable from that return type.
+ * @return the list of elements collected by the query.
+ */
+<
+R
+>
+List
+<
+R
+>
+list
+(
+Class
+<
+R
+>
+itemClass
+)
+;

@@ -1,0 +1,18 @@
+/** 
+ * Actually evaluates the query and returns all the elements produced in the last step.<br> Note: The type R of the list is not checked by the query. So use the type, which matches the results of your query, otherwise the ClassCastException will be thrown when reading the list.
+ * @return the list of elements collected by the query.
+ * @see #forEach(CtConsumer) for an efficient way of manipulating the elements without creating an intermediate list.
+ */
+<
+R
+extends
+Object
+>
+List
+<
+R
+>
+list
+(
+)
+;

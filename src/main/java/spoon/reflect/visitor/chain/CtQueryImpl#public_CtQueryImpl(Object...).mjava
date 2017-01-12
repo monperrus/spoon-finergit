@@ -1,0 +1,14 @@
+public
+CtQueryImpl
+(
+Object
+...
+input
+)
+{
+setInput
+(
+input
+)
+;
+}

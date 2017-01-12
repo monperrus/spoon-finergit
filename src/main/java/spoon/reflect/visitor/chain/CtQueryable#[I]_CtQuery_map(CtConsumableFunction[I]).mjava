@@ -1,0 +1,16 @@
+/** 
+ * @see CtQuery#map(CtConsumableFunction)
+ */
+<
+I
+>
+CtQuery
+map
+(
+CtConsumableFunction
+<
+I
+>
+queryStep
+)
+;

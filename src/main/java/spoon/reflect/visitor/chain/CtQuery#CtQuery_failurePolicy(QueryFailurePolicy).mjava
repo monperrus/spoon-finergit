@@ -1,0 +1,12 @@
+/** 
+ * Defines whether this query will throw  {@link ClassCastException}when the output of the previous step cannot be cast to type of input of next step. The default value is  {@link QueryFailurePolicy#FAIL}, which means than exception is thrown when there is a mismatch<br> Note: The  {@link CtQueryable#filterChildren(Filter)} step never throws {@link ClassCastException}
+ * @param policy the policy
+ * @return this to support fluent API
+ */
+CtQuery
+failurePolicy
+(
+QueryFailurePolicy
+policy
+)
+;

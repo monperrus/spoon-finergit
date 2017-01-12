@@ -1,0 +1,36 @@
+/** 
+ * Evaluates this query, ignoring bound input - if any
+ * @param input represents the input element of the first mapping function of this query
+ * @param outputConsumer method accept of the outputConsumer is called for each element produced by last mapping function of this query
+ */
+public
+<
+I
+,
+R
+>
+void
+evaluate
+(
+I
+input
+,
+CtConsumer
+<
+R
+>
+outputConsumer
+)
+{
+new
+CurrentStep
+(
+outputConsumer
+)
+.
+accept
+(
+input
+)
+;
+}

@@ -1,0 +1,20 @@
+/** 
+ * @see CtQuery#map(CtFunction)
+ */
+<
+I
+,
+R
+>
+CtQuery
+map
+(
+CtFunction
+<
+I
+,
+R
+>
+function
+)
+;

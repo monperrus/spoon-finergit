@@ -1,0 +1,12 @@
+/** 
+ * Sets the name of current query, to identify the current step during debugging of a query
+ * @param name
+ * @return this to support fluent API
+ */
+CtQuery
+name
+(
+String
+name
+)
+;
