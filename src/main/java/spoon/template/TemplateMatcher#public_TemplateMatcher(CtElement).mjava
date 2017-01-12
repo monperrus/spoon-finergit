@@ -1,6 +1,7 @@
 /** 
  * Constructs a matcher for a given template.
  */
+@SuppressWarnings("unchecked")
 public
 TemplateMatcher
 (
@@ -57,10 +58,28 @@ templateType
 variables
 )
 ;
+if
+(
+helperMatch
+(
 this
 .
-templateType
-=
-templateType
+templateRoot
+,
+this
+.
+templateRoot
+)
+==
+false
+)
+{
+throw
+new
+SpoonException
+(
+"TemplateMatcher was unable to find itself, it certainly indicates a bug. Please revise your template or report an issue."
+)
 ;
+}
 }

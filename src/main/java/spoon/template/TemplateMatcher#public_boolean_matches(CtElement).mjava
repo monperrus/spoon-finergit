@@ -5,17 +5,26 @@
  * @return true if matches
  * @see #getMatches()
  */
-private
+@Override
+public
 boolean
-match
+matches
 (
 CtElement
 targetRoot
-,
-CtElement
+)
+{
+if
+(
+targetRoot
+==
 templateRoot
 )
 {
+return
+false
+;
+}
 return
 helperMatch
 (
