@@ -92,6 +92,10 @@ equals
 (
 this
 .
+getTopLevelType
+(
+)
+.
 getQualifiedName
 (
 )

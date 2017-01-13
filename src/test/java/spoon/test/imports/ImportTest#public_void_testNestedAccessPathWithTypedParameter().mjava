@@ -114,20 +114,15 @@ get
 "spoon.test.imports.testclasses2.AbstractMapBasedMultimap$WrappedList$WrappedListIterator"
 )
 ;
-assertTrue
+assertEquals
 (
+"private class WrappedListIterator extends spoon.test.imports.testclasses2.AbstractMapBasedMultimap<K, V>.WrappedCollection.WrappedIterator {}"
+,
 mmwli
 .
 toString
 (
 )
-.
-indexOf
-(
-"AbstractMapBasedMultimap<K, V>.WrappedList.WrappedIterator"
-)
->=
-0
 )
 ;
 assertTrue
@@ -140,10 +135,42 @@ toString
 .
 indexOf
 (
-"AbstractMapBasedMultimap<K, V>.WrappedList.WrappedIterator"
+"AbstractMapBasedMultimap<K, V>.WrappedCollection.WrappedIterator"
 )
 >=
 0
+)
+;
+CtClass
+<
+?
+>
+mmwliother
+=
+launcher
+.
+getFactory
+(
+)
+.
+Class
+(
+)
+.
+get
+(
+"spoon.test.imports.testclasses2.AbstractMapBasedMultimap$OtherWrappedList$WrappedListIterator"
+)
+;
+assertEquals
+(
+"private class WrappedListIterator extends spoon.test.imports.testclasses2.AbstractMapBasedMultimap<K, V>.OtherWrappedList.WrappedIterator {}"
+,
+mmwliother
+.
+toString
+(
+)
 )
 ;
 }

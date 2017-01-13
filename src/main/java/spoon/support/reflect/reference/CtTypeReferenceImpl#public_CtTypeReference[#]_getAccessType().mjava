@@ -158,6 +158,35 @@ declType
 visibleDeclType
 ;
 }
+if
+(
+declType
+==
+null
+)
+{
+throw
+new
+SpoonException
+(
+"Cannot compute access path to type: "
++
+this
+.
+getQualifiedName
+(
+)
++
+" in context of type: "
++
+contextType
+.
+getQualifiedName
+(
+)
+)
+;
+}
 return
 declType
 ;
