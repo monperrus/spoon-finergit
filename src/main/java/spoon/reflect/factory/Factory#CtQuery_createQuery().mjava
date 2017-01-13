@@ -1,0 +1,8 @@
+/** 
+ * @see QueryFactory#createQuery()
+ */
+CtQuery
+createQuery
+(
+)
+;

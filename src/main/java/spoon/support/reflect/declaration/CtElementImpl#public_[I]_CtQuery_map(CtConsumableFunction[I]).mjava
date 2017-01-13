@@ -14,8 +14,13 @@ queryStep
 )
 {
 return
-new
-CtQueryImpl
+factory
+.
+Query
+(
+)
+.
+createQuery
 (
 this
 )

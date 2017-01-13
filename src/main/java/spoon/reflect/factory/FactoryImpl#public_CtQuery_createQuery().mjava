@@ -1,0 +1,17 @@
+@Override
+public
+CtQuery
+createQuery
+(
+)
+{
+return
+Query
+(
+)
+.
+createQuery
+(
+)
+;
+}

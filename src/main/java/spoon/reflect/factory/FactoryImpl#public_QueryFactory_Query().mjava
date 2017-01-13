@@ -1,0 +1,30 @@
+/** 
+ * The query sub-factory.
+ */
+@Override
+public
+QueryFactory
+Query
+(
+)
+{
+if
+(
+query
+==
+null
+)
+{
+query
+=
+new
+QueryFactory
+(
+this
+)
+;
+}
+return
+query
+;
+}

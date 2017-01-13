@@ -1,5 +1,6 @@
 /** 
  * Constructs a matcher for a given template.
+ * @param templateRoot the template to match against
  */
 @SuppressWarnings("unchecked")
 public

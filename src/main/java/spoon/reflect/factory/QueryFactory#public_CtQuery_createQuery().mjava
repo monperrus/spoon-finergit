@@ -1,0 +1,16 @@
+/** 
+ * Creates a unbound query. Use  {@link CtQuery#setInput(Object...)}before  {@link CtQuery#forEach(spoon.reflect.visitor.chain.CtConsumer)}or  {@link CtQuery#list()} is called
+ */
+public
+CtQuery
+createQuery
+(
+)
+{
+return
+new
+CtQueryImpl
+(
+)
+;
+}
