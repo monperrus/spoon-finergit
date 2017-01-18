@@ -1,0 +1,10 @@
+public
+String
+a
+(
+)
+{
+return
+"This method doesn't override anything"
+;
+}

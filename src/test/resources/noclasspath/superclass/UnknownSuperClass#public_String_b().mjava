@@ -1,0 +1,11 @@
+@Override
+public
+String
+b
+(
+)
+{
+return
+"This method overrides NotInClasspath#b"
+;
+}

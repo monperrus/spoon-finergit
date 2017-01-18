@@ -1,0 +1,11 @@
+@Override
+public
+String
+toString
+(
+)
+{
+return
+"This method overrides Object#toString()"
+;
+}
