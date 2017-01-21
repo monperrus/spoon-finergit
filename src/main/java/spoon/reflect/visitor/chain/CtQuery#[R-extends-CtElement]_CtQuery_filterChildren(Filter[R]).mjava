@@ -1,6 +1,6 @@
 /** 
  * Recursively scans all children elements of an input element. The matched child element for which (filter.matches(element)==true) are sent to the next query step. Essentially the same as  {@link CtElement#getElements(Filter)} but more powerful, because itcan be chained with other subsequent queries. Note: the input element (the root of the query, `this` if you're in  {@link CtElement}) is also checked and may thus be also sent to the next step. The elements which throw  {@link ClassCastException} during {@link Filter#matches(CtElement)}are considered as **not matching**, ie. are excluded.
- * @param filter used to filter scanned children elements of the AST tree
+ * @param filter used to filter scanned children elements of the AST tree.If null then all children elements pass to next step.
  * @return this to support fluent API
  */
 @Override
