@@ -9,7 +9,9 @@ element
 {
 if
 (
-terminate
+isTerminated
+(
+)
 )
 {
 return

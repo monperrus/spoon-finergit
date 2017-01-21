@@ -1,0 +1,14 @@
+/** 
+ * Actually evaluates the query and returns first elements produced in the last step.<br> After the first element is found, the query evaluation is terminated. Note: The return type R is not checked by the query. So use the type, which matches the results of your query, otherwise the ClassCastException will be thrown.
+ * @return the first element found by the query.
+ */
+<
+R
+extends
+Object
+>
+R
+first
+(
+)
+;

@@ -1,0 +1,10 @@
+protected
+boolean
+isTerminated
+(
+)
+{
+return
+terminate
+;
+}
