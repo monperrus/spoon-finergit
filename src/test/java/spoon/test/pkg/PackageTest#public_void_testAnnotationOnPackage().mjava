@@ -61,7 +61,7 @@ setAutoImports
 false
 )
 ;
-SpoonCompiler
+SpoonModelBuilder
 compiler
 =
 launcher
@@ -109,7 +109,7 @@ CLASSES
 )
 ;
 final
-SpoonCompiler
+SpoonModelBuilder
 newCompiler
 =
 launcher

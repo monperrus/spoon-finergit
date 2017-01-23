@@ -43,7 +43,7 @@ realParam1
 +
 "}};"
 ;
-SpoonCompiler
+SpoonModelBuilder
 builder
 =
 new

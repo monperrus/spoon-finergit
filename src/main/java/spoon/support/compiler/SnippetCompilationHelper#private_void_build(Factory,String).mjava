@@ -10,7 +10,7 @@ String
 contents
 )
 {
-SpoonCompiler
+SpoonModelBuilder
 builder
 =
 new

@@ -61,7 +61,7 @@ setLevel
 "OFF"
 )
 ;
-SpoonCompiler
+SpoonModelBuilder
 compiler
 =
 spoon

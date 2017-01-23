@@ -3,14 +3,14 @@
  * @param factory the factory this compiler works on
  */
 public
-SpoonCompiler
+SpoonModelBuilder
 createCompiler
 (
 Factory
 factory
 )
 {
-SpoonCompiler
+SpoonModelBuilder
 comp
 =
 new

@@ -45,7 +45,7 @@ f
 }
 }
 ;
-SpoonCompiler
+SpoonModelBuilder
 comp
 =
 launcher

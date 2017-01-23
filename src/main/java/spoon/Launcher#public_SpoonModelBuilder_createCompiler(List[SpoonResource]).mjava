@@ -2,7 +2,7 @@
  * Creates a new Spoon Java compiler with a default factory and a list of input sources.
  */
 public
-SpoonCompiler
+SpoonModelBuilder
 createCompiler
 (
 List
@@ -12,7 +12,7 @@ SpoonResource
 inputSources
 )
 {
-SpoonCompiler
+SpoonModelBuilder
 c
 =
 createCompiler

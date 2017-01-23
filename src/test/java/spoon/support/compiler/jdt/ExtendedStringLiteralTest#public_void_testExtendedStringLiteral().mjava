@@ -17,7 +17,7 @@ Launcher
 {
 @Override
 public
-SpoonCompiler
+SpoonModelBuilder
 createCompiler
 (
 )
@@ -159,7 +159,7 @@ units
 }
 }
 ;
-SpoonCompiler
+SpoonModelBuilder
 comp
 =
 launcher

@@ -32,7 +32,7 @@ setLevel
 "OFF"
 )
 ;
-SpoonCompiler
+SpoonModelBuilder
 comp
 =
 spoon
@@ -85,7 +85,7 @@ setLevel
 "OFF"
 )
 ;
-SpoonCompiler
+SpoonModelBuilder
 comp
 =
 spoon

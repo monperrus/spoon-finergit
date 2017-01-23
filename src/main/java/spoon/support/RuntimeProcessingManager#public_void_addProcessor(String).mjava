@@ -29,7 +29,7 @@ getEnvironment
 (
 )
 .
-getClassLoader
+getInputClassLoader
 (
 )
 .

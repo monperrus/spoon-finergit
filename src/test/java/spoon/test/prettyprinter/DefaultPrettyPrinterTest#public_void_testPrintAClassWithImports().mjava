@@ -38,7 +38,7 @@ true
 )
 ;
 final
-SpoonCompiler
+SpoonModelBuilder
 compiler
 =
 launcher

@@ -123,7 +123,7 @@ getExecutable
 (
 )
 .
-getReferences
+getElements
 (
 new
 AbstractReferenceFilter

@@ -24,7 +24,7 @@ createFactory
 (
 )
 ;
-SpoonCompiler
+SpoonModelBuilder
 compiler
 =
 spoon

@@ -54,7 +54,7 @@ unboundVarAccess
 +
 "}};"
 ;
-SpoonCompiler
+SpoonModelBuilder
 builder
 =
 new

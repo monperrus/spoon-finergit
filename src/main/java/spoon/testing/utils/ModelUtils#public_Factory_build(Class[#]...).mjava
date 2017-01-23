@@ -13,7 +13,7 @@ classesToBuild
 throws
 Exception
 {
-SpoonCompiler
+SpoonModelBuilder
 comp
 =
 new

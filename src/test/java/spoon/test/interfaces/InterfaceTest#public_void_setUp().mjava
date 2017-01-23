@@ -47,7 +47,7 @@ setComplianceLevel
 8
 )
 ;
-SpoonCompiler
+SpoonModelBuilder
 compiler
 =
 launcher

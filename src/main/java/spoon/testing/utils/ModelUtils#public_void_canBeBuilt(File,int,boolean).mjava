@@ -55,7 +55,7 @@ noClasspath
 )
 ;
 final
-SpoonCompiler
+SpoonModelBuilder
 compiler
 =
 launcher

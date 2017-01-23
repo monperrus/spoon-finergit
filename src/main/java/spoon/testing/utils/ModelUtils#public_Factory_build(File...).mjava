@@ -28,7 +28,7 @@ setNoClasspath
 true
 )
 ;
-SpoonCompiler
+SpoonModelBuilder
 comp
 =
 launcher

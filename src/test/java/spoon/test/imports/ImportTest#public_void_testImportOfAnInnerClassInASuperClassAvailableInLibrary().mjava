@@ -7,7 +7,7 @@ testImportOfAnInnerClassInASuperClassAvailableInLibrary
 throws
 Exception
 {
-SpoonCompiler
+SpoonModelBuilder
 comp
 =
 new

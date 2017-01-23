@@ -17,7 +17,7 @@ Launcher
 {
 @Override
 public
-SpoonCompiler
+SpoonModelBuilder
 createCompiler
 (
 )

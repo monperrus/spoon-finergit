@@ -1,5 +1,5 @@
 public
-SpoonCompiler
+SpoonModelBuilder
 createCompiler
 (
 Factory
@@ -12,7 +12,7 @@ SpoonResource
 inputSources
 )
 {
-SpoonCompiler
+SpoonModelBuilder
 c
 =
 createCompiler

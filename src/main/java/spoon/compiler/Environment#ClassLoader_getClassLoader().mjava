@@ -1,9 +1,0 @@
-/** 
- * Use  {@link #getInputClassLoader()}
- */
-@Deprecated
-ClassLoader
-getClassLoader
-(
-)
-;
