@@ -132,6 +132,16 @@ ref
 imports
 )
 {
+String
+importStr
+=
+"import"
+;
+String
+importTypeStr
+=
+""
+;
 if
 (
 ref
@@ -147,26 +157,11 @@ CtTypeReference
 )
 ref
 ;
-printer
-.
-write
-(
-"import "
-+
+importTypeStr
+=
 typeRef
 .
 getQualifiedName
-(
-)
-+
-";"
-)
-.
-writeln
-(
-)
-.
-writeTabs
 (
 )
 ;
@@ -179,6 +174,10 @@ instanceof
 CtExecutableReference
 )
 {
+importStr
+=
+" static"
+;
 CtExecutableReference
 execRef
 =
@@ -198,12 +197,8 @@ getDeclaringType
 null
 )
 {
-printer
-.
-write
-(
-"import static "
-+
+importTypeStr
+=
 this
 .
 removeInnerTypeSeparator
@@ -224,17 +219,6 @@ getQualifiedName
 execRef
 .
 getSimpleName
-(
-)
-+
-";"
-)
-.
-writeln
-(
-)
-.
-writeTabs
 (
 )
 ;
@@ -248,6 +232,10 @@ instanceof
 CtFieldReference
 )
 {
+importStr
+=
+" static"
+;
 CtFieldReference
 fieldRef
 =
@@ -256,12 +244,8 @@ CtFieldReference
 )
 ref
 ;
-printer
-.
-write
-(
-"import static "
-+
+importTypeStr
+=
 this
 .
 removeInnerTypeSeparator
@@ -284,6 +268,28 @@ fieldRef
 getSimpleName
 (
 )
+;
+}
+if
+(
+!
+importTypeStr
+.
+equals
+(
+""
+)
+)
+{
+printer
+.
+write
+(
+importStr
++
+" "
++
+importTypeStr
 +
 ";"
 )
