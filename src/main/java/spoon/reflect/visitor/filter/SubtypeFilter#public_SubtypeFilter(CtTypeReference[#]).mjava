@@ -1,0 +1,17 @@
+public
+SubtypeFilter
+(
+CtTypeReference
+<
+?
+>
+superType
+)
+{
+this
+.
+superType
+=
+superType
+;
+}

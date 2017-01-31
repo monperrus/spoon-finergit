@@ -1,0 +1,36 @@
+/** 
+ * @param includingSelf if false then element which is equal to to #superType is not matching
+ */
+public
+SubtypeFilter
+includingSelf
+(
+boolean
+includingSelf
+)
+{
+if
+(
+includingSelf
+)
+{
+superTypeQualifiedName
+=
+null
+;
+}
+else
+{
+superTypeQualifiedName
+=
+superType
+.
+getQualifiedName
+(
+)
+;
+}
+return
+this
+;
+}
