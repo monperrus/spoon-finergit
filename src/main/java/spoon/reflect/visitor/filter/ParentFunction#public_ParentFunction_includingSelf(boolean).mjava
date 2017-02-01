@@ -1,0 +1,21 @@
+/** 
+ * @param includingSelf if true then input element is sent to output too. By default it is false.
+ */
+public
+ParentFunction
+includingSelf
+(
+boolean
+includingSelf
+)
+{
+this
+.
+includingSelf
+=
+includingSelf
+;
+return
+this
+;
+}
