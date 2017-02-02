@@ -11,6 +11,13 @@ type
 )
 {
 return
-false
+getReference
+(
+)
+.
+isSubtypeOf
+(
+type
+)
 ;
 }

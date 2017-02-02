@@ -1,0 +1,14 @@
+<
+B
+extends
+A
+>
+B
+foo
+(
+)
+{
+return
+null
+;
+}
