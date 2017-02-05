@@ -61,6 +61,17 @@ getModifiers
 )
 )
 ;
+ctMethod
+.
+setDefaultMethod
+(
+method
+.
+isDefault
+(
+)
+)
+;
 enter
 (
 new

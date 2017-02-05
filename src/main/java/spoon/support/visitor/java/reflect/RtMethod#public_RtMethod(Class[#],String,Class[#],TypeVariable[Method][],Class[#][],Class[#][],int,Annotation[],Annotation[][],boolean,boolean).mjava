@@ -57,6 +57,9 @@ parameterAnnotations
 ,
 boolean
 isVarArgs
+,
+boolean
+isDefault
 )
 {
 this
@@ -118,5 +121,11 @@ this
 isVarArgs
 =
 isVarArgs
+;
+this
+.
+isDefault
+=
+isDefault
 ;
 }

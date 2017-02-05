@@ -1,0 +1,10 @@
+public
+boolean
+isDefault
+(
+)
+{
+return
+isDefault
+;
+}
