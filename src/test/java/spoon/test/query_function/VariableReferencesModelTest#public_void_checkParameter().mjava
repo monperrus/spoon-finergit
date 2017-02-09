@@ -1,0 +1,13 @@
+@Test
+public
+void
+checkParameter
+(
+)
+{
+parameter
+(
+16
+)
+;
+}

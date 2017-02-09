@@ -1,0 +1,21 @@
+/** 
+ * @param includingFields if true then CtFields of wrapping class and all super classes are returned too
+ */
+public
+PotentialVariableDeclarationFunction
+includingFields
+(
+boolean
+includingFields
+)
+{
+this
+.
+includingFields
+=
+includingFields
+;
+return
+this
+;
+}

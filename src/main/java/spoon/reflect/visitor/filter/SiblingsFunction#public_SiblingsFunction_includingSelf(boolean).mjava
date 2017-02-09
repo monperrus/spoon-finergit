@@ -1,0 +1,21 @@
+/** 
+ * @param includingSelf if false then input element is not visited
+ */
+public
+SiblingsFunction
+includingSelf
+(
+boolean
+includingSelf
+)
+{
+this
+.
+includingSelf
+=
+includingSelf
+;
+return
+this
+;
+}

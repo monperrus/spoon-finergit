@@ -1,0 +1,21 @@
+/** 
+ * @param mode defines which siblings will be visited. See {@link Mode} for possible values
+ */
+public
+SiblingsFunction
+mode
+(
+Mode
+mode
+)
+{
+this
+.
+mode
+=
+mode
+;
+return
+this
+;
+}

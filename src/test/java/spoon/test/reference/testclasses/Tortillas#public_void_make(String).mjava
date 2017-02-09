@@ -11,4 +11,11 @@ string1
 =
 string
 ;
+int
+number
+=
+number
+=
+40
+;
 }

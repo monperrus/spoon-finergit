@@ -1,0 +1,17 @@
+private
+boolean
+isTestFieldName
+(
+String
+name
+)
+{
+return
+"field"
+.
+equals
+(
+name
+)
+;
+}
