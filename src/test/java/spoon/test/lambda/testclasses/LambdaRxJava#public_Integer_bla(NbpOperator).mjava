@@ -1,0 +1,17 @@
+public
+Integer
+bla
+(
+NbpOperator
+toto
+)
+{
+return
+toto
+.
+apply
+(
+"truc"
+)
+;
+}

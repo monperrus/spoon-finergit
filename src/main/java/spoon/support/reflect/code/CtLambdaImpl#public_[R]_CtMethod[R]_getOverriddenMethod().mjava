@@ -148,6 +148,15 @@ ModifierKind
 .
 PRIVATE
 )
+||
+method
+.
+hasModifier
+(
+ModifierKind
+.
+STATIC
+)
 )
 {
 continue
