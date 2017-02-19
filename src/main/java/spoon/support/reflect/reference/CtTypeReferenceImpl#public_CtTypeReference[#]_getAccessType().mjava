@@ -31,11 +31,13 @@ throw
 new
 SpoonException
 (
-"The nestedType is expected, but it is: "
+"The declaring type is expected, but "
 +
 getQualifiedName
 (
 )
++
+" is top level type"
 )
 ;
 }

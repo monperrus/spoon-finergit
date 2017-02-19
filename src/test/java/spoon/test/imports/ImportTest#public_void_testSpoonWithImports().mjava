@@ -165,7 +165,7 @@ anotherClass
 ;
 assertEquals
 (
-1
+2
 ,
 imports1
 .
