@@ -236,7 +236,7 @@ CtArrayTypeReference
 ;
 assertEquals
 (
-"new Type[list.size()]"
+"new com.example.Type[list.size()]"
 ,
 local
 .

@@ -1,0 +1,34 @@
+/** 
+ * This method will dismiss prompt dialog if visible.
+ */
+public
+void
+dismissOrbotPromptDialog
+(
+)
+{
+if
+(
+dialogOrbotInstall
+!=
+null
+&&
+dialogOrbotInstall
+.
+isShowing
+(
+)
+)
+{
+dialogOrbotInstall
+.
+dismiss
+(
+)
+;
+dialogOrbotInstall
+=
+null
+;
+}
+}

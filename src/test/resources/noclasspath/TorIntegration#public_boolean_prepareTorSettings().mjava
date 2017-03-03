@@ -1,0 +1,15 @@
+public
+boolean
+prepareTorSettings
+(
+)
+{
+return
+prepareTorSettings
+(
+isTorSettingEnabled
+(
+)
+)
+;
+}

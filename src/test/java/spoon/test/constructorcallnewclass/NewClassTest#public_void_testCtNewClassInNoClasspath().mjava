@@ -154,7 +154,7 @@ getSimpleName
 ;
 assertEquals
 (
-"Lock$With"
+"org.apache.lucene.store.Lock$With"
 ,
 anonymousClass
 .
@@ -188,7 +188,7 @@ getSimpleName
 ;
 assertEquals
 (
-"Lock.With"
+"org.apache.lucene.store.Lock.With"
 ,
 anonymousClass
 .

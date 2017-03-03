@@ -1,0 +1,14 @@
+public
+boolean
+isTorSettingEnabled
+(
+)
+{
+return
+PreferencesManager
+.
+getEnableTor
+(
+)
+;
+}
