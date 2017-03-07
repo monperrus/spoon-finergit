@@ -140,6 +140,11 @@ SourceOptions
 .
 sources
 (
+sourcesFolder
+.
+getAllJavaFiles
+(
+)
 )
 )
 .
