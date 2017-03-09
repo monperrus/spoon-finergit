@@ -1,0 +1,13 @@
+/** 
+ * @return null or the implementation of {@link CtScannerListener}, which is registered to listen for enter/exit of nodes during scanning of the AST
+ */
+public
+CtScannerListener
+getListener
+(
+)
+{
+return
+listener
+;
+}

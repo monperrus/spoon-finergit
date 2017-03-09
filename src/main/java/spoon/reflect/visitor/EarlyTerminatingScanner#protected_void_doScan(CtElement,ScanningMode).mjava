@@ -1,0 +1,22 @@
+/** 
+ * This method is called ONLY when the listener decides that the current element and children should be visited. Subclasses can override it to react accordingly.
+ */
+protected
+void
+doScan
+(
+CtElement
+element
+,
+ScanningMode
+mode
+)
+{
+super
+.
+scan
+(
+element
+)
+;
+}

@@ -1,3 +1,6 @@
+/** 
+ * @return the result of scanning - the value, which was stored by a previous call of {@link #setResult(Object)}
+ */
 public
 T
 getResult

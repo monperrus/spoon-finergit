@@ -1,0 +1,25 @@
+/** 
+ * @param listener the implementation of {@link CtScannerListener}, which will be called back when entering/exiting odes during scanning.
+ * @return this to support fluent API
+ */
+public
+EarlyTerminatingScanner
+<
+T
+>
+setListener
+(
+CtScannerListener
+listener
+)
+{
+this
+.
+listener
+=
+listener
+;
+return
+this
+;
+}
