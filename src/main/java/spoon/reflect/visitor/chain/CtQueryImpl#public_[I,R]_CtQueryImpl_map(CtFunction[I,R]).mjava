@@ -17,9 +17,7 @@ R
 function
 )
 {
-steps
-.
-add
+addStep
 (
 new
 FunctionWrapper

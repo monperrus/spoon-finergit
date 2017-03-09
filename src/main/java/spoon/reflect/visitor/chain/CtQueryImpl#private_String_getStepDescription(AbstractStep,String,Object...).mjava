@@ -2,7 +2,7 @@ private
 String
 getStepDescription
 (
-CurrentStep
+AbstractStep
 step
 ,
 String

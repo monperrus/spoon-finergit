@@ -1,0 +1,8 @@
+/** 
+ * Terminates the evaluation of this query. The query still returns all results collected before termination. This method should not throw an exception.
+ */
+void
+terminate
+(
+)
+;

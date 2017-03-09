@@ -1,0 +1,11 @@
+/** 
+ * This method is called when the filter/function is added as a step to a  {@link CtQuery} by the query engine ({@link CtQueryImpl}).
+ * @param query an instance registering this function/filter.
+ */
+void
+setQuery
+(
+CtQuery
+query
+)
+;

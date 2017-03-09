@@ -8,7 +8,7 @@ private
 void
 onClassCastException
 (
-CurrentStep
+AbstractStep
 step
 ,
 ClassCastException

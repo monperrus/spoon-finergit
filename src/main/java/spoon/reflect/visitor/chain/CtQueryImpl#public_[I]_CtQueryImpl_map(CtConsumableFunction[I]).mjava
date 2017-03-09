@@ -13,9 +13,7 @@ I
 code
 )
 {
-steps
-.
-add
+addStep
 (
 new
 LazyFunctionWrapper

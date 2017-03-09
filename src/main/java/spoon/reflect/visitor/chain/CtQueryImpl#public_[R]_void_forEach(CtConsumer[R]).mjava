@@ -1,3 +1,4 @@
+@Override
 public
 <
 R
@@ -12,14 +13,9 @@ R
 consumer
 )
 {
-CtQueryContext
-cc
-=
-createQueryContext
-(
-)
+outputStep
 .
-outputConsumer
+setNext
 (
 consumer
 )
@@ -32,7 +28,7 @@ input
 inputs
 )
 {
-cc
+firstStep
 .
 accept
 (

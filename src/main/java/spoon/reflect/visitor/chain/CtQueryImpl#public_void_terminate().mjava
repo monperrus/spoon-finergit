@@ -1,0 +1,12 @@
+@Override
+public
+void
+terminate
+(
+)
+{
+terminated
+=
+true
+;
+}

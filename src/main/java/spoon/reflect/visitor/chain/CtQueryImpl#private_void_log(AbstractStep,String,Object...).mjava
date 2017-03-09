@@ -2,7 +2,7 @@ private
 void
 log
 (
-CurrentStep
+AbstractStep
 step
 ,
 String

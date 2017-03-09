@@ -6,9 +6,7 @@ QueryFailurePolicy
 policy
 )
 {
-getLastStep
-(
-)
+lastStep
 .
 setLocalFailurePolicy
 (

@@ -1,0 +1,16 @@
+@Override
+public
+void
+setQuery
+(
+CtQuery
+query
+)
+{
+scanner
+.
+query
+=
+query
+;
+}

@@ -1,0 +1,14 @@
+/** 
+ * Called before query is evaluated again
+ */
+protected
+void
+reset
+(
+)
+{
+terminated
+=
+false
+;
+}

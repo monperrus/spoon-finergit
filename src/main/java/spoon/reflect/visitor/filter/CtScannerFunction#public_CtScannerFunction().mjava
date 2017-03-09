@@ -1,0 +1,13 @@
+public
+CtScannerFunction
+(
+)
+{
+scanner
+=
+new
+Scanner
+(
+)
+;
+}
