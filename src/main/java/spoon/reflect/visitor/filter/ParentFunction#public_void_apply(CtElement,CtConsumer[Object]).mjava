@@ -67,6 +67,14 @@ null
 parent
 !=
 rootPackage
+&&
+query
+.
+isTerminated
+(
+)
+==
+false
 )
 {
 parent
