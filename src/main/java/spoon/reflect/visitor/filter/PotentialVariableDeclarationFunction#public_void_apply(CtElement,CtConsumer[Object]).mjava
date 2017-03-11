@@ -60,6 +60,12 @@ scopeElement
 instanceof
 CtPackage
 )
+&&
+scopeElement
+.
+isParentInitialized
+(
+)
 )
 {
 CtElement
