@@ -1,0 +1,18 @@
+/** 
+ * Searches for a variable with exact name.
+ * @param variableName
+ */
+public
+PotentialVariableDeclarationFunction
+(
+String
+variableName
+)
+{
+this
+.
+variableName
+=
+variableName
+;
+}

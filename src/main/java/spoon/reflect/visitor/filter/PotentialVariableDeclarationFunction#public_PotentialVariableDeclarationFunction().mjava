@@ -3,4 +3,10 @@ PotentialVariableDeclarationFunction
 (
 )
 {
+this
+.
+variableName
+=
+null
+;
 }

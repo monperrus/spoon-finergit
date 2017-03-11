@@ -1,0 +1,14 @@
+/** 
+ * This method provides access to current state of this function. It is intended to be called by other mapping functions at query processing time or after query is finished.
+ * @return true if there is an local class on the way from the input of this mapping functionto the actually found potential variable declaration
+ */
+public
+boolean
+isTypeOnTheWay
+(
+)
+{
+return
+isTypeOnTheWay
+;
+}

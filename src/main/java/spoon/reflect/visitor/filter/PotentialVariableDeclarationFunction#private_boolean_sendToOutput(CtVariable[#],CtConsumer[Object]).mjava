@@ -1,0 +1,56 @@
+/** 
+ * @param var
+ * @param output
+ * @return true if query processing is terminated
+ */
+private
+boolean
+sendToOutput
+(
+CtVariable
+<
+?
+>
+var
+,
+CtConsumer
+<
+Object
+>
+output
+)
+{
+if
+(
+variableName
+==
+null
+||
+variableName
+.
+equals
+(
+var
+.
+getSimpleName
+(
+)
+)
+)
+{
+output
+.
+accept
+(
+var
+)
+;
+}
+return
+query
+.
+isTerminated
+(
+)
+;
+}
