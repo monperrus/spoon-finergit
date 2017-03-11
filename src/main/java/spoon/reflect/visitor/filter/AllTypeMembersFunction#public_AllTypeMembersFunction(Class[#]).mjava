@@ -1,0 +1,20 @@
+/** 
+ * returns all type members which are instance of `memberClass`.<br> Example:<br> <code> CtField allFields = ctType.map(new AllTypeMembersFunction(CtField.class)).list(); </code>
+ */
+public
+AllTypeMembersFunction
+(
+Class
+<
+?
+>
+memberClass
+)
+{
+this
+.
+memberClass
+=
+memberClass
+;
+}

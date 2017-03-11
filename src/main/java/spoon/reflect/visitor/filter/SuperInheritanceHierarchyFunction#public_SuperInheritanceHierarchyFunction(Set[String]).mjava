@@ -1,0 +1,20 @@
+/** 
+ * @param visitedSet assures that each class/interface is visited only once
+ */
+public
+SuperInheritanceHierarchyFunction
+(
+Set
+<
+String
+>
+visitedSet
+)
+{
+this
+.
+visitedSet
+=
+visitedSet
+;
+}

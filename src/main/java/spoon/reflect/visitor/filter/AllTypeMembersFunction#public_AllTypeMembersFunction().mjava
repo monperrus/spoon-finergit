@@ -1,0 +1,15 @@
+/** 
+ * returns all type members
+ */
+public
+AllTypeMembersFunction
+(
+)
+{
+this
+.
+memberClass
+=
+null
+;
+}

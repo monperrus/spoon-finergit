@@ -1,0 +1,21 @@
+/** 
+ * @param includingInterfaces if false then interfaces are not visited - only super classes. By default it is true.
+ */
+public
+SuperInheritanceHierarchyFunction
+includingInterfaces
+(
+boolean
+includingInterfaces
+)
+{
+this
+.
+includingInterfaces
+=
+includingInterfaces
+;
+return
+this
+;
+}

@@ -1,0 +1,9 @@
+/** 
+ * The mapping function create using this constructor will visit each super class and super interface following super hierarchy. It can happen that some interfaces will be visited more then once if they are in hierarchy more then once.<br> Use second constructor if you want to visit each interface only once.
+ */
+public
+SuperInheritanceHierarchyFunction
+(
+)
+{
+}
