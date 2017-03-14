@@ -1,0 +1,9 @@
+/** 
+ * @return the {@link CtFormalTypeDeclarer}, which declares this  {@link CtTypeParameter}
+ */
+@DerivedProperty
+CtFormalTypeDeclarer
+getTypeParameterDeclarer
+(
+)
+;
