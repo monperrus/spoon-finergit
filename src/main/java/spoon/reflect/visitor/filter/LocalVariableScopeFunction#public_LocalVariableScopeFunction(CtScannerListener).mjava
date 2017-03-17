@@ -1,12 +1,14 @@
 public
 LocalVariableScopeFunction
 (
+CtScannerListener
+queryListener
 )
 {
 this
 .
 listener
 =
-null
+queryListener
 ;
 }

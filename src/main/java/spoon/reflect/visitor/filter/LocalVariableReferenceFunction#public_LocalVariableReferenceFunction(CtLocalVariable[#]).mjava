@@ -1,0 +1,28 @@
+/** 
+ * This constructor allows to define input local variable - the one for which this function will search for. In such case the input of mapping function represents the scope where this local variable is searched for.
+ * @param localVariable - the local variable declaration which is searched in scope of input element of this mapping function.
+ */
+public
+LocalVariableReferenceFunction
+(
+CtLocalVariable
+<
+?
+>
+localVariable
+)
+{
+this
+(
+CtLocalVariable
+.
+class
+,
+CtLocalVariableReference
+.
+class
+,
+localVariable
+)
+;
+}

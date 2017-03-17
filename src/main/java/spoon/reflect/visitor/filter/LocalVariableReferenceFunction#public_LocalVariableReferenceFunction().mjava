@@ -3,4 +3,15 @@ LocalVariableReferenceFunction
 (
 )
 {
+this
+(
+CtLocalVariable
+.
+class
+,
+CtLocalVariableReference
+.
+class
+)
+;
 }

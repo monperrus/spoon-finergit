@@ -1,12 +1,14 @@
 public
 ParameterScopeFunction
 (
+CtScannerListener
+queryListener
 )
 {
 this
 .
 listener
 =
-null
+queryListener
 ;
 }

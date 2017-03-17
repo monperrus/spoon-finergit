@@ -1,0 +1,17 @@
+public
+VariableReferenceFunction
+(
+CtVariable
+<
+?
+>
+variable
+)
+{
+this
+.
+variable
+=
+variable
+;
+}

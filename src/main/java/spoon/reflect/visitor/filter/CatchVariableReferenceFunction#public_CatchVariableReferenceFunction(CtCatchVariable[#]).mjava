@@ -1,6 +1,11 @@
 public
 CatchVariableReferenceFunction
 (
+CtCatchVariable
+<
+?
+>
+catchVariable
 )
 {
 super
@@ -12,6 +17,8 @@ class
 CtCatchVariableReference
 .
 class
+,
+catchVariable
 )
 ;
 }

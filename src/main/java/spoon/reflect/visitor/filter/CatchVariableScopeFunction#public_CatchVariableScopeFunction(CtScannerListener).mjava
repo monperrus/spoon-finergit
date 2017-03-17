@@ -1,12 +1,14 @@
 public
 CatchVariableScopeFunction
 (
+CtScannerListener
+queryListener
 )
 {
 this
 .
 listener
 =
-null
+queryListener
 ;
 }

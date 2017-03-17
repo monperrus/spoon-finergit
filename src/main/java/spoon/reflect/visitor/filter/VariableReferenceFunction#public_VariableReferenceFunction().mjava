@@ -1,0 +1,12 @@
+public
+VariableReferenceFunction
+(
+)
+{
+this
+.
+variable
+=
+null
+;
+}

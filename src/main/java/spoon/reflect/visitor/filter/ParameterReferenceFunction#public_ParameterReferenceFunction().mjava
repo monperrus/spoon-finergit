@@ -3,4 +3,15 @@ ParameterReferenceFunction
 (
 )
 {
+super
+(
+CtParameter
+.
+class
+,
+CtParameterReference
+.
+class
+)
+;
 }

@@ -1,0 +1,28 @@
+/** 
+ * This constructor allows to define target parameter - the one for which this function will search for. In such case the input of mapping function represents the searching scope
+ * @param parameter - the parameter declaration which is searched in scope of input element
+ */
+public
+ParameterReferenceFunction
+(
+CtParameter
+<
+?
+>
+parameter
+)
+{
+super
+(
+CtParameter
+.
+class
+,
+CtParameterReference
+.
+class
+,
+parameter
+)
+;
+}
