@@ -1,0 +1,11 @@
+/** 
+ * Gets all binary (.class) files that corresponds to this compilation unit and have been created by calling {@link spoon.SpoonModelBuilder#compile(spoon.SpoonModelBuilder.InputType...)}.
+ */
+List
+<
+File
+>
+getBinaryFiles
+(
+)
+;
