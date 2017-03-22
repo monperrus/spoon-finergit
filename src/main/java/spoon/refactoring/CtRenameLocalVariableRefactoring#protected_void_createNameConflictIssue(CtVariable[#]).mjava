@@ -1,0 +1,41 @@
+/** 
+ * Override this method to get access to details about this refactoring issue
+ * @param conflictVar - variable which would be in conflict with the `targetVariable` after it's rename to new name
+ */
+protected
+void
+createNameConflictIssue
+(
+CtVariable
+<
+?
+>
+conflictVar
+)
+{
+throw
+new
+RefactoringException
+(
+conflictVar
+.
+getClass
+(
+)
+.
+getSimpleName
+(
+)
++
+" with name "
++
+conflictVar
+.
+getSimpleName
+(
+)
++
+" is in conflict."
+)
+;
+}

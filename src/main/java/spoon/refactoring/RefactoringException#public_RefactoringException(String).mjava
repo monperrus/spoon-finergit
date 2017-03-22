@@ -1,0 +1,13 @@
+public
+RefactoringException
+(
+String
+msg
+)
+{
+super
+(
+msg
+)
+;
+}

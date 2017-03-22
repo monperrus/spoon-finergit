@@ -1,0 +1,11 @@
+public
+CtRenameLocalVariableRefactoringTestSubject
+(
+)
+{
+int
+local1
+=
+0
+;
+}

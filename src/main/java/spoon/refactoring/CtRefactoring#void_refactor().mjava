@@ -1,0 +1,8 @@
+/** 
+ * Process refactoring operation
+ */
+void
+refactor
+(
+)
+;

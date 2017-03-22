@@ -1,0 +1,13 @@
+public
+RefactoringException
+(
+Throwable
+e
+)
+{
+super
+(
+e
+)
+;
+}

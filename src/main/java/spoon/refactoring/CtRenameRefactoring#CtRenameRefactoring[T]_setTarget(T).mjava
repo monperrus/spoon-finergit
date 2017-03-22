@@ -1,0 +1,14 @@
+/** 
+ * @param target the model element, which has to be refactored.
+ * @return this to support fluent API
+ */
+CtRenameRefactoring
+<
+T
+>
+setTarget
+(
+T
+target
+)
+;

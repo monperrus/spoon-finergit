@@ -1,0 +1,33 @@
+/** 
+ * tests conflict of local variable with parameter
+ */
+private
+void
+conflictWithParam
+(
+@TestTryRename("-var1")
+int
+var2
+)
+{
+@TestTryRename("-var2")
+int
+var1
+=
+1
+;
+assertTrue
+(
+var1
+==
+1
+)
+;
+assertTrue
+(
+var2
+==
+2
+)
+;
+}

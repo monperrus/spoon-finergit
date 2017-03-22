@@ -1,0 +1,10 @@
+/** 
+ * client may implement this method to check whether  {@link #newName} is valid
+ */
+protected
+void
+checkNewNameIsValid
+(
+)
+{
+}

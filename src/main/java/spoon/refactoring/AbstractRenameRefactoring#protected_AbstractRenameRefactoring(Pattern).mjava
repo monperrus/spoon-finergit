@@ -1,0 +1,14 @@
+protected
+AbstractRenameRefactoring
+(
+Pattern
+newNameValidationRE
+)
+{
+this
+.
+newNameValidationRE
+=
+newNameValidationRE
+;
+}

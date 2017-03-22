@@ -1,0 +1,14 @@
+/** 
+ * @param newName the required name of the `target` model element
+ * @return this to support fluent API
+ */
+CtRenameRefactoring
+<
+T
+>
+setNewName
+(
+String
+newName
+)
+;

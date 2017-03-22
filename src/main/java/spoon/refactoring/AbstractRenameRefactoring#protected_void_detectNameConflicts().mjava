@@ -1,0 +1,10 @@
+/** 
+ * client may implement this method to check whether  {@link #newName}is in conflict with names of other model elements
+ */
+protected
+void
+detectNameConflicts
+(
+)
+{
+}

@@ -1,0 +1,26 @@
+/** 
+ * Helper method, which can be used by the child classes to check if name is an java identifier
+ * @param name the to be checked name
+ * @return true if name is valid java identifier
+ */
+protected
+boolean
+isJavaIdentifier
+(
+String
+name
+)
+{
+return
+javaIdentifierRE
+.
+matcher
+(
+name
+)
+.
+matches
+(
+)
+;
+}

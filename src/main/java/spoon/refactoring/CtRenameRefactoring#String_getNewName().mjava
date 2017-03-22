@@ -1,0 +1,8 @@
+/** 
+ * @return the required name of the `target` model element
+ */
+String
+getNewName
+(
+)
+;
