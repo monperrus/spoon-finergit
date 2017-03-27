@@ -25,16 +25,7 @@ Type
 (
 )
 .
-get
-(
-Object
-.
-class
-)
-.
-getReference
-(
-)
+OBJECT
 ;
 }
 return
