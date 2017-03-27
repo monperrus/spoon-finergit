@@ -74,6 +74,15 @@ getLastStatement
 (
 )
 ;
+assertNotNull
+(
+ret
+.
+getMetadataKeys
+(
+)
+)
+;
 final
 CtMethod
 <
