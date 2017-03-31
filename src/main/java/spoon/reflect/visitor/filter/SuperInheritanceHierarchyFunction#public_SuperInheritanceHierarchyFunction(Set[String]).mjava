@@ -1,5 +1,6 @@
 /** 
- * @param visitedSet assures that each class/interface is visited only once
+ * The mapping function created using this constructor will visit each super class and super interface following super hierarchy. It is assured that interfaces will be visited only once even if they are in super inheritance hierarchy more then once.<br>
+ * @param visitedSet assures that each class/interface is visited only onceThe types which are already contained in `visitedSet` are not visited and not returned by this mapping function.
  */
 public
 SuperInheritanceHierarchyFunction
@@ -11,10 +12,12 @@ String
 visitedSet
 )
 {
-this
-.
-visitedSet
+listener
 =
+new
+DistinctTypeListener
+(
 visitedSet
+)
 ;
 }

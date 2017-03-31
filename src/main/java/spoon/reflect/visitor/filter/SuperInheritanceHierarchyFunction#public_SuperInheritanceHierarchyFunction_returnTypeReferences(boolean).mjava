@@ -1,0 +1,23 @@
+/** 
+ * configures whether  {@link CtType} or {@link CtTypeReference} instances are returned by this mapping function
+ * @param returnTypeReferences if true then {@link CtTypeReference} instances are returned by this mapping function
+ * @return this to support fluent API
+ */
+public
+SuperInheritanceHierarchyFunction
+returnTypeReferences
+(
+boolean
+returnTypeReferences
+)
+{
+this
+.
+returnTypeReferences
+=
+returnTypeReferences
+;
+return
+this
+;
+}

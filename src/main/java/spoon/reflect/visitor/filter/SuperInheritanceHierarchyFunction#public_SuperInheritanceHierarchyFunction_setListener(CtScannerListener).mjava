@@ -1,0 +1,40 @@
+/** 
+ * The listener evens are called in this order: <ol> <li> enter(input element) <li> return input element <li> enter/exit for each super interface of input element recursively <li> call 1-5) recursively where input element is super class of input element <li> exit(input element) </ol> Note: this order is assured and some algorithms already depend on it!
+ * @param listener the implementation of {@link CtScannerListener}, which will listen for enter/exit of  {@link CtTypeReference} during type hierarchy scanning
+ * @return this to support fluent API
+ */
+public
+SuperInheritanceHierarchyFunction
+setListener
+(
+CtScannerListener
+listener
+)
+{
+if
+(
+this
+.
+listener
+!=
+null
+)
+{
+throw
+new
+SpoonException
+(
+"Cannot register listener on instance created with constructor which accepts the Set<String>. Use the no parameter constructor if listener has to be registered"
+)
+;
+}
+this
+.
+listener
+=
+listener
+;
+return
+this
+;
+}
