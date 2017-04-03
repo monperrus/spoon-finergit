@@ -1,0 +1,16 @@
+@Override
+public
+CtTypeReference
+<
+?
+>
+getTypeErasure
+(
+)
+{
+return
+getReference
+(
+)
+;
+}
