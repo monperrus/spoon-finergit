@@ -156,6 +156,11 @@ SourceOptions
 .
 sources
 (
+sources
+.
+getAllJavaFiles
+(
+)
 )
 )
 .
