@@ -1,0 +1,21 @@
+/** 
+ * Gets the corresponding processor name.
+ */
+public
+String
+getProcessorName
+(
+)
+{
+return
+(
+String
+)
+_properties
+.
+get
+(
+"__NAME__"
+)
+;
+}

@@ -1,6 +1,3 @@
-/** 
- * Helper method to initialize the properties of a given processor.
- */
 public
 static
 void
@@ -104,18 +101,10 @@ Exception
 e
 )
 {
-Launcher
-.
-LOGGER
-.
-error
+throw
+new
+SpoonException
 (
-e
-.
-getMessage
-(
-)
-,
 e
 )
 ;

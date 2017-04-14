@@ -1,5 +1,7 @@
+/** 
+ * Helper method to initialize the properties of a given processor.
+ */
 public
-final
 void
 initProperties
 (
@@ -7,6 +9,8 @@ ProcessorProperties
 properties
 )
 {
+ProcessorUtils
+.
 initProperties
 (
 this

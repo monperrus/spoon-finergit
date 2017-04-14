@@ -4,4 +4,13 @@ init
 (
 )
 {
+this
+.
+initProperties
+(
+loadProperties
+(
+)
+)
+;
 }

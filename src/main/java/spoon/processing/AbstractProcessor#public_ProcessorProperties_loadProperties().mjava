@@ -2,17 +2,19 @@
  * Helper method to load the properties of the given processor (uses {@link Environment#getProcessorProperties(String)}).
  */
 public
-static
 ProcessorProperties
 loadProperties
 (
+)
+{
 Processor
 <
 ?
 >
 p
-)
-{
+=
+this
+;
 ProcessorProperties
 props
 =

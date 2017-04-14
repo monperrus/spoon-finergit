@@ -1,0 +1,13 @@
+/** 
+ * Sets the given property.
+ */
+void
+set
+(
+String
+name
+,
+Object
+o
+)
+;

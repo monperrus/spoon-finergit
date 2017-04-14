@@ -7,7 +7,7 @@ ProcessorProperties
 properties
 )
 {
-AbstractProcessor
+ProcessorUtils
 .
 initProperties
 (
