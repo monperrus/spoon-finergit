@@ -1,6 +1,7 @@
 /** 
  * Gets the last statement of this block.
  */
+@DerivedProperty
 <
 T
 extends
