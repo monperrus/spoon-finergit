@@ -1,0 +1,25 @@
+/** 
+ * scope method is subsignature of thatMethod if either A) scope method is same signature like thatMethod B) scope method is same signature like type erasure of thatMethod See https://docs.oracle.com/javase/specs/jls/se8/html/jls-8.html#jls-8.4.2
+ * @param thatMethod - the checked method
+ * @return true if scope method is subsignature of thatMethod
+ */
+public
+boolean
+isSubSignature
+(
+CtMethod
+<
+?
+>
+thatMethod
+)
+{
+return
+checkSignature
+(
+thatMethod
+,
+true
+)
+;
+}

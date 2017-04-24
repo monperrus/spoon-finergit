@@ -1,0 +1,33 @@
+/** 
+ * Create visitedSet lazily
+ */
+private
+Set
+<
+String
+>
+getVisitedSet
+(
+)
+{
+if
+(
+visitedSet
+==
+null
+)
+{
+visitedSet
+=
+new
+HashSet
+<
+>
+(
+)
+;
+}
+return
+visitedSet
+;
+}

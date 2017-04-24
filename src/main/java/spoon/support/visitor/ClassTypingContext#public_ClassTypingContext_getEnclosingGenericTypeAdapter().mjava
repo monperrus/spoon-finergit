@@ -1,0 +1,11 @@
+@Override
+public
+ClassTypingContext
+getEnclosingGenericTypeAdapter
+(
+)
+{
+return
+enclosingClassTypingContext
+;
+}

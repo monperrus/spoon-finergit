@@ -1,0 +1,17 @@
+<
+B
+extends
+A
+>
+void
+m
+(
+List
+<
+?
+B
+>
+l
+)
+{
+}

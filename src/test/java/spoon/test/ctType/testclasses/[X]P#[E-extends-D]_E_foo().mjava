@@ -1,0 +1,15 @@
+@Override
+<
+E
+extends
+D
+>
+E
+foo
+(
+)
+{
+return
+null
+;
+}

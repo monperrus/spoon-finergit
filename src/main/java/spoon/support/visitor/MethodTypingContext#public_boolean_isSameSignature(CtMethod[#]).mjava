@@ -1,0 +1,25 @@
+/** 
+ * The same signature is the necessary condition for method A overrides method B.
+ * @param thatMethod - the checked method
+ * @return true if this method and `thatMethod` has same signature
+ */
+public
+boolean
+isSameSignature
+(
+CtMethod
+<
+?
+>
+thatMethod
+)
+{
+return
+checkSignature
+(
+thatMethod
+,
+false
+)
+;
+}

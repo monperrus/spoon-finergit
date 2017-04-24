@@ -1,0 +1,8 @@
+/** 
+ * @return the {@link GenericTypeAdapter}, which adapts generic types of enclosing type
+ */
+GenericTypeAdapter
+getEnclosingGenericTypeAdapter
+(
+)
+;

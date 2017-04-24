@@ -1,0 +1,10 @@
+/** 
+ * @see TypeFactory#createTypeAdapter(CtFormalTypeDeclarer)
+ */
+GenericTypeAdapter
+createTypeAdapter
+(
+CtFormalTypeDeclarer
+formalTypeDeclarer
+)
+;

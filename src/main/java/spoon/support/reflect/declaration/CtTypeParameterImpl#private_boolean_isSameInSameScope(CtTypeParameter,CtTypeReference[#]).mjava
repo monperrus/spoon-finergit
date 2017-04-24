@@ -1,0 +1,54 @@
+/** 
+ * Note: This method expects that both arguments are already adapted to the same scope
+ * @param typeParam a type param 1
+ * @param typeRef a reference to some type 2
+ * @return true if typeParam and typeRef represents same type parameter.
+ */
+private
+static
+boolean
+isSameInSameScope
+(
+CtTypeParameter
+typeParam
+,
+CtTypeReference
+<
+?
+>
+typeRef
+)
+{
+if
+(
+typeRef
+instanceof
+CtTypeParameterReference
+)
+{
+return
+typeParam
+.
+getSimpleName
+(
+)
+.
+equals
+(
+(
+(
+CtTypeParameterReference
+)
+typeRef
+)
+.
+getSimpleName
+(
+)
+)
+;
+}
+return
+false
+;
+}

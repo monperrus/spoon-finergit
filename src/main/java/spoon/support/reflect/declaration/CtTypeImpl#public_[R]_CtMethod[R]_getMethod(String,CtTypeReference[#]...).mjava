@@ -151,6 +151,8 @@ if
 !
 isSameParameter
 (
+candidate
+,
 (
 (
 CtArrayTypeReference
@@ -231,6 +233,8 @@ if
 !
 isSameParameter
 (
+candidate
+,
 ctParameterType
 ,
 parameterType

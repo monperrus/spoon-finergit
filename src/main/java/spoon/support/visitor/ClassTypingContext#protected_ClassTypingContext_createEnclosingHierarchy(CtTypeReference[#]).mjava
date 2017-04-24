@@ -1,0 +1,22 @@
+/** 
+ * might be used to create custom chain of super type hierarchies
+ */
+protected
+ClassTypingContext
+createEnclosingHierarchy
+(
+CtTypeReference
+<
+?
+>
+enclosingTypeRef
+)
+{
+return
+new
+ClassTypingContext
+(
+enclosingTypeRef
+)
+;
+}
