@@ -134,9 +134,7 @@ CtTypeReference
 >
 actualTypeArguments
 =
-typeToArguments
-.
-get
+getActualTypeArguments
 (
 typeDeclarer
 .
