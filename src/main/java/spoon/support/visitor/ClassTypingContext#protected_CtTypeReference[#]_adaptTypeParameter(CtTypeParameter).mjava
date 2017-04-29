@@ -3,7 +3,8 @@
  * @param typeParam to be resolved {@link CtTypeParameter}
  * @return {@link CtTypeReference} or {@link CtTypeParameterReference} adapted to scope of this {@link ClassTypingContext}or null if `typeParam` cannot be adapted to target `scope`
  */
-private
+@Override
+protected
 CtTypeReference
 <
 ?
