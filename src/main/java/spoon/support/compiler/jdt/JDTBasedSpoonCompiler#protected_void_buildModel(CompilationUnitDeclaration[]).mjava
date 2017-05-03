@@ -27,6 +27,16 @@ unit
 units
 )
 {
+if
+(
+!
+unit
+.
+isEmpty
+(
+)
+)
+{
 final
 String
 unitPath
@@ -103,6 +113,7 @@ build
 (
 )
 ;
+}
 }
 }
 }

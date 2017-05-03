@@ -24,9 +24,11 @@ String
 [
 ]
 {
+"--compile"
+,
 "--output-type"
 ,
-"nooutput"
+"compilationunits"
 }
 )
 ;
