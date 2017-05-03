@@ -72,12 +72,13 @@ Type
 .
 createReference
 (
-values
-[
-0
-]
+value
 .
 getClass
+(
+)
+.
+getComponentType
 (
 )
 )
