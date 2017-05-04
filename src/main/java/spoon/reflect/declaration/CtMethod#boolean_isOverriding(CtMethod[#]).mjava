@@ -1,0 +1,14 @@
+/** 
+ * @param superMethod to be checked method
+ * @return true if this method overrides `superMethod`.<br>Returns true for itself too. <pre> assertTrue(this.isOverriding(this)) </pre>
+ */
+boolean
+isOverriding
+(
+CtMethod
+<
+?
+>
+superMethod
+)
+;

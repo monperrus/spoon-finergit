@@ -1,0 +1,17 @@
+@Override
+B
+<
+InputStream
+,
+FilterInputStream
+>
+m2
+(
+C
+c
+)
+{
+return
+null
+;
+}

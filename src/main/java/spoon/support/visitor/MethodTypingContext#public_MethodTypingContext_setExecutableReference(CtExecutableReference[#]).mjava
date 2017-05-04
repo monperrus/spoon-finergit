@@ -23,15 +23,9 @@ this
 .
 scopeMethod
 =
-(
-CtMethod
-<
-?
->
-)
 execRef
 .
-getDeclaration
+getExecutableDeclaration
 (
 )
 ;

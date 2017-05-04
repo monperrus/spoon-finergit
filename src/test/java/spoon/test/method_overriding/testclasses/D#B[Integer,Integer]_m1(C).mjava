@@ -1,0 +1,17 @@
+@Override
+B
+<
+Integer
+,
+Integer
+>
+m1
+(
+C
+c
+)
+{
+return
+null
+;
+}
