@@ -100,6 +100,8 @@ mode
 enter
 (
 ifaceRef
+,
+true
 )
 ;
 if
@@ -145,6 +147,8 @@ outputConsumer
 exit
 (
 ifaceRef
+,
+true
 )
 ;
 if
