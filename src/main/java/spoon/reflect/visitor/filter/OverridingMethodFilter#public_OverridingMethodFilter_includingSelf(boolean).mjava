@@ -1,0 +1,21 @@
+/** 
+ * @param includingSelf if false then element which is equal to the #method is not matching.false is default behavior
+ */
+public
+OverridingMethodFilter
+includingSelf
+(
+boolean
+includingSelf
+)
+{
+this
+.
+includingSelf
+=
+includingSelf
+;
+return
+this
+;
+}

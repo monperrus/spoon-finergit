@@ -112,7 +112,7 @@ enter
 (
 superClassRef
 ,
-false
+true
 )
 ;
 if
@@ -161,7 +161,7 @@ exit
 (
 superClassRef
 ,
-false
+true
 )
 ;
 }

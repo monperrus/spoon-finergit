@@ -18,4 +18,16 @@ method
 =
 method
 ;
+context
+=
+new
+MethodTypingContext
+(
+)
+.
+setMethod
+(
+method
+)
+;
 }
