@@ -1,3 +1,7 @@
+/** 
+ * The types whose qualified name is in distinctSet are not visited. The qualified name of each type visited by this mapping function is added to `distinctSet`
+ * @param distinctSet - Set of qualified names of types, which has to be ignored, because they were already processed
+ */
 public
 AllTypeMembersFunction
 distinctSet
@@ -6,14 +10,14 @@ Set
 <
 String
 >
-distintSet
+distinctSet
 )
 {
 this
 .
-distintSet
+distinctSet
 =
-distintSet
+distinctSet
 ;
 return
 this
