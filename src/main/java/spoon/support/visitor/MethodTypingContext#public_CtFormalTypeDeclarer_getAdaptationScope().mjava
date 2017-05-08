@@ -1,0 +1,14 @@
+@Override
+public
+CtFormalTypeDeclarer
+getAdaptationScope
+(
+)
+{
+return
+(
+CtFormalTypeDeclarer
+)
+scopeMethod
+;
+}

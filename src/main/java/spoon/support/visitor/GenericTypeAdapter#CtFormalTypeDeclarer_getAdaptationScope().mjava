@@ -1,0 +1,8 @@
+/** 
+ * @return the scope of this type adapter
+ */
+CtFormalTypeDeclarer
+getAdaptationScope
+(
+)
+;

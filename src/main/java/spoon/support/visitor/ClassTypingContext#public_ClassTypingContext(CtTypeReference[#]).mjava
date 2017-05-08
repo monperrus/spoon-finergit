@@ -11,6 +11,14 @@ CtTypeReference
 typeReference
 )
 {
+scopeType
+=
+typeReference
+.
+getTypeDeclaration
+(
+)
+;
 lastResolvedSuperclass
 =
 typeReference

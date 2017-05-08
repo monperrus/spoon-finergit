@@ -1,0 +1,14 @@
+@Override
+public
+CtType
+<
+?
+>
+getAdaptationScope
+(
+)
+{
+return
+scopeType
+;
+}

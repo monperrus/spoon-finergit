@@ -11,6 +11,10 @@ CtType
 type
 )
 {
+scopeType
+=
+type
+;
 lastResolvedSuperclass
 =
 type
