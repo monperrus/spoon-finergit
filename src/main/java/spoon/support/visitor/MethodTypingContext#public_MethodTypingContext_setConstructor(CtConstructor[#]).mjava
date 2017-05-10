@@ -9,11 +9,10 @@ CtConstructor
 scopeConstructor
 )
 {
-this
-.
-scopeMethod
-=
+setScopeMethod
+(
 scopeConstructor
+)
 ;
 actualTypeArguments
 =

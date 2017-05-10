@@ -6,6 +6,13 @@ ClassTypingContext
 classTypingContext
 )
 {
+checkSameTypingContext
+(
+classTypingContext
+,
+scopeMethod
+)
+;
 this
 .
 classTypingContext

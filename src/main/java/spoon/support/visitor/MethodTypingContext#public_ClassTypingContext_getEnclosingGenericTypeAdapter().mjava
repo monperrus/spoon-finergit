@@ -21,14 +21,7 @@ classTypingContext
 new
 ClassTypingContext
 (
-(
-(
-CtTypeMember
-)
-scopeMethod
-)
-.
-getDeclaringType
+getScopeMethodDeclaringType
 (
 )
 )

@@ -19,14 +19,13 @@ getActualTypeArguments
 (
 )
 ;
-this
-.
-scopeMethod
-=
+setScopeMethod
+(
 execRef
 .
 getExecutableDeclaration
 (
+)
 )
 ;
 if
