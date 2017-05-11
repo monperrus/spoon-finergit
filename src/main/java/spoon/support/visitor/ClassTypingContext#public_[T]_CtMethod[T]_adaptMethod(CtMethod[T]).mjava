@@ -48,23 +48,6 @@ SpoonException
 }
 if
 (
-classTypingContext
-==
-null
-)
-{
-throw
-new
-SpoonException
-(
-"Cannot adapt method becasue target classTypingContext was not set"
-)
-;
-}
-if
-(
-classTypingContext
-.
 getAdaptationScope
 (
 )
@@ -78,8 +61,6 @@ method
 }
 if
 (
-classTypingContext
-.
 isSubtypeOf
 (
 declType
@@ -129,8 +110,6 @@ adaptedMethod
 .
 setParent
 (
-classTypingContext
-.
 getAdaptationScope
 (
 )

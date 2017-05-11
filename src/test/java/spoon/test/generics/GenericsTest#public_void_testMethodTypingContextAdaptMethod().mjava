@@ -80,6 +80,15 @@ WeddingLunch
 class
 )
 ;
+ClassTypingContext
+ctcWeddingLunch
+=
+new
+ClassTypingContext
+(
+ctClassWeddingLunch
+)
+;
 final
 MethodTypingContext
 methodSTH
@@ -91,11 +100,7 @@ MethodTypingContext
 .
 setClassTypingContext
 (
-new
-ClassTypingContext
-(
-ctClassWeddingLunch
-)
+ctcWeddingLunch
 )
 ;
 CtMethod
@@ -104,7 +109,7 @@ CtMethod
 >
 adaptedLunchEatMe
 =
-methodSTH
+ctcWeddingLunch
 .
 adaptMethod
 (
@@ -292,7 +297,7 @@ assertSame
 (
 adaptedLunchEatMe
 ,
-methodSTH
+ctcWeddingLunch
 .
 adaptMethod
 (
@@ -382,7 +387,7 @@ assertEquals
 (
 adaptedLunchEatMe
 ,
-methodSTH
+ctcWeddingLunch
 .
 adaptMethod
 (
