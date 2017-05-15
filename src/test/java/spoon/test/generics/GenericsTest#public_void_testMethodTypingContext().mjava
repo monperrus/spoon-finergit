@@ -127,16 +127,6 @@ first
 (
 )
 ;
-assertTrue
-(
-methodSTH
-.
-isOverriding
-(
-trLunch_eatMe
-)
-)
-;
 CtInvocation
 <
 ?

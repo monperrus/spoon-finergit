@@ -2,10 +2,7 @@ private
 void
 setScopeMethod
 (
-CtExecutable
-<
-?
->
+CtFormalTypeDeclarer
 executable
 )
 {

@@ -5,10 +5,7 @@ checkSameTypingContext
 ClassTypingContext
 ctc
 ,
-CtExecutable
-<
-?
->
+CtFormalTypeDeclarer
 executable
 )
 {
@@ -29,12 +26,7 @@ CtType
 >
 scope
 =
-(
-(
-CtTypeMember
-)
 executable
-)
 .
 getDeclaringType
 (

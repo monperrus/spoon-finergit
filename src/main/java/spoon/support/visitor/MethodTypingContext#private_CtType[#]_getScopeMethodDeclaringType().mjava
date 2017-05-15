@@ -15,12 +15,7 @@ null
 )
 {
 return
-(
-(
-CtTypeMember
-)
 scopeMethod
-)
 .
 getDeclaringType
 (

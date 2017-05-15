@@ -6,9 +6,6 @@ getAdaptationScope
 )
 {
 return
-(
-CtFormalTypeDeclarer
-)
 scopeMethod
 ;
 }

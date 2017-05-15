@@ -1,0 +1,52 @@
+/** 
+ * The same signature is the necessary condition for method A overrides method B.
+ * @param thatExecutable - the checked method
+ * @return true if this method and `thatMethod` has same signature
+ */
+public
+boolean
+isSameSignature
+(
+CtExecutable
+<
+?
+>
+thisExecutable
+,
+CtMethod
+<
+?
+>
+thatExecutable
+)
+{
+if
+(
+(
+thatExecutable
+instanceof
+CtMethod
+||
+thatExecutable
+instanceof
+CtConstructor
+)
+==
+false
+)
+{
+return
+false
+;
+}
+return
+isSameSignature
+(
+thisExecutable
+,
+thatExecutable
+,
+false
+)
+;
+}

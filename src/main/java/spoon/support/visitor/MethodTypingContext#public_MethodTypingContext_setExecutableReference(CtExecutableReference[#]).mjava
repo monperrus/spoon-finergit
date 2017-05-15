@@ -21,6 +21,9 @@ getActualTypeArguments
 ;
 setScopeMethod
 (
+(
+CtFormalTypeDeclarer
+)
 execRef
 .
 getExecutableDeclaration
