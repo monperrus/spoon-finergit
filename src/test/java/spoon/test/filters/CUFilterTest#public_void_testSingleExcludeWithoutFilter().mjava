@@ -133,7 +133,7 @@ getReturnedExpression
 ;
 assertEquals
 (
-"B"
+"spoon.test.same.B"
 ,
 ctConstructorCall
 .
