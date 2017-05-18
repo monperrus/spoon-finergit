@@ -1,0 +1,15 @@
+@EnsuresQualifierIf(result=true,expression="a",qualifier=NonNull.class)
+public
+boolean
+setFieldMaybe
+(
+)
+{
+a
+=
+""
+;
+return
+true
+;
+}

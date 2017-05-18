@@ -1,0 +1,12 @@
+@EnsuresQualifier(expression="a",qualifier=NonNull.class)
+public
+void
+setField
+(
+)
+{
+a
+=
+""
+;
+}

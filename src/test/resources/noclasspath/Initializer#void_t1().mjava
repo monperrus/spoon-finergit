@@ -1,0 +1,14 @@
+void
+t1
+(
+)
+{
+this
+.
+f
+.
+toString
+(
+)
+;
+}
