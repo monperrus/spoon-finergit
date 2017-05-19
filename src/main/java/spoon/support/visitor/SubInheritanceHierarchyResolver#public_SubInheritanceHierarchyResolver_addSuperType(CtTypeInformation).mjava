@@ -1,0 +1,43 @@
+/** 
+ * Add another super type to this mapping function. Using this function you can search parallel in more sub type hierarchies.
+ * @param superType - the type whose sub types will be returned by this mapping function too.
+ */
+public
+SubInheritanceHierarchyResolver
+addSuperType
+(
+CtTypeInformation
+superType
+)
+{
+targetSuperTypes
+.
+add
+(
+superType
+.
+getQualifiedName
+(
+)
+)
+;
+if
+(
+hasSuperInterface
+==
+false
+)
+{
+hasSuperInterface
+=
+superType
+.
+isInterface
+(
+)
+;
+}
+return
+this
+;
+}

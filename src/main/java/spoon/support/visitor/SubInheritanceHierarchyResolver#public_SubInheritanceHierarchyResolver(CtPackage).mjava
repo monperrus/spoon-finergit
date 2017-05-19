@@ -1,0 +1,12 @@
+public
+SubInheritanceHierarchyResolver
+(
+CtPackage
+input
+)
+{
+inputPackage
+=
+input
+;
+}
