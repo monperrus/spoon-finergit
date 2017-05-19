@@ -39,6 +39,8 @@ reference
 CtUnboundVariableReference
 )
 (
+this
+.
 stack
 .
 peek

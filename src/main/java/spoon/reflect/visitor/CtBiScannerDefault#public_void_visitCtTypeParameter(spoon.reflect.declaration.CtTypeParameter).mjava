@@ -33,6 +33,8 @@ declaration
 CtTypeParameter
 )
 (
+this
+.
 stack
 .
 peek

@@ -1,0 +1,9 @@
+/** 
+ * Get the short summary of the javadoc (first sentence of the javadoc)
+ * @return the summary of the javadoc
+ */
+String
+getShortDescription
+(
+)
+;

@@ -1,0 +1,8 @@
+/** 
+ * Creates a javadoc comment.
+ */
+CtJavaDoc
+createJavaDoc
+(
+)
+;

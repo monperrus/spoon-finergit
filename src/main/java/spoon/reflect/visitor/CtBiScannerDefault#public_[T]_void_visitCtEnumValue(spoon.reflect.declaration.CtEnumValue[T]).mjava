@@ -40,6 +40,8 @@ declaration
 CtEnumValue
 )
 (
+this
+.
 stack
 .
 peek

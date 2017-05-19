@@ -39,6 +39,8 @@ code
 CtBlock
 )
 (
+this
+.
 stack
 .
 peek

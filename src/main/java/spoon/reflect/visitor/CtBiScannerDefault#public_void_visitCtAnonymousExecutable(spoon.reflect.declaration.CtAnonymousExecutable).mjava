@@ -33,6 +33,8 @@ declaration
 CtAnonymousExecutable
 )
 (
+this
+.
 stack
 .
 peek

@@ -1,0 +1,15 @@
+/** 
+ * @see CodeFactory#createJavaDocTag(String,CtJavaDocTag.TagType)
+ */
+CtJavaDocTag
+createJavaDocTag
+(
+String
+content
+,
+CtJavaDocTag
+.
+TagType
+type
+)
+;

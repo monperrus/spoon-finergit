@@ -39,6 +39,8 @@ declaration
 CtConstructor
 )
 (
+this
+.
 stack
 .
 peek

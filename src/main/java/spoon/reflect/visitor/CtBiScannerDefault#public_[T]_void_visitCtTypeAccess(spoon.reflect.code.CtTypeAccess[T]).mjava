@@ -40,6 +40,8 @@ code
 CtTypeAccess
 )
 (
+this
+.
 stack
 .
 peek

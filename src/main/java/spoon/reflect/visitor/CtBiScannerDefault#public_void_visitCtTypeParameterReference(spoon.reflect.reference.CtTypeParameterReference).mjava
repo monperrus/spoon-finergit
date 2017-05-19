@@ -33,6 +33,8 @@ reference
 CtTypeParameterReference
 )
 (
+this
+.
 stack
 .
 peek

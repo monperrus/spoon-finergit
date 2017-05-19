@@ -33,6 +33,8 @@ code
 CtCatch
 )
 (
+this
+.
 stack
 .
 peek

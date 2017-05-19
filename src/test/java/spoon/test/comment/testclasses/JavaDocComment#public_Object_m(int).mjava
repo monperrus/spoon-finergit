@@ -1,0 +1,20 @@
+/** 
+ * With tags
+ * @param i the parameters
+ * @return the return type
+ * @throws RuntimeException an exception
+ */
+public
+Object
+m
+(
+int
+i
+)
+throws
+RuntimeException
+{
+return
+null
+;
+}

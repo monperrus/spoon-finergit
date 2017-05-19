@@ -1,5 +1,5 @@
 /** 
- * @param element
+ * @param e
  * @return body of element or null if this element has no body
  */
 static

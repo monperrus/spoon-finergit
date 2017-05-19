@@ -1,0 +1,16 @@
+/** 
+ * Define the content of the tag
+ * @param content the new content of the tag
+ */
+<
+E
+extends
+CtJavaDocTag
+>
+E
+setContent
+(
+String
+content
+)
+;

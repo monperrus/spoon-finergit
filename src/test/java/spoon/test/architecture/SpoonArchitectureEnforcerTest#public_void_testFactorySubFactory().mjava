@@ -253,6 +253,14 @@ val
 ;
 assertTrue
 (
+m
+.
+getSignature
+(
+)
++
+" is not present in the main factory"
+,
 factoryImpl
 .
 hasMethod

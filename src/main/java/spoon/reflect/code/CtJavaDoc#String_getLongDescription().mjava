@@ -1,0 +1,9 @@
+/** 
+ * Get the long description of the javadoc
+ * @return the long description of the javadoc
+ */
+String
+getLongDescription
+(
+)
+;

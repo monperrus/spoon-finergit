@@ -40,6 +40,8 @@ code
 CtVariableWrite
 )
 (
+this
+.
 stack
 .
 peek

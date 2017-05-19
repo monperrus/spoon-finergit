@@ -39,6 +39,8 @@ code
 CtCodeSnippetExpression
 )
 (
+this
+.
 stack
 .
 peek

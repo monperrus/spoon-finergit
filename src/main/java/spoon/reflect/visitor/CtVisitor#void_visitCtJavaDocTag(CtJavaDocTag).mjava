@@ -1,0 +1,10 @@
+/** 
+ * Visits a javadoc tag
+ */
+void
+visitCtJavaDocTag
+(
+CtJavaDocTag
+docTag
+)
+;

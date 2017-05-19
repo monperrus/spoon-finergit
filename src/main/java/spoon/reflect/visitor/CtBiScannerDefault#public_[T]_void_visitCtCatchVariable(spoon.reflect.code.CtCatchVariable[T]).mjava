@@ -39,6 +39,8 @@ code
 CtCatchVariable
 )
 (
+this
+.
 stack
 .
 peek

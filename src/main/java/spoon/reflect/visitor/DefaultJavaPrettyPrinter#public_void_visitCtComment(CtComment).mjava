@@ -46,7 +46,7 @@ printer
 .
 write
 (
-"/**"
+JAVADOC_START
 )
 .
 writeln
@@ -62,7 +62,7 @@ printer
 .
 write
 (
-"/**"
+JAVADOC_START
 )
 .
 writeln
@@ -82,7 +82,7 @@ printer
 .
 write
 (
-"// "
+INLINE_COMMENT_START
 )
 ;
 break
@@ -94,7 +94,7 @@ printer
 .
 write
 (
-"/* "
+BLOCK_COMMENT_START
 )
 ;
 break
@@ -141,7 +141,7 @@ content
 .
 split
 (
-"\n"
+LINE_SEPARATOR
 )
 ;
 for
@@ -229,7 +229,7 @@ printer
 .
 write
 (
-" * "
+COMMENT_STAR
 +
 com
 )
@@ -265,6 +265,72 @@ writeTabs
 }
 }
 }
+if
+(
+comment
+instanceof
+CtJavaDoc
+)
+{
+if
+(
+!
+(
+(
+CtJavaDoc
+)
+comment
+)
+.
+getTags
+(
+)
+.
+isEmpty
+(
+)
+)
+{
+printer
+.
+write
+(
+" *"
+)
+.
+writeln
+(
+)
+.
+writeTabs
+(
+)
+;
+}
+for
+(
+CtJavaDocTag
+docTag
+:
+(
+(
+CtJavaDoc
+)
+comment
+)
+.
+getTags
+(
+)
+)
+{
+scan
+(
+docTag
+)
+;
+}
+}
 break
 ;
 }
@@ -284,7 +350,7 @@ printer
 .
 write
 (
-" */"
+BLOCK_COMMENT_END
 )
 ;
 break
@@ -296,7 +362,7 @@ printer
 .
 write
 (
-" */"
+BLOCK_COMMENT_END
 )
 ;
 break
@@ -308,7 +374,7 @@ printer
 .
 write
 (
-" */"
+BLOCK_COMMENT_END
 )
 ;
 break

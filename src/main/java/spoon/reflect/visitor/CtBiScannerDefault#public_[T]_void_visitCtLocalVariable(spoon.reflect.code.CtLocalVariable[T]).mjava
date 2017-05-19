@@ -39,6 +39,8 @@ code
 CtLocalVariable
 )
 (
+this
+.
 stack
 .
 peek

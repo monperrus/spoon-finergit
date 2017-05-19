@@ -39,6 +39,8 @@ declaration
 CtAnnotationMethod
 )
 (
+this
+.
 stack
 .
 peek

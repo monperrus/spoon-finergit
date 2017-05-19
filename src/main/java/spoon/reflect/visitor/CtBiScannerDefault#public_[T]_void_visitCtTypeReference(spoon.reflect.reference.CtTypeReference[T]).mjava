@@ -39,6 +39,8 @@ reference
 CtTypeReference
 )
 (
+this
+.
 stack
 .
 peek

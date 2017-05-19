@@ -1,0 +1,10 @@
+/** 
+ * Visits a javadoc comment
+ */
+void
+visitCtJavaDoc
+(
+CtJavaDoc
+comment
+)
+;

@@ -1,0 +1,16 @@
+/** 
+ * Define the type of the tag
+ * @param type the type name
+ */
+<
+E
+extends
+CtJavaDocTag
+>
+E
+setType
+(
+String
+type
+)
+;

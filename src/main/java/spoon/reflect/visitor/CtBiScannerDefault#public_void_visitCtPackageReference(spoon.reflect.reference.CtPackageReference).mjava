@@ -33,6 +33,8 @@ reference
 CtPackageReference
 )
 (
+this
+.
 stack
 .
 peek

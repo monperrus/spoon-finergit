@@ -39,6 +39,8 @@ code
 CtNewArray
 )
 (
+this
+.
 stack
 .
 peek

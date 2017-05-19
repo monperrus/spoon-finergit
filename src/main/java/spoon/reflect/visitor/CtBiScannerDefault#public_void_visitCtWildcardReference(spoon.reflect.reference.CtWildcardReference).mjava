@@ -33,6 +33,8 @@ reference
 CtWildcardReference
 )
 (
+this
+.
 stack
 .
 peek

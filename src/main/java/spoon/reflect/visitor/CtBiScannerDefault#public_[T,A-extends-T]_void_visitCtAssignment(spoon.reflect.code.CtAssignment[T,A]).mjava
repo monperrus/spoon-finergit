@@ -45,6 +45,8 @@ code
 CtAssignment
 )
 (
+this
+.
 stack
 .
 peek

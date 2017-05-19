@@ -1,0 +1,8 @@
+/** 
+ * Creates a javadoc tag.
+ */
+CtJavaDocTag
+createJavaDocTag
+(
+)
+;

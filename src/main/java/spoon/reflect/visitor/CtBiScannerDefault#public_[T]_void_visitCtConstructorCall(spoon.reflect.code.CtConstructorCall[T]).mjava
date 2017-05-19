@@ -40,6 +40,8 @@ code
 CtConstructorCall
 )
 (
+this
+.
 stack
 .
 peek

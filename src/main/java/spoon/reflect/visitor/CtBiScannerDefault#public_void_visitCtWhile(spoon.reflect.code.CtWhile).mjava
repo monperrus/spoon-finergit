@@ -33,6 +33,8 @@ code
 CtWhile
 )
 (
+this
+.
 stack
 .
 peek

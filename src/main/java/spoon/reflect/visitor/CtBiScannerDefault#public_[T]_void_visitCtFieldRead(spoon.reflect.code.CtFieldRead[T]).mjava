@@ -40,6 +40,8 @@ code
 CtFieldRead
 )
 (
+this
+.
 stack
 .
 peek

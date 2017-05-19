@@ -1,0 +1,16 @@
+/** 
+ * Remove a specific tag
+ * @param tag the tag to remove
+ */
+<
+E
+extends
+CtJavaDoc
+>
+E
+removeTag
+(
+CtJavaDocTag
+tag
+)
+;

@@ -39,6 +39,8 @@ reference
 CtFieldReference
 )
 (
+this
+.
 stack
 .
 peek

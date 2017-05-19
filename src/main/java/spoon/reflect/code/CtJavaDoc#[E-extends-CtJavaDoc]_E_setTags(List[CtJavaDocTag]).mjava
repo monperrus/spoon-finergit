@@ -1,0 +1,19 @@
+/** 
+ * Define the list of tags
+ * @param tags the new list of tags
+ */
+<
+E
+extends
+CtJavaDoc
+>
+E
+setTags
+(
+List
+<
+CtJavaDocTag
+>
+tags
+)
+;

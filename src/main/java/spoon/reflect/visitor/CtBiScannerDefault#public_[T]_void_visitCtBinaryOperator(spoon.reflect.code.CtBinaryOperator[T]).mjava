@@ -39,6 +39,8 @@ code
 CtBinaryOperator
 )
 (
+this
+.
 stack
 .
 peek

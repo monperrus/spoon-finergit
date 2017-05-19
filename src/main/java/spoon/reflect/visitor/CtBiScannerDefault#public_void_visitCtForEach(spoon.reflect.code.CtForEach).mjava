@@ -33,6 +33,8 @@ code
 CtForEach
 )
 (
+this
+.
 stack
 .
 peek

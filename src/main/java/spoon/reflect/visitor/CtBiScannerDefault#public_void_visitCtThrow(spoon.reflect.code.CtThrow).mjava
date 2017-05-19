@@ -33,6 +33,8 @@ code
 CtThrow
 )
 (
+this
+.
 stack
 .
 peek

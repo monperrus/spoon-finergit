@@ -33,6 +33,8 @@ code
 CtBreak
 )
 (
+this
+.
 stack
 .
 peek

@@ -39,6 +39,8 @@ code
 CtLiteral
 )
 (
+this
+.
 stack
 .
 peek

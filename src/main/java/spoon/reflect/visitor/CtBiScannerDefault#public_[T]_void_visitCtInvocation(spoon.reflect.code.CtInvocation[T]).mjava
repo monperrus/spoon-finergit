@@ -39,6 +39,8 @@ code
 CtInvocation
 )
 (
+this
+.
 stack
 .
 peek

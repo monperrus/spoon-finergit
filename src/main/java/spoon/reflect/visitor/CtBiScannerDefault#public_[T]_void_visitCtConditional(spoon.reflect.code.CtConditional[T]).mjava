@@ -39,6 +39,8 @@ code
 CtConditional
 )
 (
+this
+.
 stack
 .
 peek

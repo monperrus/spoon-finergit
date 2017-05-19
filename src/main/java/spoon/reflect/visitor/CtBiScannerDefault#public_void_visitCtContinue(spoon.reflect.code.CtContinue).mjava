@@ -33,6 +33,8 @@ code
 CtContinue
 )
 (
+this
+.
 stack
 .
 peek

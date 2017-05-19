@@ -39,6 +39,8 @@ declaration
 CtMethod
 )
 (
+this
+.
 stack
 .
 peek

@@ -1,0 +1,11 @@
+@Override
+public
+TagType
+getType
+(
+)
+{
+return
+type
+;
+}

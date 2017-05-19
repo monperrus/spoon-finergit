@@ -40,6 +40,8 @@ code
 CtThisAccess
 )
 (
+this
+.
 stack
 .
 peek

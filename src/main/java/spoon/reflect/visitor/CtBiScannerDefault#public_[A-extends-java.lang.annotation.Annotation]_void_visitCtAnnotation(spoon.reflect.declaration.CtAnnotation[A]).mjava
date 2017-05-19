@@ -47,6 +47,8 @@ declaration
 CtAnnotation
 )
 (
+this
+.
 stack
 .
 peek

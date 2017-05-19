@@ -40,6 +40,8 @@ code
 CtArrayRead
 )
 (
+this
+.
 stack
 .
 peek

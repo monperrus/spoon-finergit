@@ -39,6 +39,8 @@ declaration
 CtClass
 )
 (
+this
+.
 stack
 .
 peek

@@ -1,0 +1,20 @@
+/** 
+ * Add a new tag at the index position
+ * @param index the index of the new tag
+ * @param tag the new tag
+ */
+<
+E
+extends
+CtJavaDoc
+>
+E
+addTag
+(
+int
+index
+,
+CtJavaDocTag
+tag
+)
+;

@@ -1,0 +1,12 @@
+/** 
+ * Get all the tag of the javadoc
+ * @return the tag list
+ */
+List
+<
+CtJavaDocTag
+>
+getTags
+(
+)
+;

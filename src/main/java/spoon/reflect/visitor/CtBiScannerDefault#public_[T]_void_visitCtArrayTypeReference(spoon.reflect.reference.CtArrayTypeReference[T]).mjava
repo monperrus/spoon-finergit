@@ -39,6 +39,8 @@ reference
 CtArrayTypeReference
 )
 (
+this
+.
 stack
 .
 peek

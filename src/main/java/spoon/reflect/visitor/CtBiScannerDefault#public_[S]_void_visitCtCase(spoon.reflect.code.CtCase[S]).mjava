@@ -39,6 +39,8 @@ code
 CtCase
 )
 (
+this
+.
 stack
 .
 peek

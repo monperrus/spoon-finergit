@@ -33,6 +33,8 @@ code
 CtCodeSnippetStatement
 )
 (
+this
+.
 stack
 .
 peek

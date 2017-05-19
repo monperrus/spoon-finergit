@@ -55,6 +55,8 @@ code
 CtExecutableReferenceExpression
 )
 (
+this
+.
 stack
 .
 peek

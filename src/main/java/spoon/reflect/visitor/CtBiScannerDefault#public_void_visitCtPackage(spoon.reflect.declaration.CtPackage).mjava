@@ -33,6 +33,8 @@ declaration
 CtPackage
 )
 (
+this
+.
 stack
 .
 peek

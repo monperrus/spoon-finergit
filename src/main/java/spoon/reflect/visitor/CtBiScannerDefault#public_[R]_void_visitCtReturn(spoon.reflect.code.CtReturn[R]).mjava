@@ -39,6 +39,8 @@ code
 CtReturn
 )
 (
+this
+.
 stack
 .
 peek

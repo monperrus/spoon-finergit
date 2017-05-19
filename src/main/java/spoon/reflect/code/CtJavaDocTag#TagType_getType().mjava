@@ -1,0 +1,9 @@
+/** 
+ * The type of the tag
+ * @return the type of the tag
+ */
+TagType
+getType
+(
+)
+;

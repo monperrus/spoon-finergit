@@ -504,6 +504,12 @@ do
 String
 snippet
 =
+null
+;
+try
+{
+snippet
+=
 m
 .
 group
@@ -511,6 +517,21 @@ group
 1
 )
 ;
+}
+catch
+(
+IllegalStateException
+e
+)
+{
+fail
+(
+x
++
+" does not have code snippet"
+)
+;
+}
 snippet
 =
 StringEscapeUtils

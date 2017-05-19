@@ -40,6 +40,8 @@ reference
 CtIntersectionTypeReference
 )
 (
+this
+.
 stack
 .
 peek

@@ -40,6 +40,8 @@ code
 CtFieldWrite
 )
 (
+this
+.
 stack
 .
 peek

@@ -1,0 +1,16 @@
+/** 
+ * Remove a tag from the index
+ * @param index the position of the tag to remove
+ */
+<
+E
+extends
+CtJavaDoc
+>
+E
+removeTag
+(
+int
+index
+)
+;

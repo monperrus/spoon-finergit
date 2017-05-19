@@ -1,0 +1,16 @@
+/** 
+ * Define a parameter
+ * @param param the parameter
+ */
+<
+E
+extends
+CtJavaDocTag
+>
+E
+setParam
+(
+String
+param
+)
+;

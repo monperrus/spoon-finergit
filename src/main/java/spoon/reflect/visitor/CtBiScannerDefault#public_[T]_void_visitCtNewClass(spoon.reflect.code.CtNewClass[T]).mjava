@@ -39,6 +39,8 @@ code
 CtNewClass
 )
 (
+this
+.
 stack
 .
 peek

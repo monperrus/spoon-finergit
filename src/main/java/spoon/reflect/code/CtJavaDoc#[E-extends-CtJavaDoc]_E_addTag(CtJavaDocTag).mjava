@@ -1,0 +1,16 @@
+/** 
+ * Add a new tag at the end of the list
+ * @param tag the new tag
+ */
+<
+E
+extends
+CtJavaDoc
+>
+E
+addTag
+(
+CtJavaDocTag
+tag
+)
+;

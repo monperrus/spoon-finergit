@@ -39,6 +39,8 @@ code
 CtAssert
 )
 (
+this
+.
 stack
 .
 peek

@@ -39,6 +39,8 @@ code
 CtUnaryOperator
 )
 (
+this
+.
 stack
 .
 peek

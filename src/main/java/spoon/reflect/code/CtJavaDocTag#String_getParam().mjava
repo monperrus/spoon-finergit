@@ -1,0 +1,9 @@
+/** 
+ * Get the parameter of the tag return null when none is specified (only for @param and @throws)
+ * @return the parameter
+ */
+String
+getParam
+(
+)
+;

@@ -39,6 +39,8 @@ code
 CtSwitch
 )
 (
+this
+.
 stack
 .
 peek

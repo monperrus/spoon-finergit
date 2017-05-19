@@ -40,6 +40,8 @@ code
 CtSuperAccess
 )
 (
+this
+.
 stack
 .
 peek

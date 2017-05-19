@@ -39,6 +39,8 @@ reference
 CtLocalVariableReference
 )
 (
+this
+.
 stack
 .
 peek

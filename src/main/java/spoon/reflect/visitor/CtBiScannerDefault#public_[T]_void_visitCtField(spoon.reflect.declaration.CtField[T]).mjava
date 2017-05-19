@@ -39,6 +39,8 @@ declaration
 CtField
 )
 (
+this
+.
 stack
 .
 peek

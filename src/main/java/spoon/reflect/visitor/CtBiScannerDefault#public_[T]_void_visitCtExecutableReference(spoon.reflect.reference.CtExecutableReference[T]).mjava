@@ -39,6 +39,8 @@ reference
 CtExecutableReference
 )
 (
+this
+.
 stack
 .
 peek

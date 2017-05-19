@@ -40,6 +40,8 @@ code
 CtArrayWrite
 )
 (
+this
+.
 stack
 .
 peek

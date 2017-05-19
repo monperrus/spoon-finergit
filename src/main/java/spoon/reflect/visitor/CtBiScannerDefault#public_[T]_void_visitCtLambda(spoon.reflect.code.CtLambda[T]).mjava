@@ -40,6 +40,8 @@ code
 CtLambda
 )
 (
+this
+.
 stack
 .
 peek

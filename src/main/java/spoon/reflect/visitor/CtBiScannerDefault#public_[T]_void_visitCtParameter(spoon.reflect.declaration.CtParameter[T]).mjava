@@ -39,6 +39,8 @@ declaration
 CtParameter
 )
 (
+this
+.
 stack
 .
 peek
