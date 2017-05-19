@@ -1,0 +1,21 @@
+/** 
+ * @param failOnClassNotFound sets whether processing should throw an exception if class is missing in noClassPath mode
+ */
+public
+SubInheritanceHierarchyFunction
+failOnClassNotFound
+(
+boolean
+failOnClassNotFound
+)
+{
+this
+.
+failOnClassNotFound
+=
+failOnClassNotFound
+;
+return
+this
+;
+}

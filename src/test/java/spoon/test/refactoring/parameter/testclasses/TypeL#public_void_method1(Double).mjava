@@ -1,0 +1,11 @@
+@Override
+@TestHierarchy("A_method1")
+public
+void
+method1
+(
+Double
+p1
+)
+{
+}

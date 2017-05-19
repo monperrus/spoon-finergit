@@ -1,0 +1,17 @@
+private
+void
+anMethodWithLambdaByParam
+(
+IFaceB
+ifaceB
+)
+{
+anMethodWithLambdaByParam
+(
+p
+->
+{
+}
+)
+;
+}
