@@ -3,9 +3,7 @@
  * @param < R > the type of the sought program element references
  * @param factory the factory that contains the references where to recursive search on
  * @param filter the filter which defines the matching criteria
- * @deprecated use {@link #getElements(CtElement,Filter)} instead.
  */
-@Deprecated
 public
 static
 <
@@ -30,9 +28,17 @@ filter
 )
 {
 return
-getElements
+getReferences
 (
 factory
+.
+Package
+(
+)
+.
+getRootPackage
+(
+)
 ,
 filter
 )
