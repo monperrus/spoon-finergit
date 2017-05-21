@@ -1,0 +1,19 @@
+/** 
+ * Matches all lambdas implementing `iface` Use  {@link #addImplementingInterface(CtTypeInformation)} to define set of interfaces whose lambdas it is search for
+ */
+public
+LambdaFilter
+(
+CtInterface
+<
+?
+>
+iface
+)
+{
+addImplementingInterface
+(
+iface
+)
+;
+}
