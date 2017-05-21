@@ -154,7 +154,9 @@ getSimpleName
 .
 equals
 (
-"<init>"
+CtExecutableReference
+.
+CONSTRUCTOR_NAME
 )
 )
 {

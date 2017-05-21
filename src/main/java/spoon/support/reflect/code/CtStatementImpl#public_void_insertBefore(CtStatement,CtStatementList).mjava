@@ -78,7 +78,9 @@ getSimpleName
 .
 startsWith
 (
-"<init>"
+CtExecutableReference
+.
+CONSTRUCTOR_NAME
 )
 )
 {

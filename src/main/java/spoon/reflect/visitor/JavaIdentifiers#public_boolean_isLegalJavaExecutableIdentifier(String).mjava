@@ -28,7 +28,9 @@ string
 .
 equals
 (
-"<init>"
+CtExecutableReference
+.
+CONSTRUCTOR_NAME
 )
 )
 {

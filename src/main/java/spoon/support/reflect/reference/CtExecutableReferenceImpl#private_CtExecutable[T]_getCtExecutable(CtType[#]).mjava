@@ -72,7 +72,9 @@ getSimpleName
 .
 equals
 (
-"<init>"
+CtExecutableReference
+.
+CONSTRUCTOR_NAME
 )
 )
 )
@@ -149,7 +151,9 @@ getSimpleName
 .
 startsWith
 (
-"lambda$"
+CtExecutableReference
+.
+LAMBDA_NAME_PREFIX
 )
 )
 {
