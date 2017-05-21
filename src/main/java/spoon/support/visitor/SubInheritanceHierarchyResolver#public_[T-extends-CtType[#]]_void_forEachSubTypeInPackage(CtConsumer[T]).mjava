@@ -6,7 +6,10 @@ public
 <
 T
 extends
-CtTypeInformation
+CtType
+<
+?
+>
 >
 void
 forEachSubTypeInPackage
