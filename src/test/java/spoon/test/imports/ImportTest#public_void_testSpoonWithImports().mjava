@@ -211,7 +211,7 @@ assertEquals
 (
 "Spoon ignores the arguments of CtInvocations"
 ,
-1
+3
 ,
 imports2
 .

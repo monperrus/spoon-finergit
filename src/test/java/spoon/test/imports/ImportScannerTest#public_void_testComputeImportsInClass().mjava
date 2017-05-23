@@ -83,7 +83,7 @@ theClass
 ;
 assertEquals
 (
-2
+4
 ,
 imports
 .

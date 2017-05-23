@@ -49,7 +49,7 @@ result
 .
 contains
 (
-"import static spoon.Launcher.SPOONED_CLASSES;"
+"import spoon.Launcher;"
 )
 )
 ;
@@ -61,7 +61,7 @@ result
 .
 contains
 (
-"x = SPOONED_CLASSES"
+"x = Launcher.SPOONED_CLASSES"
 )
 )
 ;

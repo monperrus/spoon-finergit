@@ -43,13 +43,25 @@ output
 ;
 assertTrue
 (
+"The java file should contain import for Launcher"
+,
+result
+.
+contains
+(
+"import spoon.Launcher;"
+)
+)
+;
+assertTrue
+(
 "The xx variable should be attributed with SPOONED_CLASSES"
 ,
 result
 .
 contains
 (
-"xx = SPOONED_CLASSES"
+"xx = Launcher.SPOONED_CLASSES"
 )
 )
 ;
