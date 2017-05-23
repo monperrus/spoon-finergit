@@ -1,0 +1,21 @@
+/** 
+ * @param includingLambdas if true then extra search for {@link CtLambda} executables,with same signature will be processed too. If false, then it returns only  {@link CtMethod} instances.By default it is true.
+ */
+public
+AllMethodsSameSignatureFunction
+includingLambdas
+(
+boolean
+includingLambdas
+)
+{
+this
+.
+includingLambdas
+=
+includingLambdas
+;
+return
+this
+;
+}

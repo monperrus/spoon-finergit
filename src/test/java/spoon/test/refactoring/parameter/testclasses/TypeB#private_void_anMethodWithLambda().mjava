@@ -4,13 +4,16 @@ anMethodWithLambda
 (
 )
 {
-@TestHierarchy("A_method1")
 IFaceB
 ifaceB
 =
 p
 ->
 {
+@TestHierarchy("A_method1")
+int
+x
+;
 }
 ;
 ifaceB
