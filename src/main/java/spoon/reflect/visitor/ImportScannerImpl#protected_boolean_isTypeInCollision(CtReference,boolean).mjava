@@ -17,6 +17,10 @@ fqnMode
 if
 (
 targetType
+!=
+null
+&&
+targetType
 .
 getSimpleName
 (
