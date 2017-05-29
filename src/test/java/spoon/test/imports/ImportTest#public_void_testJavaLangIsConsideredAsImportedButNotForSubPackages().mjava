@@ -28,7 +28,7 @@ true
 String
 outputDir
 =
-"./target/spooned-javalang"
+"./target/spooned-javalang-sub"
 ;
 launcher
 .
