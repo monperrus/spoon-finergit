@@ -5,7 +5,6 @@
 void
 addCompilationUnitFilter
 (
-final
 CompilationUnitFilter
 filter
 )
