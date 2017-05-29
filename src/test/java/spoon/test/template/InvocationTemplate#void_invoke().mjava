@@ -1,0 +1,12 @@
+void
+invoke
+(
+)
+{
+iface
+.
+$method$
+(
+)
+;
+}
