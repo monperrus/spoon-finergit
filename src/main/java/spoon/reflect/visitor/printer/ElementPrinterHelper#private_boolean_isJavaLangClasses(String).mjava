@@ -1,0 +1,17 @@
+private
+boolean
+isJavaLangClasses
+(
+String
+importType
+)
+{
+return
+importType
+.
+matches
+(
+"^(java\\.lang\\.)[^.]*$"
+)
+;
+}
