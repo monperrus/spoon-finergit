@@ -73,6 +73,17 @@ constructor
 getDeclaringType
 (
 )
+!=
+null
+)
+{
+if
+(
+constructor
+.
+getDeclaringType
+(
+)
 .
 isLocalType
 (
@@ -119,6 +130,7 @@ getSimpleName
 )
 )
 ;
+}
 }
 elementPrinterHelper
 .

@@ -27,6 +27,10 @@ getPackage
 ;
 if
 (
+pack
+!=
+null
+&&
 ref
 .
 getPackage
