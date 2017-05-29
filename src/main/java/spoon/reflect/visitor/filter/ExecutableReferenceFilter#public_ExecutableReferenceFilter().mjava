@@ -1,0 +1,9 @@
+/** 
+ * Creates a new executable reference filter. Call  {@link #addExecutable(CtExecutable)} to define executableswhose references it matches.
+ */
+public
+ExecutableReferenceFilter
+(
+)
+{
+}

@@ -1,0 +1,20 @@
+/** 
+ * Creates a new executable reference filter.
+ * @param executable the executable whose references it matches
+ */
+public
+ExecutableReferenceFilter
+(
+CtExecutable
+<
+?
+>
+executable
+)
+{
+addExecutable
+(
+executable
+)
+;
+}
