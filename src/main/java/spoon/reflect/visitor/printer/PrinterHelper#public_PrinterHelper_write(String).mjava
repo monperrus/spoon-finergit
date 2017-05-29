@@ -23,6 +23,14 @@ append
 s
 )
 ;
+column
+=
+s
+.
+length
+(
+)
+;
 }
 return
 this

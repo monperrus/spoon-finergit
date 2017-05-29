@@ -350,7 +350,7 @@ INLINE
 {
 printer
 .
-insertLine
+writeln
 (
 )
 ;
