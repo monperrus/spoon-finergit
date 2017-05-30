@@ -89,6 +89,13 @@ decTab
 (
 )
 ;
+printer
+.
+adjustEndPosition
+(
+block
+)
+;
 if
 (
 env
@@ -109,6 +116,10 @@ isImplicit
 )
 {
 printer
+.
+writeTabs
+(
+)
 .
 write
 (

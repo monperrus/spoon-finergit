@@ -24,11 +24,9 @@ isPreserveLineNumbers
 {
 printer
 .
-adjustPosition
+adjustStartPosition
 (
 catchVariable
-,
-sourceCompilationUnit
 )
 ;
 }

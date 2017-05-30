@@ -46,11 +46,9 @@ CtNamedElement
 {
 printer
 .
-adjustPosition
+adjustStartPosition
 (
 e
-,
-sourceCompilationUnit
 )
 ;
 }

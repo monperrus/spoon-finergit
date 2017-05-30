@@ -150,10 +150,6 @@ exists
 ;
 assertEquals
 (
-nl
-+
-nl
-+
 "package foo;"
 +
 nl

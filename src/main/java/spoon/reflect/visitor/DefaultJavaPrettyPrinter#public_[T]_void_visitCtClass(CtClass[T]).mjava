@@ -149,6 +149,11 @@ getTypeMembers
 ;
 printer
 .
+adjustEndPosition
+(
+ctClass
+)
+.
 decTab
 (
 )

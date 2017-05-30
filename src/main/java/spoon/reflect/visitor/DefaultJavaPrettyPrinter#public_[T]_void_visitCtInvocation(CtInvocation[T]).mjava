@@ -251,11 +251,9 @@ isPreserveLineNumbers
 {
 printer
 .
-adjustPosition
+adjustStartPosition
 (
 invocation
-,
-sourceCompilationUnit
 )
 ;
 }
