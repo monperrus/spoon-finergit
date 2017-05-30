@@ -1,3 +1,9 @@
+/** 
+ * Looks for fields of type  {@link CtStatementList} in the template and returns these fields,
+ * @param root CtClass model of {@link Template}
+ * @param variables
+ * @return returns for fields of type {@link CtStatementList} in the template
+ */
 private
 List
 <
@@ -53,10 +59,6 @@ CtFieldReference
 field
 :
 root
-.
-getReference
-(
-)
 .
 getAllFields
 (

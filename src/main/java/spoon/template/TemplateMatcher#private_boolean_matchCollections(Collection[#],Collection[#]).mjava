@@ -16,6 +16,7 @@ Collection
 template
 )
 {
+final
 List
 <
 Object
@@ -30,6 +31,7 @@ ArrayList
 template
 )
 ;
+final
 List
 <
 Object

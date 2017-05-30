@@ -1,3 +1,9 @@
+/** 
+ * Detects if `templateName` (a name from template) matches with `elementName` (a name from target), after replacing parameter names in `templateName`
+ * @param templateName the name from template
+ * @param elementName the name from target
+ * @return true if matching
+ */
 private
 boolean
 matchNames

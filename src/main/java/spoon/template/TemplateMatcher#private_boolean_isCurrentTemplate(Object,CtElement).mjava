@@ -1,3 +1,6 @@
+/** 
+ * Detects whether `object` represent a template variable `inMulti`
+ */
 private
 boolean
 isCurrentTemplate

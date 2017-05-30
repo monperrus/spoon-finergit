@@ -1,3 +1,6 @@
+/** 
+ * returns next ListStatement parameter from teList
+ */
 private
 CtElement
 nextListStatement

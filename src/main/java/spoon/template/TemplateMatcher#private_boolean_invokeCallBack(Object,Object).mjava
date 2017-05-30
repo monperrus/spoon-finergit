@@ -1,3 +1,9 @@
+/** 
+ * invokes  {@link ParameterMatcher} associated to the `template` (= template parameter)
+ * @param target a potentially matching element
+ * @param template a matching parameter, which may define extra {@link ParameterMatcher}
+ * @return true if {@link ParameterMatcher} of `template` matches on `target`
+ */
 private
 boolean
 invokeCallBack

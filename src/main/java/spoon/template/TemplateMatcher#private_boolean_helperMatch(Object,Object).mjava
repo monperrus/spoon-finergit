@@ -1,3 +1,9 @@
+/** 
+ * Detects whether `template` AST node and `target` AST node are matching. This method is called for each node of to be matched template and for appropriate node of `target`
+ * @param target actually checked AST node from target model
+ * @param template actually checked AST node from template
+ * @return true if template matches this node, false if it does not matchesnote: Made private to hide the Objects.
+ */
 private
 boolean
 helperMatch
@@ -49,17 +55,17 @@ false
 }
 if
 (
-variables
-.
-contains
+containsSame
 (
+variables
+,
 template
 )
 ||
-typeVariables
-.
-contains
+containsSame
 (
+typeVariables
+,
 template
 )
 )

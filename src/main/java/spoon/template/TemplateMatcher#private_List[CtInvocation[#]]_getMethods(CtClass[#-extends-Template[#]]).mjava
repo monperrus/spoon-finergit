@@ -1,3 +1,7 @@
+/** 
+ * Searches for all invocations of  {@link TemplateParameter#S()} in "root", a CtClass model of {@link Template}
+ * @param root CtClass model of {@link Template}
+ */
 private
 List
 <

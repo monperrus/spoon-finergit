@@ -1,0 +1,46 @@
+/** 
+ * Is used instead of Collection#contains(Object), which uses Object#equals operator, which returns true even for not same objects.
+ * @param collection to be checked collection
+ * @param item to be searched object
+ * @return true if `collection` contains instance of `item`.
+ */
+private
+static
+boolean
+containsSame
+(
+Iterable
+<
+?
+Object
+>
+collection
+,
+Object
+item
+)
+{
+for
+(
+Object
+object
+:
+collection
+)
+{
+if
+(
+object
+==
+item
+)
+{
+return
+true
+;
+}
+}
+return
+false
+;
+}

@@ -1,3 +1,8 @@
+/** 
+ * Detects whether `teList` contains a multiElement template parameter
+ * @param teList a list of template nodes
+ * @return a first found multiElement template parameter
+ */
 private
 CtElement
 checkListStatements

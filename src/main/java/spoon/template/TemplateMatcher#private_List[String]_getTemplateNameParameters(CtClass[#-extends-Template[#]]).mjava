@@ -1,3 +1,7 @@
+/** 
+ * @param templateType CtClass model of {@link Template}
+ * @return list of all names of template parameters.It includes parameters typed by  {@link TemplateParameter} and parameters with annotation {@link Parameter}.
+ */
 private
 List
 <
