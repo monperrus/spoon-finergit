@@ -1,0 +1,15 @@
+protected
+void
+refactorNoCheck
+(
+)
+{
+removeInvocationArguments
+(
+)
+;
+removeMethodParameters
+(
+)
+;
+}

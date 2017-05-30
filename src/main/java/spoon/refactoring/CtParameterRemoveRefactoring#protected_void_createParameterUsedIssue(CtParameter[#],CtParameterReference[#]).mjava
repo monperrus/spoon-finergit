@@ -1,0 +1,54 @@
+/** 
+ * Override this method to get access to details about this refactoring issue
+ * @param usedParameter to be removed parameter, which is used by `parameterUsage`
+ * @param parameterUsage the usage of parameter, which avoids it's remove
+ */
+protected
+void
+createParameterUsedIssue
+(
+CtParameter
+<
+?
+>
+usedParameter
+,
+CtParameterReference
+<
+?
+>
+parameterUsage
+)
+{
+throw
+new
+RefactoringException
+(
+"The parameter "
++
+usedParameter
+.
+getSimpleName
+(
+)
++
+" of method: "
++
+parameterUsage
+.
+getDeclaringExecutable
+(
+)
++
+" cannot be removed because it is used ("
++
+parameterUsage
+.
+getPosition
+(
+)
++
+")"
+)
+;
+}

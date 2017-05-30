@@ -1,0 +1,31 @@
+/** 
+ * @return computes and returns all invocations, which will be modified by this refactoring
+ */
+public
+List
+<
+CtInvocation
+<
+?
+>
+>
+getTargetInvocations
+(
+)
+{
+if
+(
+targetInvocations
+==
+null
+)
+{
+computeAllInvocations
+(
+)
+;
+}
+return
+targetInvocations
+;
+}

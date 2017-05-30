@@ -1,0 +1,16 @@
+/** 
+ * @return the {@link CtParameter} which has to be removed by this refactoring function
+ */
+public
+CtParameter
+<
+?
+>
+getTarget
+(
+)
+{
+return
+target
+;
+}

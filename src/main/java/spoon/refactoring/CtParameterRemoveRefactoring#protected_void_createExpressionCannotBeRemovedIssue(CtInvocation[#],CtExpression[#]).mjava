@@ -1,0 +1,39 @@
+/** 
+ * Override this method to get access to details about this refactoring issue.
+ * @param toBeRemovedExpression is the expression which delivers value for the argument of the removed parameter,where  {@link #canRemoveExpression(CtExpression)} returned false.
+ */
+protected
+void
+createExpressionCannotBeRemovedIssue
+(
+CtInvocation
+<
+?
+>
+invocation
+,
+CtExpression
+<
+?
+>
+toBeRemovedExpression
+)
+{
+throw
+new
+RefactoringException
+(
+"The expression "
++
+toBeRemovedExpression
++
+", which creates argument of the to be removed parameter in invocation "
++
+invocation
++
+" cannot be removed."
++
+" Override method `canRemoveExpression` to customize this behavior."
+)
+;
+}

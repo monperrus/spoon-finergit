@@ -1,0 +1,18 @@
+/** 
+ * validates whether this refactoring can be done without changing behavior of the refactored code.
+ */
+protected
+void
+detectIssues
+(
+)
+{
+checkAllExecutables
+(
+)
+;
+checkAllInvocations
+(
+)
+;
+}

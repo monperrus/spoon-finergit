@@ -228,6 +228,8 @@ allSubtypes
 ,
 "spoon.test.refactoring.parameter.testclasses.TypeB$1Local"
 ,
+"spoon.test.refactoring.parameter.testclasses.TypeB$2"
+,
 "spoon.test.refactoring.parameter.testclasses.TypeC"
 ,
 "spoon.test.refactoring.parameter.testclasses.IFaceL"
