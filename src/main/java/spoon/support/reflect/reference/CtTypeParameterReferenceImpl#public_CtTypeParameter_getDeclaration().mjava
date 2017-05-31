@@ -39,9 +39,14 @@ CtExecutableReference
 CtElement
 parent2
 =
+(
+(
+CtExecutableReference
+)
 parent
+)
 .
-getParent
+getDeclaration
 (
 )
 ;

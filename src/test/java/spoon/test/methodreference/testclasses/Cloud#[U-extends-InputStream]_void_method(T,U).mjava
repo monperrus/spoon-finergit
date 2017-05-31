@@ -1,0 +1,16 @@
+<
+U
+extends
+InputStream
+>
+void
+method
+(
+T
+param
+,
+U
+param2
+)
+{
+}

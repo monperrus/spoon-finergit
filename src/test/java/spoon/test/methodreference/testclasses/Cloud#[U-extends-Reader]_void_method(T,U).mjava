@@ -1,0 +1,16 @@
+<
+U
+extends
+Reader
+>
+void
+method
+(
+T
+param
+,
+U
+param2
+)
+{
+}

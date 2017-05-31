@@ -82,10 +82,9 @@ size
 )
 )
 ;
-assertEquals
-(
-expectedMethod1
-,
+CtExecutable
+execRefsMethods2
+=
 refsMethodA
 .
 get
@@ -96,6 +95,16 @@ get
 getDeclaration
 (
 )
+;
+assertEquals
+(
+execRefsMethods2
+.
+getSignature
+(
+)
+,
+"<T extends java.lang.String> void method1(T extends java.lang.String)"
 )
 ;
 }

@@ -1,7 +1,7 @@
 @Test
 public
 void
-testGetGenericMethodFromReferene
+testGetGenericMethodFromReference
 (
 )
 throws
