@@ -21,7 +21,6 @@ currentTopLevel
 =
 type
 ;
-return
 importsContext
 .
 computeAllImports
@@ -29,6 +28,13 @@ computeAllImports
 context
 .
 currentTopLevel
+)
+;
+return
+importsContext
+.
+getAllImports
+(
 )
 ;
 }

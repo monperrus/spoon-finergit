@@ -1,7 +1,9 @@
 /** 
  * Computes import of a  {@link spoon.reflect.declaration.CtElement}
  * @return class imports computed by Spoon, it does not contain static imports
+ * @deprecated This method signature will change to return void in order to improve encapsulation: Use getAllImports to get the imports after calling it.
  */
+@Deprecated
 Collection
 <
 CtTypeReference
