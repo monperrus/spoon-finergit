@@ -34,14 +34,14 @@ SpoonResourceHelper
 .
 resources
 (
-"./src/test/java/spoon/test/template/SubClass.java"
+"./src/test/java/spoon/test/template/testclasses/inheritance/SubClass.java"
 )
 ,
 SpoonResourceHelper
 .
 resources
 (
-"./src/test/java/spoon/test/template/InterfaceTemplate.java"
+"./src/test/java/spoon/test/template/testclasses/inheritance/InterfaceTemplate.java"
 )
 )
 .

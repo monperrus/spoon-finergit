@@ -35,7 +35,7 @@ launcher
 .
 addInputResource
 (
-"./src/test/java/spoon/test/template/Logger.java"
+"./src/test/java/spoon/test/template/testclasses/logger/Logger.java"
 )
 ;
 launcher
@@ -45,7 +45,7 @@ addTemplateResource
 new
 FileSystemFile
 (
-"./src/test/java/spoon/test/template/LoggerTemplate.java"
+"./src/test/java/spoon/test/template/testclasses/logger/LoggerTemplate.java"
 )
 )
 ;
@@ -194,7 +194,7 @@ CtInvocation
 ;
 assertEquals
 (
-"spoon.test.template.Logger.exit(\"enter\")"
+"spoon.test.template.testclasses.logger.Logger.exit(\"enter\")"
 ,
 aTry
 .
@@ -230,7 +230,7 @@ CtInvocation
 ;
 assertEquals
 (
-"spoon.test.template.Logger.enter(\"Logger\", \"enter\")"
+"spoon.test.template.testclasses.logger.Logger.enter(\"Logger\", \"enter\")"
 ,
 aTry
 .

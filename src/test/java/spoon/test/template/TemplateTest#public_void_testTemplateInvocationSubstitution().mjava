@@ -22,7 +22,7 @@ addTemplateResource
 new
 FileSystemFile
 (
-"./src/test/java/spoon/test/template/InvocationTemplate.java"
+"./src/test/java/spoon/test/template/testclasses/InvocationTemplate.java"
 )
 )
 ;

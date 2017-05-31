@@ -34,14 +34,14 @@ SpoonResourceHelper
 .
 resources
 (
-"./src/test/java/spoon/test/template/CheckBound.java"
+"./src/test/java/spoon/test/template/testclasses/bounds/CheckBound.java"
 )
 ,
 SpoonResourceHelper
 .
 resources
 (
-"./src/test/java/spoon/test/template/CheckBoundMatcher.java"
+"./src/test/java/spoon/test/template/testclasses/bounds/CheckBoundMatcher.java"
 )
 )
 .
