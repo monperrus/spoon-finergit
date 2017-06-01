@@ -1,7 +1,7 @@
 @Override
 public
 boolean
-isAnnotationType
+isEnum
 (
 )
 {
@@ -27,7 +27,7 @@ getActualClass
 (
 )
 .
-isAnnotation
+isEnum
 (
 )
 ;
@@ -37,7 +37,7 @@ else
 return
 t
 .
-isAnnotationType
+isEnum
 (
 )
 ;

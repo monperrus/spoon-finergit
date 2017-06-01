@@ -1,0 +1,11 @@
+@Override
+public
+boolean
+isEnum
+(
+)
+{
+return
+false
+;
+}

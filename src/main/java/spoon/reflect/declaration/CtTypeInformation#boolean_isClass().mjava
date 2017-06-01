@@ -1,0 +1,8 @@
+/** 
+ * Returns true if this type is a class. Returns false for others (enum, interface, generics, annotation).
+ */
+boolean
+isClass
+(
+)
+;

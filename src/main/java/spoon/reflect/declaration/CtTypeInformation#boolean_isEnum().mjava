@@ -1,0 +1,8 @@
+/** 
+ * Returns true if this type is an enum.
+ */
+boolean
+isEnum
+(
+)
+;
