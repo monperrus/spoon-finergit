@@ -68,6 +68,13 @@ printer
 toString
 (
 )
+.
+replaceFirst
+(
+"^\\s+"
+,
+""
+)
 +
 errorMessage
 ;
