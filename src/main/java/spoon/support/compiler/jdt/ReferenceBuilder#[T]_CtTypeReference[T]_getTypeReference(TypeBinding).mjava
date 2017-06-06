@@ -1850,8 +1850,9 @@ this
 .
 exploringParameterizedBindings
 .
-clear
+remove
 (
+binding
 )
 ;
 return
