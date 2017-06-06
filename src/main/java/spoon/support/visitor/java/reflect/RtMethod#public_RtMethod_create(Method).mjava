@@ -31,6 +31,12 @@ getReturnType
 ,
 method
 .
+getGenericReturnType
+(
+)
+,
+method
+.
 getTypeParameters
 (
 )
@@ -38,6 +44,12 @@ getTypeParameters
 method
 .
 getParameterTypes
+(
+)
+,
+method
+.
+getGenericParameterTypes
 (
 )
 ,

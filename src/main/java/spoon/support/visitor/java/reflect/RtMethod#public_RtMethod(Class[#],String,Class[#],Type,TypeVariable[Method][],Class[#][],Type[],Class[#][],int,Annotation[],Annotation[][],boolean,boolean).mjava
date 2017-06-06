@@ -16,6 +16,9 @@ Class
 >
 returnType
 ,
+Type
+genericReturnType
+,
 TypeVariable
 <
 Method
@@ -31,6 +34,11 @@ Class
 [
 ]
 parameterTypes
+,
+Type
+[
+]
+genericParameterTypes
 ,
 Class
 <
@@ -82,6 +90,12 @@ returnType
 ;
 this
 .
+genericReturnType
+=
+genericReturnType
+;
+this
+.
 typeParameters
 =
 typeParameters
@@ -91,6 +105,12 @@ this
 parameterTypes
 =
 parameterTypes
+;
+this
+.
+genericParameterTypes
+=
+genericParameterTypes
 ;
 this
 .

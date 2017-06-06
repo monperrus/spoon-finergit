@@ -1,0 +1,10 @@
+public
+Type
+getGenericReturnType
+(
+)
+{
+return
+genericReturnType
+;
+}

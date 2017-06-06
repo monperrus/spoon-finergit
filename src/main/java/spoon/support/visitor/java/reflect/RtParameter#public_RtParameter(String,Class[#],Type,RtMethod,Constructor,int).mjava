@@ -10,6 +10,9 @@ Class
 >
 type
 ,
+Type
+genericType
+,
 RtMethod
 method
 ,
@@ -31,6 +34,12 @@ this
 type
 =
 type
+;
+this
+.
+genericType
+=
+genericType
 ;
 this
 .

@@ -65,6 +65,15 @@ index
 ]
 ,
 method
+.
+getGenericParameterTypes
+(
+)
+[
+index
+]
+,
+method
 ,
 null
 ,

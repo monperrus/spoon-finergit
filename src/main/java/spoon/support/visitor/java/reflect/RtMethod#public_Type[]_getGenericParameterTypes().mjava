@@ -1,0 +1,12 @@
+public
+Type
+[
+]
+getGenericParameterTypes
+(
+)
+{
+return
+genericParameterTypes
+;
+}
