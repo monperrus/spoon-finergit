@@ -1,0 +1,16 @@
+public
+void
+simpleTemplateMethod
+(
+)
+{
+System
+.
+out
+.
+println
+(
+_parameter_
+)
+;
+}

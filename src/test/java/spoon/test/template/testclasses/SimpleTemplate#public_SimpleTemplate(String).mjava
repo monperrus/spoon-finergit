@@ -1,0 +1,13 @@
+@Local
+public
+SimpleTemplate
+(
+String
+parameter
+)
+{
+_parameter_
+=
+parameter
+;
+}

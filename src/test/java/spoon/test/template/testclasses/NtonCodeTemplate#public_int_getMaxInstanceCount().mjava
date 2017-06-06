@@ -1,0 +1,10 @@
+public
+int
+getMaxInstanceCount
+(
+)
+{
+return
+_n_
+;
+}
