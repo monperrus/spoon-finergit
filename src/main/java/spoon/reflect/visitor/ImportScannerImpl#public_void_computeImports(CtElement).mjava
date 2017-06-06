@@ -1,12 +1,6 @@
 @Override
 public
-Collection
-<
-CtTypeReference
-<
-?
->
->
+void
 computeImports
 (
 CtElement
@@ -96,13 +90,4 @@ element
 )
 ;
 }
-return
-this
-.
-classImports
-.
-values
-(
-)
-;
 }

@@ -23,7 +23,7 @@ type
 ;
 importsContext
 .
-computeAllImports
+computeImports
 (
 context
 .

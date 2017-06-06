@@ -1,0 +1,10 @@
+/** 
+ * Computes import of a  {@link spoon.reflect.declaration.CtElement}
+ */
+void
+computeImports
+(
+CtElement
+element
+)
+;
