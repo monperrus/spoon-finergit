@@ -24,7 +24,7 @@ comparePath
 ;
 comparePath
 (
-".spoon.test.path.Foo.toto#defaultValue"
+".spoon.test.path.Foo.toto#defaultExpression"
 )
 ;
 comparePath

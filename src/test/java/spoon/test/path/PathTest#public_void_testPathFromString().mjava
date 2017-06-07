@@ -171,7 +171,7 @@ CtPathStringBuilder
 .
 fromString
 (
-".spoon.test.path.Foo.toto#defaultValue"
+".spoon.test.path.Foo.toto#defaultExpression"
 )
 ,
 literal

@@ -6,9 +6,8 @@ toString
 )
 {
 return
-names
-[
-0
-]
+getCamelCaseName
+(
+)
 ;
 }

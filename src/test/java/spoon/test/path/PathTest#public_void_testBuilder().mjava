@@ -23,9 +23,9 @@ name
 .
 role
 (
-CtPathRole
+CtRole
 .
-DEFAULT_VALUE
+DEFAULT_EXPRESSION
 )
 .
 build

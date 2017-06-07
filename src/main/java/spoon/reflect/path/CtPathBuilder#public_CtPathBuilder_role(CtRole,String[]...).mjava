@@ -1,12 +1,12 @@
 /** 
  * Match on elements by their role.
- * @see spoon.reflect.path.CtPathRole
+ * @see CtRole
  */
 public
 CtPathBuilder
 role
 (
-CtPathRole
+CtRole
 role
 ,
 String

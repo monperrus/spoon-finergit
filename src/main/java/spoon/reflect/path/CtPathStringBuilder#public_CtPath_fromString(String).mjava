@@ -127,7 +127,7 @@ pathElement
 new
 CtRolePathElement
 (
-CtPathRole
+CtRole
 .
 fromName
 (
