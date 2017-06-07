@@ -1,0 +1,11 @@
+void
+subscribe
+(
+Subscriber
+<
+?
+T
+>
+var1
+)
+;

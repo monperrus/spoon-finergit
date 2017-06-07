@@ -1,0 +1,9 @@
+private
+void
+subscribe
+(
+ToNotificationSubscriber
+truc
+)
+{
+}
