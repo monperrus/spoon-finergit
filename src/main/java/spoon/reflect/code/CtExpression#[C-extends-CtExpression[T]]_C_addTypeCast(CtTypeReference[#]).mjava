@@ -1,6 +1,7 @@
 /** 
  * Adds a type cast.
  */
+@PropertySetter(role=CAST)
 <
 C
 extends

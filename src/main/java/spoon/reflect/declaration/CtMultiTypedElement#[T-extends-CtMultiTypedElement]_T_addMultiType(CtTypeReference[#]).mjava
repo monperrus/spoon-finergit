@@ -1,6 +1,7 @@
 /** 
  * Adds a type for the element.
  */
+@PropertySetter(role=TYPE)
 <
 T
 extends

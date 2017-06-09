@@ -1,6 +1,7 @@
 /** 
  * Sets the case expression.
  */
+@PropertySetter(role=CASE)
 <
 T
 extends

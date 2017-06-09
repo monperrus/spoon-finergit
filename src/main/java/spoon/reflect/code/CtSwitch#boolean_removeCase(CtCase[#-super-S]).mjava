@@ -1,6 +1,7 @@
 /** 
  * Removes a case;
  */
+@PropertySetter(role=CASE)
 boolean
 removeCase
 (

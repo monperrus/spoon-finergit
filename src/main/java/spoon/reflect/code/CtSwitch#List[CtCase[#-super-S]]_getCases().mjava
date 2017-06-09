@@ -1,6 +1,7 @@
 /** 
  * Gets the list of cases defined for this switch.
  */
+@PropertyGetter(role=CASE)
 List
 <
 CtCase

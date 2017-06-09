@@ -1,6 +1,7 @@
 /** 
  * Sets the iterated expression (an iterable of an array).
  */
+@PropertySetter(role=EXPRESSION)
 <
 T
 extends

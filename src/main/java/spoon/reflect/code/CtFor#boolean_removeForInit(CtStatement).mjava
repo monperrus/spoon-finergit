@@ -1,6 +1,7 @@
 /** 
  * Removes an <i>init</i> statement.
  */
+@PropertySetter(role=FOR_INIT)
 boolean
 removeForInit
 (

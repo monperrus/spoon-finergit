@@ -3,6 +3,7 @@
  * @see CtExecutableReference#getActualTypeArguments()
  */
 @Override
+@PropertySetter(role=TYPE_PARAMETER)
 <
 T
 extends

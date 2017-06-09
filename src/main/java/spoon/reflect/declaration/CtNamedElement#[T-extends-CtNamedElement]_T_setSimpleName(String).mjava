@@ -1,6 +1,7 @@
 /** 
  * Sets the simple (unqualified) name of this element.
  */
+@PropertySetter(role=NAME)
 <
 T
 extends

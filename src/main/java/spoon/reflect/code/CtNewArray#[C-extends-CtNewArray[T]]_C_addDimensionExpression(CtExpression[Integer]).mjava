@@ -1,6 +1,7 @@
 /** 
  * Adds a dimension expression.
  */
+@PropertySetter(role=DIMENSION)
 <
 C
 extends

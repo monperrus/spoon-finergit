@@ -1,6 +1,7 @@
 /** 
  * Returns the annotations that are present on this element. For sake of encapsulation, the returned list is unmodifiable.
  */
+@PropertyGetter(role=ANNOTATION)
 List
 <
 CtAnnotation

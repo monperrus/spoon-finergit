@@ -3,6 +3,7 @@
  * @param index the index of the new tag
  * @param tag the new tag
  */
+@PropertySetter(role=COMMENT_TAG)
 <
 E
 extends

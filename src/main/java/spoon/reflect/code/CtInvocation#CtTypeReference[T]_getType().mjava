@@ -3,6 +3,7 @@
  */
 @Override
 @DerivedProperty
+@PropertyGetter(role=TYPE)
 CtTypeReference
 <
 T

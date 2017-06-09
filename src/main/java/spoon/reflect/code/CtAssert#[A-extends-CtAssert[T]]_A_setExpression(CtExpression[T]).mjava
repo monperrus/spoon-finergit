@@ -1,6 +1,7 @@
 /** 
  * Sets the expression of the assertion.
  */
+@PropertySetter(role=EXPRESSION)
 <
 A
 extends

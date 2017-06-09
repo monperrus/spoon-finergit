@@ -1,6 +1,7 @@
 /** 
  * Gets the iterated expression (an iterable of an array).
  */
+@PropertyGetter(role=EXPRESSION)
 CtExpression
 <
 ?

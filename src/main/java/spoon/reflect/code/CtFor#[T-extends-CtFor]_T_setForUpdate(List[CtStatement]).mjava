@@ -1,6 +1,7 @@
 /** 
  * Sets the <i>update</i> statements.
  */
+@PropertySetter(role=FOR_UPDATE)
 <
 T
 extends

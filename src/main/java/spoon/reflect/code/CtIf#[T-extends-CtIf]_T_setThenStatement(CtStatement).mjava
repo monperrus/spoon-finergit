@@ -1,6 +1,7 @@
 /** 
  * Sets the statement executed when the condition is true.
  */
+@PropertySetter(role=THEN)
 <
 T
 extends

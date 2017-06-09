@@ -1,6 +1,7 @@
 /** 
  * Removes a resource.
  */
+@PropertySetter(role=TRY_RESOURCE)
 boolean
 removeResource
 (

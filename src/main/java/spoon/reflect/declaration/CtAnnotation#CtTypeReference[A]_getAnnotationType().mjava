@@ -2,6 +2,7 @@
  * Returns the annotation type of this annotation.
  * @return a reference to the type of this annotation
  */
+@PropertyGetter(role=ANNOTATION_TYPE)
 CtTypeReference
 <
 A

@@ -1,6 +1,7 @@
 /** 
  * Gets the actual value of the literal (statically known).
  */
+@PropertyGetter(role=EXPRESSION)
 T
 getValue
 (

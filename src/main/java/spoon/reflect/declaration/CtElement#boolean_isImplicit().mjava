@@ -1,6 +1,7 @@
 /** 
  * Returns true if this element is not present in the code (automatically added by the Java compiler or inferred when the model is built). Consequently, implicit elements are not pretty-printed and have no position.
  */
+@PropertyGetter(role=IS_IMPLICIT)
 boolean
 isImplicit
 (

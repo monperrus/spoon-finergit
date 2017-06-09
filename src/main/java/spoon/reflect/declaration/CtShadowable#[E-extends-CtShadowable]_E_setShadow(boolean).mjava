@@ -1,6 +1,7 @@
 /** 
  * Marks an element as shadow. To know what is a shadow element, see the javadoc of {@link #isShadow()}.
  */
+@PropertySetter(role=IS_SHADOW)
 <
 E
 extends

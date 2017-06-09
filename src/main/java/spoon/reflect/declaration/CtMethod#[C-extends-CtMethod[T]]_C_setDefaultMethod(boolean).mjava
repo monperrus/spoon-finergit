@@ -1,6 +1,7 @@
 /** 
  * Sets the default value state of a method.
  */
+@PropertySetter(role=IS_DEFAULT)
 <
 C
 extends

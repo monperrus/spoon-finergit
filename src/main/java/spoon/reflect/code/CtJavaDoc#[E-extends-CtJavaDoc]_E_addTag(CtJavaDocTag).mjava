@@ -2,6 +2,7 @@
  * Add a new tag at the end of the list
  * @param tag the new tag
  */
+@PropertySetter(role=COMMENT_TAG)
 <
 E
 extends

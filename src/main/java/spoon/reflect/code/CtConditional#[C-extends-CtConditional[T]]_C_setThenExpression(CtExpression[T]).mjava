@@ -1,6 +1,7 @@
 /** 
  * Sets the "true" expression.
  */
+@PropertySetter(role=THEN)
 <
 C
 extends

@@ -1,6 +1,7 @@
 /** 
  * Gets the executable referenced by the expression.
  */
+@PropertyGetter(role=EXECUTABLE)
 CtExecutableReference
 <
 T

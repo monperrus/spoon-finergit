@@ -2,6 +2,7 @@
  * Define the type of the tag
  * @param type the type name
  */
+@PropertySetter(role=TYPE)
 <
 E
 extends

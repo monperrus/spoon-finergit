@@ -1,6 +1,7 @@
 /** 
  * Returns the number of dimensions of this array type. This corresponds to the number of array types recursively embedded into the current one (see {@link #getComponentType()}).
  */
+@DerivedProperty
 int
 getDimensionCount
 (

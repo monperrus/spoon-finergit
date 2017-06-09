@@ -1,6 +1,7 @@
 /** 
  * Gets the body of this element
  */
+@PropertyGetter(role=BODY)
 CtStatement
 getBody
 (

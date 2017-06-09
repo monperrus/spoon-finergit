@@ -1,6 +1,7 @@
 /** 
  * Removes an argument expression from the invocation.
  */
+@PropertySetter(role=ARGUMENT)
 void
 removeArgument
 (

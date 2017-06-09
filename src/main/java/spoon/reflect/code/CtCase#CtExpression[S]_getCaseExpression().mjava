@@ -1,6 +1,7 @@
 /** 
  * Gets the case expression.
  */
+@PropertyGetter(role=CASE)
 CtExpression
 <
 S

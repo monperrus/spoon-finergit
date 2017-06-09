@@ -1,6 +1,7 @@
 /** 
  * Adds a new key-annotation pair for this annotation.
  */
+@PropertySetter(role=VALUE)
 <
 T
 extends

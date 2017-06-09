@@ -1,6 +1,7 @@
 /** 
  * Returns the thrown expression (must be a throwable).
  */
+@PropertyGetter(role=THROWN)
 CtExpression
 <
 ?

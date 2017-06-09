@@ -1,6 +1,7 @@
 /** 
  * Gets modifiers of this type.
  */
+@PropertyGetter(role=MODIFIER)
 Set
 <
 ModifierKind

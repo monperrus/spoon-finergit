@@ -2,6 +2,7 @@
  * The list of comments
  * @return the list of comment
  */
+@PropertyGetter(role=COMMENT)
 List
 <
 CtComment

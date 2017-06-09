@@ -1,6 +1,7 @@
 /** 
  * Gets the kind of this operator.
  */
+@PropertyGetter(role=OPERATOR_KIND)
 UnaryOperatorKind
 getKind
 (

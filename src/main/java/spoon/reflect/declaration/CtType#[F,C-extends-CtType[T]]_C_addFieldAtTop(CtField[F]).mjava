@@ -3,6 +3,7 @@
  * @param field
  * @return <tt>true</tt> if the field is added.
  */
+@PropertySetter(role=FIELD)
 <
 F
 ,

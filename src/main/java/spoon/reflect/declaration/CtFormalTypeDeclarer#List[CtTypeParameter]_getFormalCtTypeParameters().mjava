@@ -1,6 +1,7 @@
 /** 
  * Returns the formal type parameters of this generic element.
  */
+@PropertyGetter(role=TYPE_PARAMETER)
 List
 <
 CtTypeParameter

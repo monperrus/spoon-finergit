@@ -1,6 +1,7 @@
 /** 
  * Adds an <i>init</i> statement.
  */
+@PropertySetter(role=FOR_INIT)
 <
 T
 extends

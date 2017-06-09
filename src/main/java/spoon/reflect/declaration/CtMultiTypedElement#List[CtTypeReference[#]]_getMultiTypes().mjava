@@ -1,6 +1,7 @@
 /** 
  * Gets all types of the element.
  */
+@PropertyGetter(role=TYPE)
 List
 <
 CtTypeReference

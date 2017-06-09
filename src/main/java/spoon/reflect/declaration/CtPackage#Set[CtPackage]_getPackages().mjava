@@ -1,6 +1,7 @@
 /** 
  * Gets the set of included child packages.
  */
+@PropertyGetter(role=SUB_PACKAGE)
 Set
 <
 CtPackage

@@ -1,6 +1,7 @@
 /** 
  * Sets the end-loop test expression.
  */
+@PropertySetter(role=EXPRESSION)
 <
 T
 extends

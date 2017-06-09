@@ -1,6 +1,7 @@
 /** 
  * Add a type parameter to this generic element.
  */
+@PropertySetter(role=TYPE_PARAMETER)
 <
 T
 extends

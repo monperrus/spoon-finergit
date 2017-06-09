@@ -1,6 +1,7 @@
 /** 
  * Sets the list of cases defined for this switch.
  */
+@PropertySetter(role=CASE)
 <
 T
 extends

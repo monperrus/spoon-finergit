@@ -1,6 +1,7 @@
 /** 
  * Sets the invoked executable.
  */
+@PropertySetter(role=EXECUTABLE)
 <
 C
 extends

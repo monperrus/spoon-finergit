@@ -1,6 +1,7 @@
 /** 
  * Sets this element's type.
  */
+@PropertySetter(role=TYPE)
 <
 C
 extends

@@ -1,6 +1,7 @@
 /** 
  * Gets the visibility of this modifiable element.
  */
+@PropertyGetter(role=MODIFIER)
 ModifierKind
 getVisibility
 (

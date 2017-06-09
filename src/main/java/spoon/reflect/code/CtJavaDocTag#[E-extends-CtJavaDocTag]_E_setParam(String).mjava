@@ -2,6 +2,7 @@
  * Define a parameter
  * @param param the parameter
  */
+@PropertySetter(role=PARAMETER)
 <
 E
 extends

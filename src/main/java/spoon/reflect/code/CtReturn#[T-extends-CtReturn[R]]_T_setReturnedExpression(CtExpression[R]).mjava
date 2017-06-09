@@ -1,6 +1,7 @@
 /** 
  * Sets the returned expression.
  */
+@PropertySetter(role=EXPRESSION)
 <
 T
 extends

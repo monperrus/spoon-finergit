@@ -1,6 +1,7 @@
 /** 
  * Sets this element to be implicit.
  */
+@PropertySetter(role=IS_IMPLICIT)
 <
 E
 extends

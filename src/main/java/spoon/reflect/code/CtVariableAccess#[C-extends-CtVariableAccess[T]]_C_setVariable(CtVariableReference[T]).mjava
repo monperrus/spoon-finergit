@@ -1,6 +1,7 @@
 /** 
  * Sets the reference to the accessed variable.
  */
+@PropertySetter(role=VARIABLE)
 <
 C
 extends

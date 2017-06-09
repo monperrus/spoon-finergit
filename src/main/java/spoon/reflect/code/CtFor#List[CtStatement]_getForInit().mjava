@@ -1,6 +1,7 @@
 /** 
  * Gets the <i>init</i> statements.
  */
+@PropertyGetter(role=FOR_INIT)
 List
 <
 CtStatement

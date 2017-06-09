@@ -2,6 +2,7 @@
  * Sets the annotation's type.
  * @param type reference to the type of this annotation
  */
+@PropertySetter(role=ANNOTATION_TYPE)
 <
 T
 extends

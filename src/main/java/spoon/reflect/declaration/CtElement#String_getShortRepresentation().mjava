@@ -1,6 +1,7 @@
 /** 
  * Build a short representation of any element.
  */
+@DerivedProperty
 String
 getShortRepresentation
 (

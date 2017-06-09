@@ -1,6 +1,7 @@
 /** 
  * Removes an <i>update</i> statement.
  */
+@PropertySetter(role=FOR_UPDATE)
 boolean
 removeForUpdate
 (

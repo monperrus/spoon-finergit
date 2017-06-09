@@ -1,6 +1,7 @@
 /** 
  * Gets the boolean expression that represents the <code>if</code>'s condition.
  */
+@PropertyGetter(role=CONDITION)
 CtExpression
 <
 Boolean

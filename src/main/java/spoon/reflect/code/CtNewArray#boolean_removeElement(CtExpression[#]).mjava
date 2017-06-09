@@ -1,6 +1,7 @@
 /** 
  * Removes an element.
  */
+@PropertySetter(role=EXPRESSION)
 boolean
 removeElement
 (

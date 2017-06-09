@@ -1,6 +1,7 @@
 /** 
  * Adds a resource.
  */
+@PropertySetter(role=TRY_RESOURCE)
 <
 T
 extends

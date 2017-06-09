@@ -1,6 +1,7 @@
 /** 
  * Gets the default expression assigned to the annotation method.
  */
+@PropertyGetter(role=DEFAULT_EXPRESSION)
 CtExpression
 <
 T

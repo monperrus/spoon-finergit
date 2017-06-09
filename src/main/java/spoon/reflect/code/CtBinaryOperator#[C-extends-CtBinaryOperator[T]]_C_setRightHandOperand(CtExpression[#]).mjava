@@ -1,6 +1,7 @@
 /** 
  * Sets the right-hand operand.
  */
+@PropertySetter(role=RIGHT_OPERAND)
 <
 C
 extends

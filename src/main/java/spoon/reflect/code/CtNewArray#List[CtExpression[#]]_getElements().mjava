@@ -1,6 +1,7 @@
 /** 
  * Gets the initialization expressions.
  */
+@PropertyGetter(role=EXPRESSION)
 List
 <
 CtExpression

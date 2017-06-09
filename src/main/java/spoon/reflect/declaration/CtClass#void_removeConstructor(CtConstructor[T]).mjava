@@ -1,6 +1,7 @@
 /** 
  * Removes a constructor from this class.
  */
+@PropertySetter(role=CONSTRUCTOR)
 void
 removeConstructor
 (

@@ -1,6 +1,7 @@
 /** 
  * Gets the expression of the assertion if defined.
  */
+@PropertyGetter(role=EXPRESSION)
 CtExpression
 <
 T

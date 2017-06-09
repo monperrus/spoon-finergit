@@ -1,6 +1,7 @@
 /** 
  * Removes a type parameters from this generic element.
  */
+@PropertySetter(role=TYPE_PARAMETER)
 boolean
 removeFormalCtTypeParameter
 (

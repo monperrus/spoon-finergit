@@ -1,6 +1,7 @@
 /** 
  * Sets the annotations for this element.
  */
+@PropertySetter(role=ANNOTATION)
 <
 E
 extends

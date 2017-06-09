@@ -1,6 +1,7 @@
 /** 
  * Removes a statement.
  */
+@PropertySetter(role=STATEMENT)
 void
 removeStatement
 (

@@ -2,6 +2,7 @@
  * Get the content of the atg
  * @return the content of the tag
  */
+@PropertyGetter(role=COMMENT_CONTENT)
 String
 getContent
 (

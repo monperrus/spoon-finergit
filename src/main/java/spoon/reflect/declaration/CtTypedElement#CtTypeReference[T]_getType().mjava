@@ -1,6 +1,7 @@
 /** 
  * Gets this element's type.
  */
+@PropertyGetter(role=TYPE)
 CtTypeReference
 <
 T

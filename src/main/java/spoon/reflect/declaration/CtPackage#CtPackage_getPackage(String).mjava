@@ -3,6 +3,7 @@
  * @param name the simple name of searched package
  * @return the found package or null
  */
+@PropertyGetter(role=SUB_PACKAGE)
 CtPackage
 getPackage
 (

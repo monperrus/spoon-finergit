@@ -1,6 +1,7 @@
 /** 
  * Sets all nested types.
  */
+@PropertySetter(role=NESTED_TYPE)
 <
 C
 extends

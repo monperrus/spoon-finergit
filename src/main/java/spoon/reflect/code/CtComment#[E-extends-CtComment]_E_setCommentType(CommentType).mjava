@@ -1,3 +1,4 @@
+@PropertySetter(role=COMMENT_TYPE)
 <
 E
 extends

@@ -1,6 +1,7 @@
 /** 
  * Gets the looping boolean test expression.
  */
+@PropertyGetter(role=EXPRESSION)
 CtExpression
 <
 Boolean

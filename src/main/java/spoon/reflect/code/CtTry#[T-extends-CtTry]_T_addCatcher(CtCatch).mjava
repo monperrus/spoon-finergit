@@ -1,6 +1,7 @@
 /** 
  * Adds a catch block.
  */
+@PropertySetter(role=CATCH)
 <
 T
 extends

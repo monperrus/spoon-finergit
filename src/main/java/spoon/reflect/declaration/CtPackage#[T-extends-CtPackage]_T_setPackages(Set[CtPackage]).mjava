@@ -2,6 +2,7 @@
  * Sets the children defined in this package
  * @param pack new set of child packages
  */
+@PropertySetter(role=SUB_PACKAGE)
 <
 T
 extends

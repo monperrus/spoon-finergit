@@ -1,6 +1,7 @@
 /** 
  * Sets the statement executed when the condition is false.
  */
+@PropertySetter(role=ELSE)
 <
 T
 extends

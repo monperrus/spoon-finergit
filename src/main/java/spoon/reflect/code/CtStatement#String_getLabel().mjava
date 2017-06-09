@@ -2,6 +2,7 @@
  * Gets the label of this statement if defined.
  * @return the label's name (null if undefined)
  */
+@PropertyGetter(role=LABEL)
 String
 getLabel
 (

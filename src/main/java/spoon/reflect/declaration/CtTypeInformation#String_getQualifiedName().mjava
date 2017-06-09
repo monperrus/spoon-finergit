@@ -1,6 +1,7 @@
 /** 
  * Returns the fully qualified name of this type declaration.
  */
+@DerivedProperty
 String
 getQualifiedName
 (

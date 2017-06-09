@@ -1,6 +1,7 @@
 /** 
  * Gets the expressions that define the array's dimensions.
  */
+@PropertyGetter(role=DIMENSION)
 List
 <
 CtExpression

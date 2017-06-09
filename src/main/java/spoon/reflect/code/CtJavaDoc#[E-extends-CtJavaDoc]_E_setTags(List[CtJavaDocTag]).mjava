@@ -2,6 +2,7 @@
  * Define the list of tags
  * @param tags the new list of tags
  */
+@PropertySetter(role=COMMENT_TAG)
 <
 E
 extends

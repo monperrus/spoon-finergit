@@ -3,6 +3,7 @@
  * @param pack
  * @return <tt>true</tt> if this element changed as a result of the call
  */
+@PropertySetter(role=SUB_PACKAGE)
 <
 T
 extends

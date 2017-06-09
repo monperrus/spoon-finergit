@@ -1,6 +1,7 @@
 /** 
  * Sets the "false" expression.
  */
+@PropertySetter(role=ELSE)
 <
 C
 extends

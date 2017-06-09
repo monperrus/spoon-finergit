@@ -1,6 +1,7 @@
 /** 
  * Sets the looping test as a boolean expression.
  */
+@PropertySetter(role=EXPRESSION)
 <
 T
 extends

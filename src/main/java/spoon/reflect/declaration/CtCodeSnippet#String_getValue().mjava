@@ -1,6 +1,7 @@
 /** 
  * Gets the textual value of the code.
  */
+@PropertySetter(role=EXPRESSION)
 String
 getValue
 (

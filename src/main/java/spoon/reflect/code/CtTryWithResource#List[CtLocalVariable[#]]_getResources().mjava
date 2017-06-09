@@ -1,6 +1,7 @@
 /** 
  * Gets the auto-closeable resources of this <code>try</code>. Available from Java 7 with the <i>try-with-resource</i> statement.
  */
+@PropertyGetter(role=TRY_RESOURCE)
 List
 <
 CtLocalVariable

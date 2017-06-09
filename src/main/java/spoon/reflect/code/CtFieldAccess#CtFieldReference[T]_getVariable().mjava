@@ -1,3 +1,4 @@
+@PropertyGetter(role=VARIABLE)
 CtFieldReference
 <
 T

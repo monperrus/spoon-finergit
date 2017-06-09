@@ -1,6 +1,7 @@
 /** 
  * Sets the auto-closeable resources of this <code>try</code>. Available from Java 7 with the <i>try-with-resource</i> statement.
  */
+@PropertySetter(role=TRY_RESOURCE)
 <
 T
 extends

@@ -1,6 +1,7 @@
 /** 
  * Sets the <i>catchers</i> of this <code>try</code>.
  */
+@PropertySetter(role=CATCH)
 <
 T
 extends

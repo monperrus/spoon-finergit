@@ -1,6 +1,7 @@
 /** 
  * Returns the type casts if any.
  */
+@PropertyGetter(role=CAST)
 List
 <
 CtTypeReference

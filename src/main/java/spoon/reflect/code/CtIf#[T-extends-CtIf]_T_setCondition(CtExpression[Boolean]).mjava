@@ -1,6 +1,7 @@
 /** 
  * Sets the boolean expression that represents the <code>if</code>'s condition.
  */
+@PropertySetter(role=CONDITION)
 <
 T
 extends

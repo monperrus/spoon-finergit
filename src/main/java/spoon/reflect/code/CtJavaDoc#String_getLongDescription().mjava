@@ -2,6 +2,7 @@
  * Get the long description of the javadoc
  * @return the long description of the javadoc
  */
+@DerivedProperty
 String
 getLongDescription
 (

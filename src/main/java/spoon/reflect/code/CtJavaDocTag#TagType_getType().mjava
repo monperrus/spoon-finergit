@@ -2,6 +2,7 @@
  * The type of the tag
  * @return the type of the tag
  */
+@PropertyGetter(role=TYPE)
 TagType
 getType
 (

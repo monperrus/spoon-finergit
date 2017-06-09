@@ -1,6 +1,7 @@
 /** 
  * Gets the selector. The type of the Expression must be <code>char</code>, <code>byte</code>, <code>short</code>, <code>int</code>, <code>Character</code>, <code>Byte</code>, <code>Short</code>, <code>Integer</code>, or an <code>enum</code> type
  */
+@PropertyGetter(role=EXPRESSION)
 CtExpression
 <
 S

@@ -1,6 +1,7 @@
 /** 
  * Gets the end-loop test expression.
  */
+@PropertyGetter(role=EXPRESSION)
 CtExpression
 <
 Boolean

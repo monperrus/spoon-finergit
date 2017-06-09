@@ -3,6 +3,7 @@
  * @param name Name of the enum value.
  * @return An enum value.
  */
+@PropertyGetter(role=VALUE)
 CtEnumValue
 <
 ?

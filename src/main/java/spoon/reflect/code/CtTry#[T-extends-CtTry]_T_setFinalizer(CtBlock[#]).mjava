@@ -1,6 +1,7 @@
 /** 
  * Sets the <i>finalizer</i> block of this <code>try</code> ( <code>finally</code> part).
  */
+@PropertySetter(role=FINALIZER)
 <
 T
 extends

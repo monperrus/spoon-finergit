@@ -1,6 +1,7 @@
 /** 
  * Gets the <i>catchers</i> of this <code>try</code>.
  */
+@PropertyGetter(role=CATCH)
 List
 <
 CtCatch

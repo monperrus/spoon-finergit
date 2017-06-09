@@ -1,6 +1,7 @@
 /** 
  * Sets the expression that defines the index.
  */
+@PropertySetter(role=EXPRESSION)
 <
 C
 extends

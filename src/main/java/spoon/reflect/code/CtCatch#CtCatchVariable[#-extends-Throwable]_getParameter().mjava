@@ -1,6 +1,7 @@
 /** 
  * Gets the catch's parameter (a throwable).
  */
+@PropertyGetter(role=PARAMETER)
 CtCatchVariable
 <
 ?

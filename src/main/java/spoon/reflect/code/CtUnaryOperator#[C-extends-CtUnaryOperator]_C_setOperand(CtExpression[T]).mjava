@@ -1,6 +1,7 @@
 /** 
  * Sets the expression to which the operator is applied.
  */
+@PropertySetter(role=EXPRESSION)
 <
 C
 extends

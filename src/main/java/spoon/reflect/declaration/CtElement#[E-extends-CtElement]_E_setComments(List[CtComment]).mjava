@@ -1,6 +1,7 @@
 /** 
  * Set the comment list
  */
+@PropertySetter(role=COMMENT)
 <
 E
 extends

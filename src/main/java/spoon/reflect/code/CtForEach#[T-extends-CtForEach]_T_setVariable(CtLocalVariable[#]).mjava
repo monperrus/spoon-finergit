@@ -1,6 +1,7 @@
 /** 
  * Sets the variable that references the currently iterated element.
  */
+@PropertySetter(role=VARIABLE)
 <
 T
 extends

@@ -1,6 +1,7 @@
 /** 
  * Sets the invocation's arguments.
  */
+@PropertySetter(role=ARGUMENT)
 <
 C
 extends

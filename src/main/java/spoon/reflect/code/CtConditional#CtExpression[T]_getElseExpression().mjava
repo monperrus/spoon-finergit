@@ -1,6 +1,7 @@
 /** 
  * Gets the "false" expression.
  */
+@PropertyGetter(role=ELSE)
 CtExpression
 <
 T

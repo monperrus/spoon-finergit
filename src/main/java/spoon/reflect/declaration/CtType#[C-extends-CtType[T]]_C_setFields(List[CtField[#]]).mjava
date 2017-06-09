@@ -1,6 +1,7 @@
 /** 
  * Sets all fields in the type.
  */
+@PropertySetter(role=FIELD)
 <
 C
 extends

@@ -2,6 +2,7 @@
  * Remove a comment
  * @param comment the comment to remove
  */
+@PropertySetter(role=COMMENT)
 <
 E
 extends

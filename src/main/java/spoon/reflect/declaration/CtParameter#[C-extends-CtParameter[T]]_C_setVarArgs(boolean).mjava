@@ -1,6 +1,7 @@
 /** 
  * Sets this parameter to have varargs.
  */
+@PropertySetter(role=IS_VARARGS)
 <
 C
 extends

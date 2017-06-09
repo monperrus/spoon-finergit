@@ -1,6 +1,7 @@
 /** 
  * Sets the parameters.
  */
+@PropertySetter(role=PARAMETER)
 <
 T
 extends

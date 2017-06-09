@@ -1,6 +1,7 @@
 /** 
  * Sets the label of this statement.
  */
+@PropertySetter(role=LABEL)
 <
 T
 extends

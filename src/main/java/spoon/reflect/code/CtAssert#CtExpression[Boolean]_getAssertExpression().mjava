@@ -1,6 +1,7 @@
 /** 
  * Gets the assert expression.
  */
+@PropertyGetter(role=CONDITION)
 CtExpression
 <
 Boolean

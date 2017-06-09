@@ -1,6 +1,7 @@
 /** 
  * Returns the left-hand operand.
  */
+@PropertyGetter(role=LEFT_OPERAND)
 CtExpression
 <
 ?

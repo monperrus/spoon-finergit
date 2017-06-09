@@ -2,6 +2,7 @@
  * Get the type of the comment
  * @return the comment type
  */
+@PropertyGetter(role=COMMENT_TYPE)
 CommentType
 getCommentType
 (

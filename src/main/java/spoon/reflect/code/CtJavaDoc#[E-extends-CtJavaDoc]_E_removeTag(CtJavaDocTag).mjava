@@ -2,6 +2,7 @@
  * Remove a specific tag
  * @param tag the tag to remove
  */
+@PropertySetter(role=COMMENT_TAG)
 <
 E
 extends

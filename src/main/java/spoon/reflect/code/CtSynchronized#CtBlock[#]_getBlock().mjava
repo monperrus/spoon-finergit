@@ -1,6 +1,7 @@
 /** 
  * Gets the synchronized block.
  */
+@PropertyGetter(role=BODY)
 CtBlock
 <
 ?

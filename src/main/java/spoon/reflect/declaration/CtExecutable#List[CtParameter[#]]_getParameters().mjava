@@ -1,6 +1,7 @@
 /** 
  * Gets the parameters list.
  */
+@PropertyGetter(role=PARAMETER)
 List
 <
 CtParameter

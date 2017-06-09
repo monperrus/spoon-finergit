@@ -2,6 +2,7 @@
  * The arguments of the invocation.
  * @return the expressions that define the values of the arguments
  */
+@PropertyGetter(role=ARGUMENT)
 List
 <
 CtExpression

@@ -1,6 +1,7 @@
 /** 
  * Sets the assert expression.
  */
+@PropertySetter(role=CONDITION)
 <
 A
 extends

@@ -4,6 +4,7 @@
  */
 @Override
 @DerivedProperty
+@PropertyGetter(role=TYPE_PARAMETER)
 List
 <
 CtTypeReference

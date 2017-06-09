@@ -1,6 +1,7 @@
 /** 
  * Sets the constructors for this class.
  */
+@PropertySetter(role=CONSTRUCTOR)
 <
 C
 extends

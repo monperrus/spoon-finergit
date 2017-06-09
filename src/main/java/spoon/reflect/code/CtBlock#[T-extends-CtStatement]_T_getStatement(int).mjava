@@ -1,6 +1,7 @@
 /** 
  * Gets the ith statement of this block.
  */
+@DerivedProperty
 <
 T
 extends

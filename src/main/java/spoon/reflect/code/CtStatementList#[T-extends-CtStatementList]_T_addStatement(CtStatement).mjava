@@ -1,6 +1,7 @@
 /** 
  * Adds a statement at the end of the list.
  */
+@PropertySetter(role=STATEMENT)
 <
 T
 extends

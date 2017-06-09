@@ -1,6 +1,7 @@
 /** 
  * Sets the expressions that define the array's dimensions.
  */
+@PropertySetter(role=DIMENSION)
 <
 C
 extends

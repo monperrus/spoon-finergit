@@ -1,6 +1,7 @@
 /** 
  * Sets the super interfaces of this type.
  */
+@PropertySetter(role=INTERFACE)
 <
 C
 extends

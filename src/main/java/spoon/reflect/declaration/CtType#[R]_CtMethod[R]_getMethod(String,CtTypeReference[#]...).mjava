@@ -2,6 +2,7 @@
  * Gets a method from its name and parameter types.
  * @return null if does not exit
  */
+@PropertyGetter(role=EXECUTABLE)
 <
 R
 >

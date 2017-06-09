@@ -1,6 +1,7 @@
 /** 
  * Gets the initialization expression assigned to the variable (also known as the initializer), when declared.
  */
+@PropertyGetter(role=DEFAULT_EXPRESSION)
 CtExpression
 <
 T

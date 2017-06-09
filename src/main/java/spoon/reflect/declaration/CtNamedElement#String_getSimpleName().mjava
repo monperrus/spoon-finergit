@@ -1,6 +1,7 @@
 /** 
  * Returns the simple (unqualified) name of this element.
  */
+@PropertyGetter(role=NAME)
 String
 getSimpleName
 (

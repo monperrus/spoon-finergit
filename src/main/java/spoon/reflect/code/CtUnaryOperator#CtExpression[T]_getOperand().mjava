@@ -1,6 +1,7 @@
 /** 
  * Gets the expression to which the operator is applied.
  */
+@PropertyGetter(role=EXPRESSION)
 CtExpression
 <
 T

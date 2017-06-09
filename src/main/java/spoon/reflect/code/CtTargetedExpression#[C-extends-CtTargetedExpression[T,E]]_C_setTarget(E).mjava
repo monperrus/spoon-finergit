@@ -1,6 +1,7 @@
 /** 
  * Sets the target expression.
  */
+@PropertySetter(role=TARGET)
 <
 C
 extends

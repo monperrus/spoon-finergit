@@ -1,6 +1,7 @@
 /** 
  * Sets the superclass type.
  */
+@PropertySetter(role=SUPER_TYPE)
 <
 C
 extends

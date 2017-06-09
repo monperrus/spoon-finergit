@@ -1,6 +1,7 @@
 /** 
  * Sets all enum values of the enum.
  */
+@PropertySetter(role=VALUE)
 <
 C
 extends

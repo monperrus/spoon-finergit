@@ -1,6 +1,7 @@
 /** 
  * Removes a catch block.
  */
+@PropertySetter(role=CATCH)
 boolean
 removeCatcher
 (

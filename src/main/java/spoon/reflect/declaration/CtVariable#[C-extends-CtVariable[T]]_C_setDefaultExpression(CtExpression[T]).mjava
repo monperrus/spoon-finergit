@@ -1,6 +1,7 @@
 /** 
  * Sets the initialization expression assigned to the variable, when declared.
  */
+@PropertySetter(role=DEFAULT_EXPRESSION)
 <
 C
 extends

@@ -2,6 +2,7 @@
  * Gets all enum values of the enumeration.
  * @return All enum values.
  */
+@PropertyGetter(role=VALUE)
 List
 <
 CtEnumValue

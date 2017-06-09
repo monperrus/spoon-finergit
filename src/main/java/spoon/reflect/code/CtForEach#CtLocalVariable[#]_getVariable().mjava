@@ -1,6 +1,7 @@
 /** 
  * Gets the variable that references the currently iterated element.
  */
+@PropertyGetter(role=VARIABLE)
 CtLocalVariable
 <
 ?

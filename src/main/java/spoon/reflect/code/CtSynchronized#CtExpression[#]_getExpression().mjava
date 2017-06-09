@@ -2,6 +2,7 @@
  * Gets the expression that defines the monitored object if any.
  * @return the monitored object if defined, null otherwise
  */
+@PropertyGetter(role=EXPRESSION)
 CtExpression
 <
 ?

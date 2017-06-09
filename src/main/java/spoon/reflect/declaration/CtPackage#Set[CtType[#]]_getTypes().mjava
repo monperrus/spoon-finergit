@@ -1,6 +1,7 @@
 /** 
  * Returns the set of the top-level types in this package.
  */
+@PropertyGetter(role=TYPE)
 Set
 <
 CtType

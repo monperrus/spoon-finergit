@@ -1,6 +1,7 @@
 /** 
  * Gets the operator kind.
  */
+@PropertyGetter(role=OPERATOR_KIND)
 BinaryOperatorKind
 getKind
 (

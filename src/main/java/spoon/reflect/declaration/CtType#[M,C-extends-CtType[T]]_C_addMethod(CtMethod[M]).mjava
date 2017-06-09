@@ -1,6 +1,7 @@
 /** 
  * Adds a method to this type.
  */
+@PropertySetter(role=EXECUTABLE)
 <
 M
 ,

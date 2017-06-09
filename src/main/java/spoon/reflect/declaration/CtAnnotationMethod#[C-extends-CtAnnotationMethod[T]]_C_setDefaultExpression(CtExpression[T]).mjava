@@ -1,6 +1,7 @@
 /** 
  * Sets the default expression assigned to the annotation method.
  */
+@PropertySetter(role=DEFAULT_EXPRESSION)
 <
 C
 extends

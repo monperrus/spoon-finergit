@@ -1,6 +1,7 @@
 /** 
  * Sets the expression in the body of the lambda. Nothing will change if the lambda already has a value in the body attribute.
  */
+@PropertySetter(role=EXPRESSION)
 <
 C
 extends

@@ -1,6 +1,7 @@
 /** 
  * Sets the operator kind.
  */
+@PropertySetter(role=OPERATOR_KIND)
 <
 C
 extends

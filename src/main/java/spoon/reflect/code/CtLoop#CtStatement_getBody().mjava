@@ -2,6 +2,7 @@
  * Gets the body of this loop.
  */
 @Override
+@PropertyGetter(role=BODY)
 CtStatement
 getBody
 (

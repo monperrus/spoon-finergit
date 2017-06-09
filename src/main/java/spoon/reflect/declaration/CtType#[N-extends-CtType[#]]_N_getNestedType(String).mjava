@@ -1,6 +1,7 @@
 /** 
  * Gets a nested type from its name.
  */
+@PropertyGetter(role=NESTED_TYPE)
 <
 N
 extends

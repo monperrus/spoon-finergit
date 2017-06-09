@@ -1,6 +1,7 @@
 /** 
  * Sets the visibility of this modifiable element (replaces old visibility).
  */
+@PropertySetter(role=MODIFIER)
 <
 T
 extends

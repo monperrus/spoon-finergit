@@ -1,6 +1,7 @@
 /** 
  * Gets the returned expression.
  */
+@PropertyGetter(role=EXPRESSION)
 CtExpression
 <
 R

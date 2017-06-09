@@ -1,6 +1,7 @@
 /** 
  * Returns the expression that defines the index.
  */
+@PropertyGetter(role=EXPRESSION)
 CtExpression
 <
 Integer

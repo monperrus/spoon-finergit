@@ -2,6 +2,7 @@
  * Returns the methods that are directly declared by this class or interface. Derived from  {@link #getTypeMembers()}
  */
 @DerivedProperty
+@PropertyGetter(role=EXECUTABLE)
 Set
 <
 CtMethod

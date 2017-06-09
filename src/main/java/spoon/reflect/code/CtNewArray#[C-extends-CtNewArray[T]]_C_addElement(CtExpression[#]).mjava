@@ -1,6 +1,7 @@
 /** 
  * Adds an element.
  */
+@PropertySetter(role=EXPRESSION)
 <
 C
 extends

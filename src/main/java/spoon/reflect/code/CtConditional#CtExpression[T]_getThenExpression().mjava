@@ -1,6 +1,7 @@
 /** 
  * Gets the "true" expression.
  */
+@PropertyGetter(role=THEN)
 CtExpression
 <
 T

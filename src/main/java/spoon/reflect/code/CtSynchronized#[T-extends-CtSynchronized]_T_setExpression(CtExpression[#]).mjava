@@ -1,6 +1,7 @@
 /** 
  * Sets the expression that defines the monitored.
  */
+@PropertySetter(role=EXPRESSION)
 <
 T
 extends

@@ -2,6 +2,7 @@
  * Get all the tag of the javadoc
  * @return the tag list
  */
+@PropertyGetter(role=COMMENT_TAG)
 List
 <
 CtJavaDocTag

@@ -1,6 +1,7 @@
 /** 
  * Sets the catch's parameter (a throwable).
  */
+@PropertySetter(role=PARAMETER)
 <
 T
 extends

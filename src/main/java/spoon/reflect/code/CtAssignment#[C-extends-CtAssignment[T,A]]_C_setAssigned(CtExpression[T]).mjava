@@ -1,6 +1,7 @@
 /** 
  * Sets the assigned expression (left hand side - LHS).
  */
+@PropertySetter(role=ASSIGNED)
 <
 C
 extends

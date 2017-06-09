@@ -1,6 +1,7 @@
 /** 
  * Gets the condition expression.
  */
+@PropertyGetter(role=CONDITION)
 CtExpression
 <
 Boolean

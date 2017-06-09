@@ -1,6 +1,8 @@
 /** 
- * Returns the constructor of the class that takes the given argument types.
+ * Returns the constructor of the class that takes the given argument types. Derived from  {@link #getTypeMembers()}
  */
+@DerivedProperty
+@PropertyGetter(role=CONSTRUCTOR)
 CtConstructor
 <
 T

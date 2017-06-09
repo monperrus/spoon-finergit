@@ -1,6 +1,7 @@
 /** 
  * Sets the synchronized block.
  */
+@PropertyGetter(role=BODY)
 <
 T
 extends

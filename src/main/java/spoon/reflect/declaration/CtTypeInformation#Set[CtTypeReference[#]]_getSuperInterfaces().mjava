@@ -1,6 +1,7 @@
 /** 
  * Returns the interface types directly implemented by this class or extended by this interface.
  */
+@PropertyGetter(role=INTERFACE)
 Set
 <
 CtTypeReference
