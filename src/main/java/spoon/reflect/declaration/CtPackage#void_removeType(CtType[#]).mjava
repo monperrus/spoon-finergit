@@ -1,6 +1,7 @@
 /** 
  * Removes a type from this package.
  */
+@PropertySetter(role=TYPE)
 void
 removeType
 (

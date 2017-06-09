@@ -1,7 +1,7 @@
 /** 
  * Sets the actual value of the literal.
  */
-@PropertySetter(role=EXPRESSION)
+@PropertySetter(role=VALUE)
 <
 C
 extends

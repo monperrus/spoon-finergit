@@ -1,7 +1,7 @@
 /** 
  * Sets the textual value of the code.
  */
-@PropertySetter(role=EXPRESSION)
+@PropertyGetter(role=EXPRESSION)
 <
 C
 extends

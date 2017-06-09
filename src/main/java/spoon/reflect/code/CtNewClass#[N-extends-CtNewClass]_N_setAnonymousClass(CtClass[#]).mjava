@@ -1,6 +1,7 @@
 /** 
  * Sets the created class.
  */
+@PropertySetter(role=EXPRESSION)
 <
 N
 extends

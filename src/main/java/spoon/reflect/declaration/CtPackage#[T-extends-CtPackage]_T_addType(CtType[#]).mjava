@@ -1,6 +1,7 @@
 /** 
  * Adds a type to this package.
  */
+@PropertySetter(role=TYPE)
 <
 T
 extends

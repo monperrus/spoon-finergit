@@ -2,7 +2,7 @@
  * Sets the types defined in the package.
  * @param types new Set of types
  */
-@PropertyGetter(role=TYPE)
+@PropertySetter(role=TYPE)
 <
 T
 extends

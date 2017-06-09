@@ -1,6 +1,7 @@
 /** 
  * Gets the created class.
  */
+@PropertyGetter(role=EXPRESSION)
 CtClass
 <
 ?
