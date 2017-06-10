@@ -1,0 +1,15 @@
+@Local
+public
+ClassAccessTemplate
+(
+Class
+aClass
+)
+{
+this
+.
+aClass
+=
+aClass
+;
+}
