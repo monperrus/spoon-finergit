@@ -155,16 +155,8 @@ stringLength
 }
 printer
 .
-writeStringLiteral
+writeCharLiteral
 (
-new
-String
-(
-new
-char
-[
-]
-{
 (
 Character
 )
@@ -172,8 +164,6 @@ literal
 .
 getValue
 (
-)
-}
 )
 ,
 mayContainsSpecialCharacter
