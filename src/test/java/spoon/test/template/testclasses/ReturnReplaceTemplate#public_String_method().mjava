@@ -1,0 +1,16 @@
+public
+String
+method
+(
+)
+throws
+Throwable
+{
+return
+_statement_
+.
+S
+(
+)
+;
+}
