@@ -1,0 +1,17 @@
+@Local
+public
+SubstituteArrayAccessTemplate
+(
+String
+[
+]
+anArray
+)
+{
+this
+.
+anArray
+=
+anArray
+;
+}
