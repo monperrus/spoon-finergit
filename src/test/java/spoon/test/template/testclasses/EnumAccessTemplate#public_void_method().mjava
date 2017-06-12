@@ -1,0 +1,17 @@
+public
+void
+method
+(
+)
+throws
+Throwable
+{
+_AnEnum_
+.
+_value_
+.
+name
+(
+)
+;
+}
