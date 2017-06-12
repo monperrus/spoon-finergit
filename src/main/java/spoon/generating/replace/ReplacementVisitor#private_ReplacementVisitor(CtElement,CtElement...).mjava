@@ -5,6 +5,7 @@ CtElement
 original
 ,
 CtElement
+...
 replace
 )
 {
@@ -18,6 +19,12 @@ this
 .
 replace
 =
+replace
+==
+null
+?
+EMPTY
+:
 replace
 ;
 }
