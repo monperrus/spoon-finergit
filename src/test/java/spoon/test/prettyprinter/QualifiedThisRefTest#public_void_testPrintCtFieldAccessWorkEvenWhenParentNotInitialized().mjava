@@ -158,8 +158,9 @@ null
 CtFieldReference
 ctfe
 =
-new
-CtFieldReferenceImpl
+factory
+.
+createFieldReference
 (
 )
 ;
