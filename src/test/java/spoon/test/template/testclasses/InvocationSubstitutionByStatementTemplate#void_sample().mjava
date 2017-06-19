@@ -1,0 +1,14 @@
+@Local
+void
+sample
+(
+)
+{
+throw
+new
+RuntimeException
+(
+"Failed"
+)
+;
+}

@@ -113,7 +113,7 @@ resultKlass
 ;
 assertEquals
 (
-"{ { if (((java.lang.System.currentTimeMillis()) % 2L) == 0) { return \"Panna\"; }else { return \"Orel\"; } }}"
+"{ if (((java.lang.System.currentTimeMillis()) % 2L) == 0) { return \"Panna\"; }else { return \"Orel\"; }}"
 ,
 resultKlass
 .

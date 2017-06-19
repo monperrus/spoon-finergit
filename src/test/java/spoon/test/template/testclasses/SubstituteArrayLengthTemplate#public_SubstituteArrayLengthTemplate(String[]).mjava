@@ -1,0 +1,17 @@
+@Local
+public
+SubstituteArrayLengthTemplate
+(
+String
+[
+]
+anArray
+)
+{
+this
+.
+anArray
+=
+anArray
+;
+}

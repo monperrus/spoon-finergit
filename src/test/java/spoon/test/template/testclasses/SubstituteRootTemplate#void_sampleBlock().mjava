@@ -1,0 +1,12 @@
+@Local
+void
+sampleBlock
+(
+)
+{
+String
+s
+=
+"Spoon is cool!"
+;
+}

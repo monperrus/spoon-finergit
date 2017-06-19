@@ -1,0 +1,14 @@
+@Override
+public
+void
+statement
+(
+)
+throws
+Throwable
+{
+_statement_
+(
+)
+;
+}

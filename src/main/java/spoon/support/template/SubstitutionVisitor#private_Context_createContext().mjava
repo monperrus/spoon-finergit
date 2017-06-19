@@ -1,0 +1,16 @@
+private
+Context
+createContext
+(
+)
+{
+return
+new
+Context
+(
+this
+.
+context
+)
+;
+}

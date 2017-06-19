@@ -1,7 +1,7 @@
 @Test
 public
 void
-testArrayAccess
+testArrayLengthAccess
 (
 )
 throws
@@ -22,7 +22,7 @@ addTemplateResource
 new
 FileSystemFile
 (
-"./src/test/java/spoon/test/template/testclasses/SubstituteArrayAccessTemplate.java"
+"./src/test/java/spoon/test/template/testclasses/SubstituteArrayLengthTemplate.java"
 )
 )
 ;
@@ -62,7 +62,7 @@ CtStatement
 result
 =
 new
-SubstituteArrayAccessTemplate
+SubstituteArrayLengthTemplate
 (
 new
 String
@@ -84,7 +84,7 @@ resultKlass
 ;
 assertEquals
 (
-"new java.lang.String[]{ \"a\" , null , \"b\" }.toString()"
+"if (3 > 0);"
 ,
 result
 .

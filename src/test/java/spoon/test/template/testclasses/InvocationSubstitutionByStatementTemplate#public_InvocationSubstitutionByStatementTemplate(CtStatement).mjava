@@ -1,0 +1,15 @@
+@Local
+public
+InvocationSubstitutionByStatementTemplate
+(
+CtStatement
+statement
+)
+{
+this
+.
+statement
+=
+statement
+;
+}

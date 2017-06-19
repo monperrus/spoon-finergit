@@ -1,0 +1,16 @@
+@Override
+public
+E
+get
+(
+int
+index
+)
+{
+throw
+new
+IndexOutOfBoundsException
+(
+)
+;
+}

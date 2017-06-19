@@ -60,7 +60,7 @@ result
 template
 )
 .
-scan
+substitute
 (
 result
 )

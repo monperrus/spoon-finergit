@@ -1,0 +1,10 @@
+@Local
+String
+_expression_
+(
+)
+{
+return
+null
+;
+}
