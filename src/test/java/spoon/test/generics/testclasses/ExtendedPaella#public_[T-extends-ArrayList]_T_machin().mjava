@@ -1,0 +1,15 @@
+public
+<
+T
+extends
+ArrayList
+>
+T
+machin
+(
+)
+{
+return
+null
+;
+}
