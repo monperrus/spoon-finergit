@@ -25,15 +25,6 @@ scan
 (
 continueStatement
 .
-getLabelledStatement
-(
-)
-)
-;
-scan
-(
-continueStatement
-.
 getComments
 (
 )

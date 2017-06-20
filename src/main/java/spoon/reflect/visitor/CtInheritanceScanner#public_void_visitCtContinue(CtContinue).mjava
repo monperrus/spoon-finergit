@@ -6,6 +6,11 @@ CtContinue
 e
 )
 {
+scanCtLabelledFlowBreak
+(
+e
+)
+;
 scanCtCFlowBreak
 (
 e

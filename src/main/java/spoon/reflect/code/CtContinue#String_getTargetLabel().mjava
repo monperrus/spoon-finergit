@@ -1,9 +1,0 @@
-/** 
- * Gets the label from which the control flow breaks (null if no label defined).
- */
-@PropertyGetter(role=TARGET_LABEL)
-String
-getTargetLabel
-(
-)
-;

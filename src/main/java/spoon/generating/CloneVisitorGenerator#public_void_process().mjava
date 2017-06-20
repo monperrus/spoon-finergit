@@ -1121,6 +1121,8 @@ asList
 ,
 "spoon.support.reflect.code.CtCFlowBreakImpl"
 ,
+"spoon.support.reflect.code.CtLabelledFlowBreakImpl"
+,
 "spoon.support.reflect.declaration.CtCodeSnippetImpl"
 ,
 "spoon.support.reflect.declaration.CtFormalTypeDeclarerImpl"

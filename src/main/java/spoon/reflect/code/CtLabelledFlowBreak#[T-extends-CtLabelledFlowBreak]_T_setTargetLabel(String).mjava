@@ -5,7 +5,7 @@
 <
 T
 extends
-CtBreak
+CtLabelledFlowBreak
 >
 T
 setTargetLabel

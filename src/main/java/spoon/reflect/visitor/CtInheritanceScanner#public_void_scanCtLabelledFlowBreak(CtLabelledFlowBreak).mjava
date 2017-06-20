@@ -1,0 +1,12 @@
+/** 
+ * Scans a labelled control flow break.
+ */
+public
+void
+scanCtLabelledFlowBreak
+(
+CtLabelledFlowBreak
+labelledFlowBreak
+)
+{
+}

@@ -3,7 +3,7 @@ public
 <
 T
 extends
-CtContinue
+CtLabelledFlowBreak
 >
 T
 setTargetLabel
