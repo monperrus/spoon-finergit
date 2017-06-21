@@ -1,0 +1,13 @@
+public
+InvalidReplaceException
+(
+String
+msg
+)
+{
+super
+(
+msg
+)
+;
+}

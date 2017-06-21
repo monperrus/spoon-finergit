@@ -41,7 +41,7 @@ length
 {
 throw
 new
-SpoonException
+InvalidReplaceException
 (
 "Cannot replace single value by multiple values in "
 +

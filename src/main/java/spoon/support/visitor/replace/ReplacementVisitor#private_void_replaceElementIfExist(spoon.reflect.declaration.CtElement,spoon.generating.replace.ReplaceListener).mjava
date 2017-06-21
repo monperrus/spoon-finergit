@@ -67,7 +67,13 @@ throw
 new
 spoon
 .
-SpoonException
+support
+.
+visitor
+.
+replace
+.
+InvalidReplaceException
 (
 (
 "Cannot replace single value by multiple values in "

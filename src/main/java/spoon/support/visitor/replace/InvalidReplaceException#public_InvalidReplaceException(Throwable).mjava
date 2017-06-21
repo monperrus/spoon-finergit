@@ -1,0 +1,13 @@
+public
+InvalidReplaceException
+(
+Throwable
+e
+)
+{
+super
+(
+e
+)
+;
+}

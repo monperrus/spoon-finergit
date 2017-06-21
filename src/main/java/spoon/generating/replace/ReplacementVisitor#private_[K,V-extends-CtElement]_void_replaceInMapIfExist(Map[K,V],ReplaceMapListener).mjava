@@ -124,7 +124,7 @@ length
 {
 throw
 new
-SpoonException
+InvalidReplaceException
 (
 "Cannot replace single value by multiple values in "
 +
@@ -151,6 +151,13 @@ replace
 0
 ]
 ;
+if
+(
+val
+!=
+null
+)
+{
 map
 .
 put
@@ -171,6 +178,17 @@ getParent
 )
 )
 ;
+}
+else
+{
+map
+.
+remove
+(
+key
+)
+;
+}
 }
 else
 {

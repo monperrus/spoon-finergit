@@ -81,6 +81,13 @@ ele
 replace
 )
 {
+if
+(
+ele
+!=
+null
+)
+{
 set
 .
 add
@@ -102,6 +109,7 @@ getParent
 )
 )
 ;
+}
 }
 listener
 .

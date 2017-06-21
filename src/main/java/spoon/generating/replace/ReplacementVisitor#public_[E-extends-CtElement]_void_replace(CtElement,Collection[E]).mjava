@@ -48,6 +48,16 @@ getParent
 }
 catch
 (
+InvalidReplaceException
+e
+)
+{
+throw
+e
+;
+}
+catch
+(
 SpoonException
 ignore
 )

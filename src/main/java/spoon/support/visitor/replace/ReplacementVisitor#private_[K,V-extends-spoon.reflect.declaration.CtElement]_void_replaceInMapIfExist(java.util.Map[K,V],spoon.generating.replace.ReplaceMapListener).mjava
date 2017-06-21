@@ -162,7 +162,13 @@ throw
 new
 spoon
 .
-SpoonException
+support
+.
+visitor
+.
+replace
+.
+InvalidReplaceException
 (
 (
 "Cannot replace single value by multiple values in "
@@ -197,6 +203,13 @@ replace
 )
 )
 ;
+if
+(
+val
+!=
+null
+)
+{
 map
 .
 put
@@ -217,6 +230,17 @@ getParent
 )
 )
 ;
+}
+else
+{
+map
+.
+remove
+(
+key
+)
+;
+}
 }
 else
 {
