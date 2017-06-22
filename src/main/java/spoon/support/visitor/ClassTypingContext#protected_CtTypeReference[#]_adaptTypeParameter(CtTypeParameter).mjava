@@ -15,6 +15,21 @@ CtTypeParameter
 typeParam
 )
 {
+if
+(
+typeParam
+==
+null
+)
+{
+throw
+new
+SpoonException
+(
+"You cannot adapt a null type parameter."
+)
+;
+}
 CtFormalTypeDeclarer
 declarer
 =

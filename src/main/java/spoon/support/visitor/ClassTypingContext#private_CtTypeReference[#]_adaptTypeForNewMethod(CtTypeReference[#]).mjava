@@ -50,6 +50,21 @@ getDeclaration
 if
 (
 typeParam
+==
+null
+)
+{
+throw
+new
+SpoonException
+(
+"Declaration of the CtTypeParameter should not be null."
+)
+;
+}
+if
+(
+typeParam
 .
 getTypeParameterDeclarer
 (

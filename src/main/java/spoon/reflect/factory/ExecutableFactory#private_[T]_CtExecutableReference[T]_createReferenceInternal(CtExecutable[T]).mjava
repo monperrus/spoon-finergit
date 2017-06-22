@@ -215,6 +215,10 @@ lambdaMethod
 getType
 (
 )
+.
+clone
+(
+)
 ,
 executableName
 ,
