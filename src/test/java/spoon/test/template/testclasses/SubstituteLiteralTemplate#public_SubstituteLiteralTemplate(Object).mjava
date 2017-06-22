@@ -1,0 +1,15 @@
+@Local
+public
+SubstituteLiteralTemplate
+(
+Object
+param
+)
+{
+this
+.
+param
+=
+param
+;
+}
