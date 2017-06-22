@@ -1,0 +1,16 @@
+/** 
+ * Construct a new instance.
+ */
+public
+AllLangTestJava3
+(
+String
+name
+)
+{
+super
+(
+name
+)
+;
+}

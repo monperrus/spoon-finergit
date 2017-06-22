@@ -49,7 +49,7 @@ result
 .
 contains
 (
-" BurritosStaticMethod.toto();"
+" toto();"
 )
 )
 ;

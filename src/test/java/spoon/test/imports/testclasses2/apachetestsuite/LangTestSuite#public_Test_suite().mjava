@@ -1,0 +1,11 @@
+public
+static
+Test
+suite
+(
+)
+{
+return
+null
+;
+}
