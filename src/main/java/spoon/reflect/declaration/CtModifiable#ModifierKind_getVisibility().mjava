@@ -1,7 +1,7 @@
 /** 
  * Gets the visibility of this modifiable element.
  */
-@PropertyGetter(role=MODIFIER)
+@DerivedProperty
 ModifierKind
 getVisibility
 (

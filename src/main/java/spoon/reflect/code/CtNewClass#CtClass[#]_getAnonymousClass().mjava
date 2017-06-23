@@ -1,7 +1,7 @@
 /** 
  * Gets the created class.
  */
-@PropertyGetter(role=EXPRESSION)
+@PropertyGetter(role=NESTED_TYPE)
 CtClass
 <
 ?

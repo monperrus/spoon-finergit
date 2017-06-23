@@ -2,7 +2,7 @@
  * Gets the catch's body.
  */
 @Override
-@PropertySetter(role=BODY)
+@PropertyGetter(role=BODY)
 CtBlock
 <
 ?

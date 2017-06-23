@@ -1,6 +1,6 @@
 @Override
 @DerivedProperty
-@PropertySetter(role=TYPE)
+@PropertyGetter(role=TYPE)
 CtTypeReference
 <
 T
