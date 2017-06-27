@@ -1,0 +1,14 @@
+/** 
+ * the old value in the model
+ * @return the old value
+ */
+public
+T
+getOldValue
+(
+)
+{
+return
+oldValue
+;
+}

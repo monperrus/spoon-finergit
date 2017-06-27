@@ -1,6 +1,7 @@
 /** 
  * Tells if the referenced field is final.
  */
+@PropertyGetter(role=CtRole.IS_FINAL)
 boolean
 isFinal
 (

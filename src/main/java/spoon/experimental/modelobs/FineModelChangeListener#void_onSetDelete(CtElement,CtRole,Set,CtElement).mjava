@@ -1,0 +1,16 @@
+void
+onSetDelete
+(
+CtElement
+currentElement
+,
+CtRole
+role
+,
+Set
+field
+,
+CtElement
+oldValue
+)
+;

@@ -1,0 +1,10 @@
+/** 
+ * set the model change listener
+ */
+void
+setModelChangeListener
+(
+FineModelChangeListener
+modelChangeListener
+)
+;

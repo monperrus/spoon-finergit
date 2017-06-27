@@ -1,6 +1,7 @@
 /** 
  * Forces a reference to a final element.
  */
+@PropertySetter(role=CtRole.IS_FINAL)
 <
 C
 extends

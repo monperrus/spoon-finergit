@@ -1,0 +1,10 @@
+@Override
+public
+void
+onDeleteAll
+(
+DeleteAllAction
+action
+)
+{
+}

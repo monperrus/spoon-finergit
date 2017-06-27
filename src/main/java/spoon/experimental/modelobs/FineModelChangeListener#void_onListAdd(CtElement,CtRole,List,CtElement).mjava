@@ -1,0 +1,16 @@
+void
+onListAdd
+(
+CtElement
+currentElement
+,
+CtRole
+role
+,
+List
+field
+,
+CtElement
+newValue
+)
+;

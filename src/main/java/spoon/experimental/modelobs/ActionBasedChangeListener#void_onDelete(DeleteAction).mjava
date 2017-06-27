@@ -1,0 +1,11 @@
+/** 
+ * when an element is removed
+ * @param action contains information of the change
+ */
+void
+onDelete
+(
+DeleteAction
+action
+)
+;

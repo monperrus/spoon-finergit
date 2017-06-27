@@ -1,0 +1,11 @@
+/** 
+ * when an element is modified
+ * @param action contains information of the change
+ */
+void
+onUpdate
+(
+UpdateAction
+action
+)
+;

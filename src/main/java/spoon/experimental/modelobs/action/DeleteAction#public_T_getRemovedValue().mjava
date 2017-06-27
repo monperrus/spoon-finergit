@@ -1,0 +1,14 @@
+/** 
+ * Returns the removed element
+ * @return the removed element
+ */
+public
+T
+getRemovedValue
+(
+)
+{
+return
+oldValue
+;
+}

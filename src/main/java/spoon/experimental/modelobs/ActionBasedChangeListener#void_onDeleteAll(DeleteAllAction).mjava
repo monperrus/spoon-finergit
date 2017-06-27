@@ -1,0 +1,11 @@
+/** 
+ * when all element are removed
+ * @param action contains information of the change
+ */
+void
+onDeleteAll
+(
+DeleteAllAction
+action
+)
+;

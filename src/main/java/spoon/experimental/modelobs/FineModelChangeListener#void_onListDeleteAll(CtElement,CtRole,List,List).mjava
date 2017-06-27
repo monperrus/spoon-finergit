@@ -1,0 +1,16 @@
+void
+onListDeleteAll
+(
+CtElement
+currentElement
+,
+CtRole
+role
+,
+List
+field
+,
+List
+oldValue
+)
+;

@@ -1,4 +1,5 @@
 @Override
+@DerivedProperty
 public
 boolean
 removeActualTypeArgument
@@ -10,13 +11,16 @@ CtTypeReference
 actualTypeArgument
 )
 {
-return
+if
+(
 getExecutable
 (
 )
 !=
 null
-&&
+)
+{
+return
 getExecutable
 (
 )
@@ -25,5 +29,9 @@ removeActualTypeArgument
 (
 actualTypeArgument
 )
+;
+}
+return
+false
 ;
 }

@@ -1,0 +1,14 @@
+/** 
+ * the role that has been modified
+ * @return the role that has been modified
+ */
+public
+CtRole
+getChangedProperty
+(
+)
+{
+return
+changedProperty
+;
+}

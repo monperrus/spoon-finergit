@@ -1,0 +1,14 @@
+/** 
+ * the new value in the model
+ * @return the new value
+ */
+public
+T
+getNewValue
+(
+)
+{
+return
+newValue
+;
+}

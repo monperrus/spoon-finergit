@@ -1,0 +1,14 @@
+/** 
+ * Returns the added element
+ * @return the new element
+ */
+public
+T
+getNewValue
+(
+)
+{
+return
+newValue
+;
+}

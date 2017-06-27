@@ -1,6 +1,7 @@
 /** 
  * Forces a reference to a static element.
  */
+@PropertySetter(role=CtRole.IS_STATIC)
 <
 C
 extends

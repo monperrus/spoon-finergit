@@ -1,0 +1,16 @@
+void
+onSetAdd
+(
+CtElement
+currentElement
+,
+CtRole
+role
+,
+Set
+field
+,
+ModifierKind
+newValue
+)
+;

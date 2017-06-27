@@ -1,0 +1,8 @@
+/** 
+ * get the model change listener that is used to follow the change of the AST.
+ */
+FineModelChangeListener
+getModelChangeListener
+(
+)
+;

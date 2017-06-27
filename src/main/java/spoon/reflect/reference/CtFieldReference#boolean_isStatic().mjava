@@ -1,6 +1,7 @@
 /** 
  * Tells if the referenced field is static.
  */
+@PropertyGetter(role=CtRole.IS_STATIC)
 boolean
 isStatic
 (

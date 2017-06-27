@@ -2,6 +2,7 @@
  * Gets the package of the referenced type.
  * @return the declaring package or null if this if a inner class
  */
+@PropertyGetter(role=PACKAGE_REF)
 CtPackageReference
 getPackage
 (

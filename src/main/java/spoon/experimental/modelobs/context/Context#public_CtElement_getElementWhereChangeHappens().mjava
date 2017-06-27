@@ -1,0 +1,14 @@
+/** 
+ * the changed parent
+ * @return the changed parent
+ */
+public
+CtElement
+getElementWhereChangeHappens
+(
+)
+{
+return
+elementWhereChangeHappens
+;
+}

@@ -2952,7 +2952,7 @@ size
 (
 )
 !=
-2
+3
 )
 {
 return
@@ -2965,7 +2965,7 @@ body
 .
 getStatement
 (
-0
+1
 )
 instanceof
 CtAssignment
@@ -2983,7 +2983,7 @@ body
 .
 getStatement
 (
-0
+1
 )
 )
 .
@@ -3066,7 +3066,17 @@ throw
 new
 SpoonException
 (
-"Get more than one setter. Please make an more ingenious method to get setter method."
+"Get more than one setter. Please make an more ingenious method to get setter method. "
++
+matchers
+.
+size
+(
+)
++
+" "
++
+ctField
 )
 ;
 }
@@ -3545,38 +3555,6 @@ get
 CtInheritanceScanner
 .
 class
-)
-)
-;
-Collections
-.
-sort
-(
-target
-.
-getTypeMembers
-(
-)
-,
-new
-CtLineElementComparator
-(
-)
-)
-;
-Collections
-.
-sort
-(
-targetBuilder
-.
-getTypeMembers
-(
-)
-,
-new
-CtLineElementComparator
-(
 )
 )
 ;

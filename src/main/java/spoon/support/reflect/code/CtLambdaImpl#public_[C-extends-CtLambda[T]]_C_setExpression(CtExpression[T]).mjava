@@ -33,7 +33,7 @@ throw
 new
 SpoonException
 (
-"A lambda can't have two bodys."
+"A lambda can't have two bodies."
 )
 ;
 }
@@ -54,6 +54,31 @@ this
 )
 ;
 }
+getFactory
+(
+)
+.
+getEnvironment
+(
+)
+.
+getModelChangeListener
+(
+)
+.
+onObjectUpdate
+(
+this
+,
+EXPRESSION
+,
+expression
+,
+this
+.
+expression
+)
+;
 this
 .
 expression

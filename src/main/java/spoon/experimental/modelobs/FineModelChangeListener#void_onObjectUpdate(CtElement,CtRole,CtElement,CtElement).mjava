@@ -1,0 +1,16 @@
+void
+onObjectUpdate
+(
+CtElement
+currentElement
+,
+CtRole
+role
+,
+CtElement
+newValue
+,
+CtElement
+oldValue
+)
+;

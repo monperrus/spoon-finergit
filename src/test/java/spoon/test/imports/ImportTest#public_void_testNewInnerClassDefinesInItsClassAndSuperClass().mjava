@@ -144,36 +144,6 @@ lineSeparator
 (
 )
 +
-"    public void aMethod() {"
-+
-System
-.
-lineSeparator
-(
-)
-+
-"        new spoon.test.imports.testclasses.SubClass.Item(\"\");"
-+
-System
-.
-lineSeparator
-(
-)
-+
-"    }"
-+
-System
-.
-lineSeparator
-(
-)
-+
-System
-.
-lineSeparator
-(
-)
-+
 "    public static class Item extends spoon.test.imports.testclasses.SuperClass.Item {"
 +
 System
@@ -199,6 +169,36 @@ lineSeparator
 )
 +
 "        }"
++
+System
+.
+lineSeparator
+(
+)
++
+"    }"
++
+System
+.
+lineSeparator
+(
+)
++
+System
+.
+lineSeparator
+(
+)
++
+"    public void aMethod() {"
++
+System
+.
+lineSeparator
+(
+)
++
+"        new spoon.test.imports.testclasses.SubClass.Item(\"\");"
 +
 System
 .

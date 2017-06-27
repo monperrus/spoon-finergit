@@ -9,6 +9,11 @@ getTypeMembers
 )
 {
 return
+Collections
+.
+unmodifiableList
+(
 typeMembers
+)
 ;
 }

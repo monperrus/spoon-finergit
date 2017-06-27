@@ -1,0 +1,14 @@
+/** 
+ * get the context of the change
+ * @return the context
+ */
+public
+Context
+getContext
+(
+)
+{
+return
+context
+;
+}

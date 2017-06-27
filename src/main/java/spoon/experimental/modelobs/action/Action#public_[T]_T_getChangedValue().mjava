@@ -1,0 +1,15 @@
+/** 
+ * get the changed value of the model
+ * @param < T > the type of the element
+ * @return the changed value
+ */
+public
+abstract
+<
+T
+>
+T
+getChangedValue
+(
+)
+;

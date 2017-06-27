@@ -1,6 +1,7 @@
 /** 
  * Adds a bound.
  */
+@PropertySetter(role=BOUND)
 <
 C
 extends

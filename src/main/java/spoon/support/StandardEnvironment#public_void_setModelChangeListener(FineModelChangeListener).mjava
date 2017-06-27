@@ -1,0 +1,16 @@
+@Override
+public
+void
+setModelChangeListener
+(
+FineModelChangeListener
+modelChangeListener
+)
+{
+this
+.
+modelChangeListener
+=
+modelChangeListener
+;
+}

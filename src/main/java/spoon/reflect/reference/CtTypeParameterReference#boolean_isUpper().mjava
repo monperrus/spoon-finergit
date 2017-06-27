@@ -1,6 +1,7 @@
 /** 
  * Returns  {@code true} if the bounds are in <code>extends</code> clause.{@code false} means a <code>super</code> clause.
  */
+@PropertyGetter(role=CtRole.IS_UPPER)
 boolean
 isUpper
 (

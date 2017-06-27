@@ -106,11 +106,7 @@ getPackage
 (
 )
 .
-getTypes
-(
-)
-.
-remove
+removeType
 (
 c
 )

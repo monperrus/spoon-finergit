@@ -1,6 +1,7 @@
 /** 
  * Sets the reference to the declaring package.
  */
+@PropertySetter(role=PACKAGE_REF)
 <
 C
 extends

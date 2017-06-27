@@ -1,0 +1,14 @@
+/** 
+ * get the changed key
+ * @return the changed key
+ */
+public
+K
+getKey
+(
+)
+{
+return
+key
+;
+}

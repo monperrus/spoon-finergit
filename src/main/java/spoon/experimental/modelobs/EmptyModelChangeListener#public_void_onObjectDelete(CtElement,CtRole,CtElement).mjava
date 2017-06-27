@@ -1,0 +1,16 @@
+@Override
+public
+void
+onObjectDelete
+(
+CtElement
+currentElement
+,
+CtRole
+role
+,
+CtElement
+oldValue
+)
+{
+}

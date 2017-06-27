@@ -1,6 +1,7 @@
 /** 
  * Set to  {@code true} to write <code>extends</code> clause for bounds types.
  */
+@PropertySetter(role=CtRole.IS_UPPER)
 <
 T
 extends

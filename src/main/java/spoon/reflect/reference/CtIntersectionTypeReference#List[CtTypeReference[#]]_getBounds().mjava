@@ -1,6 +1,7 @@
 /** 
  * Gets the bounds of the intersection type. Note that the first bound correspond to the current intersection type. <pre> T extends Interface1 &amp; Interface2 // CtTypeParameterReference#getBoundingType == Interface1 and getBounds().get(0) == Interface1 </pre>
  */
+@PropertyGetter(role=BOUND)
 List
 <
 CtTypeReference
