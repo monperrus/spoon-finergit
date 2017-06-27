@@ -26,6 +26,13 @@ CtType
 class
 )
 ;
+if
+(
+typeDecl
+!=
+null
+)
+{
 String
 methodName
 =
@@ -67,6 +74,7 @@ methodName
 return
 true
 ;
+}
 }
 }
 return
