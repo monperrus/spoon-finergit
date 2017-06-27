@@ -129,12 +129,6 @@ size
 assertEquals
 (
 "@spoon.test.arrays.ArrayClass.TypeAnnotation(integer = 1)"
-+
-System
-.
-lineSeparator
-(
-)
 ,
 arrayTypeReference
 .

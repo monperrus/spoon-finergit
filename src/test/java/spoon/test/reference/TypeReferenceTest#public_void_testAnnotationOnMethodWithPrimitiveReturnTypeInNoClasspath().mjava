@@ -131,12 +131,6 @@ size
 assertEquals
 (
 "@java.lang.Override"
-+
-System
-.
-lineSeparator
-(
-)
 ,
 run
 .

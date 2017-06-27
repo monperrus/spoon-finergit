@@ -31,5 +31,15 @@ scan
 annotation
 )
 ;
+printer
+.
+writeln
+(
+)
+.
+writeTabs
+(
+)
+;
 }
 }

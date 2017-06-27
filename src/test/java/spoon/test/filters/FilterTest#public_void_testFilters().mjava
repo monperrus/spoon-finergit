@@ -68,7 +68,7 @@ CtExpression
 ;
 assertEquals
 (
-2
+4
 ,
 expressions
 .

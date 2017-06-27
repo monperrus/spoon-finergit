@@ -416,15 +416,7 @@ final
 String
 complexArrayParam
 =
-"java.util.List<@spoon.test.annotation.testclasses.TypeAnnotation(inceptions = { @spoon.test.annotation.testclasses.Inception(value = @spoon.test.annotation.testclasses.InnerAnnot(value = \"\")"
-+
-System
-.
-lineSeparator
-(
-)
-+
-", values = { @spoon.test.annotation.testclasses.InnerAnnot(value = \"\") }) })"
+"java.util.List<@spoon.test.annotation.testclasses.TypeAnnotation(inceptions = { @spoon.test.annotation.testclasses.Inception(value = @spoon.test.annotation.testclasses.InnerAnnot(value = \"\"), values = { @spoon.test.annotation.testclasses.InnerAnnot(value = \"\") }) })"
 +
 System
 .

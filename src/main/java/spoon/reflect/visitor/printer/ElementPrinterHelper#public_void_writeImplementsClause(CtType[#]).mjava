@@ -24,13 +24,23 @@ size
 0
 )
 {
+try
+(
+ListPrinter
+lp
+=
 printer
 .
-write
+createListPrinter
 (
 " implements "
+,
+" , "
+,
+null
 )
-;
+)
+{
 for
 (
 CtTypeReference
@@ -46,6 +56,12 @@ getSuperInterfaces
 )
 )
 {
+lp
+.
+printSeparatorIfAppropriate
+(
+)
+;
 prettyPrinter
 .
 scan
@@ -53,19 +69,7 @@ scan
 ref
 )
 ;
-printer
-.
-write
-(
-" , "
-)
-;
 }
-printer
-.
-removeLastChar
-(
-)
-;
+}
 }
 }

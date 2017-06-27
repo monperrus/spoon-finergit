@@ -1,6 +1,7 @@
 /** 
- * Removes the last non-white character.
+ * Removes the last non-white character. Use  {@link PrinterHelper#createListPrinter(String,String,String)} to print separators only when needed
  */
+@Deprecated
 public
 PrinterHelper
 removeLastChar
