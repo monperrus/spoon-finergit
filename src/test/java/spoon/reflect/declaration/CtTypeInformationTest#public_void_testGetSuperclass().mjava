@@ -55,8 +55,6 @@ assertEquals
 12
 +
 48
-+
-1
 ,
 extendObject
 .
@@ -111,8 +109,6 @@ assertEquals
 61
 +
 2
-+
-1
 ,
 subClass
 .
