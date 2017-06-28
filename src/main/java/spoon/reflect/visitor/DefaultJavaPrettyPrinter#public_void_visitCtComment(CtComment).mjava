@@ -141,7 +141,7 @@ content
 .
 split
 (
-LINE_SEPARATOR
+LINE_SEPARATORS_RE
 )
 ;
 for
