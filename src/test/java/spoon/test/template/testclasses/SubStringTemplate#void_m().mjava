@@ -1,0 +1,11 @@
+void
+m
+(
+)
+{
+set$name$
+(
+"The $name$ is here too"
+)
+;
+}

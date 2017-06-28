@@ -1,0 +1,14 @@
+void
+set$name$
+(
+String
+p_$name$
+)
+{
+this
+.
+m_$name$
+=
+p_$name$
+;
+}

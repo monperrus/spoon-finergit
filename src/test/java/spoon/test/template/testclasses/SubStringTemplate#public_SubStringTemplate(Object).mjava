@@ -1,0 +1,15 @@
+@Local
+public
+SubStringTemplate
+(
+Object
+name
+)
+{
+this
+.
+name
+=
+name
+;
+}
