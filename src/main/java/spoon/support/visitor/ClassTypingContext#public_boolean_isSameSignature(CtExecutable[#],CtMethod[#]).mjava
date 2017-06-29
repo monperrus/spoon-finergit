@@ -1,7 +1,8 @@
 /** 
- * The same signature is the necessary condition for method A overrides method B.
+ * Two methods are considered as having the same signature if they have the same name and argument types See https://docs.oracle.com/javase/specs/jls/se8/html/jls-8.html#jls-8.4.2
+ * @param thisExecutable - the scope method to be checked with
  * @param thatExecutable - the checked method
- * @return true if this method and `thatMethod` has same signature
+ * @return true if this method and thatMethod has same signature
  */
 public
 boolean
