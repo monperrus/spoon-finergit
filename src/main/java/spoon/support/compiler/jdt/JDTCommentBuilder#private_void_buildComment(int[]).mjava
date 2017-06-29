@@ -107,6 +107,13 @@ start
 ;
 }
 }
+comment
+.
+setContent
+(
+""
+)
+;
 String
 commentContent
 =
