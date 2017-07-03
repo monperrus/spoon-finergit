@@ -8,7 +8,7 @@ statement
 {
 this
 .
-statement
+_statement_
 =
 statement
 ;

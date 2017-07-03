@@ -3,13 +3,13 @@ public
 SubStringTemplate
 (
 Object
-name
+o
 )
 {
 this
 .
-name
+$name$
 =
-name
+o
 ;
 }

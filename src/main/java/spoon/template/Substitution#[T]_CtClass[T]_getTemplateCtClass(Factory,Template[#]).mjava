@@ -73,6 +73,11 @@ getName
 )
 ;
 }
+checkTemplateContracts
+(
+c
+)
+;
 return
 c
 ;
