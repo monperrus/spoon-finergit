@@ -4,15 +4,18 @@
  * @param templateOfType the model used as source of generation.
  * @param templateParameters the substitution parameters
  */
+@SuppressWarnings("unchecked")
 public
 static
 <
 T
->
+extends
 CtType
 <
-T
+?
 >
+>
+T
 createTypeFromTemplate
 (
 String
@@ -20,7 +23,7 @@ qualifiedTypeName
 ,
 CtType
 <
-T
+?
 >
 templateOfType
 ,
@@ -119,11 +122,14 @@ List
 <
 CtType
 <
-T
+?
 >
 >
 generated
 =
+(
+List
+)
 new
 SubstitutionVisitor
 (
@@ -145,7 +151,7 @@ for
 (
 CtType
 <
-T
+?
 >
 ctType
 :
@@ -161,6 +167,9 @@ ctType
 ;
 }
 return
+(
+T
+)
 typeRef
 .
 getTypeDeclaration
