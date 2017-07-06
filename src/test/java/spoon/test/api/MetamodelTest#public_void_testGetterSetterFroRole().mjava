@@ -397,6 +397,17 @@ getSimpleName
 .
 startsWith
 (
+"insert"
+)
+||
+m
+.
+getSimpleName
+(
+)
+.
+startsWith
+(
 "remove"
 )
 )

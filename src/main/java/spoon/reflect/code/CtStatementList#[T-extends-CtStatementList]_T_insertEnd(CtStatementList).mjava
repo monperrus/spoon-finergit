@@ -1,13 +1,11 @@
 /** 
  * Inserts the given statements at the end of the block.
  */
+@PropertySetter(role=STATEMENT)
 <
 T
 extends
-CtBlock
-<
-R
->
+CtStatementList
 >
 T
 insertEnd
