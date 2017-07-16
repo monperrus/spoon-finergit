@@ -1,16 +1,20 @@
 DoNotFurtherTemplateThisElement
 (
-Object
+CtElement
 e
 )
 {
 super
 (
-"skipping "
+"Skipping "
 +
 e
 .
-toString
+getClass
+(
+)
+.
+getName
 (
 )
 )
