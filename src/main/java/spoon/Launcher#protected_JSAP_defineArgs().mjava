@@ -157,7 +157,7 @@ opt2
 .
 setHelp
 (
-"Level of the ouput messages about what spoon is doing. Default value is ALL level."
+"Level of the ouput messages about what spoon is doing."
 )
 ;
 opt2
