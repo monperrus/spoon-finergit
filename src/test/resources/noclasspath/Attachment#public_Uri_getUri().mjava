@@ -1,0 +1,10 @@
+public
+Uri
+getUri
+(
+)
+{
+return
+uri
+;
+}
