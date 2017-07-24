@@ -366,7 +366,7 @@ final
 String
 expected
 =
-"for (@java.lang.SuppressWarnings(value = \"rawtypes\")"
+"for (@java.lang.SuppressWarnings(\"rawtypes\")"
 +
 nl
 +
