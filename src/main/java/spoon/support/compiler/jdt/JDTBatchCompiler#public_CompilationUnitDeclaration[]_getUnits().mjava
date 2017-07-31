@@ -227,6 +227,19 @@ getCompilationUnits
 )
 )
 ;
+if
+(
+jdtCompiler
+.
+getEnvironment
+(
+)
+.
+isCommentsEnabled
+(
+)
+)
+{
 for
 (
 int
@@ -330,6 +343,7 @@ tmpDeclForComment
 .
 comments
 ;
+}
 }
 return
 result
