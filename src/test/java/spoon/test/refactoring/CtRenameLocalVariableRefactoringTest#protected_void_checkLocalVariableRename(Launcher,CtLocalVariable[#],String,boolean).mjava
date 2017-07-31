@@ -2,6 +2,9 @@ protected
 void
 checkLocalVariableRename
 (
+Launcher
+launcher
+,
 CtLocalVariable
 <
 ?
@@ -123,6 +126,8 @@ getSimpleName
 ;
 assertCorrectModel
 (
+launcher
+,
 getParentMethodName
 (
 targetVariable
