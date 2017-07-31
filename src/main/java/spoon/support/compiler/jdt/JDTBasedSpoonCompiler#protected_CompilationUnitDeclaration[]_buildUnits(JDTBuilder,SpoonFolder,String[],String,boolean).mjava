@@ -28,10 +28,15 @@ SpoonFile
 >
 sourceFiles
 =
+Collections
+.
+unmodifiableList
+(
 sourcesFolder
 .
 getAllJavaFiles
 (
+)
 )
 ;
 if
@@ -55,7 +60,7 @@ createBatchCompiler
 new
 FileCompilerConfig
 (
-sourcesFolder
+sourceFiles
 )
 )
 ;
@@ -140,11 +145,7 @@ SourceOptions
 .
 sources
 (
-sourcesFolder
-.
-getAllJavaFiles
-(
-)
+sourceFiles
 )
 )
 .
