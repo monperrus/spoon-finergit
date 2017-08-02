@@ -15,15 +15,11 @@ int
 end
 )
 {
-start
-=
-2
-;
 return
 cleanComment
 (
 new
-String
+CharArrayReader
 (
 contents
 ,

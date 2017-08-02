@@ -95,7 +95,9 @@ getContent
 .
 split
 (
-LINE_SEPARATORS_RE
+CtComment
+.
+LINE_SEPARATOR
 )
 ;
 for
