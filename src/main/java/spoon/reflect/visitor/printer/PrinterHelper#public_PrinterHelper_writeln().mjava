@@ -9,7 +9,7 @@ writeln
 {
 write
 (
-LINE_SEPARATOR
+lineSeparator
 )
 ;
 line

@@ -1,0 +1,13 @@
+/** 
+ * @return current line separator. By default there is CR LF, LF or CR depending on the Operation systemdefined by System.getProperty("line.separator")
+ */
+public
+String
+getLineSeparator
+(
+)
+{
+return
+lineSeparator
+;
+}

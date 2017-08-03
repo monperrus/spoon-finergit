@@ -1,0 +1,22 @@
+/** 
+ * @param lineSeparator characters which will be printed as End of line.By default there is System.getProperty("line.separator")
+ */
+public
+DefaultJavaPrettyPrinter
+setLineSeparator
+(
+String
+lineSeparator
+)
+{
+printer
+.
+setLineSeparator
+(
+lineSeparator
+)
+;
+return
+this
+;
+}

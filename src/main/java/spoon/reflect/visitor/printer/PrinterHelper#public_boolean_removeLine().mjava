@@ -7,7 +7,7 @@ removeLine
 String
 ls
 =
-LINE_SEPARATOR
+lineSeparator
 ;
 int
 i

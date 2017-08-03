@@ -1,5 +1,5 @@
 /** 
- * Prints the package info.
+ * Prints the package info. It always resets the printing context at the beginning of this process.
  */
 String
 printPackageInfo

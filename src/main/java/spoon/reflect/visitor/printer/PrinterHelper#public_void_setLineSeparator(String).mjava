@@ -1,0 +1,18 @@
+/** 
+ * @param lineSeparator characters which will be printed as End of line.By default there is System.getProperty("line.separator")
+ */
+public
+void
+setLineSeparator
+(
+String
+lineSeparator
+)
+{
+this
+.
+lineSeparator
+=
+lineSeparator
+;
+}
