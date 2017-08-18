@@ -1,0 +1,12 @@
+/** 
+ * Get the imports computed for this CU
+ * @return All the imports from the original source code
+ */
+Collection
+<
+CtReference
+>
+getImports
+(
+)
+;

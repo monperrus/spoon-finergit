@@ -206,6 +206,12 @@ null
 assertTrue
 (
 lastImport
++
+" should be before "
++
+line
+,
+lastImport
 .
 compareTo
 (

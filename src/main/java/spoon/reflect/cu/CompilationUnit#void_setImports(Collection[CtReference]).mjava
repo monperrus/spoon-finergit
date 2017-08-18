@@ -1,0 +1,14 @@
+/** 
+ * Set the imports of this CU
+ * @param imports All the imports of the original source code
+ */
+void
+setImports
+(
+Collection
+<
+CtReference
+>
+imports
+)
+;

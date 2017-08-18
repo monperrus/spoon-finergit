@@ -1,0 +1,16 @@
+@Override
+public
+Collection
+<
+CtReference
+>
+getImports
+(
+)
+{
+return
+this
+.
+imports
+;
+}
