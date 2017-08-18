@@ -1,0 +1,16 @@
+@Override
+public
+void
+setEncoding
+(
+Charset
+encoding
+)
+{
+this
+.
+encoding
+=
+encoding
+;
+}

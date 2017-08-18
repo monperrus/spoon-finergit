@@ -1,0 +1,8 @@
+/** 
+ * Get the encoding used inside the project
+ */
+Charset
+getEncoding
+(
+)
+;

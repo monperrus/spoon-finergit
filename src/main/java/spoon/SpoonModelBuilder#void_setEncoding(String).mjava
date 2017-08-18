@@ -1,6 +1,8 @@
 /** 
  * Sets the encoding to use when different from the system encoding.
+ * @deprecated encoding is directly used from Environment
  */
+@Deprecated
 void
 setEncoding
 (

@@ -1,0 +1,10 @@
+/** 
+ * Set the encoding to use for parsing source code
+ */
+void
+setEncoding
+(
+Charset
+encoding
+)
+;

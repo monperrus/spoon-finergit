@@ -84,7 +84,9 @@ encoding
 (
 this
 .
-encoding
+getEncoding
+(
+)
 )
 .
 classpath

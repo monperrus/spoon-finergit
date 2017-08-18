@@ -1,6 +1,8 @@
 /** 
  * Gets the encoding used by this compiler. Null means that it uses the system encoding.
+ * @deprecated encoding is directly used from Environment
  */
+@Deprecated
 String
 getEncoding
 (

@@ -108,7 +108,9 @@ inputStream
 ,
 jdtCompiler
 .
-encoding
+getEncoding
+(
+)
 )
 ;
 cuList
