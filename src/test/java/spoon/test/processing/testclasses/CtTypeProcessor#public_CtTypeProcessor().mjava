@@ -1,0 +1,13 @@
+public
+CtTypeProcessor
+(
+)
+{
+super
+(
+CtType
+.
+class
+)
+;
+}
