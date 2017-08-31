@@ -1,0 +1,14 @@
+@SuppressWarnings("unchecked")
+public
+Class
+<
+T
+>
+getType
+(
+)
+{
+return
+acceptedClass
+;
+}

@@ -1,9 +1,16 @@
 /** 
  * @param name Name of the expected element
+ * @param acceptedClass Expected class of the results
  */
 public
-NameFilter
+NamedElementFilter
 (
+Class
+<
+T
+>
+acceptedClass
+,
 String
 name
 )
@@ -11,6 +18,10 @@ name
 if
 (
 name
+==
+null
+||
+acceptedClass
 ==
 null
 )
@@ -27,5 +38,11 @@ this
 name
 =
 name
+;
+this
+.
+acceptedClass
+=
+acceptedClass
 ;
 }
