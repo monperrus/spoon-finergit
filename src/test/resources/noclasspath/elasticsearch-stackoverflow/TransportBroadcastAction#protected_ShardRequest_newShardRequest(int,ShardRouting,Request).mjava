@@ -1,0 +1,15 @@
+protected
+abstract
+ShardRequest
+newShardRequest
+(
+int
+numShards
+,
+ShardRouting
+shard
+,
+Request
+request
+)
+;

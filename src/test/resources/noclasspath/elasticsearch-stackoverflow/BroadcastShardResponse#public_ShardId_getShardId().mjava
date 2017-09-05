@@ -1,0 +1,12 @@
+public
+ShardId
+getShardId
+(
+)
+{
+return
+this
+.
+shardId
+;
+}

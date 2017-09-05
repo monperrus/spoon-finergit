@@ -1,0 +1,24 @@
+@Override
+protected
+final
+void
+doExecute
+(
+Request
+request
+,
+ActionListener
+<
+Response
+>
+listener
+)
+{
+throw
+new
+UnsupportedOperationException
+(
+"the task parameter is required for this operation"
+)
+;
+}

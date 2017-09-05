@@ -1,0 +1,15 @@
+protected
+abstract
+Response
+newResponse
+(
+Request
+request
+,
+AtomicReferenceArray
+shardsResponses
+,
+ClusterState
+clusterState
+)
+;

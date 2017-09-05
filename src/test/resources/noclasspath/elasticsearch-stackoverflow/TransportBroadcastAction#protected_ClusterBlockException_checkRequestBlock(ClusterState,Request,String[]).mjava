@@ -1,0 +1,17 @@
+protected
+abstract
+ClusterBlockException
+checkRequestBlock
+(
+ClusterState
+state
+,
+Request
+request
+,
+String
+[
+]
+concreteIndices
+)
+;

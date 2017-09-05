@@ -1,0 +1,9 @@
+protected
+abstract
+ShardResponse
+shardOperation
+(
+ShardRequest
+request
+)
+;

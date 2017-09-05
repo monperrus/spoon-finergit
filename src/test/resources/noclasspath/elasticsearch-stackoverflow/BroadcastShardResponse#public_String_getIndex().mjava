@@ -1,0 +1,16 @@
+public
+String
+getIndex
+(
+)
+{
+return
+this
+.
+shardId
+.
+getIndexName
+(
+)
+;
+}

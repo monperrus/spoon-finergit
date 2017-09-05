@@ -1,0 +1,12 @@
+protected
+abstract
+ClusterBlockException
+checkGlobalBlock
+(
+ClusterState
+state
+,
+Request
+request
+)
+;

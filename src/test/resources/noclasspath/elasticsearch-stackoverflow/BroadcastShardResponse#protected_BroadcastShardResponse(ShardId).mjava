@@ -1,0 +1,14 @@
+protected
+BroadcastShardResponse
+(
+ShardId
+shardId
+)
+{
+this
+.
+shardId
+=
+shardId
+;
+}
