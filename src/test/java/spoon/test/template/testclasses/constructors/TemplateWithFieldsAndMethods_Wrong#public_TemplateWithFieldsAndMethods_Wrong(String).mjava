@@ -1,0 +1,15 @@
+@Local
+public
+TemplateWithFieldsAndMethods_Wrong
+(
+String
+PARAM
+)
+{
+this
+.
+PARAM
+=
+PARAM
+;
+}

@@ -3,7 +3,6 @@
  * @return parameter value converted to String
  */
 private
-static
 String
 getParameterValueAsString
 (

@@ -6,7 +6,6 @@
  */
 @SuppressWarnings("unchecked")
 private
-static
 <
 T
 >

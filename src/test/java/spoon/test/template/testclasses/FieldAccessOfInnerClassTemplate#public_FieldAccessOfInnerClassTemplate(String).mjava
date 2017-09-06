@@ -1,0 +1,15 @@
+@Local
+public
+FieldAccessOfInnerClassTemplate
+(
+String
+fieldName
+)
+{
+this
+.
+$field$
+=
+fieldName
+;
+}

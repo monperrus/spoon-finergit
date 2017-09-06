@@ -1,0 +1,15 @@
+@Local
+public
+FieldAccessTemplate
+(
+String
+fieldName
+)
+{
+this
+.
+fieldName
+=
+fieldName
+;
+}

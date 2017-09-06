@@ -5,6 +5,6 @@ methodToBeInserted
 )
 {
 return
-"PARAM"
+PARAM
 ;
 }

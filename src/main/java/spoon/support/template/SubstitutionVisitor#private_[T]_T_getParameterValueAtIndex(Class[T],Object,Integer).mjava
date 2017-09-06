@@ -6,7 +6,6 @@
  * @return parameterValue (optionally item from the list) cast (in future potentially converted) to itemClass
  */
 private
-static
 <
 T
 >

@@ -13,9 +13,9 @@ Logger
 .
 enter
 (
-_classname_
+"_classname_"
 ,
-_methodName_
+"_methodName_"
 )
 ;
 _block_
@@ -31,7 +31,7 @@ Logger
 .
 exit
 (
-_methodName_
+"_methodName_"
 )
 ;
 }

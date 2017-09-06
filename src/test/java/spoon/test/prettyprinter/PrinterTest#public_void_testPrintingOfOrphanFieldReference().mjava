@@ -75,17 +75,6 @@ assertTrue
 (
 e
 .
-getCause
-(
-)
-instanceof
-NullPointerException
-)
-;
-assertTrue
-(
-e
-.
 getMessage
 (
 )
