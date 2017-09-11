@@ -1,0 +1,13 @@
+/** 
+ * @return the current number of tabs.
+ */
+public
+int
+getTabCount
+(
+)
+{
+return
+nbTabs
+;
+}
