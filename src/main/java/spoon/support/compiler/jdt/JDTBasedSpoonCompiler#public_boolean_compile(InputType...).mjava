@@ -84,7 +84,15 @@ encoding
 (
 this
 .
+getEnvironment
+(
+)
+.
 getEncoding
+(
+)
+.
+displayName
 (
 )
 )

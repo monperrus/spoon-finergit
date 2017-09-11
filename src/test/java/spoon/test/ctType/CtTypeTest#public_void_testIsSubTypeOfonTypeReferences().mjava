@@ -79,10 +79,14 @@ oCtType
 filterChildren
 (
 new
-NameFilter
+NamedElementFilter
 <
 >
 (
+CtMethod
+.
+class
+,
 "foo"
 )
 )

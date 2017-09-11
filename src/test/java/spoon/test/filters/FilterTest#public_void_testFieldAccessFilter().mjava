@@ -51,10 +51,14 @@ foo
 getElements
 (
 new
-NameFilter
+NamedElementFilter
 <
 >
 (
+CtNamedElement
+.
+class
+,
 "i"
 )
 )

@@ -49,10 +49,14 @@ ctClassLunch
 filterChildren
 (
 new
-NameFilter
+NamedElementFilter
 <
 >
 (
+CtMethod
+.
+class
+,
 "eatMe"
 )
 )

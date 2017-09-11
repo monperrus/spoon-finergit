@@ -183,9 +183,13 @@ assertEquals
 (
 "UTF-16"
 ,
-builder
+environment
 .
 getEncoding
+(
+)
+.
+displayName
 (
 )
 )

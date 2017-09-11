@@ -116,11 +116,14 @@ type
 getElements
 (
 new
-NameFilter
+NamedElementFilter
 <
-CtNamedElement
 >
 (
+CtNamedElement
+.
+class
+,
 "InternalInterf"
 )
 )

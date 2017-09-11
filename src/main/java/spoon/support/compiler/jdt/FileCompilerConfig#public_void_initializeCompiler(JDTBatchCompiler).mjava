@@ -108,6 +108,10 @@ inputStream
 ,
 jdtCompiler
 .
+getEnvironment
+(
+)
+.
 getEncoding
 (
 )

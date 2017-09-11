@@ -94,8 +94,14 @@ resultKlass
 getElements
 (
 new
-NameFilter
+NamedElementFilter
+<
+>
 (
+CtMethod
+.
+class
+,
 "invoke"
 )
 )

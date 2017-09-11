@@ -84,11 +84,14 @@ getModel
 getElements
 (
 new
-NameFilter
+NamedElementFilter
 <
-CtMethod
 >
 (
+CtMethod
+.
+class
+,
 "setField"
 )
 )

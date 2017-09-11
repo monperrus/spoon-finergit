@@ -39,10 +39,14 @@ exec
 filterChildren
 (
 new
-NameFilter
+NamedElementFilter
 <
 >
 (
+CtParameter
+.
+class
+,
 "param"
 +
 typeParam

@@ -85,8 +85,14 @@ templateKlass
 getElements
 (
 new
-NameFilter
+NamedElementFilter
+<
+>
 (
+CtMethod
+.
+class
+,
 "matcher1"
 )
 )

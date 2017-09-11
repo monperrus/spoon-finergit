@@ -82,10 +82,14 @@ cls
 filterChildren
 (
 new
-NameFilter
+NamedElementFilter
 <
 >
 (
+CtLocalVariable
+.
+class
+,
 "strings"
 )
 )

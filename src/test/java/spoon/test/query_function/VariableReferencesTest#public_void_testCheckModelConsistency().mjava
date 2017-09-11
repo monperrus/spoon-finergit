@@ -248,8 +248,14 @@ modelClass
 filterChildren
 (
 new
-NameFilter
+NamedElementFilter
+<
+>
 (
+CtVariable
+.
+class
+,
 "maxValue"
 )
 )

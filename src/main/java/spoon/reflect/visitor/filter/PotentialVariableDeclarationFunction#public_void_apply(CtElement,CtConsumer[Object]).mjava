@@ -74,10 +74,14 @@ siblingsQuery
 select
 (
 new
-NameFilter
+NamedElementFilter
 <
 >
 (
+CtNamedElement
+.
+class
+,
 variableName
 )
 )

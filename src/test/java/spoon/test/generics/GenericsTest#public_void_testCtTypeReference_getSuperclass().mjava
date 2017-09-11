@@ -49,10 +49,14 @@ ctClassCelebrationLunch
 filterChildren
 (
 new
-NameFilter
+NamedElementFilter
 <
 >
 (
+CtNamedElement
+.
+class
+,
 "disgust"
 )
 )
