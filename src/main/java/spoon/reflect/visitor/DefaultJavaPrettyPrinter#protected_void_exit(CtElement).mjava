@@ -1,0 +1,12 @@
+/** 
+ * This method is called by  {@link #scan(CtElement)} when entering a scanned element.To be overridden to implement specific behavior.
+ */
+protected
+void
+exit
+(
+CtElement
+e
+)
+{
+}

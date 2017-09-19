@@ -16,6 +16,11 @@ e
 null
 )
 {
+enter
+(
+e
+)
+;
 context
 .
 elementStack
@@ -151,6 +156,11 @@ elementStack
 .
 pop
 (
+)
+;
+exit
+(
+e
 )
 ;
 }
