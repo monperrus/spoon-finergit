@@ -37,7 +37,7 @@ getComplianceLevel
 ;
 assertEquals
 (
-6
+5
 ,
 launcher
 .
