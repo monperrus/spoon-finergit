@@ -260,7 +260,9 @@ opt2
 .
 setDefault
 (
-"8"
+DEFAULT_CODE_COMPLIANCE_LEVEL
++
+""
 )
 ;
 jsap
