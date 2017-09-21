@@ -1,7 +1,7 @@
 /** 
  * Builds the model
  */
-void
+CtModel
 buildModel
 (
 )

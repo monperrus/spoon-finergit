@@ -1,6 +1,6 @@
 @Override
 public
-void
+CtModel
 buildModel
 (
 )
@@ -37,6 +37,17 @@ currentTimeMillis
 -
 tstart
 )
+)
+;
+return
+modelBuilder
+.
+getFactory
+(
+)
+.
+getModel
+(
 )
 ;
 }
