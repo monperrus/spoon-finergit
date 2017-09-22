@@ -41,7 +41,7 @@ launcher
 .
 addInputResource
 (
-"./src/main/java"
+"./src/main/java/spoon/template/"
 )
 ;
 launcher
@@ -55,7 +55,7 @@ launcher
 .
 setOutputFilter
 (
-"spoon.Launcher"
+"spoon.template.Parameter"
 ,
 "spoon.template.AbstractTemplate"
 )
@@ -153,7 +153,7 @@ get
 ;
 assertEquals
 (
-"Launcher.java"
+"Parameter.java"
 ,
 filesName
 .

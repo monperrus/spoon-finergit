@@ -130,7 +130,7 @@ launcher
 .
 addInputResource
 (
-"./src/test/java"
+"./src/test/java/spoon/test"
 )
 ;
 launcher
@@ -138,6 +138,11 @@ launcher
 buildModel
 (
 )
+;
+int
+n
+=
+0
 ;
 for
 (
@@ -162,6 +167,9 @@ getAllTypes
 )
 )
 {
+n
+++
+;
 assertTrue
 (
 t
@@ -177,4 +185,11 @@ contains
 )
 ;
 }
+assertTrue
+(
+n
+>=
+2
+)
+;
 }

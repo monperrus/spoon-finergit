@@ -41,7 +41,7 @@ launcher
 .
 addInputResource
 (
-"./src/main/java"
+"./src/main/java/spoon/template/"
 )
 ;
 launcher
@@ -82,7 +82,7 @@ element
 )
 {
 return
-"spoon.Launcher"
+"spoon.template.Parameter"
 .
 equals
 (
@@ -201,7 +201,7 @@ get
 ;
 assertEquals
 (
-"Launcher.java"
+"Parameter.java"
 ,
 filesName
 .
