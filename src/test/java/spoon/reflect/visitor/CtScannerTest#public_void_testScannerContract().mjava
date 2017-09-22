@@ -106,7 +106,7 @@ getModel
 processWith
 (
 new
-CheckScannerProcessor
+CheckScannerTestProcessor
 (
 )
 )

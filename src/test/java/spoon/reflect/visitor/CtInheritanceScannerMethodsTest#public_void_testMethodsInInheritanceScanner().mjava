@@ -47,7 +47,7 @@ launcher
 addProcessor
 (
 new
-CheckVisitorProcessor
+CheckVisitorTestProcessor
 (
 CtInheritanceScanner
 .
