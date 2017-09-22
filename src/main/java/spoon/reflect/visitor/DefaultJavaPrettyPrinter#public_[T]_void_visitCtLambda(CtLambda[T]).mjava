@@ -31,7 +31,7 @@ createListPrinter
 ,
 ","
 ,
-") -> "
+")"
 )
 )
 {
@@ -79,6 +79,27 @@ parameter
 }
 }
 }
+printer
+.
+write
+(
+' '
+)
+;
+printer
+.
+write
+(
+"->"
+)
+;
+printer
+.
+write
+(
+' '
+)
+;
 if
 (
 lambda

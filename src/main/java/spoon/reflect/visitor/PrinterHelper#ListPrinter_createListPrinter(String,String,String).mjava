@@ -5,7 +5,6 @@
  * @param end the string which has to be printed after the list
  * @return the {@link ListPrinter} whose {@link ListPrinter#printSeparatorIfAppropriate()} has to be calledbefore printing of each item.
  */
-public
 ListPrinter
 createListPrinter
 (

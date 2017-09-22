@@ -33,8 +33,14 @@ write
 (
 " "
 )
+;
+printer
 .
-writeOperator
+write
+(
+OperatorHelper
+.
+getOperatorText
 (
 operator
 .
@@ -42,6 +48,9 @@ getKind
 (
 )
 )
+)
+;
+printer
 .
 write
 (
