@@ -1,0 +1,12 @@
+public
+FooCasper
+foo
+(
+)
+{
+return
+foo2
+(
+)
+;
+}

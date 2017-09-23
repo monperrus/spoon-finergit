@@ -22,6 +22,17 @@ e
 isImplicit
 (
 )
+&&
+!
+(
+e
+.
+getPosition
+(
+)
+instanceof
+NoSourcePosition
+)
 )
 {
 while

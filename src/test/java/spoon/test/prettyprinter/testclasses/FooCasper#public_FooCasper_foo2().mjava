@@ -1,0 +1,10 @@
+public
+FooCasper
+foo2
+(
+)
+{
+return
+null
+;
+}
