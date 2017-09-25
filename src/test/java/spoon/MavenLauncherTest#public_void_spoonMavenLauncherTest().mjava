@@ -85,10 +85,8 @@ SOURCE_TYPE
 ALL_SOURCE
 )
 ;
-assertEquals
+assertTrue
 (
-235
-,
 launcher
 .
 getModelBuilder
@@ -102,6 +100,8 @@ getInputSources
 size
 (
 )
+>=
+236
 )
 ;
 launcher

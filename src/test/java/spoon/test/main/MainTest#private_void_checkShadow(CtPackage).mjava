@@ -359,6 +359,16 @@ CtTypeParameterReference
 continue
 ;
 }
+if
+(
+executableDeclaration
+instanceof
+CtLambda
+)
+{
+continue
+;
+}
 assertEquals
 (
 reference
