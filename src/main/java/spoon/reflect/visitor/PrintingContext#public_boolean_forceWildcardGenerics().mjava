@@ -1,0 +1,16 @@
+public
+boolean
+forceWildcardGenerics
+(
+)
+{
+return
+(
+state
+&
+FORCE_WILDCARD_GENERICS
+)
+!=
+0L
+;
+}
