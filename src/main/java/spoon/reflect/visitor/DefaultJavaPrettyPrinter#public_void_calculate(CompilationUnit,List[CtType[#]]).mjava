@@ -132,7 +132,9 @@ writeTabs
 }
 else
 {
-printer
+getPrinterHelper
+(
+)
 .
 adjustEndPosition
 (

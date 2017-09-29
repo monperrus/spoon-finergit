@@ -1,0 +1,10 @@
+/** 
+ * writes a code snippet - represents arbitrary code of  {@link CtCodeSnippetExpression} or {@link CtCodeSnippetStatement}
+ */
+TokenWriter
+writeCodeSnippet
+(
+String
+token
+)
+;

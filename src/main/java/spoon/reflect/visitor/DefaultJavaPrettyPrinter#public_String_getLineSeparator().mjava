@@ -8,7 +8,9 @@ getLineSeparator
 )
 {
 return
-printer
+getPrinterHelper
+(
+)
 .
 getLineSeparator
 (

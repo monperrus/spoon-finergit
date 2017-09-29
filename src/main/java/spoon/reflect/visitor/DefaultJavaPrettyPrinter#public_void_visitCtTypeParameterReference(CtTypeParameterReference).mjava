@@ -34,9 +34,9 @@ ref
 )
 )
 {
-printer
+elementPrinterHelper
 .
-write
+writeQualifiedName
 (
 ref
 .
@@ -50,7 +50,7 @@ else
 {
 printer
 .
-write
+writeIdentifier
 (
 ref
 .

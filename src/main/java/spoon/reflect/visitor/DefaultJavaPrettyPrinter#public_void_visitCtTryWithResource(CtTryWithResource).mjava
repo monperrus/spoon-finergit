@@ -14,9 +14,13 @@ tryWithResource
 ;
 printer
 .
-write
+writeKeyword
 (
-"try "
+"try"
+)
+.
+writeSpace
+(
 )
 ;
 if
@@ -46,15 +50,25 @@ try
 ListPrinter
 lp
 =
-printer
+elementPrinterHelper
 .
 createListPrinter
 (
+false
+,
 "("
+,
+false
+,
+false
 ,
 ";"
 ,
-") "
+false
+,
+false
+,
+")"
 )
 )
 {
@@ -87,6 +101,12 @@ r
 }
 }
 }
+printer
+.
+writeSpace
+(
+)
+;
 scan
 (
 tryWithResource
@@ -127,9 +147,17 @@ null
 {
 printer
 .
-write
+writeSpace
 (
-" finally "
+)
+.
+writeKeyword
+(
+"finally"
+)
+.
+writeSpace
+(
 )
 ;
 scan

@@ -23,7 +23,9 @@ isPreserveLineNumbers
 )
 )
 {
-printer
+getPrinterHelper
+(
+)
 .
 adjustStartPosition
 (

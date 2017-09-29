@@ -1,0 +1,8 @@
+/** 
+ * decrements indentation
+ */
+TokenWriter
+decTab
+(
+)
+;

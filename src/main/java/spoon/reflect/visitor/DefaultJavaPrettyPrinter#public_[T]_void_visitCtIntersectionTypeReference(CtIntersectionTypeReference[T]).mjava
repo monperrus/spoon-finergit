@@ -18,13 +18,23 @@ try
 ListPrinter
 lp
 =
-printer
+elementPrinterHelper
 .
 createListPrinter
 (
+false
+,
 null
 ,
-" & "
+false
+,
+true
+,
+"&"
+,
+true
+,
+false
 ,
 null
 )

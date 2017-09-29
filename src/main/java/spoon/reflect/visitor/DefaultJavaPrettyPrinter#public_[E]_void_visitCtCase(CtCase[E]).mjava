@@ -32,9 +32,13 @@ null
 {
 printer
 .
-write
+writeKeyword
 (
-"case "
+"case"
+)
+.
+writeSpace
+(
 )
 ;
 if
@@ -111,7 +115,7 @@ getQualifiedName
 {
 printer
 .
-write
+writeIdentifier
 (
 variable
 .
@@ -151,7 +155,7 @@ else
 {
 printer
 .
-write
+writeKeyword
 (
 "default"
 )
@@ -159,9 +163,13 @@ write
 }
 printer
 .
-write
+writeSpace
 (
-" :"
+)
+.
+writeSeparator
+(
+":"
 )
 .
 incTab

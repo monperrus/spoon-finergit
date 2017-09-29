@@ -20,9 +20,18 @@ switchStatement
 ;
 printer
 .
-write
+writeKeyword
 (
-"switch ("
+"switch"
+)
+.
+writeSpace
+(
+)
+.
+writeSeparator
+(
+"("
 )
 ;
 scan
@@ -36,9 +45,18 @@ getSelector
 ;
 printer
 .
-write
+writeSeparator
 (
-") {"
+")"
+)
+.
+writeSpace
+(
+)
+.
+writeSeparator
+(
+"{"
 )
 .
 incTab
@@ -91,7 +109,7 @@ decTab
 (
 )
 .
-write
+writeSeparator
 (
 "}"
 )
@@ -113,7 +131,7 @@ writeTabs
 (
 )
 .
-write
+writeSeparator
 (
 "}"
 )

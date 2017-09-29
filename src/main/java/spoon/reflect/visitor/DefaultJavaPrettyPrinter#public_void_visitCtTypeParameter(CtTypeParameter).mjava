@@ -43,9 +43,9 @@ ref
 )
 )
 {
-printer
+elementPrinterHelper
 .
-write
+writeQualifiedName
 (
 ref
 .
@@ -59,7 +59,7 @@ else
 {
 printer
 .
-write
+writeIdentifier
 (
 ref
 .
@@ -91,9 +91,17 @@ isUpper
 {
 printer
 .
-write
+writeSpace
 (
-" extends "
+)
+.
+writeKeyword
+(
+"extends"
+)
+.
+writeSpace
+(
 )
 ;
 }
@@ -101,9 +109,17 @@ else
 {
 printer
 .
-write
+writeSpace
 (
-" super "
+)
+.
+writeKeyword
+(
+"super"
+)
+.
+writeSpace
+(
 )
 ;
 }

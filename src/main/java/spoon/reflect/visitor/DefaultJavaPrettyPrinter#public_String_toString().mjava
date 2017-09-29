@@ -11,6 +11,10 @@ toString
 return
 printer
 .
+getPrinterHelper
+(
+)
+.
 toString
 (
 )

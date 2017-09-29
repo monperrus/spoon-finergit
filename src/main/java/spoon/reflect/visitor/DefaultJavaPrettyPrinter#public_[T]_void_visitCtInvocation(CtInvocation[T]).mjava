@@ -118,7 +118,7 @@ getQualifiedName
 {
 printer
 .
-write
+writeKeyword
 (
 "this"
 )
@@ -127,6 +127,10 @@ write
 else
 {
 printer
+.
+getPrinterHelper
+(
+)
 .
 snapshotLength
 (
@@ -145,6 +149,10 @@ if
 (
 printer
 .
+getPrinterHelper
+(
+)
+.
 hasNewContent
 (
 )
@@ -152,7 +160,7 @@ hasNewContent
 {
 printer
 .
-write
+writeSeparator
 (
 "."
 )
@@ -160,7 +168,7 @@ write
 }
 printer
 .
-write
+writeKeyword
 (
 "super"
 )
@@ -170,6 +178,10 @@ write
 else
 {
 printer
+.
+getPrinterHelper
+(
+)
 .
 snapshotLength
 (
@@ -237,6 +249,10 @@ if
 (
 printer
 .
+getPrinterHelper
+(
+)
+.
 hasNewContent
 (
 )
@@ -244,7 +260,7 @@ hasNewContent
 {
 printer
 .
-write
+writeSeparator
 (
 "."
 )
@@ -267,7 +283,9 @@ isPreserveLineNumbers
 )
 )
 {
-printer
+getPrinterHelper
+(
+)
 .
 adjustStartPosition
 (
@@ -277,7 +295,7 @@ invocation
 }
 printer
 .
-write
+writeIdentifier
 (
 invocation
 .
@@ -296,13 +314,23 @@ try
 ListPrinter
 lp
 =
-printer
+elementPrinterHelper
 .
 createListPrinter
 (
+false
+,
 "("
 ,
-", "
+false
+,
+false
+,
+","
+,
+true
+,
+false
 ,
 ")"
 )

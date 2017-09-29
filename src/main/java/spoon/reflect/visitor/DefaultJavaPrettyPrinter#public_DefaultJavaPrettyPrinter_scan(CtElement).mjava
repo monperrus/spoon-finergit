@@ -49,7 +49,9 @@ CtNamedElement
 )
 )
 {
-printer
+getPrinterHelper
+(
+)
 .
 adjustStartPosition
 (

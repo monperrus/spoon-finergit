@@ -1,0 +1,10 @@
+/** 
+ * Writes one separator. It is -&gt; or :: or one of these characters: (){}[];,.:@=&lt;&gt;?&amp;|
+ */
+TokenWriter
+writeSeparator
+(
+String
+token
+)
+;

@@ -15,7 +15,7 @@ reference
 {
 printer
 .
-write
+writeIdentifier
 (
 reference
 .

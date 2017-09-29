@@ -20,7 +20,9 @@ CommentOffset
 BEFORE
 )
 ;
-printer
+getPrinterHelper
+(
+)
 .
 mapLine
 (
@@ -49,7 +51,7 @@ null
 {
 printer
 .
-write
+writeIdentifier
 (
 s
 .
@@ -58,9 +60,17 @@ getLabel
 )
 )
 .
-write
+writeSpace
 (
-" : "
+)
+.
+writeSeparator
+(
+":"
+)
+.
+writeSpace
+(
 )
 ;
 }

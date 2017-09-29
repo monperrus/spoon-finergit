@@ -30,12 +30,10 @@ size
 return
 ;
 }
-CommentHelper
-.
-printComment
-(
 printer
-,
+.
+writeComment
+(
 comment
 )
 ;

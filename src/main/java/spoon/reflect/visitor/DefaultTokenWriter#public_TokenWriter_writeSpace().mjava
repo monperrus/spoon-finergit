@@ -1,0 +1,17 @@
+@Override
+public
+TokenWriter
+writeSpace
+(
+)
+{
+printerHelper
+.
+writeSpace
+(
+)
+;
+return
+this
+;
+}

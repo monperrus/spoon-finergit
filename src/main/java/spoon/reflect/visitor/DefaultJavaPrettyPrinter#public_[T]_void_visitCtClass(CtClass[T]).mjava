@@ -68,10 +68,17 @@ isLocalType
 {
 printer
 .
-write
+writeKeyword
 (
-"class "
-+
+"class"
+)
+.
+writeSpace
+(
+)
+.
+writeIdentifier
+(
 ctClass
 .
 getSimpleName
@@ -91,10 +98,17 @@ else
 {
 printer
 .
-write
+writeKeyword
 (
-"class "
-+
+"class"
+)
+.
+writeSpace
+(
+)
+.
+writeIdentifier
+(
 ctClass
 .
 getSimpleName
@@ -127,9 +141,13 @@ ctClass
 }
 printer
 .
-write
+writeSpace
 (
-" {"
+)
+.
+writeSeparator
+(
+"{"
 )
 .
 incTab
@@ -147,12 +165,16 @@ getTypeMembers
 )
 )
 ;
-printer
+getPrinterHelper
+(
+)
 .
 adjustEndPosition
 (
 ctClass
 )
+;
+printer
 .
 decTab
 (
@@ -162,7 +184,7 @@ writeTabs
 (
 )
 .
-write
+writeSeparator
 (
 "}"
 )

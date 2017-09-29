@@ -64,7 +64,7 @@ CtComment
 {
 printer
 .
-write
+writeSeparator
 (
 ";"
 )

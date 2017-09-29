@@ -14,9 +14,18 @@ foreach
 ;
 printer
 .
-write
+writeKeyword
 (
-"for ("
+"for"
+)
+.
+writeSpace
+(
+)
+.
+writeSeparator
+(
+"("
 )
 ;
 scan
@@ -30,9 +39,17 @@ getVariable
 ;
 printer
 .
-write
+writeSpace
 (
-" : "
+)
+.
+writeSeparator
+(
+":"
+)
+.
+writeSpace
+(
 )
 ;
 scan
@@ -46,7 +63,7 @@ getExpression
 ;
 printer
 .
-write
+writeSeparator
 (
 ")"
 )

@@ -1,0 +1,14 @@
+private
+PrinterHelper
+getPrinterHelper
+(
+)
+{
+return
+printer
+.
+getPrinterHelper
+(
+)
+;
+}

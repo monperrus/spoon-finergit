@@ -1,0 +1,10 @@
+/** 
+ * writes a comment
+ */
+TokenWriter
+writeComment
+(
+CtComment
+comment
+)
+;

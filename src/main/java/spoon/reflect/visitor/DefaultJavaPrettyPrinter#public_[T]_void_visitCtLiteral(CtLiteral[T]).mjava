@@ -20,7 +20,7 @@ literal
 ;
 printer
 .
-write
+writeLiteral
 (
 LiteralHelper
 .

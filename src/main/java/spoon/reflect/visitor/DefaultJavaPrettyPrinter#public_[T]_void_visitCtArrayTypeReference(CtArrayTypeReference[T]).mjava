@@ -46,9 +46,14 @@ skipArray
 {
 printer
 .
-write
+writeSeparator
 (
-"[]"
+"["
+)
+.
+writeSeparator
+(
+"]"
 )
 ;
 }

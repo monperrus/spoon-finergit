@@ -1,0 +1,8 @@
+/** 
+ * increments indentation
+ */
+TokenWriter
+incTab
+(
+)
+;

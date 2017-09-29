@@ -1,8 +1,8 @@
 public
 ElementPrinterHelper
 (
-PrinterHelper
-printerHelper
+TokenWriter
+printerTokenWriter
 ,
 DefaultJavaPrettyPrinter
 prettyPrinter
@@ -15,7 +15,7 @@ this
 .
 printer
 =
-printerHelper
+printerTokenWriter
 ;
 this
 .

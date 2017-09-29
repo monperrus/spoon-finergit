@@ -24,7 +24,7 @@ sourceCompilationUnit
 ;
 printer
 .
-write
+writeIdentifier
 (
 enumValue
 .
@@ -79,7 +79,7 @@ size
 {
 printer
 .
-write
+writeSeparator
 (
 "("
 )
@@ -118,7 +118,7 @@ else
 {
 printer
 .
-write
+writeSeparator
 (
 ","
 )
@@ -132,7 +132,7 @@ ctexpr
 }
 printer
 .
-write
+writeSeparator
 (
 ")"
 )

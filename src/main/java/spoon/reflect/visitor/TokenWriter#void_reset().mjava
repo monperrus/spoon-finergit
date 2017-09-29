@@ -1,0 +1,8 @@
+/** 
+ * resets to the initial state
+ */
+void
+reset
+(
+)
+;

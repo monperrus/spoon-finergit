@@ -20,9 +20,13 @@ asserted
 ;
 printer
 .
-write
+writeKeyword
 (
-"assert "
+"assert"
+)
+.
+writeSpace
+(
 )
 ;
 scan
@@ -47,9 +51,17 @@ null
 {
 printer
 .
-write
+writeSpace
 (
-" : "
+)
+.
+writeSeparator
+(
+":"
+)
+.
+writeSpace
+(
 )
 ;
 scan

@@ -1,0 +1,17 @@
+/** 
+ * writes a space ' ' 
+ */
+public
+void
+writeSpace
+(
+)
+{
+this
+.
+write
+(
+' '
+)
+;
+}

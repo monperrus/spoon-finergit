@@ -1,0 +1,31 @@
+/** 
+ * Set  {@link TokenWriter}, which has to be used to print tokens
+ */
+public
+DefaultJavaPrettyPrinter
+setPrinterTokenWriter
+(
+TokenWriter
+tokenWriter
+)
+{
+elementPrinterHelper
+=
+new
+ElementPrinterHelper
+(
+tokenWriter
+,
+this
+,
+env
+)
+;
+printer
+=
+tokenWriter
+;
+return
+this
+;
+}

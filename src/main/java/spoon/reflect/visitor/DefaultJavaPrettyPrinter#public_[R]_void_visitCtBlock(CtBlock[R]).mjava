@@ -30,7 +30,7 @@ isImplicit
 {
 printer
 .
-write
+writeSeparator
 (
 "{"
 )
@@ -89,7 +89,9 @@ decTab
 (
 )
 ;
-printer
+getPrinterHelper
+(
+)
 .
 adjustEndPosition
 (
@@ -121,7 +123,7 @@ writeTabs
 (
 )
 .
-write
+writeSeparator
 (
 "}"
 )
@@ -152,7 +154,7 @@ isImplicit
 {
 printer
 .
-write
+writeSeparator
 (
 "}"
 )

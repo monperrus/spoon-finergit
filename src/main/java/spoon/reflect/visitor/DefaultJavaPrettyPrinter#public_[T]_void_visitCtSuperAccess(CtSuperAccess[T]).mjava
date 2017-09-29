@@ -40,7 +40,7 @@ getTarget
 ;
 printer
 .
-write
+writeSeparator
 (
 "."
 )
@@ -48,7 +48,7 @@ write
 }
 printer
 .
-write
+writeKeyword
 (
 "super"
 )

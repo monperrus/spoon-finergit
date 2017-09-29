@@ -1,0 +1,10 @@
+/** 
+ * Writes one operator. = &gt; &lt; ! ~ ? : == &lt;= &gt;= != &amp;&amp; || ++ -- + - * / &amp; | ^ % &lt;&lt; &gt;&gt; &gt;&gt;&gt; += -= *= /= &amp;= |= ^= %= &lt;&lt;= &gt;&gt;= &gt;&gt;&gt;= instanceof
+ */
+TokenWriter
+writeOperator
+(
+String
+token
+)
+;

@@ -40,14 +40,13 @@ getAssigned
 ;
 printer
 .
-write
+writeSpace
 (
-" "
 )
 ;
 printer
 .
-write
+writeOperator
 (
 OperatorHelper
 .
@@ -63,9 +62,13 @@ getKind
 ;
 printer
 .
-write
+writeOperator
 (
-"= "
+"="
+)
+.
+writeSpace
+(
 )
 ;
 scan

@@ -25,10 +25,17 @@ ctEnum
 ;
 printer
 .
-write
+writeKeyword
 (
-"enum "
-+
+"enum"
+)
+.
+writeSpace
+(
+)
+.
+writeIdentifier
+(
 ctEnum
 .
 getSimpleName
@@ -52,9 +59,13 @@ ctEnum
 ;
 printer
 .
-write
+writeSpace
 (
-" {"
+)
+.
+writeSeparator
+(
+"{"
 )
 .
 incTab
@@ -86,7 +97,7 @@ writeTabs
 (
 )
 .
-write
+writeSeparator
 (
 ";"
 )
@@ -103,13 +114,23 @@ try
 ListPrinter
 lp
 =
-printer
+elementPrinterHelper
 .
 createListPrinter
 (
+false
+,
 null
 ,
-", "
+false
+,
+false
+,
+","
+,
+true
+,
+false
 ,
 ";"
 )
@@ -165,7 +186,7 @@ writeTabs
 (
 )
 .
-write
+writeSeparator
 (
 "}"
 )

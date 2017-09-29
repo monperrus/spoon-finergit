@@ -280,6 +280,10 @@ false
 }
 printer
 .
+getPrinterHelper
+(
+)
+.
 snapshotLength
 (
 )
@@ -293,6 +297,10 @@ if
 (
 printer
 .
+getPrinterHelper
+(
+)
+.
 hasNewContent
 (
 )
@@ -300,7 +308,7 @@ hasNewContent
 {
 printer
 .
-write
+writeSeparator
 (
 "."
 )

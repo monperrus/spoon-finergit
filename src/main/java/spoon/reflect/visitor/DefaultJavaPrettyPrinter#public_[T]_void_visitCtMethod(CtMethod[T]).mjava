@@ -47,9 +47,13 @@ isDefaultMethod
 {
 printer
 .
-write
+writeKeyword
 (
-"default "
+"default"
+)
+.
+writeSpace
+(
 )
 ;
 }
@@ -77,9 +81,8 @@ size
 {
 printer
 .
-write
+writeSpace
 (
-' '
 )
 ;
 }
@@ -112,14 +115,13 @@ getType
 }
 printer
 .
-write
+writeSpace
 (
-" "
 )
 ;
 printer
 .
-write
+writeIdentifier
 (
 m
 .
@@ -155,9 +157,8 @@ null
 {
 printer
 .
-write
+writeSpace
 (
-" "
 )
 ;
 scan
@@ -254,7 +255,9 @@ CtReturn
 )
 )
 {
-printer
+getPrinterHelper
+(
+)
 .
 putLineNumberMapping
 (
@@ -277,7 +280,21 @@ getEndLine
 }
 else
 {
-printer
+getPrinterHelper
+(
+)
+.
+undefineLine
+(
+)
+;
+}
+}
+else
+{
+getPrinterHelper
+(
+)
 .
 undefineLine
 (
@@ -289,17 +306,7 @@ else
 {
 printer
 .
-undefineLine
-(
-)
-;
-}
-}
-else
-{
-printer
-.
-write
+writeSeparator
 (
 ";"
 )

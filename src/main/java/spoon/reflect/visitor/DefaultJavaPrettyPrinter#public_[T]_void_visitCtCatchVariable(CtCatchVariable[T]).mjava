@@ -22,7 +22,9 @@ isPreserveLineNumbers
 )
 )
 {
-printer
+getPrinterHelper
+(
+)
 .
 adjustStartPosition
 (
@@ -48,14 +50,13 @@ getType
 ;
 printer
 .
-write
+writeSpace
 (
-" "
 )
 ;
 printer
 .
-write
+writeIdentifier
 (
 catchVariable
 .

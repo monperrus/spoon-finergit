@@ -1,0 +1,8 @@
+/** 
+ * @return {@link PrinterHelper} used by this TokenWriter.Note that in the future, will return an interface eg IPrinterHelper instead.
+ */
+PrinterHelper
+getPrinterHelper
+(
+)
+;

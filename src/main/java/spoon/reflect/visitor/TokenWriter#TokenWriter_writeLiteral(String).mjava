@@ -1,0 +1,10 @@
+/** 
+ * writes literal. It can be a String, Character or an number
+ */
+TokenWriter
+writeLiteral
+(
+String
+token
+)
+;

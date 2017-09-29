@@ -22,7 +22,7 @@ expression
 ;
 printer
 .
-write
+writeCodeSnippet
 (
 expression
 .

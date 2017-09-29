@@ -20,9 +20,13 @@ returnStatement
 ;
 printer
 .
-write
+writeKeyword
 (
-"return "
+"return"
+)
+.
+writeSpace
+(
 )
 ;
 scan

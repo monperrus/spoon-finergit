@@ -17,19 +17,15 @@ isUnnamedPackage
 )
 )
 {
-printer
+elementPrinterHelper
 .
-write
+writePackageLine
 (
-"package "
-+
 ctPackage
 .
 getQualifiedName
 (
 )
-+
-";"
 )
 ;
 }
@@ -37,9 +33,26 @@ else
 {
 printer
 .
-write
+writeComment
 (
-"// default package (CtPackage.TOP_LEVEL_PACKAGE_NAME in Spoon= unnamed package)\n"
+ctPackage
+.
+getFactory
+(
+)
+.
+createComment
+(
+"default package (CtPackage.TOP_LEVEL_PACKAGE_NAME in Spoon= unnamed package)"
+,
+CommentType
+.
+INLINE
+)
+)
+.
+writeln
+(
 )
 ;
 }

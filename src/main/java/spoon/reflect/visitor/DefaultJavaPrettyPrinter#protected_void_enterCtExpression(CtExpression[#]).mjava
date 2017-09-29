@@ -34,7 +34,9 @@ BEFORE
 )
 ;
 }
-printer
+getPrinterHelper
+(
+)
 .
 mapLine
 (
@@ -62,7 +64,7 @@ e
 ;
 printer
 .
-write
+writeSeparator
 (
 "("
 )
@@ -99,7 +101,7 @@ getTypeCasts
 {
 printer
 .
-write
+writeSeparator
 (
 "("
 )
@@ -113,14 +115,18 @@ r
 ;
 printer
 .
-write
+writeSeparator
 (
-") "
+")"
+)
+.
+writeSpace
+(
 )
 ;
 printer
 .
-write
+writeSeparator
 (
 "("
 )

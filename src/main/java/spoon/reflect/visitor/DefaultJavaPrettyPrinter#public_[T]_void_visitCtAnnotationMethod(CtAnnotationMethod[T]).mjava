@@ -47,14 +47,13 @@ getType
 ;
 printer
 .
-write
+writeSpace
 (
-" "
 )
 ;
 printer
 .
-write
+writeIdentifier
 (
 annotationMethod
 .
@@ -65,9 +64,14 @@ getSimpleName
 ;
 printer
 .
-write
+writeSeparator
 (
-"()"
+"("
+)
+.
+writeSeparator
+(
+")"
 )
 ;
 if
@@ -83,9 +87,17 @@ null
 {
 printer
 .
-write
+writeSpace
 (
-" default "
+)
+.
+writeKeyword
+(
+"default"
+)
+.
+writeSpace
+(
 )
 ;
 scan
@@ -100,7 +112,7 @@ getDefaultExpression
 }
 printer
 .
-write
+writeSeparator
 (
 ";"
 )

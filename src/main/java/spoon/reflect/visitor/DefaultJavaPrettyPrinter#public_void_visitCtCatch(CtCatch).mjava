@@ -20,9 +20,22 @@ BEFORE
 ;
 printer
 .
-write
+writeSpace
 (
-" catch ("
+)
+.
+writeKeyword
+(
+"catch"
+)
+.
+writeSpace
+(
+)
+.
+writeSeparator
+(
+"("
 )
 ;
 CtCatchVariable
@@ -58,13 +71,23 @@ try
 ListPrinter
 lp
 =
-printer
+elementPrinterHelper
 .
 createListPrinter
 (
+false
+,
 null
 ,
-" | "
+false
+,
+true
+,
+"|"
+,
+true
+,
+false
 ,
 null
 )
@@ -125,10 +148,12 @@ type
 }
 printer
 .
-write
+writeSpace
 (
-" "
-+
+)
+.
+writeIdentifier
+(
 parameter
 .
 getSimpleName
@@ -147,9 +172,13 @@ parameter
 }
 printer
 .
-write
+writeSeparator
 (
-") "
+")"
+)
+.
+writeSpace
+(
 )
 ;
 scan

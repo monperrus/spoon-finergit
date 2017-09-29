@@ -14,9 +14,13 @@ tryBlock
 ;
 printer
 .
-write
+writeKeyword
 (
-"try "
+"try"
+)
+.
+writeSpace
+(
 )
 ;
 scan
@@ -59,9 +63,17 @@ null
 {
 printer
 .
-write
+writeSpace
 (
-" finally "
+)
+.
+writeKeyword
+(
+"finally"
+)
+.
+writeSpace
+(
 )
 ;
 scan

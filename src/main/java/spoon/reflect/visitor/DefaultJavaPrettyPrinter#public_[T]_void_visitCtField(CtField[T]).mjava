@@ -47,14 +47,13 @@ getType
 ;
 printer
 .
-write
+writeSpace
 (
-" "
 )
 ;
 printer
 .
-write
+writeIdentifier
 (
 f
 .
@@ -76,9 +75,17 @@ null
 {
 printer
 .
-write
+writeSpace
 (
-" = "
+)
+.
+writeOperator
+(
+"="
+)
+.
+writeSpace
+(
 )
 ;
 scan
@@ -93,7 +100,7 @@ getDefaultExpression
 }
 printer
 .
-write
+writeSeparator
 (
 ";"
 )

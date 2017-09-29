@@ -14,9 +14,13 @@ throwStatement
 ;
 printer
 .
-write
+writeKeyword
 (
-"throw "
+"throw"
+)
+.
+writeSpace
+(
 )
 ;
 scan

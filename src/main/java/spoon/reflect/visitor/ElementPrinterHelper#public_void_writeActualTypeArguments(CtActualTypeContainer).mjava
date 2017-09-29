@@ -46,13 +46,21 @@ try
 ListPrinter
 lp
 =
-printer
-.
 createListPrinter
 (
+false
+,
 "<"
 ,
-", "
+false
+,
+false
+,
+","
+,
+true
+,
+false
 ,
 ">"
 )
@@ -98,9 +106,9 @@ forceWildcardGenerics
 {
 printer
 .
-write
+writeSeparator
 (
-'?'
+"?"
 )
 ;
 }

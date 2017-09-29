@@ -23,7 +23,9 @@ CommentOffset
 BEFORE
 )
 ;
-printer
+getPrinterHelper
+(
+)
 .
 mapLine
 (

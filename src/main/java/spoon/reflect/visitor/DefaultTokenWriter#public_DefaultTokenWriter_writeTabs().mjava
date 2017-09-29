@@ -1,0 +1,17 @@
+@Override
+public
+DefaultTokenWriter
+writeTabs
+(
+)
+{
+printerHelper
+.
+writeTabs
+(
+)
+;
+return
+this
+;
+}

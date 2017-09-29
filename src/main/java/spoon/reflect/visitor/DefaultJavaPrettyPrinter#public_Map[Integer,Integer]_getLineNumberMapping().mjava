@@ -11,7 +11,9 @@ getLineNumberMapping
 )
 {
 return
-printer
+getPrinterHelper
+(
+)
 .
 getLineNumberMapping
 (

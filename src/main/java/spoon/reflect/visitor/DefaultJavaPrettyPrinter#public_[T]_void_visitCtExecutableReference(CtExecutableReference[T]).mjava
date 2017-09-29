@@ -15,6 +15,10 @@ reference
 {
 printer
 .
+getPrinterHelper
+(
+)
+.
 write
 (
 reference

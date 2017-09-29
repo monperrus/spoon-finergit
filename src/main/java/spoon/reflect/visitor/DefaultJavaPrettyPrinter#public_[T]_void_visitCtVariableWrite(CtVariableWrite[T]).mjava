@@ -20,7 +20,7 @@ variableWrite
 ;
 printer
 .
-write
+writeIdentifier
 (
 variableWrite
 .

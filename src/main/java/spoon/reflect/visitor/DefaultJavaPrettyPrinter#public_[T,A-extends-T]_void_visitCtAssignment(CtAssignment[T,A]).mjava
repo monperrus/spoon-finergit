@@ -40,9 +40,17 @@ getAssigned
 ;
 printer
 .
-write
+writeSpace
 (
-" = "
+)
+.
+writeOperator
+(
+"="
+)
+.
+writeSpace
+(
 )
 ;
 scan

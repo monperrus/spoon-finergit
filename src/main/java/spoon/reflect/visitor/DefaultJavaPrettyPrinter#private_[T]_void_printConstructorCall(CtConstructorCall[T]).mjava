@@ -46,7 +46,7 @@ getTarget
 ;
 printer
 .
-write
+writeSeparator
 (
 "."
 )
@@ -81,9 +81,13 @@ true
 }
 printer
 .
-write
+writeKeyword
 (
-"new "
+"new"
+)
+.
+writeSpace
+(
 )
 ;
 if
@@ -124,13 +128,23 @@ try
 ListPrinter
 lp
 =
-printer
+elementPrinterHelper
 .
 createListPrinter
 (
+false
+,
 "("
 ,
-", "
+false
+,
+false
+,
+","
+,
+true
+,
+false
 ,
 ")"
 )

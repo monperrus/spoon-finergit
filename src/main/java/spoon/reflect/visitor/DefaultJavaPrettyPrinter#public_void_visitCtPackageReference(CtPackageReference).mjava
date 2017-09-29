@@ -7,9 +7,9 @@ CtPackageReference
 reference
 )
 {
-printer
+elementPrinterHelper
 .
-write
+writeQualifiedName
 (
 reference
 .

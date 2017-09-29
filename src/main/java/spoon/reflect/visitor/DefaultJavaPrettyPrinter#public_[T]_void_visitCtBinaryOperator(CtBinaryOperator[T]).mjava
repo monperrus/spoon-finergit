@@ -29,14 +29,13 @@ getLeftHandOperand
 ;
 printer
 .
-write
+writeSpace
 (
-" "
 )
 ;
 printer
 .
-write
+writeOperator
 (
 OperatorHelper
 .
@@ -52,9 +51,8 @@ getKind
 ;
 printer
 .
-write
+writeSpace
 (
-" "
 )
 ;
 try

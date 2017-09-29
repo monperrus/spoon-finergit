@@ -1,0 +1,10 @@
+/** 
+ * writes a java identifier.
+ */
+TokenWriter
+writeIdentifier
+(
+String
+token
+)
+;

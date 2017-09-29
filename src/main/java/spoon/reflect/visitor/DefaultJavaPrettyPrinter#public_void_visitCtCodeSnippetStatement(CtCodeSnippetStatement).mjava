@@ -16,7 +16,7 @@ statement
 ;
 printer
 .
-write
+writeCodeSnippet
 (
 statement
 .

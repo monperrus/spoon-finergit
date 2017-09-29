@@ -20,7 +20,7 @@ variableRead
 ;
 printer
 .
-write
+writeIdentifier
 (
 variableRead
 .

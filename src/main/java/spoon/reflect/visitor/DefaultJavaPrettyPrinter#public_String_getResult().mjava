@@ -8,6 +8,10 @@ getResult
 return
 printer
 .
+getPrinterHelper
+(
+)
+.
 toString
 (
 )

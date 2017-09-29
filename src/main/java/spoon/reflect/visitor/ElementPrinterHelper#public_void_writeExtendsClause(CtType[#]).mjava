@@ -22,9 +22,17 @@ null
 {
 printer
 .
-write
+writeSpace
 (
-" extends "
+)
+.
+writeKeyword
+(
+"extends"
+)
+.
+writeSpace
+(
 )
 ;
 prettyPrinter

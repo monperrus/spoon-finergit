@@ -34,9 +34,9 @@ wildcardReference
 )
 )
 {
-printer
+elementPrinterHelper
 .
-write
+writeQualifiedName
 (
 wildcardReference
 .
@@ -50,7 +50,7 @@ else
 {
 printer
 .
-write
+writeIdentifier
 (
 wildcardReference
 .
@@ -82,9 +82,17 @@ isUpper
 {
 printer
 .
-write
+writeSpace
 (
-" extends "
+)
+.
+writeKeyword
+(
+"extends"
+)
+.
+writeSpace
+(
 )
 ;
 }
@@ -92,9 +100,17 @@ else
 {
 printer
 .
-write
+writeSpace
 (
-" super "
+)
+.
+writeKeyword
+(
+"super"
+)
+.
+writeSpace
+(
 )
 ;
 }

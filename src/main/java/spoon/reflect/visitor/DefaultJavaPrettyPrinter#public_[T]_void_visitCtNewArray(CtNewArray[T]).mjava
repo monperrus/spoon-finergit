@@ -90,9 +90,13 @@ null
 {
 printer
 .
-write
+writeKeyword
 (
-"new "
+"new"
+)
+.
+writeSpace
+(
 )
 ;
 }
@@ -136,7 +140,7 @@ i
 {
 printer
 .
-write
+writeSeparator
 (
 "["
 )
@@ -181,7 +185,7 @@ e
 }
 printer
 .
-write
+writeSeparator
 (
 "]"
 )
@@ -221,15 +225,25 @@ try
 ListPrinter
 lp
 =
-printer
+elementPrinterHelper
 .
 createListPrinter
 (
-"{ "
+false
 ,
-" , "
+"{"
 ,
-" }"
+true
+,
+true
+,
+","
+,
+true
+,
+true
+,
+"}"
 )
 )
 {

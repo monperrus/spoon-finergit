@@ -1,18 +1,39 @@
 /** 
  * Creates new handler which assures consistent printing of lists prefixed with `start`, separated by `next` and suffixed by `end`
+ * @param startPrefixSpace TODO
  * @param start the string which has to be printed at the beginning of the list
+ * @param startSufficSpace TODO
+ * @param nextPrefixSpace TODO
  * @param next the string which has to be used as separator before each next item
+ * @param nextSuffixSpace TODO
+ * @param endPrefixSpace TODO
  * @param end the string which has to be printed after the list
  * @return the {@link ListPrinter} whose {@link ListPrinter#printSeparatorIfAppropriate()} has to be calledbefore printing of each item.
  */
+public
 ListPrinter
 createListPrinter
 (
+boolean
+startPrefixSpace
+,
 String
 start
 ,
+boolean
+startSufficSpace
+,
+boolean
+nextPrefixSpace
+,
 String
 next
+,
+boolean
+nextSuffixSpace
+,
+boolean
+endPrefixSpace
 ,
 String
 end
@@ -22,11 +43,19 @@ return
 new
 ListPrinter
 (
-this
+printer
 ,
 start
 ,
+startSufficSpace
+,
+nextPrefixSpace
+,
 next
+,
+nextSuffixSpace
+,
+endPrefixSpace
 ,
 end
 )

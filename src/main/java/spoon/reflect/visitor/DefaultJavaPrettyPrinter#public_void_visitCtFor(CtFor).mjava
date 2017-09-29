@@ -14,9 +14,18 @@ forLoop
 ;
 printer
 .
-write
+writeKeyword
 (
-"for ("
+"for"
+)
+.
+writeSpace
+(
+)
+.
+writeSeparator
+(
+"("
 )
 ;
 List
@@ -102,9 +111,13 @@ i
 {
 printer
 .
-write
+writeSeparator
 (
-", "
+","
+)
+.
+writeSpace
+(
 )
 ;
 scan
@@ -122,9 +135,13 @@ i
 }
 printer
 .
-write
+writeSeparator
 (
-"; "
+";"
+)
+.
+writeSpace
+(
 )
 ;
 scan
@@ -138,7 +155,7 @@ getExpression
 ;
 printer
 .
-write
+writeSeparator
 (
 ";"
 )
@@ -159,9 +176,8 @@ isEmpty
 {
 printer
 .
-write
+writeSpace
 (
-" "
 )
 ;
 }
@@ -170,13 +186,23 @@ try
 ListPrinter
 lp
 =
-printer
+elementPrinterHelper
 .
 createListPrinter
 (
+false
+,
 null
 ,
-" , "
+false
+,
+true
+,
+","
+,
+true
+,
+false
 ,
 null
 )
@@ -209,7 +235,7 @@ s
 }
 printer
 .
-write
+writeSeparator
 (
 ")"
 )

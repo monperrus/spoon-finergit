@@ -14,7 +14,7 @@ doLoop
 ;
 printer
 .
-write
+writeKeyword
 (
 "do"
 )
@@ -32,9 +32,18 @@ getBody
 ;
 printer
 .
-write
+writeKeyword
 (
-"while ("
+"while"
+)
+.
+writeSpace
+(
+)
+.
+writeSeparator
+(
+"("
 )
 ;
 scan
@@ -48,9 +57,13 @@ getLoopingExpression
 ;
 printer
 .
-write
+writeSpace
 (
-" )"
+)
+.
+writeSeparator
+(
+")"
 )
 ;
 }

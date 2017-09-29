@@ -14,9 +14,18 @@ whileLoop
 ;
 printer
 .
-write
+writeKeyword
 (
-"while ("
+"while"
+)
+.
+writeSpace
+(
+)
+.
+writeSeparator
+(
+"("
 )
 ;
 scan
@@ -30,7 +39,7 @@ getLoopingExpression
 ;
 printer
 .
-write
+writeSeparator
 (
 ")"
 )

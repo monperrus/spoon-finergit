@@ -72,7 +72,7 @@ parent
 {
 printer
 .
-write
+writeSeparator
 (
 "("
 )
@@ -90,7 +90,7 @@ parent
 {
 printer
 .
-write
+writeSeparator
 (
 ")"
 )
@@ -98,9 +98,17 @@ write
 }
 printer
 .
-write
+writeSpace
 (
-" ? "
+)
+.
+writeOperator
+(
+"?"
+)
+.
+writeSpace
+(
 )
 ;
 CtExpression
@@ -122,9 +130,17 @@ thenExpression
 ;
 printer
 .
-write
+writeSpace
 (
-" : "
+)
+.
+writeOperator
+(
+":"
+)
+.
+writeSpace
+(
 )
 ;
 CtExpression
@@ -157,7 +173,7 @@ CtAssignment
 {
 printer
 .
-write
+writeSeparator
 (
 "("
 )
@@ -175,7 +191,7 @@ isAssign
 {
 printer
 .
-write
+writeSeparator
 (
 ")"
 )

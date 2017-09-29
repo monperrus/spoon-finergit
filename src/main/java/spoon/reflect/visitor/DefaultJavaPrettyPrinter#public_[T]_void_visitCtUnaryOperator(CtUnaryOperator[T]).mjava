@@ -44,7 +44,7 @@ op
 {
 printer
 .
-write
+writeOperator
 (
 OperatorHelper
 .
@@ -76,7 +76,7 @@ op
 {
 printer
 .
-write
+writeOperator
 (
 OperatorHelper
 .

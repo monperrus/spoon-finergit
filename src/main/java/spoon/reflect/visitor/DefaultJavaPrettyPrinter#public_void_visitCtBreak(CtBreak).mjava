@@ -14,7 +14,7 @@ breakStatement
 ;
 printer
 .
-write
+writeKeyword
 (
 "break"
 )
@@ -32,10 +32,12 @@ null
 {
 printer
 .
-write
+writeSpace
 (
-" "
-+
+)
+.
+writeKeyword
+(
 breakStatement
 .
 getTargetLabel

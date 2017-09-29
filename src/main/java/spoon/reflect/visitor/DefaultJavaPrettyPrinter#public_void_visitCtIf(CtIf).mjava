@@ -14,9 +14,18 @@ ifElement
 ;
 printer
 .
-write
+writeKeyword
 (
-"if ("
+"if"
+)
+.
+writeSpace
+(
+)
+.
+writeSeparator
+(
+"("
 )
 ;
 scan
@@ -30,7 +39,7 @@ getCondition
 ;
 printer
 .
-write
+writeSeparator
 (
 ")"
 )
@@ -157,7 +166,7 @@ comment
 }
 printer
 .
-write
+writeKeyword
 (
 "else"
 )

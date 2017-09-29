@@ -52,7 +52,7 @@ getTarget
 ;
 printer
 .
-write
+writeSeparator
 (
 "."
 )
@@ -83,9 +83,14 @@ getVariable
 ;
 printer
 .
-write
+writeSeparator
 (
-"()"
+"("
+)
+.
+writeSeparator
+(
+")"
 )
 ;
 }

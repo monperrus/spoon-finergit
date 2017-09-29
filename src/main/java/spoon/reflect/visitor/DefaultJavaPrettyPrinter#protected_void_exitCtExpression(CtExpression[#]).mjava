@@ -47,7 +47,7 @@ pop
 ;
 printer
 .
-write
+writeSeparator
 (
 ")"
 )

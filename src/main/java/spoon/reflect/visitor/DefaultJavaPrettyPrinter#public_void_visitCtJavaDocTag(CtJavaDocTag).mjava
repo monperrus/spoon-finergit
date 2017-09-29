@@ -12,6 +12,10 @@ CommentHelper
 printJavaDocTag
 (
 printer
+.
+getPrinterHelper
+(
+)
 ,
 docTag
 )

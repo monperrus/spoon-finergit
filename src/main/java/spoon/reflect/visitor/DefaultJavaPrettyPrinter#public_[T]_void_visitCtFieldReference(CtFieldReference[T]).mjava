@@ -153,7 +153,7 @@ getDeclaringType
 }
 printer
 .
-write
+writeSeparator
 (
 "."
 )
@@ -161,7 +161,7 @@ write
 }
 printer
 .
-write
+writeIdentifier
 (
 reference
 .

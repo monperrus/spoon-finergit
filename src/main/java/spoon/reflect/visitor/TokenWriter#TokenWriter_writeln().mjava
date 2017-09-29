@@ -1,0 +1,8 @@
+/** 
+ * writes new line (EOL)
+ */
+TokenWriter
+writeln
+(
+)
+;

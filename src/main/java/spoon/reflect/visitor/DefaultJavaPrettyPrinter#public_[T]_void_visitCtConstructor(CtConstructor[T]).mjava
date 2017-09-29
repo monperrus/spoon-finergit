@@ -60,9 +60,8 @@ size
 {
 printer
 .
-write
+writeSpace
 (
-' '
 )
 ;
 }
@@ -92,7 +91,7 @@ isLocalType
 {
 printer
 .
-write
+writeIdentifier
 (
 constructor
 .
@@ -117,7 +116,7 @@ else
 {
 printer
 .
-write
+writeIdentifier
 (
 constructor
 .
@@ -148,9 +147,8 @@ constructor
 ;
 printer
 .
-write
+writeSpace
 (
-" "
 )
 ;
 scan

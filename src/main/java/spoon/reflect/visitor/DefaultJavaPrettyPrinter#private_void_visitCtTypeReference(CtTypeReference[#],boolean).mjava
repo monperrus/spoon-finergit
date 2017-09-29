@@ -42,7 +42,7 @@ ref
 ;
 printer
 .
-write
+writeKeyword
 (
 ref
 .
@@ -143,7 +143,7 @@ accessType
 }
 printer
 .
-write
+writeSeparator
 (
 "."
 )
@@ -168,7 +168,7 @@ isLocalType
 {
 printer
 .
-write
+writeIdentifier
 (
 ref
 .
@@ -189,7 +189,7 @@ else
 {
 printer
 .
-write
+writeIdentifier
 (
 ref
 .
@@ -243,7 +243,7 @@ getPackage
 ;
 printer
 .
-write
+writeSeparator
 (
 CtPackage
 .
@@ -261,7 +261,7 @@ ref
 ;
 printer
 .
-write
+writeIdentifier
 (
 ref
 .
