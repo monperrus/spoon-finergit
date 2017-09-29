@@ -46,6 +46,14 @@ if
 (
 method
 .
+isSynthetic
+(
+)
+==
+false
+&&
+method
+.
 getName
 (
 )

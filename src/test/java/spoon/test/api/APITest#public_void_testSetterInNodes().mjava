@@ -212,14 +212,14 @@ return
 false
 ;
 }
-CtClass
+CtType
 <
 ?
 >
 zeClass
 =
 (
-CtClass
+CtType
 )
 method
 .
