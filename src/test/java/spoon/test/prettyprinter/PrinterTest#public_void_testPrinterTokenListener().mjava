@@ -390,17 +390,6 @@ i
 0
 )
 {
-if
-(
-!
-"?"
-.
-equals
-(
-identifier
-)
-)
-{
 assertTrue
 (
 Character
@@ -411,7 +400,6 @@ c
 )
 )
 ;
-}
 }
 else
 {
@@ -427,17 +415,6 @@ c
 ;
 }
 }
-if
-(
-!
-"class"
-.
-equals
-(
-identifier
-)
-)
-{
 assertTrue
 (
 "Keyword found in Identifier: "
@@ -454,7 +431,6 @@ identifier
 false
 )
 ;
-}
 allTokens
 .
 append

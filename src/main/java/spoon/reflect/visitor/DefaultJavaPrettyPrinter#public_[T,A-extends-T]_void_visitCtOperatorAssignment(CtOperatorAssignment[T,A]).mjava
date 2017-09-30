@@ -58,14 +58,11 @@ getKind
 (
 )
 )
++
+"="
 )
 ;
 printer
-.
-writeOperator
-(
-"="
-)
 .
 writeSpace
 (
