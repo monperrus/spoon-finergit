@@ -104,7 +104,7 @@ getSignature
 (
 )
 ,
-"<T extends java.lang.String> void method1(T extends java.lang.String)"
+"method1(T extends java.lang.String)"
 )
 ;
 }

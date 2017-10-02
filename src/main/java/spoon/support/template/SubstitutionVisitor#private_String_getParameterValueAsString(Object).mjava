@@ -107,7 +107,7 @@ CtInvocation
 )
 {
 return
-getShortSignature
+getShortSignatureForJavadoc
 (
 (
 (
@@ -122,10 +122,6 @@ parameterValue
 getExecutable
 (
 )
-.
-getSignature
-(
-)
 )
 ;
 }
@@ -138,8 +134,7 @@ CtExecutableReference
 )
 {
 return
-getShortSignature
-(
+getShortSignatureForJavadoc
 (
 (
 CtExecutableReference
@@ -148,11 +143,6 @@ CtExecutableReference
 >
 )
 parameterValue
-)
-.
-getSignature
-(
-)
 )
 ;
 }
@@ -165,7 +155,7 @@ CtExecutable
 )
 {
 return
-getShortSignature
+getShortSignatureForJavadoc
 (
 (
 (
@@ -177,7 +167,7 @@ CtExecutable
 parameterValue
 )
 .
-getSignature
+getReference
 (
 )
 )

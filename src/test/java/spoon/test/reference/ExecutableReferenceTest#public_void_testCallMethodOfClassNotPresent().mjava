@@ -242,7 +242,7 @@ size
 ;
 assertEquals
 (
-"Bar#m()"
+"m()"
 ,
 executableZeroParameter
 .
@@ -323,7 +323,7 @@ executableOneParameter
 ;
 assertEquals
 (
-"Bar#m(int)"
+"m(int)"
 ,
 executableOneParameter
 .
@@ -411,7 +411,7 @@ executableOneParameter
 ;
 assertEquals
 (
-"Bar#m(int, java.lang.String)"
+"m(int,java.lang.String)"
 ,
 executableTwoParameters
 .
@@ -499,7 +499,7 @@ executableOneParameter
 ;
 assertEquals
 (
-"Bar#m(java.lang.String)"
+"m(java.lang.String)"
 ,
 staticExecutable
 .

@@ -140,7 +140,7 @@ toArray
 ;
 assertEquals
 (
-"java.io.File foo(java.lang.String)"
+"foo(java.lang.String)"
 ,
 methodString
 .

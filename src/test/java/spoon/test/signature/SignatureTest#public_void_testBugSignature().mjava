@@ -131,7 +131,7 @@ get
 ;
 assertEquals
 (
-"void addInputSource(java.io.File)"
+"addInputSource(java.io.File)"
 ,
 method
 .
@@ -155,7 +155,7 @@ get
 ;
 assertEquals
 (
-"void addInputSource(spoon.compiler.SpoonResource)"
+"addInputSource(spoon.compiler.SpoonResource)"
 ,
 method2
 .

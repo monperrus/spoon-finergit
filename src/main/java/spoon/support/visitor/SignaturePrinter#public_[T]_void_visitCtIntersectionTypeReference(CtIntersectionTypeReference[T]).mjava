@@ -35,14 +35,10 @@ bound
 ;
 write
 (
-", "
+","
 )
 ;
 }
-clearLast
-(
-)
-;
 clearLast
 (
 )

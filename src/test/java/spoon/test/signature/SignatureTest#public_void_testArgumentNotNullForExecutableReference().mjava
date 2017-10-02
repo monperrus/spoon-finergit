@@ -117,7 +117,7 @@ reference
 ;
 assertEquals
 (
-"#addField(<unknown>, <unknown>)"
+"addField(<unknown>,<unknown>)"
 ,
 references
 .
@@ -133,7 +133,7 @@ getSignature
 ;
 assertEquals
 (
-"#addField(<unknown>, org.argouml.uml.ui.UMLComboBoxNavigator)"
+"addField(<unknown>,org.argouml.uml.ui.UMLComboBoxNavigator)"
 ,
 references
 .
@@ -157,7 +157,7 @@ references
 {
 assertNotEquals
 (
-"#addField(null, null)"
+"addField(null,null)"
 ,
 reference
 .

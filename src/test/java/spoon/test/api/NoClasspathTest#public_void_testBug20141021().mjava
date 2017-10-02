@@ -71,7 +71,7 @@ getSignature
 ;
 assertEquals
 (
-"#foo()"
+"foo()"
 ,
 s
 )

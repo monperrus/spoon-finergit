@@ -221,7 +221,7 @@ toString
 .
 equals
 (
-"java.lang.Object#Object()"
+"java.lang.Object()"
 )
 )
 {
@@ -274,7 +274,7 @@ toString
 .
 equals
 (
-"java.lang.Object#Object()"
+"java.lang.Object()"
 )
 )
 {

@@ -152,7 +152,7 @@ toArray
 ;
 assertEquals
 (
-"java.lang.Object foo(java.util.List)"
+"foo(java.util.List)"
 ,
 method
 .

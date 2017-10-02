@@ -254,7 +254,7 @@ getExecutable
 ;
 assertEquals
 (
-"fr.inria.AnotherMissingImport#doSomething(externallib.SomeType)"
+"doSomething(externallib.SomeType)"
 ,
 executableReference
 .

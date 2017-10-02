@@ -215,11 +215,11 @@ toArray
 ;
 assertEquals
 (
-"java.io.File foo(java.lang.String)"
+"foo"
 ,
 methodString
 .
-getSignature
+getSimpleName
 (
 )
 )

@@ -182,7 +182,7 @@ methodArray
 ;
 assertEquals
 (
-"java.lang.Object foo(int)"
+"foo(int)"
 ,
 methodInteger
 .
@@ -250,7 +250,7 @@ methodArray
 ;
 assertEquals
 (
-"java.lang.Object foo(java.lang.String)"
+"foo(java.lang.String)"
 ,
 methodString
 .
