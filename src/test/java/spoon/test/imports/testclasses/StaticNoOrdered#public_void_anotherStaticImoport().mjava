@@ -1,0 +1,15 @@
+public
+void
+anotherStaticImoport
+(
+)
+{
+Charset
+charset
+=
+forName
+(
+"utf-8"
+)
+;
+}
