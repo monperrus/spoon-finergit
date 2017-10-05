@@ -141,7 +141,7 @@ DefaultJavaPrettyPrinter
 .
 LINE_SEPARATOR
 +
-"@java.lang.Deprecated"
+"    @java.lang.Deprecated"
 +
 DefaultJavaPrettyPrinter
 .

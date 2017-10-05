@@ -38,10 +38,6 @@ printer
 writeln
 (
 )
-.
-writeTabs
-(
-)
 ;
 prettyPrinter
 .

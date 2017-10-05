@@ -79,10 +79,6 @@ getParam
 writeln
 (
 )
-.
-writeTabs
-(
-)
 ;
 }
 String
@@ -184,10 +180,6 @@ trim
 )
 .
 writeln
-(
-)
-.
-writeTabs
 (
 )
 ;

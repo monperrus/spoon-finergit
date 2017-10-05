@@ -182,10 +182,6 @@ decTab
 (
 )
 .
-writeTabs
-(
-)
-.
 writeSeparator
 (
 "}"

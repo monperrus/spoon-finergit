@@ -93,10 +93,6 @@ size
 {
 printer
 .
-writeTabs
-(
-)
-.
 writeSeparator
 (
 ";"
@@ -179,10 +175,6 @@ getTypeMembers
 printer
 .
 decTab
-(
-)
-.
-writeTabs
 (
 )
 .

@@ -65,7 +65,7 @@ assertEquals
 +
 newLine
 +
-"    public class ArrayList extends java.util.ArrayList {    }"
+"    public class ArrayList extends java.util.ArrayList {}"
 +
 newLine
 +

@@ -69,10 +69,6 @@ printer
 writeln
 (
 )
-.
-writeTabs
-(
-)
 ;
 elementPrinterHelper
 .
@@ -119,10 +115,6 @@ isImplicit
 {
 printer
 .
-writeTabs
-(
-)
-.
 writeSeparator
 (
 "}"
@@ -135,10 +127,6 @@ else
 printer
 .
 writeln
-(
-)
-.
-writeTabs
 (
 )
 ;

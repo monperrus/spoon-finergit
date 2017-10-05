@@ -275,7 +275,7 @@ expected
 +
 nl
 +
-"E1(globalField,E1);"
+"    E1(globalField,E1);"
 +
 nl
 +

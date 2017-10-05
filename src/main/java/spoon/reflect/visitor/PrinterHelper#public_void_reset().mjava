@@ -26,6 +26,10 @@ column
 =
 1
 ;
+shouldWriteTabs
+=
+true
+;
 lineNumberMapping
 =
 new

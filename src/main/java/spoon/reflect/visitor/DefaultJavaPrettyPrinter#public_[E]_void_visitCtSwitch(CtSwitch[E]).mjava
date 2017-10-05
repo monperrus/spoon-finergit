@@ -83,10 +83,6 @@ printer
 writeln
 (
 )
-.
-writeTabs
-(
-)
 ;
 scan
 (
@@ -124,10 +120,6 @@ decTab
 )
 .
 writeln
-(
-)
-.
-writeTabs
 (
 )
 .

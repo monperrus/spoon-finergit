@@ -55,10 +55,6 @@ JAVADOC_START
 writeln
 (
 )
-.
-writeTabs
-(
-)
 ;
 break
 ;
@@ -175,10 +171,6 @@ printer
 writeln
 (
 )
-.
-writeTabs
-(
-)
 ;
 }
 }
@@ -207,10 +199,6 @@ com
 writeln
 (
 )
-.
-writeTabs
-(
-)
 ;
 }
 else
@@ -225,10 +213,6 @@ com
 )
 .
 writeln
-(
-)
-.
-writeTabs
 (
 )
 ;
@@ -258,10 +242,6 @@ write
 )
 .
 writeln
-(
-)
-.
-writeTabs
 (
 )
 ;
