@@ -931,5 +931,16 @@ length
 )
 )
 ;
+assertEquals
+(
+standardPrintedResult
+,
+allTokens
+.
+toString
+(
+)
+)
+;
 }
 }
