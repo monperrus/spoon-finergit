@@ -104,20 +104,6 @@ name
 "invalidStep2"
 )
 .
-map
-(
-(
-o
-)
-->
-o
-)
-.
-name
-(
-"step3"
-)
-.
 forEach
 (
 (
@@ -143,7 +129,7 @@ fail
 }
 catch
 (
-SpoonException
+ClassCastException
 e
 )
 {
@@ -157,7 +143,7 @@ getMessage
 .
 indexOf
 (
-"Step invalidStep2) spoon.support.reflect.declaration.CtClassImpl cannot be cast to spoon.reflect.declaration.CtMethod"
+"spoon.support.reflect.declaration.CtClassImpl cannot be cast to spoon.reflect.declaration.CtMethod"
 )
 >=
 0

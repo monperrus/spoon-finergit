@@ -172,7 +172,7 @@ fail
 }
 catch
 (
-SpoonException
+ClassCastException
 e
 )
 {
@@ -190,10 +190,6 @@ assertEquals
 "TEST"
 ,
 e
-.
-getCause
-(
-)
 .
 getMessage
 (
@@ -275,7 +271,7 @@ fail
 }
 catch
 (
-SpoonException
+ClassCastException
 e
 )
 {
@@ -293,10 +289,6 @@ assertEquals
 "TEST"
 ,
 e
-.
-getCause
-(
-)
 .
 getMessage
 (
@@ -382,7 +374,7 @@ fail
 }
 catch
 (
-SpoonException
+ClassCastException
 e
 )
 {
@@ -400,10 +392,6 @@ assertEquals
 "TEST"
 ,
 e
-.
-getCause
-(
-)
 .
 getMessage
 (
@@ -477,7 +465,7 @@ fail
 }
 catch
 (
-SpoonException
+ClassCastException
 e
 )
 {
@@ -495,10 +483,6 @@ assertEquals
 "TEST"
 ,
 e
-.
-getCause
-(
-)
 .
 getMessage
 (
@@ -593,7 +577,7 @@ fail
 }
 catch
 (
-SpoonException
+ClassCastException
 e
 )
 {
@@ -611,10 +595,6 @@ assertEquals
 "TEST"
 ,
 e
-.
-getCause
-(
-)
 .
 getMessage
 (
@@ -695,7 +675,7 @@ fail
 }
 catch
 (
-SpoonException
+ClassCastException
 e
 )
 {
@@ -713,10 +693,6 @@ assertEquals
 "TEST"
 ,
 e
-.
-getCause
-(
-)
 .
 getMessage
 (
@@ -815,7 +791,7 @@ fail
 }
 catch
 (
-SpoonException
+ClassCastException
 e
 )
 {
@@ -833,10 +809,6 @@ assertEquals
 "TEST"
 ,
 e
-.
-getCause
-(
-)
 .
 getMessage
 (
@@ -923,7 +895,7 @@ fail
 }
 catch
 (
-SpoonException
+ClassCastException
 e
 )
 {
@@ -941,10 +913,6 @@ assertEquals
 "TEST"
 ,
 e
-.
-getCause
-(
-)
 .
 getMessage
 (
