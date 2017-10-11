@@ -120,6 +120,19 @@ getTypes
 )
 )
 {
+if
+(
+type
+.
+getVisibility
+(
+)
+==
+ModifierKind
+.
+PUBLIC
+)
+{
 this
 .
 imports
@@ -133,6 +146,7 @@ getReference
 )
 )
 ;
+}
 }
 }
 }
