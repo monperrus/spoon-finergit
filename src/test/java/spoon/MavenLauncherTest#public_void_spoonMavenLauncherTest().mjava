@@ -87,6 +87,22 @@ ALL_SOURCE
 ;
 assertTrue
 (
+"size: "
++
+launcher
+.
+getModelBuilder
+(
+)
+.
+getInputSources
+(
+)
+.
+size
+(
+)
+,
 launcher
 .
 getModelBuilder
@@ -101,7 +117,7 @@ size
 (
 )
 >=
-236
+220
 )
 ;
 launcher

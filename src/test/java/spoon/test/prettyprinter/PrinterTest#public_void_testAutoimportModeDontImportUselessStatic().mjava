@@ -144,25 +144,13 @@ contains
 ;
 assertTrue
 (
-"The result should contain import for TestCase: "
-,
-result
-.
-contains
-(
-"import junit.framework.TestCase;"
-)
-)
-;
-assertTrue
-(
 "The result should contain assertTrue(...): "
 ,
 result
 .
 contains
 (
-"TestCase.assertTrue(\"blabla\".equals(\"toto\"));"
+"Assert.assertTrue(\"blabla\".equals(\"toto\"));"
 )
 )
 ;
