@@ -8,6 +8,8 @@ clone
 return
 CloneHelper
 .
+INSTANCE
+.
 clone
 (
 this

@@ -68,15 +68,9 @@ aCtUnboundVariableReference
 .
 setType
 (
-spoon
+this
 .
-support
-.
-visitor
-.
-equals
-.
-CloneHelper
+cloneHelper
 .
 clone
 (

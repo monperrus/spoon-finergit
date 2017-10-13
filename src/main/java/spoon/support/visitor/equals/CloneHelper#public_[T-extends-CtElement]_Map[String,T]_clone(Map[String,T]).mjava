@@ -1,5 +1,4 @@
 public
-static
 <
 T
 extends
@@ -88,8 +87,6 @@ getKey
 (
 )
 ,
-CloneHelper
-.
 clone
 (
 tEntry

@@ -1,0 +1,13 @@
+CloneVisitorTemplate
+(
+CloneHelper
+cloneHelper
+)
+{
+this
+.
+cloneHelper
+=
+cloneHelper
+;
+}

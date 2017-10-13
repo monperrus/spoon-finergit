@@ -59,15 +59,9 @@ aCtPackageReference
 .
 setAnnotations
 (
-spoon
+this
 .
-support
-.
-visitor
-.
-equals
-.
-CloneHelper
+cloneHelper
 .
 clone
 (

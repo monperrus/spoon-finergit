@@ -1,5 +1,4 @@
 public
-static
 <
 T
 extends
@@ -65,8 +64,6 @@ others
 .
 add
 (
-CloneHelper
-.
 clone
 (
 element
