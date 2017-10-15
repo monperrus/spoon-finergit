@@ -46,7 +46,7 @@ onObjectUpdate
 (
 this
 ,
-EXECUTABLE
+NESTED_TYPE
 ,
 anonymousClass
 ,
