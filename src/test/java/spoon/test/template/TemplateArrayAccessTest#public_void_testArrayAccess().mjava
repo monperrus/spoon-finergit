@@ -84,7 +84,7 @@ resultKlass
 ;
 assertEquals
 (
-"new java.lang.String[]{ \"a\" , null , \"b\" }.toString()"
+"new java.lang.String[]{ \"a\", null, \"b\" }.toString()"
 ,
 result
 .

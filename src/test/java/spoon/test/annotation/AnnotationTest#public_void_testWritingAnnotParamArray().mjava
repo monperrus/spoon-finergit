@@ -28,7 +28,7 @@ get
 ;
 assertEquals
 (
-"@java.lang.SuppressWarnings({ \"unused\" , \"rawtypes\" })"
+"@java.lang.SuppressWarnings({ \"unused\", \"rawtypes\" })"
 ,
 type
 .
