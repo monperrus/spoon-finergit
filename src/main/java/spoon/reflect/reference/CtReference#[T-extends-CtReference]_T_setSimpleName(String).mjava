@@ -1,6 +1,7 @@
 /** 
  * Sets the name of referenced element.
  */
+@PropertySetter(role=CtRole.NAME)
 <
 T
 extends

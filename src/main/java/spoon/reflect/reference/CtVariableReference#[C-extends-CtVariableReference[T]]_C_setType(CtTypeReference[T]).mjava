@@ -1,6 +1,7 @@
 /** 
  * Sets the type of the variable.
  */
+@PropertySetter(role=CtRole.TYPE)
 <
 C
 extends

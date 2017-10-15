@@ -1,6 +1,7 @@
 /** 
  * Sets the <code>extends</code> clause of the type parameter.
  */
+@PropertySetter(role=CtRole.BOUNDING_TYPE)
 <
 T
 extends

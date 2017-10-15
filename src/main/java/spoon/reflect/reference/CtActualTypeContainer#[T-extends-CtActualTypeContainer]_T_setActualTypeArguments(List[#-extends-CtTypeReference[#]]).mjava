@@ -1,6 +1,7 @@
 /** 
  * Sets the type arguments.
  */
+@PropertySetter(role=CtRole.TYPE_PARAMETER)
 <
 T
 extends

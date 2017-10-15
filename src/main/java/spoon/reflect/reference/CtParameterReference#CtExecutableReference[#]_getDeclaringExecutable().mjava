@@ -1,6 +1,7 @@
 /** 
  * Gets the declaring executable of the referenced parameter.
  */
+@PropertyGetter(role=CtRole.EXECUTABLE)
 CtExecutableReference
 <
 ?

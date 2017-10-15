@@ -1,6 +1,7 @@
 /** 
  * Sets the type in which the field is declared.
  */
+@PropertySetter(role=CtRole.DECLARING_TYPE)
 <
 C
 extends

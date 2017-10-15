@@ -1,6 +1,7 @@
 /** 
  * Gets the type of the elements contained in this array. e.g., if you have the array <code>int[][][]</code>, this method returns a type reference for <code>int[][]</code>.
  */
+@PropertyGetter(role=CtRole.TYPE)
 CtTypeReference
 <
 ?

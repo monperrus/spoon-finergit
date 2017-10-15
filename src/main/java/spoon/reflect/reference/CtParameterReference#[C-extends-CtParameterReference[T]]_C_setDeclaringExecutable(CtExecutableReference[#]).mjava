@@ -1,6 +1,7 @@
 /** 
  * Sets the declaring executable of the referenced parameter.
  */
+@PropertySetter(role=CtRole.EXECUTABLE)
 <
 C
 extends

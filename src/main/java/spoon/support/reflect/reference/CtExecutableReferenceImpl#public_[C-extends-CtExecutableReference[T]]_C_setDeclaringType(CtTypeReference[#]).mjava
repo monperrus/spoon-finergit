@@ -49,7 +49,7 @@ onObjectUpdate
 (
 this
 ,
-TYPE
+DECLARING_TYPE
 ,
 declaringType
 ,

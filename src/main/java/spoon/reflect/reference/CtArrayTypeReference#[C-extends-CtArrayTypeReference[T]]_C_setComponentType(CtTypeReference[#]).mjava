@@ -1,6 +1,7 @@
 /** 
  * Sets the type of the elements contained in this array.
  */
+@PropertySetter(role=CtRole.TYPE)
 <
 C
 extends

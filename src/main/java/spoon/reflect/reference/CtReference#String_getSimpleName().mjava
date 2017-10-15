@@ -1,6 +1,7 @@
 /** 
  * Gets the simple name of referenced element.
  */
+@PropertyGetter(role=CtRole.NAME)
 String
 getSimpleName
 (

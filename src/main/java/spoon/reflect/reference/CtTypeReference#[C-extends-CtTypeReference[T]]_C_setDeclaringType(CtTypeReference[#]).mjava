@@ -1,6 +1,7 @@
 /** 
  * Sets the reference to the declaring type. Should be set to null if the referenced type is not a inner type.
  */
+@PropertySetter(role=CtRole.DECLARING_TYPE)
 <
 C
 extends

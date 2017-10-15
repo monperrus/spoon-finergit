@@ -1,6 +1,7 @@
 /** 
  * Sets parameters of the executable.
  */
+@PropertySetter(role=CtRole.PARAMETER)
 <
 C
 extends

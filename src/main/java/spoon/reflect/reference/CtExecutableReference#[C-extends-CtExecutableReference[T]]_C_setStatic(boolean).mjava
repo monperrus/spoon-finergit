@@ -1,6 +1,7 @@
 /** 
  * Sets this executable reference to be static or not.
  */
+@PropertySetter(role=CtRole.IS_STATIC)
 <
 C
 extends

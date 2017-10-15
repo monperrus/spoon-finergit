@@ -1,6 +1,7 @@
 /** 
  * Gets the type of the variable.
  */
+@PropertyGetter(role=CtRole.TYPE)
 CtTypeReference
 <
 T

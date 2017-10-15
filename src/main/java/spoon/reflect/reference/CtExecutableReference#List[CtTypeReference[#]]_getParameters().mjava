@@ -1,6 +1,7 @@
 /** 
  * Gets parameters of the executable.
  */
+@PropertyGetter(role=CtRole.PARAMETER)
 List
 <
 CtTypeReference

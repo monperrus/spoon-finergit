@@ -46,7 +46,7 @@ onObjectUpdate
 (
 this
 ,
-SUPER_TYPE
+BOUNDING_TYPE
 ,
 superType
 ,

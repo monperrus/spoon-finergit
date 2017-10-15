@@ -1,6 +1,7 @@
 /** 
  * Adds a bound.
  */
+@PropertySetter(role=CtRole.BOUNDING_TYPE)
 <
 T
 extends

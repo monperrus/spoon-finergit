@@ -1,6 +1,7 @@
 /** 
  * Gets the type arguments.
  */
+@PropertyGetter(role=CtRole.TYPE_PARAMETER)
 List
 <
 CtTypeReference
