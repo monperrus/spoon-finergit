@@ -90,6 +90,8 @@ EOL
 EOL
 +
 "package spoon.test.comment.testclasses;"
++
+EOL
 ,
 l_content
 )
