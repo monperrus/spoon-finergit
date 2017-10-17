@@ -40,7 +40,7 @@ onSetDelete
 (
 this
 ,
-TYPE
+CONTAINED_TYPE
 ,
 types
 ,

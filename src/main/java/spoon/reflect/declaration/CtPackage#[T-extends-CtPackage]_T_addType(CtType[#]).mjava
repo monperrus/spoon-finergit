@@ -1,7 +1,7 @@
 /** 
  * Adds a type to this package.
  */
-@PropertySetter(role=TYPE)
+@PropertySetter(role=CONTAINED_TYPE)
 <
 T
 extends

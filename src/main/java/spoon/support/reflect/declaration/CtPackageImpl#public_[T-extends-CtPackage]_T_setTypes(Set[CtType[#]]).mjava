@@ -64,7 +64,7 @@ onSetDeleteAll
 (
 this
 ,
-TYPE
+CONTAINED_TYPE
 ,
 this
 .
