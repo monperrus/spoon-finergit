@@ -32,9 +32,12 @@ return
 null
 ;
 }
-return
-buildTypeReferenceInternal
-(
+CtTypeReference
+<
+T
+>
+typeReference
+=
 this
 .
 getTypeReference
@@ -45,6 +48,11 @@ resolvedType
 ,
 type
 )
+;
+return
+buildTypeReferenceInternal
+(
+typeReference
 ,
 type
 ,
