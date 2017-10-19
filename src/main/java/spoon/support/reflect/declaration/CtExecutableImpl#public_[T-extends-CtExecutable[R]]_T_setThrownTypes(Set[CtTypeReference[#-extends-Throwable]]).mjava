@@ -93,7 +93,7 @@ onSetDeleteAll
 (
 this
 ,
-THROWN
+THROWN_TYPE
 ,
 this
 .

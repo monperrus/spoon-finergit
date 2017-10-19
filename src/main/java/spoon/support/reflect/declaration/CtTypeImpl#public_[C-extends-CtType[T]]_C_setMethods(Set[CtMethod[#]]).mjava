@@ -50,7 +50,7 @@ onListDelete
 (
 this
 ,
-EXECUTABLE
+METHOD
 ,
 this
 .

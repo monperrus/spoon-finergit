@@ -77,7 +77,7 @@ onSetAdd
 (
 this
 ,
-THROWN
+THROWN_TYPE
 ,
 this
 .

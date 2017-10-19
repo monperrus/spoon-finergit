@@ -1,7 +1,7 @@
 /** 
  * Returns the methods that are directly declared by this class or interface and that have the given name.
  */
-@PropertyGetter(role=EXECUTABLE)
+@PropertyGetter(role=METHOD)
 List
 <
 CtMethod

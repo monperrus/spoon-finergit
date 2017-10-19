@@ -28,7 +28,7 @@ onObjectUpdate
 (
 this
 ,
-PARAMETER
+JAVADOC_TAG_VALUE
 ,
 param
 ,

@@ -28,7 +28,7 @@ onObjectUpdate
 (
 this
 ,
-TYPE
+DOCUMENTATION_TYPE
 ,
 type
 ,

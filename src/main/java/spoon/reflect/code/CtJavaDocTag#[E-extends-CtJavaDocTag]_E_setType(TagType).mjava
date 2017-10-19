@@ -2,7 +2,7 @@
  * Define the type of the tag
  * @param type the new type
  */
-@PropertySetter(role=TYPE)
+@PropertySetter(role=DOCUMENTATION_TYPE)
 <
 E
 extends

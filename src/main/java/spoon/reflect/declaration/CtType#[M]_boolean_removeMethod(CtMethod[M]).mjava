@@ -1,7 +1,7 @@
 /** 
  * Removes a method from this type.
  */
-@PropertySetter(role=EXECUTABLE)
+@PropertySetter(role=METHOD)
 <
 M
 >

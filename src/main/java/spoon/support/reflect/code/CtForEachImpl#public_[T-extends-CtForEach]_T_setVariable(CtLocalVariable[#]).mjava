@@ -46,7 +46,7 @@ onObjectUpdate
 (
 this
 ,
-VARIABLE
+FOREACH_VARIABLE
 ,
 variable
 ,

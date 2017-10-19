@@ -1,7 +1,7 @@
 /** 
  * Returns the exceptions and other throwables listed in this method or constructor's <tt>throws</tt> clause.
  */
-@PropertyGetter(role=THROWN)
+@PropertyGetter(role=THROWN_TYPE)
 Set
 <
 CtTypeReference

@@ -2,6 +2,7 @@
  * Returns the anonymous blocks of this class. Derived from  {@link #getTypeMembers()}
  */
 @DerivedProperty
+@PropertyGetter(role=ANNONYMOUS_EXECUTABLE)
 List
 <
 CtAnonymousExecutable

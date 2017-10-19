@@ -23,7 +23,7 @@ onListDelete
 (
 this
 ,
-EXECUTABLE
+ANNONYMOUS_EXECUTABLE
 ,
 typeMembers
 ,

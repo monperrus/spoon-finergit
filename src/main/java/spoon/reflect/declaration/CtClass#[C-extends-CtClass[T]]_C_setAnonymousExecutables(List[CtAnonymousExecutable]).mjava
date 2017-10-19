@@ -1,6 +1,7 @@
 /** 
  * Sets the anonymous blocks of this class.
  */
+@PropertySetter(role=ANNONYMOUS_EXECUTABLE)
 <
 C
 extends

@@ -2,7 +2,7 @@
  * The type of the tag
  * @return the type of the tag
  */
-@PropertyGetter(role=TYPE)
+@PropertyGetter(role=DOCUMENTATION_TYPE)
 TagType
 getType
 (

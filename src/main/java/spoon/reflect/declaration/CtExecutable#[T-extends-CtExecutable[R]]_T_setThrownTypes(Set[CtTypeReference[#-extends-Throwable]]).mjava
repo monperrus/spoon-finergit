@@ -1,7 +1,7 @@
 /** 
  * Sets the thrown types.
  */
-@PropertySetter(role=THROWN)
+@PropertySetter(role=THROWN_TYPE)
 <
 T
 extends

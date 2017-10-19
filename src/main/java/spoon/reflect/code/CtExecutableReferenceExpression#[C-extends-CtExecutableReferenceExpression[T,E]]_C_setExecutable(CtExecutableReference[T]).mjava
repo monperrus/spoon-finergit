@@ -1,7 +1,7 @@
 /** 
  * Sets the executable will be referenced by the expression.
  */
-@PropertySetter(role=EXECUTABLE)
+@PropertySetter(role=EXECUTABLE_REF)
 <
 C
 extends
