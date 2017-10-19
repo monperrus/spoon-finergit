@@ -1,7 +1,7 @@
 /** 
  * Gets the textual value of the code.
  */
-@PropertyGetter(role=EXPRESSION)
+@PropertyGetter(role=SNIPPET)
 String
 getValue
 (

@@ -1,3 +1,4 @@
+@Override
 public
 <
 C
@@ -27,7 +28,7 @@ onObjectUpdate
 (
 this
 ,
-EXPRESSION
+SNIPPET
 ,
 value
 ,
