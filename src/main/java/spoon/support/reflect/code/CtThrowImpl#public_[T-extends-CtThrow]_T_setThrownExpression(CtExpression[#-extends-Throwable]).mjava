@@ -47,7 +47,7 @@ onObjectUpdate
 (
 this
 ,
-THROWN
+EXPRESSION
 ,
 expression
 ,

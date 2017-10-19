@@ -1,7 +1,7 @@
 /** 
  * Sets the thrown expression (must be a throwable).
  */
-@PropertySetter(role=THROWN)
+@PropertySetter(role=EXPRESSION)
 <
 T
 extends

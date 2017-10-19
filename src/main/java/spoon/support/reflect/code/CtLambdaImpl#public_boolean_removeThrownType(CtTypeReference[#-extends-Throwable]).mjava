@@ -42,7 +42,7 @@ onSetDelete
 (
 this
 ,
-THROWN_TYPE
+THROWN
 ,
 thrownTypes
 ,
