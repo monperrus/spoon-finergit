@@ -1,6 +1,7 @@
 /** 
  * Adds a type member at a given position. Think to use this method if the order is important for you.
  */
+@PropertySetter(role=TYPE_MEMBER)
 <
 C
 extends

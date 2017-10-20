@@ -1,6 +1,7 @@
 /** 
  * Adds a type member at the end of all type member of the type.
  */
+@PropertySetter(role=TYPE_MEMBER)
 <
 C
 extends

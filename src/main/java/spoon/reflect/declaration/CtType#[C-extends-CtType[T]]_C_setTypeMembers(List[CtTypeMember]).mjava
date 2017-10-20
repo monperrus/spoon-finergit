@@ -1,6 +1,7 @@
 /** 
  * Removes all types members with these new members.
  */
+@PropertySetter(role=TYPE_MEMBER)
 <
 C
 extends

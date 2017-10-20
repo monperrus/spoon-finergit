@@ -1,6 +1,7 @@
 /** 
  * Gets all type members of the type like fields, methods, anonymous block, etc.
  */
+@PropertyGetter(role=TYPE_MEMBER)
 List
 <
 CtTypeMember

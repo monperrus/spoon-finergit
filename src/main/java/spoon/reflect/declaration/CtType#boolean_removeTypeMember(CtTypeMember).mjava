@@ -1,6 +1,7 @@
 /** 
  * Removes the type member.
  */
+@PropertySetter(role=TYPE_MEMBER)
 boolean
 removeTypeMember
 (
