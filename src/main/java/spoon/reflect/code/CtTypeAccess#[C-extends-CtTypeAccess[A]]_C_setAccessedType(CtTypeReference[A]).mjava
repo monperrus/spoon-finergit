@@ -2,6 +2,7 @@
  * Set the accessed type.
  * @param accessedType CtTypeReference.
  */
+@PropertySetter(role=TYPE)
 <
 C
 extends
