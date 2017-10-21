@@ -4,7 +4,7 @@
  */
 @Override
 @DerivedProperty
-@PropertyGetter(role=TYPE_PARAMETER)
+@PropertyGetter(role=TYPE_ARGUMENT)
 List
 <
 CtTypeReference

@@ -91,7 +91,7 @@ onListDeleteAll
 (
 this
 ,
-TYPE_PARAMETER
+TYPE_ARGUMENT
 ,
 this
 .
