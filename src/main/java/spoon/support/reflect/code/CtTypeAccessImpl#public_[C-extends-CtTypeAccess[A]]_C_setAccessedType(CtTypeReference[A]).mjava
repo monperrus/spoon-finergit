@@ -49,7 +49,7 @@ onObjectUpdate
 (
 this
 ,
-TYPE
+ACCESSED_TYPE
 ,
 accessedType
 ,

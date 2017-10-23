@@ -2,7 +2,7 @@
  * Returns type represented and contained in the type access.
  * @return CtTypeReference.
  */
-@PropertyGetter(role=TYPE)
+@PropertyGetter(role=ACCESSED_TYPE)
 CtTypeReference
 <
 A
