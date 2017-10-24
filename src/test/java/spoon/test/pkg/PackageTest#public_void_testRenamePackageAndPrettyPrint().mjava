@@ -134,7 +134,7 @@ CompilationUnit
 (
 )
 .
-create
+getOrCreate
 (
 "./src/test/java/spoon/test/pkg/testclasses/Foo.java"
 )
