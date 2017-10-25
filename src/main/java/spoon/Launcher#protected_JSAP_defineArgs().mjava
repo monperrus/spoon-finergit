@@ -175,7 +175,7 @@ setDefault
 (
 Level
 .
-OFF
+ERROR
 .
 toString
 (
