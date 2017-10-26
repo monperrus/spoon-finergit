@@ -129,7 +129,7 @@ next
 ;
 assertEquals
 (
-"TypeAnnotation"
+"GlobalAnnotation"
 ,
 ref
 .
@@ -155,7 +155,7 @@ ref
 ;
 assertEquals
 (
-"sun.reflect.annotation.TypeAnnotation"
+"spoon.test.annotation.testclasses.GlobalAnnotation"
 ,
 refType
 .

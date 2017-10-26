@@ -99,7 +99,7 @@ n
 @SuppressWarnings("unchecked")
 Enumeration
 <
-DefaultMutableTreeNode
+TreeNode
 >
 children
 =
@@ -121,6 +121,9 @@ hasMoreElements
 DefaultMutableTreeNode
 child
 =
+(
+DefaultMutableTreeNode
+)
 children
 .
 nextElement

@@ -86,7 +86,7 @@ getReference
 final
 CtType
 <
-InnerClass
+?
 >
 innerClass
 =
@@ -100,7 +100,7 @@ getNestedType
 final
 CtTypeReference
 <
-InnerClass
+?
 >
 expectedInnerClass
 =
@@ -188,7 +188,7 @@ expectedSuperClassType
 final
 CtThisAccess
 <
-InnerClass
+?
 >
 expectedInnerClassAccess
 =

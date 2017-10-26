@@ -84,7 +84,7 @@ getEndLine
 ;
 assertEquals
 (
-77
+96
 ,
 position
 .
@@ -95,7 +95,7 @@ getSourceStart
 ;
 assertEquals
 (
-152
+169
 ,
 position
 .
@@ -108,7 +108,7 @@ assertEquals
 (
 "@Deprecated\n"
 +
-"@Resource(description=\"fake\")\n"
+"@InnerAnnot(value=\"machin\")\n"
 +
 "public interface FooInterface {\n"
 +
@@ -253,7 +253,7 @@ getPosition
 ;
 assertEquals
 (
-"@Resource(description=\"fake\")"
+"@InnerAnnot(value=\"machin\")"
 ,
 contentAtPosition
 (
