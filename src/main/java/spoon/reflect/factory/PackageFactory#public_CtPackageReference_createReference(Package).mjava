@@ -1,5 +1,5 @@
 /** 
- * Creates a reference to a package by using its Java runtime representation.
+ * Creates a reference to a package by using its Java runtime representation. The simple name of the reference will be the FQN of the given package
  * @param pack a runtime package
  * @return reference to the package
  */

@@ -1,0 +1,10 @@
+/** 
+ * The simple name of a CtPackageReference is always the fully qualified name of its referenced package. (see  {@link spoon.reflect.factory.PackageFactory})
+ * @return The fully qualified name of its referenced package
+ */
+@Override
+String
+getSimpleName
+(
+)
+;

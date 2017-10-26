@@ -1,5 +1,5 @@
 /** 
- * Creates a reference to an existing package.
+ * Creates a reference to an existing package. The simple name of the reference will be the FQN of the given package
  */
 public
 CtPackageReference

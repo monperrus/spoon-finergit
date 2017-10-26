@@ -1,0 +1,9 @@
+/** 
+ * The qualified name of a CtPackageReference is directly given by its simple name (see  {@link CtPackageReference#getSimpleName})
+ * @return the fully qualified name of its referenced package
+ */
+String
+getQualifiedName
+(
+)
+;
