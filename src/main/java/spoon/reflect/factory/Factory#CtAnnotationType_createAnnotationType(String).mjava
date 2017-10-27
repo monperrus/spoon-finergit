@@ -1,0 +1,10 @@
+/** 
+ * @see AnnotationFactory#create(String)
+ */
+CtAnnotationType
+createAnnotationType
+(
+String
+qualifiedName
+)
+;

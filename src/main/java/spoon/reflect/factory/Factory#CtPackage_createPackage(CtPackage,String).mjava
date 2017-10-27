@@ -1,0 +1,13 @@
+/** 
+ * @see PackageFactory#create(CtPackage,String)
+ */
+CtPackage
+createPackage
+(
+CtPackage
+parent
+,
+String
+simpleName
+)
+;

@@ -1,0 +1,13 @@
+/** 
+ * @see EnumFactory#create(String)
+ */
+CtEnum
+<
+?
+>
+createEnum
+(
+String
+qualifiedName
+)
+;

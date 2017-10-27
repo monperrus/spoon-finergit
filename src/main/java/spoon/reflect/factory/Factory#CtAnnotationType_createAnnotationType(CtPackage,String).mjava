@@ -1,0 +1,13 @@
+/** 
+ * @see AnnotationFactory#create(CtPackage,String)
+ */
+CtAnnotationType
+createAnnotationType
+(
+CtPackage
+owner
+,
+String
+simpleName
+)
+;

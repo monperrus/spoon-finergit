@@ -1,0 +1,28 @@
+/** 
+ * @see FieldFactory#create(CtType,Set,CtTypeReference,String,CtExpression)
+ */
+CtField
+createField
+(
+CtType
+<
+?
+>
+target
+,
+Set
+<
+ModifierKind
+>
+modifiers
+,
+CtTypeReference
+type
+,
+String
+name
+,
+CtExpression
+defaultExpression
+)
+;

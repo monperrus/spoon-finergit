@@ -1,0 +1,35 @@
+/** 
+ * @see ConstructorFactory#create(CtClass,Set,List,Set)
+ */
+CtConstructor
+createConstructor
+(
+CtClass
+target
+,
+Set
+<
+ModifierKind
+>
+modifiers
+,
+List
+<
+CtParameter
+<
+?
+>
+>
+parameters
+,
+Set
+<
+CtTypeReference
+<
+?
+Throwable
+>
+>
+thrownTypes
+)
+;

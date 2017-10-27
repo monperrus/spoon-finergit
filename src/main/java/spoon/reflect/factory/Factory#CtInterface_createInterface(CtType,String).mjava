@@ -1,0 +1,13 @@
+/** 
+ * @see InterfaceFactory#create(CtType,String)
+ */
+CtInterface
+createInterface
+(
+CtType
+owner
+,
+String
+simpleName
+)
+;

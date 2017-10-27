@@ -1,0 +1,10 @@
+/** 
+ * @see ClassFactory#create(String)
+ */
+CtClass
+createClass
+(
+String
+qualifiedName
+)
+;

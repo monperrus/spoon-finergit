@@ -1,0 +1,16 @@
+/** 
+ * @see ConstructorFactory#create(CtClass,CtMethod)
+ */
+CtConstructor
+createConstructor
+(
+CtClass
+target
+,
+CtMethod
+<
+?
+>
+source
+)
+;

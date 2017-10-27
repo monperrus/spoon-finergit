@@ -1,0 +1,19 @@
+/** 
+ * @see MethodFactory#create(CtType,CtMethod,boolean)
+ */
+CtMethod
+createMethod
+(
+CtType
+<
+?
+>
+target
+,
+CtMethod
+source
+,
+boolean
+redirectReferences
+)
+;

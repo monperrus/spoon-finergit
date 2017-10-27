@@ -1,0 +1,13 @@
+/** 
+ * @see ClassFactory#create(CtPackage,String)
+ */
+CtClass
+createClass
+(
+CtPackage
+owner
+,
+String
+simpleName
+)
+;

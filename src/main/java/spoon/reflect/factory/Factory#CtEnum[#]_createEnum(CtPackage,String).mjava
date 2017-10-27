@@ -1,0 +1,16 @@
+/** 
+ * @see EnumFactory#create(CtPackage,String)
+ */
+CtEnum
+<
+?
+>
+createEnum
+(
+CtPackage
+owner
+,
+String
+simpleName
+)
+;

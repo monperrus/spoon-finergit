@@ -1,0 +1,10 @@
+/** 
+ * @see InterfaceFactory#create(String)
+ */
+CtInterface
+createInterface
+(
+String
+qualifiedName
+)
+;

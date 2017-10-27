@@ -1,0 +1,16 @@
+/** 
+ * @see ClassFactory#create(CtClass,String)
+ */
+CtClass
+createClass
+(
+CtClass
+<
+?
+>
+declaringClass
+,
+String
+simpleName
+)
+;
