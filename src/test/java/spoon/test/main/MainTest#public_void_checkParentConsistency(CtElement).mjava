@@ -1,9 +1,10 @@
-private
+public
+static
 void
 checkParentConsistency
 (
-CtPackage
-pack
+CtElement
+ele
 )
 {
 final
@@ -180,9 +181,9 @@ e
 }
 }
 .
-visitCtPackage
+scan
 (
-pack
+ele
 )
 ;
 assertEquals
