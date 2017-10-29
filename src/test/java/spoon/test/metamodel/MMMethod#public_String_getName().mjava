@@ -1,0 +1,17 @@
+/** 
+ * @return name of this {@link MMMethod}. It is equal to simple name of related  {@link CtMethod}
+ */
+public
+String
+getName
+(
+)
+{
+return
+method
+.
+getSimpleName
+(
+)
+;
+}

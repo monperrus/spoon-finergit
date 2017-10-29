@@ -1,0 +1,13 @@
+/** 
+ * @return interface name of {@link MMType}. For example CtClass, CtForEach, ... It is never followed by xxxImpl
+ */
+public
+String
+getName
+(
+)
+{
+return
+name
+;
+}

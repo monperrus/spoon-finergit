@@ -1,0 +1,10 @@
+public
+MMType
+getOwnerType
+(
+)
+{
+return
+ownerType
+;
+}

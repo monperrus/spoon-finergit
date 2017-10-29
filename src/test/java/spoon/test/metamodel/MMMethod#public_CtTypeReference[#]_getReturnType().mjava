@@ -1,0 +1,20 @@
+/** 
+ * @return a type returned by this method
+ */
+public
+CtTypeReference
+<
+?
+>
+getReturnType
+(
+)
+{
+return
+method
+.
+getType
+(
+)
+;
+}

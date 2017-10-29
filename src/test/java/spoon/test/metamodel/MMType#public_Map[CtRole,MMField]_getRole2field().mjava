@@ -1,0 +1,23 @@
+/** 
+ * @return map of {@link MMField}s by their  {@link CtRole}
+ */
+public
+Map
+<
+CtRole
+,
+MMField
+>
+getRole2field
+(
+)
+{
+return
+Collections
+.
+unmodifiableMap
+(
+role2field
+)
+;
+}

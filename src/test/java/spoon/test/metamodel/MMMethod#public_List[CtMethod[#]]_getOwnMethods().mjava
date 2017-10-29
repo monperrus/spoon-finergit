@@ -1,0 +1,24 @@
+/** 
+ * @return {@link CtMethod}s, which are declared directly in the getOwnType(). It does not return methods which are inherited from super types.  It returns empty list, if there is no own implementation and method is inherited only 
+ */
+public
+List
+<
+CtMethod
+<
+?
+>
+>
+getOwnMethods
+(
+)
+{
+return
+Collections
+.
+unmodifiableList
+(
+ownMethods
+)
+;
+}

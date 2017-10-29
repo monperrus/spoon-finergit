@@ -1,0 +1,13 @@
+/** 
+ * @return {@link MMField} which owns this {@link MMMethod}
+ */
+public
+MMField
+getOwnerField
+(
+)
+{
+return
+ownerField
+;
+}

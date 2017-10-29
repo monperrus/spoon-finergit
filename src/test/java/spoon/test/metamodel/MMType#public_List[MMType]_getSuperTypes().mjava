@@ -1,0 +1,16 @@
+/** 
+ * @return super types
+ */
+public
+List
+<
+MMType
+>
+getSuperTypes
+(
+)
+{
+return
+superTypes
+;
+}

@@ -1,0 +1,17 @@
+void
+setModelClass
+(
+CtClass
+<
+?
+>
+modelClass
+)
+{
+this
+.
+modelClass
+=
+modelClass
+;
+}

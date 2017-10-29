@@ -1,0 +1,17 @@
+void
+setModelInteface
+(
+CtInterface
+<
+?
+>
+modelInteface
+)
+{
+this
+.
+modelInteface
+=
+modelInteface
+;
+}

@@ -1,0 +1,20 @@
+/** 
+ * Parses spoon sources and creates factory with spoon model.
+ * @param spoonJavaSourcesDirectory the root directory of java sources of spoon model.The directory must contain "spoon" directory.
+ */
+public
+SpoonMetaModel
+(
+File
+spoonJavaSourcesDirectory
+)
+{
+this
+(
+createFactory
+(
+spoonJavaSourcesDirectory
+)
+)
+;
+}

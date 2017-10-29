@@ -1,0 +1,25 @@
+/** 
+ * @return all {@link MMType}s of spoon meta model
+ */
+public
+Collection
+<
+MMType
+>
+getMMTypes
+(
+)
+{
+return
+Collections
+.
+unmodifiableCollection
+(
+name2mmType
+.
+values
+(
+)
+)
+;
+}

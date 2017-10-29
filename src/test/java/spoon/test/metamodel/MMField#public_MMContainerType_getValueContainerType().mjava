@@ -1,0 +1,10 @@
+public
+MMContainerType
+getValueContainerType
+(
+)
+{
+return
+valueContainerType
+;
+}

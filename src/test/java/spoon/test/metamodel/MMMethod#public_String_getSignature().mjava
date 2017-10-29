@@ -1,0 +1,13 @@
+/** 
+ * @return signature of this method, without the declaring type
+ */
+public
+String
+getSignature
+(
+)
+{
+return
+signature
+;
+}
