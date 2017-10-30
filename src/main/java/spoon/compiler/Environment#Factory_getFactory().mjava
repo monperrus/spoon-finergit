@@ -1,8 +1,0 @@
-/** 
- * Gets the factory of the environment.
- */
-Factory
-getFactory
-(
-)
-;

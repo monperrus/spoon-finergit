@@ -16,13 +16,4 @@ defaultFileGenerator
 =
 defaultFileGenerator
 ;
-defaultFileGenerator
-.
-setFactory
-(
-getFactory
-(
-)
-)
-;
 }
