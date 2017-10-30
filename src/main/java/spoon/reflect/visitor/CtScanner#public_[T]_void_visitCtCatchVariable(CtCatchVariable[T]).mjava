@@ -49,15 +49,6 @@ scan
 (
 catchVariable
 .
-getType
-(
-)
-)
-;
-scan
-(
-catchVariable
-.
 getMultiTypes
 (
 )

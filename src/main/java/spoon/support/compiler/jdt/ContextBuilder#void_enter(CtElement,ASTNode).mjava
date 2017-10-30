@@ -200,6 +200,13 @@ instanceof
 CtConstructorCall
 )
 &&
+!
+(
+e
+instanceof
+CtCatchVariable
+)
+&&
 node
 instanceof
 Expression
