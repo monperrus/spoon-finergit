@@ -40,15 +40,6 @@ scan
 (
 catchVariable
 .
-getDefaultExpression
-(
-)
-)
-;
-scan
-(
-catchVariable
-.
 getMultiTypes
 (
 )

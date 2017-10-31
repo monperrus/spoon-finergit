@@ -1,5 +1,5 @@
-@Override
 @DerivedProperty
+@Override
 public
 CtExpression
 <
@@ -10,8 +10,6 @@ getAssignment
 )
 {
 return
-getDefaultExpression
-(
-)
+null
 ;
 }

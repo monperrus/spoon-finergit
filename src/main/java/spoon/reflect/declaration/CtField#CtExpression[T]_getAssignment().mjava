@@ -1,6 +1,8 @@
+/** 
+ * Useful proxy to  {@link #getDefaultExpression()}.
+ */
 @Override
 @DerivedProperty
-public
 CtExpression
 <
 T
@@ -8,10 +10,4 @@ T
 getAssignment
 (
 )
-{
-return
-getDefaultExpression
-(
-)
 ;
-}

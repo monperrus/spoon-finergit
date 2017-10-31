@@ -58,15 +58,6 @@ scan
 (
 annotationFieldAccess
 .
-getType
-(
-)
-)
-;
-scan
-(
-annotationFieldAccess
-.
 getVariable
 (
 )

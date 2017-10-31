@@ -23,15 +23,6 @@ scan
 (
 f
 .
-getType
-(
-)
-)
-;
-scan
-(
-f
-.
 getComments
 (
 )
