@@ -20,6 +20,10 @@ annotationFieldAccess
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 annotationFieldAccess
 .
 getComments
@@ -29,6 +33,10 @@ getComments
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 annotationFieldAccess
 .
 getAnnotations
@@ -38,6 +46,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+CAST
+,
 annotationFieldAccess
 .
 getTypeCasts
@@ -47,6 +59,10 @@ getTypeCasts
 ;
 scan
 (
+CtRole
+.
+TARGET
+,
 annotationFieldAccess
 .
 getTarget
@@ -56,6 +72,10 @@ getTarget
 ;
 scan
 (
+CtRole
+.
+VARIABLE
+,
 annotationFieldAccess
 .
 getVariable

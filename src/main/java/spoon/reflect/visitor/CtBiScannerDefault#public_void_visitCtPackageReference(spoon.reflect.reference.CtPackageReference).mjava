@@ -50,6 +50,16 @@ reference
 ;
 biScan
 (
+spoon
+.
+reflect
+.
+path
+.
+CtRole
+.
+ANNOTATION
+,
 reference
 .
 getAnnotations

@@ -20,6 +20,10 @@ reference
 ;
 scan
 (
+CtRole
+.
+DECLARING_TYPE
+,
 reference
 .
 getDeclaringType
@@ -29,6 +33,10 @@ getDeclaringType
 ;
 scan
 (
+CtRole
+.
+TYPE
+,
 reference
 .
 getType
@@ -38,6 +46,10 @@ getType
 ;
 scan
 (
+CtRole
+.
+ARGUMENT_TYPE
+,
 reference
 .
 getParameters
@@ -47,6 +59,10 @@ getParameters
 ;
 scan
 (
+CtRole
+.
+TYPE_ARGUMENT
+,
 reference
 .
 getActualTypeArguments
@@ -56,6 +72,10 @@ getActualTypeArguments
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 reference
 .
 getAnnotations
@@ -65,6 +85,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 reference
 .
 getComments

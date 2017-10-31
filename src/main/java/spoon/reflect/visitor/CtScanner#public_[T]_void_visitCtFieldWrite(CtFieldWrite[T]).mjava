@@ -21,6 +21,10 @@ fieldWrite
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 fieldWrite
 .
 getAnnotations
@@ -30,6 +34,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+CAST
+,
 fieldWrite
 .
 getTypeCasts
@@ -39,6 +47,10 @@ getTypeCasts
 ;
 scan
 (
+CtRole
+.
+TARGET
+,
 fieldWrite
 .
 getTarget
@@ -48,6 +60,10 @@ getTarget
 ;
 scan
 (
+CtRole
+.
+VARIABLE
+,
 fieldWrite
 .
 getVariable
@@ -57,6 +73,10 @@ getVariable
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 fieldWrite
 .
 getComments

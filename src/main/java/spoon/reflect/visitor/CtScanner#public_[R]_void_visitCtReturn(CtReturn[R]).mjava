@@ -20,6 +20,10 @@ returnStatement
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 returnStatement
 .
 getAnnotations
@@ -29,6 +33,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+EXPRESSION
+,
 returnStatement
 .
 getReturnedExpression
@@ -38,6 +46,10 @@ getReturnedExpression
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 returnStatement
 .
 getComments

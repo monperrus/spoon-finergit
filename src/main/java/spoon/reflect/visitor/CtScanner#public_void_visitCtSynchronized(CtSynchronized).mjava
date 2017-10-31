@@ -14,6 +14,10 @@ synchro
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 synchro
 .
 getAnnotations
@@ -23,6 +27,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+EXPRESSION
+,
 synchro
 .
 getExpression
@@ -32,6 +40,10 @@ getExpression
 ;
 scan
 (
+CtRole
+.
+BODY
+,
 synchro
 .
 getBlock
@@ -41,6 +53,10 @@ getBlock
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 synchro
 .
 getComments

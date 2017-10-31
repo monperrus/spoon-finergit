@@ -20,6 +20,10 @@ reference
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 reference
 .
 getComments
@@ -29,6 +33,10 @@ getComments
 ;
 scan
 (
+CtRole
+.
+TYPE
+,
 reference
 .
 getType
@@ -38,6 +46,10 @@ getType
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 reference
 .
 getAnnotations

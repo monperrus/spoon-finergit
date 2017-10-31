@@ -21,6 +21,10 @@ typeAccess
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 typeAccess
 .
 getAnnotations
@@ -30,6 +34,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+CAST
+,
 typeAccess
 .
 getTypeCasts
@@ -39,6 +47,10 @@ getTypeCasts
 ;
 scan
 (
+CtRole
+.
+ACCESSED_TYPE
+,
 typeAccess
 .
 getAccessedType
@@ -48,6 +60,10 @@ getAccessedType
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 typeAccess
 .
 getComments

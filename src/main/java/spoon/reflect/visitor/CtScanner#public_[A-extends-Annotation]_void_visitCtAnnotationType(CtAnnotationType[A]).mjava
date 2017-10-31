@@ -22,6 +22,10 @@ annotationType
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 annotationType
 .
 getAnnotations
@@ -31,6 +35,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+TYPE_MEMBER
+,
 annotationType
 .
 getTypeMembers
@@ -40,6 +48,10 @@ getTypeMembers
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 annotationType
 .
 getComments

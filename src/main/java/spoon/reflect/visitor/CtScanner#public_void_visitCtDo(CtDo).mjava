@@ -14,6 +14,10 @@ doLoop
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 doLoop
 .
 getAnnotations
@@ -23,6 +27,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+EXPRESSION
+,
 doLoop
 .
 getLoopingExpression
@@ -32,6 +40,10 @@ getLoopingExpression
 ;
 scan
 (
+CtRole
+.
+BODY
+,
 doLoop
 .
 getBody
@@ -41,6 +53,10 @@ getBody
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 doLoop
 .
 getComments

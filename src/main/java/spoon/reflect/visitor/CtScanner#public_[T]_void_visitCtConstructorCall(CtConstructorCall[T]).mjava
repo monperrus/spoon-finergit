@@ -21,6 +21,10 @@ ctConstructorCall
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 ctConstructorCall
 .
 getAnnotations
@@ -30,6 +34,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+CAST
+,
 ctConstructorCall
 .
 getTypeCasts
@@ -39,6 +47,10 @@ getTypeCasts
 ;
 scan
 (
+CtRole
+.
+EXECUTABLE_REF
+,
 ctConstructorCall
 .
 getExecutable
@@ -48,6 +60,10 @@ getExecutable
 ;
 scan
 (
+CtRole
+.
+TARGET
+,
 ctConstructorCall
 .
 getTarget
@@ -57,6 +73,10 @@ getTarget
 ;
 scan
 (
+CtRole
+.
+ARGUMENT
+,
 ctConstructorCall
 .
 getArguments
@@ -66,6 +86,10 @@ getArguments
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 ctConstructorCall
 .
 getComments

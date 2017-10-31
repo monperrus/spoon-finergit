@@ -20,6 +20,10 @@ operator
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 operator
 .
 getAnnotations
@@ -29,6 +33,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+TYPE
+,
 operator
 .
 getType
@@ -38,6 +46,10 @@ getType
 ;
 scan
 (
+CtRole
+.
+CAST
+,
 operator
 .
 getTypeCasts
@@ -47,6 +59,10 @@ getTypeCasts
 ;
 scan
 (
+CtRole
+.
+LEFT_OPERAND
+,
 operator
 .
 getLeftHandOperand
@@ -56,6 +72,10 @@ getLeftHandOperand
 ;
 scan
 (
+CtRole
+.
+RIGHT_OPERAND
+,
 operator
 .
 getRightHandOperand
@@ -65,6 +85,10 @@ getRightHandOperand
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 operator
 .
 getComments

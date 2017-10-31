@@ -20,6 +20,10 @@ caseStatement
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 caseStatement
 .
 getAnnotations
@@ -29,6 +33,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+EXPRESSION
+,
 caseStatement
 .
 getCaseExpression
@@ -38,6 +46,10 @@ getCaseExpression
 ;
 scan
 (
+CtRole
+.
+STATEMENT
+,
 caseStatement
 .
 getStatements
@@ -47,6 +59,10 @@ getStatements
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 caseStatement
 .
 getComments

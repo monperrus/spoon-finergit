@@ -14,6 +14,10 @@ throwStatement
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 throwStatement
 .
 getAnnotations
@@ -23,6 +27,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+EXPRESSION
+,
 throwStatement
 .
 getThrownExpression
@@ -32,6 +40,10 @@ getThrownExpression
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 throwStatement
 .
 getComments

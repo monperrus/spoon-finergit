@@ -20,6 +20,10 @@ m
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 m
 .
 getAnnotations
@@ -29,6 +33,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+TYPE_PARAMETER
+,
 m
 .
 getFormalCtTypeParameters
@@ -38,6 +46,10 @@ getFormalCtTypeParameters
 ;
 scan
 (
+CtRole
+.
+TYPE
+,
 m
 .
 getType
@@ -47,6 +59,10 @@ getType
 ;
 scan
 (
+CtRole
+.
+PARAMETER
+,
 m
 .
 getParameters
@@ -56,6 +72,10 @@ getParameters
 ;
 scan
 (
+CtRole
+.
+THROWN
+,
 m
 .
 getThrownTypes
@@ -65,6 +85,10 @@ getThrownTypes
 ;
 scan
 (
+CtRole
+.
+BODY
+,
 m
 .
 getBody
@@ -74,6 +98,10 @@ getBody
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 m
 .
 getComments

@@ -15,6 +15,10 @@ tryWithResource
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 tryWithResource
 .
 getAnnotations
@@ -24,6 +28,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+TRY_RESOURCE
+,
 tryWithResource
 .
 getResources
@@ -33,6 +41,10 @@ getResources
 ;
 scan
 (
+CtRole
+.
+BODY
+,
 tryWithResource
 .
 getBody
@@ -42,6 +54,10 @@ getBody
 ;
 scan
 (
+CtRole
+.
+CATCH
+,
 tryWithResource
 .
 getCatchers
@@ -51,6 +67,10 @@ getCatchers
 ;
 scan
 (
+CtRole
+.
+FINALIZER
+,
 tryWithResource
 .
 getFinalizer
@@ -60,6 +80,10 @@ getFinalizer
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 tryWithResource
 .
 getComments

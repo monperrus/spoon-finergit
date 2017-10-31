@@ -20,6 +20,10 @@ reference
 ;
 scan
 (
+CtRole
+.
+TYPE
+,
 reference
 .
 getType
@@ -29,6 +33,10 @@ getType
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 reference
 .
 getAnnotations

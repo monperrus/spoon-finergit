@@ -21,6 +21,10 @@ arrayRead
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 arrayRead
 .
 getAnnotations
@@ -30,6 +34,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+TYPE
+,
 arrayRead
 .
 getType
@@ -39,6 +47,10 @@ getType
 ;
 scan
 (
+CtRole
+.
+CAST
+,
 arrayRead
 .
 getTypeCasts
@@ -48,6 +60,10 @@ getTypeCasts
 ;
 scan
 (
+CtRole
+.
+TARGET
+,
 arrayRead
 .
 getTarget
@@ -57,6 +73,10 @@ getTarget
 ;
 scan
 (
+CtRole
+.
+EXPRESSION
+,
 arrayRead
 .
 getIndexExpression
@@ -66,6 +86,10 @@ getIndexExpression
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 arrayRead
 .
 getComments

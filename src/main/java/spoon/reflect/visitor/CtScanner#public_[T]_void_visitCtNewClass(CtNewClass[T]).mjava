@@ -20,6 +20,10 @@ newClass
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 newClass
 .
 getAnnotations
@@ -29,6 +33,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+CAST
+,
 newClass
 .
 getTypeCasts
@@ -38,6 +46,10 @@ getTypeCasts
 ;
 scan
 (
+CtRole
+.
+EXECUTABLE_REF
+,
 newClass
 .
 getExecutable
@@ -47,6 +59,10 @@ getExecutable
 ;
 scan
 (
+CtRole
+.
+TARGET
+,
 newClass
 .
 getTarget
@@ -56,6 +72,10 @@ getTarget
 ;
 scan
 (
+CtRole
+.
+ARGUMENT
+,
 newClass
 .
 getArguments
@@ -65,6 +85,10 @@ getArguments
 ;
 scan
 (
+CtRole
+.
+NESTED_TYPE
+,
 newClass
 .
 getAnonymousClass
@@ -74,6 +98,10 @@ getAnonymousClass
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 newClass
 .
 getComments

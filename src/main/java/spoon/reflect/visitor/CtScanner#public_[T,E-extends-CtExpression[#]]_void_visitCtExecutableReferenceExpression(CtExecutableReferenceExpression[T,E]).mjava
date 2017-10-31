@@ -30,6 +30,10 @@ expression
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 expression
 .
 getComments
@@ -39,6 +43,10 @@ getComments
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 expression
 .
 getAnnotations
@@ -48,6 +56,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+TYPE
+,
 expression
 .
 getType
@@ -57,6 +69,10 @@ getType
 ;
 scan
 (
+CtRole
+.
+CAST
+,
 expression
 .
 getTypeCasts
@@ -66,6 +82,10 @@ getTypeCasts
 ;
 scan
 (
+CtRole
+.
+EXECUTABLE_REF
+,
 expression
 .
 getExecutable
@@ -75,6 +95,10 @@ getExecutable
 ;
 scan
 (
+CtRole
+.
+TARGET
+,
 expression
 .
 getTarget

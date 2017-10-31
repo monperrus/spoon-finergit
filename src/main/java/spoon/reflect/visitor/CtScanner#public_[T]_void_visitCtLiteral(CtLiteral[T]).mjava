@@ -20,6 +20,10 @@ literal
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 literal
 .
 getAnnotations
@@ -29,6 +33,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+TYPE
+,
 literal
 .
 getType
@@ -38,6 +46,10 @@ getType
 ;
 scan
 (
+CtRole
+.
+CAST
+,
 literal
 .
 getTypeCasts
@@ -47,6 +59,10 @@ getTypeCasts
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 literal
 .
 getComments

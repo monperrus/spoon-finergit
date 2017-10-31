@@ -15,6 +15,10 @@ docTag
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 docTag
 .
 getComments
@@ -24,6 +28,10 @@ getComments
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 docTag
 .
 getAnnotations

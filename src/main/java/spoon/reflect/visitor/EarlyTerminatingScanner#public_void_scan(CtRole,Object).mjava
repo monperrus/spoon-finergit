@@ -3,6 +3,9 @@ public
 void
 scan
 (
+CtRole
+role
+,
 Object
 o
 )
@@ -30,6 +33,8 @@ CtElement
 {
 scan
 (
+role
+,
 (
 CtElement
 )
@@ -50,6 +55,8 @@ Collection
 {
 scan
 (
+role
+,
 (
 Collection
 <
@@ -93,6 +100,8 @@ values
 {
 scan
 (
+role
+,
 obj
 )
 ;

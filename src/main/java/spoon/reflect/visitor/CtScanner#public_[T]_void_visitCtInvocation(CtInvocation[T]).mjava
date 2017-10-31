@@ -20,6 +20,10 @@ invocation
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 invocation
 .
 getAnnotations
@@ -29,6 +33,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+CAST
+,
 invocation
 .
 getTypeCasts
@@ -38,6 +46,10 @@ getTypeCasts
 ;
 scan
 (
+CtRole
+.
+TARGET
+,
 invocation
 .
 getTarget
@@ -47,6 +59,10 @@ getTarget
 ;
 scan
 (
+CtRole
+.
+EXECUTABLE_REF
+,
 invocation
 .
 getExecutable
@@ -56,6 +72,10 @@ getExecutable
 ;
 scan
 (
+CtRole
+.
+ARGUMENT
+,
 invocation
 .
 getArguments
@@ -65,6 +85,10 @@ getArguments
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 invocation
 .
 getComments

@@ -21,6 +21,10 @@ thisAccess
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 thisAccess
 .
 getComments
@@ -30,6 +34,10 @@ getComments
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 thisAccess
 .
 getAnnotations
@@ -39,6 +47,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+TYPE
+,
 thisAccess
 .
 getType
@@ -48,6 +60,10 @@ getType
 ;
 scan
 (
+CtRole
+.
+CAST
+,
 thisAccess
 .
 getTypeCasts
@@ -57,6 +73,10 @@ getTypeCasts
 ;
 scan
 (
+CtRole
+.
+TARGET
+,
 thisAccess
 .
 getTarget

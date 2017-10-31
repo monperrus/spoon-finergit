@@ -20,6 +20,10 @@ catchVariable
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 catchVariable
 .
 getComments
@@ -29,6 +33,10 @@ getComments
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 catchVariable
 .
 getAnnotations
@@ -38,6 +46,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+TYPE
+,
 catchVariable
 .
 getMultiTypes

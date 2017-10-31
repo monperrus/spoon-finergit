@@ -20,6 +20,10 @@ intrface
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 intrface
 .
 getAnnotations
@@ -29,6 +33,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+INTERFACE
+,
 intrface
 .
 getSuperInterfaces
@@ -38,6 +46,10 @@ getSuperInterfaces
 ;
 scan
 (
+CtRole
+.
+TYPE_PARAMETER
+,
 intrface
 .
 getFormalCtTypeParameters
@@ -47,6 +59,10 @@ getFormalCtTypeParameters
 ;
 scan
 (
+CtRole
+.
+TYPE_MEMBER
+,
 intrface
 .
 getTypeMembers
@@ -56,6 +72,10 @@ getTypeMembers
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 intrface
 .
 getComments

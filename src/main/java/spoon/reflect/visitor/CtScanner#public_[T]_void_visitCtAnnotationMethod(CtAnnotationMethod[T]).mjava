@@ -20,6 +20,10 @@ annotationMethod
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 annotationMethod
 .
 getAnnotations
@@ -29,6 +33,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+TYPE
+,
 annotationMethod
 .
 getType
@@ -38,6 +46,10 @@ getType
 ;
 scan
 (
+CtRole
+.
+DEFAULT_EXPRESSION
+,
 annotationMethod
 .
 getDefaultExpression
@@ -47,6 +59,10 @@ getDefaultExpression
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 annotationMethod
 .
 getComments

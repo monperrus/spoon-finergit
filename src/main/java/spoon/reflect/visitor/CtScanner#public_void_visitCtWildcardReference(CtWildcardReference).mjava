@@ -14,6 +14,10 @@ wildcardReference
 ;
 scan
 (
+CtRole
+.
+PACKAGE_REF
+,
 wildcardReference
 .
 getPackage
@@ -23,6 +27,10 @@ getPackage
 ;
 scan
 (
+CtRole
+.
+DECLARING_TYPE
+,
 wildcardReference
 .
 getDeclaringType
@@ -32,6 +40,10 @@ getDeclaringType
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 wildcardReference
 .
 getAnnotations
@@ -41,6 +53,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+BOUNDING_TYPE
+,
 wildcardReference
 .
 getBoundingType

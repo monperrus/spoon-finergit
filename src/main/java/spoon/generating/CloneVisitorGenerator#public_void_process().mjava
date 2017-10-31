@@ -388,7 +388,7 @@ getArguments
 .
 get
 (
-0
+1
 )
 ;
 if
@@ -678,7 +678,7 @@ getArguments
 .
 get
 (
-0
+1
 )
 ;
 final

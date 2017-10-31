@@ -21,6 +21,10 @@ lambda
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 lambda
 .
 getAnnotations
@@ -30,6 +34,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+TYPE
+,
 lambda
 .
 getType
@@ -39,6 +47,10 @@ getType
 ;
 scan
 (
+CtRole
+.
+CAST
+,
 lambda
 .
 getTypeCasts
@@ -48,6 +60,10 @@ getTypeCasts
 ;
 scan
 (
+CtRole
+.
+PARAMETER
+,
 lambda
 .
 getParameters
@@ -57,6 +73,10 @@ getParameters
 ;
 scan
 (
+CtRole
+.
+THROWN
+,
 lambda
 .
 getThrownTypes
@@ -66,6 +86,10 @@ getThrownTypes
 ;
 scan
 (
+CtRole
+.
+BODY
+,
 lambda
 .
 getBody
@@ -75,6 +99,10 @@ getBody
 ;
 scan
 (
+CtRole
+.
+EXPRESSION
+,
 lambda
 .
 getExpression
@@ -84,6 +112,10 @@ getExpression
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 lambda
 .
 getComments

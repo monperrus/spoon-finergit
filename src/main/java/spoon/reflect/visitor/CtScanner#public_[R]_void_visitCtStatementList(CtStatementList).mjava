@@ -17,6 +17,10 @@ statements
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 statements
 .
 getAnnotations
@@ -26,6 +30,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+STATEMENT
+,
 statements
 .
 getStatements
@@ -35,6 +43,10 @@ getStatements
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 statements
 .
 getComments

@@ -14,6 +14,10 @@ foreach
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 foreach
 .
 getAnnotations
@@ -23,6 +27,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+FOREACH_VARIABLE
+,
 foreach
 .
 getVariable
@@ -32,6 +40,10 @@ getVariable
 ;
 scan
 (
+CtRole
+.
+EXPRESSION
+,
 foreach
 .
 getExpression
@@ -41,6 +53,10 @@ getExpression
 ;
 scan
 (
+CtRole
+.
+BODY
+,
 foreach
 .
 getBody
@@ -50,6 +66,10 @@ getBody
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 foreach
 .
 getComments

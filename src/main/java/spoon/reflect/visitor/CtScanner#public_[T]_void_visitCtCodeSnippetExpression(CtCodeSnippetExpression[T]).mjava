@@ -20,6 +20,10 @@ expression
 ;
 scan
 (
+CtRole
+.
+TYPE
+,
 expression
 .
 getType
@@ -29,6 +33,10 @@ getType
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 expression
 .
 getComments
@@ -38,6 +46,10 @@ getComments
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 expression
 .
 getAnnotations
@@ -47,6 +59,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+CAST
+,
 expression
 .
 getTypeCasts

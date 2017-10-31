@@ -14,6 +14,10 @@ tryBlock
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 tryBlock
 .
 getAnnotations
@@ -23,6 +27,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+BODY
+,
 tryBlock
 .
 getBody
@@ -32,6 +40,10 @@ getBody
 ;
 scan
 (
+CtRole
+.
+CATCH
+,
 tryBlock
 .
 getCatchers
@@ -41,6 +53,10 @@ getCatchers
 ;
 scan
 (
+CtRole
+.
+FINALIZER
+,
 tryBlock
 .
 getFinalizer
@@ -50,6 +66,10 @@ getFinalizer
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 tryBlock
 .
 getComments

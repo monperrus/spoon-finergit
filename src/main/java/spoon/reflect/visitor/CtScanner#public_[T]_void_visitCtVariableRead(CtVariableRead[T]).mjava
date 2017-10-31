@@ -21,6 +21,10 @@ variableRead
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 variableRead
 .
 getAnnotations
@@ -30,6 +34,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+CAST
+,
 variableRead
 .
 getTypeCasts
@@ -39,6 +47,10 @@ getTypeCasts
 ;
 scan
 (
+CtRole
+.
+VARIABLE
+,
 variableRead
 .
 getVariable
@@ -48,6 +60,10 @@ getVariable
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 variableRead
 .
 getComments

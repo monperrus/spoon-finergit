@@ -20,6 +20,10 @@ reference
 ;
 scan
 (
+CtRole
+.
+DECLARING_TYPE
+,
 reference
 .
 getDeclaringType
@@ -29,6 +33,10 @@ getDeclaringType
 ;
 scan
 (
+CtRole
+.
+TYPE
+,
 reference
 .
 getType
@@ -38,6 +46,10 @@ getType
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 reference
 .
 getAnnotations

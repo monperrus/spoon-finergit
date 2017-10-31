@@ -21,6 +21,10 @@ f
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 f
 .
 getComments
@@ -30,6 +34,10 @@ getComments
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 f
 .
 getAnnotations
@@ -39,6 +47,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+CAST
+,
 f
 .
 getTypeCasts
@@ -48,6 +60,10 @@ getTypeCasts
 ;
 scan
 (
+CtRole
+.
+TARGET
+,
 f
 .
 getTarget
@@ -57,6 +73,10 @@ getTarget
 ;
 scan
 (
+CtRole
+.
+VARIABLE
+,
 f
 .
 getVariable

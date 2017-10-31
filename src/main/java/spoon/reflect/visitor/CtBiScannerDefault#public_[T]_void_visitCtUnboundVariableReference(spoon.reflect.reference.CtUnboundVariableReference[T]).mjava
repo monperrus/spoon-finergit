@@ -56,6 +56,16 @@ reference
 ;
 biScan
 (
+spoon
+.
+reflect
+.
+path
+.
+CtRole
+.
+TYPE
+,
 reference
 .
 getType

@@ -20,6 +20,10 @@ asserted
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 asserted
 .
 getAnnotations
@@ -29,6 +33,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+CONDITION
+,
 asserted
 .
 getAssertExpression
@@ -38,6 +46,10 @@ getAssertExpression
 ;
 scan
 (
+CtRole
+.
+EXPRESSION
+,
 asserted
 .
 getExpression
@@ -47,6 +59,10 @@ getExpression
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 asserted
 .
 getComments

@@ -21,6 +21,10 @@ enumValue
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 enumValue
 .
 getAnnotations
@@ -30,6 +34,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+TYPE
+,
 enumValue
 .
 getType
@@ -39,6 +47,10 @@ getType
 ;
 scan
 (
+CtRole
+.
+DEFAULT_EXPRESSION
+,
 enumValue
 .
 getDefaultExpression
@@ -48,6 +60,10 @@ getDefaultExpression
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 enumValue
 .
 getComments

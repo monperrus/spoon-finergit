@@ -25,6 +25,10 @@ ctEnum
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 ctEnum
 .
 getAnnotations
@@ -34,6 +38,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+INTERFACE
+,
 ctEnum
 .
 getSuperInterfaces
@@ -43,6 +51,10 @@ getSuperInterfaces
 ;
 scan
 (
+CtRole
+.
+TYPE_MEMBER
+,
 ctEnum
 .
 getTypeMembers
@@ -52,6 +64,10 @@ getTypeMembers
 ;
 scan
 (
+CtRole
+.
+VALUE
+,
 ctEnum
 .
 getEnumValues
@@ -61,6 +77,10 @@ getEnumValues
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 ctEnum
 .
 getComments

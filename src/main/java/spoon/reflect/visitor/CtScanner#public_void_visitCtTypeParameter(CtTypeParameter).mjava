@@ -14,6 +14,10 @@ typeParameter
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 typeParameter
 .
 getAnnotations
@@ -23,6 +27,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+SUPER_TYPE
+,
 typeParameter
 .
 getSuperclass
@@ -32,6 +40,10 @@ getSuperclass
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 typeParameter
 .
 getComments

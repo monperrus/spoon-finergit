@@ -26,6 +26,10 @@ assignment
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 assignment
 .
 getAnnotations
@@ -35,6 +39,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+TYPE
+,
 assignment
 .
 getType
@@ -44,6 +52,10 @@ getType
 ;
 scan
 (
+CtRole
+.
+CAST
+,
 assignment
 .
 getTypeCasts
@@ -53,6 +65,10 @@ getTypeCasts
 ;
 scan
 (
+CtRole
+.
+ASSIGNED
+,
 assignment
 .
 getAssigned
@@ -62,6 +78,10 @@ getAssigned
 ;
 scan
 (
+CtRole
+.
+ASSIGNMENT
+,
 assignment
 .
 getAssignment
@@ -71,6 +91,10 @@ getAssignment
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 assignment
 .
 getComments

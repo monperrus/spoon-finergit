@@ -20,6 +20,10 @@ localVariable
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 localVariable
 .
 getAnnotations
@@ -29,6 +33,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+TYPE
+,
 localVariable
 .
 getType
@@ -38,6 +46,10 @@ getType
 ;
 scan
 (
+CtRole
+.
+DEFAULT_EXPRESSION
+,
 localVariable
 .
 getDefaultExpression
@@ -47,6 +59,10 @@ getDefaultExpression
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 localVariable
 .
 getComments

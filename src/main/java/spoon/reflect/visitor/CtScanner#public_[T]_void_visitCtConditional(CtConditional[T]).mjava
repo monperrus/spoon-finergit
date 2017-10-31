@@ -20,6 +20,10 @@ conditional
 ;
 scan
 (
+CtRole
+.
+TYPE
+,
 conditional
 .
 getType
@@ -29,6 +33,10 @@ getType
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 conditional
 .
 getAnnotations
@@ -38,6 +46,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+CONDITION
+,
 conditional
 .
 getCondition
@@ -47,6 +59,10 @@ getCondition
 ;
 scan
 (
+CtRole
+.
+THEN
+,
 conditional
 .
 getThenExpression
@@ -56,6 +72,10 @@ getThenExpression
 ;
 scan
 (
+CtRole
+.
+ELSE
+,
 conditional
 .
 getElseExpression
@@ -65,6 +85,10 @@ getElseExpression
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 conditional
 .
 getComments
@@ -74,6 +98,10 @@ getComments
 ;
 scan
 (
+CtRole
+.
+CAST
+,
 conditional
 .
 getTypeCasts

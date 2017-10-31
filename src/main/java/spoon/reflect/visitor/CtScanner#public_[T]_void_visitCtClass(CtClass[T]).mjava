@@ -20,6 +20,10 @@ ctClass
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 ctClass
 .
 getAnnotations
@@ -29,6 +33,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+SUPER_TYPE
+,
 ctClass
 .
 getSuperclass
@@ -38,6 +46,10 @@ getSuperclass
 ;
 scan
 (
+CtRole
+.
+INTERFACE
+,
 ctClass
 .
 getSuperInterfaces
@@ -47,6 +59,10 @@ getSuperInterfaces
 ;
 scan
 (
+CtRole
+.
+TYPE_PARAMETER
+,
 ctClass
 .
 getFormalCtTypeParameters
@@ -56,6 +72,10 @@ getFormalCtTypeParameters
 ;
 scan
 (
+CtRole
+.
+TYPE_MEMBER
+,
 ctClass
 .
 getTypeMembers
@@ -65,6 +85,10 @@ getTypeMembers
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 ctClass
 .
 getComments

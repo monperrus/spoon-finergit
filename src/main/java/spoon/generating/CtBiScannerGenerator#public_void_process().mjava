@@ -319,7 +319,7 @@ getArguments
 .
 get
 (
-0
+1
 )
 ;
 if
@@ -466,7 +466,7 @@ getArguments
 .
 get
 (
-0
+1
 )
 )
 .
@@ -510,7 +510,7 @@ getArguments
 .
 get
 (
-0
+1
 )
 )
 .
@@ -558,7 +558,7 @@ getArguments
 .
 get
 (
-1
+2
 )
 .
 clone
@@ -585,7 +585,7 @@ getArguments
 .
 get
 (
-1
+2
 )
 .
 replace

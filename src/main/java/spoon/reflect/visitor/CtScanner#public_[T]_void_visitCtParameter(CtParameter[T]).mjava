@@ -20,6 +20,10 @@ parameter
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 parameter
 .
 getAnnotations
@@ -29,6 +33,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+TYPE
+,
 parameter
 .
 getType
@@ -38,6 +46,10 @@ getType
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 parameter
 .
 getComments

@@ -15,6 +15,10 @@ javaDoc
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 javaDoc
 .
 getComments
@@ -24,6 +28,10 @@ getComments
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 javaDoc
 .
 getAnnotations
@@ -33,6 +41,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+COMMENT_TAG
+,
 javaDoc
 .
 getTags

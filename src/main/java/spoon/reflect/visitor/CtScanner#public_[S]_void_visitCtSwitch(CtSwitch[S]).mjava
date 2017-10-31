@@ -20,6 +20,10 @@ switchStatement
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 switchStatement
 .
 getAnnotations
@@ -29,6 +33,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+EXPRESSION
+,
 switchStatement
 .
 getSelector
@@ -38,6 +46,10 @@ getSelector
 ;
 scan
 (
+CtRole
+.
+CASE
+,
 switchStatement
 .
 getCases
@@ -47,6 +59,10 @@ getCases
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 switchStatement
 .
 getComments

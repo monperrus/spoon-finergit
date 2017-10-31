@@ -20,6 +20,10 @@ reference
 ;
 scan
 (
+CtRole
+.
+PACKAGE_REF
+,
 reference
 .
 getPackage
@@ -29,6 +33,10 @@ getPackage
 ;
 scan
 (
+CtRole
+.
+DECLARING_TYPE
+,
 reference
 .
 getDeclaringType
@@ -38,6 +46,10 @@ getDeclaringType
 ;
 scan
 (
+CtRole
+.
+TYPE_ARGUMENT
+,
 reference
 .
 getActualTypeArguments
@@ -47,6 +59,10 @@ getActualTypeArguments
 ;
 scan
 (
+CtRole
+.
+ANNOTATION
+,
 reference
 .
 getAnnotations
@@ -56,6 +72,10 @@ getAnnotations
 ;
 scan
 (
+CtRole
+.
+COMMENT
+,
 reference
 .
 getComments
