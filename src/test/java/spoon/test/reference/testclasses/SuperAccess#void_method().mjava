@@ -1,0 +1,13 @@
+@Override
+void
+method
+(
+)
+{
+super
+.
+method
+(
+)
+;
+}
