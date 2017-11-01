@@ -1,0 +1,8 @@
+/** 
+ * @return the {@link CtRole} of the parent's attribute where this element is used.Returns null if parent doesn't contain this element as direct children or if this element has no parent.
+ */
+CtRole
+getRoleInParent
+(
+)
+;

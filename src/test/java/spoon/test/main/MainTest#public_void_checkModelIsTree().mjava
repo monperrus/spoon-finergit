@@ -1,9 +1,8 @@
-private
+@Test
+public
 void
 checkModelIsTree
 (
-CtPackage
-rootPackage
 )
 {
 Exception

@@ -1,0 +1,13 @@
+@Test
+public
+void
+testMain_checkParentConsistency
+(
+)
+{
+checkParentConsistency
+(
+rootPackage
+)
+;
+}
