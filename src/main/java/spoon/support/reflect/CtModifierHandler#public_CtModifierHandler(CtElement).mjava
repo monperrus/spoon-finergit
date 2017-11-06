@@ -1,0 +1,14 @@
+public
+CtModifierHandler
+(
+CtElement
+element
+)
+{
+this
+.
+element
+=
+element
+;
+}

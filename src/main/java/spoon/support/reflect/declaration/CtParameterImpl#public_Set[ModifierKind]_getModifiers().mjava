@@ -9,6 +9,10 @@ getModifiers
 )
 {
 return
-modifiers
+modifierHandler
+.
+getModifiers
+(
+)
 ;
 }

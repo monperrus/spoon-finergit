@@ -1,0 +1,17 @@
+@Override
+public
+int
+hashCode
+(
+)
+{
+return
+getModifiers
+(
+)
+.
+hashCode
+(
+)
+;
+}

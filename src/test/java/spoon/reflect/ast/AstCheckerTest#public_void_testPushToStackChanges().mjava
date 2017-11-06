@@ -31,6 +31,13 @@ launcher
 .
 addInputResource
 (
+"./src/main/java/spoon/support/reflect/CtModifierHandler.java"
+)
+;
+launcher
+.
+addInputResource
+(
 "./src/main/java/spoon/support/reflect/code"
 )
 ;

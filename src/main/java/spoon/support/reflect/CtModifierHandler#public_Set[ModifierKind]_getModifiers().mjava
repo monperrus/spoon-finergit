@@ -1,4 +1,3 @@
-@Override
 public
 Set
 <
@@ -9,10 +8,6 @@ getModifiers
 )
 {
 return
-modifierHandler
-.
-getModifiers
-(
-)
+modifiers
 ;
 }
