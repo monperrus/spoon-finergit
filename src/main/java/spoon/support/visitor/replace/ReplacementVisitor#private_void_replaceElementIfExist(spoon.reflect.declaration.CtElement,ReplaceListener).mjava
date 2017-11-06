@@ -11,12 +11,6 @@ declaration
 CtElement
 candidate
 ,
-spoon
-.
-generating
-.
-replace
-.
 ReplaceListener
 listener
 )

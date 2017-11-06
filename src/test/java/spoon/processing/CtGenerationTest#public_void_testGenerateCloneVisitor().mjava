@@ -139,7 +139,7 @@ launcher
 .
 addInputResource
 (
-"./src/main/java/spoon/generating/clone/"
+"./src/test/java/spoon/generating/clone/"
 )
 ;
 launcher

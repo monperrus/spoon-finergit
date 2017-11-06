@@ -23,12 +23,6 @@ T
 >
 listProtected
 ,
-spoon
-.
-generating
-.
-replace
-.
 ReplaceListListener
 listener
 )

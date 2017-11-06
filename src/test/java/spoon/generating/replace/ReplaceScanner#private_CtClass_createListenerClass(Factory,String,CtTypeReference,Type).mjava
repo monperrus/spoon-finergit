@@ -28,7 +28,7 @@ Class
 .
 get
 (
-GENERATING_REPLACE_PACKAGE
+TARGET_REPLACE_PACKAGE
 +
 ".CtListener"
 )
@@ -84,7 +84,7 @@ reference
 {
 return
 (
-GENERATING_REPLACE_PACKAGE
+TARGET_REPLACE_PACKAGE
 +
 ".CtListener"
 )
@@ -141,7 +141,7 @@ Class
 .
 createReference
 (
-GENERATING_REPLACE_PACKAGE
+TARGET_REPLACE_PACKAGE
 +
 "."
 +

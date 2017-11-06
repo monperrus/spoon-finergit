@@ -39,7 +39,7 @@ length
 ;
 assertEquals
 (
-54
+50
 ,
 launcher
 .

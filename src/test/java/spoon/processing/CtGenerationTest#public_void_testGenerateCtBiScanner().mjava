@@ -104,7 +104,7 @@ launcher
 .
 addInputResource
 (
-"./src/main/java/spoon/generating/scanner/"
+"./src/test/java/spoon/generating/scanner/"
 )
 ;
 launcher

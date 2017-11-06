@@ -115,7 +115,14 @@ launcher
 .
 addInputResource
 (
-"./src/main/java/spoon/generating/replace/"
+"./src/main/java/spoon/support/visitor/replace/"
+)
+;
+launcher
+.
+addInputResource
+(
+"./src/test/java/spoon/generating/replace/"
 )
 ;
 launcher
