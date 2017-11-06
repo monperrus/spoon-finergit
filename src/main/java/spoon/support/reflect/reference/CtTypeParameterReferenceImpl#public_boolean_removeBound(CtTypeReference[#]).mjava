@@ -16,11 +16,9 @@ bound
 ==
 null
 ||
-getBoundingType
+isDefaultBoundingType
 (
 )
-==
-null
 )
 {
 return

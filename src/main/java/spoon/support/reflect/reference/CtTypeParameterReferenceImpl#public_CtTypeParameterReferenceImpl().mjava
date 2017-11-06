@@ -7,4 +7,11 @@ super
 (
 )
 ;
+this
+.
+setBoundingType
+(
+null
+)
+;
 }

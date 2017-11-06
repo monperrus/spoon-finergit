@@ -193,6 +193,8 @@ indexDeclaring
 PackageBinding
 aPackage
 ;
+try
+{
 if
 (
 packageName
@@ -219,8 +221,6 @@ aPackage
 null
 ;
 }
-try
-{
 final
 MissingTypeBinding
 declaringType

@@ -18,11 +18,9 @@ isUpper
 {
 if
 (
-getBoundingType
+isDefaultBoundingType
 (
 )
-==
-null
 )
 {
 return

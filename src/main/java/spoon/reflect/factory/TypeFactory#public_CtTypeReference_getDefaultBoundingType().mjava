@@ -1,0 +1,13 @@
+/** 
+ * Returns the default bounding type value
+ */
+public
+CtTypeReference
+getDefaultBoundingType
+(
+)
+{
+return
+OBJECT
+;
+}

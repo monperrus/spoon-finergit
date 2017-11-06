@@ -162,11 +162,9 @@ CtWildcardReference
 actualTA
 )
 .
-getBoundingType
+isDefaultBoundingType
 (
 )
-==
-null
 )
 ;
 invocationDetected

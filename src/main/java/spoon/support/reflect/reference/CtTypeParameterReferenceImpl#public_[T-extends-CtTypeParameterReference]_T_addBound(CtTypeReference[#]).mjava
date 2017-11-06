@@ -31,11 +31,9 @@ this
 }
 if
 (
-getBoundingType
+isDefaultBoundingType
 (
 )
-==
-null
 )
 {
 setBoundingType
