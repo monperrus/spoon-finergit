@@ -804,6 +804,8 @@ getModifiers
 methodDeclaration
 .
 modifiers
+,
+false
 )
 .
 isEmpty

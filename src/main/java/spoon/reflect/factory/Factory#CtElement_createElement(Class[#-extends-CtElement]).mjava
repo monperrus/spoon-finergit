@@ -1,0 +1,14 @@
+/** 
+ * @see CoreFactory#create(Class<? extends CtElement>)
+ */
+CtElement
+createElement
+(
+Class
+<
+?
+CtElement
+>
+klass
+)
+;

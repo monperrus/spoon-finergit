@@ -1,0 +1,15 @@
+<
+T
+extends
+CtModifiable
+>
+T
+setExtendedModifiers
+(
+Set
+<
+CtExtendedModifier
+>
+extendedModifiers
+)
+;

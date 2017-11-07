@@ -1,0 +1,15 @@
+public
+Set
+<
+CtExtendedModifier
+>
+getExtendedModifiers
+(
+)
+{
+return
+this
+.
+modifiers
+;
+}

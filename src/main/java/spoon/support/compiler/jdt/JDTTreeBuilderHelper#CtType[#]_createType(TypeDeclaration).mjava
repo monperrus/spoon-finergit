@@ -314,7 +314,7 @@ name
 }
 type
 .
-setModifiers
+setExtendedModifiers
 (
 getModifiers
 (

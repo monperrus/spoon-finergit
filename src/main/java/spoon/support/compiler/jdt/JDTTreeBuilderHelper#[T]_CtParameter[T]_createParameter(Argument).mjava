@@ -63,7 +63,7 @@ isVarArgs
 ;
 p
 .
-setModifiers
+setExtendedModifiers
 (
 getModifiers
 (

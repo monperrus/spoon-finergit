@@ -1,0 +1,10 @@
+public
+ModifierKind
+getKind
+(
+)
+{
+return
+kind
+;
+}

@@ -1,0 +1,10 @@
+static
+String
+foo
+(
+)
+{
+return
+"bla"
+;
+}

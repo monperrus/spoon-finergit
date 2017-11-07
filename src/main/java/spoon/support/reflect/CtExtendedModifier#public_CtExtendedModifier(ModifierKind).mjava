@@ -1,0 +1,14 @@
+public
+CtExtendedModifier
+(
+ModifierKind
+kind
+)
+{
+this
+.
+kind
+=
+kind
+;
+}

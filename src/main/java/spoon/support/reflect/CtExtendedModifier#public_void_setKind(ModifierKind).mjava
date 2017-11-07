@@ -1,0 +1,15 @@
+public
+void
+setKind
+(
+ModifierKind
+kind
+)
+{
+this
+.
+kind
+=
+kind
+;
+}
