@@ -1,0 +1,11 @@
+public
+static
+int
+maMethod
+(
+)
+{
+return
+12
+;
+}

@@ -303,12 +303,6 @@ ModifierKind
 .
 PUBLIC
 )
-||
-klass
-.
-isInterface
-(
-)
 )
 {
 this
@@ -352,12 +346,6 @@ hasModifier
 ModifierKind
 .
 PUBLIC
-)
-||
-klass
-.
-isInterface
-(
 )
 )
 {

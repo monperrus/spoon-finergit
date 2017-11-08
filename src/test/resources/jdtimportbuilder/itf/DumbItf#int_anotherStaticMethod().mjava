@@ -1,0 +1,10 @@
+static
+int
+anotherStaticMethod
+(
+)
+{
+return
+12
+;
+}

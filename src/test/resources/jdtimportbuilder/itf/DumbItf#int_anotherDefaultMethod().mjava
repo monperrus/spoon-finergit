@@ -1,0 +1,10 @@
+default
+int
+anotherDefaultMethod
+(
+)
+{
+return
+42
+;
+}
