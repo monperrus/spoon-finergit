@@ -1,0 +1,11 @@
+private
+static
+int
+anotherMethod
+(
+)
+{
+return
+42
+;
+}
