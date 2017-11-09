@@ -48,6 +48,8 @@ jdtCatch
 modifiers
 ,
 false
+,
+false
 )
 ;
 CtCatchVariable

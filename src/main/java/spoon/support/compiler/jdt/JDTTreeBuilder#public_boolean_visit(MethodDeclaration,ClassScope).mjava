@@ -62,6 +62,8 @@ binding
 modifiers
 ,
 true
+,
+true
 )
 )
 ;
@@ -78,6 +80,8 @@ methodDeclaration
 modifiers
 ,
 false
+,
+true
 )
 )
 {

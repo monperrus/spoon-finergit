@@ -806,6 +806,8 @@ methodDeclaration
 modifiers
 ,
 false
+,
+true
 )
 .
 isEmpty

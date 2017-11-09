@@ -48,6 +48,8 @@ binding
 modifiers
 ,
 true
+,
+true
 )
 )
 ;
@@ -64,6 +66,8 @@ constructorDeclaration
 modifiers
 ,
 false
+,
+true
 )
 )
 {

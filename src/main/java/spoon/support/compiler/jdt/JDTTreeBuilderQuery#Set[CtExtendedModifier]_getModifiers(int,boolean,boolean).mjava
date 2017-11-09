@@ -16,6 +16,9 @@ modifier
 ,
 boolean
 implicit
+,
+boolean
+isMethod
 )
 {
 Set
@@ -236,6 +239,9 @@ implicit
 }
 if
 (
+!
+isMethod
+&&
 (
 modifier
 &

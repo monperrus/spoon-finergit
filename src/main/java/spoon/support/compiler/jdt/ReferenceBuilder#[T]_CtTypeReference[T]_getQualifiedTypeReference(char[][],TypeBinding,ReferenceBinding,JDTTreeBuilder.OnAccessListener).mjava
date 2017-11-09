@@ -81,6 +81,10 @@ getModifiers
 enclosingType
 .
 modifiers
+,
+false
+,
+false
 )
 )
 )
