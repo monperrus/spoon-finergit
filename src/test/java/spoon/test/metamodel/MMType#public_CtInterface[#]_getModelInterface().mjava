@@ -6,11 +6,11 @@ CtInterface
 <
 ?
 >
-getModelInteface
+getModelInterface
 (
 )
 {
 return
-modelInteface
+modelInterface
 ;
 }

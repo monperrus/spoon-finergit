@@ -1,0 +1,17 @@
+void
+setModelInterface
+(
+CtInterface
+<
+?
+>
+modelInterface
+)
+{
+this
+.
+modelInterface
+=
+modelInterface
+;
+}
