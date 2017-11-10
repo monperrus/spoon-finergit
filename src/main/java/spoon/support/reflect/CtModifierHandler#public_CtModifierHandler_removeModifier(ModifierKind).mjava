@@ -1,5 +1,5 @@
 public
-boolean
+CtModifierHandler
 removeModifier
 (
 ModifierKind
@@ -20,7 +20,7 @@ emptySet
 )
 {
 return
-false
+this
 ;
 }
 getFactory
@@ -46,9 +46,6 @@ modifiers
 modifier
 )
 ;
-boolean
-b
-=
 modifiers
 .
 remove
@@ -60,9 +57,6 @@ modifier
 )
 )
 ;
-return
-b
-||
 modifiers
 .
 remove
@@ -75,5 +69,8 @@ modifier
 true
 )
 )
+;
+return
+this
 ;
 }

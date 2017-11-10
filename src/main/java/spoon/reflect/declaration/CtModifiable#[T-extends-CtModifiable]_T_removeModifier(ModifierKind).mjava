@@ -1,10 +1,14 @@
 /** 
  * remove a modifier
  * @param modifier
- * @return <tt>true</tt> if this element changed as a result of the call
  */
 @PropertySetter(role=MODIFIER)
-boolean
+<
+T
+extends
+CtModifiable
+>
+T
 removeModifier
 (
 ModifierKind

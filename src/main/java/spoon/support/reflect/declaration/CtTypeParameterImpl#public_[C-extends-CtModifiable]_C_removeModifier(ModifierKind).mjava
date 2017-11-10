@@ -1,7 +1,12 @@
 @Override
 @UnsettableProperty
 public
-boolean
+<
+C
+extends
+CtModifiable
+>
+C
 removeModifier
 (
 ModifierKind
@@ -9,6 +14,9 @@ modifier
 )
 {
 return
-true
+(
+C
+)
+this
 ;
 }
