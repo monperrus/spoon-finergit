@@ -552,7 +552,7 @@ getOwnerType
 (
 )
 .
-getModelInteface
+getModelInterface
 (
 )
 .
@@ -585,7 +585,7 @@ getOwnerType
 (
 )
 .
-getModelInteface
+getModelInterface
 (
 )
 .
