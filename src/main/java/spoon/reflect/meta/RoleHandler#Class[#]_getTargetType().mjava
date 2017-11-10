@@ -1,0 +1,11 @@
+/** 
+ * @return the type of the class, which this handler can be applied to (eg CtMethod)
+ */
+Class
+<
+?
+>
+getTargetType
+(
+)
+;

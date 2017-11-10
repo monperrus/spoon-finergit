@@ -1,0 +1,47 @@
+/** 
+ * @param col
+ * @param o
+ * @return true if added
+ */
+private
+<
+T
+>
+boolean
+addUniqueObject
+(
+Collection
+<
+T
+>
+col
+,
+T
+o
+)
+{
+if
+(
+containsObject
+(
+col
+,
+o
+)
+)
+{
+return
+false
+;
+}
+col
+.
+add
+(
+o
+)
+;
+return
+true
+;
+}

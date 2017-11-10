@@ -1,0 +1,19 @@
+/** 
+ * @param element a element whose value will be set for this role
+ * @param value new value, which will be assigned to the element's attribute defined by role defined by {@link #getRole()}
+ */
+<
+T
+,
+U
+>
+void
+setValue
+(
+T
+element
+,
+U
+value
+)
+;

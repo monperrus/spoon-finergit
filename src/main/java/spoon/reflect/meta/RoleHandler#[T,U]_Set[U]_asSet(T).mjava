@@ -1,0 +1,18 @@
+/** 
+ * @return a value for this role adapted as a modifiable Set
+ */
+<
+T
+,
+U
+>
+Set
+<
+U
+>
+asSet
+(
+T
+element
+)
+;

@@ -1,0 +1,16 @@
+@SuppressWarnings("unchecked")
+protected
+U
+castValue
+(
+Object
+value
+)
+{
+return
+(
+U
+)
+value
+;
+}

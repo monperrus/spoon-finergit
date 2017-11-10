@@ -1,0 +1,16 @@
+@SuppressWarnings("unchecked")
+protected
+T
+castTarget
+(
+Object
+element
+)
+{
+return
+(
+T
+)
+element
+;
+}

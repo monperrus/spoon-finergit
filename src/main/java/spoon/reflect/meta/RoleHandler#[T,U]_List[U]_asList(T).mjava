@@ -1,0 +1,18 @@
+/** 
+ * @return a value for this role adapted as a modifiable List
+ */
+<
+T
+,
+U
+>
+List
+<
+U
+>
+asList
+(
+T
+element
+)
+;

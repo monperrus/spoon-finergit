@@ -1,0 +1,14 @@
+@Override
+public
+Class
+<
+?
+>
+getTargetType
+(
+)
+{
+return
+targetClass
+;
+}

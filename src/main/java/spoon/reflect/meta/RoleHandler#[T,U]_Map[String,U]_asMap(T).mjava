@@ -1,0 +1,20 @@
+/** 
+ * @return a value for this role adapted as a modifiable Map
+ */
+<
+T
+,
+U
+>
+Map
+<
+String
+,
+U
+>
+asMap
+(
+T
+element
+)
+;

@@ -1,0 +1,14 @@
+@Override
+public
+Class
+<
+?
+>
+getValueClass
+(
+)
+{
+return
+valueClass
+;
+}

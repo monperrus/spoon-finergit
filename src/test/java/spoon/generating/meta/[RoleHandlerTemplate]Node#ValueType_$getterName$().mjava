@@ -1,0 +1,9 @@
+ValueType
+$getterName$
+(
+)
+{
+return
+null
+;
+}

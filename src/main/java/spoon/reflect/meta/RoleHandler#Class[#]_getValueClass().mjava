@@ -1,0 +1,11 @@
+/** 
+ * @return the type of returned value defined by {@link #getRole()}
+ */
+Class
+<
+?
+>
+getValueClass
+(
+)
+;

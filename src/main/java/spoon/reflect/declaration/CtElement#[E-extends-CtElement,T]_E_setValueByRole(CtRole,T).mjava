@@ -1,0 +1,22 @@
+/** 
+ * Sets a field according to a role.
+ * @param the role of the field to be set
+ * @param value to be assigned to this field.
+ */
+<
+E
+extends
+CtElement
+,
+T
+>
+E
+setValueByRole
+(
+CtRole
+role
+,
+T
+value
+)
+;
