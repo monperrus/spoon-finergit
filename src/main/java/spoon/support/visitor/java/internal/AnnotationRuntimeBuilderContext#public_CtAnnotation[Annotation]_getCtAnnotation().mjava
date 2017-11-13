@@ -1,0 +1,15 @@
+public
+CtAnnotation
+<
+Annotation
+>
+getCtAnnotation
+(
+)
+{
+return
+this
+.
+ctAnnotation
+;
+}
