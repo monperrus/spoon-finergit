@@ -10,7 +10,7 @@ Exception
 int
 expectedNumberInJDK8
 =
-61
+62
 ;
 int
 expectedNumberInJDK9
