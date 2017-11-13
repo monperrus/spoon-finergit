@@ -39,4 +39,9 @@ scanCtVisitable
 e
 )
 ;
+scanCtShadowable
+(
+e
+)
+;
 }

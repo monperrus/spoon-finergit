@@ -1,0 +1,12 @@
+/** 
+ * Scans a shadowable element
+ */
+public
+void
+scanCtShadowable
+(
+CtShadowable
+ctShadowable
+)
+{
+}

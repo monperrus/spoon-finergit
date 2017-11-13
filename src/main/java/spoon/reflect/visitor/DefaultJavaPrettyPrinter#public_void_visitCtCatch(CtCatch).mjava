@@ -54,6 +54,10 @@ getParameter
 if
 (
 parameter
+!=
+null
+&&
+parameter
 .
 getMultiTypes
 (

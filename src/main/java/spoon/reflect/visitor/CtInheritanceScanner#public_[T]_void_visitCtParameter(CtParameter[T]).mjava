@@ -42,4 +42,9 @@ scanCtVisitable
 e
 )
 ;
+scanCtShadowable
+(
+e
+)
+;
 }

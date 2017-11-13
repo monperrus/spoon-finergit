@@ -47,4 +47,14 @@ scanCtVisitable
 e
 )
 ;
+scanCtRHSReceiver
+(
+e
+)
+;
+scanCtShadowable
+(
+e
+)
+;
 }

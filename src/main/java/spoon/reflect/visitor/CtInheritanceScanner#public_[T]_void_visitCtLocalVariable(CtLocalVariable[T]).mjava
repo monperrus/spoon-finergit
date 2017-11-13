@@ -52,4 +52,9 @@ scanCtVisitable
 e
 )
 ;
+scanCtRHSReceiver
+(
+e
+)
+;
 }

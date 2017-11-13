@@ -1,0 +1,18 @@
+/** 
+ * Scans the right-hand side of an assignment
+ */
+public
+<
+T
+>
+void
+scanCtRHSReceiver
+(
+CtRHSReceiver
+<
+T
+>
+ctRHSReceiver
+)
+{
+}

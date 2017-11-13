@@ -48,4 +48,9 @@ scanCtVisitable
 e
 )
 ;
+scanCtBodyHolder
+(
+e
+)
+;
 }

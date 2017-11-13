@@ -52,4 +52,14 @@ scanCtVisitable
 e
 )
 ;
+scanCtShadowable
+(
+e
+)
+;
+scanCtBodyHolder
+(
+e
+)
+;
 }

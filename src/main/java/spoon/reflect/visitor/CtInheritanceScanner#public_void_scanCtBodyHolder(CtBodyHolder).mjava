@@ -1,0 +1,12 @@
+/** 
+ * Scans a body holder
+ */
+public
+void
+scanCtBodyHolder
+(
+CtBodyHolder
+ctBodyHolder
+)
+{
+}

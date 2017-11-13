@@ -1155,6 +1155,12 @@ asList
 "spoon.support.reflect.declaration.CtMultiTypedElementImpl"
 ,
 "spoon.support.reflect.declaration.CtTypeMemberImpl"
+,
+"spoon.support.reflect.code.CtRHSReceiverImpl"
+,
+"spoon.support.reflect.declaration.CtShadowableImpl"
+,
+"spoon.support.reflect.code.CtBodyHolderImpl"
 )
 ;
 private
