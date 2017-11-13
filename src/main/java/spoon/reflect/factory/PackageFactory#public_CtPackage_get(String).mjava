@@ -1,5 +1,5 @@
 /** 
- * Gets a created package.
+ * Gets a package.
  * @param qualifiedName the package to search
  * @return a found package or null
  */
