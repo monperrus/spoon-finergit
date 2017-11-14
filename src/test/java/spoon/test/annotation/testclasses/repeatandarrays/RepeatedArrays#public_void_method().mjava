@@ -1,0 +1,9 @@
+@TagArrays({"machin","truc"})
+@TagArrays({"truc","bidule"})
+public
+void
+method
+(
+)
+{
+}
