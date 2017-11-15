@@ -1,0 +1,17 @@
+@Override
+public
+boolean
+isStatic
+(
+)
+{
+return
+this
+.
+modifierHandler
+.
+isStatic
+(
+)
+;
+}

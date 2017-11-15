@@ -1,0 +1,129 @@
+private
+void
+checkCtModifiableHelpersAssertion
+(
+CtModifiable
+element
+,
+boolean
+isPublic
+,
+boolean
+isProtected
+,
+boolean
+isPrivate
+,
+boolean
+isAbstract
+,
+boolean
+isFinal
+,
+boolean
+isStatic
+)
+{
+assertEquals
+(
+"isPublic for "
++
+element
++
+" is wrong"
+,
+isPublic
+,
+element
+.
+isPublic
+(
+)
+)
+;
+assertEquals
+(
+"isProtected for "
++
+element
++
+" is wrong"
+,
+isProtected
+,
+element
+.
+isProtected
+(
+)
+)
+;
+assertEquals
+(
+"isPrivate for "
++
+element
++
+" is wrong"
+,
+isPrivate
+,
+element
+.
+isPrivate
+(
+)
+)
+;
+assertEquals
+(
+"isAbstract for "
++
+element
++
+" is wrong"
+,
+isAbstract
+,
+element
+.
+isAbstract
+(
+)
+)
+;
+assertEquals
+(
+"isFinal for "
++
+element
++
+" is wrong"
+,
+isFinal
+,
+element
+.
+isFinal
+(
+)
+)
+;
+assertEquals
+(
+"isStatic for "
++
+element
++
+" is wrong"
+,
+isStatic
+,
+element
+.
+isStatic
+(
+)
+)
+;
+}

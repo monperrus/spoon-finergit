@@ -1,0 +1,17 @@
+@Override
+public
+boolean
+isProtected
+(
+)
+{
+return
+this
+.
+modifierHandler
+.
+isProtected
+(
+)
+;
+}

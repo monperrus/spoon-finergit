@@ -1,0 +1,10 @@
+private
+ConcreteClass
+(
+)
+{
+test
+=
+43
+;
+}

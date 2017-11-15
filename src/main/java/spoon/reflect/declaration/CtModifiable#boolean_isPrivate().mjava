@@ -1,0 +1,9 @@
+/** 
+ * Returns true if it contains a private modifier (see  {@link #hasModifier(ModifierKind)})
+ */
+@DerivedProperty
+boolean
+isPrivate
+(
+)
+;

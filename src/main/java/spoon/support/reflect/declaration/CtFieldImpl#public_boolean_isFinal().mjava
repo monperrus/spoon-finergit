@@ -1,0 +1,17 @@
+@Override
+public
+boolean
+isFinal
+(
+)
+{
+return
+this
+.
+modifierHandler
+.
+isFinal
+(
+)
+;
+}

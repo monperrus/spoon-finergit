@@ -1,0 +1,17 @@
+@Override
+public
+boolean
+isPublic
+(
+)
+{
+return
+this
+.
+modifierHandler
+.
+isPublic
+(
+)
+;
+}

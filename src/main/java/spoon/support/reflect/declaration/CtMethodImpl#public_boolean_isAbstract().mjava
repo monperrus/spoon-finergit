@@ -1,0 +1,17 @@
+@Override
+public
+boolean
+isAbstract
+(
+)
+{
+return
+this
+.
+modifierHandler
+.
+isAbstract
+(
+)
+;
+}

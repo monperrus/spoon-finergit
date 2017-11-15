@@ -1,0 +1,12 @@
+public
+ConcreteClass
+(
+int
+i
+)
+{
+test
+=
+i
+;
+}
