@@ -1,6 +1,6 @@
 /** 
  * @return a a single value (eg a CtElement), List, Set or Map depending on this `element` and `role`. Returned collections are read-only.
- * @param the role of the returned attribute with respect to this element.For instance, "klass.getValueByRole(CtRole.METHOD)" returns a list of methods. See  {@link spoon.reflect.meta.impl.RoleHandlerHelper} for more advanced methods.
+ * @param role the role of the returned attribute with respect to this element.For instance, "klass.getValueByRole(CtRole.METHOD)" returns a list of methods. See  {@link spoon.reflect.meta.impl.RoleHandlerHelper} for more advanced methods.
  */
 <
 T
