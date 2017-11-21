@@ -22,7 +22,7 @@ APP_SOURCE
 ;
 assertEquals
 (
-5
+7
 ,
 launcher
 .
