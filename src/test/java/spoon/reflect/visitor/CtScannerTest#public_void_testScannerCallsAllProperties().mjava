@@ -508,7 +508,6 @@ c
 nbChecks
 ++
 ;
-}
 CtRole
 expectedRole
 =
@@ -611,6 +610,7 @@ getPosition
 )
 )
 ;
+}
 }
 }
 )

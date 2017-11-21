@@ -145,6 +145,47 @@ getArguments
 )
 )
 ;
+if
+(
+invArgs
+.
+size
+(
+)
+<=
+1
+)
+{
+throw
+new
+RuntimeException
+(
+"You forget the role argument in line "
++
+i
++
+" of method "
++
+element
+.
+getSimpleName
+(
+)
++
+" from "
++
+element
+.
+getDeclaringType
+(
+)
+.
+getQualifiedName
+(
+)
+)
+;
+}
 invArgs
 .
 remove
