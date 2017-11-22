@@ -1,0 +1,11 @@
+/** 
+ * @see QueryFactory#createQuery(Object...)
+ */
+CtQuery
+createQuery
+(
+Object
+...
+input
+)
+;
