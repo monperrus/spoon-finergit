@@ -1,0 +1,13 @@
+/** 
+ * @return the CtRole which is the real holder of this virtual CtRole or null if there is no super role.For example  {@link #TYPE_MEMBER} is super role of {@link #CONSTRUCTOR},  {@link #FIELD},  {@link #METHOD},  {@link #NESTED_TYPE}
+ */
+public
+CtRole
+getSuperRole
+(
+)
+{
+return
+superRole
+;
+}

@@ -1,0 +1,16 @@
+/** 
+ * @return sub roles of this super role or empty array if there is no sub role.For example  {@link #TYPE_MEMBER} is super role of {@link #CONSTRUCTOR},  {@link #FIELD},  {@link #METHOD},  {@link #NESTED_TYPE}
+ */
+public
+List
+<
+CtRole
+>
+getSubRoles
+(
+)
+{
+return
+subRoles
+;
+}
