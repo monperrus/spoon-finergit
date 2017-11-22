@@ -22,10 +22,6 @@ getModel
 (
 )
 .
-getRootPackage
-(
-)
-.
 filterChildren
 (
 new

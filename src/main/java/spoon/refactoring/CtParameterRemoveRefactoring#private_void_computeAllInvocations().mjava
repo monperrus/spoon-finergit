@@ -63,10 +63,6 @@ getModel
 (
 )
 .
-getRootPackage
-(
-)
-.
 filterChildren
 (
 execRefFilter

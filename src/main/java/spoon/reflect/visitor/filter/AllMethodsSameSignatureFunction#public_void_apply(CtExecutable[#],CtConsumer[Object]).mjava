@@ -41,10 +41,6 @@ getModel
 (
 )
 .
-getRootPackage
-(
-)
-.
 filterChildren
 (
 lambdaFilter

@@ -34,10 +34,6 @@ getModel
 (
 )
 .
-getRootPackage
-(
-)
-.
 filterChildren
 (
 (
@@ -109,10 +105,6 @@ lambda
 factory
 .
 getModel
-(
-)
-.
-getRootPackage
 (
 )
 .

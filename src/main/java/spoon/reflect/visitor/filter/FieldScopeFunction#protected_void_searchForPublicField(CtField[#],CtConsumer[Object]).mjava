@@ -25,10 +25,6 @@ getModel
 (
 )
 .
-getRootPackage
-(
-)
-.
 filterChildren
 (
 null

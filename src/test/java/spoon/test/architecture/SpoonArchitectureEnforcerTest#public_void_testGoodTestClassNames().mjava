@@ -42,10 +42,6 @@ getModel
 (
 )
 .
-getRootPackage
-(
-)
-.
 getElements
 (
 new
@@ -154,10 +150,6 @@ assertEquals
 spoon
 .
 getModel
-(
-)
-.
-getRootPackage
 (
 )
 .

@@ -13,8 +13,6 @@ Collections
 .
 unmodifiableCollection
 (
-rootPackage
-.
 getElements
 (
 new

@@ -75,10 +75,6 @@ getModel
 (
 )
 .
-getRootPackage
-(
-)
-.
 filterChildren
 (
 execRefFilter
@@ -101,10 +97,6 @@ size
 factory
 .
 getModel
-(
-)
-.
-getRootPackage
 (
 )
 .

@@ -96,10 +96,6 @@ getModel
 (
 )
 .
-getRootPackage
-(
-)
-.
 map
 (
 new
@@ -225,10 +221,6 @@ getFactory
 )
 .
 getModel
-(
-)
-.
-getRootPackage
 (
 )
 .

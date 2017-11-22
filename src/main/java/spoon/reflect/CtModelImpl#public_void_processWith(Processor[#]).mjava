@@ -16,7 +16,9 @@ processingManager
 new
 QueueProcessingManager
 (
-rootPackage
+getRootPackage
+(
+)
 .
 getFactory
 (

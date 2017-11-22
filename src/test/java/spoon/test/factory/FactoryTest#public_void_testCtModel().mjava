@@ -222,10 +222,6 @@ p
 =
 model
 .
-getRootPackage
-(
-)
-.
 getElements
 (
 new
