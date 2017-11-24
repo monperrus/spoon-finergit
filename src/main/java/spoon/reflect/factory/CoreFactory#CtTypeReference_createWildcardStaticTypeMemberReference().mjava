@@ -1,0 +1,8 @@
+/** 
+ * Create a wildcard reference to a type member, used in a static import
+ */
+CtTypeReference
+createWildcardStaticTypeMemberReference
+(
+)
+;

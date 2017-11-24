@@ -93,7 +93,7 @@ getPath
 ;
 Collection
 <
-CtReference
+CtImport
 >
 imports
 =
@@ -114,7 +114,7 @@ size
 )
 )
 ;
-CtReference
+CtImport
 ref
 =
 imports
@@ -129,11 +129,11 @@ next
 ;
 assertEquals
 (
-"GlobalAnnotation"
+"import spoon.test.annotation.testclasses.GlobalAnnotation;\n"
 ,
 ref
 .
-getSimpleName
+toString
 (
 )
 )
@@ -141,6 +141,10 @@ getSimpleName
 assertTrue
 (
 ref
+.
+getReference
+(
+)
 instanceof
 CtTypeReference
 )
@@ -152,6 +156,10 @@ refType
 CtTypeReference
 )
 ref
+.
+getReference
+(
+)
 ;
 assertEquals
 (

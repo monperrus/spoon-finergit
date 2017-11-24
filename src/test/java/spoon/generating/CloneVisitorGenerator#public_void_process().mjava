@@ -3486,10 +3486,29 @@ if
 (
 matchers
 .
+isEmpty
+(
+)
+)
+{
+throw
+new
+SpoonException
+(
+"No getter found for field "
++
+ctField
+)
+;
+}
+if
+(
+matchers
+.
 size
 (
 )
-!=
+>
 1
 )
 {
@@ -3497,7 +3516,18 @@ throw
 new
 SpoonException
 (
-"Get more than one getter. Please make an more ingenious method to get getter method."
+"Get more than one getter ("
++
+StringUtils
+.
+join
+(
+matchers
+,
+";"
+)
++
+"). Please make an more ingenious method to get getter method."
 )
 ;
 }

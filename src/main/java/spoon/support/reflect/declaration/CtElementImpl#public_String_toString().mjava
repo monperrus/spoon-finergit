@@ -27,6 +27,16 @@ errorMessage
 ;
 try
 {
+if
+(
+!
+(
+this
+instanceof
+CtImport
+)
+)
+{
 printer
 .
 computeImports
@@ -34,6 +44,7 @@ computeImports
 this
 )
 ;
+}
 printer
 .
 scan

@@ -1,0 +1,37 @@
+/** 
+ * Creates an import declaration.
+ */
+public
+CtImport
+createImport
+(
+CtReference
+reference
+)
+{
+CtImport
+ctImport
+=
+factory
+.
+Core
+(
+)
+.
+createImport
+(
+)
+;
+return
+ctImport
+.
+setReference
+(
+reference
+.
+clone
+(
+)
+)
+;
+}

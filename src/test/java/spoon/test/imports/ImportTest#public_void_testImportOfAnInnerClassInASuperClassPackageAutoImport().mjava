@@ -55,6 +55,13 @@ spoon
 .
 addInputResource
 (
+"./src/test/java/spoon/test/imports/testclasses/internal/PublicInterface2.java"
+)
+;
+spoon
+.
+addInputResource
+(
 "./src/test/java/spoon/test/imports/testclasses/ClientClass.java"
 )
 ;

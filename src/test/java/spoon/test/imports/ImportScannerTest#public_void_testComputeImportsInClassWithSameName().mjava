@@ -90,7 +90,7 @@ theClass
 ;
 Collection
 <
-CtReference
+CtImport
 >
 imports
 =

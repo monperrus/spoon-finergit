@@ -7,6 +7,17 @@ CtNamedElement
 e
 )
 {
+if
+(
+e
+.
+getSimpleName
+(
+)
+!=
+null
+)
+{
 hashCode
 =
 e
@@ -19,4 +30,5 @@ hashCode
 (
 )
 ;
+}
 }

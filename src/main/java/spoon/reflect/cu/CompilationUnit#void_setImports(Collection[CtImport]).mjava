@@ -7,7 +7,7 @@ setImports
 (
 Collection
 <
-CtReference
+CtImport
 >
 imports
 )

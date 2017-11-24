@@ -1,0 +1,10 @@
+/** 
+ * Visits an import declaration
+ */
+void
+visitCtImport
+(
+CtImport
+ctImport
+)
+;

@@ -144,13 +144,25 @@ contains
 ;
 assertTrue
 (
+"The result should contain import static assertTrue: "
+,
+result
+.
+contains
+(
+"import static org.junit.Assert.assertTrue;"
+)
+)
+;
+assertTrue
+(
 "The result should contain assertTrue(...): "
 ,
 result
 .
 contains
 (
-"Assert.assertTrue(\"blabla\".equals(\"toto\"));"
+"assertTrue(\"blabla\".equals(\"toto\"));"
 )
 )
 ;

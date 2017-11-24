@@ -57,7 +57,7 @@ fieldRef
 ;
 Collection
 <
-CtReference
+CtImport
 >
 imports
 =

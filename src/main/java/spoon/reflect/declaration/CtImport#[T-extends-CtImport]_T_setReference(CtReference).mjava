@@ -1,0 +1,16 @@
+/** 
+ * Sets the reference of the import. The import kind will be computed based on this reference.
+ */
+@PropertySetter(role=IMPORT_REFERENCE)
+<
+T
+extends
+CtImport
+>
+T
+setReference
+(
+CtReference
+reference
+)
+;

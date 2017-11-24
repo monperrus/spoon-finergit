@@ -116,7 +116,7 @@ expected
 +
 nl
 +
-"    localField = E1.ordinal();"
+"    localField = spoon.test.prettyprinter.testclasses.sub.TypeIdentifierCollision.ENUM.E1.ordinal();"
 +
 nl
 +
@@ -143,7 +143,7 @@ toString
 ;
 assertEquals
 (
-"E1 is statically imported then we can call it directly"
+"We use FQN for E1"
 ,
 expected
 ,
@@ -193,7 +193,7 @@ expected
 +
 nl
 +
-"    globalField = localField;"
+"    spoon.test.prettyprinter.testclasses.sub.TypeIdentifierCollision.globalField = localField;"
 +
 nl
 +
@@ -219,7 +219,7 @@ toString
 ;
 assertEquals
 (
-"The static field of an external type with the same identifier as the compilation unit is statically imported"
+"The static field of an external type with the same identifier as the compilation unit is printed with FQN"
 ,
 expected
 ,
@@ -275,7 +275,7 @@ expected
 +
 nl
 +
-"    E1(globalField,E1);"
+"    E1(spoon.test.prettyprinter.testclasses.sub.TypeIdentifierCollision.globalField,spoon.test.prettyprinter.testclasses.sub.TypeIdentifierCollision.ENUM.E1);"
 +
 nl
 +
@@ -324,8 +324,6 @@ toString
 ;
 assertEquals
 (
-"Parameters in an enum constructor should be statically imported when they refer to externally defined static field of a class with the same identifier as another locally defined type"
-,
 expected
 ,
 computed

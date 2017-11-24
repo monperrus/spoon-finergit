@@ -93,7 +93,7 @@ getPath
 ;
 Collection
 <
-CtReference
+CtImport
 >
 imports
 =
@@ -114,7 +114,7 @@ size
 )
 )
 ;
-CtReference
+CtImport
 ref
 =
 imports
@@ -130,6 +130,10 @@ next
 assertTrue
 (
 ref
+.
+getReference
+(
+)
 instanceof
 CtFieldReference
 )
@@ -143,6 +147,10 @@ assertEquals
 CtFieldReference
 )
 ref
+.
+getReference
+(
+)
 )
 .
 getQualifiedName

@@ -176,12 +176,10 @@ writeKeyword
 }
 else
 {
-if
-(
-!
+boolean
+isImported
+=
 this
-.
-importsContext
 .
 isImported
 (
@@ -191,6 +189,11 @@ getExecutable
 (
 )
 )
+;
+if
+(
+!
+isImported
 )
 {
 try

@@ -1,0 +1,9 @@
+/** 
+ * Returns the reference of the import.
+ */
+@PropertyGetter(role=IMPORT_REFERENCE)
+CtReference
+getReference
+(
+)
+;

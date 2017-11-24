@@ -26,10 +26,8 @@ sourceCompilationUnit
 =
 sourceCompilationUnit
 ;
-Set
-<
-CtReference
->
+this
+.
 imports
 =
 new

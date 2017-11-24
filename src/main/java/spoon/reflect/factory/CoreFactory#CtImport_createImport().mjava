@@ -1,0 +1,8 @@
+/** 
+ * Creates an import.
+ */
+CtImport
+createImport
+(
+)
+;

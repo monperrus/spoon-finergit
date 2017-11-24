@@ -16,7 +16,7 @@ types
 ,
 Collection
 <
-CtReference
+CtImport
 >
 imports
 )

@@ -46,7 +46,7 @@ class
 ;
 Collection
 <
-CtReference
+CtImport
 >
 imports
 =
@@ -69,7 +69,7 @@ size
 ;
 assertEquals
 (
-"spoon.test.imports.testclasses.internal2.Chimichanga"
+"import spoon.test.imports.testclasses.internal2.Chimichanga;\n"
 ,
 imports
 .

@@ -48,7 +48,7 @@ class
 ;
 Collection
 <
-CtReference
+CtImport
 >
 imports
 =
@@ -102,6 +102,13 @@ imports
 .
 stream
 (
+)
+.
+map
+(
+CtImport
+::
+getReference
 )
 .
 map

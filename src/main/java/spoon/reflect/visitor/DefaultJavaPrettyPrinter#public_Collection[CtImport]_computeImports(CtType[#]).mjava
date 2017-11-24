@@ -4,7 +4,7 @@
 public
 Collection
 <
-CtReference
+CtImport
 >
 computeImports
 (

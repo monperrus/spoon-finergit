@@ -1,0 +1,10 @@
+/** 
+ * @see TypeFactory#createImport(CtReference)
+ */
+CtImport
+createImport
+(
+CtReference
+reference
+)
+;
