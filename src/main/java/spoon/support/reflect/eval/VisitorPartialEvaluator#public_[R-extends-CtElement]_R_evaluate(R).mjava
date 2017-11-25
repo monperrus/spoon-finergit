@@ -37,6 +37,15 @@ result
 null
 )
 {
+if
+(
+element
+.
+isParentInitialized
+(
+)
+)
+{
 result
 .
 setParent
@@ -48,6 +57,7 @@ getParent
 )
 )
 ;
+}
 return
 (
 R
