@@ -25,6 +25,12 @@ null
 &&
 element
 .
+isParentInitialized
+(
+)
+&&
+element
+.
 getParent
 (
 )
@@ -36,10 +42,9 @@ throw
 new
 IllegalStateException
 (
-element
-.
-toString
+toDebugString
 (
+element
 )
 +
 " is set as child of\n"

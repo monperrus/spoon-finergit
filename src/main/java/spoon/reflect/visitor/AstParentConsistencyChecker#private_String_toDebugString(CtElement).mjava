@@ -28,6 +28,14 @@ getClass
 (
 )
 +
+"\nposition: "
++
+e
+.
+getPosition
+(
+)
++
 "\n"
 ;
 }
