@@ -37,6 +37,15 @@ result
 null
 )
 {
+CtElement
+r
+=
+result
+;
+result
+=
+null
+;
 if
 (
 element
@@ -46,7 +55,7 @@ isParentInitialized
 )
 )
 {
-result
+r
 .
 setParent
 (
@@ -62,7 +71,7 @@ return
 (
 R
 )
-result
+r
 ;
 }
 return
