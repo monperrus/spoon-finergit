@@ -2,7 +2,7 @@
 public
 ReturnReplaceTemplate
 (
-CtBlock
+TemplateParameter
 <
 String
 >
