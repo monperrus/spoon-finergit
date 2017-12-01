@@ -45,6 +45,8 @@ ListPrinter
 (
 printer
 ,
+startPrefixSpace
+,
 start
 ,
 startSufficSpace
