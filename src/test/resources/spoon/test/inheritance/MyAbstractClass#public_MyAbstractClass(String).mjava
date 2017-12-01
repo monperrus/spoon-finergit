@@ -1,0 +1,8 @@
+public
+MyAbstractClass
+(
+String
+name
+)
+{
+}

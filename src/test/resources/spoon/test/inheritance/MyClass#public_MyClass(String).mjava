@@ -1,0 +1,13 @@
+public
+MyClass
+(
+String
+name
+)
+{
+super
+(
+name
+)
+;
+}
