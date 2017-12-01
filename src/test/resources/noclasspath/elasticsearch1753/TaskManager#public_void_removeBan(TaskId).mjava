@@ -1,0 +1,28 @@
+/** 
+ * Removes the ban for the specified parent task. <p> This method is called when a previously banned task finally cancelled
+ */
+public
+void
+removeBan
+(
+TaskId
+parentTaskId
+)
+{
+logger
+.
+trace
+(
+"removing ban for the parent task {}"
+,
+parentTaskId
+)
+;
+banedParents
+.
+remove
+(
+parentTaskId
+)
+;
+}

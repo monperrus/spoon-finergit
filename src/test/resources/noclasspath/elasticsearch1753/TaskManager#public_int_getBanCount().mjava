@@ -1,0 +1,17 @@
+/** 
+ * Returns the number of currently banned tasks. <p> Will be used in task manager stats and for debugging.
+ */
+public
+int
+getBanCount
+(
+)
+{
+return
+banedParents
+.
+size
+(
+)
+;
+}

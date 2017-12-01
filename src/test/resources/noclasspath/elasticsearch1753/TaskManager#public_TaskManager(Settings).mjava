@@ -1,0 +1,13 @@
+public
+TaskManager
+(
+Settings
+settings
+)
+{
+super
+(
+settings
+)
+;
+}
