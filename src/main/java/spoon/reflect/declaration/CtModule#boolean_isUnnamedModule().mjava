@@ -1,0 +1,9 @@
+/** 
+ * Returns true if the module is the unnamed module
+ */
+@DerivedProperty
+boolean
+isUnnamedModule
+(
+)
+;

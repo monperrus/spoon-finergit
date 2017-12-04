@@ -1,0 +1,6 @@
+@PropertyGetter(role=CtRole.PACKAGE_REF)
+CtPackageReference
+getPackageReference
+(
+)
+;

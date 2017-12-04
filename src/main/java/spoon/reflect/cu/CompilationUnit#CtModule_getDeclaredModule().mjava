@@ -1,0 +1,8 @@
+/** 
+ * Gets the declared module if the compilationUnit is "module-info.java"
+ */
+CtModule
+getDeclaredModule
+(
+)
+;

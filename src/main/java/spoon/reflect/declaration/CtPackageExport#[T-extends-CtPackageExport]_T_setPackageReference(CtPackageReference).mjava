@@ -1,0 +1,13 @@
+@PropertySetter(role=CtRole.PACKAGE_REF)
+<
+T
+extends
+CtPackageExport
+>
+T
+setPackageReference
+(
+CtPackageReference
+packageReference
+)
+;

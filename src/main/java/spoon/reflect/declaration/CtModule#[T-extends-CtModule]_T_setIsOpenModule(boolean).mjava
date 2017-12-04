@@ -1,0 +1,13 @@
+@PropertySetter(role=MODIFIER)
+<
+T
+extends
+CtModule
+>
+T
+setIsOpenModule
+(
+boolean
+openModule
+)
+;

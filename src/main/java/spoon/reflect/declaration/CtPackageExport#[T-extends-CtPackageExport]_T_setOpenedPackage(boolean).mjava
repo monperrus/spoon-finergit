@@ -1,0 +1,13 @@
+@PropertySetter(role=CtRole.OPENED_PACKAGE)
+<
+T
+extends
+CtPackageExport
+>
+T
+setOpenedPackage
+(
+boolean
+openedPackage
+)
+;

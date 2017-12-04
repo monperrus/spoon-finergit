@@ -14,15 +14,11 @@ getAll
 )
 {
 return
+new
+ArrayList
+<
+>
 (
-List
-<
-CtType
-<
-?
->
->
-)
 factory
 .
 getModel
@@ -31,6 +27,7 @@ getModel
 .
 getAllTypes
 (
+)
 )
 ;
 }

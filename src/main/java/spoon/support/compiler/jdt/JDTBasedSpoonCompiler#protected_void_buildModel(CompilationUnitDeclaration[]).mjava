@@ -29,6 +29,12 @@ units
 {
 if
 (
+unit
+.
+isModuleInfo
+(
+)
+||
 !
 unit
 .

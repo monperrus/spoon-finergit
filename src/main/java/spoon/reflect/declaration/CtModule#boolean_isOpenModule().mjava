@@ -1,0 +1,6 @@
+@PropertyGetter(role=MODIFIER)
+boolean
+isOpenModule
+(
+)
+;

@@ -16,7 +16,7 @@ processingManager
 new
 QueueProcessingManager
 (
-getRootPackage
+getUnnamedModule
 (
 )
 .
@@ -36,7 +36,7 @@ processingManager
 .
 process
 (
-getRootPackage
+getAllModules
 (
 )
 )

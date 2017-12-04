@@ -1,0 +1,16 @@
+@Override
+public
+Set
+<
+RequiresModifier
+>
+getRequiresModifiers
+(
+)
+{
+return
+this
+.
+requiresModifiers
+;
+}

@@ -1,0 +1,9 @@
+/** 
+ * Gets the declaring module.
+ */
+@DerivedProperty
+CtModule
+getDeclaringModule
+(
+)
+;

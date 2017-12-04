@@ -1,0 +1,6 @@
+@PropertyGetter(role=CtRole.MODULE_REF)
+CtModuleReference
+getModuleReference
+(
+)
+;

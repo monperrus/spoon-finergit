@@ -1,5 +1,5 @@
 /** 
- * returns the root package 
+ * returns the root package of the unnamed module 
  */
 CtPackage
 getRootPackage

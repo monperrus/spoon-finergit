@@ -1,0 +1,10 @@
+/** 
+ * @see ModuleFactory#createModuleRequirement(CtModuleReference)
+ */
+CtModuleRequirement
+createModuleRequirement
+(
+CtModuleReference
+ctModuleReference
+)
+;

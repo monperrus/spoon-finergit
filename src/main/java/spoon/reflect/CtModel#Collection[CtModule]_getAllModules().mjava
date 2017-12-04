@@ -1,0 +1,11 @@
+/** 
+ * returns all modules of the model
+ */
+Collection
+<
+CtModule
+>
+getAllModules
+(
+)
+;

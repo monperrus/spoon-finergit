@@ -1,0 +1,13 @@
+@Override
+public
+CtTypeReference
+getServiceType
+(
+)
+{
+return
+this
+.
+serviceType
+;
+}

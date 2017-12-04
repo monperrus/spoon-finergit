@@ -1,0 +1,17 @@
+@PropertySetter(role=SERVICE_TYPE)
+@DerivedProperty
+<
+T
+extends
+CtModule
+>
+T
+setUsedServices
+(
+List
+<
+CtUsedService
+>
+usedServices
+)
+;

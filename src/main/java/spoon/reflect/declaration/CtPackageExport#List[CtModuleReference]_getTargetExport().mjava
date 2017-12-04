@@ -1,0 +1,9 @@
+@PropertyGetter(role=CtRole.MODULE_REF)
+List
+<
+CtModuleReference
+>
+getTargetExport
+(
+)
+;

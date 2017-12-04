@@ -1,0 +1,13 @@
+@PropertySetter(role=CtRole.SERVICE_TYPE)
+<
+T
+extends
+CtProvidedService
+>
+T
+setServiceType
+(
+CtTypeReference
+providingType
+)
+;

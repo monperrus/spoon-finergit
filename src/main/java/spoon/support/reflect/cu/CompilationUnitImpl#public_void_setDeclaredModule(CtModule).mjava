@@ -1,0 +1,16 @@
+@Override
+public
+void
+setDeclaredModule
+(
+CtModule
+module
+)
+{
+this
+.
+ctModule
+=
+module
+;
+}

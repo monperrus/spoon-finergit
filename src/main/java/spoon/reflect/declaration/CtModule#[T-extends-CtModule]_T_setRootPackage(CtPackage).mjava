@@ -1,0 +1,13 @@
+@PropertySetter(role=SUB_PACKAGE)
+<
+T
+extends
+CtModule
+>
+T
+setRootPackage
+(
+CtPackage
+rootPackage
+)
+;

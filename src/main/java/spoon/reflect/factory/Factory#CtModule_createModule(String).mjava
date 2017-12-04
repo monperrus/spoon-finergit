@@ -1,0 +1,10 @@
+/** 
+ * @see ModuleFactory#getOrCreate(String)
+ */
+CtModule
+createModule
+(
+String
+moduleName
+)
+;

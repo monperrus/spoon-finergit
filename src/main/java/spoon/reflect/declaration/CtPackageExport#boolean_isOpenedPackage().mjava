@@ -1,0 +1,6 @@
+@PropertyGetter(role=CtRole.OPENED_PACKAGE)
+boolean
+isOpenedPackage
+(
+)
+;

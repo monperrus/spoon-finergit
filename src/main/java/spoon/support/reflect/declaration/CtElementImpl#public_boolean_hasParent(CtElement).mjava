@@ -20,7 +20,7 @@ getModel
 (
 )
 .
-getRootPackage
+getUnnamedModule
 (
 )
 &&

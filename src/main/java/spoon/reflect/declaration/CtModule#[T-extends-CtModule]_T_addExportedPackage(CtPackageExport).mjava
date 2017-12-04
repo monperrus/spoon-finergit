@@ -1,0 +1,14 @@
+@PropertySetter(role=EXPORTED_PACKAGE)
+@DerivedProperty
+<
+T
+extends
+CtModule
+>
+T
+addExportedPackage
+(
+CtPackageExport
+exportedPackage
+)
+;

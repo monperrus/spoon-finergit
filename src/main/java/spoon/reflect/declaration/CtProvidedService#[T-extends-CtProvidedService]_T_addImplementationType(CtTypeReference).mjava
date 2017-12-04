@@ -1,0 +1,13 @@
+@PropertySetter(role=CtRole.IMPLEMENTATION_TYPE)
+<
+T
+extends
+CtProvidedService
+>
+T
+addImplementationType
+(
+CtTypeReference
+usedType
+)
+;

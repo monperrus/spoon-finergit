@@ -1,0 +1,10 @@
+@PropertyGetter(role=REQUIRED_MODULE)
+@DerivedProperty
+List
+<
+CtModuleRequirement
+>
+getRequiredModules
+(
+)
+;

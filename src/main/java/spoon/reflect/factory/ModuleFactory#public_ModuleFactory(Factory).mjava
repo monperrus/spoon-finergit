@@ -1,0 +1,13 @@
+public
+ModuleFactory
+(
+Factory
+factory
+)
+{
+super
+(
+factory
+)
+;
+}

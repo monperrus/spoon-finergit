@@ -1,0 +1,9 @@
+/** 
+ * returns the root package of the unnamed module If there are several modules, it throws an exception
+ */
+@PropertyGetter(role=SUB_PACKAGE)
+CtPackage
+getRootPackage
+(
+)
+;

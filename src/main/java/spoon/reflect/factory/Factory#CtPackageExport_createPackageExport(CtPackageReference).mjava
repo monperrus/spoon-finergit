@@ -1,0 +1,10 @@
+/** 
+ * @see ModuleFactory#createPackageExport(CtPackageReference)
+ */
+CtPackageExport
+createPackageExport
+(
+CtPackageReference
+ctPackageReference
+)
+;

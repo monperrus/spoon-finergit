@@ -1,0 +1,13 @@
+@PropertySetter(role=CtRole.MODULE_REF)
+<
+T
+extends
+CtModuleRequirement
+>
+T
+setModuleReference
+(
+CtModuleReference
+moduleReference
+)
+;

@@ -1,0 +1,17 @@
+@PropertySetter(role=REQUIRED_MODULE)
+@DerivedProperty
+<
+T
+extends
+CtModule
+>
+T
+setRequiredModules
+(
+List
+<
+CtModuleRequirement
+>
+requiredModules
+)
+;

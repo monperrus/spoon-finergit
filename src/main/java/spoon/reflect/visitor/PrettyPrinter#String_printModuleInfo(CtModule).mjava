@@ -1,0 +1,10 @@
+/** 
+ * Prints the module info. It always resets the printing context at the beginning of this process.
+ */
+String
+printModuleInfo
+(
+CtModule
+module
+)
+;

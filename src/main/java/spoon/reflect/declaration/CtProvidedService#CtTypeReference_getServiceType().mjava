@@ -1,0 +1,6 @@
+@PropertyGetter(role=CtRole.SERVICE_TYPE)
+CtTypeReference
+getServiceType
+(
+)
+;

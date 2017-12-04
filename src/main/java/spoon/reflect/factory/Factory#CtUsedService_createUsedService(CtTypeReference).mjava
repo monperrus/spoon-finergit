@@ -1,0 +1,10 @@
+/** 
+ * @see ModuleFactory#createUsedService(CtTypeReference)
+ */
+CtUsedService
+createUsedService
+(
+CtTypeReference
+typeReference
+)
+;

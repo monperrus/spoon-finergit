@@ -1,0 +1,10 @@
+@PropertyGetter(role=SERVICE_TYPE)
+@DerivedProperty
+List
+<
+CtUsedService
+>
+getUsedServices
+(
+)
+;

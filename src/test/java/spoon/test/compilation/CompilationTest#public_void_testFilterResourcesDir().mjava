@@ -154,10 +154,6 @@ t
 :
 launcher
 .
-getFactory
-(
-)
-.
 getModel
 (
 )

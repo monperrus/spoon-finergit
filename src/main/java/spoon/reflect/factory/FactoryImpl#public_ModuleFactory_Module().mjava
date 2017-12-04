@@ -1,0 +1,29 @@
+/** 
+ * The module sub-factory
+ */
+public
+ModuleFactory
+Module
+(
+)
+{
+if
+(
+module
+==
+null
+)
+{
+module
+=
+new
+ModuleFactory
+(
+this
+)
+;
+}
+return
+module
+;
+}

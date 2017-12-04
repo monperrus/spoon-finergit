@@ -1,0 +1,14 @@
+@PropertySetter(role=PROVIDED_SERVICE)
+@DerivedProperty
+<
+T
+extends
+CtModule
+>
+T
+addProvidedService
+(
+CtProvidedService
+providedService
+)
+;

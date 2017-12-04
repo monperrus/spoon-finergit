@@ -1,0 +1,7 @@
+void
+visitCtModuleRequirement
+(
+CtModuleRequirement
+moduleRequirement
+)
+;

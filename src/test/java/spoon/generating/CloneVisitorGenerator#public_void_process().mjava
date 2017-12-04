@@ -1210,6 +1210,8 @@ asList
 "spoon.support.reflect.declaration.CtShadowableImpl"
 ,
 "spoon.support.reflect.code.CtBodyHolderImpl"
+,
+"spoon.support.reflect.declaration.CtModuleDirectiveImpl"
 )
 ;
 private

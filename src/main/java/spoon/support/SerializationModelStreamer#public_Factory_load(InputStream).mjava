@@ -38,11 +38,15 @@ createQuery
 (
 f
 .
-getModel
+Module
 (
 )
 .
-getRootPackage
+getAllModules
+(
+)
+.
+toArray
 (
 )
 )

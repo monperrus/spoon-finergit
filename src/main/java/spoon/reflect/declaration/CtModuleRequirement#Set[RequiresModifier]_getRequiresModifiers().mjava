@@ -1,0 +1,9 @@
+@PropertyGetter(role=CtRole.MODIFIER)
+Set
+<
+RequiresModifier
+>
+getRequiresModifiers
+(
+)
+;

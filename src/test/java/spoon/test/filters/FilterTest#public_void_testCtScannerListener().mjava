@@ -345,6 +345,14 @@ nrOfResults
 ;
 assertTrue
 (
+"ele instanceof "
++
+ele
+.
+getClass
+(
+)
+,
 ele
 instanceof
 CtPackage
@@ -352,6 +360,10 @@ CtPackage
 ele
 instanceof
 CtType
+||
+ele
+instanceof
+CtModule
 )
 ;
 assertSame

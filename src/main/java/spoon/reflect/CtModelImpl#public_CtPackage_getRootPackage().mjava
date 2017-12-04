@@ -6,6 +6,12 @@ getRootPackage
 )
 {
 return
-rootPackage
+getUnnamedModule
+(
+)
+.
+getRootPackage
+(
+)
 ;
 }

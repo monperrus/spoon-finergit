@@ -1,0 +1,9 @@
+@PropertyGetter(role=MODULE_DIRECTIVE)
+List
+<
+CtModuleDirective
+>
+getModuleDirectives
+(
+)
+;

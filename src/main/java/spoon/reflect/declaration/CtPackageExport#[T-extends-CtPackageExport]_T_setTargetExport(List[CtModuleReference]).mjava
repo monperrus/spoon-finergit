@@ -1,0 +1,16 @@
+@PropertySetter(role=CtRole.MODULE_REF)
+<
+T
+extends
+CtPackageExport
+>
+T
+setTargetExport
+(
+List
+<
+CtModuleReference
+>
+targetExport
+)
+;

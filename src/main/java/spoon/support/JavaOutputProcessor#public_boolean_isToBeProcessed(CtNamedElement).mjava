@@ -17,6 +17,10 @@ CtType
 ||
 candidate
 instanceof
+CtModule
+||
+candidate
+instanceof
 CtPackage
 &&
 (

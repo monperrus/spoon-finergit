@@ -1,0 +1,10 @@
+@PropertyGetter(role=OPENED_PACKAGE)
+@DerivedProperty
+List
+<
+CtPackageExport
+>
+getOpenedPackages
+(
+)
+;

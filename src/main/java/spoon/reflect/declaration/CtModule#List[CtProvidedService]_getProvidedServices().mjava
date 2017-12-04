@@ -1,0 +1,10 @@
+@PropertyGetter(role=PROVIDED_SERVICE)
+@DerivedProperty
+List
+<
+CtProvidedService
+>
+getProvidedServices
+(
+)
+;

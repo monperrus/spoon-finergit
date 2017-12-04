@@ -1,0 +1,7 @@
+@DerivedProperty
+@Override
+CtModuleReference
+getReference
+(
+)
+;

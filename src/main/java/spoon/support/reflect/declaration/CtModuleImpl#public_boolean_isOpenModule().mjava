@@ -1,0 +1,13 @@
+@Override
+public
+boolean
+isOpenModule
+(
+)
+{
+return
+this
+.
+openModule
+;
+}

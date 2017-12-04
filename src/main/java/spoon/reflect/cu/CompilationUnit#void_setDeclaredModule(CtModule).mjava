@@ -1,0 +1,10 @@
+/** 
+ * Sets the declared module if the compilationUnit is "module-info.java"
+ */
+void
+setDeclaredModule
+(
+CtModule
+module
+)
+;

@@ -83,7 +83,7 @@ getModel
 (
 )
 .
-getRootPackage
+getUnnamedModule
 (
 )
 ;

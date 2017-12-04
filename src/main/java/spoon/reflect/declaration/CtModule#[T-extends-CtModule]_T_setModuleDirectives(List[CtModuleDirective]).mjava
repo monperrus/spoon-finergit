@@ -1,0 +1,16 @@
+@PropertySetter(role=MODULE_DIRECTIVE)
+<
+T
+extends
+CtModule
+>
+T
+setModuleDirectives
+(
+List
+<
+CtModuleDirective
+>
+moduleDirectives
+)
+;

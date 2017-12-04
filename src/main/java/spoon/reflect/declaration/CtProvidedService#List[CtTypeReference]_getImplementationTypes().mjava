@@ -1,0 +1,9 @@
+@PropertyGetter(role=CtRole.IMPLEMENTATION_TYPE)
+List
+<
+CtTypeReference
+>
+getImplementationTypes
+(
+)
+;

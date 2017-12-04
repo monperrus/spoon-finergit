@@ -14,7 +14,7 @@ queryStep
 )
 {
 return
-getRootPackage
+getUnnamedModule
 (
 )
 .
@@ -30,7 +30,11 @@ createQuery
 (
 this
 .
-getRootPackage
+getAllModules
+(
+)
+.
+toArray
 (
 )
 )

@@ -1,0 +1,8 @@
+/** 
+ * Returns the unnamed module.
+ */
+CtModule
+getUnnamedModule
+(
+)
+;
