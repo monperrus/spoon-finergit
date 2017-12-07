@@ -51,6 +51,9 @@ getFactory
 .
 createQuery
 (
+(
+Object
+)
 null
 )
 .
@@ -90,6 +93,9 @@ getFactory
 .
 createQuery
 (
+(
+Object
+)
 null
 )
 .
@@ -152,6 +158,9 @@ getFactory
 .
 createQuery
 (
+(
+Object
+)
 null
 )
 .
@@ -229,6 +238,9 @@ getFactory
 .
 createQuery
 (
+(
+Object
+)
 null
 )
 .

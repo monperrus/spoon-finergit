@@ -1,0 +1,13 @@
+/** 
+ * @see QueryFactory#createQuery(Iterable)
+ */
+CtQuery
+createQuery
+(
+Iterable
+<
+?
+>
+input
+)
+;
