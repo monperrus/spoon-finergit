@@ -1,0 +1,8 @@
+/** 
+ * Returns the declaration type of the compilation unit.
+ */
+UNIT_TYPE
+getUnitType
+(
+)
+;
