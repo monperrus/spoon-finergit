@@ -37,7 +37,9 @@ moduleDir
 new
 File
 (
-directory
+getOutputDirectory
+(
+)
 .
 getAbsolutePath
 (
@@ -52,7 +54,9 @@ moduleDir
 new
 File
 (
-directory
+getOutputDirectory
+(
+)
 .
 getAbsolutePath
 (

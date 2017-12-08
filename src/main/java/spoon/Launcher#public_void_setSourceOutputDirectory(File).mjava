@@ -7,7 +7,9 @@ File
 outputDirectory
 )
 {
-modelBuilder
+getEnvironment
+(
+)
 .
 setSourceOutputDirectory
 (
@@ -22,11 +24,6 @@ setDefaultFileGenerator
 (
 createOutputWriter
 (
-outputDirectory
-,
-getEnvironment
-(
-)
 )
 )
 ;

@@ -5,6 +5,14 @@ getOutputDirectory
 )
 {
 return
-directory
+this
+.
+getEnvironment
+(
+)
+.
+getSourceOutputDirectory
+(
+)
 ;
 }

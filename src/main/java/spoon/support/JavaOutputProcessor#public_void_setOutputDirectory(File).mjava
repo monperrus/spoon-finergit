@@ -8,8 +8,13 @@ directory
 {
 this
 .
+getEnvironment
+(
+)
+.
+setSourceOutputDirectory
+(
 directory
-=
-directory
+)
 ;
 }

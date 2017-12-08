@@ -9,8 +9,13 @@ outputDirectory
 {
 this
 .
+getEnvironment
+(
+)
+.
+setSourceOutputDirectory
+(
 outputDirectory
-=
-outputDirectory
+)
 ;
 }

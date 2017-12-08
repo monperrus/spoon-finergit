@@ -1,0 +1,10 @@
+/** 
+ * Sets the directory where source files are written
+ */
+void
+setSourceOutputDirectory
+(
+File
+directory
+)
+;

@@ -1,3 +1,4 @@
+@Deprecated
 public
 JavaOutputProcessor
 createOutputWriter
@@ -10,14 +11,10 @@ environment
 )
 {
 return
-new
-JavaOutputProcessor
+this
+.
+createOutputWriter
 (
-sourceOutputDir
-,
-createPrettyPrinter
-(
-)
 )
 ;
 }

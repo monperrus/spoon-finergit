@@ -1,7 +1,10 @@
 /** 
  * Creates a new processor for generating Java source files.
  * @param outputDirectory the root output directory
+ * @param printer the PrettyPrinter to use for written the files
+ * @deprecated The outputDirectory should be get from the environment given to the pretty printer(see  {@link Environment#setSourceOutputDirectory(File)}. You should use the constructor with only one parameter.
  */
+@Deprecated
 public
 JavaOutputProcessor
 (
@@ -13,15 +16,15 @@ printer
 )
 {
 this
-.
-directory
-=
-outputDirectory
+(
+printer
+)
 ;
 this
 .
-printer
-=
-printer
+setOutputDirectory
+(
+outputDirectory
+)
 ;
 }

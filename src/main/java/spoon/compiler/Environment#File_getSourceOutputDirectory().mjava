@@ -1,0 +1,8 @@
+/** 
+ * Returns the directory where source files are written
+ */
+File
+getSourceOutputDirectory
+(
+)
+;

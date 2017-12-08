@@ -18,7 +18,9 @@ outputFiles
 int
 offset
 =
-outputDirectory
+getSourceOutputDirectory
+(
+)
 .
 getAbsolutePath
 (
@@ -137,7 +139,9 @@ lastModified
 new
 File
 (
-outputDirectory
+getSourceOutputDirectory
+(
+)
 ,
 s
 )

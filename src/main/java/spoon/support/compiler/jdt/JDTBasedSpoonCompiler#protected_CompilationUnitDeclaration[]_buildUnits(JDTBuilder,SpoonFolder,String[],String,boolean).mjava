@@ -208,7 +208,9 @@ if
 (
 buildOnlyOutdatedFiles
 &&
-outputDirectory
+getSourceOutputDirectory
+(
+)
 .
 exists
 (
@@ -226,7 +228,9 @@ FileUtils
 .
 listFiles
 (
-outputDirectory
+getSourceOutputDirectory
+(
+)
 ,
 new
 String

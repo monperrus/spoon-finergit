@@ -1,0 +1,14 @@
+public
+JavaOutputProcessor
+(
+PrettyPrinter
+printer
+)
+{
+this
+.
+printer
+=
+printer
+;
+}

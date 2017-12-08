@@ -47,11 +47,7 @@ getEnvironment
 (
 )
 .
-getDefaultFileGenerator
-(
-)
-.
-setOutputDirectory
+setSourceOutputDirectory
 (
 new
 File

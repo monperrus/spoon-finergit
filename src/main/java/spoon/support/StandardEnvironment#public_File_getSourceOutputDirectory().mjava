@@ -8,14 +8,6 @@ getSourceOutputDirectory
 return
 this
 .
-factory
-.
-getEnvironment
-(
-)
-.
-getSourceOutputDirectory
-(
-)
+sourceOutputDirectory
 ;
 }
