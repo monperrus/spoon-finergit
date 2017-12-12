@@ -64,6 +64,7 @@ addInputResource
 "./src/test/java/spoon/test/annotation/testclasses/TestAnnotation.java"
 )
 ;
+Factory
 factory
 =
 spoon
@@ -137,7 +138,7 @@ getAll
 ;
 assertEquals
 (
-5
+7
 ,
 processor
 .

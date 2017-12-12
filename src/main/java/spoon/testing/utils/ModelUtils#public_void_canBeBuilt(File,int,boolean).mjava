@@ -101,6 +101,14 @@ outputDirectoryFile
 getName
 (
 )
++
+" because "
++
+e
+.
+getMessage
+(
+)
 )
 ;
 error

@@ -71,6 +71,7 @@ addInputResource
 "./src/test/java/spoon/test/annotation/testclasses/AnnotArrayInnerClass.java"
 )
 ;
+Factory
 factory
 =
 spoon
