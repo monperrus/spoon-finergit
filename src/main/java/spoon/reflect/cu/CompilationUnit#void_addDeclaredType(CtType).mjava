@@ -1,0 +1,10 @@
+/** 
+ * Add a type to the list of declared types
+ */
+void
+addDeclaredType
+(
+CtType
+type
+)
+;

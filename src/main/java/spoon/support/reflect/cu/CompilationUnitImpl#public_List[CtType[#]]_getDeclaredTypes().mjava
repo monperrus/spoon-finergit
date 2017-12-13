@@ -1,3 +1,4 @@
+@Override
 public
 List
 <
@@ -11,6 +12,11 @@ getDeclaredTypes
 )
 {
 return
+Collections
+.
+unmodifiableList
+(
 declaredTypes
+)
 ;
 }
