@@ -1,0 +1,16 @@
+@Override
+public
+void
+setOutputType
+(
+OutputType
+outputType
+)
+{
+this
+.
+outputType
+=
+outputType
+;
+}

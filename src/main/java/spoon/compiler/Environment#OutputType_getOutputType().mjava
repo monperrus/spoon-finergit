@@ -1,0 +1,8 @@
+/** 
+ * Get the output type
+ */
+OutputType
+getOutputType
+(
+)
+;

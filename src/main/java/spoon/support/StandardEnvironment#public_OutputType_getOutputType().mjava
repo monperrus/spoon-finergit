@@ -1,0 +1,13 @@
+@Override
+public
+OutputType
+getOutputType
+(
+)
+{
+return
+this
+.
+outputType
+;
+}

@@ -1,0 +1,10 @@
+/** 
+ * Set the output type used for processing files
+ */
+void
+setOutputType
+(
+OutputType
+outputType
+)
+;
