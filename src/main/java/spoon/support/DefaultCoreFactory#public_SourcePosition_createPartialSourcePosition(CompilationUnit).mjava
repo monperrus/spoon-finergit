@@ -1,0 +1,17 @@
+@Override
+public
+SourcePosition
+createPartialSourcePosition
+(
+CompilationUnit
+compilationUnit
+)
+{
+return
+new
+PartialSourcePositionImpl
+(
+compilationUnit
+)
+;
+}

@@ -1,0 +1,10 @@
+/** 
+ * @see CoreFactory#createPartialSourcePosition(CompilationUnit)
+ */
+SourcePosition
+createPartialSourcePosition
+(
+CompilationUnit
+compilationUnit
+)
+;
