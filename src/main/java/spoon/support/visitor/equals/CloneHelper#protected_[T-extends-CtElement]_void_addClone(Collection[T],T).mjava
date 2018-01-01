@@ -1,0 +1,35 @@
+/** 
+ * clones a element and adds it's clone as value into targetCollection
+ * @param targetCollection - the collection which will receive a clone of element
+ * @param element to be cloned element
+ */
+protected
+<
+T
+extends
+CtElement
+>
+void
+addClone
+(
+Collection
+<
+T
+>
+targetCollection
+,
+T
+element
+)
+{
+targetCollection
+.
+add
+(
+clone
+(
+element
+)
+)
+;
+}

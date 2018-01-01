@@ -68,14 +68,11 @@ element
 elements
 )
 {
+addClone
+(
 others
-.
-add
-(
-clone
-(
+,
 element
-)
 )
 ;
 }

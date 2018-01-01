@@ -1,0 +1,43 @@
+/** 
+ * clones a value and adds it's clone as value into targetMap under key
+ * @param targetMap - the Map which will receive a clone of value
+ * @param key the target key, which has to be used to add cloned value into targetMap
+ * @param value to be cloned element
+ */
+protected
+<
+T
+extends
+CtElement
+>
+void
+addClone
+(
+Map
+<
+String
+,
+T
+>
+targetMap
+,
+String
+key
+,
+T
+value
+)
+{
+targetMap
+.
+put
+(
+key
+,
+clone
+(
+value
+)
+)
+;
+}
