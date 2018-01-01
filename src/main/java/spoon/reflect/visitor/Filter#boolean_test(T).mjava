@@ -1,0 +1,16 @@
+@Override
+default
+boolean
+test
+(
+T
+element
+)
+{
+return
+matches
+(
+element
+)
+;
+}
