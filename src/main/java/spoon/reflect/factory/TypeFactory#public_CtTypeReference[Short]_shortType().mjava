@@ -1,17 +1,17 @@
 /** 
- * Returns a reference on the object type.
+ * Returns a reference on the short type.
  */
 public
 CtTypeReference
 <
-?
+Short
 >
-objectType
+shortType
 (
 )
 {
 return
-OBJECT
+SHORT
 .
 clone
 (
