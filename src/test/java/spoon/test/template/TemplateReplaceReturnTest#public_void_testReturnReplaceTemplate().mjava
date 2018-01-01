@@ -115,6 +115,8 @@ assertEquals
 (
 "{ if (((java.lang.System.currentTimeMillis()) % 2L) == 0) { return \"Panna\"; }else { return \"Orel\"; }}"
 ,
+getOptimizedString
+(
 resultKlass
 .
 getMethod
@@ -125,23 +127,6 @@ getMethod
 getBody
 (
 )
-.
-toString
-(
-)
-.
-replaceAll
-(
-"[\\r\\n\\t]+"
-,
-""
-)
-.
-replaceAll
-(
-"\\s{2,}"
-,
-" "
 )
 )
 ;
