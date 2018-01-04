@@ -1,7 +1,7 @@
 /** 
- * @param targetClass the class of the to be manipulated node
+ * @param targetClass the Class of the to be manipulated node
  * @param role defines the to be manipulated attribute
- * @return {@link RoleHandler} implementation which knows how to manipulate the attribute of {@link CtRole} on `targetClass`or returns null if such role does not exists on the `targetClass`
+ * @return {@link RoleHandler} implementation, which knows how to manipulate the attribute of {@link CtRole} on `targetClass`or returns null if such role doesn't exist on the `targetClass`
  */
 public
 static
