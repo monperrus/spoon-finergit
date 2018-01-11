@@ -1,0 +1,35 @@
+/** 
+ * @return the root path of the destination
+ * @param module
+ * @param pack
+ * @param type
+ */
+protected
+Path
+getDirectoryPath
+(
+CtModule
+module
+,
+CtPackage
+pack
+,
+CtType
+type
+)
+{
+return
+Paths
+.
+get
+(
+getDefaultOutputDirectory
+(
+)
+.
+getAbsolutePath
+(
+)
+)
+;
+}

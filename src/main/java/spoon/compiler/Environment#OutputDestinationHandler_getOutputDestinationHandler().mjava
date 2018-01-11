@@ -1,0 +1,8 @@
+/** 
+ * Returns the output destination that handles where source files are written
+ */
+OutputDestinationHandler
+getOutputDestinationHandler
+(
+)
+;

@@ -1,0 +1,10 @@
+/** 
+ * Set the output destination that handles where source files are written
+ */
+void
+setOutputDestinationHandler
+(
+OutputDestinationHandler
+outputDestinationHandler
+)
+;

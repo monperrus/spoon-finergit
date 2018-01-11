@@ -1,0 +1,13 @@
+Path
+getOutputPath
+(
+CtModule
+module
+,
+CtPackage
+pack
+,
+CtType
+type
+)
+;

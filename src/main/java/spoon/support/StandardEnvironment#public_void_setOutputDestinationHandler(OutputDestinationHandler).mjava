@@ -1,0 +1,16 @@
+@Override
+public
+void
+setOutputDestinationHandler
+(
+OutputDestinationHandler
+outputDestinationHandler
+)
+{
+this
+.
+outputDestinationHandler
+=
+outputDestinationHandler
+;
+}
