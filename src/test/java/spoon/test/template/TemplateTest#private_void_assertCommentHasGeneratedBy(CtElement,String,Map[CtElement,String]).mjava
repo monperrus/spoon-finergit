@@ -43,8 +43,10 @@ generatedByMember
 null
 )
 {
-assertNull
+assertEquals
 (
+""
+,
 docComment
 )
 ;
@@ -93,11 +95,6 @@ generatedByRE
 matcher
 (
 docComment
-.
-substring
-(
-idx
-)
 )
 ;
 assertTrue

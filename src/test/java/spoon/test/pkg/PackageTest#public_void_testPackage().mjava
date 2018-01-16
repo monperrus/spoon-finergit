@@ -135,8 +135,10 @@ getQualifiedName
 ;
 Assert
 .
-assertNull
+assertEquals
 (
+""
+,
 ctPackage
 .
 getDocComment
@@ -404,8 +406,10 @@ getQualifiedName
 ;
 Assert
 .
-assertNull
+assertEquals
 (
+""
+,
 ctPackage
 .
 getDocComment
