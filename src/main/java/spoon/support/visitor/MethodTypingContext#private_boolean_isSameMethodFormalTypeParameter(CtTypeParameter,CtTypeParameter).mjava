@@ -68,7 +68,7 @@ superBound
 ;
 if
 (
-idxOfScopeBoundTypeParam
+idxOfSuperBoundTypeParam
 >=
 0
 )

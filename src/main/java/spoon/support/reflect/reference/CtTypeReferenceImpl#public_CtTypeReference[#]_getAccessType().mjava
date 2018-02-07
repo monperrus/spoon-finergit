@@ -79,7 +79,7 @@ getReference
 ;
 if
 (
-contextType
+contextTypeRef
 !=
 null
 &&
