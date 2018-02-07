@@ -1,3 +1,6 @@
+/** 
+ * Returns the metadata keys stored in an element.
+ */
 Set
 <
 String

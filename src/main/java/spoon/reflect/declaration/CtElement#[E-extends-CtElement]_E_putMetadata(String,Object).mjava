@@ -1,3 +1,6 @@
+/** 
+ * Saves metadata inside an Element.
+ */
 <
 E
 extends
