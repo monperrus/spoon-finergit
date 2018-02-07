@@ -1,3 +1,6 @@
+/** 
+ * a newValue is appended to the map corresponding to the role in the AST node 
+ */
 <
 K
 ,

@@ -1,3 +1,6 @@
+/** 
+ * a field corresponding to the role is being set to null 
+ */
 void
 onObjectDelete
 (

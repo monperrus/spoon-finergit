@@ -1,3 +1,6 @@
+/** 
+ * a newValue is appended to the set corresponding to the role in the AST node 
+ */
 <
 T
 extends
