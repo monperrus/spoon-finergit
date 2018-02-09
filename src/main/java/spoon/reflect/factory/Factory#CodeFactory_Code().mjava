@@ -1,3 +1,6 @@
+/** 
+ * Access to  {@link CodeFactory} subfactory 
+ */
 CodeFactory
 Code
 (

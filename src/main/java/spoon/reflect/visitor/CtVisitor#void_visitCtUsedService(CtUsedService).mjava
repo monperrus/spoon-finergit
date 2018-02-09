@@ -1,3 +1,6 @@
+/** 
+ * Visits a "uses" directive in a module declaration.
+ */
 void
 visitCtUsedService
 (

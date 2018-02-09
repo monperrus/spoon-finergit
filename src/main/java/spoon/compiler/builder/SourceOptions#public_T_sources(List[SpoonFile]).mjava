@@ -1,3 +1,6 @@
+/** 
+ * adds the given  {@link spoon.compiler.SpoonFile} as sources 
+ */
 public
 T
 sources

@@ -1,3 +1,6 @@
+/** 
+ * Access to  {@link MethodFactory} subfactory 
+ */
 MethodFactory
 Method
 (

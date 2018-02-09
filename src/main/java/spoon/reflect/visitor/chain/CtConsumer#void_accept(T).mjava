@@ -1,3 +1,6 @@
+/** 
+ * Implement this method to do something with object "t" passed as parameter 
+ */
 void
 accept
 (

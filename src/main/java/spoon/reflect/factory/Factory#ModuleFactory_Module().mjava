@@ -1,3 +1,6 @@
+/** 
+ * Access to  {@link ModuleFactory} subfactory for Java 9 modules 
+ */
 ModuleFactory
 Module
 (

@@ -1,3 +1,6 @@
+/** 
+ * writes only the name and parameters' types 
+ */
 public
 <
 T

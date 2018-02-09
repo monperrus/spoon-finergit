@@ -1,3 +1,6 @@
+/** 
+ * Visits a package export in a module declaration.
+ */
 void
 visitCtPackageExport
 (

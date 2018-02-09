@@ -1,3 +1,6 @@
+/** 
+ * Visits a "provides" directive in a module declaration.
+ */
 void
 visitCtProvidedService
 (

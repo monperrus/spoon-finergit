@@ -1,3 +1,6 @@
+/** 
+ * Creates a "uses" directive for a Java 9 module file 
+ */
 CtUsedService
 createUsedService
 (

@@ -1,3 +1,6 @@
+/** 
+ * Access to  {@link EnumFactory} subfactory 
+ */
 EnumFactory
 Enum
 (

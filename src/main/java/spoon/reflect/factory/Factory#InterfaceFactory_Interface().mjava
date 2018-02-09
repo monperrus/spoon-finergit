@@ -1,3 +1,6 @@
+/** 
+ * Access to  {@link InterfaceFactory} subfactory 
+ */
 InterfaceFactory
 Interface
 (

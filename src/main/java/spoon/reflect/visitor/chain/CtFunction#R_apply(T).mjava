@@ -1,3 +1,6 @@
+/** 
+ * Implement this method to transform the input typed by T into an object of type R 
+ */
 R
 apply
 (

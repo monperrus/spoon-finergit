@@ -1,3 +1,6 @@
+/** 
+ * adds the given paths as concatenated string with File.pathSeparator as sources 
+ */
 public
 T
 sources

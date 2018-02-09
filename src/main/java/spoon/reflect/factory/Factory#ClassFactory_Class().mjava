@@ -1,3 +1,6 @@
+/** 
+ * Access to  {@link ClassFactory} subfactory 
+ */
 ClassFactory
 Class
 (

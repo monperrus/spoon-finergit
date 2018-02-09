@@ -1,3 +1,6 @@
+/** 
+ * Access to  {@link ConstructorFactory} subfactory 
+ */
 ConstructorFactory
 Constructor
 (

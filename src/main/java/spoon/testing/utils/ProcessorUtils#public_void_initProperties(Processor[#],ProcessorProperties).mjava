@@ -1,3 +1,6 @@
+/** 
+ * sets the fields of processor "p" given as parameter according to the properties 
+ */
 public
 static
 void

@@ -1,3 +1,6 @@
+/** 
+ * Access to  {@link AnnotationFactory} subfactory 
+ */
 AnnotationFactory
 Annotation
 (

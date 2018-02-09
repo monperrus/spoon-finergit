@@ -1,3 +1,6 @@
+/** 
+ * Access to  {@link TypeFactory} subfactory 
+ */
 TypeFactory
 Type
 (

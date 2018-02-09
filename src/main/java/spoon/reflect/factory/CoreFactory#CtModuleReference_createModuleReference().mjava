@@ -1,3 +1,6 @@
+/** 
+ * Creates a reference to a Java 9 module 
+ */
 CtModuleReference
 createModuleReference
 (

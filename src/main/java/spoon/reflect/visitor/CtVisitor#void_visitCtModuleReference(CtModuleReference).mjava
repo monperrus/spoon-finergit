@@ -1,3 +1,6 @@
+/** 
+ * Visits a module reference
+ */
 void
 visitCtModuleReference
 (
