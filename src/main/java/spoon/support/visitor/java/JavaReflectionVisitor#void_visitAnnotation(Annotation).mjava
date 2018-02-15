@@ -1,3 +1,6 @@
+/** 
+ * Visits an  {@link Annotation} instance 
+ */
 void
 visitAnnotation
 (

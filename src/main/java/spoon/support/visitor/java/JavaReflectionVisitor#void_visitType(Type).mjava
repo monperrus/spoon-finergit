@@ -1,3 +1,6 @@
+/** 
+ * Visits a  {@link Type} 
+ */
 void
 visitType
 (

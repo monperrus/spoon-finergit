@@ -1,3 +1,6 @@
+/** 
+ * Visits a  {@link TypeVariable} 
+ */
 <
 T
 extends

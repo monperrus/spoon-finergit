@@ -1,3 +1,6 @@
+/** 
+ * Visits a  {@link java.lang.Class} representing an enum, see {@link Class#isAnnotation()} 
+ */
 <
 T
 extends
