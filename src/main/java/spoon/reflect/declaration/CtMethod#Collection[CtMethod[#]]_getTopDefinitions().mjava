@@ -1,0 +1,14 @@
+/** 
+ * Returns the top-most methods in the hierarchy defining this method (in super class and super interfaces). Returns the empty collection if defined here for the first time.
+ */
+Collection
+<
+CtMethod
+<
+?
+>
+>
+getTopDefinitions
+(
+)
+;
