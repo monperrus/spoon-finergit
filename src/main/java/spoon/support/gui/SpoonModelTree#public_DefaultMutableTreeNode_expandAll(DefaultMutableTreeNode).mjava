@@ -1,3 +1,6 @@
+/** 
+ * expand all AST nodes in the GUI 
+ */
 public
 DefaultMutableTreeNode
 expandAll

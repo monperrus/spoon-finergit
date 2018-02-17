@@ -1,3 +1,6 @@
+/** 
+ * move to the next node matching the search criterion 
+ */
 public
 DefaultMutableTreeNode
 next

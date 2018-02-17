@@ -1,3 +1,6 @@
+/** 
+ * transforms a java.lang.Class into a CtType (ie a shadow type in Spoon's parlance) 
+ */
 public
 <
 T

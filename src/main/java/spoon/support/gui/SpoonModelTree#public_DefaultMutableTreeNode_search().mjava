@@ -1,3 +1,6 @@
+/** 
+ * shows a dialog to enter the value to search for in the AST 
+ */
 public
 DefaultMutableTreeNode
 search

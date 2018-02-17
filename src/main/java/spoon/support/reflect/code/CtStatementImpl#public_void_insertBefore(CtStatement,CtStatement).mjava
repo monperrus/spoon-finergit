@@ -1,3 +1,6 @@
+/** 
+ * insert `statement` just before target 
+ */
 public
 static
 void

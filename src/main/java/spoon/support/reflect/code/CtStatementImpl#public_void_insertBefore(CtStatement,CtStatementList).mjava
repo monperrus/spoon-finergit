@@ -1,3 +1,6 @@
+/** 
+ * inserts all statements of `statementsToBeInserted` just before `target` 
+ */
 public
 static
 void

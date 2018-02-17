@@ -1,3 +1,6 @@
+/** 
+ * checks that the file `outputDirectoryFile` can be parsed with Spoon , given a compliance level and the noclasspath option. 
+ */
 public
 static
 void

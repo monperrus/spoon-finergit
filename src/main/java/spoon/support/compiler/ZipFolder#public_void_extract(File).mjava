@@ -1,3 +1,6 @@
+/** 
+ * physically extracts on disk all files of this zip file in the destinationDir `destDir` 
+ */
 public
 void
 extract
