@@ -1,3 +1,6 @@
+/** 
+ * writes as many newlines as needed to align the line number again between the element position and the current line number 
+ */
 public
 PrinterHelper
 adjustStartPosition

@@ -1,3 +1,6 @@
+/** 
+ * writes the implemented interfaces with a ListPrinter 
+ */
 public
 void
 writeImplementsClause

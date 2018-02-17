@@ -1,3 +1,6 @@
+/** 
+ * write all non-implicit parts of a block, with special care for indentation 
+ */
 public
 void
 writeIfOrLoopBlock

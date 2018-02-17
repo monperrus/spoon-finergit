@@ -1,3 +1,6 @@
+/** 
+ * writes the thrown exception with a ListPrinter 
+ */
 public
 void
 writeThrowsClause

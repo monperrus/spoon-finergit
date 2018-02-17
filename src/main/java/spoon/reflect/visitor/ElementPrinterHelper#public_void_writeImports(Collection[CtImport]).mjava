@@ -1,3 +1,6 @@
+/** 
+ * writes the imports in a specific order (eg all static imports together 
+ */
 public
 void
 writeImports
