@@ -1,3 +1,6 @@
+/** 
+ * Builds and returns the Spoon model of `` classToBuild 
+ */
 public
 static
 <

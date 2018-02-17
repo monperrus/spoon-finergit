@@ -1,3 +1,6 @@
+/** 
+ * Utility method for testing: creates the noclasspath model of the given `classesToBuild` from src/test/java and returns the factory 
+ */
 public
 static
 Factory

@@ -1,3 +1,6 @@
+/** 
+ * Builds the Spoon mode of the `filesToBuild` given as parameter 
+ */
 public
 static
 Factory

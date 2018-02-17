@@ -1,3 +1,6 @@
+/** 
+ * Utility method for testing: creates the model of `packageName` and the factory from src/test/java and returns the CtType corresponding to `className` 
+ */
 public
 static
 <
