@@ -68,8 +68,16 @@ this
 .
 typeMembers
 .
-contains
+stream
 (
+)
+.
+anyMatch
+(
+m
+->
+m
+==
 member
 )
 )
