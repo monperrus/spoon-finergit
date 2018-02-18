@@ -34,13 +34,6 @@ T
 )
 child
 ;
-ctClass
-.
-addConstructor
-(
-c
-)
-;
 if
 (
 c
@@ -73,6 +66,13 @@ true
 )
 ;
 }
+ctClass
+.
+addConstructor
+(
+c
+)
+;
 }
 if
 (

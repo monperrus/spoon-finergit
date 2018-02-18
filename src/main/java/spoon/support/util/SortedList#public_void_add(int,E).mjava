@@ -1,0 +1,20 @@
+@Override
+public
+void
+add
+(
+int
+index
+,
+E
+element
+)
+{
+throw
+new
+IllegalArgumentException
+(
+"cannot force a position with a sorted list that has its own ordering"
+)
+;
+}

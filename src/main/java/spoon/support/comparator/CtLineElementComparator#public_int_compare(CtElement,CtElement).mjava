@@ -1,5 +1,5 @@
 /** 
- * Compares two program elements.
+ * Reurns -1 if o1 is before o2 in the file
  */
 public
 int
@@ -21,7 +21,15 @@ getPosition
 )
 ==
 null
-||
+)
+{
+return
+-
+1
+;
+}
+if
+(
 o2
 .
 getPosition
@@ -32,21 +40,6 @@ null
 )
 {
 return
-o1
-.
-hashCode
-(
-)
->
-o2
-.
-hashCode
-(
-)
-?
-1
-:
--
 1
 ;
 }

@@ -1420,7 +1420,7 @@ getType
 ;
 assertEquals
 (
-true
+false
 ,
 burritosRef
 .
