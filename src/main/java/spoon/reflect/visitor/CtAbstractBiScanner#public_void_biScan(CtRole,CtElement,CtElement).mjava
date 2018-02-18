@@ -1,0 +1,18 @@
+/** 
+ * This method is called to compare `element` and `other` according to the role when traversing two trees in parallel. 
+ */
+public
+abstract
+void
+biScan
+(
+CtRole
+role
+,
+CtElement
+element
+,
+CtElement
+other
+)
+;

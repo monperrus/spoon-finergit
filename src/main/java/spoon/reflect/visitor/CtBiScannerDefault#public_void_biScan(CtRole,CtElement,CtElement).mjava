@@ -1,5 +1,5 @@
 public
-boolean
+void
 biScan
 (
 CtRole
@@ -12,7 +12,6 @@ CtElement
 other
 )
 {
-return
 biScan
 (
 element
