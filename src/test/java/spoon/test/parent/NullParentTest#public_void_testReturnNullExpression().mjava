@@ -38,7 +38,7 @@ null
 ;
 assertEquals
 (
-"return "
+"return"
 ,
 ret
 .

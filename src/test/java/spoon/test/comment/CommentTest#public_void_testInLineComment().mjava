@@ -1614,7 +1614,7 @@ assertEquals
 +
 newLine
 +
-"return "
+"return"
 ,
 ctReturn
 .
