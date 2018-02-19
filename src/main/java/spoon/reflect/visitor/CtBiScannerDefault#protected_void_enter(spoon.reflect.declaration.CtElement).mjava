@@ -2,6 +2,12 @@ protected
 void
 enter
 (
+spoon
+.
+reflect
+.
+declaration
+.
 CtElement
 e
 )

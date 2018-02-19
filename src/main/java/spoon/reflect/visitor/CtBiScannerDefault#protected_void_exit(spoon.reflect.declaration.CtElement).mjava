@@ -2,6 +2,12 @@ protected
 void
 exit
 (
+spoon
+.
+reflect
+.
+declaration
+.
 CtElement
 e
 )
