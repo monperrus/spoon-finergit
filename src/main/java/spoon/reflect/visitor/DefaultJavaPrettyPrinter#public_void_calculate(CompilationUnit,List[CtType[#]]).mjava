@@ -78,7 +78,7 @@ t
 )
 ;
 }
-elementPrinterHelper
+this
 .
 writeHeader
 (

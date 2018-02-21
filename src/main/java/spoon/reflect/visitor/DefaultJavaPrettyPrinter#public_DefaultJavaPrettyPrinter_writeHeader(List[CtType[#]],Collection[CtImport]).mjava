@@ -1,0 +1,36 @@
+/** 
+ * Write the compilation unit header.
+ */
+public
+DefaultJavaPrettyPrinter
+writeHeader
+(
+List
+<
+CtType
+<
+?
+>
+>
+types
+,
+Collection
+<
+CtImport
+>
+imports
+)
+{
+elementPrinterHelper
+.
+writeHeader
+(
+types
+,
+imports
+)
+;
+return
+this
+;
+}
