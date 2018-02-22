@@ -32,14 +32,6 @@ getSimpleName
 (
 )
 +
-" of method: "
-+
-parameterUsage
-.
-getDeclaringExecutable
-(
-)
-+
 " cannot be removed because it is used ("
 +
 parameterUsage

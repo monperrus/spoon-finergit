@@ -32,8 +32,6 @@ ctParameter
 ;
 }
 return
-fromDeclaringExecutable
-(
-)
+null
 ;
 }
