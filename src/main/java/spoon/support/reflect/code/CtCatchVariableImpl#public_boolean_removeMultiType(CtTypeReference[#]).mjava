@@ -43,7 +43,7 @@ onListDelete
 (
 this
 ,
-TYPE
+MULTI_TYPE
 ,
 types
 ,

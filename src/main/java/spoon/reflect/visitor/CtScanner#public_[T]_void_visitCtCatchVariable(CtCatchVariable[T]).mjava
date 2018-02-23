@@ -48,7 +48,7 @@ scan
 (
 CtRole
 .
-TYPE
+MULTI_TYPE
 ,
 catchVariable
 .

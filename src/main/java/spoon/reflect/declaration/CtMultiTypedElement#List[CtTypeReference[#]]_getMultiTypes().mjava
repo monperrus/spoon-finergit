@@ -1,7 +1,7 @@
 /** 
  * Gets all types of the element.
  */
-@PropertyGetter(role=TYPE)
+@PropertyGetter(role=MULTI_TYPE)
 List
 <
 CtTypeReference

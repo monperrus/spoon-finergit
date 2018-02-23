@@ -114,7 +114,7 @@ path
 .
 CtRole
 .
-TYPE
+MULTI_TYPE
 ,
 catchVariable
 .

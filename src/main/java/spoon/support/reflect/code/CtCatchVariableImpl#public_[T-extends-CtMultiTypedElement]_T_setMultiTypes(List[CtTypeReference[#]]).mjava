@@ -34,7 +34,7 @@ onListDeleteAll
 (
 this
 ,
-TYPE
+MULTI_TYPE
 ,
 this
 .

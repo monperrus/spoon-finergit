@@ -1,7 +1,7 @@
 /** 
  * Removes a type for the element.
  */
-@PropertySetter(role=TYPE)
+@PropertySetter(role=MULTI_TYPE)
 boolean
 removeMultiType
 (
