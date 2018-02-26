@@ -11,11 +11,8 @@ T
 >
 evaluateOn
 (
-Collection
-<
-?
 CtElement
->
+...
 startNode
 )
 {
@@ -25,10 +22,9 @@ CtElement
 >
 filtered
 =
-new
-ArrayList
-<
->
+Arrays
+.
+asList
 (
 startNode
 )

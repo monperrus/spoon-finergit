@@ -1,0 +1,8 @@
+/** 
+ * Return the path from the model root to this CtElement, eg `.spoon.test.path.Foo.foo#body#statement[index=0]`
+ */
+CtPath
+getPath
+(
+)
+;

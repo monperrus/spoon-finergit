@@ -1,0 +1,19 @@
+/** 
+ * Search for elements matching this CtPatch from start nodes given as parameters.
+ */
+<
+T
+extends
+CtElement
+>
+Collection
+<
+T
+>
+evaluateOn
+(
+CtElement
+...
+startNode
+)
+;

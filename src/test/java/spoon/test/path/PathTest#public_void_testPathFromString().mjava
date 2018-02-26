@@ -16,7 +16,7 @@ CtPathStringBuilder
 .
 fromString
 (
-".spoon.test.path.Foo.foo#body[index=0]"
+".spoon.test.path.Foo.foo#body#statement[index=0]"
 )
 ,
 factory

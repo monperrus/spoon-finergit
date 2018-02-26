@@ -14,7 +14,7 @@ comparePath
 ;
 comparePath
 (
-".spoon.test.path.Foo.foo#body[index=0]"
+".spoon.test.path.Foo.foo#body#statement[index=0]"
 )
 ;
 comparePath
@@ -29,7 +29,7 @@ comparePath
 ;
 comparePath
 (
-".spoon.test.path.Foo.*#body[index=0]"
+".spoon.test.path.Foo.*#body#statement[index=0]"
 )
 ;
 comparePath

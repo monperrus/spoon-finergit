@@ -23,10 +23,6 @@ path
 .
 evaluateOn
 (
-Arrays
-.
-asList
-(
 factory
 .
 Package
@@ -35,7 +31,6 @@ Package
 .
 getRootPackage
 (
-)
 )
 )
 ;
