@@ -30,6 +30,8 @@ null
 {
 doScan
 (
+scannedRole
+,
 element
 ,
 ScanningMode
@@ -61,6 +63,8 @@ SKIP_ALL
 {
 doScan
 (
+scannedRole
+,
 element
 ,
 mode

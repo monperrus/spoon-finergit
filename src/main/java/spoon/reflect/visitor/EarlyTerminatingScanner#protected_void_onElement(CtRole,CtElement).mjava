@@ -1,0 +1,17 @@
+/** 
+ * Called for each scanned element. The call of this method is influenced by  {@link ScanningMode} defined by {@link CtScannerListener}
+ * @param role a role of `element` in parent
+ * @param element a scanned element
+ */
+protected
+void
+onElement
+(
+CtRole
+role
+,
+CtElement
+element
+)
+{
+}
