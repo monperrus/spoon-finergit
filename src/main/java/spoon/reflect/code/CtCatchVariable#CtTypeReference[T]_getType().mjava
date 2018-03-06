@@ -1,0 +1,10 @@
+@Override
+@DerivedProperty
+CtTypeReference
+<
+T
+>
+getType
+(
+)
+;
