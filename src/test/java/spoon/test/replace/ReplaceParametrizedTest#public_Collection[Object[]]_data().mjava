@@ -50,12 +50,12 @@ ArrayList
 ;
 for
 (
-MMType
+MetamodelConcept
 t
 :
 metaModel
 .
-getMMTypes
+getConcepts
 (
 )
 )

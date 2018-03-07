@@ -1,0 +1,13 @@
+/** 
+ * @return interface name of {@link MetamodelConcept}. For example CtClass, CtForEach, ... It is never followed by xxxImpl
+ */
+public
+String
+getName
+(
+)
+{
+return
+name
+;
+}

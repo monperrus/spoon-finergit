@@ -1,0 +1,16 @@
+/** 
+ * @return super types
+ */
+public
+List
+<
+MetamodelConcept
+>
+getSuperConcepts
+(
+)
+{
+return
+superConcepts
+;
+}

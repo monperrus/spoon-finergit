@@ -18,7 +18,7 @@ getFactory
 ;
 List
 <
-MMField
+MetamodelProperty
 >
 superFields
 =
@@ -31,18 +31,18 @@ ArrayList
 ;
 metaModel
 .
-getMMTypes
+getConcepts
 (
 )
 .
 forEach
 (
-mmType
+mmConcept
 ->
 {
-mmType
+mmConcept
 .
-getRole2field
+getRoleToProperty
 (
 )
 .
@@ -123,7 +123,7 @@ d
 return
 a
 .
-getOwnerType
+getOwnerConcept
 (
 )
 .
@@ -135,7 +135,7 @@ compareTo
 (
 b
 .
-getOwnerType
+getOwnerConcept
 (
 )
 .
@@ -175,7 +175,7 @@ write
 (
 mmField
 .
-getOwnerType
+getOwnerConcept
 (
 )
 .
@@ -551,7 +551,7 @@ put
 ,
 rim
 .
-getOwnerType
+getOwnerConcept
 (
 )
 .
@@ -584,7 +584,7 @@ put
 ,
 rim
 .
-getOwnerType
+getOwnerConcept
 (
 )
 .

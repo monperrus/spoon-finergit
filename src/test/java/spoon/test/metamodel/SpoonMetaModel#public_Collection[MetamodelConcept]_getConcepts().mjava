@@ -1,0 +1,25 @@
+/** 
+ * @return all {@link MetamodelConcept}s of spoon meta model
+ */
+public
+Collection
+<
+MetamodelConcept
+>
+getConcepts
+(
+)
+{
+return
+Collections
+.
+unmodifiableCollection
+(
+nameToConcept
+.
+values
+(
+)
+)
+;
+}

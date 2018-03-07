@@ -1,0 +1,10 @@
+public
+MetamodelConcept
+getOwnerConcept
+(
+)
+{
+return
+ownerConcept
+;
+}

@@ -1,0 +1,23 @@
+/** 
+ * @return map of {@link MetamodelProperty}s by their  {@link CtRole}
+ */
+public
+Map
+<
+CtRole
+,
+MetamodelProperty
+>
+getRoleToProperty
+(
+)
+{
+return
+Collections
+.
+unmodifiableMap
+(
+role2Property
+)
+;
+}

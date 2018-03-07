@@ -59,12 +59,12 @@ getActualClass
 ;
 for
 (
-MMField
+MetamodelProperty
 mmField
 :
 typeToTest
 .
-getRole2field
+getRoleToProperty
 (
 )
 .

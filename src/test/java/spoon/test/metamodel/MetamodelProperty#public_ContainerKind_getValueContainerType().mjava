@@ -1,0 +1,10 @@
+public
+ContainerKind
+getValueContainerType
+(
+)
+{
+return
+valueContainerType
+;
+}

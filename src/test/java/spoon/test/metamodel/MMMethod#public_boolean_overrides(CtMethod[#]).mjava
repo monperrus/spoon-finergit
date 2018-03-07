@@ -16,7 +16,7 @@ method
 return
 ownerField
 .
-getOwnerType
+getOwnerConcept
 (
 )
 .
