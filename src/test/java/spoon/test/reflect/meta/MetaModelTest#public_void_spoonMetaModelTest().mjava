@@ -80,6 +80,31 @@ mmField
 )
 ->
 {
+if
+(
+mmField
+.
+isUnsettable
+(
+)
+)
+{
+assertTrue
+(
+"Unsettable field "
++
+mmField
++
+" must be derived too"
+,
+mmField
+.
+isDerived
+(
+)
+)
+;
+}
 unhandledRoles
 .
 remove
