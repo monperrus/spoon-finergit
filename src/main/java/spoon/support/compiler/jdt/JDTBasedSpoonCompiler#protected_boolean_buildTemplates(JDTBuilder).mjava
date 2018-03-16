@@ -18,8 +18,6 @@ getTemplateClasspath
 )
 ,
 "template "
-,
-false
 )
 ;
 }

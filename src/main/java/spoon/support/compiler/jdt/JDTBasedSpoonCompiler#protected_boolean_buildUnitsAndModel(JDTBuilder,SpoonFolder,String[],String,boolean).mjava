@@ -1,3 +1,14 @@
+/** 
+ * Get the units from the given source folder and build the Spoon Model.
+ * @param jdtBuilder The instance of JDTBuilder to use to prepare the right arguments
+ * @param sourcesFolder The source folder
+ * @param classpath The complete classpath
+ * @param debugMessagePrefix Useful to help debugging
+ * @param buildOnlyOutdatedFiles This parameter is NEVER used
+ * @return true if the model has been built without errors
+ * @deprecated The parameter buildOnlyOutdatedFiles is not used anymore.
+ */
+@Deprecated
 protected
 boolean
 buildUnitsAndModel
@@ -20,12 +31,8 @@ boolean
 buildOnlyOutdatedFiles
 )
 {
-CompilationUnitDeclaration
-[
-]
-units
-=
-buildUnits
+return
+buildUnitsAndModel
 (
 jdtBuilder
 ,
@@ -34,22 +41,6 @@ sourcesFolder
 classpath
 ,
 debugMessagePrefix
-,
-buildOnlyOutdatedFiles
 )
-;
-buildModel
-(
-units
-)
-;
-return
-probs
-.
-size
-(
-)
-==
-0
 ;
 }
