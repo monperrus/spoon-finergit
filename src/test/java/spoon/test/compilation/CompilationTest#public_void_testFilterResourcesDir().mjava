@@ -91,6 +91,13 @@ getFileName
 )
 )
 .
+replace
+(
+'\\'
+,
+'/'
+)
+.
 contains
 (
 "/reference/"
