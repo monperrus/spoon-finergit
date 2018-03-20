@@ -49,6 +49,11 @@ typeMember
 }
 }
 return
+Collections
+.
+unmodifiableList
+(
 anonymousExecutables
+)
 ;
 }

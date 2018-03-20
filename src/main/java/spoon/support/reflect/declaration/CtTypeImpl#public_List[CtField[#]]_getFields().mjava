@@ -58,6 +58,11 @@ typeMember
 }
 }
 return
+Collections
+.
+unmodifiableList
+(
 fields
+)
 ;
 }
