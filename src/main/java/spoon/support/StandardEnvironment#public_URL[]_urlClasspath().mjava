@@ -96,7 +96,12 @@ IllegalStateException
 (
 "Invalid classpath: "
 +
+Arrays
+.
+toString
+(
 classpath
+)
 ,
 e
 )

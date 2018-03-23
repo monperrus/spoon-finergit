@@ -11,7 +11,7 @@ final
 String
 input
 =
-"./src/test/java/spoon/test/secondaryclasses/AnonymousClass.java"
+"./src/test/java/spoon/test/secondaryclasses/testclasses/AnonymousClass.java"
 ;
 final
 Launcher

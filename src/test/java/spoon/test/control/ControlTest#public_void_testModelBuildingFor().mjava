@@ -15,7 +15,7 @@ type
 =
 build
 (
-"spoon.test.control"
+"spoon.test.control.testclasses"
 ,
 "Fors"
 )

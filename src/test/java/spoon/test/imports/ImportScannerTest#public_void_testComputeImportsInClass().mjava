@@ -10,7 +10,7 @@ Exception
 String
 packageName
 =
-"spoon.test"
+"spoon.test.testclasses"
 ;
 String
 className

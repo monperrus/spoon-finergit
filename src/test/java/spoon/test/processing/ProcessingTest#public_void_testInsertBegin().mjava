@@ -15,7 +15,7 @@ type
 =
 build
 (
-"spoon.test.processing"
+"spoon.test.processing.testclasses"
 ,
 "SampleForInsertBefore"
 )

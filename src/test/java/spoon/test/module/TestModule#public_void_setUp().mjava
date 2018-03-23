@@ -17,6 +17,14 @@ File
 MODULE_RESOURCES_PATH
 )
 ;
+try
+(
+Stream
+<
+Path
+>
+paths
+=
 Files
 .
 walk
@@ -27,6 +35,9 @@ toPath
 (
 )
 )
+)
+{
+paths
 .
 forEach
 (
@@ -98,4 +109,5 @@ printStackTrace
 }
 )
 ;
+}
 }

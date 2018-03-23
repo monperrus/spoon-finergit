@@ -15,7 +15,7 @@ type
 =
 build
 (
-"spoon.test"
+"spoon.test.testclasses"
 ,
 "SampleClass"
 )

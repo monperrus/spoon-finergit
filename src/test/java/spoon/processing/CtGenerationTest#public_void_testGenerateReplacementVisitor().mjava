@@ -111,6 +111,14 @@ addInputResource
 "./src/main/java/spoon/reflect/visitor/CtScanner.java"
 )
 ;
+try
+(
+Stream
+<
+Path
+>
+files
+=
 Files
 .
 list
@@ -125,6 +133,9 @@ toPath
 (
 )
 )
+)
+{
+files
 .
 forEach
 (
@@ -165,6 +176,7 @@ toString
 }
 )
 ;
+}
 launcher
 .
 addInputResource

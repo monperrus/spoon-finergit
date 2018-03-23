@@ -73,7 +73,7 @@ String
 .
 format
 (
-"Unable to locate element with name $s in Spoon model"
+"Unable to locate element with type %s in Spoon model"
 ,
 name
 )

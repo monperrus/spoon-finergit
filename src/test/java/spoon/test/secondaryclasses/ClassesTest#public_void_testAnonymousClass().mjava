@@ -15,7 +15,7 @@ type
 =
 build
 (
-"spoon.test.secondaryclasses"
+"spoon.test.secondaryclasses.testclasses"
 ,
 "AnonymousClass"
 )
@@ -167,7 +167,7 @@ getSimpleName
 ;
 assertEquals
 (
-"spoon.test.secondaryclasses.AnonymousClass$1"
+"spoon.test.secondaryclasses.testclasses.AnonymousClass$1"
 ,
 anonymousClass0
 .
@@ -178,7 +178,7 @@ getQualifiedName
 ;
 assertEquals
 (
-"spoon.test.secondaryclasses.AnonymousClass$2"
+"spoon.test.secondaryclasses.testclasses.AnonymousClass$2"
 ,
 anonymousClass1
 .
@@ -245,7 +245,7 @@ getDeclaration
 ;
 assertEquals
 (
-"spoon.test.secondaryclasses.AnonymousClass$2()"
+"spoon.test.secondaryclasses.testclasses.AnonymousClass$2()"
 ,
 y
 .
