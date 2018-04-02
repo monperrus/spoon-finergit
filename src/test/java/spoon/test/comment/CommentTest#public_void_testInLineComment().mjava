@@ -70,7 +70,7 @@ class
 ;
 assertEquals
 (
-64
+66
 ,
 comments
 .
@@ -147,7 +147,7 @@ toString
 }
 assertEquals
 (
-3
+5
 ,
 type
 .

@@ -51,7 +51,7 @@ getComments
 ;
 assertEquals
 (
-3
+5
 ,
 comments
 .
@@ -74,7 +74,7 @@ get
 ;
 assertEquals
 (
-2
+4
 ,
 type
 .
