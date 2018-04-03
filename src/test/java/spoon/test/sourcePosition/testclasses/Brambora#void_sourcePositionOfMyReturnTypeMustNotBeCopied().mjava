@@ -1,0 +1,14 @@
+void
+sourcePositionOfMyReturnTypeMustNotBeCopied
+(
+)
+{
+System
+.
+out
+.
+println
+(
+)
+;
+}
