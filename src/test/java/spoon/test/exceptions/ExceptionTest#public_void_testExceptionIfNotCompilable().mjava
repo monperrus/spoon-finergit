@@ -26,6 +26,17 @@ createFactory
 (
 )
 ;
+factory
+.
+getEnvironment
+(
+)
+.
+setNoClasspath
+(
+false
+)
+;
 spoon
 .
 createCompiler
