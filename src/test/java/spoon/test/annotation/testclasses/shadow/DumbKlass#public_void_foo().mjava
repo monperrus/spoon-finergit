@@ -1,0 +1,8 @@
+@StandardRetention
+public
+void
+foo
+(
+)
+{
+}

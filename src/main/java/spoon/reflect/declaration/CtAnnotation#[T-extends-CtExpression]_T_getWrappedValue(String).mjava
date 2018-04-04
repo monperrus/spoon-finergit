@@ -1,0 +1,19 @@
+/** 
+ * Gets a value for a given key and try to fix its type based on the annotation type. For example, if the annotation type member expects an array of String, and it can be resolved, this method will return a CtNewArray instead of a CtLiteral. Warning: the returned element might be detached from the model
+ * @param key Name of searched value.
+ * @return the value expression or null if not found.
+ */
+@DerivedProperty
+@PropertyGetter(role=VALUE)
+<
+T
+extends
+CtExpression
+>
+T
+getWrappedValue
+(
+String
+key
+)
+;

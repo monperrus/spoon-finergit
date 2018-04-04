@@ -1,5 +1,5 @@
 /** 
- * Gets the annotation element for a given annotation type.
+ * Gets the annotation element for a given annotation type. When used with a shadow element, this method might return an empty list even on an annotated element because annotations without a RUNTIME retention policy are lost after compilation.
  * @param annotationType the annotation type
  * @return the annotation if this element is annotated by one annotation ofthe given type
  */

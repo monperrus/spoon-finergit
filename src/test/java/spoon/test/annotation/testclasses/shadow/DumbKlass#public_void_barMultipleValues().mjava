@@ -1,0 +1,8 @@
+@RuntimeRetention(role={"bidule"})
+public
+void
+barMultipleValues
+(
+)
+{
+}

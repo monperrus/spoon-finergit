@@ -1,0 +1,8 @@
+@ClassRetention
+public
+void
+fooClass
+(
+)
+{
+}
