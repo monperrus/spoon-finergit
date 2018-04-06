@@ -16,6 +16,8 @@ position
 ;
 }
 return
-null
+SourcePosition
+.
+NOPOSITION
 ;
 }
