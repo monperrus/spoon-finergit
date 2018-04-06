@@ -1,0 +1,24 @@
+/** 
+ * Attaches itself to  {@link CtModel} to listen to all changes of it's child elementsTODO: it would be nicer if we might listen on changes on  {@link CtElement}
+ * @param env to be attached to {@link Environment}
+ * @return this to support fluent API
+ */
+public
+ChangeCollector
+attachTo
+(
+Environment
+env
+)
+{
+env
+.
+setModelChangeListener
+(
+changeListener
+)
+;
+return
+this
+;
+}
