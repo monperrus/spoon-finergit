@@ -14,4 +14,10 @@ factory
 =
 factory
 ;
+this
+.
+initializeCUCOmparator
+(
+)
+;
 }
