@@ -1,0 +1,139 @@
+/** 
+ * Prints list of elements with defined delimiters using `printer`
+ * @param iterable the iterable of to be printed elements
+ * @param startKeyword the optional start keyword. It is always printed if the value is not null
+ * @param startPrefixSpace if true then `start` token is prefixed with space
+ * @param start the string which has to be printed at the beginning of the list
+ * @param startSuffixSpace if true then `start` token is suffixed with space
+ * @param nextPrefixSpace if true then `next` token is prefixed with space
+ * @param next the string which has to be used as separator before each next item
+ * @param nextSuffixSpace if true then `next` token is suffixed with space
+ * @param endPrefixSpace if true then `end` token is prefixed with space
+ * @param end the string which has to be printed after the list
+ * @param elementPrinter the {@link Consumer}, which is called once for each printer element of the `iterable`
+ */
+public
+<
+T
+>
+void
+printList
+(
+Iterable
+<
+T
+>
+iterable
+,
+String
+startKeyword
+,
+boolean
+startPrefixSpace
+,
+String
+start
+,
+boolean
+startSuffixSpace
+,
+boolean
+nextPrefixSpace
+,
+String
+next
+,
+boolean
+nextSuffixSpace
+,
+boolean
+endPrefixSpace
+,
+String
+end
+,
+Consumer
+<
+T
+>
+elementPrinter
+)
+{
+if
+(
+startKeyword
+!=
+null
+)
+{
+printer
+.
+writeSpace
+(
+)
+.
+writeKeyword
+(
+startKeyword
+)
+.
+writeSpace
+(
+)
+;
+}
+try
+(
+spoon
+.
+reflect
+.
+visitor
+.
+ListPrinter
+lp
+=
+createListPrinter
+(
+startPrefixSpace
+,
+start
+,
+startSuffixSpace
+,
+nextPrefixSpace
+,
+next
+,
+nextSuffixSpace
+,
+endPrefixSpace
+,
+end
+)
+)
+{
+for
+(
+T
+item
+:
+iterable
+)
+{
+lp
+.
+printSeparatorIfAppropriate
+(
+)
+;
+elementPrinter
+.
+accept
+(
+item
+)
+;
+}
+}
+}

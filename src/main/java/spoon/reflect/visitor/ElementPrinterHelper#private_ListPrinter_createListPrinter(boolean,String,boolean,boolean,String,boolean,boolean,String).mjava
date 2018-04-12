@@ -1,16 +1,16 @@
 /** 
  * Creates new handler which assures consistent printing of lists prefixed with `start`, separated by `next` and suffixed by `end`
- * @param startPrefixSpace TODO
+ * @param startPrefixSpace if true then `start` token is prefixed with space
  * @param start the string which has to be printed at the beginning of the list
- * @param startSufficSpace TODO
- * @param nextPrefixSpace TODO
+ * @param startSufficSpace if true then `start` token is suffixed with space
+ * @param nextPrefixSpace if true then `next` token is prefixed with space
  * @param next the string which has to be used as separator before each next item
- * @param nextSuffixSpace TODO
- * @param endPrefixSpace TODO
+ * @param nextSuffixSpace if true then `next` token is suffixed with space
+ * @param endPrefixSpace if true then `end` token is prefixed with space
  * @param end the string which has to be printed after the list
  * @return the {@link ListPrinter} whose {@link ListPrinter#printSeparatorIfAppropriate()} has to be calledbefore printing of each item.
  */
-public
+private
 ListPrinter
 createListPrinter
 (
