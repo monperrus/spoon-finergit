@@ -170,7 +170,7 @@ getNameEnd
 ;
 assertEquals
 (
-"public"
+"@Deprecated\n@InnerAnnot(value=\"machin\")\npublic"
 ,
 contentAtPosition
 (

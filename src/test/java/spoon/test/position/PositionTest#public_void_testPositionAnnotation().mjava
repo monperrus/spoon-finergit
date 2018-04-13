@@ -174,7 +174,9 @@ getNameEnd
 ;
 assertEquals
 (
-"public abstract"
+"@Target(value={})\n"
++
+"@Retention(RetentionPolicy.RUNTIME)  \npublic abstract"
 ,
 contentAtPosition
 (

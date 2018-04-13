@@ -73,6 +73,16 @@ true
 )
 ;
 }
+if
+(
+!
+c
+.
+isImplicit
+(
+)
+)
+{
 for
 (
 CtExtendedModifier
@@ -101,6 +111,7 @@ getKind
 )
 )
 ;
+}
 }
 context
 .

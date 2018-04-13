@@ -1,0 +1,15 @@
+public
+void
+setPosition
+(
+SourcePosition
+position
+)
+{
+this
+.
+position
+=
+position
+;
+}

@@ -233,7 +233,7 @@ getNameEnd
 ;
 assertEquals
 (
-"public"
+"@Deprecated\npublic"
 ,
 contentAtPosition
 (
