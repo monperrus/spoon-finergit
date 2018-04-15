@@ -1,0 +1,11 @@
+@Override
+public
+CompilationUnit
+getCompilationUnit
+(
+)
+{
+return
+compilationUnit
+;
+}
