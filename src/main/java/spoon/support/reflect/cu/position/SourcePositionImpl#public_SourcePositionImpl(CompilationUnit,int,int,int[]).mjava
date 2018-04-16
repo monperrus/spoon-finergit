@@ -20,6 +20,15 @@ super
 (
 )
 ;
+checkArgsAreAscending
+(
+sourceStart
+,
+sourceEnd
++
+1
+)
+;
 this
 .
 compilationUnit
