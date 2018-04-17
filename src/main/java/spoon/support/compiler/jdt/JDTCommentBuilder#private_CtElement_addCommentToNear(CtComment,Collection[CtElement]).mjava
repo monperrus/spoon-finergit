@@ -47,8 +47,12 @@ element
 getPosition
 (
 )
+.
+isValidPosition
+(
+)
 ==
-null
+false
 )
 {
 continue

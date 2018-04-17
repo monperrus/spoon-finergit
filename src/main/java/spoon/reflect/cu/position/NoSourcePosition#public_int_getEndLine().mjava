@@ -5,8 +5,11 @@ getEndLine
 (
 )
 {
-return
--
-1
+throw
+new
+UnsupportedOperationException
+(
+"PartialSourcePosition only contains a CompilationUnit"
+)
 ;
 }

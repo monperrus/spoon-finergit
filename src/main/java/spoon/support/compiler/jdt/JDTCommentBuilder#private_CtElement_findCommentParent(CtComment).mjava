@@ -65,8 +65,10 @@ element
 getPosition
 (
 )
-!=
-null
+.
+isValidPosition
+(
+)
 &&
 element
 .
@@ -148,8 +150,12 @@ body
 getPosition
 (
 )
+.
+isValidPosition
+(
+)
 ==
-null
+false
 )
 {
 body

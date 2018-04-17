@@ -879,9 +879,12 @@ bodyStart
 )
 {
 return
-SourcePosition
+cf
 .
-NOPOSITION
+createPartialSourcePosition
+(
+cu
+)
 ;
 }
 if

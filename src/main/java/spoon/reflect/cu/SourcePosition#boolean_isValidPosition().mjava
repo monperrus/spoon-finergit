@@ -1,0 +1,8 @@
+/** 
+ * @return true if this instance holds start/end indexes of related sources.false if they are unknown
+ */
+boolean
+isValidPosition
+(
+)
+;

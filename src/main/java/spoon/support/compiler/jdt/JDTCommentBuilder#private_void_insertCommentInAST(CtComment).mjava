@@ -1100,8 +1100,12 @@ getThenStatement
 getPosition
 (
 )
+.
+isValidPosition
+(
+)
 ==
-null
+false
 ?
 (
 (
@@ -1145,8 +1149,12 @@ getElseStatement
 getPosition
 (
 )
+.
+isValidPosition
+(
+)
 ==
-null
+false
 ?
 (
 (

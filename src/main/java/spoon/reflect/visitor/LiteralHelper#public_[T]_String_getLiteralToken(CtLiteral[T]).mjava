@@ -105,8 +105,10 @@ getPosition
 if
 (
 position
-!=
-null
+.
+isValidPosition
+(
+)
 )
 {
 int
@@ -209,8 +211,10 @@ getPosition
 if
 (
 position
-!=
-null
+.
+isValidPosition
+(
+)
 )
 {
 int

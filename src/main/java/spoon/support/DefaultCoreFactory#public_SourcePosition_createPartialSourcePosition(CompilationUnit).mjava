@@ -8,10 +8,15 @@ compilationUnit
 )
 {
 return
-new
-PartialSourcePositionImpl
 (
+(
+CompilationUnitImpl
+)
 compilationUnit
+)
+.
+getOrCreatePartialSourcePosition
+(
 )
 ;
 }

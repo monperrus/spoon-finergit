@@ -144,8 +144,12 @@ en
 getPosition
 (
 )
+.
+isValidPosition
+(
+)
 ==
-null
+false
 )
 {
 continue

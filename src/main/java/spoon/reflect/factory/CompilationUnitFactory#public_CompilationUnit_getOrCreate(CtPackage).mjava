@@ -13,14 +13,6 @@ ctPackage
 getPosition
 (
 )
-!=
-null
-&&
-ctPackage
-.
-getPosition
-(
-)
 .
 getCompilationUnit
 (

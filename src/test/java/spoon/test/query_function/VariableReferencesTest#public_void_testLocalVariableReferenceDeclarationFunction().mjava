@@ -63,7 +63,7 @@ varRef
 +
 " on line "
 +
-varRef
+var
 .
 getPosition
 (

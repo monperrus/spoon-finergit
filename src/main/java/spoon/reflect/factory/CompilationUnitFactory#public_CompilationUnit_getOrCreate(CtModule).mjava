@@ -13,14 +13,6 @@ module
 getPosition
 (
 )
-!=
-null
-&&
-module
-.
-getPosition
-(
-)
 .
 getCompilationUnit
 (

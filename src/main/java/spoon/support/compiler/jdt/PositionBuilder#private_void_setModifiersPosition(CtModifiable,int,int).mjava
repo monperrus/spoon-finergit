@@ -142,9 +142,12 @@ modifier
 .
 setPosition
 (
-SourcePosition
+cf
 .
-NOPOSITION
+createPartialSourcePosition
+(
+cu
+)
 )
 ;
 continue

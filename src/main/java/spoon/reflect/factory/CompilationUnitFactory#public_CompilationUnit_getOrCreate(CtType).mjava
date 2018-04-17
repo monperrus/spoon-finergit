@@ -24,14 +24,6 @@ type
 getPosition
 (
 )
-!=
-null
-&&
-type
-.
-getPosition
-(
-)
 .
 getCompilationUnit
 (

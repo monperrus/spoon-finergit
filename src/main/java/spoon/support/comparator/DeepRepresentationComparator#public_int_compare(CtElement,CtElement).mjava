@@ -17,8 +17,12 @@ o1
 getPosition
 (
 )
+.
+isValidPosition
+(
+)
 ==
-null
+false
 )
 {
 return
@@ -32,8 +36,12 @@ o2
 getPosition
 (
 )
+.
+isValidPosition
+(
+)
 ==
-null
+false
 )
 {
 return

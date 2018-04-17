@@ -62,14 +62,6 @@ child
 getPosition
 (
 )
-!=
-null
-&&
-child
-.
-getPosition
-(
-)
 .
 getCompilationUnit
 (
