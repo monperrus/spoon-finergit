@@ -679,9 +679,9 @@ public
 T
 >
 void
-visitCtField
+scanCtVariable
 (
-CtField
+CtVariable
 <
 T
 >
@@ -1278,6 +1278,10 @@ CtStatementList
 s
 instanceof
 CtSwitch
+||
+s
+instanceof
+CtVariable
 )
 )
 {
@@ -1425,8 +1429,6 @@ addComment
 (
 comment
 )
-;
-return
 ;
 }
 }
