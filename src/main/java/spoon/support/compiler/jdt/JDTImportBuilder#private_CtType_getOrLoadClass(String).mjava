@@ -92,6 +92,8 @@ klass
 }
 catch
 (
+NoClassDefFoundError
+|
 ClassNotFoundException
 e
 )
