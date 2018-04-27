@@ -18,6 +18,10 @@ elementPrinterHelper
 writeComment
 (
 m
+,
+CommentOffset
+.
+BEFORE
 )
 ;
 elementPrinterHelper
@@ -293,4 +297,15 @@ writeSeparator
 )
 ;
 }
+elementPrinterHelper
+.
+writeComment
+(
+m
+,
+CommentOffset
+.
+AFTER
+)
+;
 }

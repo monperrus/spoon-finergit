@@ -116,7 +116,7 @@ clazz1
 ;
 assertEquals
 (
-1
+2
 ,
 clazz1
 .
@@ -142,6 +142,26 @@ getComments
 get
 (
 0
+)
+.
+getContent
+(
+)
+)
+;
+assertEquals
+(
+"after class comment"
+,
+clazz1
+.
+getComments
+(
+)
+.
+get
+(
+1
 )
 .
 getContent

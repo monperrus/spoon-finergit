@@ -70,7 +70,7 @@ class
 ;
 assertEquals
 (
-66
+69
 ,
 comments
 .
@@ -147,7 +147,7 @@ toString
 }
 assertEquals
 (
-5
+6
 ,
 type
 .
@@ -205,6 +205,26 @@ get
 )
 )
 ;
+assertEquals
+(
+"Bottom File"
+,
+type
+.
+getComments
+(
+)
+.
+get
+(
+5
+)
+.
+getContent
+(
+)
+)
+;
 CtField
 <
 ?
@@ -220,7 +240,7 @@ getField
 ;
 assertEquals
 (
-3
+4
 ,
 field
 .
@@ -268,7 +288,7 @@ newLine
 +
 newLine
 +
-"private int field = 10;"
+"private int field = 10;// after field\n"
 ,
 field
 .

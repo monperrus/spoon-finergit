@@ -137,4 +137,11 @@ t
 ;
 }
 }
+this
+.
+writeFooter
+(
+types
+)
+;
 }

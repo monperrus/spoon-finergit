@@ -1,0 +1,28 @@
+/** 
+ * Write the compilation unit footer.
+ */
+public
+DefaultJavaPrettyPrinter
+writeFooter
+(
+List
+<
+CtType
+<
+?
+>
+>
+types
+)
+{
+elementPrinterHelper
+.
+writeFooter
+(
+types
+)
+;
+return
+this
+;
+}

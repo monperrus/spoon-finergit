@@ -70,7 +70,7 @@ class
 ;
 assertEquals
 (
-51
+52
 ,
 comments
 .
@@ -147,7 +147,7 @@ toString
 }
 assertEquals
 (
-4
+5
 ,
 type
 .
@@ -178,6 +178,26 @@ getComments
 get
 (
 1
+)
+)
+;
+assertEquals
+(
+"Bottom File"
+,
+type
+.
+getComments
+(
+)
+.
+get
+(
+4
+)
+.
+getContent
+(
 )
 )
 ;

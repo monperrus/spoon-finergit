@@ -204,6 +204,10 @@ isAfter
 elementEndLine
 ==
 commentLine
+||
+element
+instanceof
+CtType
 )
 )
 {
