@@ -1,0 +1,44 @@
+/** 
+ * Dereference the "iterator"
+ * @return CtElement the next element in DFS order without going down the tree
+ */
+@Override
+public
+Object
+next
+(
+)
+{
+CtElement
+next
+=
+deque
+.
+pollFirst
+(
+)
+;
+current_children
+.
+clear
+(
+)
+;
+next
+.
+accept
+(
+this
+)
+;
+deque
+.
+addAll
+(
+current_children
+)
+;
+return
+next
+;
+}

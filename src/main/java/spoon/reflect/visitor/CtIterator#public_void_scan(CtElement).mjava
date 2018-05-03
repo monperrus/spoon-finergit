@@ -1,0 +1,29 @@
+/** 
+ * prevent scanner from going down the tree, instead save with other CtElement children of the current node
+ * @param element the next direct child of the current node being expanded
+ */
+@Override
+public
+void
+scan
+(
+CtElement
+element
+)
+{
+if
+(
+element
+!=
+null
+)
+{
+current_children
+.
+addFirst
+(
+element
+)
+;
+}
+}

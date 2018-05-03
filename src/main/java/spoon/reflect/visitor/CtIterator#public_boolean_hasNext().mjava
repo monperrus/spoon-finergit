@@ -1,0 +1,17 @@
+@Override
+public
+boolean
+hasNext
+(
+)
+{
+return
+deque
+.
+size
+(
+)
+>
+0
+;
+}
