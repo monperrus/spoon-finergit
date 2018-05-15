@@ -1,0 +1,16 @@
+@Override
+public
+Iterable
+<
+CtElement
+>
+asIterable
+(
+)
+{
+return
+this
+::
+descendantIterator
+;
+}

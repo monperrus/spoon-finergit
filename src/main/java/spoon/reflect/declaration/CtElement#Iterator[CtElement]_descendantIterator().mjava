@@ -1,0 +1,12 @@
+/** 
+ * Returns an iterator over this CtElement's descendants.
+ * @return An iterator over this CtElement's descendants.
+ */
+Iterator
+<
+CtElement
+>
+descendantIterator
+(
+)
+;
