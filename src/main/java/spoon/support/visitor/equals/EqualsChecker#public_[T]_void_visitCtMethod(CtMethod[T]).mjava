@@ -39,9 +39,9 @@ isDefaultMethod
 )
 )
 {
-isNotEqual
-=
-true
+setNotEqual
+(
+)
 ;
 return
 ;

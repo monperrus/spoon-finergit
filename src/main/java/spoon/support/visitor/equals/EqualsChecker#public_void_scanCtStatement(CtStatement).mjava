@@ -74,9 +74,9 @@ rightLabel
 )
 )
 {
-isNotEqual
-=
-true
+setNotEqual
+(
+)
 ;
 return
 ;

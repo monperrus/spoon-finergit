@@ -39,9 +39,9 @@ isVarArgs
 )
 )
 {
-isNotEqual
-=
-true
+setNotEqual
+(
+)
 ;
 return
 ;

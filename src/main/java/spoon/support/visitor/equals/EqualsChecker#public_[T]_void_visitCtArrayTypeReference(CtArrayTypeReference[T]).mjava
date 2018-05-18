@@ -39,9 +39,9 @@ getDimensionCount
 )
 )
 {
-isNotEqual
-=
-true
+setNotEqual
+(
+)
 ;
 return
 ;

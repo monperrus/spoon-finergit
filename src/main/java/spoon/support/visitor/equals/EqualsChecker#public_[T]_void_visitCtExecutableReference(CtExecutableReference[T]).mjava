@@ -39,9 +39,9 @@ isConstructor
 )
 )
 {
-isNotEqual
-=
-true
+setNotEqual
+(
+)
 ;
 return
 ;

@@ -35,9 +35,9 @@ instanceof
 CtOperatorAssignment
 )
 {
-isNotEqual
-=
-true
+setNotEqual
+(
+)
 ;
 return
 ;
