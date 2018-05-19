@@ -127,15 +127,6 @@ ClassNotFoundException
 e1
 )
 {
-throw
-new
-SpoonException
-(
-"The class detected from ClassCastException not found."
-,
-e1
-)
-;
 }
 }
 }
