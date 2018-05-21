@@ -251,7 +251,18 @@ length
 0
 )
 {
+CtTypeReference
+<
+?
+>
+componentReference
+=
+getTypeReferenceOfArrayComponent
+(
 currentReference
+)
+;
+componentReference
 .
 getActualTypeArguments
 (
@@ -295,7 +306,7 @@ instanceof
 TypeVariableBinding
 )
 {
-currentReference
+componentReference
 .
 addActualTypeArgument
 (
@@ -310,7 +321,7 @@ scope
 }
 else
 {
-currentReference
+componentReference
 .
 addActualTypeArgument
 (
