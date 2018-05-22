@@ -41,9 +41,8 @@ isConstructor
 {
 setNotEqual
 (
+null
 )
-;
-return
 ;
 }
 super

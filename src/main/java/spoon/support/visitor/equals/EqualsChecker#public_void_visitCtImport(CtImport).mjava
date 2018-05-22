@@ -42,9 +42,8 @@ null
 {
 setNotEqual
 (
+null
 )
-;
-return
 ;
 }
 }
@@ -62,9 +61,8 @@ null
 {
 setNotEqual
 (
+null
 )
-;
-return
 ;
 }
 else
@@ -89,9 +87,8 @@ getImportKind
 {
 setNotEqual
 (
+null
 )
-;
-return
 ;
 }
 super

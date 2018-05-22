@@ -1,0 +1,10 @@
+public
+CtRole
+getNotEqualRole
+(
+)
+{
+return
+notEqualRole
+;
+}

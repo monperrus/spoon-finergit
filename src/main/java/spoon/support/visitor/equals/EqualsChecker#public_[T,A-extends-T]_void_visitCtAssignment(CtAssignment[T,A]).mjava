@@ -37,9 +37,8 @@ CtOperatorAssignment
 {
 setNotEqual
 (
+null
 )
-;
-return
 ;
 }
 super

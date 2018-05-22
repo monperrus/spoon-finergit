@@ -1,0 +1,13 @@
+/** 
+ * @return role on which the element and other element were not equal
+ */
+public
+CtRole
+getNotEqualRole
+(
+)
+{
+return
+notEqualRole
+;
+}

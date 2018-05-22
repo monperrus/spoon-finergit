@@ -41,9 +41,10 @@ getDimensionCount
 {
 setNotEqual
 (
+CtRole
+.
+TYPE
 )
-;
-return
 ;
 }
 super

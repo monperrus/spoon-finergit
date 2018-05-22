@@ -1,0 +1,28 @@
+/** 
+ * @param element first to be compared element
+ * @param other second to be compared element
+ * @return true if `element` and `other` are equal. If false then see{@link #getNotEqualElement()},  {@link #getNotEqualOther()} and {@link #getNotEqualRole()} for details
+ */
+public
+boolean
+checkEquals
+(
+CtElement
+element
+,
+CtElement
+other
+)
+{
+biScan
+(
+element
+,
+other
+)
+;
+return
+!
+isNotEqual
+;
+}

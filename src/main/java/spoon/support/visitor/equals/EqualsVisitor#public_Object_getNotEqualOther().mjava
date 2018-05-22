@@ -1,0 +1,13 @@
+/** 
+ * @return other element or collection which was not equal
+ */
+public
+Object
+getNotEqualOther
+(
+)
+{
+return
+notEqualOther
+;
+}

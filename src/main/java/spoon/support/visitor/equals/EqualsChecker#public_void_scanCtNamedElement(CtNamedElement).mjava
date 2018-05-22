@@ -39,9 +39,10 @@ getSimpleName
 {
 setNotEqual
 (
+CtRole
+.
+NAME
 )
-;
-return
 ;
 }
 super

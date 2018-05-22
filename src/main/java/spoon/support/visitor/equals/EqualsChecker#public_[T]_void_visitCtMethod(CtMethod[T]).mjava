@@ -41,9 +41,10 @@ isDefaultMethod
 {
 setNotEqual
 (
+CtRole
+.
+MODIFIER
 )
-;
-return
 ;
 }
 super

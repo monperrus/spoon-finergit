@@ -41,9 +41,10 @@ isVarArgs
 {
 setNotEqual
 (
+CtRole
+.
+MODIFIER
 )
-;
-return
 ;
 }
 super

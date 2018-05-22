@@ -1,0 +1,14 @@
+public
+EqualsVisitor
+(
+)
+{
+this
+(
+new
+EqualsChecker
+(
+)
+)
+;
+}

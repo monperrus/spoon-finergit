@@ -1,0 +1,25 @@
+/** 
+ * @param role the role of the not equal attribute, or null if there is no such role
+ */
+protected
+void
+setNotEqual
+(
+CtRole
+role
+)
+{
+notEqualRole
+=
+role
+;
+isNotEqual
+=
+true
+;
+throw
+NotEqualException
+.
+INSTANCE
+;
+}

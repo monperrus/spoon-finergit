@@ -1,0 +1,14 @@
+/** 
+ * @return true if {@link #checkEquals(CtElement,CtElement)} are equal. If false then see{@link #getNotEqualElement()},  {@link #getNotEqualOther()} and {@link #getNotEqualRole()} for details
+ */
+public
+boolean
+isEqual
+(
+)
+{
+return
+!
+isNotEqual
+;
+}
