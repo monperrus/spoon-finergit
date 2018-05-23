@@ -1,0 +1,17 @@
+/** 
+ * Visits a class as an array reference
+ * @param role {@link CtRole} which this reference plays
+ */
+<
+T
+>
+void
+visitArrayReference
+(
+CtRole
+role
+,
+Type
+typeArray
+)
+;

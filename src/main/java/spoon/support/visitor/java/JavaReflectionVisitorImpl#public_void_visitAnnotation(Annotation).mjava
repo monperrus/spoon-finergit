@@ -18,8 +18,12 @@ annotationType
 null
 )
 {
-visitClassReference
+visitTypeReference
 (
+CtRole
+.
+ANNOTATION_TYPE
+,
 annotation
 .
 annotationType

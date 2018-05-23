@@ -18,6 +18,8 @@ getDeclaringClass
 )
 ,
 method
+,
+method
 .
 getName
 (

@@ -1,0 +1,10 @@
+CtTypeParameter
+getTypeParameter
+(
+GenericDeclaration
+genericDeclaration
+,
+String
+string
+)
+;

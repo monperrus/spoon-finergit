@@ -52,6 +52,12 @@ clazz
 getModifiers
 (
 )
+,
+clazz
+.
+getDeclaringClass
+(
+)
 )
 ;
 enter
@@ -59,6 +65,8 @@ enter
 new
 TypeRuntimeBuilderContext
 (
+clazz
+,
 ctAnnotationType
 )
 {

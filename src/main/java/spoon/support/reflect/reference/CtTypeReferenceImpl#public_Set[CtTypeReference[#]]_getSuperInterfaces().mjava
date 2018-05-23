@@ -17,7 +17,7 @@ CtType
 >
 t
 =
-getDeclaration
+getTypeDeclaration
 (
 )
 ;
@@ -144,11 +144,15 @@ set
 ;
 }
 }
-return
-Collections
-.
-emptySet
+throw
+new
+SpoonException
 (
+"Cannot provide CtType for "
++
+getQualifiedName
+(
+)
 )
 ;
 }

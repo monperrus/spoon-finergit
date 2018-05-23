@@ -36,8 +36,12 @@ getType
 null
 )
 {
-visitClassReference
+visitTypeReference
 (
+CtRole
+.
+TYPE
+,
 field
 .
 getType

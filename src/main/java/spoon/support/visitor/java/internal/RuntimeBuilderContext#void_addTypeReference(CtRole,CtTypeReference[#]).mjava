@@ -1,0 +1,13 @@
+void
+addTypeReference
+(
+CtRole
+role
+,
+CtTypeReference
+<
+?
+>
+ctTypeReference
+)
+;

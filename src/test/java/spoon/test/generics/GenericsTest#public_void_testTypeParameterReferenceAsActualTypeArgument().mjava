@@ -157,7 +157,7 @@ getParent
 ;
 assertEquals
 (
-null
+typeParam
 ,
 typeParamRef
 .

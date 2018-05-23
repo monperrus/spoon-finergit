@@ -1,0 +1,20 @@
+/** 
+ * Visits a  {@link Class} in generic parameters
+ * @param role {@link CtRole} which this reference plays
+ */
+<
+T
+>
+void
+visitTypeReference
+(
+CtRole
+role
+,
+Class
+<
+T
+>
+clazz
+)
+;

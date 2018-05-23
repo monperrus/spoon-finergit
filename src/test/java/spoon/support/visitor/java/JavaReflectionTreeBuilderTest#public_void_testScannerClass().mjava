@@ -45,7 +45,7 @@ getQualifiedName
 )
 )
 ;
-assertNotNull
+assertNull
 (
 aClass
 .

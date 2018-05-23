@@ -54,6 +54,12 @@ constructor
 getModifiers
 (
 )
+,
+constructor
+.
+getDeclaringClass
+(
+)
 )
 ;
 enter
@@ -61,6 +67,8 @@ enter
 new
 ExecutableRuntimeBuilderContext
 (
+constructor
+,
 ctConstructor
 )
 )

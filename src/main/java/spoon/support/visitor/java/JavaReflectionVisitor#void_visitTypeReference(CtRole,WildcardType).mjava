@@ -1,0 +1,14 @@
+/** 
+ * Visits a  {@link WildcardType}
+ * @param role {@link CtRole} which this reference plays
+ */
+void
+visitTypeReference
+(
+CtRole
+role
+,
+WildcardType
+type
+)
+;

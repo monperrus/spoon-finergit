@@ -44,6 +44,12 @@ field
 getModifiers
 (
 )
+,
+field
+.
+getDeclaringClass
+(
+)
 )
 ;
 enter

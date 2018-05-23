@@ -7,6 +7,15 @@ testImportOfInvocationOfPrivateClass
 throws
 Exception
 {
+System
+.
+setProperty
+(
+"line.separator"
+,
+"\n"
+)
+;
 final
 Factory
 factory

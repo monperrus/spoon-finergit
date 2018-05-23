@@ -1,0 +1,14 @@
+/** 
+ * Visits a  {@link ParameterizedType}
+ * @param role {@link CtRole} which this reference plays
+ */
+void
+visitTypeReference
+(
+CtRole
+role
+,
+ParameterizedType
+type
+)
+;

@@ -1,0 +1,16 @@
+@Override
+public
+CtTypeParameter
+getTypeParameter
+(
+GenericDeclaration
+genericDeclaration
+,
+String
+string
+)
+{
+return
+null
+;
+}

@@ -80,6 +80,29 @@ getDeclaration
 (
 )
 ;
+if
+(
+typeParam
+==
+null
+)
+{
+throw
+new
+SpoonException
+(
+"The typeParam "
++
+typeRef
+.
+getQualifiedName
+(
+)
++
+" declaration cannot be resolved"
+)
+;
+}
 CtFormalTypeDeclarer
 declarer
 =
