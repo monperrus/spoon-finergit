@@ -78,7 +78,7 @@ size
 ;
 assertEquals
 (
-"import spoon.test.imports.testclasses.internal2.Menudo;\n"
+"import spoon.test.imports.testclasses.internal2.Menudo;"
 ,
 imports
 .
@@ -90,6 +90,10 @@ toArray
 ]
 .
 toString
+(
+)
+.
+trim
 (
 )
 )

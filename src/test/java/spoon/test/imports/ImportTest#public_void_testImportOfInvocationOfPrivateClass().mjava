@@ -78,7 +78,7 @@ size
 ;
 assertEquals
 (
-"import spoon.test.imports.testclasses.internal2.Chimichanga;\n"
+"import spoon.test.imports.testclasses.internal2.Chimichanga;"
 ,
 imports
 .
@@ -90,6 +90,10 @@ toArray
 ]
 .
 toString
+(
+)
+.
+trim
 (
 )
 )
