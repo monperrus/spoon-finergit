@@ -23,7 +23,11 @@ throw
 new
 SpoonException
 (
-"The qualified name doesn't belong to Spoon model API package: "
+"The qualified name "
++
+modelInterfaceQName
++
+" doesn't belong to Spoon model API package: "
 +
 modelApiPackage
 )
