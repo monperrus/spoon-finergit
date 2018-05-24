@@ -29,6 +29,13 @@ createExecutableReference
 (
 )
 ;
+executable
+.
+setParent
+(
+this
+)
+;
 }
 return
 executable
