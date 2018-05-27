@@ -1,0 +1,17 @@
+@Override
+public
+Iterator
+<
+T
+>
+iterator
+(
+)
+{
+return
+new
+Itr
+(
+)
+;
+}

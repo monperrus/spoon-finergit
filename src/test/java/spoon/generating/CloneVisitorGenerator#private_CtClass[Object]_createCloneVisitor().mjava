@@ -46,6 +46,12 @@ GENERATING_CLONE
 ;
 target
 .
+delete
+(
+)
+;
+target
+.
 setSimpleName
 (
 TARGET_CLONE_TYPE

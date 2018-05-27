@@ -9,12 +9,6 @@ getTags
 )
 {
 return
-new
-ArrayList
-<
->
-(
 tags
-)
 ;
 }

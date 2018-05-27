@@ -98,7 +98,17 @@ for
 CtStatement
 s
 :
+new
+ArrayList
+<
+>
+(
 body
+.
+getStatements
+(
+)
+)
 )
 {
 body

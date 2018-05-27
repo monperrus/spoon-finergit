@@ -12,10 +12,6 @@ CtStatement
 statement
 )
 {
-ensureModifiableStatementsList
-(
-)
-;
 addStatement
 (
 statement

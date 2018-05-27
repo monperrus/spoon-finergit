@@ -46,6 +46,12 @@ GENERATING_BUILDER_CLONE
 ;
 target
 .
+delete
+(
+)
+;
+target
+.
 setSimpleName
 (
 TARGET_BUILDER_CLONE_TYPE

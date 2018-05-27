@@ -55,9 +55,16 @@ T
 >
 others
 =
-createRightSet
+new
+HashSet
+<
+>
 (
 elements
+.
+size
+(
+)
 )
 ;
 for

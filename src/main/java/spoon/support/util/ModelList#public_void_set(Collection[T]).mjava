@@ -1,0 +1,45 @@
+/** 
+ * sets the new content of this List
+ * @param elements new content of this list
+ */
+public
+void
+set
+(
+Collection
+<
+T
+>
+elements
+)
+{
+this
+.
+clear
+(
+)
+;
+if
+(
+elements
+!=
+null
+&&
+elements
+.
+isEmpty
+(
+)
+==
+false
+)
+{
+this
+.
+addAll
+(
+elements
+)
+;
+}
+}
