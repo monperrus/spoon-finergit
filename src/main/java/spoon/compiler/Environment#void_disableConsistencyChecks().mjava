@@ -1,0 +1,8 @@
+/** 
+ * Disable all consistency checks on the AST. Dangerous! The only valid usage of this is to keep full backward-compatibility.
+ */
+void
+disableConsistencyChecks
+(
+)
+;

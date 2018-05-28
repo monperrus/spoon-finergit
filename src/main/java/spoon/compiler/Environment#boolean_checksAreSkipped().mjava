@@ -1,5 +1,5 @@
 /** 
- * Checks if  {@link spoon.reflect.visitor.AstParentConsistencyChecker}, hashcode violation declared in CtElement#equals(CtElement) and method violation declared in  {@link spoon.reflect.declaration.CtType#addMethod(CtMethod)}are active or not.
+ * Tells whether Spoon does no checks at all. - parents are consistent (see  {@link spoon.reflect.visitor.AstParentConsistencyChecker}) - hashcode violation (see  {@link spoon.support.reflect.declaration.CtElementImpl#equals(Object)}) - method violation (see  {@link spoon.reflect.declaration.CtType#addMethod(CtMethod)}) are active or not. By default all checks are enabled and  {@link #checksAreSkipped()} return false.
  */
 boolean
 checksAreSkipped

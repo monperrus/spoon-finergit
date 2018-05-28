@@ -1,6 +1,8 @@
 /** 
- * Enable or not checks on the AST. See  {@link #checksAreSkipped()} to know all checks enabled.true means that no self checks are made.
+ * Enable or not consistency checks on the AST. See  {@link #checksAreSkipped()} for a list of all checks.
+ * @param skip false means that all checks are made (default), true means that no checks are made.Use  {@link #disableConsistencyChecks()} instead.
  */
+@Deprecated
 void
 setSelfChecks
 (
