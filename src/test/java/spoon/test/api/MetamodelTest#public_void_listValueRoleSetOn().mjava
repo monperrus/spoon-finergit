@@ -175,6 +175,8 @@ getDeclaringType
 )
 )
 ;
+Assert
+.
 assertThat
 (
 asList
@@ -235,6 +237,8 @@ getDeclaringType
 )
 )
 ;
+Assert
+.
 assertThat
 (
 asList
@@ -299,6 +303,8 @@ getDeclaringType
 )
 )
 ;
+Assert
+.
 assertThat
 (
 asList
@@ -352,6 +358,8 @@ set
 field1
 )
 ;
+Assert
+.
 assertThat
 (
 asList
@@ -408,6 +416,8 @@ remove
 )
 )
 ;
+Assert
+.
 assertThat
 (
 asList
@@ -460,6 +470,8 @@ field2
 )
 )
 ;
+Assert
+.
 assertThat
 (
 asList
@@ -512,6 +524,8 @@ field1
 )
 )
 ;
+Assert
+.
 assertThat
 (
 asList
