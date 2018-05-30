@@ -9,6 +9,67 @@ CtElement
 element
 )
 {
+if
+(
+owner
+.
+getFactory
+(
+)
+.
+getEnvironment
+(
+)
+.
+checksAreSkipped
+(
+)
+==
+false
+&&
+element
+.
+isParentInitialized
+(
+)
+&&
+element
+.
+getParent
+(
+)
+!=
+owner
+)
+{
+if
+(
+element
+.
+getRoleInParent
+(
+)
+!=
+null
+)
+{
+throw
+new
+SpoonException
+(
+"The default behavior has changed, a new check has been added! Don't worry, you can disable this check\n"
++
+"with one of the following options:\n"
++
+" - by configuring Spoon with getEnvironment().setSelfChecks(true)\n"
++
+" - by removing the node from its previous parent (element.delete())\n"
++
+" - by cloning the node before adding it here (element.clone())\n"
+)
+;
+}
+}
 element
 .
 setParent

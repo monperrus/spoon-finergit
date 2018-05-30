@@ -111,6 +111,12 @@ removeType
 c
 )
 ;
+ret
+.
+delete
+(
+)
+;
 if
 (
 ret

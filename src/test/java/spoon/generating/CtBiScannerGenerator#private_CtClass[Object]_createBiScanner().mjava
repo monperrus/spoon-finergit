@@ -46,6 +46,12 @@ GENERATING_BISCANNER
 ;
 target
 .
+delete
+(
+)
+;
+target
+.
 setSimpleName
 (
 "CtBiScannerDefault"

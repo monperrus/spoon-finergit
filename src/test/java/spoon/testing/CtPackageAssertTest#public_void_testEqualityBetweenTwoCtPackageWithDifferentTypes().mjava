@@ -30,10 +30,6 @@ getOrCreate
 ""
 )
 ;
-aRootPackage
-.
-addType
-(
 factory
 .
 Class
@@ -50,7 +46,6 @@ addModifier
 ModifierKind
 .
 PUBLIC
-)
 )
 ;
 assertThat

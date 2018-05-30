@@ -46,6 +46,12 @@ GENERATING_REPLACE_VISITOR
 ;
 target
 .
+delete
+(
+)
+;
+target
+.
 addModifier
 (
 ModifierKind
