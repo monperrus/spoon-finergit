@@ -233,8 +233,6 @@ CtTypeParameter
 >
 typeParams
 ;
-try
-{
 CtType
 <
 ?
@@ -247,6 +245,13 @@ getTypeDeclaration
 (
 )
 ;
+if
+(
+type
+!=
+null
+)
+{
 typeParams
 =
 type
@@ -256,12 +261,7 @@ getFormalCtTypeParameters
 )
 ;
 }
-catch
-(
-final
-SpoonClassNotFoundException
-e
-)
+else
 {
 if
 (
@@ -292,7 +292,17 @@ emptyList
 else
 {
 throw
-e
+new
+SpoonClassNotFoundException
+(
+type
+.
+getQualifiedName
+(
+)
++
+" cannot be found in the sourcepath or classpath"
+)
 ;
 }
 }

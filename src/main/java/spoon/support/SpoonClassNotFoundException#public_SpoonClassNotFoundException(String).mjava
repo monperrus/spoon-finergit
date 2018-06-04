@@ -1,0 +1,13 @@
+public
+SpoonClassNotFoundException
+(
+String
+msg
+)
+{
+super
+(
+msg
+)
+;
+}

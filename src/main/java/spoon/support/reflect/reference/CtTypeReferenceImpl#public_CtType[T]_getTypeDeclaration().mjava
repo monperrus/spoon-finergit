@@ -40,6 +40,8 @@ return
 t
 ;
 }
+try
+{
 return
 getFactory
 (
@@ -56,4 +58,15 @@ getActualClass
 )
 )
 ;
+}
+catch
+(
+SpoonClassNotFoundException
+e
+)
+{
+return
+null
+;
+}
 }
