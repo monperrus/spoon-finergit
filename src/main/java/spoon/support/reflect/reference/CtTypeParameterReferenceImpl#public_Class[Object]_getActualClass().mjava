@@ -55,7 +55,21 @@ getActualClass
 )
 ;
 }
-return
+throw
+new
+SpoonClassNotFoundException
+(
+"you should never call getActualClass  ("
++
+this
+.
+getQualifiedName
+(
+)
++
+" not found in the classpath)"
+,
 null
+)
 ;
 }

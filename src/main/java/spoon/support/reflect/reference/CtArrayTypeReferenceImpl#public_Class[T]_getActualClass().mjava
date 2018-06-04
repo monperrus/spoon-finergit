@@ -30,8 +30,24 @@ c
 null
 )
 {
-return
+throw
+new
+SpoonClassNotFoundException
+(
+"you should never call getActualClass! ("
++
+getComponentType
+(
+)
+.
+getQualifiedName
+(
+)
++
+" not found in the classpath)"
+,
 null
+)
 ;
 }
 return
