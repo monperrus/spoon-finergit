@@ -1,12 +1,12 @@
 private
-Object
-getDefaultValue
+CtExpression
+getDefaultExpression
 (
 String
 fieldName
 )
 {
-Object
+CtExpression
 ret
 =
 null

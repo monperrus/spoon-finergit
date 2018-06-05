@@ -1,4 +1,5 @@
 @Override
+@SuppressWarnings("unchecked")
 public
 <
 T
@@ -16,11 +17,7 @@ return
 (
 T
 )
-this
-.
-elementValues
-.
-get
+getValueAsExpression
 (
 key
 )

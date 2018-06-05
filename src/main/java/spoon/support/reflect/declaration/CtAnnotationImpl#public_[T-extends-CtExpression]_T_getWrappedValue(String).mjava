@@ -22,13 +22,6 @@ getValue
 key
 )
 ;
-if
-(
-ctExpression
-instanceof
-CtLiteral
-)
-{
 CtTypeReference
 typeReference
 =
@@ -85,6 +78,13 @@ if
 returnType
 instanceof
 CtArrayTypeReference
+&&
+!
+(
+ctExpression
+instanceof
+CtNewArray
+)
 )
 {
 CtNewArray
@@ -154,7 +154,6 @@ T
 )
 newArray
 ;
-}
 }
 }
 }

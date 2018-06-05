@@ -80,7 +80,7 @@ ctMethod
 )
 {
 final
-CtField
+CtAnnotationMethod
 <
 Object
 >
@@ -92,7 +92,7 @@ Core
 (
 )
 .
-createField
+createAnnotationMethod
 (
 )
 ;
@@ -131,7 +131,7 @@ getType
 ;
 ctAnnotationType
 .
-addField
+addMethod
 (
 field
 )
