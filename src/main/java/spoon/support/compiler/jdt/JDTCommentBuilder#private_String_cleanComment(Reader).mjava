@@ -105,6 +105,14 @@ endsWith
 (
 "*/"
 )
+&&
+line
+.
+length
+(
+)
+>
+3
 )
 {
 line
