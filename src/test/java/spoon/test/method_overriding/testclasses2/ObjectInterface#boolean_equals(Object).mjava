@@ -1,0 +1,7 @@
+boolean
+equals
+(
+Object
+other
+)
+;

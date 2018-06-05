@@ -1,0 +1,23 @@
+/** 
+ * configures whether it should visit  {@link Object} at the end of interface extends interface hierarchy.Note: interface cannot extend Object (only other interfaces), but note that interface inherits all public type members of  {@link Object}, so there are use cases where client wants to visit Object as last member of interface inheritance hierarchy
+ * @param interfacesExtendObject if true then {@link Object} is visited at the end too
+ * @return this to support fluent API
+ */
+public
+SuperInheritanceHierarchyFunction
+interfacesExtendObject
+(
+boolean
+interfacesExtendObject
+)
+{
+this
+.
+interfacesExtendObject
+=
+interfacesExtendObject
+;
+return
+this
+;
+}
