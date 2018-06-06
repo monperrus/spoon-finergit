@@ -112,4 +112,13 @@ toString
 )
 )
 ;
+assertFalse
+(
+result
+.
+isParentInitialized
+(
+)
+)
+;
 }

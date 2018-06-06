@@ -116,6 +116,15 @@ apply
 resultKlass
 )
 ;
+assertFalse
+(
+result
+.
+isParentInitialized
+(
+)
+)
+;
 assertEquals
 (
 "new java.lang.String(\"Spoon is cool!\")"
