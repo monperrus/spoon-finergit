@@ -8,8 +8,6 @@ getSuperclass
 (
 )
 {
-try
-{
 CtType
 <
 T
@@ -33,17 +31,6 @@ t
 getSuperclass
 (
 )
-;
-}
-}
-catch
-(
-SpoonClassNotFoundException
-e
-)
-{
-return
-null
 ;
 }
 return
