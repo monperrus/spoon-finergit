@@ -1,4 +1,5 @@
-private
+@Override
+public
 Object
 getValueAsObject
 (

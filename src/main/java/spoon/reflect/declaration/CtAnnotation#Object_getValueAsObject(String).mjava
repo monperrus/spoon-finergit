@@ -1,0 +1,11 @@
+/** 
+ * Returns the actual value of an annotation property 
+ */
+@DerivedProperty
+Object
+getValueAsObject
+(
+String
+key
+)
+;
