@@ -1,0 +1,14 @@
+/** 
+ * Get all values of  {@link #getValues()}, plus the default ones defined in the annotation type. 
+ */
+@DerivedProperty
+Map
+<
+String
+,
+CtExpression
+>
+getAllValues
+(
+)
+;
