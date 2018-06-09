@@ -1,0 +1,14 @@
+@Override
+@UnsettableProperty
+<
+C
+extends
+CtNamedElement
+>
+C
+setSimpleName
+(
+String
+simpleName
+)
+;

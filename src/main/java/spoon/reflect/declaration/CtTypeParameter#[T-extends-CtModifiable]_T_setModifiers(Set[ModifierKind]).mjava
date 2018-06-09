@@ -1,0 +1,17 @@
+@Override
+@UnsettableProperty
+<
+T
+extends
+CtModifiable
+>
+T
+setModifiers
+(
+Set
+<
+ModifierKind
+>
+modifiers
+)
+;

@@ -1,0 +1,14 @@
+@Override
+@UnsettableProperty
+<
+C
+extends
+CtStatement
+>
+C
+setLabel
+(
+String
+label
+)
+;
