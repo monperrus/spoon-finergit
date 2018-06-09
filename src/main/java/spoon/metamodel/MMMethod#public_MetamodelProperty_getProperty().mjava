@@ -1,0 +1,13 @@
+/** 
+ * @return the {@link MetamodelProperty} which is get or set by this {@link MMMethod}
+ */
+public
+MetamodelProperty
+getProperty
+(
+)
+{
+return
+ownerField
+;
+}

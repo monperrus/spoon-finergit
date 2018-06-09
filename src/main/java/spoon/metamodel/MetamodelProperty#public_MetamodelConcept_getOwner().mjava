@@ -1,0 +1,13 @@
+/** 
+ * returns the concept that holds this property 
+ */
+public
+MetamodelConcept
+getOwner
+(
+)
+{
+return
+ownerConcept
+;
+}

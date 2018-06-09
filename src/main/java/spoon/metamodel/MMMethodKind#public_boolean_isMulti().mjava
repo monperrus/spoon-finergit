@@ -1,0 +1,13 @@
+/** 
+ * @return true if this accessor provides access to elements of a collection.false if it accessed full value of attribute
+ */
+public
+boolean
+isMulti
+(
+)
+{
+return
+multi
+;
+}

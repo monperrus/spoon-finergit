@@ -43,7 +43,7 @@ assertEquals
 (
 expectedProperty
 .
-getItemValueType
+getTypeofItems
 (
 )
 .
@@ -53,7 +53,7 @@ getActualClass
 ,
 runtimeProperty
 .
-getItemValueType
+getTypeofItems
 (
 )
 .
@@ -66,7 +66,7 @@ assertEquals
 (
 expectedProperty
 .
-getOwnerConcept
+getOwner
 (
 )
 .
@@ -76,7 +76,7 @@ getName
 ,
 runtimeProperty
 .
-getOwnerConcept
+getOwner
 (
 )
 .
@@ -89,13 +89,13 @@ assertSame
 (
 expectedProperty
 .
-getValueContainerType
+getContainerKind
 (
 )
 ,
 runtimeProperty
 .
-getValueContainerType
+getContainerKind
 (
 )
 )
@@ -104,13 +104,13 @@ assertEquals
 (
 expectedProperty
 .
-getValueType
+getTypeOfField
 (
 )
 ,
 runtimeProperty
 .
-getValueType
+getTypeOfField
 (
 )
 )

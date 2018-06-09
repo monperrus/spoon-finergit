@@ -1,0 +1,28 @@
+/** 
+ * Returns the type of the property for List&lt;String&gt; field the ValueType is String for String field the ValueType is String (when getContainerKind ==  {@link ContainerKind#SINGLE},  {@link #getTypeofItems()} == {@link #getTypeOfField()}.
+ */
+public
+CtTypeReference
+<
+?
+>
+getTypeofItems
+(
+)
+{
+if
+(
+itemValueType
+==
+null
+)
+{
+getTypeOfField
+(
+)
+;
+}
+return
+itemValueType
+;
+}

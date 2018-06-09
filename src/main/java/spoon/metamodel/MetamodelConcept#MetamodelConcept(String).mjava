@@ -1,0 +1,17 @@
+MetamodelConcept
+(
+String
+name
+)
+{
+super
+(
+)
+;
+this
+.
+name
+=
+name
+;
+}

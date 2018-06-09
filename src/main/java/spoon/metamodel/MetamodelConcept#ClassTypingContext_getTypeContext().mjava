@@ -1,0 +1,34 @@
+/** 
+ * @return {@link ClassTypingContext}, which can be used to adapt super type methods to this  {@link MetamodelConcept}(package protected, not in the public API)
+ */
+ClassTypingContext
+getTypeContext
+(
+)
+{
+if
+(
+typeContext
+==
+null
+)
+{
+typeContext
+=
+new
+ClassTypingContext
+(
+modelClass
+!=
+null
+?
+modelClass
+:
+modelInterface
+)
+;
+}
+return
+typeContext
+;
+}

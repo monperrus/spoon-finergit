@@ -10,7 +10,7 @@ typeName
 =
 field
 .
-getOwnerConcept
+getOwner
 (
 )
 .

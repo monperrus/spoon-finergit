@@ -1,0 +1,29 @@
+/** 
+ * @return Spoon {@link Metamodel}, which is built once and then returns cached version
+ */
+public
+static
+Metamodel
+getInstance
+(
+)
+{
+if
+(
+instance
+==
+null
+)
+{
+instance
+=
+new
+Metamodel
+(
+)
+;
+}
+return
+instance
+;
+}

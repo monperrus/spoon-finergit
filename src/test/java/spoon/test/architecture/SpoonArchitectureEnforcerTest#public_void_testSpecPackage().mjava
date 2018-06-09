@@ -73,6 +73,13 @@ officialPackages
 .
 add
 (
+"spoon.metamodel"
+)
+;
+officialPackages
+.
+add
+(
 "spoon.processing"
 )
 ;

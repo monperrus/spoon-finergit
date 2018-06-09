@@ -5,11 +5,11 @@ testShadowModelEqualsNormalModel
 (
 )
 {
-SpoonMetaModel
+Metamodel
 metaModel
 =
 new
-SpoonMetaModel
+Metamodel
 (
 new
 File
@@ -51,7 +51,7 @@ checkShadowTypeIsEqual
 (
 concept
 .
-getModelClass
+getImplementationClass
 (
 )
 )
@@ -65,7 +65,7 @@ checkShadowTypeIsEqual
 (
 concept
 .
-getModelInterface
+getMetamodelInterface
 (
 )
 )

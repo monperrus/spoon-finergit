@@ -1,0 +1,13 @@
+/** 
+ * returns the kind of property (list, value, etc) 
+ */
+public
+ContainerKind
+getContainerKind
+(
+)
+{
+return
+valueContainerType
+;
+}

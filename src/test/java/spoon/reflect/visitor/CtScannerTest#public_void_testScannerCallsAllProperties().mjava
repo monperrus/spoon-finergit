@@ -130,17 +130,13 @@ asList
 )
 )
 ;
-SpoonMetaModel
+Metamodel
 metaModel
 =
-new
-SpoonMetaModel
+Metamodel
+.
+getInstance
 (
-new
-File
-(
-"./src/main/java"
-)
 )
 ;
 Map
@@ -240,7 +236,7 @@ getKind
 (
 )
 !=
-MMTypeKind
+ConceptKind
 .
 LEAF
 )
@@ -332,6 +328,12 @@ mmField
 isDerived
 (
 )
+||
+mmField
+.
+isUnsettable
+(
+)
 )
 {
 return
@@ -341,7 +343,7 @@ if
 (
 mmField
 .
-getItemValueType
+getTypeofItems
 (
 )
 .
@@ -493,7 +495,7 @@ equals
 &&
 leafConcept
 .
-getModelInterface
+getMetamodelInterface
 (
 )
 .
@@ -733,7 +735,11 @@ problems
 }
 assertTrue
 (
-"not enough checks"
+"not enough checks "
++
+c
+.
+nbChecks
 ,
 c
 .

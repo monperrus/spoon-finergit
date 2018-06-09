@@ -1,0 +1,19 @@
+/** 
+ * @return {@link MetamodelConcept} where this {@link MMMethod} belongs to
+ */
+public
+MetamodelConcept
+getOwner
+(
+)
+{
+return
+getProperty
+(
+)
+.
+getOwner
+(
+)
+;
+}

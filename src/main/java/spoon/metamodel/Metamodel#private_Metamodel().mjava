@@ -1,0 +1,36 @@
+/** 
+ * Creates a  {@link Metamodel} in runtime mode when spoon sources are not available.See also  {@link #getInstance()}.
+ */
+private
+Metamodel
+(
+)
+{
+for
+(
+CtType
+<
+?
+>
+iface
+:
+getAllMetamodelInterfaces
+(
+)
+)
+{
+if
+(
+iface
+instanceof
+CtInterface
+)
+{
+getOrCreateConcept
+(
+iface
+)
+;
+}
+}
+}

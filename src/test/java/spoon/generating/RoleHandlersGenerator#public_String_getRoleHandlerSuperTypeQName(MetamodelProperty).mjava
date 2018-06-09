@@ -10,7 +10,7 @@ switch
 (
 field
 .
-getValueContainerType
+getContainerKind
 (
 )
 )
@@ -48,7 +48,7 @@ SpoonException
 +
 field
 .
-getValueContainerType
+getContainerKind
 (
 )
 .

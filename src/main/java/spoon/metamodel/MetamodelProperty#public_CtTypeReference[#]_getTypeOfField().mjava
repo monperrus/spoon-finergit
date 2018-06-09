@@ -1,0 +1,31 @@
+/** 
+ * Return the type of the field for List&lt;String&gt; field the ValueType is List for String field the ValueType is String
+ */
+public
+CtTypeReference
+<
+?
+>
+getTypeOfField
+(
+)
+{
+if
+(
+valueType
+==
+null
+)
+{
+throw
+new
+SpoonException
+(
+"Model is not initialized yet"
+)
+;
+}
+return
+valueType
+;
+}

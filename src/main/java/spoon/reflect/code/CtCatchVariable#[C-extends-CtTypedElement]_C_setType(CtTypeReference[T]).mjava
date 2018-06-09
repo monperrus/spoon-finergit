@@ -1,0 +1,17 @@
+@Override
+@UnsettableProperty
+<
+C
+extends
+CtTypedElement
+>
+C
+setType
+(
+CtTypeReference
+<
+T
+>
+type
+)
+;

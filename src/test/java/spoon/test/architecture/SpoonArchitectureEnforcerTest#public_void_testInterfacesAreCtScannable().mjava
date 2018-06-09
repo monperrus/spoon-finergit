@@ -111,14 +111,10 @@ ArrayList
 (
 )
 ;
-new
-SpoonMetaModel
-(
-interfaces
+Metamodel
 .
-getFactory
+getInstance
 (
-)
 )
 .
 getConcepts
@@ -142,7 +138,7 @@ ABSTRACT
 &&
 mmConcept
 .
-getModelInterface
+getMetamodelInterface
 (
 )
 !=
@@ -154,7 +150,7 @@ abstractIface
 =
 mmConcept
 .
-getModelInterface
+getMetamodelInterface
 (
 )
 ;

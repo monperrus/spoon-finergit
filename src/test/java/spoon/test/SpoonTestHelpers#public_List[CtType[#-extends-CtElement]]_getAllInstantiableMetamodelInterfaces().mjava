@@ -13,14 +13,10 @@ getAllInstantiableMetamodelInterfaces
 )
 {
 return
-new
-SpoonMetaModel
+Metamodel
+.
+getInstance
 (
-new
-File
-(
-"src/main/java"
-)
 )
 .
 getAllInstantiableMetamodelInterfaces

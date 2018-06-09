@@ -28,7 +28,7 @@ if
 (
 expectedConcept
 .
-getModelClass
+getImplementationClass
 (
 )
 ==
@@ -39,7 +39,7 @@ assertNull
 (
 runtimeConcept
 .
-getModelClass
+getImplementationClass
 (
 )
 )
@@ -51,7 +51,7 @@ assertNotNull
 (
 runtimeConcept
 .
-getModelClass
+getImplementationClass
 (
 )
 )
@@ -60,7 +60,7 @@ assertEquals
 (
 expectedConcept
 .
-getModelClass
+getImplementationClass
 (
 )
 .
@@ -70,7 +70,7 @@ getActualClass
 ,
 runtimeConcept
 .
-getModelClass
+getImplementationClass
 (
 )
 .
@@ -84,7 +84,7 @@ assertEquals
 (
 expectedConcept
 .
-getModelInterface
+getMetamodelInterface
 (
 )
 .
@@ -94,7 +94,7 @@ getActualClass
 ,
 runtimeConcept
 .
-getModelInterface
+getMetamodelInterface
 (
 )
 .
