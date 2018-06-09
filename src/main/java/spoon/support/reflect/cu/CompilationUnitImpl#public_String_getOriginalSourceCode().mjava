@@ -4,8 +4,6 @@ getOriginalSourceCode
 (
 )
 {
-try
-{
 if
 (
 originalSourceCode
@@ -13,6 +11,8 @@ originalSourceCode
 null
 )
 {
+try
+(
 FileInputStream
 s
 =
@@ -23,7 +23,8 @@ getFile
 (
 )
 )
-;
+)
+{
 byte
 [
 ]
@@ -39,12 +40,6 @@ s
 read
 (
 elementBytes
-)
-;
-s
-.
-close
-(
 )
 ;
 originalSourceCode
@@ -70,7 +65,6 @@ getEncoding
 )
 ;
 }
-}
 catch
 (
 Exception
@@ -84,6 +78,7 @@ RuntimeException
 e
 )
 ;
+}
 }
 return
 originalSourceCode
