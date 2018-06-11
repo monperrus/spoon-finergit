@@ -1,0 +1,15 @@
+public
+void
+setElementType
+(
+MetamodelConcept
+elementType
+)
+{
+this
+.
+elementType
+=
+elementType
+;
+}

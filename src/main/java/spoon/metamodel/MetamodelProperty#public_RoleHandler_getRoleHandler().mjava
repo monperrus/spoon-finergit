@@ -1,0 +1,15 @@
+/** 
+ * @return {@link RoleHandler} which can access runtime data of this Property
+ */
+public
+RoleHandler
+getRoleHandler
+(
+)
+{
+return
+this
+.
+roleHandler
+;
+}

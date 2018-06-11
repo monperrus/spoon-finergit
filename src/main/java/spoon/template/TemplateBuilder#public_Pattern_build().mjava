@@ -1,0 +1,17 @@
+/** 
+ * @return a {@link Pattern} built by this {@link TemplateBuilder}
+ */
+public
+Pattern
+build
+(
+)
+{
+return
+patternBuilder
+.
+build
+(
+)
+;
+}

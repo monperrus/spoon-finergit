@@ -1,0 +1,16 @@
+@Override
+public
+void
+setSimplifyGenerated
+(
+boolean
+simplifyGenerated
+)
+{
+this
+.
+simplifyGenerated
+=
+simplifyGenerated
+;
+}

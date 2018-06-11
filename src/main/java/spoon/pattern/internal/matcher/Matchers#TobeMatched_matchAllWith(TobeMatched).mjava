@@ -1,0 +1,12 @@
+/** 
+ * Matches all matchers of this  {@link Matchers} instance with `targets`
+ * @param targets to be matched target nodes and input parameters
+ * @return {@link TobeMatched} with targets which remained after all {@link RootNode}s were matched + matched parameters
+ */
+TobeMatched
+matchAllWith
+(
+TobeMatched
+targets
+)
+;

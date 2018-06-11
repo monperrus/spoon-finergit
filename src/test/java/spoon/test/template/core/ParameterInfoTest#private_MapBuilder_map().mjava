@@ -1,0 +1,13 @@
+private
+MapBuilder
+map
+(
+)
+{
+return
+new
+MapBuilder
+(
+)
+;
+}

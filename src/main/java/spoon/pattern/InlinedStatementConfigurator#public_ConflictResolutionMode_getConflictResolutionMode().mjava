@@ -1,0 +1,13 @@
+/** 
+ * @return current {@link ConflictResolutionMode}
+ */
+public
+ConflictResolutionMode
+getConflictResolutionMode
+(
+)
+{
+return
+conflictResolutionMode
+;
+}

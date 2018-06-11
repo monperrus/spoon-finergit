@@ -1,0 +1,24 @@
+/** 
+ * Utility method that provides the same feature as  {@link #generate(Class,Map)}, but with a  {@link ImmutableMap} as parameter (a Spoon elegant utility type) 
+ */
+<
+T
+extends
+CtElement
+>
+List
+<
+T
+>
+generate
+(
+Class
+<
+T
+>
+valueType
+,
+ImmutableMap
+params
+)
+;

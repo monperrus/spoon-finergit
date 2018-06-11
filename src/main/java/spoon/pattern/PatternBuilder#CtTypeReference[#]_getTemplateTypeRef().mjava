@@ -1,0 +1,12 @@
+CtTypeReference
+<
+?
+>
+getTemplateTypeRef
+(
+)
+{
+return
+templateTypeRef
+;
+}

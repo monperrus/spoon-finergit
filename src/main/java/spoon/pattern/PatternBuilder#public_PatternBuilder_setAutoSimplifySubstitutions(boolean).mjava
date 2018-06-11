@@ -1,0 +1,22 @@
+/** 
+ * @param autoSimplifySubstitutions true if generated result of each substituted has to be evaluated to apply simplifications.The rule is applied only to substitutions defined after this call
+ * @return this to support fluent API
+ */
+public
+PatternBuilder
+setAutoSimplifySubstitutions
+(
+boolean
+autoSimplifySubstitutions
+)
+{
+this
+.
+autoSimplifySubstitutions
+=
+autoSimplifySubstitutions
+;
+return
+this
+;
+}

@@ -1,0 +1,16 @@
+private
+ParameterInfo
+[
+]
+getMatchingParameterInfos
+(
+)
+{
+getMatchingPattern
+(
+)
+;
+return
+params
+;
+}

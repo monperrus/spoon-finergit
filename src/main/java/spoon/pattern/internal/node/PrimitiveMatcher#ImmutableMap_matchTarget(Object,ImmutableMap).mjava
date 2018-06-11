@@ -1,0 +1,15 @@
+/** 
+ * @param target - to be matched element
+ * @param parameters will receive the matching parameter values
+ * @return true if `element` matches with pattern of this matcher
+ */
+ImmutableMap
+matchTarget
+(
+Object
+target
+,
+ImmutableMap
+parameters
+)
+;

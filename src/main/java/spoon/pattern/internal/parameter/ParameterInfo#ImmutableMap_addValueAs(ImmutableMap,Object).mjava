@@ -1,0 +1,16 @@
+/** 
+ * Matches `value` into `parameters` under the name/structure defined by this ParameterInfo. 1) checks that value matches with optional internal rules of this  {@link ParameterInfo}2) creates new copy of  {@link ImmutableMap} which contains the new `value` and returns that copy
+ * @param parameters the existing parameters
+ * @param value the new, to be stored value
+ * @return copy of `parameters` with new value or existing `parameters` if value is already there or null if value doesn't fit into these parameters
+ */
+ImmutableMap
+addValueAs
+(
+ImmutableMap
+parameters
+,
+Object
+value
+)
+;

@@ -1,0 +1,10 @@
+public
+ContainerKind
+getContainerKind
+(
+)
+{
+return
+containerKind
+;
+}

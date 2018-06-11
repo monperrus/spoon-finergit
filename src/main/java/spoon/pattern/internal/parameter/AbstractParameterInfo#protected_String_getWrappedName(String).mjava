@@ -1,0 +1,9 @@
+protected
+abstract
+String
+getWrappedName
+(
+String
+containerName
+)
+;

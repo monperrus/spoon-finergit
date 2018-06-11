@@ -1,0 +1,11 @@
+/** 
+ * @param parameterName to be checked parameter name
+ * @return true if there is defined some value for the parameter. null can be a value too
+ */
+boolean
+hasValue
+(
+String
+parameterName
+)
+;

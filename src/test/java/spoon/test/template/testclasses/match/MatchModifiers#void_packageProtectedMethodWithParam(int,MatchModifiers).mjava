@@ -1,0 +1,11 @@
+void
+packageProtectedMethodWithParam
+(
+int
+a
+,
+MatchModifiers
+me
+)
+{
+}

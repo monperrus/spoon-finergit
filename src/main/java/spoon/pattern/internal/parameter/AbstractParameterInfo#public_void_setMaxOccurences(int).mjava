@@ -1,0 +1,15 @@
+public
+void
+setMaxOccurences
+(
+int
+maxOccurences
+)
+{
+this
+.
+maxOccurences
+=
+maxOccurences
+;
+}

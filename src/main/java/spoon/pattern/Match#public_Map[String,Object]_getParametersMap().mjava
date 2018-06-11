@@ -1,0 +1,22 @@
+/** 
+ * @return {@link Map} with values of {@link Pattern} parameters, which fits to current match
+ */
+public
+Map
+<
+String
+,
+Object
+>
+getParametersMap
+(
+)
+{
+return
+parameters
+.
+asMap
+(
+)
+;
+}

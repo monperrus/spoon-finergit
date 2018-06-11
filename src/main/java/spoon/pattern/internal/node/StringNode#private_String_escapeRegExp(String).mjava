@@ -1,0 +1,16 @@
+private
+String
+escapeRegExp
+(
+String
+str
+)
+{
+return
+"\\Q"
++
+str
++
+"\\E"
+;
+}

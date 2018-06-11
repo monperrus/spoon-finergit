@@ -1,0 +1,21 @@
+/** 
+ * @return {@link List} of elements, which match to the Pattern.Use  {@link #getMatchingElement()} if the {@link Pattern} matches single root element.But when  {@link Pattern} contains sequence of root elements, then this is the right way how to get them all
+ */
+public
+List
+<
+CtElement
+>
+getMatchingElements
+(
+)
+{
+return
+getMatchingElements
+(
+CtElement
+.
+class
+)
+;
+}

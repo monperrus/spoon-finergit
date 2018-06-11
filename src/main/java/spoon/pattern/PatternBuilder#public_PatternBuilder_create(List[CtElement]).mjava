@@ -1,0 +1,25 @@
+/** 
+ * Creates a  {@link PatternBuilder} from the List of template elements
+ * @param patternModel a List of Spoon AST nodes, which represents a template of to be generated or to be matched code
+ * @return new instance of {@link PatternBuilder}
+ */
+public
+static
+PatternBuilder
+create
+(
+List
+<
+CtElement
+>
+patternModel
+)
+{
+return
+new
+PatternBuilder
+(
+patternModel
+)
+;
+}

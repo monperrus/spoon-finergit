@@ -1,0 +1,38 @@
+/** 
+ * Returns zero, one or more values into `result`. The value comes from `parameters` from the location defined by `parameterInfo`
+ * @param parameterInfo the {@link ParameterInfo}, which describes exact parameter from `parameters`
+ * @param result the holder which receives the generated node
+ * @param parameters the input parameters
+ */
+public
+<
+T
+>
+void
+getValueAs
+(
+ParameterInfo
+parameterInfo
+,
+ResultHolder
+<
+T
+>
+result
+,
+ImmutableMap
+parameters
+)
+{
+parameterInfo
+.
+getValueAs
+(
+factory
+,
+result
+,
+parameters
+)
+;
+}

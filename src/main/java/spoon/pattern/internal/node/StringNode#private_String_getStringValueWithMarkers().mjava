@@ -1,0 +1,10 @@
+private
+String
+getStringValueWithMarkers
+(
+)
+{
+return
+stringValueWithMarkers
+;
+}

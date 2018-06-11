@@ -1,0 +1,12 @@
+private
+void
+scan
+(
+CtEnumValue
+<
+?
+>
+enumValue
+)
+{
+}

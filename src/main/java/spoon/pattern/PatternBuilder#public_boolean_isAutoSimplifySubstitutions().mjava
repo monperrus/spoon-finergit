@@ -1,0 +1,13 @@
+/** 
+ * @return true if generated result has to be evaluated to apply simplifications.
+ */
+public
+boolean
+isAutoSimplifySubstitutions
+(
+)
+{
+return
+autoSimplifySubstitutions
+;
+}

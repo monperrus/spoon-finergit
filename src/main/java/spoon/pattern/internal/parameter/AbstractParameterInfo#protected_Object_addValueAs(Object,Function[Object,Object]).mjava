@@ -1,0 +1,23 @@
+/** 
+ * takes existing item value from the `container`, sends it as parameter into `merger` and get's new to be stored value stores that value into new `container` and returns it
+ * @param container a container of values
+ * @param merger a code which merges existing value from container with new value and returns merged value, which has to be stored in the container instead
+ * @return copy of the container with merged value
+ */
+protected
+abstract
+Object
+addValueAs
+(
+Object
+container
+,
+Function
+<
+Object
+,
+Object
+>
+merger
+)
+;

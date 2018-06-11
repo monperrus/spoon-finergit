@@ -1,0 +1,8 @@
+/** 
+ * @return a new instance of {@link ImmutableMap}, which inherits all values from this  {@link ImmutableMap}Any call of  {@link #putValue(String,Object)} is remembered in local Map of parameters.At the end of process the  {@link #getModifiedValues()} can be used to return all the parameters which were changedafter local  {@link ImmutableMap} was created
+ */
+ImmutableMap
+checkpoint
+(
+)
+;

@@ -1,0 +1,15 @@
+public
+void
+setIterableParameter
+(
+PrimitiveMatcher
+substRequestOfIterable
+)
+{
+this
+.
+iterableParameter
+=
+substRequestOfIterable
+;
+}

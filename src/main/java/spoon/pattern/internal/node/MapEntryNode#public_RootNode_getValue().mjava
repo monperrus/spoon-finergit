@@ -1,0 +1,10 @@
+public
+RootNode
+getValue
+(
+)
+{
+return
+value
+;
+}

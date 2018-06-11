@@ -1,0 +1,13 @@
+@Override
+public
+Quantifier
+getMatchingStrategy
+(
+)
+{
+return
+Quantifier
+.
+POSSESSIVE
+;
+}

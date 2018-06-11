@@ -1,0 +1,7 @@
+@Check(value="xyz")
+void
+m1
+(
+)
+{
+}

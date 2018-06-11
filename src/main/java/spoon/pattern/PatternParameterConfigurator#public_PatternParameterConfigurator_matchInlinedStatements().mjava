@@ -1,0 +1,39 @@
+/** 
+ * marks a CtIf and CtForEach to be matched, even when inlined.
+ * @return this to support fluent API
+ */
+public
+PatternParameterConfigurator
+matchInlinedStatements
+(
+)
+{
+InlinedStatementConfigurator
+sb
+=
+new
+InlinedStatementConfigurator
+(
+patternBuilder
+)
+;
+for
+(
+CtElement
+ctElement
+:
+substitutedNodes
+)
+{
+sb
+.
+byElement
+(
+ctElement
+)
+;
+}
+return
+this
+;
+}

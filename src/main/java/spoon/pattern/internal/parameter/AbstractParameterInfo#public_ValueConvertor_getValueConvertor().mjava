@@ -1,0 +1,43 @@
+/** 
+ * @return the {@link ValueConvertor} used by reading and writing into parameter values defined by this {@link ParameterInfo}
+ */
+public
+ValueConvertor
+getValueConvertor
+(
+)
+{
+if
+(
+valueConvertor
+!=
+null
+)
+{
+return
+valueConvertor
+;
+}
+if
+(
+containerItemAccessor
+!=
+null
+)
+{
+return
+containerItemAccessor
+.
+getValueConvertor
+(
+)
+;
+}
+throw
+new
+SpoonException
+(
+"ValueConvertor is not defined."
+)
+;
+}

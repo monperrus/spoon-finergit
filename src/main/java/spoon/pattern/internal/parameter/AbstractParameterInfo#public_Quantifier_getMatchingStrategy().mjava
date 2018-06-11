@@ -1,0 +1,10 @@
+public
+Quantifier
+getMatchingStrategy
+(
+)
+{
+return
+matchingStrategy
+;
+}

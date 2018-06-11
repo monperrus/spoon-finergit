@@ -1,0 +1,35 @@
+/** 
+ * Adds request to substitute value of `attributeRole` of `element`, by the value of this  {@link ListOfNodes} parameter {@link ParameterInfo} value
+ * @param element whose attribute of {@link CtRole} `attributeRole` have to be replaced
+ */
+void
+addSubstitutionRequest
+(
+ParameterInfo
+parameter
+,
+CtElement
+element
+,
+CtRole
+attributeRole
+)
+{
+patternBuilder
+.
+setNodeOfAttributeOfElement
+(
+element
+,
+attributeRole
+,
+new
+ParameterNode
+(
+parameter
+)
+,
+conflictResolutionMode
+)
+;
+}

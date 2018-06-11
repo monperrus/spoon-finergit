@@ -1,0 +1,9 @@
+boolean
+isAddGeneratedBy
+(
+)
+{
+return
+addGeneratedBy
+;
+}

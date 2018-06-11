@@ -1,0 +1,26 @@
+/** 
+ * @param element a CtElement
+ * @return {@link RootNode}, which handles matching/generation of an `object` from the source spoon AST. or null, if there is none
+ */
+RootNode
+getOptionalPatternNode
+(
+CtElement
+element
+,
+CtRole
+...
+roles
+)
+{
+return
+getPatternNode
+(
+true
+,
+element
+,
+roles
+)
+;
+}

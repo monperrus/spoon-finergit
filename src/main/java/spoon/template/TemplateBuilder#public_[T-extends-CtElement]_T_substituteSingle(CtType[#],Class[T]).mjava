@@ -1,0 +1,56 @@
+/** 
+ * generates a new AST node made by cloning of `patternModel` and by substitution of parameters by their values
+ * @param targetType the CtType, which will receive the result of substitution
+ * @return a substituted element
+ */
+public
+<
+T
+extends
+CtElement
+>
+T
+substituteSingle
+(
+CtType
+<
+?
+>
+targetType
+,
+Class
+<
+T
+>
+itemType
+)
+{
+return
+build
+(
+)
+.
+generator
+(
+)
+.
+generate
+(
+itemType
+,
+new
+ImmutableMapImpl
+(
+getTemplateParameters
+(
+targetType
+)
+)
+)
+.
+get
+(
+0
+)
+;
+}

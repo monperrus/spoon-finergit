@@ -1,0 +1,15 @@
+public
+void
+setLocalParameter
+(
+ParameterInfo
+parameterInfo
+)
+{
+this
+.
+localParameter
+=
+parameterInfo
+;
+}

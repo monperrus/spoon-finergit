@@ -1,0 +1,21 @@
+/** 
+ * @return Map of template parameters from `template`
+ */
+public
+Map
+<
+String
+,
+Object
+>
+getTemplateParameters
+(
+)
+{
+return
+getTemplateParameters
+(
+null
+)
+;
+}

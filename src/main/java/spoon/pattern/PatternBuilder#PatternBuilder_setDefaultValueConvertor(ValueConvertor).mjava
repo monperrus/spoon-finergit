@@ -1,0 +1,21 @@
+/** 
+ * @param valueConvertor default {@link ValueConvertor}, which will be assigned to all  {@link ParameterInfo}s created after this call
+ * @return this to support fluent API
+ */
+PatternBuilder
+setDefaultValueConvertor
+(
+ValueConvertor
+valueConvertor
+)
+{
+this
+.
+valueConvertor
+=
+valueConvertor
+;
+return
+this
+;
+}

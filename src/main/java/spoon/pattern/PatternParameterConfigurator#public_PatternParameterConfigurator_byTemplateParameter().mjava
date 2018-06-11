@@ -1,0 +1,17 @@
+/** 
+ * Creates pattern parameter for each field of type  {@link TemplateParameter}
+ * @return this to support fluent API
+ */
+public
+PatternParameterConfigurator
+byTemplateParameter
+(
+)
+{
+return
+byTemplateParameter
+(
+null
+)
+;
+}

@@ -67,11 +67,7 @@ Type
 .
 createReference
 (
-TypeReferenceClassAccessTemplate
-.
-Example
-.
-class
+"spoon.test.template.TypeReferenceClassAccess$Example"
 )
 ;
 typeRef

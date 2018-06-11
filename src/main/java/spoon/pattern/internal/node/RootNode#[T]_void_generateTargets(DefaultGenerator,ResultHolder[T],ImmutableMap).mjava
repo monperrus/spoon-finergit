@@ -1,0 +1,25 @@
+/** 
+ * Generates zero, one or more target depending on kind of this  {@link RootNode}, expected `result` and input `parameters`
+ * @param generator {@link Generator} which drives generation process
+ * @param result holder for the generated objects
+ * @param parameters a {@link ImmutableMap} holding parameters
+ */
+<
+T
+>
+void
+generateTargets
+(
+DefaultGenerator
+generator
+,
+ResultHolder
+<
+T
+>
+result
+,
+ImmutableMap
+parameters
+)
+;

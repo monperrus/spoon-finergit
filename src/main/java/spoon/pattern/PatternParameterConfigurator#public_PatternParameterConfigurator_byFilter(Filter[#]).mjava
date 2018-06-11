@@ -1,0 +1,54 @@
+/** 
+ * All elements matched by  {@link Filter} will be substituted by parameter value
+ * @param filter {@link Filter}, which defines to be substituted elements
+ * @return {@link PatternParameterConfigurator} to support fluent API
+ */
+public
+PatternParameterConfigurator
+byFilter
+(
+Filter
+<
+?
+>
+filter
+)
+{
+ParameterInfo
+pi
+=
+getCurrentParameter
+(
+)
+;
+queryModel
+(
+)
+.
+filterChildren
+(
+filter
+)
+.
+forEach
+(
+(
+CtElement
+ele
+)
+->
+{
+addSubstitutionRequest
+(
+pi
+,
+ele
+)
+;
+}
+)
+;
+return
+this
+;
+}

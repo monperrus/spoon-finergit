@@ -1,0 +1,26 @@
+/** 
+ * @param template a List of {@link CtElement}s, which has to be used as pattern model
+ */
+@SuppressWarnings({"unchecked","rawtypes"})
+private
+void
+setElements
+(
+List
+<
+?
+CtElement
+>
+template
+)
+{
+this
+.
+elements
+=
+(
+List
+)
+template
+;
+}

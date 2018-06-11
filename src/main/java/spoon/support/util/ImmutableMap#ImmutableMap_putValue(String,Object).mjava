@@ -1,0 +1,15 @@
+/** 
+ * @param parameterName to be set parameter name
+ * @param value the new value
+ * @return copies this {@link ImmutableMap}, sets the new value there and returns that copy
+ */
+ImmutableMap
+putValue
+(
+String
+parameterName
+,
+Object
+value
+)
+;

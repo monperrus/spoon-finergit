@@ -1,0 +1,14 @@
+public
+InlinedStatementConfigurator
+(
+PatternBuilder
+patternBuilder
+)
+{
+this
+.
+patternBuilder
+=
+patternBuilder
+;
+}

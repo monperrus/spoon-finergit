@@ -1,0 +1,16 @@
+/** 
+ * @return {@link List} of {@link RootNode}s of this  {@link ListOfNodes}
+ */
+public
+List
+<
+RootNode
+>
+getNodes
+(
+)
+{
+return
+nodes
+;
+}

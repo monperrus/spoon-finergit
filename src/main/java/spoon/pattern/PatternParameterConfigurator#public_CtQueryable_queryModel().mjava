@@ -1,0 +1,12 @@
+public
+CtQueryable
+queryModel
+(
+)
+{
+return
+patternBuilder
+.
+patternQuery
+;
+}

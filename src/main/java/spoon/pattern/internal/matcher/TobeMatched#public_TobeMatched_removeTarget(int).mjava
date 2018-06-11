@@ -1,0 +1,21 @@
+/** 
+ * @param idxOfTobeRemovedTarget index of to be removed target
+ * @return new {@link TobeMatched} without the target on the index `idxOfTobeRemovedTarget`
+ */
+public
+TobeMatched
+removeTarget
+(
+int
+idxOfTobeRemovedTarget
+)
+{
+return
+removeTarget
+(
+parameters
+,
+idxOfTobeRemovedTarget
+)
+;
+}

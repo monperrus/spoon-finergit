@@ -1,0 +1,61 @@
+/** 
+ * Searches for a type visible in scope `templateType`, whose simple name is equal to `localTypeSimpleName`
+ * @param searchScope the Type which is searched for local Type
+ * @param localTypeSimpleName the simple name of to be returned Type
+ * @return {@link PatternParameterConfigurator} to support fluent API
+ */
+public
+PatternParameterConfigurator
+byLocalType
+(
+CtType
+<
+?
+>
+searchScope
+,
+String
+localTypeSimpleName
+)
+{
+CtTypeReference
+<
+?
+>
+nestedType
+=
+getLocalTypeRefBySimpleName
+(
+searchScope
+,
+localTypeSimpleName
+)
+;
+if
+(
+nestedType
+==
+null
+)
+{
+throw
+new
+SpoonException
+(
+"Template parameter "
++
+localTypeSimpleName
++
+" doesn't match to any local type"
+)
+;
+}
+byType
+(
+nestedType
+)
+;
+return
+this
+;
+}

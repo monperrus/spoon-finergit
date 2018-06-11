@@ -1,0 +1,23 @@
+/** 
+ * @return {@link ParameterInfo} to replace marker map
+ */
+public
+Map
+<
+String
+,
+ParameterInfo
+>
+getReplaceMarkers
+(
+)
+{
+return
+Collections
+.
+unmodifiableMap
+(
+tobeReplacedSubstrings
+)
+;
+}

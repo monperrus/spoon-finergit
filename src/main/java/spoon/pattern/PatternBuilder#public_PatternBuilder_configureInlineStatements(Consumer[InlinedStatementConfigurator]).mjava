@@ -1,0 +1,36 @@
+/** 
+ * Configures inlined statements For example if the `for` statement in this pattern model <pre><code> for(Object x : $iterable$) { System.out.println(x); } </code></pre> is configured as inline statement and a Pattern is substituted using parameter <code>$iterable$ = new String[]{"A", "B", "C"}</code> then pattern generated this code <pre><code> System.out.println("A"); System.out.println("B"); System.out.println("C"); </code></pre> because inline statements are executed during substitution process and are not included in generated result. The inline statements may be used in PatternMatching process (opposite to Pattern substitution) too.
+ * @param consumer
+ * @return this to support fluent API
+ */
+public
+PatternBuilder
+configureInlineStatements
+(
+Consumer
+<
+InlinedStatementConfigurator
+>
+consumer
+)
+{
+InlinedStatementConfigurator
+sb
+=
+new
+InlinedStatementConfigurator
+(
+this
+)
+;
+consumer
+.
+accept
+(
+sb
+)
+;
+return
+this
+;
+}

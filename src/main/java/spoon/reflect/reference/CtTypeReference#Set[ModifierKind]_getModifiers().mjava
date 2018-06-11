@@ -1,0 +1,10 @@
+@Override
+@DerivedProperty
+Set
+<
+ModifierKind
+>
+getModifiers
+(
+)
+;

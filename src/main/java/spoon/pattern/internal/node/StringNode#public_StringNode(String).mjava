@@ -1,0 +1,14 @@
+public
+StringNode
+(
+String
+stringValueWithMarkers
+)
+{
+this
+.
+stringValueWithMarkers
+=
+stringValueWithMarkers
+;
+}

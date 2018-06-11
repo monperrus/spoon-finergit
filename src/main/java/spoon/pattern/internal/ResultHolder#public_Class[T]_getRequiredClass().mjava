@@ -1,0 +1,16 @@
+/** 
+ * @return the class of values, which acceptable by this result holder
+ */
+public
+Class
+<
+T
+>
+getRequiredClass
+(
+)
+{
+return
+requiredClass
+;
+}

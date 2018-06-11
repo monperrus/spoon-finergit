@@ -1,0 +1,37 @@
+/** 
+ * Configure pattern parameters with a  {@link PatternParameterConfigurator}
+ * @return this
+ */
+public
+PatternBuilder
+configurePatternParameters
+(
+Consumer
+<
+PatternParameterConfigurator
+>
+parametersBuilder
+)
+{
+PatternParameterConfigurator
+pb
+=
+new
+PatternParameterConfigurator
+(
+this
+,
+parameterInfos
+)
+;
+parametersBuilder
+.
+accept
+(
+pb
+)
+;
+return
+this
+;
+}

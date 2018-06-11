@@ -1,0 +1,15 @@
+/** 
+ * @param targets to be matched target nodes and input parameters
+ * @param nextMatchers Chain of matchers which has to be processed after this {@link RootNode}
+ * @return new parameters and container with remaining targets
+ */
+TobeMatched
+matchTargets
+(
+TobeMatched
+targets
+,
+Matchers
+nextMatchers
+)
+;

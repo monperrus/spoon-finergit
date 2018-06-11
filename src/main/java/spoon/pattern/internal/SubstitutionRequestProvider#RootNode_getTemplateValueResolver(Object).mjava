@@ -1,0 +1,11 @@
+/** 
+ * @param object a node from the Pattern model to be matched
+ * @return {@link RootNode}, which has to be used to match `object` from model of  {@link SubstitutionRequestProvider}
+ */
+RootNode
+getTemplateValueResolver
+(
+Object
+object
+)
+;

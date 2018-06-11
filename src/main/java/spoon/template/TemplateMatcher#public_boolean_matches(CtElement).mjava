@@ -1,20 +1,15 @@
-/** 
- * Matches a target program sub-tree against a template.
- * @param targetRoot the target to be tested for match
- * @return true if matches
- */
 @Override
 public
 boolean
 matches
 (
 CtElement
-targetRoot
+element
 )
 {
 if
 (
-targetRoot
+element
 ==
 templateRoot
 )
@@ -23,12 +18,35 @@ return
 false
 ;
 }
-return
-helperMatch
+matches
+=
+getMatchedParameters
 (
-targetRoot
-,
-templateRoot
+patternModel
+.
+matchAllWith
+(
+TobeMatched
+.
+create
+(
+new
+ImmutableMapImpl
+(
 )
+,
+ContainerKind
+.
+SINGLE
+,
+element
+)
+)
+)
+;
+return
+matches
+!=
+null
 ;
 }

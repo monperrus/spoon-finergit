@@ -1,0 +1,7 @@
+@Check(timeout=123,value="abc")
+void
+m2
+(
+)
+{
+}

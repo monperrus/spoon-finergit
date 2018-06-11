@@ -1,0 +1,32 @@
+/** 
+ * Sets a template model from  {@link CtTypeMember} of a template type
+ * @param typeMemberName the name of the {@link CtTypeMember} of a template type
+ */
+public
+PatternBuilderHelper
+setTypeMember
+(
+String
+typeMemberName
+)
+{
+setTypeMember
+(
+tm
+->
+typeMemberName
+.
+equals
+(
+tm
+.
+getSimpleName
+(
+)
+)
+)
+;
+return
+this
+;
+}

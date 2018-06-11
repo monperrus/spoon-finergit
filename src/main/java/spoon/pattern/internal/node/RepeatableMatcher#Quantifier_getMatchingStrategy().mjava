@@ -1,0 +1,9 @@
+/** 
+ * If two  {@link RepeatableMatcher}s in a list are matching the same element, then returned  {@link Quantifier} defines how resolve this conflict
+ * @return {@link Quantifier}
+ */
+Quantifier
+getMatchingStrategy
+(
+)
+;

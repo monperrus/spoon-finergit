@@ -1,0 +1,21 @@
+/** 
+ * @param role a {@link CtRole}
+ * @return {@link MetamodelProperty} for `role` of this concept
+ */
+public
+MetamodelProperty
+getProperty
+(
+CtRole
+role
+)
+{
+return
+role2Property
+.
+get
+(
+role
+)
+;
+}

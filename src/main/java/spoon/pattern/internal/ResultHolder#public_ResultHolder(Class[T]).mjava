@@ -1,0 +1,17 @@
+public
+ResultHolder
+(
+Class
+<
+T
+>
+requiredClass
+)
+{
+this
+.
+requiredClass
+=
+requiredClass
+;
+}

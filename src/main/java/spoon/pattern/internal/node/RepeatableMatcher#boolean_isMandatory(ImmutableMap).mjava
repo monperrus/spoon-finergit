@@ -1,0 +1,16 @@
+/** 
+ * @param parameters matching parameters
+ * @return true if this ValueResolver MUST match with next target in the state defined by current `parameters`.false if match is optional
+ */
+default
+boolean
+isMandatory
+(
+ImmutableMap
+parameters
+)
+{
+return
+true
+;
+}

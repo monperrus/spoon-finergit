@@ -1,0 +1,25 @@
+/** 
+ * @param parameterValueType a type of the value which is acceptable by this parameter
+ * @return this to support fluent API
+ */
+public
+AbstractParameterInfo
+setParameterValueType
+(
+Class
+<
+?
+>
+parameterValueType
+)
+{
+this
+.
+parameterValueType
+=
+parameterValueType
+;
+return
+this
+;
+}

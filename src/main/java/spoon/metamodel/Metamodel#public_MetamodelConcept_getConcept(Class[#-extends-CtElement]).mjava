@@ -1,0 +1,54 @@
+/** 
+ * @param clazz a {@link Class} of Spoon model
+ * @return {@link MetamodelConcept} which describes the `clazz`
+ */
+public
+MetamodelConcept
+getConcept
+(
+Class
+<
+?
+CtElement
+>
+clazz
+)
+{
+MetamodelConcept
+mc
+=
+nameToConcept
+.
+get
+(
+getConceptName
+(
+clazz
+)
+)
+;
+if
+(
+mc
+==
+null
+)
+{
+throw
+new
+SpoonException
+(
+"There is no Spoon metamodel concept for class "
++
+clazz
+.
+getName
+(
+)
+)
+;
+}
+return
+mc
+;
+}

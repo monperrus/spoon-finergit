@@ -1,0 +1,33 @@
+/** 
+ * type identified by `typeQualifiedName` itself and all the references to that type are subject for substitution by current parameter
+ * @param typeQualifiedName a fully qualified name of to be substituted Class
+ * @return {@link PatternParameterConfigurator} to support fluent API
+ */
+public
+PatternParameterConfigurator
+byType
+(
+String
+typeQualifiedName
+)
+{
+return
+byType
+(
+patternBuilder
+.
+getFactory
+(
+)
+.
+Type
+(
+)
+.
+createReference
+(
+typeQualifiedName
+)
+)
+;
+}

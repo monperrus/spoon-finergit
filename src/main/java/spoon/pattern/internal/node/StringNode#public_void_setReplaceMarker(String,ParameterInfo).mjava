@@ -1,0 +1,26 @@
+/** 
+ * Defines that this Substitution request will replace all occurrences of `replaceMarker` in target string by value of `param`
+ * @param replaceMarker the substring whose occurrences will be substituted
+ * @param param the declaration of to be replaced parameter
+ */
+public
+void
+setReplaceMarker
+(
+String
+replaceMarker
+,
+ParameterInfo
+param
+)
+{
+tobeReplacedSubstrings
+.
+put
+(
+replaceMarker
+,
+param
+)
+;
+}

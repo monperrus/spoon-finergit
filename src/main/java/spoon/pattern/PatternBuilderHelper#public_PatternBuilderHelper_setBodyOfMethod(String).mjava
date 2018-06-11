@@ -1,0 +1,32 @@
+/** 
+ * Sets a template model from body of the method of template type
+ * @param methodName the name of {@link CtMethod}
+ */
+public
+PatternBuilderHelper
+setBodyOfMethod
+(
+String
+methodName
+)
+{
+setBodyOfMethod
+(
+tm
+->
+methodName
+.
+equals
+(
+tm
+.
+getSimpleName
+(
+)
+)
+)
+;
+return
+this
+;
+}

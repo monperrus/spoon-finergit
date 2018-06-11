@@ -1,0 +1,13 @@
+/** 
+ * @return the modified parameters since last call to {@link #checkpoint()}
+ */
+Map
+<
+String
+,
+Object
+>
+getModifiedValues
+(
+)
+;

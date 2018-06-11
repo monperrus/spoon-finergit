@@ -1,0 +1,10 @@
+public
+SwitchNode
+(
+)
+{
+super
+(
+)
+;
+}

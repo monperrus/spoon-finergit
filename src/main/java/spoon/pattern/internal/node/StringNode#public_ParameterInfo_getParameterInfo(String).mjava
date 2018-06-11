@@ -1,0 +1,20 @@
+/** 
+ * @return The string whose occurrence in target string will be replaced by parameter value
+ */
+public
+ParameterInfo
+getParameterInfo
+(
+String
+replaceMarker
+)
+{
+return
+tobeReplacedSubstrings
+.
+get
+(
+replaceMarker
+)
+;
+}

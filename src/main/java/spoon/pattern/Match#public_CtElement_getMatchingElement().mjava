@@ -1,0 +1,20 @@
+/** 
+ * @return a matching element of a {@link Pattern}It fails if  {@link Pattern} is designed to match sequence of elements. In such case use {@link #getMatchingElements()}
+ */
+public
+CtElement
+getMatchingElement
+(
+)
+{
+return
+getMatchingElement
+(
+CtElement
+.
+class
+,
+true
+)
+;
+}

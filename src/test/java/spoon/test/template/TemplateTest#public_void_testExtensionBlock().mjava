@@ -267,4 +267,24 @@ size
 1
 )
 ;
+assertEquals
+(
+"java.lang.System.out.println((((\"enter: \" + className) + \" - \") + methodName))"
+,
+aTry
+.
+getBody
+(
+)
+.
+getStatement
+(
+1
+)
+.
+toString
+(
+)
+)
+;
 }

@@ -1,0 +1,24 @@
+/** 
+ * Defines type of parameter value (List/Set/Map/single). If not defined then real value type of property is used. If null, then default is  {@link ContainerKind#SINGLE}
+ * @param containerKind to be used {@link ContainerKind}
+ * @return this {@link PatternParameterConfigurator} to support fluent API
+ */
+public
+PatternParameterConfigurator
+setContainerKind
+(
+ContainerKind
+containerKind
+)
+{
+currentParameter
+.
+setContainerKind
+(
+containerKind
+)
+;
+return
+this
+;
+}

@@ -1,0 +1,15 @@
+public
+MapParameterInfo
+(
+String
+name
+)
+{
+this
+(
+name
+,
+null
+)
+;
+}

@@ -1,0 +1,25 @@
+/** 
+ * package-protected, must use  {@link PatternBuilder} 
+ */
+Pattern
+(
+Factory
+factory
+,
+ListOfNodes
+modelValueResolver
+)
+{
+this
+.
+modelValueResolver
+=
+modelValueResolver
+;
+this
+.
+factory
+=
+factory
+;
+}

@@ -1,0 +1,17 @@
+public
+PatternBuilderHelper
+(
+CtType
+<
+?
+>
+templateTemplate
+)
+{
+this
+.
+patternType
+=
+templateTemplate
+;
+}

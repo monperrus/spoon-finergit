@@ -1,0 +1,7 @@
+protected
+abstract
+String
+getPlainName
+(
+)
+;

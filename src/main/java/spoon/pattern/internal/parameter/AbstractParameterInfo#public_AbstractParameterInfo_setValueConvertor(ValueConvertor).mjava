@@ -1,0 +1,36 @@
+/** 
+ * @param valueConvertor the {@link ValueConvertor} used by reading and writing into parameter values defined by this {@link ParameterInfo}
+ */
+public
+AbstractParameterInfo
+setValueConvertor
+(
+ValueConvertor
+valueConvertor
+)
+{
+if
+(
+valueConvertor
+==
+null
+)
+{
+throw
+new
+SpoonException
+(
+"valueConvertor must not be null"
+)
+;
+}
+this
+.
+valueConvertor
+=
+valueConvertor
+;
+return
+this
+;
+}

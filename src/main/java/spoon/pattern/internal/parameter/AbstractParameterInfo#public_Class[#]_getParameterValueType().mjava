@@ -1,0 +1,16 @@
+/** 
+ * @return a type of parameter value - if knownNote: Pattern builder needs to know the value type to be able to select substitute node. For example patter: return _expression_.S(); either replaces only `_expression_.S()` if the parameter value is an expression or replaces `return _expression_.S()` if the parameter value is a CtBlock
+ */
+public
+Class
+<
+?
+>
+getParameterValueType
+(
+)
+{
+return
+parameterValueType
+;
+}

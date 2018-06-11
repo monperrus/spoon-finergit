@@ -1,0 +1,27 @@
+/** 
+ * `type` itself and all the references to the `type` are subject for substitution by current parameter
+ * @param type to be substituted Class
+ * @return {@link PatternParameterConfigurator} to support fluent API
+ */
+public
+PatternParameterConfigurator
+byType
+(
+Class
+<
+?
+>
+type
+)
+{
+return
+byType
+(
+type
+.
+getName
+(
+)
+)
+;
+}

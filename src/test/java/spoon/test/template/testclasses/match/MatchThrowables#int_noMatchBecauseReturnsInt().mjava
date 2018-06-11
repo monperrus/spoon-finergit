@@ -1,0 +1,13 @@
+int
+noMatchBecauseReturnsInt
+(
+)
+throws
+IOException
+,
+Exception
+{
+return
+0
+;
+}

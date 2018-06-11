@@ -1,0 +1,9 @@
+int
+noMatchBecauseReturnsInt
+(
+)
+{
+return
+0
+;
+}

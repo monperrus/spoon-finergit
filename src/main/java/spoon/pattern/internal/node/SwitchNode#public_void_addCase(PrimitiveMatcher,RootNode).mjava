@@ -1,0 +1,30 @@
+/** 
+ * Adds another case into this switch statement
+ * @param vrOfExpression if value of this parameter is true then statement has to be used. If vrOfExpression is null, then statement is always used
+ * @param statement optional statement
+ */
+public
+void
+addCase
+(
+PrimitiveMatcher
+vrOfExpression
+,
+RootNode
+statement
+)
+{
+cases
+.
+add
+(
+new
+CaseNode
+(
+vrOfExpression
+,
+statement
+)
+)
+;
+}

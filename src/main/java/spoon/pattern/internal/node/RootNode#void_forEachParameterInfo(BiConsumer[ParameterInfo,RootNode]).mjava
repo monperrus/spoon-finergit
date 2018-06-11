@@ -1,0 +1,16 @@
+/** 
+ * Calls consumer for each pair of parameter definition ( {@link ParameterInfo}) and  {@link RootNode}, which uses it
+ * @param consumer the receiver of pairs of {@link ParameterInfo} and {@link RootNode}
+ */
+void
+forEachParameterInfo
+(
+BiConsumer
+<
+ParameterInfo
+,
+RootNode
+>
+consumer
+)
+;

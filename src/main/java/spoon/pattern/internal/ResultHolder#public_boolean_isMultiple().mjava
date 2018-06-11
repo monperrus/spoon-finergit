@@ -1,0 +1,10 @@
+/** 
+ * @return true if it accepts 0, 1 or more values. false if it accepts exactly one value. If none, then value is null
+ */
+public
+abstract
+boolean
+isMultiple
+(
+)
+;

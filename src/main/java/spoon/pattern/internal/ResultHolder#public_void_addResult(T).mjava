@@ -1,0 +1,13 @@
+/** 
+ * adds a result into this result holder
+ * @param value a new value of result holder
+ */
+public
+abstract
+void
+addResult
+(
+T
+value
+)
+;

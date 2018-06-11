@@ -1,0 +1,15 @@
+public
+void
+setNestedModel
+(
+RootNode
+valueResolver
+)
+{
+this
+.
+nestedModel
+=
+valueResolver
+;
+}

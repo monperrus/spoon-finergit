@@ -1,0 +1,23 @@
+@Override
+public
+String
+toString
+(
+)
+{
+return
+elementType
+.
+getName
+(
+)
++
+": "
++
+super
+.
+toString
+(
+)
+;
+}

@@ -1,0 +1,10 @@
+/** 
+ * @param simplifyGenerated true if generated result of this {@link RootNode} has to be evaluated to apply simplifications.
+ */
+void
+setSimplifyGenerated
+(
+boolean
+simplifyGenerated
+)
+;

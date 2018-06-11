@@ -1,0 +1,8 @@
+/** 
+ * @return true if generated result has to be evaluated to apply simplifications.e.g. ("a" + "b") id simplified to "ab"
+ */
+boolean
+isSimplifyGenerated
+(
+)
+;

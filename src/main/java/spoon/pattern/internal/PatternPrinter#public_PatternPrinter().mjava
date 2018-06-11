@@ -1,0 +1,13 @@
+public
+PatternPrinter
+(
+)
+{
+super
+(
+DEFAULT_FACTORY
+,
+null
+)
+;
+}

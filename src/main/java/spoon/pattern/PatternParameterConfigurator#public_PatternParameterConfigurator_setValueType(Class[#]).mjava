@@ -1,0 +1,27 @@
+/** 
+ * Set expected type of Parameter. In some cases legacy Template needs to know the type of parameter value to select substituted element. See  {@link ValueConvertor}, which provides conversion between matched element and expected parameter type
+ * @param valueType a expected type of parameter value
+ * @return this {@link PatternParameterConfigurator} to support fluent API
+ */
+public
+PatternParameterConfigurator
+setValueType
+(
+Class
+<
+?
+>
+valueType
+)
+{
+currentParameter
+.
+setParameterValueType
+(
+valueType
+)
+;
+return
+this
+;
+}

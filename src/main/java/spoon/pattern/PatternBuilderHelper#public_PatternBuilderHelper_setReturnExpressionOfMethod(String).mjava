@@ -1,0 +1,32 @@
+/** 
+ * Sets a template model from return expression of the method of template type selected by filter
+ * @param methodName the name of {@link CtMethod}
+ */
+public
+PatternBuilderHelper
+setReturnExpressionOfMethod
+(
+String
+methodName
+)
+{
+setReturnExpressionOfMethod
+(
+tm
+->
+methodName
+.
+equals
+(
+tm
+.
+getSimpleName
+(
+)
+)
+)
+;
+return
+this
+;
+}

@@ -1,0 +1,25 @@
+/** 
+ * Takes the value of parameter identified by this  {@link ParameterInfo} from the `parameters`and adds that 0, 1 or more values into result (depending on type of result)
+ * @param factory the factory used to create new entities if conversion of value is needed before it can be added into `result`
+ * @param result the receiver of the result value. It defined required type of returned value and multiplicity of returned value
+ * @param parameters here are stored all the parameter values
+ */
+<
+T
+>
+void
+getValueAs
+(
+Factory
+factory
+,
+ResultHolder
+<
+T
+>
+result
+,
+ImmutableMap
+parameters
+)
+;

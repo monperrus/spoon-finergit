@@ -1,0 +1,22 @@
+/** 
+ * @param repeatable if this matcher can be applied more then once in the same container of targetsNote: even if false, it may be applied again to another container and to match EQUAL value.
+ * @return this to support fluent API
+ */
+public
+AbstractParameterInfo
+setRepeatable
+(
+boolean
+repeatable
+)
+{
+this
+.
+repeatable
+=
+repeatable
+;
+return
+this
+;
+}

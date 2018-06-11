@@ -1,0 +1,48 @@
+/** 
+ * Calls `consumer` once for each  {@link RootNode} element which uses `parameter`
+ * @param parameter to be checked {@link ParameterInfo}
+ * @param consumer receiver of calls
+ */
+void
+forEachNodeOfParameter
+(
+ParameterInfo
+parameter
+,
+Consumer
+<
+RootNode
+>
+consumer
+)
+{
+patternNodes
+.
+forEachParameterInfo
+(
+(
+paramInfo
+,
+vr
+)
+->
+{
+if
+(
+paramInfo
+==
+parameter
+)
+{
+consumer
+.
+accept
+(
+vr
+)
+;
+}
+}
+)
+;
+}

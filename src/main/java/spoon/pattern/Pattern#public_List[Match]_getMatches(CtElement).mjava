@@ -1,0 +1,50 @@
+/** 
+ * Finds all target program sub-trees that correspond to this pattern and returns them.
+ * @param root the root of to be searched AST. It can be a CtElement or List, Set, Map of CtElements
+ * @return List of {@link Match}
+ */
+public
+List
+<
+Match
+>
+getMatches
+(
+CtElement
+root
+)
+{
+List
+<
+Match
+>
+matches
+=
+new
+ArrayList
+<
+>
+(
+)
+;
+forEachMatch
+(
+root
+,
+match
+->
+{
+matches
+.
+add
+(
+match
+)
+;
+}
+)
+;
+return
+matches
+;
+}

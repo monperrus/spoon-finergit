@@ -1,0 +1,47 @@
+/** 
+ * marks all CtIf and CtForEach whose expression contains a variable reference named `variableName` as inline statement.
+ * @param variableName to be searched variable name
+ * @return this to support fluent API
+ */
+public
+InlinedStatementConfigurator
+inlineIfOrForeachReferringTo
+(
+String
+variableName
+)
+{
+patternBuilder
+.
+patternQuery
+.
+filterChildren
+(
+(
+CtVariableReference
+varRef
+)
+->
+variableName
+.
+equals
+(
+varRef
+.
+getSimpleName
+(
+)
+)
+)
+.
+forEach
+(
+this
+::
+byElement
+)
+;
+return
+this
+;
+}

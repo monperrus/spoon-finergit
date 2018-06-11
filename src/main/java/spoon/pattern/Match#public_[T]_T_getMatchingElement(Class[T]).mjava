@@ -1,0 +1,28 @@
+/** 
+ * Same like  {@link #getMatchingElement()}, but checks that matching element is expected class and casts returned value to that type
+ * @param clazz required type
+ * @return matched element cast to `clazz`
+ */
+public
+<
+T
+>
+T
+getMatchingElement
+(
+Class
+<
+T
+>
+clazz
+)
+{
+return
+getMatchingElement
+(
+clazz
+,
+true
+)
+;
+}

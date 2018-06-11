@@ -1,0 +1,15 @@
+public
+MapParameterInfo
+(
+AbstractParameterInfo
+next
+)
+{
+this
+(
+null
+,
+next
+)
+;
+}

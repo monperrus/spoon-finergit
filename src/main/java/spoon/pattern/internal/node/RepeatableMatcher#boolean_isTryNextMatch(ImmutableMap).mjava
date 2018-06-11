@@ -1,0 +1,11 @@
+/** 
+ * @param parameters matching parameters
+ * @return true if this ValueResolver should be processed again to match next target in the state defined by current `parameters`.
+ */
+boolean
+isTryNextMatch
+(
+ImmutableMap
+parameters
+)
+;

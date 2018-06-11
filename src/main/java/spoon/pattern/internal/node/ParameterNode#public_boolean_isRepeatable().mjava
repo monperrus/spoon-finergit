@@ -1,0 +1,15 @@
+@Override
+public
+boolean
+isRepeatable
+(
+)
+{
+return
+parameterInfo
+.
+isRepeatable
+(
+)
+;
+}

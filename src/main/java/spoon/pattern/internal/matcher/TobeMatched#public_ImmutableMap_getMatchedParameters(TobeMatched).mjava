@@ -1,0 +1,27 @@
+/** 
+ * @param remainingMatch the {@link TobeMatched} whose parameters has to be returned
+ * @return parameters from `remainingMatch`, if it exists. Else returns null
+ */
+public
+static
+ImmutableMap
+getMatchedParameters
+(
+TobeMatched
+remainingMatch
+)
+{
+return
+remainingMatch
+==
+null
+?
+null
+:
+remainingMatch
+.
+getParameters
+(
+)
+;
+}

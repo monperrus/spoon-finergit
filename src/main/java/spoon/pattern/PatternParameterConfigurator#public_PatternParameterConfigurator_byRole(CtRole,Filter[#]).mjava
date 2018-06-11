@@ -1,0 +1,60 @@
+/** 
+ * Attribute defined by `role` of all elements matched by  {@link Filter} will be substituted by parameter value
+ * @param role {@link CtRole}, which defines to be substituted elements
+ * @param filter {@link Filter}, which defines to be substituted elements
+ * @return {@link PatternParameterConfigurator} to support fluent API
+ */
+public
+PatternParameterConfigurator
+byRole
+(
+CtRole
+role
+,
+Filter
+<
+?
+>
+filter
+)
+{
+ParameterInfo
+pi
+=
+getCurrentParameter
+(
+)
+;
+queryModel
+(
+)
+.
+filterChildren
+(
+filter
+)
+.
+forEach
+(
+(
+CtElement
+ele
+)
+->
+{
+addSubstitutionRequest
+(
+pi
+,
+ele
+,
+role
+)
+;
+}
+)
+;
+return
+this
+;
+}

@@ -1,0 +1,29 @@
+/** 
+ * Finds all target program sub-trees that correspond to a template and calls consumer.accept(matchingElement, )
+ * @param rootElement the root of to be searched AST
+ * @param consumer the receiver of matches
+ */
+public
+void
+forEachMatch
+(
+CtElement
+rootElement
+,
+CtConsumer
+<
+Match
+>
+consumer
+)
+{
+pattern
+.
+forEachMatch
+(
+rootElement
+,
+consumer
+)
+;
+}

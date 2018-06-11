@@ -1,0 +1,53 @@
+/** 
+ * variable read/write of `variable`
+ * @param variableName a variable whose references will be substituted
+ * @return this to support fluent API
+ */
+public
+PatternParameterConfigurator
+byVariable
+(
+String
+variableName
+)
+{
+CtVariable
+<
+?
+>
+var
+=
+queryModel
+(
+)
+.
+map
+(
+new
+PotentialVariableDeclarationFunction
+(
+variableName
+)
+)
+.
+first
+(
+)
+;
+if
+(
+var
+!=
+null
+)
+{
+byVariable
+(
+var
+)
+;
+}
+return
+this
+;
+}

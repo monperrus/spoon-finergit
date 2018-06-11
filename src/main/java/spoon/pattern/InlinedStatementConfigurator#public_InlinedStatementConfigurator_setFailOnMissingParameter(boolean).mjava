@@ -1,0 +1,22 @@
+/** 
+ * @param failOnMissingParameter set true if it should fail when some statement cannot be handled as inlineset false if ssuch statement should be kept as part of template.
+ * @return this to support fluent API
+ */
+public
+InlinedStatementConfigurator
+setFailOnMissingParameter
+(
+boolean
+failOnMissingParameter
+)
+{
+this
+.
+failOnMissingParameter
+=
+failOnMissingParameter
+;
+return
+this
+;
+}

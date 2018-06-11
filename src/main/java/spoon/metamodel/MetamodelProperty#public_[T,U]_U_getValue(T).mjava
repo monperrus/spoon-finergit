@@ -1,0 +1,26 @@
+/** 
+ * @param element an instance whose attribute value is read
+ * @return a value of attribute defined by this {@link MetamodelProperty} from the provided `element`
+ */
+public
+<
+T
+,
+U
+>
+U
+getValue
+(
+T
+element
+)
+{
+return
+roleHandler
+.
+getValue
+(
+element
+)
+;
+}

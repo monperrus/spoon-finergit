@@ -1,0 +1,39 @@
+/** 
+ * Makes a copy of this match context with the same targets, but with new `parameters`
+ * @param newParams to be used parameters
+ * @return copy of {@link TobeMatched} with new parameters
+ */
+public
+TobeMatched
+copyAndSetParams
+(
+ImmutableMap
+newParams
+)
+{
+if
+(
+parameters
+==
+newParams
+)
+{
+return
+this
+;
+}
+return
+new
+TobeMatched
+(
+newParams
+,
+targets
+,
+ordered
+,
+-
+1
+)
+;
+}

@@ -1,0 +1,76 @@
+/** 
+ * Same like  {@link #getMatchingElement()} but additionally it checks that each matching element is instance of `clazz`
+ * @param clazz the required type of all elements.
+ * @return a {@link List} typed to `clazz` or throws {@link SpoonException} if Pattern matched different elements
+ */
+@SuppressWarnings("unchecked")
+public
+<
+T
+>
+List
+<
+T
+>
+getMatchingElements
+(
+Class
+<
+T
+>
+clazz
+)
+{
+for
+(
+Object
+object
+:
+matchingElements
+)
+{
+if
+(
+object
+!=
+null
+&&
+clazz
+.
+isInstance
+(
+object
+)
+==
+false
+)
+{
+throw
+new
+SpoonException
+(
+"Match contains a "
++
+object
+.
+getClass
+(
+)
++
+" which cannot be cast to "
++
+clazz
+)
+;
+}
+}
+return
+(
+List
+<
+T
+>
+)
+matchingElements
+;
+}

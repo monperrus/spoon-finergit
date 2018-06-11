@@ -1,0 +1,15 @@
+public
+void
+setMatchingStrategy
+(
+Quantifier
+matchingStrategy
+)
+{
+this
+.
+matchingStrategy
+=
+matchingStrategy
+;
+}

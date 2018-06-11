@@ -1,0 +1,25 @@
+public
+ParameterInfo
+getCurrentParameter
+(
+)
+{
+if
+(
+currentParameter
+==
+null
+)
+{
+throw
+new
+SpoonException
+(
+"Parameter name must be defined first by call of #parameter(String) method."
+)
+;
+}
+return
+currentParameter
+;
+}

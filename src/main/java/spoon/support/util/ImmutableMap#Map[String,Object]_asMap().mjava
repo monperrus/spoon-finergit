@@ -1,0 +1,13 @@
+/** 
+ * @return underlying unmodifiable Map&lt;String, Object&gt;
+ */
+Map
+<
+String
+,
+Object
+>
+asMap
+(
+)
+;

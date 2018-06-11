@@ -1,0 +1,13 @@
+/** 
+ * @return List of actually stored results
+ */
+public
+abstract
+List
+<
+T
+>
+getResults
+(
+)
+;

@@ -1,0 +1,10 @@
+public
+T
+getTemplateNode
+(
+)
+{
+return
+template
+;
+}

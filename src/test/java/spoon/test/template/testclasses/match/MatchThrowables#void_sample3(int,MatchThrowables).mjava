@@ -1,0 +1,17 @@
+void
+sample3
+(
+int
+a
+,
+MatchThrowables
+me
+)
+throws
+FileNotFoundException
+,
+IllegalArgumentException
+,
+IOException
+{
+}

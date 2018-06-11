@@ -1,0 +1,28 @@
+/** 
+ * @param parameters matching parameters
+ * @return true if the ValueResolver of this parameter MUST match with next target in the state defined by current `parameters`.false if match is optional
+ */
+public
+boolean
+isMandatory
+(
+ImmutableMap
+parameters
+)
+{
+int
+nrOfValues
+=
+getNumberOfValues
+(
+parameters
+)
+;
+return
+nrOfValues
+<
+getMinOccurences
+(
+)
+;
+}

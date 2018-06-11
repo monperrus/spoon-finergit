@@ -1,0 +1,31 @@
+/** 
+ * @param elementType The type of Spoon node which has to be generated/matched by this {@link ElementNode}
+ * @param templateElement - optional ref to template element which was used to created this {@link ElementNode}. It is used e.g. to generate generatedBy comment
+ */
+public
+ElementNode
+(
+MetamodelConcept
+elementType
+,
+CtElement
+templateElement
+)
+{
+super
+(
+)
+;
+this
+.
+elementType
+=
+elementType
+;
+this
+.
+templateElement
+=
+templateElement
+;
+}

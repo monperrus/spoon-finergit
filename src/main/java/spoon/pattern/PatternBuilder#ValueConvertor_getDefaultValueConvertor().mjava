@@ -1,0 +1,12 @@
+/** 
+ * @return default {@link ValueConvertor}, which will be assigned to all new  {@link ParameterInfo}s
+ */
+ValueConvertor
+getDefaultValueConvertor
+(
+)
+{
+return
+valueConvertor
+;
+}

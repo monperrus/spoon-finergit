@@ -1,0 +1,13 @@
+/** 
+ * Returns all the matches where the keys are the corresponding template parameters. The  {@link #matches(CtElement)} method must have been called before and must return true.Otherwise it returns null.
+ */
+public
+ImmutableMap
+getMatches
+(
+)
+{
+return
+matches
+;
+}

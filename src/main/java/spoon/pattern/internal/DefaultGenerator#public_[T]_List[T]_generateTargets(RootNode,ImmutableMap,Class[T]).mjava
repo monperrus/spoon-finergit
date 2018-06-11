@@ -1,0 +1,65 @@
+/** 
+ * Generates zero, one or more targets depending on kind of this  {@link RootNode}, expected `expectedType` and input `parameters`
+ * @param node to be generated node
+ * @param parameters {@link ImmutableMap}
+ * @param expectedType defines {@link Class} of returned value
+ * @return a {@link List} of generated targets
+ */
+public
+<
+T
+>
+List
+<
+T
+>
+generateTargets
+(
+RootNode
+node
+,
+ImmutableMap
+parameters
+,
+Class
+<
+T
+>
+expectedType
+)
+{
+ResultHolder
+.
+Multiple
+<
+T
+>
+result
+=
+new
+ResultHolder
+.
+Multiple
+<
+>
+(
+expectedType
+)
+;
+generateTargets
+(
+node
+,
+result
+,
+parameters
+)
+;
+return
+result
+.
+getResult
+(
+)
+;
+}

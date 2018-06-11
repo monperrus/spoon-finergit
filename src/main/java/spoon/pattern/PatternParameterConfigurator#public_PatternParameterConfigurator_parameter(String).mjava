@@ -1,0 +1,32 @@
+/** 
+ * Creates a parameter with name `paramName` and assigns it into context, so next calls on builder will be applied to this parameter
+ * @param paramName to be build parameter name
+ * @return this {@link PatternParameterConfigurator} to support fluent API
+ */
+public
+PatternParameterConfigurator
+parameter
+(
+String
+paramName
+)
+{
+currentParameter
+=
+getParameterInfo
+(
+paramName
+,
+true
+)
+;
+substitutedNodes
+.
+clear
+(
+)
+;
+return
+this
+;
+}

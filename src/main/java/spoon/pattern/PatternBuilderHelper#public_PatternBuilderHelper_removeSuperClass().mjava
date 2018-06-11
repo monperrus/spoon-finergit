@@ -1,0 +1,22 @@
+/** 
+ * removes super class from the template
+ */
+public
+PatternBuilderHelper
+removeSuperClass
+(
+)
+{
+getClonedPatternType
+(
+)
+.
+setSuperclass
+(
+null
+)
+;
+return
+this
+;
+}

@@ -1,0 +1,10 @@
+public
+ParameterInfo
+getParameterInfo
+(
+)
+{
+return
+parameterInfo
+;
+}

@@ -1,0 +1,29 @@
+/** 
+ * Generates type with qualified name `typeQualifiedName` the provided `params`. Note: the root element of pattern must be one type.
+ * @param typeQualifiedName the qualified name of to be generated type
+ * @param params the pattern parameters
+ * @return the generated type
+ */
+<
+T
+extends
+CtType
+<
+?
+>
+>
+T
+generateType
+(
+String
+typeQualifiedName
+,
+Map
+<
+String
+,
+Object
+>
+params
+)
+;

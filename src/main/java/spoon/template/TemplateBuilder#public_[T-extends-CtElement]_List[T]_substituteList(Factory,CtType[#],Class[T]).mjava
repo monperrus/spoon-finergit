@@ -1,0 +1,54 @@
+/** 
+ * generates a new AST nodes made by cloning of `patternModel` and by substitution of parameters by their values
+ * @param factory TODO
+ * @param targetType the CtType, which will receive the result of substitution
+ * @return List of substituted elements
+ */
+public
+<
+T
+extends
+CtElement
+>
+List
+<
+T
+>
+substituteList
+(
+Factory
+factory
+,
+CtType
+<
+?
+>
+targetType
+,
+Class
+<
+T
+>
+itemType
+)
+{
+return
+build
+(
+)
+.
+generator
+(
+)
+.
+generate
+(
+itemType
+,
+getTemplateParameters
+(
+targetType
+)
+)
+;
+}

@@ -1,0 +1,25 @@
+/** 
+ * @return Collection of all {@link MetamodelProperty} of current {@link MetamodelConcept}Note: actually is the order undefined TODO: return List in the same order like it is scanned by CtScanner
+ */
+public
+Collection
+<
+MetamodelProperty
+>
+getProperties
+(
+)
+{
+return
+Collections
+.
+unmodifiableCollection
+(
+role2Property
+.
+values
+(
+)
+)
+;
+}

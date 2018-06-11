@@ -1,0 +1,8 @@
+@Deprecated
+@Check(timeout=456)
+void
+deprecatedTestAnnotation1
+(
+)
+{
+}

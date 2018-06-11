@@ -1,0 +1,16 @@
+/** 
+ * @return {@link List} of to be matched targets, whichA) have to be matched by current matching step B) remained after matching of all template nodes
+ */
+public
+List
+<
+?
+>
+getTargets
+(
+)
+{
+return
+targets
+;
+}

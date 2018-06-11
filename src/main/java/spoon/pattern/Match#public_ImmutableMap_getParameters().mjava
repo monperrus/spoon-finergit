@@ -1,0 +1,13 @@
+/** 
+ * @return {@link ImmutableMap} with values of {@link Pattern} parameters, which fits to current match
+ */
+public
+ImmutableMap
+getParameters
+(
+)
+{
+return
+parameters
+;
+}

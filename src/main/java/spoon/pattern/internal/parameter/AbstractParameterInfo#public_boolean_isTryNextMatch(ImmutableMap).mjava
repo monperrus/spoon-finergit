@@ -1,0 +1,44 @@
+/** 
+ * @param parameters matching parameters
+ * @return true if the ValueResolver of this parameter should be processed again to match next target in the state defined by current `parameters`.
+ */
+public
+boolean
+isTryNextMatch
+(
+ImmutableMap
+parameters
+)
+{
+int
+nrOfValues
+=
+getNumberOfValues
+(
+parameters
+)
+;
+if
+(
+getContainerKind
+(
+parameters
+)
+==
+ContainerKind
+.
+SINGLE
+)
+{
+return
+true
+;
+}
+return
+nrOfValues
+<
+getMaxOccurences
+(
+)
+;
+}

@@ -1,0 +1,41 @@
+/** 
+ * Changes the Pattern by way the `node` is used at position of template element attribute of `role`. It is used for example to mark that `element` as pattern parameter
+ * @param element
+ * @param role
+ * @param node
+ * @param conflictMode
+ */
+void
+setNodeOfAttributeOfElement
+(
+CtElement
+element
+,
+CtRole
+role
+,
+RootNode
+node
+,
+ConflictResolutionMode
+conflictMode
+)
+{
+modifyNodeOfAttributeOfElement
+(
+element
+,
+role
+,
+conflictMode
+,
+oldAttrNode
+->
+{
+return
+node
+;
+}
+)
+;
+}

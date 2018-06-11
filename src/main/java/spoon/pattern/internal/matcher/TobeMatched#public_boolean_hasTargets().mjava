@@ -1,0 +1,19 @@
+/** 
+ * @return true if there is anything to match.
+ */
+public
+boolean
+hasTargets
+(
+)
+{
+return
+targets
+.
+size
+(
+)
+>
+0
+;
+}

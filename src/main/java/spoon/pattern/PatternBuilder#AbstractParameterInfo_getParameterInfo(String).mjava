@@ -1,0 +1,16 @@
+AbstractParameterInfo
+getParameterInfo
+(
+String
+parameterName
+)
+{
+return
+parameterInfos
+.
+get
+(
+parameterName
+)
+;
+}

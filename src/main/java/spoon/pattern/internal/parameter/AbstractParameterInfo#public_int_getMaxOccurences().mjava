@@ -1,0 +1,26 @@
+/** 
+ * @return maximum number of values in this parameter.Note: if  {@link #isMultiple()}==false, then it never returns value &gt; 1
+ */
+public
+int
+getMaxOccurences
+(
+)
+{
+return
+isMultiple
+(
+)
+?
+maxOccurences
+:
+Math
+.
+min
+(
+maxOccurences
+,
+1
+)
+;
+}

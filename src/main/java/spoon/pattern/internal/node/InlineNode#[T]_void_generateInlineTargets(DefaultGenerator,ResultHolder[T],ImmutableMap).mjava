@@ -1,0 +1,25 @@
+/** 
+ * Generates inline statements of this inline  {@link RootNode}. This method is used when sources of pattern have to be printed
+ * @param generator a to be used {@link Generator}
+ * @param result holder of the result
+ * @param parameters a {@link ImmutableMap} with current parameters
+ */
+<
+T
+>
+void
+generateInlineTargets
+(
+DefaultGenerator
+generator
+,
+ResultHolder
+<
+T
+>
+result
+,
+ImmutableMap
+parameters
+)
+;

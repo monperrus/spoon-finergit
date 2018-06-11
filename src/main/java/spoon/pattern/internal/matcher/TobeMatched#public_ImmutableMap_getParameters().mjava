@@ -1,0 +1,13 @@
+/** 
+ * @return parameters of last successful match.
+ */
+public
+ImmutableMap
+getParameters
+(
+)
+{
+return
+parameters
+;
+}
