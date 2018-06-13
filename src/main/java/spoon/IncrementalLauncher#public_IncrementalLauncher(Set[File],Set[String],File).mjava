@@ -1,0 +1,39 @@
+/** 
+ * Creates a  {@link Launcher} for incremental build.
+ * @param inputResources Resources to be parsed to build the spoon model.
+ * @param sourceClasspath Source classpath of the spoon model.
+ * @param cacheDirectory The directory to store all incremental information. If it's empty, full rebuild will be performed.
+ * @throws IllegalArgumentException
+ * @throws SpoonException
+ */
+public
+IncrementalLauncher
+(
+Set
+<
+File
+>
+inputResources
+,
+Set
+<
+String
+>
+sourceClasspath
+,
+File
+cacheDirectory
+)
+{
+this
+(
+inputResources
+,
+sourceClasspath
+,
+cacheDirectory
+,
+false
+)
+;
+}

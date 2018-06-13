@@ -16,7 +16,11 @@ ois
 new
 ObjectInputStream
 (
+new
+BufferedInputStream
+(
 in
+)
 )
 ;
 final

@@ -17,7 +17,11 @@ oos
 new
 ObjectOutputStream
 (
+new
+BufferedOutputStream
+(
 out
+)
 )
 ;
 oos

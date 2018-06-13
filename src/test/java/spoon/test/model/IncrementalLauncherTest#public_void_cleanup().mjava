@@ -1,0 +1,17 @@
+@Test
+public
+void
+cleanup
+(
+)
+throws
+IOException
+{
+FileUtils
+.
+deleteDirectory
+(
+WORKING_DIR
+)
+;
+}

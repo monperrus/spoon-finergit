@@ -1,0 +1,13 @@
+/** 
+ * Returns true, if any source code changes after previous build are present, and false otherwise. 
+ */
+public
+boolean
+changesPresent
+(
+)
+{
+return
+mChangesPresent
+;
+}
