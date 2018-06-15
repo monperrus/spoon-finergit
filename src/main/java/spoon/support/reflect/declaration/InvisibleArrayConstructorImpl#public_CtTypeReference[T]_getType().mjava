@@ -1,0 +1,16 @@
+@Override
+public
+CtTypeReference
+<
+T
+>
+getType
+(
+)
+{
+return
+this
+.
+type
+;
+}

@@ -13,11 +13,13 @@ String
 >
 exceptions
 =
-Collections
+Arrays
 .
-singletonList
+asList
 (
 "CtWildcardStaticTypeMemberReferenceImpl"
+,
+"InvisibleArrayConstructorImpl"
 )
 ;
 SpoonAPI

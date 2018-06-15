@@ -1,0 +1,14 @@
+/** 
+ * @see CoreFactory#createInvisibleArrayConstructor() ()
+ */
+<
+T
+>
+CtConstructor
+<
+T
+>
+createInvisibleArrayConstructor
+(
+)
+;
