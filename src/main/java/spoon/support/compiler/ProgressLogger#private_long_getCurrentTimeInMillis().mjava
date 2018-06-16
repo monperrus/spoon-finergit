@@ -1,0 +1,17 @@
+private
+long
+getCurrentTimeInMillis
+(
+)
+{
+return
+new
+GregorianCalendar
+(
+)
+.
+getTimeInMillis
+(
+)
+;
+}

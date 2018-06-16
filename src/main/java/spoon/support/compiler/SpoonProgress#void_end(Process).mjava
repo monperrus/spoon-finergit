@@ -1,0 +1,11 @@
+/** 
+ * is called when a new process is started
+ * @param process the finished process
+ */
+void
+end
+(
+Process
+process
+)
+;

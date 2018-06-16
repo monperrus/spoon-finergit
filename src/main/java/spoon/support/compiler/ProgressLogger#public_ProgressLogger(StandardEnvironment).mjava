@@ -1,0 +1,14 @@
+public
+ProgressLogger
+(
+StandardEnvironment
+environment
+)
+{
+this
+.
+environment
+=
+environment
+;
+}
