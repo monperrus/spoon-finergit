@@ -16,7 +16,9 @@ element
 )
 {
 return
-roleHandler
+getRoleHandler
+(
+)
 .
 getValue
 (
