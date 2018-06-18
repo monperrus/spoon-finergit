@@ -35,6 +35,10 @@ getValueAs
 (
 factory
 ,
+getName
+(
+)
+,
 value
 ,
 type

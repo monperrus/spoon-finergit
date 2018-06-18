@@ -9,6 +9,9 @@ getValueAs
 Factory
 factory
 ,
+String
+parameterName
+,
 Object
 value
 ,
@@ -741,6 +744,26 @@ value
 .
 name
 (
+)
+;
+}
+else
+if
+(
+value
+==
+null
+)
+{
+throw
+new
+SpoonException
+(
+"Missing parameter value for parameter `"
++
+parameterName
++
+"`"
 )
 ;
 }
