@@ -29,6 +29,13 @@ i
 =
 0
 ;
+this
+.
+sortModuleDeclarationsFirst
+(
+sourceUnits
+)
+;
 beginToCompile
 (
 sourceUnits
