@@ -1,8 +1,5 @@
 static
-CtTypeReference
-<
-?
->
+String
 getLocalTypeRefBySimpleName
 (
 CtType
@@ -38,7 +35,7 @@ null
 return
 type
 .
-getReference
+getQualifiedName
 (
 )
 ;
@@ -66,7 +63,7 @@ null
 return
 type
 .
-getReference
+getQualifiedName
 (
 )
 ;
@@ -167,18 +164,6 @@ size
 )
 {
 return
-templateType
-.
-getFactory
-(
-)
-.
-Type
-(
-)
-.
-createReference
-(
 typeQNames
 .
 iterator
@@ -187,7 +172,6 @@ iterator
 .
 next
 (
-)
 )
 ;
 }

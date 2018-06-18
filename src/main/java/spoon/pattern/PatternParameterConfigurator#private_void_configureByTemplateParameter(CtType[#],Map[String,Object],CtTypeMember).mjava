@@ -259,10 +259,7 @@ getName
 )
 )
 {
-CtTypeReference
-<
-?
->
+String
 nestedType
 =
 getLocalTypeRefBySimpleName
@@ -322,10 +319,7 @@ getName
 )
 )
 {
-CtTypeReference
-<
-?
->
+String
 nestedType
 =
 getLocalTypeRefBySimpleName

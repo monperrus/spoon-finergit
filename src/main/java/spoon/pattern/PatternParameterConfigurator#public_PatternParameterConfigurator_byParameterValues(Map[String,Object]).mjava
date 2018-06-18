@@ -61,16 +61,6 @@ paramName
 false
 )
 {
-if
-(
-paramValue
-instanceof
-CtTypeReference
-<
-?
->
-)
-{
 parameter
 (
 paramName
@@ -92,7 +82,6 @@ paramName
 true
 )
 ;
-}
 parameter
 (
 paramName

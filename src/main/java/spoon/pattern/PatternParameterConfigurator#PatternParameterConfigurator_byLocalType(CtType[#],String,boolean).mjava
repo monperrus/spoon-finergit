@@ -14,10 +14,7 @@ boolean
 optional
 )
 {
-CtTypeReference
-<
-?
->
+String
 nestedType
 =
 getLocalTypeRefBySimpleName

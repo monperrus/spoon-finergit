@@ -1,5 +1,5 @@
 /** 
- * type referred by  {@link CtTypeReference} `type` and all the references to that type are subject for substitution by current parameter
+ * type referred by  {@link CtTypeReference} `type` and all the references (with same actual type arguments)to that type are subject for substitution by current parameter
  * @param type a fully qualified name of to be substituted Class
  * @return {@link PatternParameterConfigurator} to support fluent API
  */
