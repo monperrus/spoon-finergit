@@ -35,6 +35,17 @@ true
 ;
 launcher
 .
+getEnvironment
+(
+)
+.
+setCommentEnabled
+(
+false
+)
+;
+launcher
+.
 buildModel
 (
 )

@@ -39,6 +39,17 @@ setLevel
 ;
 spoon
 .
+getEnvironment
+(
+)
+.
+setCommentEnabled
+(
+false
+)
+;
+spoon
+.
 addInputResource
 (
 "./src/test/resources/spoon/test/noclasspath/fields"

@@ -206,7 +206,7 @@ nObject
 ;
 assertEquals
 (
-3616
+3655
 ,
 counter
 .
@@ -215,7 +215,7 @@ nElement
 ;
 assertEquals
 (
-2396
+2435
 ,
 counter
 .
@@ -224,7 +224,7 @@ nEnter
 ;
 assertEquals
 (
-2396
+2435
 ,
 counter
 .
