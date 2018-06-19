@@ -75,6 +75,19 @@ createCompilationUnit
 (
 )
 ;
+if
+(
+!
+filePath
+.
+equals
+(
+VirtualFile
+.
+VIRTUAL_FILE_NAME
+)
+)
+{
 cu
 .
 setFile
@@ -86,6 +99,7 @@ filePath
 )
 )
 ;
+}
 cachedCompilationUnits
 .
 put
