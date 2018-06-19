@@ -11,6 +11,28 @@ String
 content
 )
 {
+if
+(
+content
+.
+contains
+(
+CtComment
+.
+LINE_SEPARATOR
+)
+)
+{
+throw
+new
+SpoonException
+(
+"The content of your comment contain at least one line separator. "
++
+"Please consider using a block comment by calling createComment(\"your content\", CtComment.CommentType.BLOCK)."
+)
+;
+}
 return
 createComment
 (
