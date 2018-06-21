@@ -40,6 +40,17 @@ true
 ;
 launcher
 .
+getEnvironment
+(
+)
+.
+setComplianceLevel
+(
+10
+)
+;
+launcher
+.
 addInputResource
 (
 "./src/main/java/spoon/reflect/"

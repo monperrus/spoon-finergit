@@ -1,0 +1,19 @@
+/** 
+ * Set true if the variable must be inferred. Warning: this method should only be used if compliance level is set to 10 or more.
+ */
+@PropertySetter(role=IS_INFERRED)
+<
+U
+extends
+CtLocalVariable
+<
+T
+>
+>
+U
+setInferred
+(
+boolean
+inferred
+)
+;

@@ -1,0 +1,9 @@
+/** 
+ * Return true if this variable's type is not explicitely defined in the source code, but was using the `var` keyword of Java 10.
+ */
+@PropertyGetter(role=IS_INFERRED)
+boolean
+isInferred
+(
+)
+;

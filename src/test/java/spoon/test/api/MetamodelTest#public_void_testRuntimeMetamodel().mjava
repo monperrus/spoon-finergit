@@ -359,6 +359,8 @@ keySet
 }
 assertTrue
 (
+"You might need to update api/Metamodel.java: "
++
 String
 .
 join
