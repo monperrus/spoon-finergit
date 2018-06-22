@@ -1,0 +1,17 @@
+public
+MYENUM
+from
+(
+String
+s
+)
+{
+return
+MYENUM
+.
+valueOf
+(
+s
+)
+;
+}

@@ -101,7 +101,7 @@ Method
 .
 createParameter
 (
-valuesMethod
+valueOfMethod
 ,
 factory
 .
