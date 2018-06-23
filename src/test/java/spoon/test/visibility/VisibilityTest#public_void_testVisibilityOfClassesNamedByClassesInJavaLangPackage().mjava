@@ -81,13 +81,6 @@ File
 ;
 compiler
 .
-setSourceOutputDirectory
-(
-sourceOutputDir
-)
-;
-compiler
-.
 build
 (
 )

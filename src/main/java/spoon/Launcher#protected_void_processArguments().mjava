@@ -188,9 +188,7 @@ getBoolean
 )
 )
 ;
-environment
-.
-setSelfChecks
+if
 (
 jsapActualArgs
 .
@@ -199,7 +197,14 @@ getBoolean
 "disable-model-self-checks"
 )
 )
+{
+environment
+.
+disableConsistencyChecks
+(
+)
 ;
+}
 String
 outputString
 =

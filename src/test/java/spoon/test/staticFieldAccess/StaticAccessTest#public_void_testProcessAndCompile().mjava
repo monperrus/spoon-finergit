@@ -40,7 +40,11 @@ mkdirs
 (
 )
 ;
-compiler
+factory
+.
+getEnvironment
+(
+)
 .
 setSourceOutputDirectory
 (

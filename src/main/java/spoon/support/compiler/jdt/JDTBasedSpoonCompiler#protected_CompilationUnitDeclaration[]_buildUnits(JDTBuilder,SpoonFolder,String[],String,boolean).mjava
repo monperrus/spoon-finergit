@@ -6,7 +6,7 @@
  * @param debugMessagePrefix Useful to help debugging
  * @param buildOnlyOutdatedFiles This parameter is NEVER used
  * @return All compilationUnitDeclaration from JDT found in source folder
- * @deprecated The parameter buildOnlyOutdatedFiles is not used anymore.
+ * @deprecated (since Spoon 7.0.0) The parameter buildOnlyOutdatedFiles is not used anymore.
  */
 @Deprecated
 protected

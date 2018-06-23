@@ -2,6 +2,7 @@
  * Creates pattern parameter for each key of parameterValues  {@link Map}. The parameter is created only if doesn't exist yet. If the parameter value is a CtTypeReference, then all local types whose simple name equals to parameter name are substituted Then any name in source code which contains a parameter name will be converted to parameter Note: This unclear and ambiguous technique was used in legacy templates
  * @param parameterValues pattern parameter values or null if not known
  * @return this to support fluent API
+ * @deprecated Since Spoon 7.0.0
  */
 @Deprecated
 public
