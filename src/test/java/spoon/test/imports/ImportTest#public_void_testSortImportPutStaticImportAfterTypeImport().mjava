@@ -168,7 +168,7 @@ nbStaticImports
 int
 nbStandardImports
 =
-4
+3
 ;
 boolean
 startStatic
@@ -270,13 +270,18 @@ countImports
 ;
 }
 }
+int
+totalImports
+=
+nbStandardImports
++
+nbStaticImports
+;
 assertEquals
 (
 "Exactly "
 +
-nbStandardImports
-+
-nbStaticImports
+totalImports
 +
 " should have been counted."
 ,

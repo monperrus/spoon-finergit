@@ -44,9 +44,11 @@ sourceCompilationUnit
 null
 )
 {
-imports
+this
 .
-addAll
+importsContext
+.
+initWithImports
 (
 sourceCompilationUnit
 .

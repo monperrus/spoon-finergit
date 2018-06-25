@@ -86,7 +86,7 @@ getAllImports
 ;
 assertEquals
 (
-4
+2
 ,
 imports
 .

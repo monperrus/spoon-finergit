@@ -60,7 +60,7 @@ getAllImports
 ;
 assertEquals
 (
-3
+2
 ,
 imports
 .
@@ -87,8 +87,6 @@ asList
 "spoon.test.imports.testclasses.internal3.Foo"
 ,
 "java.io.File"
-,
-"java.lang.Object"
 )
 )
 ;
