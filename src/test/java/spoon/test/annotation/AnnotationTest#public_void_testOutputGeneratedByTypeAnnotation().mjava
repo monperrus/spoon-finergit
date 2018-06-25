@@ -18,6 +18,17 @@ Launcher
 ;
 launcher
 .
+getEnvironment
+(
+)
+.
+setNoClasspath
+(
+false
+)
+;
+launcher
+.
 addInputResource
 (
 "./src/test/java/spoon/test/annotation/testclasses/AnnotationsAppliedOnAnyTypeInAClass.java"
