@@ -1,6 +1,6 @@
 @Override
 public
-Collection
+Set
 <
 CtImport
 >
@@ -8,14 +8,14 @@ getAllImports
 (
 )
 {
-Collection
+Set
 <
 CtImport
 >
 listallImports
 =
 new
-ArrayList
+HashSet
 <
 >
 (

@@ -3,7 +3,7 @@ public
 void
 initWithImports
 (
-Collection
+Set
 <
 CtImport
 >

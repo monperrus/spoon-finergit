@@ -1,0 +1,15 @@
+/** 
+ * Set the imports of this CU WARNING: This method is tagged as experimental, as its signature and/or usage might change in future release.
+ * @param imports All the imports of the original source code
+ */
+@Experimental
+void
+setImports
+(
+Set
+<
+CtImport
+>
+imports
+)
+;
