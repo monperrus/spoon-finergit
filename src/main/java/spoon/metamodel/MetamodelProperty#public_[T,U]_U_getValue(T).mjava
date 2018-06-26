@@ -100,7 +100,7 @@ throw
 new
 SpoonException
 (
-"Invokation of getter on "
+"Invocation of getter on "
 +
 toString
 (

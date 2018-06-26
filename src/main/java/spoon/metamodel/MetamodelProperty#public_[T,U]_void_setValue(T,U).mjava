@@ -101,7 +101,7 @@ throw
 new
 SpoonException
 (
-"Invokation of setter on "
+"Invocation of setter on "
 +
 toString
 (
