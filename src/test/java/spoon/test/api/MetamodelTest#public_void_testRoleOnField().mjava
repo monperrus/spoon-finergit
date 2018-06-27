@@ -26,6 +26,16 @@ buildModel
 (
 )
 ;
+String
+nl
+=
+System
+.
+getProperty
+(
+"line.separator"
+)
+;
 Factory
 factory
 =
@@ -306,7 +316,11 @@ result
 .
 contains
 (
-"@spoon.reflect.annotations.MetamodelPropertyField(role = spoon.reflect.path.CtRole.IS_SHADOW)\nboolean isShadow;"
+"@spoon.reflect.annotations.MetamodelPropertyField(role = spoon.reflect.path.CtRole.IS_SHADOW)"
++
+nl
++
+"boolean isShadow;"
 )
 )
 ;
@@ -316,7 +330,11 @@ result
 .
 contains
 (
-"@spoon.reflect.annotations.MetamodelPropertyField(role = spoon.reflect.path.CtRole.TYPE)\nspoon.reflect.reference.CtTypeReference<T> type;"
+"@spoon.reflect.annotations.MetamodelPropertyField(role = spoon.reflect.path.CtRole.TYPE)"
++
+nl
++
+"spoon.reflect.reference.CtTypeReference<T> type;"
 )
 )
 ;

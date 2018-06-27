@@ -53,7 +53,12 @@ toString
 .
 append
 (
-'\n'
+System
+.
+getProperty
+(
+"line.separator"
+)
 )
 ;
 }

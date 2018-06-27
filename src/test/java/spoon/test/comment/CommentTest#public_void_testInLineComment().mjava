@@ -288,7 +288,9 @@ newLine
 +
 newLine
 +
-"private int field = 10;// after field\n"
+"private int field = 10;// after field"
++
+newLine
 ,
 field
 .
