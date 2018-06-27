@@ -88,6 +88,16 @@ i
 ;
 if
 (
+expression
+.
+getPosition
+(
+)
+.
+isValidPosition
+(
+)
+&&
 ctStatement
 .
 getPosition
