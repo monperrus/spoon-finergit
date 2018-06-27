@@ -5,15 +5,6 @@ testRoleOnField
 (
 )
 {
-System
-.
-setProperty
-(
-"line.separator"
-,
-"\n"
-)
-;
 SpoonAPI
 implementations
 =

@@ -7,15 +7,6 @@ testGenerateRoleHandler
 throws
 Exception
 {
-System
-.
-setProperty
-(
-"line.separator"
-,
-"\n"
-)
-;
 final
 Launcher
 launcher
