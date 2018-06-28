@@ -151,8 +151,10 @@ startsWith
 "Mega"
 )
 )
+{
 continue
 ;
+}
 for
 (
 CtMethod
@@ -181,8 +183,10 @@ PUBLIC
 ==
 false
 )
+{
 continue
 ;
+}
 if
 (
 !
@@ -197,8 +201,10 @@ startsWith
 "create"
 )
 )
+{
 continue
 ;
+}
 if
 (
 m
@@ -293,8 +299,10 @@ equals
 "createReference"
 )
 )
+{
 continue
 ;
+}
 if
 (
 m
@@ -310,8 +318,10 @@ ModifierKind
 ABSTRACT
 )
 )
+{
 continue
 ;
+}
 sanityCheck
 .
 val
