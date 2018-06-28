@@ -1,0 +1,8 @@
+/** 
+ * Get the type of serialization to be used by default
+ */
+CompressionType
+getCompressionType
+(
+)
+;

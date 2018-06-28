@@ -1,5 +1,5 @@
 /** 
- * Saves a factory (and all its associated Java program elements).
+ * Saves a factory (and all its associated Java program elements). Stream is GZIP compressed by default, see  {@link Environment#setCompressionType(spoon.support.CompressionType)}
  * @param f the factory to be save
  * @param out the used output stream
  * @throws IOException if some IO error occurs

@@ -1,0 +1,16 @@
+@Override
+public
+void
+setCompressionType
+(
+CompressionType
+serializationType
+)
+{
+this
+.
+compressionType
+=
+serializationType
+;
+}

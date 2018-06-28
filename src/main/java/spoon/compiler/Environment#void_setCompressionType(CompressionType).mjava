@@ -1,0 +1,10 @@
+/** 
+ * Set the type of serialization to be used by default
+ */
+void
+setCompressionType
+(
+CompressionType
+serializationType
+)
+;

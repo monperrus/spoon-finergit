@@ -1,5 +1,5 @@
 /** 
- * Loads a factory (and all its associated Java program elements).
+ * Loads a factory (and all its associated Java program elements). Tries to decompress the file given the available  {@link CompressionType}
  * @param in the used input stream
  * @return the loaded factory
  * @throws IOException if some IO error occurs
