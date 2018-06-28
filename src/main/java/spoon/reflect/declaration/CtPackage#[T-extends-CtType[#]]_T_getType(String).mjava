@@ -2,7 +2,7 @@
  * Finds a top-level type by name.
  * @return the found type or null
  */
-@PropertyGetter(role=CtRole.CONTAINED_TYPE)
+@PropertyGetter(role=CONTAINED_TYPE)
 <
 T
 extends
