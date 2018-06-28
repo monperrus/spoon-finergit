@@ -1,0 +1,27 @@
+/** 
+ * Creates a compound source position.
+ */
+CompoundSourcePosition
+createCompoundSourcePosition
+(
+CompilationUnit
+compilationUnit
+,
+int
+startSource
+,
+int
+end
+,
+int
+declarationStart
+,
+int
+declarationEnd
+,
+int
+[
+]
+lineSeparatorPositions
+)
+;
