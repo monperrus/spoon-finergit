@@ -14,6 +14,23 @@ commandLineArgs
 =
 args2
 ;
+if
+(
+processed
+)
+{
+throw
+new
+SpoonException
+(
+"You cannot process twice the same launcher instance."
+)
+;
+}
+processed
+=
+true
+;
 processArguments
 (
 )
