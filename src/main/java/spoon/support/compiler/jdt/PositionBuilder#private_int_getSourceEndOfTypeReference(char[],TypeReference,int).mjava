@@ -103,9 +103,16 @@ contents
 .
 length
 ,
+getSourceEndOfTypeReference
+(
+contents
+,
+tr
+,
 tr
 .
 sourceEnd
+)
 +
 1
 )
