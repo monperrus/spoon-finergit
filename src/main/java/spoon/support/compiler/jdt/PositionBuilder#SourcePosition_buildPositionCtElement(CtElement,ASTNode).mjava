@@ -1624,6 +1624,17 @@ enumConstant
 ;
 sourceStart
 =
+findNextNonWhitespace
+(
+contents
+,
+sourceEnd
+,
+sourceStart
+)
+;
+sourceStart
+=
 fieldDeclaration
 .
 name
