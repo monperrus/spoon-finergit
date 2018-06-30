@@ -1289,13 +1289,6 @@ else
 {
 if
 (
-bodyStart
-<
-bodyEnd
-)
-{
-if
-(
 contents
 [
 bodyStart
@@ -1326,6 +1319,13 @@ bodyEnd
 ;
 }
 else
+{
+if
+(
+bodyStart
+<
+bodyEnd
+)
 {
 throw
 new
