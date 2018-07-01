@@ -61,6 +61,10 @@ setBody
 childBlock
 )
 ;
+lastCatcher
+.
+setPosition
+(
 jdtTreeBuilder
 .
 getPositionBuilder
@@ -70,6 +74,7 @@ getPositionBuilder
 buildPosition
 (
 lastCatcher
+)
 )
 ;
 }

@@ -1,4 +1,4 @@
-void
+SourcePosition
 buildPosition
 (
 CtCatch
@@ -28,19 +28,6 @@ lineSeparatorPositions
 cr
 .
 lineSeparatorPositions
-;
-char
-[
-]
-contents
-=
-cr
-.
-compilationUnit
-.
-getContents
-(
-)
 ;
 CtTry
 tryElement
@@ -116,10 +103,7 @@ getSourceEnd
 (
 )
 ;
-catcher
-.
-setPosition
-(
+return
 catcher
 .
 getFactory
@@ -175,7 +159,6 @@ bodyStart
 bodyEnd
 ,
 lineSeparatorPositions
-)
 )
 ;
 }
