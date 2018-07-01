@@ -93,7 +93,7 @@ Launcher
 ;
 launcher
 .
-run
+setArgs
 (
 new
 String
@@ -126,6 +126,12 @@ systemClassPath
 ,
 "OFF"
 }
+)
+;
+launcher
+.
+buildModel
+(
 )
 ;
 rootPackage
