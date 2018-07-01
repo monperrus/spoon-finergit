@@ -102,6 +102,8 @@ contents
 contents
 .
 length
+-
+1
 ,
 getSourceEndOfTypeReference
 (
