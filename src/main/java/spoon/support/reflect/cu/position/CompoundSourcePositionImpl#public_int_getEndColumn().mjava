@@ -1,12 +1,12 @@
 @Override
 public
 int
-getEndLine
+getEndColumn
 (
 )
 {
 return
-searchLineNumber
+searchColumnNumber
 (
 declarationSourceEnd
 )
