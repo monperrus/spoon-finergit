@@ -33,7 +33,7 @@ Code
 .
 createCodeSnippetStatement
 (
-"class X implements spoon.test.compilation.Ifoo { public int foo() {int i=0; return i;} }"
+"class X implements spoon.test.compilation.testclasses.Ifoo { public int foo() {int i=0; return i;} }"
 )
 .
 compile
