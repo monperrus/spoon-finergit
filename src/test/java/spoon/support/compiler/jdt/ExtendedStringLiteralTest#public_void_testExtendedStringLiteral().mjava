@@ -221,7 +221,7 @@ Package
 .
 get
 (
-"spoon.support.compiler.jdt"
+"spoon.support.compiler.jdt.testclasses"
 )
 .
 getType
