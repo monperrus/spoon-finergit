@@ -15,7 +15,7 @@ type
 =
 build
 (
-"spoon.test.arrays"
+"spoon.test.arrays.testclasses"
 ,
 "ArrayClass"
 )
@@ -128,7 +128,7 @@ size
 ;
 assertEquals
 (
-"@spoon.test.arrays.ArrayClass.TypeAnnotation(integer = 1)"
+"@spoon.test.arrays.testclasses.ArrayClass.TypeAnnotation(integer = 1)"
 ,
 arrayTypeReference
 .
