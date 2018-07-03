@@ -1,0 +1,8 @@
+/** 
+ * If true, the first build model has been finished. This value should be false at the beginning of  {@link SpoonModelBuilder#build()} and true at this end.
+ */
+boolean
+isBuildModelFinished
+(
+)
+;

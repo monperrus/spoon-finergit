@@ -1,0 +1,15 @@
+/** 
+ * Set to true to flag that a build model has been finished. By default, this method is called with a true value at the end of  {@link SpoonModelBuilder#build()}
+ */
+<
+T
+extends
+CtModel
+>
+T
+setBuildModelIsFinished
+(
+boolean
+buildModelFinished
+)
+;

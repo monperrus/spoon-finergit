@@ -258,6 +258,17 @@ loadFactory
 mModelFile
 )
 ;
+oldFactory
+.
+getModel
+(
+)
+.
+setBuildModelIsFinished
+(
+false
+)
+;
 mRemovedSources
 =
 new
