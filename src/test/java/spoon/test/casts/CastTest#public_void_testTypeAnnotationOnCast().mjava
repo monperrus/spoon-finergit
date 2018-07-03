@@ -85,7 +85,7 @@ size
 ;
 assertEquals
 (
-"((java.lang.@spoon.test.casts.Castings.TypeAnnotation(integer = 1)"
+"((java.lang.@spoon.test.casts.testclasses.Castings.TypeAnnotation(integer = 1)"
 +
 System
 .

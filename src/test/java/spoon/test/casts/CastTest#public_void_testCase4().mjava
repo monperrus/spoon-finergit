@@ -15,7 +15,7 @@ type
 =
 build
 (
-"spoon.test.casts"
+"spoon.test.casts.testclasses"
 ,
 "Castings"
 )
