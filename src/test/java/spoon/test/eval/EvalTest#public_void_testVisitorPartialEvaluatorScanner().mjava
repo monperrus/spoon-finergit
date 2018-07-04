@@ -19,7 +19,7 @@ launcher
 .
 addInputResource
 (
-"src/test/java/spoon/test/eval/Foo.java"
+"src/test/java/spoon/test/eval/testclasses/Foo.java"
 )
 ;
 launcher

@@ -15,7 +15,7 @@ type
 =
 build
 (
-"spoon.test.eval"
+"spoon.test.eval.testclasses"
 ,
 "ToEvaluate"
 )
@@ -78,7 +78,7 @@ partiallyEvaluate
 ;
 assertEquals
 (
-"spoon.test.eval.ToEvaluate.class.getName()"
+"spoon.test.eval.testclasses.ToEvaluate.class.getName()"
 ,
 b
 .
@@ -98,7 +98,7 @@ toString
 ;
 assertEquals
 (
-"java.lang.System.out.println(spoon.test.eval.ToEvaluate.getClassLoader())"
+"java.lang.System.out.println(spoon.test.eval.testclasses.ToEvaluate.getClassLoader())"
 ,
 b
 .
@@ -118,7 +118,7 @@ toString
 ;
 assertEquals
 (
-"return \"spoon.test.eval.ToEvaluate\""
+"return \"spoon.test.eval.testclasses.ToEvaluate\""
 ,
 b
 .

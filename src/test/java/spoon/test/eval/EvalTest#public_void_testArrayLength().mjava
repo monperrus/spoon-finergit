@@ -15,7 +15,7 @@ type
 =
 build
 (
-"spoon.test.eval"
+"spoon.test.eval.testclasses"
 ,
 "ToEvaluate"
 )

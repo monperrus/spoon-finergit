@@ -15,7 +15,7 @@ type
 =
 build
 (
-"spoon.test.eval"
+"spoon.test.eval.testclasses"
 ,
 "ToEvaluate"
 )
@@ -78,7 +78,7 @@ partiallyEvaluate
 ;
 assertEquals
 (
-"return ((U) ((java.lang.Object) (spoon.test.eval.ToEvaluate.castTarget(element).getClass())))"
+"return ((U) ((java.lang.Object) (spoon.test.eval.testclasses.ToEvaluate.castTarget(element).getClass())))"
 ,
 b
 .
