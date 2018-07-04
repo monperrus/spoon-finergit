@@ -15,7 +15,7 @@ enumeration
 =
 build
 (
-"spoon.test.enums"
+"spoon.test.enums.testclasses"
 ,
 "Regular"
 )
