@@ -125,7 +125,7 @@ lineSeparator
 (
 )
 +
-"    spoon.test.fieldaccesses.MyClass.LOG.info(\"bla\");"
+"    spoon.test.fieldaccesses.testclasses.MyClass.LOG.info(\"bla\");"
 +
 System
 .
