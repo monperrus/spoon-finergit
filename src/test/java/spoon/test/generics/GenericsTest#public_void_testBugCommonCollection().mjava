@@ -17,7 +17,7 @@ type
 =
 build
 (
-"spoon.test.generics"
+"spoon.test.generics.testclasses3"
 ,
 "BugCollection"
 )
@@ -52,7 +52,7 @@ get
 ;
 assertEquals
 (
-"public static final spoon.test.generics.ACLass<?> INSTANCE = new spoon.test.generics.ACLass();"
+"public static final spoon.test.generics.testclasses3.ACLass<?> INSTANCE = new spoon.test.generics.testclasses3.ACLass();"
 ,
 INSTANCE
 .
@@ -107,7 +107,7 @@ CtAnnotation
 ;
 assertEquals
 (
-"public static final spoon.test.generics.ACLass<?> INSTANCE2 = new spoon.test.generics.ACLass();"
+"public static final spoon.test.generics.testclasses3.ACLass<?> INSTANCE2 = new spoon.test.generics.testclasses3.ACLass();"
 ,
 INSTANCE2
 .

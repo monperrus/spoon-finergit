@@ -37,9 +37,9 @@ SpoonResourceHelper
 .
 resources
 (
-"./src/test/java/spoon/test/generics/Foo.java"
+"./src/test/java/spoon/test/generics/testclasses3/Foo.java"
 ,
-"./src/test/java/spoon/test/generics/Bar.java"
+"./src/test/java/spoon/test/generics/testclasses3/Bar.java"
 )
 )
 ;

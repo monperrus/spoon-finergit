@@ -90,7 +90,7 @@ getDeclaration
 ;
 assertEquals
 (
-"spoon.test.generics.ClassThatDefinesANewTypeArgument"
+"spoon.test.generics.testclasses3.ClassThatDefinesANewTypeArgument"
 ,
 typeRef
 .
@@ -108,7 +108,7 @@ typeParamRef
 ;
 assertEquals
 (
-"spoon.test.generics.ClassThatDefinesANewTypeArgument<T>"
+"spoon.test.generics.testclasses3.ClassThatDefinesANewTypeArgument<T>"
 ,
 typeRef
 .

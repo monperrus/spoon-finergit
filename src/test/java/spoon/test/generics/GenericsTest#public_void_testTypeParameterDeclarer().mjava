@@ -15,7 +15,7 @@ classThatDefinesANewTypeArgument
 =
 build
 (
-"spoon.test.generics"
+"spoon.test.generics.testclasses3"
 ,
 "ClassThatDefinesANewTypeArgument"
 )
