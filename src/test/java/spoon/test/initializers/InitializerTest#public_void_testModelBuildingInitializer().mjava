@@ -15,7 +15,7 @@ type
 =
 build
 (
-"spoon.test.initializers"
+"spoon.test.initializers.testclasses"
 ,
 "InstanceInitializers"
 )
