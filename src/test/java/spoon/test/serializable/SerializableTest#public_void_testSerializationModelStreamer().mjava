@@ -12,7 +12,7 @@ factory
 =
 build
 (
-"spoon.test.serializable"
+"spoon.test.serializable.testclasses"
 ,
 "Dummy"
 )
