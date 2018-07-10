@@ -9,6 +9,15 @@ int
 position
 )
 {
+int
+[
+]
+lineSeparatorPositions
+=
+getLineSeparatorPositions
+(
+)
+;
 if
 (
 lineSeparatorPositions

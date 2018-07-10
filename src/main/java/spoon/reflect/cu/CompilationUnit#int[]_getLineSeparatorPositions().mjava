@@ -1,0 +1,10 @@
+/** 
+ * @return array of offsets in the origin source file, where occurs line separator
+ */
+int
+[
+]
+getLineSeparatorPositions
+(
+)
+;

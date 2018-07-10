@@ -96,6 +96,13 @@ cr
 .
 lineSeparatorPositions
 ;
+cu
+.
+setLineSeparatorPositions
+(
+lineSeparatorPositions
+)
+;
 char
 [
 ]
