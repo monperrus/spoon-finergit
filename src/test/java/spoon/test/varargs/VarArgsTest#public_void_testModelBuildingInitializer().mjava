@@ -15,7 +15,7 @@ type
 =
 build
 (
-"spoon.test.varargs"
+"spoon.test.varargs.testclasses"
 ,
 "VarArgsSample"
 )
