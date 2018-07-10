@@ -15,7 +15,7 @@ testEnum
 =
 build
 (
-"spoon.test.reflect.visitor"
+"spoon.test.reflect.visitor.testclasses"
 ,
 "ReferenceQueryTestEnum"
 )
