@@ -33,7 +33,7 @@ SpoonResourceHelper
 .
 resources
 (
-"./src/test/java/spoon/test/prettyprinter/Validation.java"
+"./src/test/java/spoon/test/prettyprinter/testclasses/Validation.java"
 )
 )
 .

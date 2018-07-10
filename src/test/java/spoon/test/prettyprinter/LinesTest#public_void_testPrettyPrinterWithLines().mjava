@@ -120,7 +120,7 @@ Type
 .
 get
 (
-"spoon.test.prettyprinter.Validation"
+"spoon.test.prettyprinter.testclasses.Validation"
 )
 .
 getMethodsByName
