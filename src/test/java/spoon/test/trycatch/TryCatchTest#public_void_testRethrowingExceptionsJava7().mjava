@@ -15,7 +15,7 @@ clazz
 =
 build
 (
-"spoon.test.trycatch"
+"spoon.test.trycatch.testclasses"
 ,
 "RethrowingClass"
 )
