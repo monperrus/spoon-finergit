@@ -15,7 +15,7 @@ type
 =
 build
 (
-"spoon.test.secondaryclasses"
+"spoon.test.secondaryclasses.testclasses"
 ,
 "ClassWithInternalPublicClassOrInterf"
 )
