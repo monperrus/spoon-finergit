@@ -85,8 +85,6 @@ clone
 (
 )
 ;
-Assert
-.
 assertEquals
 (
 0
@@ -102,8 +100,6 @@ size
 )
 )
 ;
-Assert
-.
 assertEquals
 (
 0
@@ -119,8 +115,6 @@ size
 )
 )
 ;
-Assert
-.
 assertEquals
 (
 conditional
@@ -145,8 +139,6 @@ bytePrimitiveType
 )
 )
 ;
-Assert
-.
 assertEquals
 (
 1
@@ -179,8 +171,6 @@ clone
 (
 )
 ;
-Assert
-.
 assertEquals
 (
 conditional
@@ -188,8 +178,6 @@ conditional
 clone
 )
 ;
-Assert
-.
 assertEquals
 (
 1
