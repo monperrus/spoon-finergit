@@ -11,8 +11,6 @@ String
 ]
 args
 )
-throws
-Exception
 {
 new
 Launcher

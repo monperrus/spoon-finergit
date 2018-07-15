@@ -6,8 +6,6 @@ getProcessorProperties
 String
 processorName
 )
-throws
-Exception
 {
 if
 (
