@@ -15,7 +15,7 @@ newValue
 ==
 null
 &&
-getMinOccurences
+getMinOccurrences
 (
 )
 >

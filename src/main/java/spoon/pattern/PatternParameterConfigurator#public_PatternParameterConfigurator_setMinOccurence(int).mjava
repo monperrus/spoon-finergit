@@ -8,7 +8,7 @@ minOccurence
 {
 currentParameter
 .
-setMinOccurences
+setMinOccurrences
 (
 minOccurence
 )

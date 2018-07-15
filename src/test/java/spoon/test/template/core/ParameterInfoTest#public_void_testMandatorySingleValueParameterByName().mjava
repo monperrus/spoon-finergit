@@ -14,7 +14,7 @@ MapParameterInfo
 "year"
 )
 .
-setMinOccurences
+setMinOccurrences
 (
 1
 )

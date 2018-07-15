@@ -37,7 +37,7 @@ true
 return
 nrOfValues
 <
-getMaxOccurences
+getMaxOccurrences
 (
 )
 ;

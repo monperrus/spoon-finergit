@@ -1,0 +1,10 @@
+public
+int
+getMinOccurrences
+(
+)
+{
+return
+minOccurrences
+;
+}

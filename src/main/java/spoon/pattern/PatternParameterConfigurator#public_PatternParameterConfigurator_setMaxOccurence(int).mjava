@@ -12,7 +12,7 @@ maxOccurence
 ==
 ParameterInfo
 .
-UNLIMITED_OCCURENCES
+UNLIMITED_OCCURRENCES
 ||
 maxOccurence
 >
@@ -31,13 +31,13 @@ throw
 new
 SpoonException
 (
-"Cannot set maxOccurences > 1 for single value parameter. Call setMultiple(true) first."
+"Cannot set maxOccurrences > 1 for single value parameter. Call setMultiple(true) first."
 )
 ;
 }
 currentParameter
 .
-setMaxOccurences
+setMaxOccurrences
 (
 maxOccurence
 )

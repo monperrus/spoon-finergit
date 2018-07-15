@@ -21,7 +21,7 @@ parameters
 return
 nrOfValues
 <
-getMinOccurences
+getMinOccurrences
 (
 )
 ;
