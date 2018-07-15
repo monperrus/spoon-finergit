@@ -23,7 +23,7 @@ NameScanner
 ;
 if
 (
-RECURSIVE_WILCARD
+RECURSIVE_WILDCARD
 .
 equals
 (

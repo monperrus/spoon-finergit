@@ -12,7 +12,7 @@ name
 (
 CtNamedPathElement
 .
-RECURSIVE_WILCARD
+RECURSIVE_WILDCARD
 )
 ;
 }
