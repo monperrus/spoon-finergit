@@ -181,7 +181,6 @@ unitsToReturn
 new
 ArrayList
 <
-CompilationUnitDeclaration
 >
 (
 )
