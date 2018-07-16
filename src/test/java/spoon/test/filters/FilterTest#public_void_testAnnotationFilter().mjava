@@ -21,7 +21,7 @@ Package
 .
 get
 (
-"spoon.test.filters"
+"spoon.test.filters.testclasses"
 )
 .
 getType
