@@ -18,7 +18,7 @@ StringTokenizer
 (
 qualifiedName
 ,
-QALIFIED_NAME_SEPARATORS
+QUALIFIED_NAME_SEPARATORS
 ,
 true
 )
@@ -51,7 +51,7 @@ length
 ==
 1
 &&
-QALIFIED_NAME_SEPARATORS
+QUALIFIED_NAME_SEPARATORS
 .
 indexOf
 (
