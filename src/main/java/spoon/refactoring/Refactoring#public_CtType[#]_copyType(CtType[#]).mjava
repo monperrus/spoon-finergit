@@ -29,9 +29,12 @@ clone
 (
 )
 ;
-String
+StringBuilder
 tentativeTypeName
 =
+new
+StringBuilder
+(
 type
 .
 getSimpleName
@@ -39,6 +42,7 @@ getSimpleName
 )
 +
 "Copy"
+)
 ;
 while
 (
@@ -73,8 +77,11 @@ null
 )
 {
 tentativeTypeName
-=
+.
+append
+(
 "X"
+)
 ;
 }
 final
@@ -82,6 +89,10 @@ String
 cloneTypeName
 =
 tentativeTypeName
+.
+toString
+(
+)
 ;
 clone
 .
