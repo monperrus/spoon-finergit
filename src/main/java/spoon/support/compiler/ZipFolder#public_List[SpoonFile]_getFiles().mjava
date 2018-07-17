@@ -80,6 +80,8 @@ int
 count
 ;
 byte
+[
+]
 data
 =
 new
