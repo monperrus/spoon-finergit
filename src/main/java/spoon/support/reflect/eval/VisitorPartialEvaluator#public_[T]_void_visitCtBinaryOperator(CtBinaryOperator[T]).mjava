@@ -753,8 +753,6 @@ setResult
 res
 )
 ;
-return
-;
 }
 else
 if

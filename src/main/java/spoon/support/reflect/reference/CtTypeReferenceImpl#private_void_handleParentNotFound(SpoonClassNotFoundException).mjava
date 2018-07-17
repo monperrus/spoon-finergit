@@ -51,8 +51,6 @@ warn
 msg
 )
 ;
-return
-;
 }
 else
 {
