@@ -15,15 +15,14 @@ e
 while
 (
 (
+!
 context
 .
 parenthesedExpression
 .
-size
+isEmpty
 (
 )
->
-0
 )
 &&
 e

@@ -8,15 +8,14 @@ environment
 {
 if
 (
+!
 getProblems
 (
 )
 .
-size
+isEmpty
 (
 )
->
-0
 )
 {
 for

@@ -49,10 +49,8 @@ units
 return
 probs
 .
-size
+isEmpty
 (
 )
-==
-0
 ;
 }

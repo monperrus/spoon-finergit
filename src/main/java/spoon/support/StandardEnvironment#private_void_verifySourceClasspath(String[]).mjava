@@ -79,13 +79,12 @@ getAllJavaFiles
 ;
 if
 (
+!
 javaFiles
 .
-size
+isEmpty
 (
 )
->
-0
 )
 {
 logger

@@ -161,13 +161,12 @@ qName
 {
 while
 (
+!
 currentSubTypes
 .
-size
+isEmpty
 (
 )
->
-0
 )
 {
 final

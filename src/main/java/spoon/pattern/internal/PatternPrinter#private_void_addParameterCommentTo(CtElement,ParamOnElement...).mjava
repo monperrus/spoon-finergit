@@ -46,13 +46,12 @@ isCommentVisible
 ele
 )
 &&
+!
 params
 .
-size
+isEmpty
 (
 )
->
-0
 )
 {
 ele

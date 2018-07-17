@@ -6,12 +6,11 @@ hasNext
 )
 {
 return
+!
 deque
 .
-size
+isEmpty
 (
 )
->
-0
 ;
 }

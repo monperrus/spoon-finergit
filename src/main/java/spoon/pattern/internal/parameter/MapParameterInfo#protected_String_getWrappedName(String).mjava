@@ -20,13 +20,12 @@ containerName
 }
 if
 (
+!
 containerName
 .
-length
+isEmpty
 (
 )
->
-0
 )
 {
 containerName

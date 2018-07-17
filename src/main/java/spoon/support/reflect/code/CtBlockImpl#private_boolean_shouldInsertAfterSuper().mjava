@@ -20,15 +20,14 @@ getParent
 instanceof
 CtConstructor
 &&
+!
 getStatements
 (
 )
 .
-size
+isEmpty
 (
 )
->
-0
 )
 {
 CtStatement

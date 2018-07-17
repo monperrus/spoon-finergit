@@ -39,11 +39,9 @@ getParameters
 (
 )
 .
-size
+isEmpty
 (
 )
-==
-0
 )
 {
 return

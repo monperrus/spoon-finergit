@@ -20,11 +20,9 @@ null
 ||
 sources
 .
-size
+isEmpty
 (
 )
-==
-0
 )
 {
 args

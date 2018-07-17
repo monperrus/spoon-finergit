@@ -21,13 +21,12 @@ getFactory
 }
 if
 (
+!
 patternModel
 .
-size
+isEmpty
 (
 )
->
-0
 )
 {
 return

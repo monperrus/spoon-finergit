@@ -22,13 +22,12 @@ ArrayList
 ;
 if
 (
+!
 roleMethods
 .
-size
+isEmpty
 (
 )
->
-0
 )
 {
 potentialRootSuperFields

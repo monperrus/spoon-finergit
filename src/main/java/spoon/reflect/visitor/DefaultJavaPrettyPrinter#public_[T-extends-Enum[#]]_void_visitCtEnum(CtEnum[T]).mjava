@@ -84,11 +84,9 @@ getEnumValues
 (
 )
 .
-size
+isEmpty
 (
 )
-==
-0
 )
 {
 printer

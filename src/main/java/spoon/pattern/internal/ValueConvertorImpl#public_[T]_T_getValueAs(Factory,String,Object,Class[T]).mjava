@@ -432,11 +432,9 @@ if
 (
 list
 .
-size
+isEmpty
 (
 )
-==
-0
 )
 {
 return

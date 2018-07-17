@@ -15,13 +15,12 @@ extendedModifiers
 !=
 null
 &&
+!
 extendedModifiers
 .
-size
+isEmpty
 (
 )
->
-0
 )
 {
 getFactory

@@ -352,13 +352,12 @@ casts
 ;
 if
 (
+!
 casts
 .
-size
+isEmpty
 (
 )
->
-0
 &&
 e
 instanceof

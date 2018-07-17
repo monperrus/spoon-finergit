@@ -353,13 +353,12 @@ declaringType
 ;
 while
 (
+!
 toBeCheckedSubTypes
 .
-size
+isEmpty
 (
 )
->
-0
 )
 {
 for

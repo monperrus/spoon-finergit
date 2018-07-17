@@ -168,11 +168,9 @@ getDeclaredTypes
 (
 )
 .
-size
+isEmpty
 (
 )
-==
-0
 )
 {
 continue

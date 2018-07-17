@@ -42,13 +42,12 @@ getForInit
 ;
 if
 (
+!
 st
 .
-size
+isEmpty
 (
 )
->
-0
 )
 {
 scan

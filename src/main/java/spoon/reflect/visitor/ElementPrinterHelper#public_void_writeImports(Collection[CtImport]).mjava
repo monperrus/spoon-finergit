@@ -389,13 +389,12 @@ writeln
 }
 if
 (
+!
 setStaticImports
 .
-size
+isEmpty
 (
 )
->
-0
 )
 {
 if

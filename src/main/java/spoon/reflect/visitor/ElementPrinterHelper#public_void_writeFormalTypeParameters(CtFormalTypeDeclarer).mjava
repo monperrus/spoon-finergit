@@ -35,13 +35,12 @@ return
 }
 if
 (
+!
 parameters
 .
-size
+isEmpty
 (
 )
->
-0
 )
 {
 printList

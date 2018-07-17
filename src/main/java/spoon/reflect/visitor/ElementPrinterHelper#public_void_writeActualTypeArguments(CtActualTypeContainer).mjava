@@ -32,13 +32,12 @@ arguments
 !=
 null
 &&
+!
 arguments
 .
-size
+isEmpty
 (
 )
->
-0
 )
 {
 printList

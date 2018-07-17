@@ -23,13 +23,12 @@ end
 !=
 null
 &&
+!
 end
 .
-length
+isEmpty
 (
 )
->
-0
 )
 {
 printerTokenWriter

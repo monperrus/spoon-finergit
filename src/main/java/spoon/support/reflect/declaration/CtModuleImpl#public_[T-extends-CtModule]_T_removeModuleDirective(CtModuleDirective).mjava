@@ -22,11 +22,9 @@ this
 .
 moduleDirectives
 .
-size
+isEmpty
 (
 )
-==
-0
 )
 {
 return

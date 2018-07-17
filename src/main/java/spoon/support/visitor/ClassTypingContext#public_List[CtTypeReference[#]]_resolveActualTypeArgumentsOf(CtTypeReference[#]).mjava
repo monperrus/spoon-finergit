@@ -313,13 +313,12 @@ getQualifiedName
 }
 if
 (
+!
 typeParams
 .
-size
+isEmpty
 (
 )
->
-0
 )
 {
 actualTypeArguments

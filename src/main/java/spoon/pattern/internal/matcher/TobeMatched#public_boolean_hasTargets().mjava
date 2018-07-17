@@ -8,12 +8,11 @@ hasTargets
 )
 {
 return
+!
 targets
 .
-size
+isEmpty
 (
 )
->
-0
 ;
 }

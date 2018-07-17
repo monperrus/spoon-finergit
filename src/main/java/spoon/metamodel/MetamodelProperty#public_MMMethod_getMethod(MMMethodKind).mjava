@@ -18,13 +18,12 @@ kind
 )
 ;
 return
+!
 ms
 .
-size
+isEmpty
 (
 )
->
-0
 ?
 ms
 .

@@ -213,11 +213,9 @@ getDimensionExpressions
 (
 )
 .
-size
+isEmpty
 (
 )
-==
-0
 )
 {
 elementPrinterHelper

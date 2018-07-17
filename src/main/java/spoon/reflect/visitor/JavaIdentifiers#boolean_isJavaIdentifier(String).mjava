@@ -10,11 +10,9 @@ if
 (
 s
 .
-length
+isEmpty
 (
 )
-==
-0
 ||
 !
 Character

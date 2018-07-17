@@ -8,6 +8,7 @@ isWellFormed
 )
 {
 return
+!
 Parameters
 .
 getAllTemplateParameterFields
@@ -19,10 +20,8 @@ getClass
 )
 )
 .
-size
+isEmpty
 (
 )
->
-0
 ;
 }

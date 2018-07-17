@@ -58,6 +58,7 @@ false
 }
 if
 (
+!
 reference
 .
 getDeclaringType
@@ -68,11 +69,9 @@ getActualTypeArguments
 (
 )
 .
-size
+isEmpty
 (
 )
-!=
-0
 )
 {
 return

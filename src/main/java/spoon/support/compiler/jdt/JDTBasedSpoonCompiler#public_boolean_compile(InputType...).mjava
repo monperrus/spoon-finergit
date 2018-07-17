@@ -249,10 +249,8 @@ t
 return
 probs
 .
-size
+isEmpty
 (
 )
-==
-0
 ;
 }

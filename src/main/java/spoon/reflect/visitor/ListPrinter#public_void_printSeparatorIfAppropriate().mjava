@@ -37,13 +37,12 @@ separator
 !=
 null
 &&
+!
 separator
 .
-length
+isEmpty
 (
 )
->
-0
 )
 {
 printerTokenWriter

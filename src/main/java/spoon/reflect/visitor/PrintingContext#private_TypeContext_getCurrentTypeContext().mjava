@@ -10,13 +10,12 @@ currentThis
 !=
 null
 &&
+!
 currentThis
 .
-size
+isEmpty
 (
 )
->
-0
 )
 {
 TypeContext

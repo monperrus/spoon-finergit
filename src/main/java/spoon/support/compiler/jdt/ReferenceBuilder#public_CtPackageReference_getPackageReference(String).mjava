@@ -10,11 +10,9 @@ if
 (
 name
 .
-length
+isEmpty
 (
 )
-==
-0
 )
 {
 return

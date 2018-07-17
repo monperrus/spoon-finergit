@@ -196,11 +196,9 @@ if
 (
 elements
 .
-size
+isEmpty
 (
 )
-==
-0
 )
 {
 return

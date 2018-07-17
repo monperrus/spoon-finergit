@@ -275,11 +275,9 @@ if
 (
 enclosingClasses
 .
-size
+isEmpty
 (
 )
-==
-0
 )
 {
 return
@@ -366,11 +364,9 @@ if
 (
 anonymousClasses
 .
-size
+isEmpty
 (
 )
-==
-0
 )
 {
 return

@@ -54,6 +54,7 @@ class
 ;
 while
 (
+!
 parent
 .
 getMethodsByName
@@ -61,11 +62,9 @@ getMethodsByName
 tentativeTypeName
 )
 .
-size
+isEmpty
 (
 )
->
-0
 )
 {
 tentativeTypeName

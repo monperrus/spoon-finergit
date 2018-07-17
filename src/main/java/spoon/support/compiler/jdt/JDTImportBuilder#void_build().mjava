@@ -297,13 +297,12 @@ methodOrFieldName
 ;
 if
 (
+!
 methodOrFields
 .
-size
+isEmpty
 (
 )
->
-0
 )
 {
 CtNamedElement
