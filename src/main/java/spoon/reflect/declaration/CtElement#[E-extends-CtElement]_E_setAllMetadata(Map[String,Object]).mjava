@@ -1,0 +1,20 @@
+/** 
+ * Saves a bunch of metadata inside an Element
+ */
+<
+E
+extends
+CtElement
+>
+E
+setAllMetadata
+(
+Map
+<
+String
+,
+Object
+>
+metadata
+)
+;
