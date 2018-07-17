@@ -27,11 +27,11 @@ CommentType
 JAVADOC
 )
 {
-StringBuffer
+StringBuilder
 result
 =
 new
-StringBuffer
+StringBuilder
 (
 )
 ;
