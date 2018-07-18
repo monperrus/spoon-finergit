@@ -1,0 +1,17 @@
+/** 
+ * The simple name of an ArrayTypeReference is unsettable as it's retrieved from its component type.
+ */
+@UnsettableProperty
+@Override
+<
+T
+extends
+CtReference
+>
+T
+setSimpleName
+(
+String
+simpleName
+)
+;
