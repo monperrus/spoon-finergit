@@ -3,6 +3,7 @@
  * @return Source file and line number of this element.It never returns null. Use  {@link SourcePosition#isValidPosition()}to detect whether return instance contains start/end indexes.
  */
 @PropertyGetter(role=POSITION)
+@Override
 SourcePosition
 getPosition
 (
