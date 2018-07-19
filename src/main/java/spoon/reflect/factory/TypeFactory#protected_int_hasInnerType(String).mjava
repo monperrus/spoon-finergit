@@ -9,9 +9,7 @@ String
 qualifiedName
 )
 {
-int
-ret
-=
+return
 qualifiedName
 .
 lastIndexOf
@@ -20,8 +18,5 @@ CtType
 .
 INNERTTYPE_SEPARATOR
 )
-;
-return
-ret
 ;
 }
