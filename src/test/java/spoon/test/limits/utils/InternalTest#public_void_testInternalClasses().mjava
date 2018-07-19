@@ -15,7 +15,7 @@ type
 =
 build
 (
-"spoon.test.limits.utils"
+"spoon.test.limits.utils.testclasses"
 ,
 "ContainInternalClass"
 )
@@ -96,7 +96,7 @@ getSimpleName
 ;
 assertEquals
 (
-"spoon.test.limits.utils.ContainInternalClass$InternalClass"
+"spoon.test.limits.utils.testclasses.ContainInternalClass$InternalClass"
 ,
 c1
 .
@@ -107,7 +107,7 @@ getQualifiedName
 ;
 assertEquals
 (
-"spoon.test.limits.utils"
+"spoon.test.limits.utils.testclasses"
 ,
 c1
 .
@@ -122,14 +122,6 @@ getQualifiedName
 ;
 assertEquals
 (
-spoon
-.
-test
-.
-limits
-.
-utils
-.
 ContainInternalClass
 .
 InternalClass
@@ -169,7 +161,7 @@ getSimpleName
 ;
 assertEquals
 (
-"spoon.test.limits.utils.ContainInternalClass$InternalClass$InsideInternalClass"
+"spoon.test.limits.utils.testclasses.ContainInternalClass$InternalClass$InsideInternalClass"
 ,
 c2
 .
@@ -180,14 +172,6 @@ getQualifiedName
 ;
 assertEquals
 (
-spoon
-.
-test
-.
-limits
-.
-utils
-.
 ContainInternalClass
 .
 InternalClass

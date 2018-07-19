@@ -15,7 +15,7 @@ type
 =
 build
 (
-"spoon.test.limits.utils"
+"spoon.test.limits.utils.testclasses"
 ,
 "ContainInternalClass"
 )
