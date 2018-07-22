@@ -10,6 +10,12 @@ if
 originalSourceCode
 ==
 null
+&&
+getFile
+(
+)
+!=
+null
 )
 {
 try
