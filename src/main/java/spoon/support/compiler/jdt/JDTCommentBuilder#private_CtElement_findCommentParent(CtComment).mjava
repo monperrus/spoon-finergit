@@ -126,6 +126,13 @@ element
 isImplicit
 (
 )
+&&
+!
+(
+element
+instanceof
+CtBlock
+)
 )
 {
 return
