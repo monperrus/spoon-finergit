@@ -94,13 +94,4 @@ throw
 e
 ;
 }
-catch
-(
-spoon
-.
-SpoonException
-ignore
-)
-{
-}
 }

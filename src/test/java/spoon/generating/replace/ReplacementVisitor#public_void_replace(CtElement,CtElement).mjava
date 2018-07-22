@@ -52,11 +52,4 @@ throw
 e
 ;
 }
-catch
-(
-SpoonException
-ignore
-)
-{
-}
 }
