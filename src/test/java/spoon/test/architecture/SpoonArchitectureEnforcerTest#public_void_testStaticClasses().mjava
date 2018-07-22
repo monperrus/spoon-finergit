@@ -132,6 +132,16 @@ STATIC
 {
 assertTrue
 (
+"Utility class "
++
+klass
+.
+getQualifiedName
+(
+)
++
+" is missing private constructor"
+,
 klass
 .
 getElements
