@@ -639,7 +639,9 @@ getContent
 ;
 assertEquals
 (
-"java.util.List newVarName = null"
+"java.util.List newVarName = null// will be replaced by List newVarName = null;"
++
+newLine
 ,
 methodWithTemplatedParameters
 .
@@ -659,7 +661,9 @@ toString
 ;
 assertEquals
 (
-"java.util.LinkedList l = null"
+"java.util.LinkedList l = null// will be replaced by LinkedList l = null;"
++
+newLine
 ,
 methodWithTemplatedParameters
 .
@@ -679,7 +683,9 @@ toString
 ;
 assertEquals
 (
-"java.util.List o = ((java.util.LinkedList) (new java.util.LinkedList()))"
+"java.util.List o = ((java.util.LinkedList) (new java.util.LinkedList()))// will be replaced by List o = (LinkedList) new LinkedList();"
++
+newLine
 ,
 methodWithTemplatedParameters
 .
@@ -953,7 +959,9 @@ CtForEach
 ;
 assertEquals
 (
-"newVarName = o"
+"newVarName = o// will be replaced by newVarName = o"
++
+newLine
 ,
 methodWithTemplatedParameters
 .
@@ -973,7 +981,9 @@ toString
 ;
 assertEquals
 (
-"l = ((java.util.LinkedList) (newVarName))"
+"l = ((java.util.LinkedList) (newVarName))// will be replaced by l = (LinkedList) newVarName"
++
+newLine
 ,
 methodWithTemplatedParameters
 .
@@ -1064,7 +1074,9 @@ toString
 ;
 assertEquals
 (
-"l = ((java.util.LinkedList) (newVarName))"
+"l = ((java.util.LinkedList) (newVarName))// will be replaced by l = (LinkedList) newVarName"
++
+newLine
 ,
 methodWithFieldAccess
 .

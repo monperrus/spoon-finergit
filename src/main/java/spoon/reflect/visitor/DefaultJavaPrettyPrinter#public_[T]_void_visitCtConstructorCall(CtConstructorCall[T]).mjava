@@ -33,4 +33,9 @@ exitCtExpression
 ctConstructorCall
 )
 ;
+exitCtStatement
+(
+ctConstructorCall
+)
+;
 }

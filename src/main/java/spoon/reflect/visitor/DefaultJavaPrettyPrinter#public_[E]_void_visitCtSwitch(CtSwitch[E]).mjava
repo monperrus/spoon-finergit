@@ -129,4 +129,9 @@ writeSeparator
 )
 ;
 }
+exitCtStatement
+(
+switchStatement
+)
+;
 }

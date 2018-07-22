@@ -42,4 +42,9 @@ exitCtExpression
 newClass
 )
 ;
+exitCtStatement
+(
+newClass
+)
+;
 }

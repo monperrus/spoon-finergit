@@ -1,0 +1,19 @@
+/** 
+ * @return true if `stmt` has to be handled as statement in current printing context
+ */
+public
+boolean
+isStatement
+(
+CtStatement
+stmt
+)
+{
+return
+this
+.
+statement
+==
+stmt
+;
+}

@@ -79,4 +79,9 @@ getBody
 )
 )
 ;
+exitCtStatement
+(
+foreach
+)
+;
 }

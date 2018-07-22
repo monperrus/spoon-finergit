@@ -1,3 +1,7 @@
+/** 
+ * {@link #isNextForVariable()}
+ */
+@Deprecated
 public
 boolean
 noTypeDecl
@@ -5,12 +9,8 @@ noTypeDecl
 )
 {
 return
+isNextForVariable
 (
-state
-&
-NO_TYPE_DECL
 )
-!=
-0L
 ;
 }

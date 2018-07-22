@@ -1,0 +1,19 @@
+/** 
+ * @return true if we are printing second or next variable declaration of CtFor statement
+ */
+public
+boolean
+isNextForVariable
+(
+)
+{
+return
+(
+state
+&
+NEXT_FOR_VARIABLE
+)
+!=
+0L
+;
+}

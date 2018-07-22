@@ -52,4 +52,9 @@ getReturnedExpression
 )
 )
 ;
+exitCtStatement
+(
+returnStatement
+)
+;
 }

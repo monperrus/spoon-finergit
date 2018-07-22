@@ -151,4 +151,9 @@ getFinalizer
 )
 ;
 }
+exitCtStatement
+(
+tryWithResource
+)
+;
 }

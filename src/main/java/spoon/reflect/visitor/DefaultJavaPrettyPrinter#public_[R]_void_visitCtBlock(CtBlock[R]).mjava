@@ -149,4 +149,9 @@ writeSeparator
 ;
 }
 }
+exitCtStatement
+(
+block
+)
+;
 }

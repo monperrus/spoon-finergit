@@ -7,9 +7,7 @@ CtCodeSnippetStatement
 statement
 )
 {
-elementPrinterHelper
-.
-writeComment
+enterCtStatement
 (
 statement
 )
@@ -23,6 +21,11 @@ statement
 getValue
 (
 )
+)
+;
+exitCtStatement
+(
+statement
 )
 ;
 }

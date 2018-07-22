@@ -1,0 +1,19 @@
+/** 
+ * @return true if we are printing first variable declaration of CtFor statement
+ */
+public
+boolean
+isFirstForVariable
+(
+)
+{
+return
+(
+state
+&
+FIRST_FOR_VARIABLE
+)
+!=
+0L
+;
+}
