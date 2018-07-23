@@ -4,8 +4,6 @@ void
 testCatchVariableReferenceFunction
 (
 )
-throws
-Exception
 {
 modelClass
 .
