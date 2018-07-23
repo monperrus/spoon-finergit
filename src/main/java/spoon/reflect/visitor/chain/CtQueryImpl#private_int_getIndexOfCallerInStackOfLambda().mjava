@@ -120,7 +120,7 @@ Class
 <
 ?
 >
-detectectedClass
+detectedClass
 =
 detectTargetClassFromCCE
 (
@@ -131,7 +131,7 @@ obj
 ;
 if
 (
-detectectedClass
+detectedClass
 ==
 null
 ||
@@ -141,7 +141,7 @@ class
 .
 equals
 (
-detectectedClass
+detectedClass
 )
 ==
 false

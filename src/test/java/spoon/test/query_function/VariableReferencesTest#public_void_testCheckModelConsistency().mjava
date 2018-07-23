@@ -39,7 +39,7 @@ ele
 )
 {
 CtElement
-ambiquous
+ambiguous
 =
 unique
 .
@@ -52,7 +52,7 @@ ele
 ;
 if
 (
-ambiquous
+ambiguous
 !=
 null
 )
@@ -61,7 +61,7 @@ fail
 (
 "Two variables ["
 +
-ambiquous
+ambiguous
 .
 toString
 (
@@ -71,7 +71,7 @@ toString
 +
 getParentMethodName
 (
-ambiquous
+ambiguous
 )
 +
 ","

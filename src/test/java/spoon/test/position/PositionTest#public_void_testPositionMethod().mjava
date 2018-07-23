@@ -380,7 +380,7 @@ assertEquals
 (
 "/**\n"
 +
-"\t * Mathod with javadoc\n"
+"\t * Method with javadoc\n"
 +
 "\t * @param parm1 the parameter\n"
 +
