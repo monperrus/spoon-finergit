@@ -173,7 +173,11 @@ getStatement
 ;
 assertEquals
 (
-"// c3 belongs to getClass\nthis.getClass()"
+"// c3 belongs to getClass"
++
+newLine
++
+"this.getClass()"
 ,
 (
 (
