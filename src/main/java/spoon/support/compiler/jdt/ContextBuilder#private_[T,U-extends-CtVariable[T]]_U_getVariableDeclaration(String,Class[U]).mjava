@@ -536,10 +536,6 @@ toCharArray
 if
 (
 potentialReferenceToField
-!=
-null
-&&
-potentialReferenceToField
 instanceof
 CtTypeReference
 )

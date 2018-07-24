@@ -24,10 +24,6 @@ getCurrentTypeReference
 )
 ;
 return
-currentTypeRef
-!=
-null
-&&
 typeRef
 .
 equals
