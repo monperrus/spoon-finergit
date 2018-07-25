@@ -31,6 +31,11 @@ name
 .
 name
 (
+"testclasses"
+)
+.
+name
+(
 "Foo"
 )
 .
@@ -53,7 +58,7 @@ Type
 .
 get
 (
-"spoon.test.path.Foo"
+"spoon.test.path.testclasses.Foo"
 )
 .
 getMethods
@@ -70,7 +75,7 @@ CtPathStringBuilder
 .
 fromString
 (
-".spoon.test.path.Foo/CtMethod"
+".spoon.test.path.testclasses.Foo/CtMethod"
 )
 ,
 factory
@@ -81,7 +86,7 @@ Type
 .
 get
 (
-"spoon.test.path.Foo"
+"spoon.test.path.testclasses.Foo"
 )
 .
 getMethods

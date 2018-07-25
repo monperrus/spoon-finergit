@@ -33,7 +33,7 @@ SpoonResourceHelper
 .
 resources
 (
-"./src/test/java/spoon/test/path/Foo.java"
+"./src/test/java/spoon/test/path/testclasses/Foo.java"
 )
 )
 .

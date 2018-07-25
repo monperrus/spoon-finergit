@@ -15,7 +15,7 @@ type
 =
 build
 (
-"spoon.test.strings"
+"spoon.test.strings.testclasses"
 ,
 "Main"
 )

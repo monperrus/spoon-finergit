@@ -20,7 +20,7 @@ CtPathStringBuilder
 .
 fromString
 (
-".spoon.test.path.Foo.bar#body#statement[index=2]#else"
+".spoon.test.path.testclasses.Foo.bar#body#statement[index=2]#else"
 )
 .
 evaluateOn
@@ -56,7 +56,7 @@ CtPathStringBuilder
 .
 fromString
 (
-".spoon.test.path.Foo.foo#body#statement[index=3]"
+".spoon.test.path.testclasses.Foo.foo#body#statement[index=3]"
 )
 .
 evaluateOn
@@ -128,7 +128,7 @@ CtPathStringBuilder
 .
 fromString
 (
-".spoon.test.path.Foo.bar##annotation[index=0]#value[key=misspelled]"
+".spoon.test.path.testclasses.Foo.bar##annotation[index=0]#value[key=misspelled]"
 )
 .
 evaluateOn

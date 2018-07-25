@@ -40,7 +40,7 @@ Package
 .
 get
 (
-"spoon.test.path"
+"spoon.test.path.testclasses"
 )
 .
 getType

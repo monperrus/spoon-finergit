@@ -20,7 +20,7 @@ CtPathStringBuilder
 .
 fromString
 (
-".spoon.test.path.Foo.foo"
+".spoon.test.path.testclasses.Foo.foo"
 )
 .
 evaluateOn
@@ -57,7 +57,7 @@ CtPathStringBuilder
 .
 fromString
 (
-".spoon.test.path.Foo.bar"
+".spoon.test.path.testclasses.Foo.bar"
 )
 .
 evaluateOn
@@ -97,7 +97,7 @@ barMethod
 ;
 fail
 (
-"No path should be found to .spoon.test.path.Foo.foo from .spoon.test.path.Foo.bar"
+"No path should be found to .spoon.test.path.testclasses.Foo.foo from .spoon.test.path.testclasses.Foo.bar"
 )
 ;
 }

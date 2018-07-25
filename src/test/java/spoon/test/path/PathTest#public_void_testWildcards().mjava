@@ -44,7 +44,7 @@ CtPathStringBuilder
 .
 fromString
 (
-".spoon.test.path.Foo.*#body#statement[index=0]"
+".spoon.test.path.testclasses.Foo.*#body#statement[index=0]"
 )
 ,
 (
@@ -59,7 +59,7 @@ Package
 .
 get
 (
-"spoon.test.path"
+"spoon.test.path.testclasses"
 )
 .
 getType
@@ -89,7 +89,7 @@ Package
 .
 get
 (
-"spoon.test.path"
+"spoon.test.path.testclasses"
 )
 .
 getType
@@ -119,7 +119,7 @@ Package
 .
 get
 (
-"spoon.test.path"
+"spoon.test.path.testclasses"
 )
 .
 getType
