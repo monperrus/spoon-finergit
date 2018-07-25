@@ -9,8 +9,6 @@ next
 {
 DefaultMutableTreeNode
 current
-=
-null
 ;
 while
 (

@@ -11,13 +11,6 @@ obj
 throws
 IOException
 {
-byte
-[
-]
-serializedObject
-=
-null
-;
 ByteArrayOutputStream
 bo
 =
@@ -48,6 +41,9 @@ flush
 (
 )
 ;
+byte
+[
+]
 serializedObject
 =
 bo

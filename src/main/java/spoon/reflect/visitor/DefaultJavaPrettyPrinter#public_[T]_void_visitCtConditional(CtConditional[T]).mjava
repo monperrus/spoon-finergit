@@ -157,8 +157,6 @@ getElseExpression
 ;
 boolean
 isAssign
-=
-false
 ;
 if
 (

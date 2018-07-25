@@ -17,10 +17,6 @@ iterableParameter
 oldNode
 )
 {
-oldNode
-=
-newNode
-;
 return
 true
 ;

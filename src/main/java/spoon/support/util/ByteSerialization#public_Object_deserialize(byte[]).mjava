@@ -11,11 +11,6 @@ serializedObject
 throws
 Exception
 {
-Object
-objInput
-=
-null
-;
 ByteArrayInputStream
 bi
 =
@@ -34,6 +29,7 @@ ObjectInputStream
 bi
 )
 ;
+Object
 objInput
 =
 si

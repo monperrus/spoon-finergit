@@ -45,11 +45,6 @@ reportProgressMessage
 )
 ;
 long
-t
-=
-0
-;
-long
 tstart
 =
 System
@@ -89,6 +84,7 @@ CTTYPES
 )
 ;
 }
+long
 t
 =
 System

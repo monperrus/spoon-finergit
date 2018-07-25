@@ -16,8 +16,6 @@ null
 {
 String
 exceptionMsg
-=
-""
 ;
 if
 (
