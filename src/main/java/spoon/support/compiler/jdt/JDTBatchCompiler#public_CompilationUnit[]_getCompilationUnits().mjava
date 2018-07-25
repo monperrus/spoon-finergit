@@ -185,10 +185,9 @@ lastSlash
 1
 ;
 }
-char
-[
-]
-moduleName
+compilationUnit
+.
+module
 =
 CharOperation
 .
@@ -202,12 +201,6 @@ modulePath
 .
 length
 )
-;
-compilationUnit
-.
-module
-=
-moduleName
 ;
 }
 }

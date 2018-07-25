@@ -17,12 +17,7 @@ ExpressionTemplate
 p
 )
 {
-CtBlock
-<
-?
->
-b
-=
+return
 p
 .
 getMethod
@@ -33,8 +28,5 @@ getMethod
 getBody
 (
 )
-;
-return
-b
 ;
 }

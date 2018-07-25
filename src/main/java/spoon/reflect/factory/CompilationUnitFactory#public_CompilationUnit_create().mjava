@@ -7,9 +7,7 @@ create
 (
 )
 {
-CompilationUnit
-cu
-=
+return
 factory
 .
 Core
@@ -19,8 +17,5 @@ Core
 createCompilationUnit
 (
 )
-;
-return
-cu
 ;
 }

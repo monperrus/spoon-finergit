@@ -31,12 +31,7 @@ getBoundingType
 )
 ;
 }
-CtTypeReference
-<
-?
->
-typeRefAdapted
-=
+return
 adaptTypeParameter
 (
 typeParamRef
@@ -45,8 +40,5 @@ getDeclaration
 (
 )
 )
-;
-return
-typeRefAdapted
 ;
 }

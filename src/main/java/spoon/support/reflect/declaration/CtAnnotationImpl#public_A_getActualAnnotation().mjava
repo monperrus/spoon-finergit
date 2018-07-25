@@ -104,16 +104,11 @@ getActualClass
 )
 ;
 }
-Object
-ret
-=
+return
 getValueAsObject
 (
 fieldname
 )
-;
-return
-ret
 ;
 }
 }
