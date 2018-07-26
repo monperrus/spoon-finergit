@@ -120,7 +120,6 @@ comment
 new
 ArrayList
 <
-CtElement
 >
 (
 spoonUnit
@@ -263,7 +262,6 @@ comment
 new
 ArrayList
 <
-CtElement
 >
 (
 e
@@ -902,7 +900,6 @@ comment
 new
 ArrayList
 <
-CtElement
 >
 (
 previous
@@ -975,7 +972,6 @@ comment
 new
 ArrayList
 <
-CtElement
 >
 (
 previous
@@ -1357,7 +1353,6 @@ comment
 new
 ArrayList
 <
-CtElement
 >
 (
 e

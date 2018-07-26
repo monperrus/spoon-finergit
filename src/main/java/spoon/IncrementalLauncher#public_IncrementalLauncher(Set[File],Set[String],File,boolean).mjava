@@ -274,7 +274,6 @@ mRemovedSources
 new
 HashSet
 <
-File
 >
 (
 CollectionUtils
@@ -298,7 +297,6 @@ mAddedSources
 new
 HashSet
 <
-File
 >
 (
 CollectionUtils
@@ -322,7 +320,6 @@ mCommonSources
 new
 HashSet
 <
-File
 >
 (
 CollectionUtils
