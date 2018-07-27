@@ -18,6 +18,8 @@ test
 .
 visibility
 .
+testclasses
+.
 MethodeWithNonAccessibleTypeArgument
 .
 class
@@ -61,6 +63,8 @@ spoon
 test
 .
 visibility
+.
+testclasses
 .
 MethodeWithNonAccessibleTypeArgument
 .
