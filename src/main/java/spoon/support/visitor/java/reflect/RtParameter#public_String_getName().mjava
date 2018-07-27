@@ -16,9 +16,8 @@ null
 ||
 name
 .
-equals
+isEmpty
 (
-""
 )
 )
 {

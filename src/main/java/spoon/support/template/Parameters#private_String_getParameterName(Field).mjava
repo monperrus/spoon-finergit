@@ -43,9 +43,8 @@ value
 (
 )
 .
-equals
+isEmpty
 (
-""
 )
 )
 {
