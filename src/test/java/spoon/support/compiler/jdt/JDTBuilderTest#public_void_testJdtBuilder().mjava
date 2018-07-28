@@ -4,8 +4,6 @@ void
 testJdtBuilder
 (
 )
-throws
-Exception
 {
 final
 String
