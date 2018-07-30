@@ -142,7 +142,7 @@ Quantifier
 GREEDY
 )
 .
-setMaxOccurence
+setMaxOccurrence
 (
 count
 )
@@ -184,7 +184,7 @@ ContainerKind
 LIST
 )
 .
-setMinOccurence
+setMinOccurrence
 (
 2
 )

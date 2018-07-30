@@ -80,7 +80,7 @@ ContainerKind
 SET
 )
 .
-setMinOccurence
+setMinOccurrence
 (
 0
 )

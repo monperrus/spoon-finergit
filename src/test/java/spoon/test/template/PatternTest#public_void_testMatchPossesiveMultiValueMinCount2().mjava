@@ -119,12 +119,12 @@ Quantifier
 POSSESSIVE
 )
 .
-setMinOccurence
+setMinOccurrence
 (
 countFinal
 )
 .
-setMaxOccurence
+setMaxOccurrence
 (
 countFinal
 )
@@ -155,7 +155,7 @@ ContainerKind
 LIST
 )
 .
-setMinOccurence
+setMinOccurrence
 (
 2
 )

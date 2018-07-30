@@ -102,7 +102,7 @@ null
 {
 pb
 .
-setMinOccurence
+setMinOccurrence
 (
 minCount
 )
@@ -117,7 +117,7 @@ null
 {
 pb
 .
-setMaxOccurence
+setMaxOccurrence
 (
 maxCount
 )
