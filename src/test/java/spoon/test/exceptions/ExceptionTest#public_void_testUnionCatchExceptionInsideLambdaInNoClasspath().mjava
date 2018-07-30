@@ -120,4 +120,11 @@ getMultiTypes
 )
 )
 ;
+assertEquals
+(
+variable2
+,
+variable1
+)
+;
 }
