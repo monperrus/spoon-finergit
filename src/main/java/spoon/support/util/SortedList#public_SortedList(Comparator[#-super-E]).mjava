@@ -9,10 +9,6 @@ E
 comparator
 )
 {
-super
-(
-)
-;
 this
 .
 comparator

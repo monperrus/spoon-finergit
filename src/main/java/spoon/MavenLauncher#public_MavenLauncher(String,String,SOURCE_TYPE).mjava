@@ -15,10 +15,6 @@ SOURCE_TYPE
 sourceType
 )
 {
-super
-(
-)
-;
 this
 .
 m2RepositoryPath

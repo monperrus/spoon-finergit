@@ -5,10 +5,6 @@ ParameterInfo
 parameterInfo
 )
 {
-super
-(
-)
-;
 this
 .
 parameterInfo

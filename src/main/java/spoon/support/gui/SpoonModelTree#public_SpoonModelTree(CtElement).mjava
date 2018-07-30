@@ -5,10 +5,6 @@ CtElement
 rootElement
 )
 {
-super
-(
-)
-;
 SpoonTreeBuilder
 cst
 =

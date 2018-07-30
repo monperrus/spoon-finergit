@@ -3,8 +3,4 @@ CtExecutableReferenceImpl
 (
 )
 {
-super
-(
-)
-;
 }

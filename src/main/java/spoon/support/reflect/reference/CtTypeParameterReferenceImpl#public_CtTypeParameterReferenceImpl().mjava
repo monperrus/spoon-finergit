@@ -3,10 +3,6 @@ CtTypeParameterReferenceImpl
 (
 )
 {
-super
-(
-)
-;
 this
 .
 setBoundingType

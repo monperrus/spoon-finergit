@@ -8,10 +8,6 @@ ASTNode
 node
 )
 {
-super
-(
-)
-;
 this
 .
 element

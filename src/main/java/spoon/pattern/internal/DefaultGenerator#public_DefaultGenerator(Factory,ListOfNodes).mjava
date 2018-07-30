@@ -8,10 +8,6 @@ ListOfNodes
 nodes
 )
 {
-super
-(
-)
-;
 this
 .
 nodes

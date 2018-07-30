@@ -16,10 +16,6 @@ int
 lineSeparatorPositions
 )
 {
-super
-(
-)
-;
 checkArgsAreAscending
 (
 sourceStart

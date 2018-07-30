@@ -9,10 +9,6 @@ Factory
 factory
 )
 {
-super
-(
-)
-;
 setFactory
 (
 factory

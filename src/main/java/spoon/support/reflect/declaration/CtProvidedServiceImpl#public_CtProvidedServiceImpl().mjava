@@ -3,8 +3,4 @@ CtProvidedServiceImpl
 (
 )
 {
-super
-(
-)
-;
 }

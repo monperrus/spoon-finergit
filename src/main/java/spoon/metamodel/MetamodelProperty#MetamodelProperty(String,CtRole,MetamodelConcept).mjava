@@ -10,10 +10,6 @@ MetamodelConcept
 ownerConcept
 )
 {
-super
-(
-)
-;
 this
 .
 name

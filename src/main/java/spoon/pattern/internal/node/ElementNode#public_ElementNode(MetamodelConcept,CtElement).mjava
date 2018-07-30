@@ -12,10 +12,6 @@ CtElement
 templateElement
 )
 {
-super
-(
-)
-;
 this
 .
 elementType

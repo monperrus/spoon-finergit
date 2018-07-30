@@ -8,10 +8,6 @@ Factory
 factory
 )
 {
-super
-(
-)
-;
 SpoonTreeBuilder
 cst
 =

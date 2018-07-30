@@ -13,10 +13,6 @@ byte
 buffer
 )
 {
-super
-(
-)
-;
 this
 .
 buffer

@@ -4,10 +4,6 @@ String
 name
 )
 {
-super
-(
-)
-;
 this
 .
 name

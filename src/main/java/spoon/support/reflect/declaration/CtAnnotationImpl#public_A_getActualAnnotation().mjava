@@ -27,10 +27,6 @@ Annotation
 annotation
 )
 {
-super
-(
-)
-;
 this
 .
 annotation
