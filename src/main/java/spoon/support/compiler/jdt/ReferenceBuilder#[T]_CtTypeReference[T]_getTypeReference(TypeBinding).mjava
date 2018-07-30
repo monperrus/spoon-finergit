@@ -903,10 +903,6 @@ Binding
 NO_SUPERINTERFACES
 )
 {
-bounds
-=
-false
-;
 bindingCache
 .
 put
