@@ -82,7 +82,6 @@ getElements
 new
 TypeFilter
 <
-CtTry
 >
 (
 CtTry

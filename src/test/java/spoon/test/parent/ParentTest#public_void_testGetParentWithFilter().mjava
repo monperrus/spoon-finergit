@@ -89,7 +89,6 @@ getParent
 new
 TypeFilter
 <
-CtPackage
 >
 (
 CtPackage
@@ -331,7 +330,6 @@ getParent
 new
 TypeFilter
 <
-CtWhile
 >
 (
 CtWhile

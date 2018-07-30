@@ -38,10 +38,6 @@ testEnum
 new
 ReferenceTypeFilter
 <
-CtTypeReference
-<
-?
->
 >
 (
 CtTypeReference

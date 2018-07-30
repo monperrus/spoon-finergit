@@ -54,7 +54,6 @@ getElements
 new
 NamedElementFilter
 <
-CtPackage
 >
 (
 CtPackage
@@ -91,7 +90,6 @@ getElements
 new
 NamedElementFilter
 <
-CtClass
 >
 (
 CtClass

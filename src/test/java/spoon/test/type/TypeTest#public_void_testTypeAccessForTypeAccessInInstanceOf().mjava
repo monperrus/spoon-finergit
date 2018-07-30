@@ -113,10 +113,6 @@ getElements
 new
 TypeFilter
 <
-CtTypeAccess
-<
-?
->
 >
 (
 CtTypeAccess

@@ -58,7 +58,6 @@ getElements
 new
 TypeFilter
 <
-CtCatch
 >
 (
 CtCatch

@@ -238,10 +238,6 @@ getElements
 new
 TypeFilter
 <
-CtInvocation
-<
-?
->
 >
 (
 CtInvocation
@@ -350,10 +346,6 @@ getElements
 new
 TypeFilter
 <
-CtInvocation
-<
-?
->
 >
 (
 CtInvocation
@@ -462,10 +454,6 @@ getElements
 new
 TypeFilter
 <
-CtInvocation
-<
-?
->
 >
 (
 CtInvocation
@@ -553,10 +541,6 @@ getElements
 new
 TypeFilter
 <
-CtInvocation
-<
-?
->
 >
 (
 CtInvocation

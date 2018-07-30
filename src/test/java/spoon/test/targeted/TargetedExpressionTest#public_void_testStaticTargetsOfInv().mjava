@@ -230,10 +230,6 @@ getElements
 new
 TypeFilter
 <
-CtInvocation
-<
-?
->
 >
 (
 CtInvocation

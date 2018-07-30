@@ -38,10 +38,6 @@ methodFilter
 new
 TypeFilter
 <
-CtMethod
-<
-?
->
 >
 (
 CtMethod

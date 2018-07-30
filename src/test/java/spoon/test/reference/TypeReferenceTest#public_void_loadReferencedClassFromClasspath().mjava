@@ -193,7 +193,6 @@ referenceTypeFilter
 new
 ReferenceTypeFilter
 <
-CtTypeReference
 >
 (
 CtTypeReference

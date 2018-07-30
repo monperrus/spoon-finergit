@@ -70,7 +70,6 @@ elementStack
 new
 ArrayDeque
 <
-CtElement
 >
 (
 )

@@ -88,10 +88,6 @@ getElements
 new
 TypeFilter
 <
-CtFieldAccess
-<
-?
->
 >
 (
 CtFieldAccess

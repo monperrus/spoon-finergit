@@ -48,7 +48,6 @@ getElements
 new
 TypeFilter
 <
-CtTryWithResource
 >
 (
 CtTryWithResource

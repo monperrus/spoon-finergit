@@ -193,10 +193,6 @@ getElements
 new
 TypeFilter
 <
-CtLambda
-<
-?
->
 >
 (
 CtLambda

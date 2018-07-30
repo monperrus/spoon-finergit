@@ -79,7 +79,6 @@ getElements
 new
 TypeFilter
 <
-CtLocalVariable
 >
 (
 CtLocalVariable
