@@ -4,8 +4,6 @@ void
 testTransformationWithProcessorName
 (
 )
-throws
-Exception
 {
 assertThat
 (

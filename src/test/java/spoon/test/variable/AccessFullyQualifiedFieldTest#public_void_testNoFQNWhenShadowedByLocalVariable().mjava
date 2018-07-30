@@ -4,8 +4,6 @@ void
 testNoFQNWhenShadowedByLocalVariable
 (
 )
-throws
-Exception
 {
 String
 output

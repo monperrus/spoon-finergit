@@ -4,8 +4,6 @@ void
 testAnnotationPrintAnnotation
 (
 )
-throws
-Exception
 {
 Launcher
 launcher

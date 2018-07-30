@@ -4,8 +4,6 @@ void
 testDestinationOfSpoon
 (
 )
-throws
-Exception
 {
 final
 File

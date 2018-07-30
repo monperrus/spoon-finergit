@@ -4,8 +4,6 @@ void
 testPrintNotAllSourcesInCommandLine
 (
 )
-throws
-Exception
 {
 final
 File

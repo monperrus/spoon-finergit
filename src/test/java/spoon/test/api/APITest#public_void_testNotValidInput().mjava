@@ -4,8 +4,6 @@ void
 testNotValidInput
 (
 )
-throws
-Exception
 {
 String
 invalidEntry

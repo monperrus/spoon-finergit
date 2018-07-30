@@ -4,8 +4,6 @@ void
 testBasicAPIUsage
 (
 )
-throws
-Exception
 {
 Launcher
 spoon

@@ -4,8 +4,6 @@ void
 testFieldWriteDeclaredInTheSuperclass
 (
 )
-throws
-Exception
 {
 final
 Launcher

@@ -4,8 +4,6 @@ void
 testNoFQNWhenUsedInInnerClassAndShadowedByLocalVariable
 (
 )
-throws
-Exception
 {
 String
 output

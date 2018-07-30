@@ -4,8 +4,6 @@ void
 testPrivateStaticImportShouldNotBeImportedInSameClass
 (
 )
-throws
-Exception
 {
 String
 output

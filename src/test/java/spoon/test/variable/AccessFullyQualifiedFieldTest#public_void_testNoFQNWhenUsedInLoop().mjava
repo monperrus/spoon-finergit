@@ -4,8 +4,6 @@ void
 testNoFQNWhenUsedInLoop
 (
 )
-throws
-Exception
 {
 String
 output

@@ -4,8 +4,6 @@ void
 testOverrideOutputWriter
 (
 )
-throws
-Exception
 {
 final
 List

@@ -4,8 +4,6 @@ void
 testStaticImportWithAutoImport
 (
 )
-throws
-Exception
 {
 String
 output

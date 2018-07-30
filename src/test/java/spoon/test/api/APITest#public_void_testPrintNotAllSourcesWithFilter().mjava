@@ -4,8 +4,6 @@ void
 testPrintNotAllSourcesWithFilter
 (
 )
-throws
-Exception
 {
 final
 File
