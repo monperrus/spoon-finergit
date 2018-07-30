@@ -15,7 +15,7 @@ clazz
 =
 build
 (
-"spoon.test.model"
+"spoon.test.model.testclasses"
 ,
 "ClassWithSuperOutOfModel"
 )
@@ -35,7 +35,7 @@ type
 =
 build
 (
-"spoon.test.model"
+"spoon.test.model.testclasses"
 ,
 "InterfaceWrithFields"
 )

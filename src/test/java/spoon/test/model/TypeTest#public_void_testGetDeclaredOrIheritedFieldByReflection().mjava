@@ -15,7 +15,7 @@ type
 =
 build
 (
-"spoon.test.model"
+"spoon.test.model.testclasses"
 ,
 "ClassWithSuperOutOfModel"
 )
