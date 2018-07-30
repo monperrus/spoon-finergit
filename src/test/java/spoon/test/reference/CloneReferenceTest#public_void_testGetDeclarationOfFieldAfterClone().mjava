@@ -4,8 +4,6 @@ void
 testGetDeclarationOfFieldAfterClone
 (
 )
-throws
-Exception
 {
 Launcher
 spoon

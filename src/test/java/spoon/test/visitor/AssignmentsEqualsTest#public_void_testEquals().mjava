@@ -4,8 +4,6 @@ void
 testEquals
 (
 )
-throws
-Exception
 {
 Launcher
 launcher

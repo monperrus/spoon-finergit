@@ -4,8 +4,6 @@ void
 testCtNewArrayInnerCtNewArray
 (
 )
-throws
-Exception
 {
 final
 Launcher

@@ -4,8 +4,6 @@ void
 testCloneCastConditional
 (
 )
-throws
-Exception
 {
 final
 Launcher

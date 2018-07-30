@@ -4,8 +4,6 @@ void
 testCloneListener
 (
 )
-throws
-Exception
 {
 Factory
 factory

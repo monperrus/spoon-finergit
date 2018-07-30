@@ -4,8 +4,6 @@ void
 testCtNewArrayWitComments
 (
 )
-throws
-Exception
 {
 final
 Launcher

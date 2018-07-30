@@ -4,8 +4,6 @@ void
 testInitializeWithNewArray
 (
 )
-throws
-Exception
 {
 Launcher
 launcher

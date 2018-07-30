@@ -4,8 +4,6 @@ void
 testCloneMethodsDeclaredInAST
 (
 )
-throws
-Exception
 {
 final
 Launcher

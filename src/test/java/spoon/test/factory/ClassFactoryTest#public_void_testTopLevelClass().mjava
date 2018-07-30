@@ -4,8 +4,6 @@ void
 testTopLevelClass
 (
 )
-throws
-Exception
 {
 final
 Factory

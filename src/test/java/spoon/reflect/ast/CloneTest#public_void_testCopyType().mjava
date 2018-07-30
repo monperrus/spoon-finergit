@@ -4,8 +4,6 @@ void
 testCopyType
 (
 )
-throws
-Exception
 {
 Factory
 factory

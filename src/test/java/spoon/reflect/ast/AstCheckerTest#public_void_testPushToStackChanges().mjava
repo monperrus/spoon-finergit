@@ -4,8 +4,6 @@ void
 testPushToStackChanges
 (
 )
-throws
-Exception
 {
 final
 Launcher
