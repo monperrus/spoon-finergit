@@ -195,7 +195,6 @@ getElements
 new
 TypeFilter
 <
-CtConstructorCall
 >
 (
 CtConstructorCall
@@ -300,7 +299,6 @@ getElements
 new
 TypeFilter
 <
-CtConstructorCall
 >
 (
 CtConstructorCall

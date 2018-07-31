@@ -60,7 +60,6 @@ getElements
 new
 TypeFilter
 <
-CtIf
 >
 (
 CtIf

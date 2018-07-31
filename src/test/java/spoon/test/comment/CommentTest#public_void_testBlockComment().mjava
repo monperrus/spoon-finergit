@@ -59,7 +59,6 @@ getElements
 new
 TypeFilter
 <
-CtComment
 >
 (
 CtComment

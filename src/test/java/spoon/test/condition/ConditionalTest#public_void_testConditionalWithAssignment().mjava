@@ -39,7 +39,6 @@ getElements
 new
 TypeFilter
 <
-CtConditional
 >
 (
 CtConditional

@@ -52,7 +52,6 @@ getElements
 new
 NamedElementFilter
 <
-CtMethod
 >
 (
 CtMethod

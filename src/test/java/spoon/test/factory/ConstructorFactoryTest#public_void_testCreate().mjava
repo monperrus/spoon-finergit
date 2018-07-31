@@ -56,7 +56,6 @@ mods
 new
 HashSet
 <
-ModifierKind
 >
 (
 )
@@ -82,10 +81,6 @@ params
 new
 ArrayList
 <
-CtParameter
-<
-?
->
 >
 (
 )
@@ -158,11 +153,6 @@ thrownTypes
 new
 HashSet
 <
-CtTypeReference
-<
-?
-Throwable
->
 >
 (
 )

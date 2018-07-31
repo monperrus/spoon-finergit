@@ -44,7 +44,6 @@ getElements
 new
 TypeFilter
 <
-CtFor
 >
 (
 CtFor
