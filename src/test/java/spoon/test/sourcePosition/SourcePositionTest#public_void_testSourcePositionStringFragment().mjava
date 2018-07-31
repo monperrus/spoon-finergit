@@ -4,8 +4,6 @@ void
 testSourcePositionStringFragment
 (
 )
-throws
-Exception
 {
 CompilationUnit
 cu

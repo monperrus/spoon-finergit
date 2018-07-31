@@ -4,8 +4,6 @@ void
 testCharLiteralInNoClasspath
 (
 )
-throws
-Exception
 {
 final
 Launcher

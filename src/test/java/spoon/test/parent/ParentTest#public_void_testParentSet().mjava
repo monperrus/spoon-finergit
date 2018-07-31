@@ -4,8 +4,6 @@ void
 testParentSet
 (
 )
-throws
-Exception
 {
 CtClass
 <

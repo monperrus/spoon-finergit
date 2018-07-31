@@ -4,8 +4,6 @@ void
 testContract
 (
 )
-throws
-Throwable
 {
 List
 <

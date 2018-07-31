@@ -4,8 +4,6 @@ void
 substituteTypeAccessReference
 (
 )
-throws
-Exception
 {
 Launcher
 spoon

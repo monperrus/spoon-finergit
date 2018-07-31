@@ -4,8 +4,6 @@ void
 testClearBoundsForTypeParameterReference
 (
 )
-throws
-Exception
 {
 final
 Factory

@@ -4,8 +4,6 @@ void
 testGetClassWithDollarAndNestedClass
 (
 )
-throws
-Exception
 {
 Factory
 factory

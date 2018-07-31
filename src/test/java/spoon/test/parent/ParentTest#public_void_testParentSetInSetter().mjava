@@ -5,8 +5,6 @@ void
 testParentSetInSetter
 (
 )
-throws
-Exception
 {
 final
 Launcher

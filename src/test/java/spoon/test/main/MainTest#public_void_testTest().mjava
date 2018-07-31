@@ -4,8 +4,6 @@ void
 testTest
 (
 )
-throws
-Exception
 {
 Launcher
 launcher

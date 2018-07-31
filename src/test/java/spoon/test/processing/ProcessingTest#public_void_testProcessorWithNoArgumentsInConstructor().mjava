@@ -4,8 +4,6 @@ void
 testProcessorWithNoArgumentsInConstructor
 (
 )
-throws
-Exception
 {
 Launcher
 l

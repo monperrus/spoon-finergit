@@ -4,8 +4,6 @@ void
 testEnumAccessTest
 (
 )
-throws
-Exception
 {
 Launcher
 launcher

@@ -4,8 +4,6 @@ void
 testToStringEqualityBetweenTwoGenericTypeDifferent
 (
 )
-throws
-Exception
 {
 final
 Launcher

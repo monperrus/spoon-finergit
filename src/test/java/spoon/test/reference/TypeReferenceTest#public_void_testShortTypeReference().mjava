@@ -4,8 +4,6 @@ void
 testShortTypeReference
 (
 )
-throws
-Exception
 {
 CtTypeReference
 <

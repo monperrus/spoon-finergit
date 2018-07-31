@@ -4,8 +4,6 @@ void
 testReferenceToAnInstanceMethodOfAnArbitraryObjectOfAParticularType
 (
 )
-throws
-Exception
 {
 final
 String

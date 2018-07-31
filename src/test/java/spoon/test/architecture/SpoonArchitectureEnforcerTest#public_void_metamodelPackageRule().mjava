@@ -4,8 +4,6 @@ void
 metamodelPackageRule
 (
 )
-throws
-Exception
 {
 List
 <

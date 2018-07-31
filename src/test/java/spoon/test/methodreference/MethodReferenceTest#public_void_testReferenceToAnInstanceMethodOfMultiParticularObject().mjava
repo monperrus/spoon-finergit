@@ -4,8 +4,6 @@ void
 testReferenceToAnInstanceMethodOfMultiParticularObject
 (
 )
-throws
-Exception
 {
 final
 String

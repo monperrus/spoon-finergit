@@ -4,8 +4,6 @@ void
 testStatementTemplateRootSubstitution
 (
 )
-throws
-Exception
 {
 Launcher
 spoon

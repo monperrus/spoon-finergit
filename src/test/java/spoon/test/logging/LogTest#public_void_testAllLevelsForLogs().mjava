@@ -4,8 +4,6 @@ void
 testAllLevelsForLogs
 (
 )
-throws
-Exception
 {
 final
 Launcher

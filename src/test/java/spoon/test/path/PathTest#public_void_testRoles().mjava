@@ -4,8 +4,6 @@ void
 testRoles
 (
 )
-throws
-Exception
 {
 equals
 (

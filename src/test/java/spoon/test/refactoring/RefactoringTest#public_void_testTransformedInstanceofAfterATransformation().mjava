@@ -4,8 +4,6 @@ void
 testTransformedInstanceofAfterATransformation
 (
 )
-throws
-Exception
 {
 final
 Launcher

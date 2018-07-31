@@ -4,8 +4,6 @@ void
 testReferenceToAClassParametrizedConstructor
 (
 )
-throws
-Exception
 {
 final
 String

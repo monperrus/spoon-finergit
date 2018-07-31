@@ -4,8 +4,6 @@ void
 testConstructorCallInNoClasspath
 (
 )
-throws
-Exception
 {
 final
 Launcher

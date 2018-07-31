@@ -4,8 +4,6 @@ void
 testAnnotationInForLoop
 (
 )
-throws
-Exception
 {
 CtType
 <

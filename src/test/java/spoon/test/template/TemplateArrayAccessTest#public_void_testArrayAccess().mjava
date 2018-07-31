@@ -4,8 +4,6 @@ void
 testArrayAccess
 (
 )
-throws
-Exception
 {
 Launcher
 spoon

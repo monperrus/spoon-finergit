@@ -4,8 +4,6 @@ void
 testCompileStatementWithReturn
 (
 )
-throws
-Exception
 {
 CtElement
 el

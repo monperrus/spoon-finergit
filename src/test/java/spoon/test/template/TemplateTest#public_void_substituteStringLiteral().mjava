@@ -4,8 +4,6 @@ void
 substituteStringLiteral
 (
 )
-throws
-Exception
 {
 Launcher
 spoon

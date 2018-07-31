@@ -4,8 +4,6 @@ void
 testGetPathFromNonParent
 (
 )
-throws
-Exception
 {
 CtMethod
 fooMethod

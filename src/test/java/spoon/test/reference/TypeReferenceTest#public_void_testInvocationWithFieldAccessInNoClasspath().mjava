@@ -4,8 +4,6 @@ void
 testInvocationWithFieldAccessInNoClasspath
 (
 )
-throws
-Exception
 {
 final
 Launcher

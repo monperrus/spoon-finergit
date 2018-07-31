@@ -4,8 +4,6 @@ void
 testResourcesNotCopiedInTargetDirectory
 (
 )
-throws
-Exception
 {
 StringBuilder
 classpath

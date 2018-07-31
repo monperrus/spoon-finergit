@@ -4,8 +4,6 @@ void
 testSrcMainJava
 (
 )
-throws
-Exception
 {
 Launcher
 spoon

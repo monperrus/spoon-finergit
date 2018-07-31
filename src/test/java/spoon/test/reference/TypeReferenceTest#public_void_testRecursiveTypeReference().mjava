@@ -4,8 +4,6 @@ void
 testRecursiveTypeReference
 (
 )
-throws
-Exception
 {
 final
 Launcher

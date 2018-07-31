@@ -4,8 +4,6 @@ void
 testFieldAccessNameSubstitutionInInnerClass
 (
 )
-throws
-Exception
 {
 Launcher
 spoon

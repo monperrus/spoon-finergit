@@ -4,8 +4,6 @@ void
 testReplaceBlock
 (
 )
-throws
-Exception
 {
 CtClass
 <

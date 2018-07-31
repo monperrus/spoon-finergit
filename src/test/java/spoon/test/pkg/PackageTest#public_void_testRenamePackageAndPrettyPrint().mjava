@@ -4,8 +4,6 @@ void
 testRenamePackageAndPrettyPrint
 (
 )
-throws
-Exception
 {
 final
 Launcher

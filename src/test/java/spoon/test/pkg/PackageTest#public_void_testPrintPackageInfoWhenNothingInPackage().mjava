@@ -4,8 +4,6 @@ void
 testPrintPackageInfoWhenNothingInPackage
 (
 )
-throws
-Exception
 {
 final
 Launcher

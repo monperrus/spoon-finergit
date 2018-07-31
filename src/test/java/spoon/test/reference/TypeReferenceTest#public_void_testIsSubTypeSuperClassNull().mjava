@@ -4,8 +4,6 @@ void
 testIsSubTypeSuperClassNull
 (
 )
-throws
-Exception
 {
 Factory
 factory

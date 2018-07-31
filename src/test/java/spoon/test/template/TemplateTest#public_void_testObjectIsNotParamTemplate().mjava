@@ -4,8 +4,6 @@ void
 testObjectIsNotParamTemplate
 (
 )
-throws
-Exception
 {
 Launcher
 spoon

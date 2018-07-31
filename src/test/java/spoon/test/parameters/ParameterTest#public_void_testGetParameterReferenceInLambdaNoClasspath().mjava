@@ -4,8 +4,6 @@ void
 testGetParameterReferenceInLambdaNoClasspath
 (
 )
-throws
-Exception
 {
 Launcher
 launcher

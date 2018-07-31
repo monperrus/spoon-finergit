@@ -4,8 +4,6 @@ void
 testRenameRootPackage
 (
 )
-throws
-Exception
 {
 final
 Launcher

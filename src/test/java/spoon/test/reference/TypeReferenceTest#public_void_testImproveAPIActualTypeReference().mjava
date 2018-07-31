@@ -4,8 +4,6 @@ void
 testImproveAPIActualTypeReference
 (
 )
-throws
-Exception
 {
 final
 Factory

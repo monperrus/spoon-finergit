@@ -4,8 +4,6 @@ void
 testLLauncherBuildModelReturnAModel
 (
 )
-throws
-Exception
 {
 final
 Launcher

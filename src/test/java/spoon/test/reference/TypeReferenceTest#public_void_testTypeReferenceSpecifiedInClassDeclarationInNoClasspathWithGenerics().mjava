@@ -4,8 +4,6 @@ void
 testTypeReferenceSpecifiedInClassDeclarationInNoClasspathWithGenerics
 (
 )
-throws
-Exception
 {
 final
 Launcher

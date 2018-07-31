@@ -4,8 +4,6 @@ void
 testTemplateMatcherMatchTwoSnippets
 (
 )
-throws
-Exception
 {
 Launcher
 spoon

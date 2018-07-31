@@ -4,8 +4,6 @@ void
 testExtensionBlock
 (
 )
-throws
-Exception
 {
 final
 Launcher

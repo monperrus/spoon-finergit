@@ -4,8 +4,6 @@ void
 testStaticTargetsOfInvNoClasspath
 (
 )
-throws
-Exception
 {
 final
 Launcher

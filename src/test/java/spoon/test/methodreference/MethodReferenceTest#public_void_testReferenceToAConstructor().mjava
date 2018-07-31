@@ -4,8 +4,6 @@ void
 testReferenceToAConstructor
 (
 )
-throws
-Exception
 {
 final
 String

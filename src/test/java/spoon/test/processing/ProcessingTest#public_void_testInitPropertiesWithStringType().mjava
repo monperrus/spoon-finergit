@@ -4,8 +4,6 @@ void
 testInitPropertiesWithStringType
 (
 )
-throws
-Exception
 {
 class
 AProcessor

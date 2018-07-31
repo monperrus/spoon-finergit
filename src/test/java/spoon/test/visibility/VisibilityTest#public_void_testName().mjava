@@ -4,8 +4,6 @@ void
 testName
 (
 )
-throws
-Exception
 {
 final
 SpoonAPI

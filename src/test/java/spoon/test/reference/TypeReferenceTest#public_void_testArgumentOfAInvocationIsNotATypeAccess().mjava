@@ -4,8 +4,6 @@ void
 testArgumentOfAInvocationIsNotATypeAccess
 (
 )
-throws
-Exception
 {
 final
 Launcher

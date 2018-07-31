@@ -4,8 +4,6 @@ void
 testNullReferenceSubtype
 (
 )
-throws
-Exception
 {
 Launcher
 spoon

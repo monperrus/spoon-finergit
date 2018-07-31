@@ -4,8 +4,6 @@ void
 testMatchSample1
 (
 )
-throws
-Exception
 {
 Factory
 f

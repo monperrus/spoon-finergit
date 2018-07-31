@@ -4,8 +4,6 @@ void
 testInvocationSubstitutionByStatement
 (
 )
-throws
-Exception
 {
 Launcher
 spoon

@@ -4,8 +4,6 @@ void
 testIncorrectPathFromString
 (
 )
-throws
-Exception
 {
 Collection
 <

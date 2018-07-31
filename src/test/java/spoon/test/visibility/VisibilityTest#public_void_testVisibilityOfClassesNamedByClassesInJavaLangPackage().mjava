@@ -4,8 +4,6 @@ void
 testVisibilityOfClassesNamedByClassesInJavaLangPackage
 (
 )
-throws
-Exception
 {
 final
 File

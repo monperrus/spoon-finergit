@@ -4,8 +4,6 @@ void
 testStaticClasses
 (
 )
-throws
-Exception
 {
 SpoonAPI
 spoon

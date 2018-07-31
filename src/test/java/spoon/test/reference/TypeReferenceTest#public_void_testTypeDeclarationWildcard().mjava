@@ -4,8 +4,6 @@ void
 testTypeDeclarationWildcard
 (
 )
-throws
-Exception
 {
 CtLocalVariable
 <

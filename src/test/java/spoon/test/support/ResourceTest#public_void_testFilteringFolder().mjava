@@ -4,8 +4,6 @@ void
 testFilteringFolder
 (
 )
-throws
-Exception
 {
 SpoonModelBuilder
 mb

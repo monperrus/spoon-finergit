@@ -4,8 +4,6 @@ void
 testPrettyPrinterWithLines
 (
 )
-throws
-Exception
 {
 for
 (

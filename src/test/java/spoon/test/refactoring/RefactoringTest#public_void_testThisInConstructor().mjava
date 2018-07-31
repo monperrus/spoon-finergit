@@ -4,8 +4,6 @@ void
 testThisInConstructor
 (
 )
-throws
-Exception
 {
 final
 Launcher

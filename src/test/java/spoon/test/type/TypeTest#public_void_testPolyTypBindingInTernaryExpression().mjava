@@ -4,8 +4,6 @@ void
 testPolyTypBindingInTernaryExpression
 (
 )
-throws
-Exception
 {
 Launcher
 launcher

@@ -4,8 +4,6 @@ void
 testCompileMultiTryCatchWithCustomExceptions
 (
 )
-throws
-Exception
 {
 spoon
 .

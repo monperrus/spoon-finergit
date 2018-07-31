@@ -4,8 +4,6 @@ void
 testTypeAccessOnPrimitive
 (
 )
-throws
-Exception
 {
 Factory
 factory

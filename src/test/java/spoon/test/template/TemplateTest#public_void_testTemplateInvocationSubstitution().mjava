@@ -4,8 +4,6 @@ void
 testTemplateInvocationSubstitution
 (
 )
-throws
-Exception
 {
 Launcher
 spoon

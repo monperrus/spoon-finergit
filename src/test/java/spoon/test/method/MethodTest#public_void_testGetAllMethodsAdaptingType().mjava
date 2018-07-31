@@ -4,8 +4,6 @@ void
 testGetAllMethodsAdaptingType
 (
 )
-throws
-Exception
 {
 Launcher
 l

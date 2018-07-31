@@ -4,8 +4,6 @@ void
 testSourcePosition
 (
 )
-throws
-Exception
 {
 SourcePosition
 s

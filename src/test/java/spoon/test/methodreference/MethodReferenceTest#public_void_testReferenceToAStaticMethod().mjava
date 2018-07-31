@@ -4,8 +4,6 @@ void
 testReferenceToAStaticMethod
 (
 )
-throws
-Exception
 {
 final
 String

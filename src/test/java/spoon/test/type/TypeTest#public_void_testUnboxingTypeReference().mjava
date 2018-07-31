@@ -4,8 +4,6 @@ void
 testUnboxingTypeReference
 (
 )
-throws
-Exception
 {
 final
 Factory

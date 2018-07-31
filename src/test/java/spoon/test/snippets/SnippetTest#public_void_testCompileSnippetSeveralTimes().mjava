@@ -4,8 +4,6 @@ void
 testCompileSnippetSeveralTimes
 (
 )
-throws
-Exception
 {
 final
 Factory

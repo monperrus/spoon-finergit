@@ -4,8 +4,6 @@ void
 testDeclarationOfVariableReference
 (
 )
-throws
-Exception
 {
 final
 Launcher

@@ -4,8 +4,6 @@ void
 toStringTest
 (
 )
-throws
-Exception
 {
 comparePath
 (

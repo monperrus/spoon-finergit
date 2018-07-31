@@ -4,8 +4,6 @@ void
 testNullSignatureInUnboundVariable
 (
 )
-throws
-Exception
 {
 Factory
 factory

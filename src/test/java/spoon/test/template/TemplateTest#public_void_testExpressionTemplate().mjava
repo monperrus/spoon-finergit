@@ -4,8 +4,6 @@ void
 testExpressionTemplate
 (
 )
-throws
-Exception
 {
 Launcher
 spoon

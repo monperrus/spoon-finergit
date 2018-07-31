@@ -4,8 +4,6 @@ void
 testThisInConstructorAfterATransformation
 (
 )
-throws
-Exception
 {
 final
 Launcher

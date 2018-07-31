@@ -4,8 +4,6 @@ void
 testIssue981
 (
 )
-throws
-Exception
 {
 Launcher
 spoon

@@ -4,8 +4,6 @@ void
 testNewClassInterfaceWithParameters
 (
 )
-throws
-Exception
 {
 final
 CtNewClass

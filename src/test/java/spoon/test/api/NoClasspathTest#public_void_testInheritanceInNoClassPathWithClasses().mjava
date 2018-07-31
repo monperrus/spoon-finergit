@@ -4,8 +4,6 @@ void
 testInheritanceInNoClassPathWithClasses
 (
 )
-throws
-IOException
 {
 String
 sourceInputDirPath

@@ -4,8 +4,6 @@ void
 testSubstituteInnerClass
 (
 )
-throws
-Exception
 {
 Launcher
 spoon

@@ -4,8 +4,6 @@ void
 testVirtualFolder
 (
 )
-throws
-Exception
 {
 String
 dir

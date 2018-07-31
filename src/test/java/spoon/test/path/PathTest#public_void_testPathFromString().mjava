@@ -4,8 +4,6 @@ void
 testPathFromString
 (
 )
-throws
-Exception
 {
 equals
 (

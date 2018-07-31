@@ -4,8 +4,6 @@ void
 testGetAllMethods
 (
 )
-throws
-Exception
 {
 Launcher
 l

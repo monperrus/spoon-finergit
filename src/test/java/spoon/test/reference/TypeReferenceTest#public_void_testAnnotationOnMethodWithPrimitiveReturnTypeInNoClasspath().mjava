@@ -4,8 +4,6 @@ void
 testAnnotationOnMethodWithPrimitiveReturnTypeInNoClasspath
 (
 )
-throws
-Exception
 {
 final
 Launcher

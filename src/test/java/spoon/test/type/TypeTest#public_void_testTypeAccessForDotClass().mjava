@@ -4,8 +4,6 @@ void
 testTypeAccessForDotClass
 (
 )
-throws
-Exception
 {
 final
 String

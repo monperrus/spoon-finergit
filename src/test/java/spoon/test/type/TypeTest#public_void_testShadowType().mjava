@@ -4,8 +4,6 @@ void
 testShadowType
 (
 )
-throws
-Exception
 {
 Launcher
 launcher

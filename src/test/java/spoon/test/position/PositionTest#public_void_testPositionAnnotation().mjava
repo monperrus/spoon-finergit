@@ -4,8 +4,6 @@ void
 testPositionAnnotation
 (
 )
-throws
-Exception
 {
 final
 Factory

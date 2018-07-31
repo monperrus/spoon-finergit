@@ -4,8 +4,6 @@ void
 testInterruptAProcessor
 (
 )
-throws
-Exception
 {
 final
 Launcher

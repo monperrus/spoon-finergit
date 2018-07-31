@@ -4,8 +4,6 @@ void
 testTypeAccessOfArrayObjectInFullyQualifiedName
 (
 )
-throws
-Exception
 {
 final
 String

@@ -4,8 +4,6 @@ void
 testReferenceToAJavaUtilClassConstructor
 (
 )
-throws
-Exception
 {
 final
 String

@@ -4,8 +4,6 @@ void
 testGetUsedTypesForTypeInRootPackage
 (
 )
-throws
-Exception
 {
 CtClass
 <

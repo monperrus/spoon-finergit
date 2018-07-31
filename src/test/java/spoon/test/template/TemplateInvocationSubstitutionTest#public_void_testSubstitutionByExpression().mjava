@@ -4,8 +4,6 @@ void
 testSubstitutionByExpression
 (
 )
-throws
-Exception
 {
 Launcher
 spoon

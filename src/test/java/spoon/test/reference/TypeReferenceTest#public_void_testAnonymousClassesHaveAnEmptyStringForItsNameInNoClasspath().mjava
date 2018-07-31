@@ -4,8 +4,6 @@ void
 testAnonymousClassesHaveAnEmptyStringForItsNameInNoClasspath
 (
 )
-throws
-Exception
 {
 final
 Launcher

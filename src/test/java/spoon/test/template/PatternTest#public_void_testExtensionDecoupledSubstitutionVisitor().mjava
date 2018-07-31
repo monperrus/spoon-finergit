@@ -4,8 +4,6 @@ void
 testExtensionDecoupledSubstitutionVisitor
 (
 )
-throws
-Exception
 {
 final
 Launcher

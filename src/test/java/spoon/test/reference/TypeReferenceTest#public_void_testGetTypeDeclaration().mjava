@@ -4,8 +4,6 @@ void
 testGetTypeDeclaration
 (
 )
-throws
-Exception
 {
 Launcher
 l

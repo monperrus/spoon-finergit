@@ -4,8 +4,6 @@ void
 testParent
 (
 )
-throws
-Exception
 {
 try
 {

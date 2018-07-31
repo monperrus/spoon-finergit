@@ -4,8 +4,6 @@ void
 testReferences
 (
 )
-throws
-Exception
 {
 CtType
 <

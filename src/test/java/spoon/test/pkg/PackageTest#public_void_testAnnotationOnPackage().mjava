@@ -4,8 +4,6 @@ void
 testAnnotationOnPackage
 (
 )
-throws
-Exception
 {
 Launcher
 launcher

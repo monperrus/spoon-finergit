@@ -4,8 +4,6 @@ void
 testNewClassWithObjectClass
 (
 )
-throws
-Exception
 {
 final
 CtNewClass

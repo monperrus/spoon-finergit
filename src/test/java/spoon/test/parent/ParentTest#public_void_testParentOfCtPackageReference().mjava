@@ -4,8 +4,6 @@ void
 testParentOfCtPackageReference
 (
 )
-throws
-Exception
 {
 final
 Launcher

@@ -4,8 +4,6 @@ void
 testTryCatchVariableGetType
 (
 )
-throws
-Exception
 {
 Factory
 factory

@@ -4,8 +4,6 @@ void
 testLauncherWithoutArgumentsExitWithSystemExit
 (
 )
-throws
-Exception
 {
 exit
 .
@@ -47,8 +45,6 @@ void
 checkAssertion
 (
 )
-throws
-Exception
 {
 assertTrue
 (
