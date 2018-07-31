@@ -4,8 +4,6 @@ void
 testExecutableReferences
 (
 )
-throws
-Exception
 {
 CtClass
 <

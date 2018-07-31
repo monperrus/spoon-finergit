@@ -4,8 +4,6 @@ void
 testFieldAccessDeclaredInADefaultClass
 (
 )
-throws
-Exception
 {
 final
 Launcher

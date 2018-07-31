@@ -4,8 +4,6 @@ void
 testGetDefaultExpression
 (
 )
-throws
-Exception
 {
 Launcher
 spoon

@@ -4,8 +4,6 @@ void
 testAnnotationsOnEnum
 (
 )
-throws
-Exception
 {
 final
 Launcher

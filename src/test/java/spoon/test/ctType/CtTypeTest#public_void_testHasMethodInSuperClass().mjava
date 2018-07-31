@@ -4,8 +4,6 @@ void
 testHasMethodInSuperClass
 (
 )
-throws
-Exception
 {
 final
 Launcher

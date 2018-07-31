@@ -4,8 +4,6 @@ void
 testGenerateCloneVisitor
 (
 )
-throws
-Exception
 {
 final
 Launcher

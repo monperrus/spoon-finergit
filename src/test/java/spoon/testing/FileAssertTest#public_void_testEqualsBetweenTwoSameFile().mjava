@@ -4,8 +4,6 @@ void
 testEqualsBetweenTwoSameFile
 (
 )
-throws
-Exception
 {
 final
 String

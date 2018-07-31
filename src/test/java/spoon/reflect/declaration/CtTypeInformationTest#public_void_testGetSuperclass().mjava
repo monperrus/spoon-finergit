@@ -4,8 +4,6 @@ void
 testGetSuperclass
 (
 )
-throws
-Exception
 {
 final
 CtType

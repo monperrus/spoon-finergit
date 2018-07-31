@@ -4,8 +4,6 @@ void
 testVisitorPartialEvaluator_binary
 (
 )
-throws
-Exception
 {
 Launcher
 launcher

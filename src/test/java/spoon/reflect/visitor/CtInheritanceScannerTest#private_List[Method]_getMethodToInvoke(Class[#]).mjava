@@ -17,8 +17,6 @@ Class
 >
 entry
 )
-throws
-Exception
 {
 Queue
 <

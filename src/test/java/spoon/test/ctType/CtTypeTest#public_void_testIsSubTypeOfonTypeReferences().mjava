@@ -4,8 +4,6 @@ void
 testIsSubTypeOfonTypeReferences
 (
 )
-throws
-Exception
 {
 final
 Launcher

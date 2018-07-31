@@ -4,8 +4,6 @@ void
 testCtModel
 (
 )
-throws
-Exception
 {
 SpoonAPI
 spoon

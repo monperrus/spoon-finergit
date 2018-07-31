@@ -4,8 +4,6 @@ void
 testPrintAMethodWithImports
 (
 )
-throws
-Exception
 {
 final
 Launcher

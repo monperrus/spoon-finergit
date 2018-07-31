@@ -6,8 +6,6 @@ CtTypeParameter
 typeParam
 )
 throws
-NoSuchFieldException
-,
 SecurityException
 {
 CtExecutable

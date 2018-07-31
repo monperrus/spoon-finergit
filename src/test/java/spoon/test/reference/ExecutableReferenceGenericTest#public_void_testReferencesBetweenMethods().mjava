@@ -4,8 +4,6 @@ void
 testReferencesBetweenMethods
 (
 )
-throws
-Exception
 {
 final
 CtClass

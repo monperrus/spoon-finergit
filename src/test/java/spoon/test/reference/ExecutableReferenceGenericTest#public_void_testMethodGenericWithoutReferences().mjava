@@ -4,8 +4,6 @@ void
 testMethodGenericWithoutReferences
 (
 )
-throws
-Exception
 {
 final
 CtClass

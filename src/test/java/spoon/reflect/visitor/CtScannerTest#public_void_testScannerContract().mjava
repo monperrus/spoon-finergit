@@ -4,8 +4,6 @@ void
 testScannerContract
 (
 )
-throws
-Exception
 {
 final
 Launcher

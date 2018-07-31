@@ -4,8 +4,6 @@ void
 testMultiReferencesBetweenMethodsWithoutGenericInSameClass
 (
 )
-throws
-Exception
 {
 final
 CtClass

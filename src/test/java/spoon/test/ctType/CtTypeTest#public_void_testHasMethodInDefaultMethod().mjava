@@ -4,8 +4,6 @@ void
 testHasMethodInDefaultMethod
 (
 )
-throws
-Exception
 {
 final
 Launcher

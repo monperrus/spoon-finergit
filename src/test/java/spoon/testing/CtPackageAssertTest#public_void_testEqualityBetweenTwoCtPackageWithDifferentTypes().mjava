@@ -4,8 +4,6 @@ void
 testEqualityBetweenTwoCtPackageWithDifferentTypes
 (
 )
-throws
-Exception
 {
 final
 Factory

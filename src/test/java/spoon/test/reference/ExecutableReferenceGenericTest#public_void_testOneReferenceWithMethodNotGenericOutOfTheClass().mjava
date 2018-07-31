@@ -4,8 +4,6 @@ void
 testOneReferenceWithMethodNotGenericOutOfTheClass
 (
 )
-throws
-Exception
 {
 final
 CtClass

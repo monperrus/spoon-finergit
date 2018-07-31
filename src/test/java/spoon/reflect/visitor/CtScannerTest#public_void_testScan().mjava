@@ -4,8 +4,6 @@ void
 testScan
 (
 )
-throws
-Exception
 {
 Launcher
 launcher

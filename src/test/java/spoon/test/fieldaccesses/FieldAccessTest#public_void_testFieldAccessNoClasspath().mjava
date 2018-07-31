@@ -4,8 +4,6 @@ void
 testFieldAccessNoClasspath
 (
 )
-throws
-Exception
 {
 Launcher
 launcher

@@ -4,8 +4,6 @@ void
 testReferencesBetweenConstructorsInOtherClass
 (
 )
-throws
-Exception
 {
 final
 List

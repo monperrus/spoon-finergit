@@ -4,8 +4,6 @@ void
 testPrintAMethodWithGeneric
 (
 )
-throws
-Exception
 {
 final
 Launcher

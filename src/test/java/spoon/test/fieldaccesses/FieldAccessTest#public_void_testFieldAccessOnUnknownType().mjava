@@ -4,8 +4,6 @@ void
 testFieldAccessOnUnknownType
 (
 )
-throws
-Exception
 {
 final
 Launcher

@@ -4,8 +4,6 @@ void
 testSpecifyGetAllExecutablesMethod
 (
 )
-throws
-Exception
 {
 final
 Launcher

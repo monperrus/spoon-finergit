@@ -4,8 +4,6 @@ void
 testPrintAClassWithImports
 (
 )
-throws
-Exception
 {
 final
 Launcher

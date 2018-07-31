@@ -4,8 +4,6 @@ void
 testMethodsInVisitor
 (
 )
-throws
-Exception
 {
 final
 Launcher

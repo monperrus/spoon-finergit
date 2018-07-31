@@ -4,8 +4,6 @@ void
 autoImportUsesFullyQualifiedNameWhenImportedNameAlreadyPresent
 (
 )
-throws
-Exception
 {
 final
 Launcher

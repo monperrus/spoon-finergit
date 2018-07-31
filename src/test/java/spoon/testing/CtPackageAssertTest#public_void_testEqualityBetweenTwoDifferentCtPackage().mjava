@@ -4,8 +4,6 @@ void
 testEqualityBetweenTwoDifferentCtPackage
 (
 )
-throws
-Exception
 {
 assertThat
 (

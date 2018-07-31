@@ -4,8 +4,6 @@ void
 testAddTypeToPackage
 (
 )
-throws
-Exception
 {
 final
 Factory
