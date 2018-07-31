@@ -57,7 +57,6 @@ factory
 new
 TypeFilter
 <
-CtWhile
 >
 (
 CtWhile

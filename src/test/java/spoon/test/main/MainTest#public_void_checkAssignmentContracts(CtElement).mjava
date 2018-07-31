@@ -19,7 +19,6 @@ getElements
 new
 TypeFilter
 <
-CtAssignment
 >
 (
 CtAssignment

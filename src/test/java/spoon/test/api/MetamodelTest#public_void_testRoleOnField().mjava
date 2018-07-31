@@ -421,7 +421,6 @@ getElements
 new
 AnnotationFilter
 <
-CtField
 >
 (
 MetamodelPropertyField

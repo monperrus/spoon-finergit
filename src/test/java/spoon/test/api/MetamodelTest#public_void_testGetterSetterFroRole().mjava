@@ -146,10 +146,6 @@ getElements
 new
 AnnotationFilter
 <
-CtMethod
-<
-?
->
 >
 (
 PropertyGetter
@@ -283,10 +279,6 @@ getElements
 new
 AnnotationFilter
 <
-CtMethod
-<
-?
->
 >
 (
 PropertySetter

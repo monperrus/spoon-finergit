@@ -31,7 +31,6 @@ statementFilter
 new
 TypeFilter
 <
-CtMethod
 >
 (
 CtMethod
@@ -48,7 +47,6 @@ statementImplFilter
 new
 TypeFilter
 <
-CtMethodImpl
 >
 (
 CtMethodImpl

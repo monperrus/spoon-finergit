@@ -47,10 +47,6 @@ getElements
 new
 TypeFilter
 <
-CtClass
-<
-?
->
 >
 (
 CtClass

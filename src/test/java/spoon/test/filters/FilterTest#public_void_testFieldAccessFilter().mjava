@@ -176,7 +176,6 @@ getElements
 new
 TypeFilter
 <
-CtField
 >
 (
 CtField

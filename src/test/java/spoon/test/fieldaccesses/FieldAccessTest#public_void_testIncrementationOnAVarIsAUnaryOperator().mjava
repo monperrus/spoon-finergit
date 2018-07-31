@@ -57,10 +57,6 @@ getElements
 new
 TypeFilter
 <
-CtUnaryOperator
-<
-?
->
 >
 (
 CtUnaryOperator
