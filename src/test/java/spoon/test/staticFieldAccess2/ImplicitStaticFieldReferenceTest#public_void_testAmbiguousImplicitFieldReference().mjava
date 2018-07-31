@@ -4,8 +4,6 @@ void
 testAmbiguousImplicitFieldReference
 (
 )
-throws
-Exception
 {
 Launcher
 launcher

@@ -4,8 +4,6 @@ void
 testOverridingMethodFromSubClassOfInterface
 (
 )
-throws
-Exception
 {
 final
 Launcher

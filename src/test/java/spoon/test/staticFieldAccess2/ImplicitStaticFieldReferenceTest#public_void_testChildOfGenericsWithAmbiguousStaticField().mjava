@@ -4,8 +4,6 @@ void
 testChildOfGenericsWithAmbiguousStaticField
 (
 )
-throws
-Exception
 {
 Launcher
 launcher

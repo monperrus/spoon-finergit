@@ -4,8 +4,6 @@ void
 testImplicitStaticFieldReferenceAutoImport
 (
 )
-throws
-Exception
 {
 Launcher
 launcher

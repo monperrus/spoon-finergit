@@ -4,8 +4,6 @@ void
 testLambdaWithPrimitiveParameter
 (
 )
-throws
-Exception
 {
 final
 CtLambda

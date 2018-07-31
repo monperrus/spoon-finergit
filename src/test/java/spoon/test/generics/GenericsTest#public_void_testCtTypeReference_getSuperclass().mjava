@@ -4,8 +4,6 @@ void
 testCtTypeReference_getSuperclass
 (
 )
-throws
-Exception
 {
 Factory
 factory

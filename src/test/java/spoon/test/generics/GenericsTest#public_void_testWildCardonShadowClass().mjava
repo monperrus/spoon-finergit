@@ -4,8 +4,6 @@ void
 testWildCardonShadowClass
 (
 )
-throws
-Exception
 {
 Launcher
 launcher

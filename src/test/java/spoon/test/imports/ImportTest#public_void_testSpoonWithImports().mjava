@@ -4,8 +4,6 @@ void
 testSpoonWithImports
 (
 )
-throws
-Exception
 {
 final
 Launcher

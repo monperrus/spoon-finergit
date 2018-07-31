@@ -4,8 +4,6 @@ void
 testScannerAnnotation
 (
 )
-throws
-Exception
 {
 final
 CtAnnotationType

@@ -4,8 +4,6 @@ void
 testComputeImportsInClassWithSameName
 (
 )
-throws
-Exception
 {
 String
 packageName

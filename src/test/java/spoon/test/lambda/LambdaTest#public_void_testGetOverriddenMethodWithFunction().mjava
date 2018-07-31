@@ -4,8 +4,6 @@ void
 testGetOverriddenMethodWithFunction
 (
 )
-throws
-Exception
 {
 List
 <

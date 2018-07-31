@@ -4,8 +4,6 @@ void
 testRedefinesDefaultMethodInSubInterface
 (
 )
-throws
-Exception
 {
 final
 CtInterface

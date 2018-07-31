@@ -4,8 +4,6 @@ void
 testParentFunction
 (
 )
-throws
-Exception
 {
 final
 Launcher

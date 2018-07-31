@@ -4,8 +4,6 @@ void
 testInvocationGenerics
 (
 )
-throws
-Exception
 {
 final
 Launcher

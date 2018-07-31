@@ -4,8 +4,6 @@ void
 testInsertAfterWithoutBrace
 (
 )
-throws
-Exception
 {
 CtMethod
 <

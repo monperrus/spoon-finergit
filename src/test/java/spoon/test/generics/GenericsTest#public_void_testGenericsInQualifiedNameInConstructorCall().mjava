@@ -4,8 +4,6 @@ void
 testGenericsInQualifiedNameInConstructorCall
 (
 )
-throws
-Exception
 {
 final
 Launcher

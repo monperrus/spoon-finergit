@@ -4,8 +4,6 @@ void
 testCompileLambdaGeneratedBySpoon
 (
 )
-throws
-Exception
 {
 launcher
 .

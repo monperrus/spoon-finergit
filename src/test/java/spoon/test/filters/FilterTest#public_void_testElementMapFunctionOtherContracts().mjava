@@ -4,8 +4,6 @@ void
 testElementMapFunctionOtherContracts
 (
 )
-throws
-Exception
 {
 final
 Launcher

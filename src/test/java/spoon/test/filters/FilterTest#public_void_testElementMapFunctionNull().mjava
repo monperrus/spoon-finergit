@@ -4,8 +4,6 @@ void
 testElementMapFunctionNull
 (
 )
-throws
-Exception
 {
 final
 Launcher

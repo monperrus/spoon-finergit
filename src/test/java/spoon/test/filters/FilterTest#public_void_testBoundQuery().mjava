@@ -4,8 +4,6 @@ void
 testBoundQuery
 (
 )
-throws
-Exception
 {
 final
 Launcher

@@ -4,8 +4,6 @@ void
 testDefaultMethodInConsumer
 (
 )
-throws
-Exception
 {
 final
 CtInterface

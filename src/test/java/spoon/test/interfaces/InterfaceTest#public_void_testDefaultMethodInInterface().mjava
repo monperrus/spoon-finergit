@@ -4,8 +4,6 @@ void
 testDefaultMethodInInterface
 (
 )
-throws
-Exception
 {
 final
 CtInterface

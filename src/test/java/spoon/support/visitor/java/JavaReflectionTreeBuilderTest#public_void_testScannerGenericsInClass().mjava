@@ -4,8 +4,6 @@ void
 testScannerGenericsInClass
 (
 )
-throws
-Exception
 {
 final
 CtType

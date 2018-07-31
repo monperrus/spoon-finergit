@@ -4,8 +4,6 @@ void
 testImplicitStaticClassAccess
 (
 )
-throws
-Exception
 {
 Launcher
 launcher

@@ -4,8 +4,6 @@ void
 testDeclaredConstructor
 (
 )
-throws
-Exception
 {
 final
 CtType

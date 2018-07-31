@@ -4,8 +4,6 @@ void
 testImportOfAnInnerClassInASuperClassPackageAutoImport
 (
 )
-throws
-Exception
 {
 Launcher
 spoon

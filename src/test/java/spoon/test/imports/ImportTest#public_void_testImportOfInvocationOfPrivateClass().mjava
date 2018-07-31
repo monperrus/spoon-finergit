@@ -4,8 +4,6 @@ void
 testImportOfInvocationOfPrivateClass
 (
 )
-throws
-Exception
 {
 final
 Factory

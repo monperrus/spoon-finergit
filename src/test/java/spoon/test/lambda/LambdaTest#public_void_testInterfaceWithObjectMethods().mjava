@@ -4,8 +4,6 @@ void
 testInterfaceWithObjectMethods
 (
 )
-throws
-Exception
 {
 CtInterface
 <

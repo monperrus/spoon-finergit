@@ -4,8 +4,6 @@ void
 testResource
 (
 )
-throws
-Exception
 {
 Launcher
 launcher

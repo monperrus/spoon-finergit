@@ -4,8 +4,6 @@ void
 testTypeParameterOfLambdaWithoutType2
 (
 )
-throws
-Exception
 {
 final
 CtLambda

@@ -4,8 +4,6 @@ void
 testOverriddenMethodsFromSubClassOfAbstractClass
 (
 )
-throws
-Exception
 {
 final
 Launcher

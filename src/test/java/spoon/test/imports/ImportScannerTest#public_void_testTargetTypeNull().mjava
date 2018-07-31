@@ -4,8 +4,6 @@ void
 testTargetTypeNull
 (
 )
-throws
-Exception
 {
 Launcher
 spoon

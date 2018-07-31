@@ -4,8 +4,6 @@ void
 testSubInheritanceHierarchyResolver
 (
 )
-throws
-Exception
 {
 final
 Launcher

@@ -4,8 +4,6 @@ void
 testFilters
 (
 )
-throws
-Exception
 {
 CtClass
 <

@@ -4,8 +4,6 @@ void
 testInvalidQueryStepFailurePolicyIgnore
 (
 )
-throws
-Exception
 {
 final
 Launcher

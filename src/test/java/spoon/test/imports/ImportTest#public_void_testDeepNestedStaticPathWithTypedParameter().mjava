@@ -4,8 +4,6 @@ void
 testDeepNestedStaticPathWithTypedParameter
 (
 )
-throws
-Exception
 {
 final
 Launcher

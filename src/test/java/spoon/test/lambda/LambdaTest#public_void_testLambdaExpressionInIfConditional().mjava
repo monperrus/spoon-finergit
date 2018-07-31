@@ -4,8 +4,6 @@ void
 testLambdaExpressionInIfConditional
 (
 )
-throws
-Exception
 {
 final
 CtLambda

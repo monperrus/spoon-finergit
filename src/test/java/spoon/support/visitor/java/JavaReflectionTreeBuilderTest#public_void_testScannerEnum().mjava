@@ -4,8 +4,6 @@ void
 testScannerEnum
 (
 )
-throws
-Exception
 {
 final
 CtEnum

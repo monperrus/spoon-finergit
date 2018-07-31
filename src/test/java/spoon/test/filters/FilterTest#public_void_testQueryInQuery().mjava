@@ -4,8 +4,6 @@ void
 testQueryInQuery
 (
 )
-throws
-Exception
 {
 final
 Launcher

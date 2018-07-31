@@ -4,8 +4,6 @@ void
 testSettersAreAllGood
 (
 )
-throws
-Exception
 {
 ArrayList
 classpath

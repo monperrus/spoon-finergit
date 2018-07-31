@@ -4,8 +4,6 @@ void
 testConstructorCallGenerics
 (
 )
-throws
-Exception
 {
 final
 Launcher

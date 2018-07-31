@@ -4,8 +4,6 @@ void
 testChildOfGenericsWithAmbiguousStaticFieldAutoImport
 (
 )
-throws
-Exception
 {
 Launcher
 launcher

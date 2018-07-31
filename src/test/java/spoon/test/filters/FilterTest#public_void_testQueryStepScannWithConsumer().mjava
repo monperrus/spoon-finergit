@@ -4,8 +4,6 @@ void
 testQueryStepScannWithConsumer
 (
 )
-throws
-Exception
 {
 final
 Launcher

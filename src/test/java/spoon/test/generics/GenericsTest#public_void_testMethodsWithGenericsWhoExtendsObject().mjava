@@ -4,8 +4,6 @@ void
 testMethodsWithGenericsWhoExtendsObject
 (
 )
-throws
-Exception
 {
 final
 Launcher

@@ -4,8 +4,6 @@ void
 testInsertAfterSwitchCase
 (
 )
-throws
-Exception
 {
 CtMethod
 <

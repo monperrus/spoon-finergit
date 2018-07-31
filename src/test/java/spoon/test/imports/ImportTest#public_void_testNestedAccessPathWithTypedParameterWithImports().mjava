@@ -4,8 +4,6 @@ void
 testNestedAccessPathWithTypedParameterWithImports
 (
 )
-throws
-Exception
 {
 final
 Launcher

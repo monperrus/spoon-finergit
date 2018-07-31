@@ -4,8 +4,6 @@ void
 testImplicitStaticClassAccessAutoImport
 (
 )
-throws
-Exception
 {
 Launcher
 launcher

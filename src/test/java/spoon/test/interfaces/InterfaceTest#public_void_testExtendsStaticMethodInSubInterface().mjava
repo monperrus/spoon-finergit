@@ -4,8 +4,6 @@ void
 testExtendsStaticMethodInSubInterface
 (
 )
-throws
-Exception
 {
 final
 CtInterface

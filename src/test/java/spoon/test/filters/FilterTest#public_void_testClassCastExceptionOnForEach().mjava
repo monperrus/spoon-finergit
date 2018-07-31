@@ -4,8 +4,6 @@ void
 testClassCastExceptionOnForEach
 (
 )
-throws
-Exception
 {
 final
 Launcher

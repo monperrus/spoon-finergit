@@ -4,8 +4,6 @@ void
 testEqualsLambdaParameterRef
 (
 )
-throws
-Exception
 {
 CtLambda
 <

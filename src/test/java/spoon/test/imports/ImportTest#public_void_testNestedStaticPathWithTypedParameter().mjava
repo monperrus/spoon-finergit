@@ -4,8 +4,6 @@ void
 testNestedStaticPathWithTypedParameter
 (
 )
-throws
-Exception
 {
 final
 Launcher

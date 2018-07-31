@@ -4,8 +4,6 @@ void
 testAnnotationInChildWithConstants
 (
 )
-throws
-Exception
 {
 Launcher
 launcher

@@ -4,8 +4,6 @@ void
 testDeclaredField
 (
 )
-throws
-Exception
 {
 final
 CtType

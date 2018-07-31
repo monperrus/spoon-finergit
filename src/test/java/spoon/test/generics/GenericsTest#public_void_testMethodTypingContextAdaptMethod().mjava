@@ -4,8 +4,6 @@ void
 testMethodTypingContextAdaptMethod
 (
 )
-throws
-Exception
 {
 Factory
 factory

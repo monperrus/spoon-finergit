@@ -4,8 +4,6 @@ void
 testTypeParameterWithImplicitArrayType
 (
 )
-throws
-Exception
 {
 final
 CtLambda

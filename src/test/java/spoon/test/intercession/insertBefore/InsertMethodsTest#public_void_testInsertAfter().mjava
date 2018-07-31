@@ -4,8 +4,6 @@ void
 testInsertAfter
 (
 )
-throws
-Exception
 {
 CtMethod
 <

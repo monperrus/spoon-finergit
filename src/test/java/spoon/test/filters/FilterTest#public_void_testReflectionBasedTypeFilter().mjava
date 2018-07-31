@@ -4,8 +4,6 @@ void
 testReflectionBasedTypeFilter
 (
 )
-throws
-Exception
 {
 final
 Launcher

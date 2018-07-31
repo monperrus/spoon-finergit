@@ -4,8 +4,6 @@ void
 testImportWithGenerics
 (
 )
-throws
-IOException
 {
 final
 Launcher

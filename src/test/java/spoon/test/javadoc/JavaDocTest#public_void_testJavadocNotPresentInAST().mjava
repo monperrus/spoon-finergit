@@ -4,8 +4,6 @@ void
 testJavadocNotPresentInAST
 (
 )
-throws
-Exception
 {
 Launcher
 launcher

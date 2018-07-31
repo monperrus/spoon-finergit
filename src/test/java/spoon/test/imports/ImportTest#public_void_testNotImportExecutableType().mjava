@@ -4,8 +4,6 @@ void
 testNotImportExecutableType
 (
 )
-throws
-Exception
 {
 final
 Factory

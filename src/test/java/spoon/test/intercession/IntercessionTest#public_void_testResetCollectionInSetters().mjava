@@ -5,8 +5,6 @@ void
 testResetCollectionInSetters
 (
 )
-throws
-Exception
 {
 final
 Launcher

@@ -4,8 +4,6 @@ void
 testInvocationFilterWithExecutableInLibrary
 (
 )
-throws
-Exception
 {
 final
 Launcher

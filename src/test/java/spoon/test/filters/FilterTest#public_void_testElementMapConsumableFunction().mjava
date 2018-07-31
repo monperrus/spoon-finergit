@@ -4,8 +4,6 @@ void
 testElementMapConsumableFunction
 (
 )
-throws
-Exception
 {
 final
 Launcher

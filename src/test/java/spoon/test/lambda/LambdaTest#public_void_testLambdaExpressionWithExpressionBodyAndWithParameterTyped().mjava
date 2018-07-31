@@ -4,8 +4,6 @@ void
 testLambdaExpressionWithExpressionBodyAndWithParameterTyped
 (
 )
-throws
-Exception
 {
 final
 CtLambda

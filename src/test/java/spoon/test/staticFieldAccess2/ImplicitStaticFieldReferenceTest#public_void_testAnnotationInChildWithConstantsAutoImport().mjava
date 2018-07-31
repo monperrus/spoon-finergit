@@ -4,8 +4,6 @@ void
 testAnnotationInChildWithConstantsAutoImport
 (
 )
-throws
-Exception
 {
 Launcher
 launcher

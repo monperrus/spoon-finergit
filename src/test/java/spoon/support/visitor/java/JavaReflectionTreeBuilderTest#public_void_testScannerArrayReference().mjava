@@ -4,8 +4,6 @@ void
 testScannerArrayReference
 (
 )
-throws
-Exception
 {
 final
 CtType

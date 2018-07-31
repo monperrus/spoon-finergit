@@ -4,8 +4,6 @@ void
 testJavaDocReprint
 (
 )
-throws
-Exception
 {
 SpoonAPI
 launcher

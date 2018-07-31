@@ -4,8 +4,6 @@ void
 testCtScannerListener
 (
 )
-throws
-Exception
 {
 final
 Launcher

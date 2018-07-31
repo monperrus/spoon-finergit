@@ -4,8 +4,6 @@ void
 testisGeneric
 (
 )
-throws
-Exception
 {
 Factory
 factory

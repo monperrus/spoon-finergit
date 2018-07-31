@@ -4,8 +4,6 @@ void
 testReuseOfQuery
 (
 )
-throws
-Exception
 {
 final
 Launcher

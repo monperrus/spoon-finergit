@@ -4,8 +4,6 @@ void
 testStaticImportForInvocationInNoClasspath
 (
 )
-throws
-Exception
 {
 final
 Launcher

@@ -4,8 +4,6 @@ void
 testTypeOfStaticInvocation
 (
 )
-throws
-Exception
 {
 SpoonAPI
 launcher

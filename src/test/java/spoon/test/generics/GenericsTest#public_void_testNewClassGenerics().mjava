@@ -4,8 +4,6 @@ void
 testNewClassGenerics
 (
 )
-throws
-Exception
 {
 final
 Launcher

@@ -4,8 +4,6 @@ void
 testImplicitStaticFieldReference
 (
 )
-throws
-Exception
 {
 Launcher
 launcher
