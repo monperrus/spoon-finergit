@@ -4,8 +4,6 @@ void
 compileCommandLineTest
 (
 )
-throws
-Exception
 {
 String
 sourceFile

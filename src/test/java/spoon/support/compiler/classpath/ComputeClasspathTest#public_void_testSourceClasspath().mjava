@@ -4,12 +4,6 @@ void
 testSourceClasspath
 (
 )
-throws
-NoSuchMethodException
-,
-InvocationTargetException
-,
-IllegalAccessException
 {
 final
 ClasspathOptions

@@ -4,8 +4,6 @@ void
 testFilterResourcesFile
 (
 )
-throws
-Exception
 {
 Launcher
 launcher

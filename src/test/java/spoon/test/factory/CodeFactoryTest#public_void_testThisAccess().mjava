@@ -4,8 +4,6 @@ void
 testThisAccess
 (
 )
-throws
-Exception
 {
 final
 Factory

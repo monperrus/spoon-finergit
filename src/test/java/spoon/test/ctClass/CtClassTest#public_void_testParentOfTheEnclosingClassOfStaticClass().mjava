@@ -4,8 +4,6 @@ void
 testParentOfTheEnclosingClassOfStaticClass
 (
 )
-throws
-Exception
 {
 final
 Launcher

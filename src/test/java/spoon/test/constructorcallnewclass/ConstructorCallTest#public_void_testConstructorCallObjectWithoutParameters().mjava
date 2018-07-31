@@ -4,8 +4,6 @@ void
 testConstructorCallObjectWithoutParameters
 (
 )
-throws
-Exception
 {
 final
 CtConstructorCall

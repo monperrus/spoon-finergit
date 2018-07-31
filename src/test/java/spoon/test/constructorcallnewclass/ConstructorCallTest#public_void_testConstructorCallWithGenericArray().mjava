@@ -4,8 +4,6 @@ void
 testConstructorCallWithGenericArray
 (
 )
-throws
-Exception
 {
 final
 CtConstructorCall

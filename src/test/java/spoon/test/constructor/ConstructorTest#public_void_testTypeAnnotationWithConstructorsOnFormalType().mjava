@@ -4,8 +4,6 @@ void
 testTypeAnnotationWithConstructorsOnFormalType
 (
 )
-throws
-Exception
 {
 final
 CtConstructor

@@ -4,8 +4,6 @@ void
 testTypeAnnotationOnExceptionDeclaredInConstructors
 (
 )
-throws
-Exception
 {
 final
 CtConstructor

@@ -4,8 +4,6 @@ void
 testNoClasspathWithSuperClassOfAClassInAnInterface
 (
 )
-throws
-Exception
 {
 final
 Launcher

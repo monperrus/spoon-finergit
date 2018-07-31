@@ -4,8 +4,6 @@ void
 testDefaultConstructorAreOk
 (
 )
-throws
-Exception
 {
 final
 Launcher

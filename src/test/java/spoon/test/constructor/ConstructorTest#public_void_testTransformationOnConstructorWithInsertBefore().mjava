@@ -4,8 +4,6 @@ void
 testTransformationOnConstructorWithInsertBefore
 (
 )
-throws
-Exception
 {
 final
 CtConstructor

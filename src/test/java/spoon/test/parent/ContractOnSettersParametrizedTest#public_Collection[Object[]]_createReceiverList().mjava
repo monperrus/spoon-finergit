@@ -9,8 +9,6 @@ Object
 createReceiverList
 (
 )
-throws
-Exception
 {
 List
 <

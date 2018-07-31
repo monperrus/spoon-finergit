@@ -4,8 +4,6 @@ void
 testExoticClassLoader
 (
 )
-throws
-Exception
 {
 final
 List
