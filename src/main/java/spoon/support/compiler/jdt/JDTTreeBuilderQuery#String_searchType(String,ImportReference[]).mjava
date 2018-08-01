@@ -76,15 +76,11 @@ length
 ;
 if
 (
-importType
-!=
-null
-&&
-importType
+typeName
 .
 equals
 (
-typeName
+importType
 )
 )
 {
