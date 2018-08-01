@@ -1,6 +1,7 @@
 /** 
  * The manual meta-model processing cannot be overridden (use {@link AbstractManualProcessor}) to do so.
  */
+@Override
 public
 final
 void

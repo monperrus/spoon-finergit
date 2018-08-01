@@ -1,6 +1,7 @@
 /** 
  * Helper method to initialize the properties of a given processor.
  */
+@Override
 public
 void
 initProperties

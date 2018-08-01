@@ -1,6 +1,7 @@
 /** 
  * Pops the element.
  */
+@Override
 protected
 void
 exit

@@ -1,6 +1,7 @@
 /** 
  * Return  {@code true} if the referenced type is a anonymous type
  */
+@Override
 boolean
 isAnonymous
 (

@@ -1,6 +1,7 @@
 /** 
  * Pushes the element.
  */
+@Override
 protected
 void
 enter
