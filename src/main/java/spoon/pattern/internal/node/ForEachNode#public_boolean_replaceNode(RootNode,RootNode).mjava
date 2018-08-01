@@ -17,6 +17,13 @@ iterableParameter
 oldNode
 )
 {
+iterableParameter
+=
+(
+PrimitiveMatcher
+)
+newNode
+;
 return
 true
 ;
