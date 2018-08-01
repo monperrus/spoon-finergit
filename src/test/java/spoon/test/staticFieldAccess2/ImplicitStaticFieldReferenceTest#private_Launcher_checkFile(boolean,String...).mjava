@@ -33,7 +33,7 @@ autoImports
 String
 pckg
 =
-"spoon/test/staticFieldAccess2/"
+"spoon/test/staticFieldAccess2/testclasses/"
 ;
 for
 (

@@ -53,7 +53,7 @@ toString
 .
 indexOf
 (
-"spoon.test.staticFieldAccess2.GenericsWithAmbiguousStaticField.<V, C>genericMethod()"
+"spoon.test.staticFieldAccess2.testclasses.GenericsWithAmbiguousStaticField.<V, C>genericMethod()"
 )
 >=
 0

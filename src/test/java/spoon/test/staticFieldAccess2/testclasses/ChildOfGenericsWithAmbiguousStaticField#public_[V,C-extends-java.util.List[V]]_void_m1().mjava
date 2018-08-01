@@ -24,6 +24,8 @@ test
 .
 staticFieldAccess2
 .
+testclasses
+.
 GenericsWithAmbiguousStaticField
 .
 genericMethod
