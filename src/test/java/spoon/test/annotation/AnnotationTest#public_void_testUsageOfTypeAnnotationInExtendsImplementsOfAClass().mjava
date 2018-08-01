@@ -4,8 +4,6 @@ void
 testUsageOfTypeAnnotationInExtendsImplementsOfAClass
 (
 )
-throws
-Exception
 {
 final
 Launcher

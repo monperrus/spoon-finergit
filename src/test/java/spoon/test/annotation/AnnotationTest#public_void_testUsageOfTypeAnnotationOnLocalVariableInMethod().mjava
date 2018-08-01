@@ -4,8 +4,6 @@ void
 testUsageOfTypeAnnotationOnLocalVariableInMethod
 (
 )
-throws
-Exception
 {
 final
 Launcher

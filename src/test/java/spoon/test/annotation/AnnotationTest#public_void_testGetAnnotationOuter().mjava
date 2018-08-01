@@ -4,8 +4,6 @@ void
 testGetAnnotationOuter
 (
 )
-throws
-Exception
 {
 final
 Launcher

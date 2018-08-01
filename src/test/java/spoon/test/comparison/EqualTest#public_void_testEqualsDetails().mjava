@@ -4,8 +4,6 @@ void
 testEqualsDetails
 (
 )
-throws
-Exception
 {
 Factory
 factory

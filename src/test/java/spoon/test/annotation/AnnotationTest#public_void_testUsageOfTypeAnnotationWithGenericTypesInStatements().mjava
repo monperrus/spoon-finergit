@@ -4,8 +4,6 @@ void
 testUsageOfTypeAnnotationWithGenericTypesInStatements
 (
 )
-throws
-Exception
 {
 final
 Launcher

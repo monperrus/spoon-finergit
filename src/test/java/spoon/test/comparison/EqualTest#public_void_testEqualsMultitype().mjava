@@ -4,8 +4,6 @@ void
 testEqualsMultitype
 (
 )
-throws
-Exception
 {
 Factory
 factory

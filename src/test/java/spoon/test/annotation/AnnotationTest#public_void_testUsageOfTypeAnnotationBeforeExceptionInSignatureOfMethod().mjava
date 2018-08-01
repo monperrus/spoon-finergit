@@ -4,8 +4,6 @@ void
 testUsageOfTypeAnnotationBeforeExceptionInSignatureOfMethod
 (
 )
-throws
-Exception
 {
 final
 Launcher

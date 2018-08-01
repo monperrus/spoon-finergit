@@ -4,8 +4,6 @@ void
 testUsageOfParametersInTypeAnnotation
 (
 )
-throws
-Exception
 {
 final
 Launcher

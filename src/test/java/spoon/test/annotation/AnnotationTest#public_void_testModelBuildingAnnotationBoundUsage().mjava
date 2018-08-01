@@ -4,8 +4,6 @@ void
 testModelBuildingAnnotationBoundUsage
 (
 )
-throws
-Exception
 {
 final
 Launcher

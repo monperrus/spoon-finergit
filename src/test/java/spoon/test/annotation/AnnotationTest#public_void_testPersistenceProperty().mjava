@@ -4,8 +4,6 @@ void
 testPersistenceProperty
 (
 )
-throws
-Exception
 {
 final
 Launcher

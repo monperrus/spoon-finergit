@@ -4,8 +4,6 @@ void
 testRepeatSameAnnotationOnLocalVariable
 (
 )
-throws
-Exception
 {
 final
 Launcher

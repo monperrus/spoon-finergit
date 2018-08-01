@@ -4,8 +4,6 @@ void
 testAnnotationWithDefaultArrayValue
 (
 )
-throws
-Throwable
 {
 final
 Launcher

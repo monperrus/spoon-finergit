@@ -4,8 +4,6 @@ void
 testReplaceAnnotationValue
 (
 )
-throws
-Exception
 {
 final
 Launcher

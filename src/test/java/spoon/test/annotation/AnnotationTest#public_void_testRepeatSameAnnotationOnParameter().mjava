@@ -4,8 +4,6 @@ void
 testRepeatSameAnnotationOnParameter
 (
 )
-throws
-Exception
 {
 final
 Launcher

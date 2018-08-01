@@ -4,8 +4,6 @@ void
 testAnnotatedElementTypes
 (
 )
-throws
-Exception
 {
 final
 Launcher

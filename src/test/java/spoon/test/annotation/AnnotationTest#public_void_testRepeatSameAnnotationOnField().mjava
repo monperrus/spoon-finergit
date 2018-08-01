@@ -4,8 +4,6 @@ void
 testRepeatSameAnnotationOnField
 (
 )
-throws
-Exception
 {
 final
 Launcher

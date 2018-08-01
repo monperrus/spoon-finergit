@@ -4,8 +4,6 @@ void
 testRepeatSameAnnotationOnMethod
 (
 )
-throws
-Exception
 {
 final
 Launcher

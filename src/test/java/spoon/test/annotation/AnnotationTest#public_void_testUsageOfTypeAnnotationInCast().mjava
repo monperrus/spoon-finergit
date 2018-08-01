@@ -4,8 +4,6 @@ void
 testUsageOfTypeAnnotationInCast
 (
 )
-throws
-Exception
 {
 final
 Launcher

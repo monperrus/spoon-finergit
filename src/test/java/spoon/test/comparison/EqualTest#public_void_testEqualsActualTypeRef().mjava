@@ -4,8 +4,6 @@ void
 testEqualsActualTypeRef
 (
 )
-throws
-Exception
 {
 Factory
 factory

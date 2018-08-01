@@ -4,8 +4,6 @@ void
 testRepeatSameAnnotationOnPackage
 (
 )
-throws
-Exception
 {
 final
 Launcher

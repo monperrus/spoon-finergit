@@ -4,8 +4,6 @@ void
 testAccessAnnotationValue
 (
 )
-throws
-Exception
 {
 final
 Launcher

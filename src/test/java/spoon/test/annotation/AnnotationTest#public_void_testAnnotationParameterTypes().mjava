@@ -4,8 +4,6 @@ void
 testAnnotationParameterTypes
 (
 )
-throws
-Exception
 {
 final
 Launcher

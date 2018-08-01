@@ -4,8 +4,6 @@ void
 testAnnotationValueReflection
 (
 )
-throws
-Exception
 {
 Factory
 factory

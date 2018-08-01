@@ -4,8 +4,6 @@ void
 specificationCoreFactoryCreate
 (
 )
-throws
-Exception
 {
 for
 (

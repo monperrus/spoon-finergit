@@ -4,8 +4,6 @@ void
 testExceptionNoFile
 (
 )
-throws
-Exception
 {
 try
 {

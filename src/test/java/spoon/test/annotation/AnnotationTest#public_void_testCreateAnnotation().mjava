@@ -4,8 +4,6 @@ void
 testCreateAnnotation
 (
 )
-throws
-Exception
 {
 final
 Launcher

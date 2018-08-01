@@ -4,8 +4,6 @@ void
 testEqualsComment
 (
 )
-throws
-Exception
 {
 Factory
 factory
