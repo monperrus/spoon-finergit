@@ -62,7 +62,6 @@ getFactory
 new
 TypeFilter
 <
-CtAnonymousExecutable
 >
 (
 CtAnonymousExecutable
