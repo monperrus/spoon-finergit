@@ -78,13 +78,13 @@ rootPackage
 ;
 assertEquals
 (
+1
+,
 returnedElements
 .
 size
 (
 )
-,
-1
 )
 ;
 CtElement

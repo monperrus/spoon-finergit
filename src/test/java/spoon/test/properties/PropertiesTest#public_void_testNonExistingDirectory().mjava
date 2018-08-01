@@ -85,6 +85,8 @@ getName
 ;
 assertEquals
 (
+0
+,
 factory
 .
 getEnvironment
@@ -94,8 +96,6 @@ getEnvironment
 getErrorCount
 (
 )
-,
-0
 )
 ;
 }

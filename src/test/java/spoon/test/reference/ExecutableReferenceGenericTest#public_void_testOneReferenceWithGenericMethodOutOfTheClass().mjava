@@ -96,13 +96,13 @@ getDeclaration
 ;
 assertEquals
 (
+"method1(T extends java.lang.String)"
+,
 execRefsMethods2
 .
 getSignature
 (
 )
-,
-"method1(T extends java.lang.String)"
 )
 ;
 }

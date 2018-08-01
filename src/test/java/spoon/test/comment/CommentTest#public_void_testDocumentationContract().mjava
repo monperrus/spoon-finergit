@@ -648,12 +648,6 @@ assertEquals
 (
 "doc outdated, please commit doc/code_elements.md"
 ,
-codeElementsDocumentationPage
-.
-toString
-(
-)
-,
 IOUtils
 .
 toString
@@ -663,6 +657,12 @@ FileReader
 (
 "doc/code_elements.md"
 )
+)
+,
+codeElementsDocumentationPage
+.
+toString
+(
 )
 )
 ;

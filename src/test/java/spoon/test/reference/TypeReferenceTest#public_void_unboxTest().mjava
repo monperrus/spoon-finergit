@@ -38,6 +38,10 @@ class
 ;
 assertEquals
 (
+boolean
+.
+class
+,
 boxedBoolean
 .
 unbox
@@ -47,10 +51,6 @@ unbox
 getActualClass
 (
 )
-,
-boolean
-.
-class
 )
 ;
 }

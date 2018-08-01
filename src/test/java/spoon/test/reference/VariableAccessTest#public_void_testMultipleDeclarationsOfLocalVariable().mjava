@@ -48,6 +48,8 @@ getDeclaration
 ;
 assertEquals
 (
+7
+,
 decl
 .
 getPosition
@@ -57,8 +59,6 @@ getPosition
 getLine
 (
 )
-,
-7
 )
 ;
 assertTrue
@@ -87,13 +87,13 @@ getDefaultExpression
 ;
 assertEquals
 (
+42
+,
 literal
 .
 getValue
 (
 )
-,
-42
 )
 ;
 super
