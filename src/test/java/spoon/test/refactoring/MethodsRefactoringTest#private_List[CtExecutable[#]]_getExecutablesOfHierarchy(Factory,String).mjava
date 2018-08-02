@@ -125,12 +125,10 @@ value
 )
 )
 .
-indexOf
+contains
 (
 hierarchyName
 )
->=
-0
 ;
 }
 return

@@ -226,7 +226,7 @@ getDefaultExpression
 ;
 assertEquals
 (
-0l
+0L
 ,
 literal
 .
