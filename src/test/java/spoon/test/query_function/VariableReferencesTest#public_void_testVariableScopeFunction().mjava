@@ -221,15 +221,13 @@ list
 (
 )
 ;
-assertTrue
+assertFalse
 (
 list
 .
-size
+isEmpty
 (
 )
->
-0
 )
 ;
 }

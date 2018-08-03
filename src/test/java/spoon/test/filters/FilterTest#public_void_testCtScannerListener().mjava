@@ -173,15 +173,13 @@ nrOfEnter
 0
 )
 ;
-assertTrue
+assertFalse
 (
 result1
 .
-size
+isEmpty
 (
 )
->
-0
 )
 ;
 assertEquals

@@ -703,13 +703,12 @@ element
 )
 ;
 return
+!
 ctInvocations
 .
-size
+isEmpty
 (
 )
->
-0
 ?
 ctInvocations
 .

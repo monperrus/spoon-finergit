@@ -353,6 +353,7 @@ intrface
 )
 {
 return
+!
 Query
 .
 getElements
@@ -416,11 +417,9 @@ getReference
 }
 )
 .
-size
+isEmpty
 (
 )
->
-0
 ;
 }
 private

@@ -144,15 +144,13 @@ real
 }
 )
 ;
-assertTrue
+assertFalse
 (
 list
 .
-size
+isEmpty
 (
 )
->
-0
 )
 ;
 assertTrue

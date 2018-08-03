@@ -54,7 +54,7 @@ aTacos
 true
 )
 ;
-assertTrue
+assertFalse
 (
 genericTypeRef
 .
@@ -62,11 +62,9 @@ getActualTypeArguments
 (
 )
 .
-size
+isEmpty
 (
 )
->
-0
 )
 ;
 assertEquals

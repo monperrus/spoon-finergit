@@ -139,15 +139,13 @@ m
 }
 )
 ;
-assertTrue
+assertFalse
 (
 methodsByName
 .
-size
+isEmpty
 (
 )
->
-0
 )
 ;
 for

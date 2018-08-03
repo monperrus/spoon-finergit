@@ -146,15 +146,13 @@ toArray
 )
 )
 ;
-assertTrue
+assertFalse
 (
 expectedList
 .
-size
+isEmpty
 (
 )
->
-0
 )
 ;
 }

@@ -361,11 +361,9 @@ getDeclaredFields
 (
 )
 .
-size
+isEmpty
 (
 )
-==
-0
 )
 ;
 assertTrue
@@ -391,11 +389,9 @@ getMethods
 (
 )
 .
-size
+isEmpty
 (
 )
-==
-0
 )
 ;
 assertTrue

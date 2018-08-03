@@ -214,13 +214,12 @@ toString
 ;
 if
 (
+!
 report
 .
-length
+isEmpty
 (
 )
->
-0
 )
 {
 Assert

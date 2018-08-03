@@ -117,11 +117,9 @@ o
 )
 )
 .
-size
+isEmpty
 (
 )
-==
-0
 )
 {
 return

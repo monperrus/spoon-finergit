@@ -338,13 +338,12 @@ startsWith
 ;
 if
 (
+!
 invocations
 .
-size
+isEmpty
 (
 )
->
-0
 )
 {
 final

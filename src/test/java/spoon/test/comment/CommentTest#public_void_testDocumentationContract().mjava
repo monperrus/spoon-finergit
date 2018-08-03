@@ -157,17 +157,16 @@ getSimpleName
 +
 " has no documentation"
 ,
+!
 x
 .
 getDocComment
 (
 )
 .
-length
+isEmpty
 (
 )
->
-0
 )
 ;
 if
@@ -251,11 +250,9 @@ ABSTRACT
 }
 )
 .
-size
+isEmpty
 (
 )
-==
-0
 )
 {
 return
@@ -586,6 +583,7 @@ getSimpleName
 (
 )
 ,
+!
 el
 .
 getElements
@@ -603,11 +601,9 @@ getActualClass
 )
 )
 .
-size
+isEmpty
 (
 )
->
-0
 )
 ;
 codeElementsDocumentationPage

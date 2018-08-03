@@ -11,13 +11,12 @@ problems
 {
 if
 (
+!
 problems
 .
-size
+isEmpty
 (
 )
->
-0
 )
 {
 StringBuilder

@@ -631,13 +631,12 @@ size
 }
 if
 (
+!
 problems
 .
-size
+isEmpty
 (
 )
->
-0
 )
 {
 fail

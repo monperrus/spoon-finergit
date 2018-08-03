@@ -37,11 +37,9 @@ getParameters
 (
 )
 .
-size
+isEmpty
 (
 )
-==
-0
 &&
 !
 m

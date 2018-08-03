@@ -74,13 +74,12 @@ getStatements
 ;
 if
 (
+!
 stats
 .
-size
+isEmpty
 (
 )
->
-0
 )
 {
 ele

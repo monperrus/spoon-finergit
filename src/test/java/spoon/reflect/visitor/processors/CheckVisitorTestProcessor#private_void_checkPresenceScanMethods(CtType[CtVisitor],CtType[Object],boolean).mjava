@@ -65,13 +65,12 @@ if
 (
 !
 (
+!
 scanners
 .
-size
+isEmpty
 (
 )
->
-0
 &&
 scanners
 .

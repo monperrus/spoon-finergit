@@ -15,15 +15,13 @@ CtExecutable
 executables
 )
 {
-assertTrue
+assertFalse
 (
 executables
 .
-size
+isEmpty
 (
 )
->
-0
 )
 ;
 ExecutableReferenceFilter

@@ -78,15 +78,13 @@ class
 )
 )
 ;
-assertTrue
+assertFalse
 (
 allClasses
 .
-size
+isEmpty
 (
 )
->
-0
 )
 ;
 allClasses

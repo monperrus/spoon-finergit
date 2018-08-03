@@ -40,18 +40,17 @@ str
 }
 if
 (
+!
 methodNames
 .
-size
+isEmpty
 (
 )
->
-0
 )
 {
 fail
 (
-"List should't contain "
+"List shouldn't contain "
 +
 methodNames
 )

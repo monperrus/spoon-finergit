@@ -214,11 +214,9 @@ getComments
 (
 )
 .
-size
+isEmpty
 (
 )
-==
-0
 )
 {
 final

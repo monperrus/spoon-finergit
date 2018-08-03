@@ -65,13 +65,12 @@ if
 (
 !
 (
+!
 visits
 .
-size
+isEmpty
 (
 )
->
-0
 &&
 visits
 .

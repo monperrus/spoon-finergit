@@ -776,13 +776,12 @@ assertTrue
 (
 "Number of setters found null"
 ,
+!
 setters
 .
-size
+isEmpty
 (
 )
->
-0
 )
 ;
 for
