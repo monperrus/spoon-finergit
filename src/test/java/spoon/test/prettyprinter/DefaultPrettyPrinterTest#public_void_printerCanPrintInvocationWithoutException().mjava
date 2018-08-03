@@ -170,10 +170,6 @@ theClass
 new
 TypeFilter
 <
-CtInvocation
-<
-?
->
 >
 (
 CtInvocation
