@@ -1,6 +1,7 @@
 /** 
  * Tries to get the declaration of the reference.
  */
+@Override
 @DerivedProperty
 CtVariable
 <

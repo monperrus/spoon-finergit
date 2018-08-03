@@ -2,6 +2,7 @@
  * Returns the  {@link CtType}, that corresponds to the reference or <code>null</code> if the type declaration is not in the analyzed source files, {@link #getTypeDeclaration()} is a newer and better alternative that never returns null.
  * @return the referenced element or <code>null</code> if the typedeclaration is not the analyzed source files.
  */
+@Override
 @DerivedProperty
 CtType
 <
