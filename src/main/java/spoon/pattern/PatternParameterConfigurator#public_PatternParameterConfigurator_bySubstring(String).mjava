@@ -71,6 +71,7 @@ stringMarker
 ;
 }
 }
+@Override
 protected
 void
 visitStringAttribute

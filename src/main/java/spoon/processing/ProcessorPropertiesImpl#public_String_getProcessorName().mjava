@@ -1,6 +1,7 @@
 /** 
  * Gets the corresponding processor name.
  */
+@Override
 public
 String
 getProcessorName
