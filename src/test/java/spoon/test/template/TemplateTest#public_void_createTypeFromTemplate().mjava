@@ -272,10 +272,10 @@ getMethod
 )
 )
 ;
-assertTrue
+assertNotSame
 (
 generatedIfaceMethod
-!=
+,
 generatedClassMethod
 )
 ;

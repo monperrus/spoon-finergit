@@ -259,11 +259,9 @@ CtMethod
 class
 )
 ;
-assertTrue
+assertNotNull
 (
 firstMethod
-!=
-null
 )
 ;
 assertTrue

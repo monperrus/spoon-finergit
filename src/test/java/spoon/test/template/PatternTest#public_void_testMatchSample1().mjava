@@ -393,10 +393,8 @@ getParameters
 (
 )
 ;
-assertEquals
+assertNull
 (
-null
-,
 params
 .
 getValue

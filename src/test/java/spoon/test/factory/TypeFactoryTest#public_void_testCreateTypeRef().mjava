@@ -116,10 +116,8 @@ createCtTypeReference
 null
 )
 ;
-assertEquals
+assertNull
 (
-null
-,
 ctTypeReference
 )
 ;

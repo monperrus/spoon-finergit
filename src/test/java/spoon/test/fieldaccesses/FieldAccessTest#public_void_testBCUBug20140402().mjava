@@ -176,10 +176,8 @@ setAssignment
 null
 )
 ;
-assertEquals
+assertNull
 (
-null
-,
 var
 .
 getAssignment
@@ -244,10 +242,8 @@ setAssignment
 null
 )
 ;
-assertEquals
+assertNull
 (
-null
-,
 field
 .
 getAssignment

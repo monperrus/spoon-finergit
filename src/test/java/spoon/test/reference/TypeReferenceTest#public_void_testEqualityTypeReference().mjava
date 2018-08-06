@@ -98,10 +98,8 @@ get
 0
 )
 ;
-assertEquals
+assertNull
 (
-null
-,
 parameterRef1
 .
 getDeclaringExecutable

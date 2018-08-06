@@ -76,10 +76,8 @@ get
 0
 )
 ;
-assertEquals
+assertTrue
 (
-true
-,
 th
 .
 isImplicit
@@ -123,10 +121,8 @@ getStatement
 0
 )
 ;
-assertEquals
+assertTrue
 (
-true
-,
 clone
 .
 getTarget

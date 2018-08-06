@@ -62,10 +62,8 @@ sourceFile
 }
 )
 ;
-assertEquals
+assertTrue
 (
-true
-,
 launcher
 .
 getEnvironment
@@ -77,10 +75,8 @@ shouldCompile
 )
 )
 ;
-assertEquals
+assertTrue
 (
-true
-,
 new
 File
 (

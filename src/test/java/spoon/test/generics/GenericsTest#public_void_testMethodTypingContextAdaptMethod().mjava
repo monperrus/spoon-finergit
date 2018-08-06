@@ -130,10 +130,10 @@ getAdaptationScope
 (
 )
 ;
-assertTrue
+assertNotSame
 (
 adaptedLunchEatMe
-!=
+,
 trLunch_eatMe
 )
 ;
@@ -160,10 +160,10 @@ getTypeMembers
 )
 )
 {
-assertFalse
+assertNotSame
 (
 adaptedLunchEatMe
-==
+,
 typeMember
 )
 ;

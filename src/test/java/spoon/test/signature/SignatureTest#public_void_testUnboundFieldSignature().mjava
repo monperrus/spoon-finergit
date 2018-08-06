@@ -199,10 +199,8 @@ toString
 )
 )
 ;
-assertEquals
+assertNull
 (
-null
-,
 left
 .
 getType

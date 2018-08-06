@@ -137,15 +137,13 @@ get
 0
 )
 ;
-assertTrue
+assertNull
 (
 x
 .
 getDefaultExpression
 (
 )
-==
-null
 )
 ;
 CtField

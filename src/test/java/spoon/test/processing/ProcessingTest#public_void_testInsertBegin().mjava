@@ -391,7 +391,7 @@ toString
 )
 )
 ;
-assertFalse
+assertNotEquals
 (
 "switch should not be the same"
 ,
@@ -405,9 +405,7 @@ getStatement
 (
 6
 )
-.
-equals
-(
+,
 constructor
 .
 getBody
@@ -417,11 +415,10 @@ getBody
 getStatement
 (
 8
-)
 )
 )
 ;
-assertFalse
+assertNotEquals
 (
 "switch should not be the same"
 ,
@@ -439,9 +436,7 @@ getStatement
 toString
 (
 )
-.
-equals
-(
+,
 constructor
 .
 getBody
@@ -455,7 +450,6 @@ getStatement
 .
 toString
 (
-)
 )
 )
 ;

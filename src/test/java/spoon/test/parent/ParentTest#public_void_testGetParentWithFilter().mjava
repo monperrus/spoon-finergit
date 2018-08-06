@@ -336,10 +336,8 @@ class
 )
 )
 ;
-assertEquals
+assertNull
 (
-null
-,
 ctWhile
 )
 ;

@@ -336,10 +336,8 @@ typeRef
 null
 )
 ;
-assertEquals
+assertNull
 (
-null
-,
 packages
 .
 set

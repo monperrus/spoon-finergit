@@ -131,7 +131,7 @@ size
 )
 )
 ;
-assertTrue
+assertSame
 (
 statements
 .
@@ -139,7 +139,7 @@ get
 (
 0
 )
-==
+,
 newStatement
 )
 ;

@@ -350,14 +350,11 @@ b2
 )
 )
 ;
-assertFalse
+assertNotEquals
 (
 c1
-.
-equals
-(
+,
 d2
-)
 )
 ;
 }

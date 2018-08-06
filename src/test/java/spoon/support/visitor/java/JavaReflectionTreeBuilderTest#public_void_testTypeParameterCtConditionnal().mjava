@@ -77,15 +77,13 @@ getSimpleName
 )
 )
 ;
-assertTrue
+assertNull
 (
 typeParameter
 .
 getSuperclass
 (
 )
-==
-null
 )
 ;
 }

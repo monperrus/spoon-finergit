@@ -307,10 +307,10 @@ argumentClone
 )
 )
 ;
-assertFalse
+assertNotSame
 (
 argument
-==
+,
 argumentClone
 )
 ;

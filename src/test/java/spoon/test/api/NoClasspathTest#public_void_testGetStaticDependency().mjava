@@ -156,10 +156,8 @@ get
 0
 )
 ;
-assertEquals
+assertTrue
 (
-true
-,
 ctReturn
 .
 getReferencedTypes

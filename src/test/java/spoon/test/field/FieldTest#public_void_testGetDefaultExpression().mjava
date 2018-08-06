@@ -238,11 +238,9 @@ get
 )
 )
 ;
-assertTrue
+assertNotNull
 (
 retour
-!=
-null
 )
 ;
 }

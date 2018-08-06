@@ -62,14 +62,11 @@ compile
 (
 )
 ;
-assertFalse
+assertNotEquals
 (
 sta1
-.
-equals
-(
+,
 sta2
-)
 )
 ;
 String

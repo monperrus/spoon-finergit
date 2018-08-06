@@ -128,7 +128,7 @@ forEach
 x
 ->
 {
-assertTrue
+assertNotNull
 (
 x
 .
@@ -143,8 +143,6 @@ x
 getDocComment
 (
 )
-!=
-null
 )
 ;
 assertTrue

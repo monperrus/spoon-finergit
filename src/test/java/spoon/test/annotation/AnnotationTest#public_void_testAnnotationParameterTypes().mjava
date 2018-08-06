@@ -334,10 +334,8 @@ classes
 ]
 )
 ;
-assertEquals
+assertTrue
 (
-true
-,
 annot
 .
 b
@@ -603,10 +601,8 @@ strings
 ]
 )
 ;
-assertEquals
+assertFalse
 (
-false
-,
 annot
 .
 b
@@ -877,10 +873,8 @@ strings
 ]
 )
 ;
-assertEquals
+assertTrue
 (
-true
-,
 annot
 .
 b

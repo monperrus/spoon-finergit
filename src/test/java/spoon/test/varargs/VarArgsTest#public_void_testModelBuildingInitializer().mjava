@@ -66,10 +66,8 @@ get
 0
 )
 ;
-assertEquals
+assertFalse
 (
-false
-,
 param0
 .
 isVarArgs
@@ -94,10 +92,8 @@ get
 1
 )
 ;
-assertEquals
+assertTrue
 (
-true
-,
 param1
 .
 isVarArgs

@@ -321,10 +321,8 @@ get
 )
 )
 ;
-assertEquals
+assertTrue
 (
-true
-,
 elements
 .
 get

@@ -314,14 +314,14 @@ foo
 )
 )
 ;
-assertTrue
+assertSame
 (
 ifoo
 .
 getClassLoader
 (
 )
-==
+,
 foo
 .
 getClassLoader

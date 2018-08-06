@@ -448,10 +448,8 @@ getDefaultExpression
 (
 )
 ;
-assertEquals
+assertNull
 (
-null
-,
 literal
 .
 getValue
