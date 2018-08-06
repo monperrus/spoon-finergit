@@ -36,8 +36,6 @@ this
 .
 annotations
 =
-CtElementImpl
-.
 emptyList
 (
 )

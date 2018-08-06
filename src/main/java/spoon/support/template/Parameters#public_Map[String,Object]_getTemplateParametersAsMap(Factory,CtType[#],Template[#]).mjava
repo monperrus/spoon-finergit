@@ -43,8 +43,6 @@ HashMap
 <
 >
 (
-Parameters
-.
 getNamesToValues
 (
 template

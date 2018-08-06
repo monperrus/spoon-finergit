@@ -56,8 +56,6 @@ null
 ;
 }
 return
-RoleHandlerHelper
-.
 getRoleHandler
 (
 parent
