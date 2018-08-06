@@ -52,7 +52,8 @@ int
 g
 =
 0
-,
+;
+int
 d
 =
 length
@@ -63,7 +64,8 @@ int
 m
 =
 0
-,
+;
+int
 start
 ;
 while

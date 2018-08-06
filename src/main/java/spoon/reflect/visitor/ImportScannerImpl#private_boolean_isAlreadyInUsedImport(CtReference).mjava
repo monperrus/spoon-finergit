@@ -20,11 +20,13 @@ boolean
 isTypeRef
 =
 false
-,
+;
+boolean
 isExecRef
 =
 false
-,
+;
+boolean
 isFieldRef
 =
 false

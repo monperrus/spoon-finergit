@@ -150,7 +150,8 @@ boolean
 thenEnded
 =
 false
-,
+;
+boolean
 elseEnded
 =
 false

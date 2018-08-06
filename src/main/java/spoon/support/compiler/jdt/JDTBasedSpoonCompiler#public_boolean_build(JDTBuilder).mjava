@@ -53,7 +53,8 @@ SpoonException
 }
 boolean
 srcSuccess
-,
+;
+boolean
 templateSuccess
 ;
 factory
