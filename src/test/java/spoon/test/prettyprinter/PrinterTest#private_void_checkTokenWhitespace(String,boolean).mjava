@@ -9,15 +9,13 @@ boolean
 isWhitespace
 )
 {
-assertTrue
+assertFalse
 (
 stringToken
 .
-length
+isEmpty
 (
 )
->
-0
 )
 ;
 for
