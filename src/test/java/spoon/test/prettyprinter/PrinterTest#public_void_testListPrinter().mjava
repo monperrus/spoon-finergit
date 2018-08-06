@@ -68,10 +68,6 @@ String
 ]
 listString
 =
-new
-String
-[
-]
 {
 "un"
 ,

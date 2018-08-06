@@ -49,10 +49,6 @@ String
 ]
 dependencyClasspath
 =
-new
-String
-[
-]
 {
 classpath
 .

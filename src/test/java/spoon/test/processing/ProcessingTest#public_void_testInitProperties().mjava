@@ -135,10 +135,6 @@ int
 ]
 arrayInt
 =
-new
-int
-[
-]
 {
 1
 ,
@@ -181,10 +177,6 @@ boolean
 ]
 arrayBoolean
 =
-new
-boolean
-[
-]
 {
 true
 }

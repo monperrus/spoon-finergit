@@ -24,10 +24,6 @@ boolean
 ]
 canBeInline
 =
-new
-boolean
-[
-]
 {
 true
 }
