@@ -83,14 +83,14 @@ first
 =
 false
 ;
-assertTrue
+assertEquals
 (
 line
 .
 length
 (
 )
-==
+,
 3
 )
 ;
