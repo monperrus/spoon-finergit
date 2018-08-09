@@ -116,7 +116,9 @@ toString
 .
 split
 (
-":"
+File
+.
+pathSeparator
 )
 ;
 for
