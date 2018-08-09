@@ -1,0 +1,10 @@
+public
+Model
+getModel
+(
+)
+{
+return
+model
+;
+}

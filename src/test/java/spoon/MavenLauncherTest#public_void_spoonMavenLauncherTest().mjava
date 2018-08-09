@@ -22,7 +22,7 @@ APP_SOURCE
 ;
 assertEquals
 (
-23
+190
 ,
 launcher
 .
@@ -39,7 +39,7 @@ length
 ;
 assertEquals
 (
-58
+59
 ,
 launcher
 .
@@ -72,7 +72,7 @@ ALL_SOURCE
 ;
 assertEquals
 (
-30
+195
 ,
 launcher
 .

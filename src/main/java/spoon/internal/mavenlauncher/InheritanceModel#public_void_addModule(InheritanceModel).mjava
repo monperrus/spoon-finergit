@@ -1,0 +1,16 @@
+public
+void
+addModule
+(
+InheritanceModel
+module
+)
+{
+modules
+.
+add
+(
+module
+)
+;
+}

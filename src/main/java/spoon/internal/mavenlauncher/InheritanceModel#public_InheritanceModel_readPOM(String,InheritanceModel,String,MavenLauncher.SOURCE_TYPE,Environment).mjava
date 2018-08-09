@@ -6,7 +6,8 @@
  * @throws IOException when the file does not exist
  * @throws XmlPullParserException when the file is corrupted
  */
-private
+public
+static
 InheritanceModel
 readPOM
 (
@@ -15,6 +16,17 @@ path
 ,
 InheritanceModel
 parent
+,
+String
+m2RepositoryPath
+,
+MavenLauncher
+.
+SOURCE_TYPE
+sourceType
+,
+Environment
+environment
 )
 throws
 IOException
@@ -124,6 +136,12 @@ pomFile
 getParentFile
 (
 )
+,
+m2RepositoryPath
+,
+sourceType
+,
+environment
 )
 ;
 for
@@ -167,6 +185,12 @@ module
 )
 ,
 inheritanceModel
+,
+m2RepositoryPath
+,
+sourceType
+,
+environment
 )
 ;
 if
@@ -211,6 +235,12 @@ toString
 )
 ,
 inheritanceModel
+,
+m2RepositoryPath
+,
+sourceType
+,
+environment
 )
 )
 ;

@@ -1,0 +1,14 @@
+/** 
+ * Get the parent model
+ * @return the parent model
+ */
+public
+InheritanceModel
+getParent
+(
+)
+{
+return
+parent
+;
+}
