@@ -68,6 +68,10 @@ isUnnamedPackage
 if
 (
 !
+"java.lang"
+.
+equals
+(
 ref
 .
 getPackage
@@ -77,10 +81,6 @@ getPackage
 getSimpleName
 (
 )
-.
-equals
-(
-"java.lang"
 )
 )
 {

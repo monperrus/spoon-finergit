@@ -13,6 +13,10 @@ scope
 if
 (
 !
+"value"
+.
+equals
+(
 context
 .
 annotationValueName
@@ -20,10 +24,6 @@ annotationValueName
 pop
 (
 )
-.
-equals
-(
-"value"
 )
 )
 {

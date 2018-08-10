@@ -90,6 +90,10 @@ getValue
 }
 if
 (
+"class"
+.
+equals
+(
 (
 (
 CtFieldReference
@@ -103,10 +107,6 @@ value
 getSimpleName
 (
 )
-.
-equals
-(
-"class"
 )
 )
 {

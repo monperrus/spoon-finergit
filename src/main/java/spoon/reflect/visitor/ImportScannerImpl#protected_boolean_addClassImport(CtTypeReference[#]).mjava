@@ -390,6 +390,10 @@ isUnnamedPackage
 if
 (
 !
+"java.lang"
+.
+equals
+(
 declaringType
 .
 getPackage
@@ -399,10 +403,6 @@ getPackage
 getSimpleName
 (
 )
-.
-equals
-(
-"java.lang"
 )
 )
 {
@@ -497,6 +497,10 @@ isUnnamedPackage
 {
 if
 (
+"java.lang"
+.
+equals
+(
 ref
 .
 getPackage
@@ -506,10 +510,6 @@ getPackage
 getSimpleName
 (
 )
-.
-equals
-(
-"java.lang"
 )
 )
 {

@@ -222,11 +222,11 @@ null
 {
 if
 (
-methodOrFieldName
+"*"
 .
 equals
 (
-"*"
+methodOrFieldName
 )
 )
 {
