@@ -61,7 +61,7 @@ get
 0
 )
 ;
-assertEquals
+assertSame
 (
 Logger
 .
@@ -93,7 +93,7 @@ getSimpleName
 )
 )
 ;
-assertEquals
+assertSame
 (
 MyClass
 .

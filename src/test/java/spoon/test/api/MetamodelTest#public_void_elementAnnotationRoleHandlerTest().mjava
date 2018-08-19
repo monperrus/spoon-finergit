@@ -92,7 +92,7 @@ assertNotNull
 roleHandler
 )
 ;
-assertEquals
+assertSame
 (
 CtElement
 .
@@ -131,7 +131,7 @@ getContainerKind
 )
 )
 ;
-assertEquals
+assertSame
 (
 CtAnnotation
 .

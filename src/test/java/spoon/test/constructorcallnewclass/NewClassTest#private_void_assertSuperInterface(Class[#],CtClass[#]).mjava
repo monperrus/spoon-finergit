@@ -26,7 +26,7 @@ getSuperclass
 )
 )
 ;
-assertEquals
+assertSame
 (
 "There is a super interface if there isn't super class"
 ,

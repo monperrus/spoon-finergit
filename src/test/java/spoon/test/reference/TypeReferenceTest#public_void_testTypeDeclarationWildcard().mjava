@@ -110,7 +110,7 @@ getSimpleName
 )
 )
 ;
-assertEquals
+assertSame
 (
 Object
 .
@@ -192,7 +192,7 @@ getSimpleName
 )
 )
 ;
-assertEquals
+assertSame
 (
 String
 .

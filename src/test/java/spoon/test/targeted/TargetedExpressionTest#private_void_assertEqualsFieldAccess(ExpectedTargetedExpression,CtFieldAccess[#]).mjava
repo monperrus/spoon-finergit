@@ -93,7 +93,7 @@ targetClass
 null
 )
 {
-assertEquals
+assertSame
 (
 expected
 .

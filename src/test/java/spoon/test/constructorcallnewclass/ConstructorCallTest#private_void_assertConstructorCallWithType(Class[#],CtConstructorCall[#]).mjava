@@ -15,7 +15,7 @@ CtConstructorCall
 constructorCall
 )
 {
-assertEquals
+assertSame
 (
 "Constructor call is typed by the class of the constructor"
 ,

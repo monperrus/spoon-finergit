@@ -15,7 +15,7 @@ CtNewClass
 newClass
 )
 {
-assertEquals
+assertSame
 (
 "New class is typed by the class of the constructor"
 ,

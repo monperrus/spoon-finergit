@@ -102,7 +102,7 @@ STATIC
 )
 )
 ;
-assertEquals
+assertSame
 (
 "Interface of the static method must be the sub interface"
 ,

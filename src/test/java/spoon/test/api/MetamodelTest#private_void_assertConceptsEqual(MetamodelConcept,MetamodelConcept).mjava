@@ -56,7 +56,7 @@ getImplementationClass
 )
 )
 ;
-assertEquals
+assertSame
 (
 expectedConcept
 .
@@ -80,7 +80,7 @@ getActualClass
 )
 ;
 }
-assertEquals
+assertSame
 (
 expectedConcept
 .

@@ -165,7 +165,7 @@ getSimpleName
 )
 )
 ;
-assertEquals
+assertSame
 (
 java
 .

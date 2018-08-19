@@ -15,7 +15,7 @@ CtTypeReference
 type
 )
 {
-assertEquals
+assertSame
 (
 "Lambda must be typed"
 ,

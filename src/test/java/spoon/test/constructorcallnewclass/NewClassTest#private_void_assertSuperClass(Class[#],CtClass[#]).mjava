@@ -32,7 +32,7 @@ size
 )
 )
 ;
-assertEquals
+assertSame
 (
 "There is a super class if there isn't a super interface"
 ,

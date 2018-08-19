@@ -36,7 +36,7 @@ Boolean
 class
 )
 ;
-assertEquals
+assertSame
 (
 boolean
 .

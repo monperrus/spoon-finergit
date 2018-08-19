@@ -97,7 +97,7 @@ CtTypeReference
 ]
 )
 ;
-assertEquals
+assertSame
 (
 "Super interface is typed by the class of the constructor"
 ,

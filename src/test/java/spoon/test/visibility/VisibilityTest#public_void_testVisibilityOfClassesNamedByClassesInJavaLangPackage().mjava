@@ -133,7 +133,7 @@ assertNotNull
 aDouble
 )
 ;
-assertEquals
+assertSame
 (
 spoon
 .
@@ -195,7 +195,7 @@ assertNotNull
 aFloat
 )
 ;
-assertEquals
+assertSame
 (
 spoon
 .

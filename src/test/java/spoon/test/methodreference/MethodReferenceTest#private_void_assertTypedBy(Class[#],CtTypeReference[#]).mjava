@@ -15,7 +15,7 @@ CtTypeReference
 type
 )
 {
-assertEquals
+assertSame
 (
 "Method reference must be typed."
 ,

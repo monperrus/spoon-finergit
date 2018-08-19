@@ -67,7 +67,7 @@ size
 )
 )
 ;
-assertEquals
+assertSame
 (
 SuppressWarnings
 .
@@ -102,7 +102,7 @@ getActualClass
 )
 )
 ;
-assertEquals
+assertSame
 (
 SuppressWarnings
 .
@@ -137,7 +137,7 @@ getActualClass
 )
 )
 ;
-assertEquals
+assertSame
 (
 SuppressWarnings
 .

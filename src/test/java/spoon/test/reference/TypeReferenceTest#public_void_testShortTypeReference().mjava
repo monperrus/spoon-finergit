@@ -41,7 +41,7 @@ Type
 .
 SHORT_PRIMITIVE
 ;
-assertEquals
+assertSame
 (
 Short
 .
@@ -54,7 +54,7 @@ getActualClass
 )
 )
 ;
-assertEquals
+assertSame
 (
 short
 .

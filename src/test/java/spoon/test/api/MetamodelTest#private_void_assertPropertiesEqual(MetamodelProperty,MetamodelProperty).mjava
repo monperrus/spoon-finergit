@@ -39,7 +39,7 @@ getName
 )
 )
 ;
-assertEquals
+assertSame
 (
 expectedProperty
 .

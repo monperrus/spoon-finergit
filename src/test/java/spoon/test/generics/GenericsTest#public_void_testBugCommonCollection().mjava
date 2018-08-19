@@ -232,7 +232,7 @@ toString
 )
 )
 ;
-assertEquals
+assertSame
 (
 java
 .

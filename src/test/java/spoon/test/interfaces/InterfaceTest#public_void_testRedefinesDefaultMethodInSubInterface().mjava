@@ -95,7 +95,7 @@ isDefaultMethod
 )
 )
 ;
-assertEquals
+assertSame
 (
 "Interface of the default method must be the sub interface"
 ,

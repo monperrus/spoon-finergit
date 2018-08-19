@@ -116,7 +116,7 @@ getQualifiedName
 )
 )
 ;
-assertEquals
+assertSame
 (
 ContainInternalClass
 .
@@ -166,7 +166,7 @@ getQualifiedName
 )
 )
 ;
-assertEquals
+assertSame
 (
 ContainInternalClass
 .

@@ -107,7 +107,7 @@ size
 )
 )
 ;
-assertEquals
+assertSame
 (
 "Target is CtThisAccessImpl if there is a 'this' explicit."
 ,

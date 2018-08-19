@@ -179,7 +179,7 @@ contains
 )
 )
 ;
-assertEquals
+assertSame
 (
 MyClassLoader
 .

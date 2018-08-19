@@ -46,7 +46,7 @@ size
 )
 )
 ;
-assertEquals
+assertSame
 (
 Number
 .
@@ -85,7 +85,7 @@ getActualClass
 )
 )
 ;
-assertEquals
+assertSame
 (
 Comparable
 .
