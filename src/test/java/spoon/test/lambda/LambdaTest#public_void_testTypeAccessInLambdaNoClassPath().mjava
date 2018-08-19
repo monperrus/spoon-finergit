@@ -71,6 +71,10 @@ element
 )
 {
 return
+"Strings"
+.
+equals
+(
 element
 .
 getAccessedType
@@ -80,10 +84,6 @@ getAccessedType
 getSimpleName
 (
 )
-.
-equals
-(
-"Strings"
 )
 ;
 }

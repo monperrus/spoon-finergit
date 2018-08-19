@@ -545,6 +545,10 @@ SET_REFERENCE
 if
 (
 !
+"emptySet"
+.
+equals
+(
 inv
 .
 getExecutable
@@ -554,10 +558,6 @@ getExecutable
 getSimpleName
 (
 )
-.
-equals
-(
-"emptySet"
 )
 )
 {
@@ -580,6 +580,10 @@ LIST_REFERENCE
 if
 (
 !
+"emptyList"
+.
+equals
+(
 inv
 .
 getExecutable
@@ -589,10 +593,6 @@ getExecutable
 getSimpleName
 (
 )
-.
-equals
-(
-"emptyList"
 )
 )
 {

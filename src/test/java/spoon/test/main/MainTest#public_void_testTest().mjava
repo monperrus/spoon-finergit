@@ -83,6 +83,10 @@ getAllTypes
 {
 if
 (
+"spoon.metamodel"
+.
+equals
+(
 t
 .
 getPackage
@@ -92,10 +96,6 @@ getPackage
 getQualifiedName
 (
 )
-.
-equals
-(
-"spoon.metamodel"
 )
 ||
 t

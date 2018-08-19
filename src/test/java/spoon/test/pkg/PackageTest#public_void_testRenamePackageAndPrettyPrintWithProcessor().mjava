@@ -116,11 +116,11 @@ s
 ->
 {
 return
-s
+"package newtest;"
 .
 equals
 (
-"package newtest;"
+s
 )
 ;
 }

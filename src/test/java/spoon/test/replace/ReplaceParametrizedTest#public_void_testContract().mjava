@@ -168,6 +168,10 @@ class
 }
 if
 (
+"CtAnnotationFieldAccessImpl"
+.
+equals
+(
 o
 .
 getClass
@@ -177,10 +181,6 @@ getClass
 getSimpleName
 (
 )
-.
-equals
-(
-"CtAnnotationFieldAccessImpl"
 )
 &&
 mmField

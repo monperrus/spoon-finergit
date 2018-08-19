@@ -46,6 +46,10 @@ path
 {
 if
 (
+"module-info.java"
+.
+equals
+(
 path
 .
 toFile
@@ -55,10 +59,6 @@ toFile
 getName
 (
 )
-.
-equals
-(
-"module-info.java"
 )
 )
 {

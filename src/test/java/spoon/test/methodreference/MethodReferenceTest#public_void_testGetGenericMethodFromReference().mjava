@@ -127,6 +127,10 @@ CtInvocation
 i
 )
 ->
+"method"
+.
+equals
+(
 i
 .
 getExecutable
@@ -136,10 +140,6 @@ getExecutable
 getSimpleName
 (
 )
-.
-equals
-(
-"method"
 )
 )
 )

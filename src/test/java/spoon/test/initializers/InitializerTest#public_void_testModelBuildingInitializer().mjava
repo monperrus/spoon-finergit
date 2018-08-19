@@ -215,6 +215,10 @@ get
 ;
 assertTrue
 (
+"5"
+.
+equals
+(
 z
 .
 getDefaultExpression
@@ -224,10 +228,6 @@ getDefaultExpression
 toString
 (
 )
-.
-equals
-(
-"5"
 )
 )
 ;

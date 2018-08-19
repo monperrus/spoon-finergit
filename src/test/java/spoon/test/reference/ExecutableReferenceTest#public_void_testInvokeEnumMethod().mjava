@@ -92,6 +92,10 @@ matches
 element
 )
 &&
+"valueOf"
+.
+equals
+(
 element
 .
 getExecutable
@@ -101,10 +105,6 @@ getExecutable
 getSimpleName
 (
 )
-.
-equals
-(
-"valueOf"
 )
 ;
 }

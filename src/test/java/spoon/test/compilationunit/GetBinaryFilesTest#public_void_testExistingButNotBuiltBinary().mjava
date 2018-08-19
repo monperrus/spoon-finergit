@@ -212,6 +212,10 @@ length
 ;
 assertTrue
 (
+"IBar$Test.class"
+.
+equals
+(
 files
 [
 0
@@ -220,12 +224,12 @@ files
 getName
 (
 )
+)
+||
+"IBar$Test.class"
 .
 equals
 (
-"IBar$Test.class"
-)
-||
 files
 [
 1
@@ -234,10 +238,6 @@ files
 getName
 (
 )
-.
-equals
-(
-"IBar$Test.class"
 )
 )
 ;

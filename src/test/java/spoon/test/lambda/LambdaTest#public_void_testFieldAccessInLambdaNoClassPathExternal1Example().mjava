@@ -69,6 +69,10 @@ element
 )
 {
 return
+"DEFAULT_RATING"
+.
+equals
+(
 element
 .
 getVariable
@@ -78,10 +82,6 @@ getVariable
 getSimpleName
 (
 )
-.
-equals
-(
-"DEFAULT_RATING"
 )
 ;
 }

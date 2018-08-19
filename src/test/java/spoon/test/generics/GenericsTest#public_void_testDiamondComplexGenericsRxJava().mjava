@@ -82,6 +82,10 @@ invocations
 {
 if
 (
+"ToNotificationSubscriber"
+.
+equals
+(
 call
 .
 getType
@@ -91,10 +95,6 @@ getType
 getSimpleName
 (
 )
-.
-equals
-(
-"ToNotificationSubscriber"
 )
 )
 {
