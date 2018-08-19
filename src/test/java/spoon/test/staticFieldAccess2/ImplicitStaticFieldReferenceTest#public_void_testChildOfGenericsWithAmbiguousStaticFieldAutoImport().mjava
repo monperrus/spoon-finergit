@@ -51,12 +51,10 @@ toString
 (
 )
 .
-indexOf
+contains
 (
 "spoon.test.staticFieldAccess2.testclasses.GenericsWithAmbiguousStaticField.<V, C>genericMethod()"
 )
->=
-0
 )
 ;
 assertEquals

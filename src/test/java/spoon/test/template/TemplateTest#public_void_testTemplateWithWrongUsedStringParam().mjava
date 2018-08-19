@@ -137,12 +137,10 @@ getMessage
 (
 )
 .
-indexOf
+contains
 (
 "testparam"
 )
->=
-0
 )
 ;
 }

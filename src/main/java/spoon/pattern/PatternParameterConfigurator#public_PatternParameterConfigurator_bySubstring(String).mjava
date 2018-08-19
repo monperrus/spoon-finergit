@@ -46,12 +46,10 @@ null
 &&
 value
 .
-indexOf
+contains
 (
 stringMarker
 )
->=
-0
 )
 {
 addSubstitutionRequest
@@ -97,12 +95,10 @@ null
 &&
 mapEntryKey
 .
-indexOf
+contains
 (
 stringMarker
 )
->=
-0
 )
 {
 patternBuilder

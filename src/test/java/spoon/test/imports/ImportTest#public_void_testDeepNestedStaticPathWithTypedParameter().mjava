@@ -101,12 +101,10 @@ toString
 (
 )
 .
-indexOf
+contains
 (
 "new spoon.test.imports.testclasses2.StaticWithNested.StaticNested.StaticNested2<K>();"
 )
->=
-0
 )
 ;
 }

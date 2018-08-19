@@ -99,12 +99,10 @@ toString
 (
 )
 .
-indexOf
+contains
 (
 "java.util.List<spoon.test.imports.testclasses2.Interners.WeakInterner.Dummy> list;"
 )
->=
-0
 )
 ;
 }

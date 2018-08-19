@@ -566,12 +566,10 @@ toString
 (
 )
 .
-indexOf
+contains
 (
 "@deprecated"
 )
->=
-0
 )
 ;
 classJavaDoc
@@ -613,12 +611,10 @@ toString
 (
 )
 .
-indexOf
+contains
 (
 "@deprecated"
 )
->=
-0
 )
 ;
 }

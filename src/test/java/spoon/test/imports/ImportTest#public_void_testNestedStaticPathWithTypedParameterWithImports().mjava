@@ -101,12 +101,10 @@ toString
 (
 )
 .
-indexOf
+contains
 (
 "List<Interners.WeakInterner.Dummy> list;"
 )
->=
-0
 )
 ;
 }

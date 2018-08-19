@@ -103,12 +103,10 @@ toString
 (
 )
 .
-indexOf
+contains
 (
 "new StaticWithNested.StaticNested.StaticNested2<K>();"
 )
->=
-0
 )
 ;
 }

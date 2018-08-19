@@ -139,12 +139,10 @@ getMessage
 (
 )
 .
-indexOf
+contains
 (
 "spoon.support.reflect.declaration.CtClassImpl cannot be cast to spoon.reflect.declaration.CtMethod"
 )
->=
-0
 )
 ;
 }

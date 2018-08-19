@@ -133,12 +133,10 @@ toString
 (
 )
 .
-indexOf
+contains
 (
 "AbstractMapBasedMultimap<K, V>.WrappedCollection.WrappedIterator"
 )
->=
-0
 )
 ;
 CtClass

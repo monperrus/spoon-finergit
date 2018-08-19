@@ -417,19 +417,17 @@ e
 {
 if
 (
+!
 e
 .
 getMessage
 (
 )
 .
-indexOf
+contains
 (
 "Cannot compute access path to type: "
 )
-==
--
-1
 )
 {
 throw
