@@ -188,7 +188,7 @@ getQualifiedName
 )
 )
 ;
-assertEquals
+assertSame
 (
 Antojito
 .
@@ -213,7 +213,7 @@ getActualClass
 )
 )
 ;
-assertEquals
+assertSame
 (
 SubTostada
 .
@@ -261,7 +261,7 @@ getQualifiedName
 )
 )
 ;
-assertEquals
+assertSame
 (
 Tostada
 .

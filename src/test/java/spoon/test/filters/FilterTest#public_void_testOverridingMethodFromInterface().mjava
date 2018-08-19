@@ -165,7 +165,7 @@ size
 )
 )
 ;
-assertEquals
+assertSame
 (
 AbstractTostada
 .
@@ -220,7 +220,7 @@ getQualifiedName
 )
 )
 ;
-assertEquals
+assertSame
 (
 Tostada
 .
@@ -245,7 +245,7 @@ getActualClass
 )
 )
 ;
-assertEquals
+assertSame
 (
 Tacos
 .

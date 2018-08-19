@@ -136,7 +136,7 @@ getQualifiedName
 )
 )
 ;
-assertEquals
+assertSame
 (
 Tostada
 .

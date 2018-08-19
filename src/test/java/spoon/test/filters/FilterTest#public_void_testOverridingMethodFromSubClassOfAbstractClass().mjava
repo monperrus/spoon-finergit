@@ -188,7 +188,7 @@ getQualifiedName
 )
 )
 ;
-assertEquals
+assertSame
 (
 SubTostada
 .

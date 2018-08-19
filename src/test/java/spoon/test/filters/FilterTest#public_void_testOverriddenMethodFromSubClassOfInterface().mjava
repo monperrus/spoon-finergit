@@ -114,7 +114,7 @@ size
 )
 )
 ;
-assertEquals
+assertSame
 (
 ITostada
 .
@@ -216,7 +216,7 @@ size
 )
 )
 ;
-assertEquals
+assertSame
 (
 AbstractTostada
 .
@@ -241,7 +241,7 @@ getActualClass
 )
 )
 ;
-assertEquals
+assertSame
 (
 ITostada
 .
