@@ -60,11 +60,9 @@ splitRange
 0
 ]
 .
-length
+isEmpty
 (
 )
-==
-0
 )
 {
 start
@@ -103,11 +101,9 @@ splitRange
 1
 ]
 .
-length
+isEmpty
 (
 )
-==
-0
 )
 {
 end
