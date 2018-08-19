@@ -36,6 +36,8 @@ exec
 cmd
 )
 ;
+try
+(
 BufferedReader
 output
 =
@@ -52,7 +54,8 @@ getInputStream
 )
 )
 )
-;
+)
+{
 String
 line
 ;
@@ -81,8 +84,7 @@ mavenVersionParsing
 )
 )
 {
-mvnHome
-=
+return
 line
 .
 replace
@@ -92,9 +94,7 @@ mavenVersionParsing
 ""
 )
 ;
-return
-mvnHome
-;
+}
 }
 }
 p
