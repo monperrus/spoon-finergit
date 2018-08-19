@@ -174,7 +174,7 @@ size
 )
 )
 ;
-assertEquals
+assertSame
 (
 "Type annotation in the cast must be typed by TypeAnnotation"
 ,

@@ -144,7 +144,7 @@ size
 )
 )
 ;
-assertEquals
+assertSame
 (
 "Type annotation with the parameter type must be typed by TypeAnnotation"
 ,

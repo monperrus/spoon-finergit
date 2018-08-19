@@ -276,7 +276,7 @@ getValueAsObject
 )
 )
 ;
-assertEquals
+assertSame
 (
 Integer
 .
@@ -302,7 +302,7 @@ classes
 length
 )
 ;
-assertEquals
+assertSame
 (
 Integer
 .
@@ -318,7 +318,7 @@ classes
 ]
 )
 ;
-assertEquals
+assertSame
 (
 String
 .

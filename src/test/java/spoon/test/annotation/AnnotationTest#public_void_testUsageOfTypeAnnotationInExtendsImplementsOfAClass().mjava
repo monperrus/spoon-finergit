@@ -146,7 +146,7 @@ size
 )
 )
 ;
-assertEquals
+assertSame
 (
 "Type annotation on a extends must be typed by TypeAnnotation"
 ,
@@ -284,7 +284,7 @@ size
 )
 )
 ;
-assertEquals
+assertSame
 (
 "Type annotation on a extends must be typed by TypeAnnotation"
 ,
@@ -467,7 +467,7 @@ size
 )
 )
 ;
-assertEquals
+assertSame
 (
 "Type annotation on a implements in a enum must be typed by TypeAnnotation"
 ,
@@ -634,7 +634,7 @@ size
 )
 )
 ;
-assertEquals
+assertSame
 (
 "Type annotation on a implements in a enum must be typed by TypeAnnotation"
 ,

@@ -179,7 +179,7 @@ size
 )
 )
 ;
-assertEquals
+assertSame
 (
 "Type annotation with the local variable type must be typed by TypeAnnotation"
 ,

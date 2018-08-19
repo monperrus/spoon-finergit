@@ -156,7 +156,7 @@ size
 )
 )
 ;
-assertEquals
+assertSame
 (
 "Type of the new class is typed by TypeAnnotation"
 ,

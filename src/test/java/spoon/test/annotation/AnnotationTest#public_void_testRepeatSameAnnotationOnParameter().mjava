@@ -129,7 +129,7 @@ size
 )
 )
 ;
-assertEquals
+assertSame
 (
 "Type of the first annotation is AnnotationRepeated"
 ,
@@ -153,7 +153,7 @@ getActualClass
 )
 )
 ;
-assertEquals
+assertSame
 (
 "Type of the second annotation is AnnotationRepeated"
 ,

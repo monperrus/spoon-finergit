@@ -83,7 +83,7 @@ CtAnnotationMethod
 0
 ]
 ;
-assertEquals
+assertSame
 (
 "Field is typed by an annotation."
 ,
@@ -102,7 +102,7 @@ getActualClass
 )
 )
 ;
-assertEquals
+assertSame
 (
 "Default value of a field typed by an annotation must be an annotation"
 ,

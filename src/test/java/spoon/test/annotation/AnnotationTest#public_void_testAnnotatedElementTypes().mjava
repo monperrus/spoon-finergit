@@ -126,7 +126,7 @@ getType
 "Main"
 )
 ;
-assertEquals
+assertSame
 (
 Main
 .
@@ -720,7 +720,7 @@ getType
 "AnnotParamTypeEnum"
 )
 ;
-assertEquals
+assertSame
 (
 AnnotParamTypeEnum
 .
@@ -894,7 +894,7 @@ getType
 "TestInterface"
 )
 ;
-assertEquals
+assertSame
 (
 TestInterface
 .
@@ -976,7 +976,7 @@ getType
 "Bound"
 )
 ;
-assertEquals
+assertSame
 (
 Bound
 .

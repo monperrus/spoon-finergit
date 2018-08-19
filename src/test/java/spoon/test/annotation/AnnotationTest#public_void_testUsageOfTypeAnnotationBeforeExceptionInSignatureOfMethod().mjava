@@ -136,7 +136,7 @@ size
 )
 )
 ;
-assertEquals
+assertSame
 (
 "Type annotation with the thrown type must be typed by TypeAnnotation"
 ,
