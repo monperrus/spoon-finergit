@@ -167,8 +167,7 @@ getSimpleName
 )
 )
 ;
-if
-(
+return
 exist
 .
 getQualifiedName
@@ -183,12 +182,7 @@ getQualifiedName
 (
 )
 )
-)
-{
-return
-true
 ;
-}
 }
 return
 false

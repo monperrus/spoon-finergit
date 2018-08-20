@@ -63,8 +63,7 @@ getSimpleName
 )
 )
 ;
-if
-(
+return
 getSignature
 (
 exist
@@ -77,12 +76,7 @@ getSignature
 ref
 )
 )
-)
-{
-return
-true
 ;
-}
 }
 return
 false

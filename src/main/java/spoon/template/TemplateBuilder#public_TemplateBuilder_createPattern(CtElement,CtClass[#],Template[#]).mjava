@@ -172,7 +172,8 @@ return
 false
 ;
 }
-if
+return
+!
 (
 typeMember
 instanceof
@@ -180,7 +181,9 @@ CtField
 <
 ?
 >
-&&
+)
+||
+!
 (
 (
 CtField
@@ -199,14 +202,6 @@ isSubtypeOf
 (
 templateParamRef
 )
-)
-{
-return
-false
-;
-}
-return
-true
 ;
 }
 )

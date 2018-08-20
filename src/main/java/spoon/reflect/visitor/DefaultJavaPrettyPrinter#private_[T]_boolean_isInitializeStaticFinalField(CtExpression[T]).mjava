@@ -55,8 +55,7 @@ return
 false
 ;
 }
-if
-(
+return
 parent
 instanceof
 CtFieldWrite
@@ -137,13 +136,5 @@ ModifierKind
 .
 FINAL
 )
-)
-{
-return
-true
-;
-}
-return
-false
 ;
 }

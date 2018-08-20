@@ -46,8 +46,7 @@ CtRole
 COMMENT
 )
 ;
-if
-(
+return
 mmCommentField
 !=
 null
@@ -59,12 +58,7 @@ isDerived
 )
 ==
 false
-)
-{
-return
-true
 ;
-}
 }
 return
 false

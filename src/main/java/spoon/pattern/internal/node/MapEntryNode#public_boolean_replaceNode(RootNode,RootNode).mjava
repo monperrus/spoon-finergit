@@ -56,8 +56,7 @@ return
 true
 ;
 }
-if
-(
+return
 value
 .
 replaceNode
@@ -66,13 +65,5 @@ oldNode
 ,
 newNode
 )
-)
-{
-return
-true
-;
-}
-return
-false
 ;
 }

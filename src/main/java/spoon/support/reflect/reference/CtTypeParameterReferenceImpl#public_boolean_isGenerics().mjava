@@ -18,8 +18,7 @@ return
 true
 ;
 }
-if
-(
+return
 getBoundingType
 (
 )
@@ -33,13 +32,5 @@ getBoundingType
 isGenerics
 (
 )
-)
-{
-return
-true
-;
-}
-return
-false
 ;
 }

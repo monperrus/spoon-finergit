@@ -59,8 +59,7 @@ return
 true
 ;
 }
-if
-(
+return
 nestedModel
 .
 replaceNode
@@ -69,13 +68,5 @@ oldNode
 ,
 newNode
 )
-)
-{
-return
-true
-;
-}
-return
-false
 ;
 }

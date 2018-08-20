@@ -87,8 +87,7 @@ return
 false
 ;
 }
-if
-(
+return
 ref
 .
 getType
@@ -106,13 +105,5 @@ getFactory
 )
 )
 )
-)
-{
-return
-true
-;
-}
-return
-false
 ;
 }
