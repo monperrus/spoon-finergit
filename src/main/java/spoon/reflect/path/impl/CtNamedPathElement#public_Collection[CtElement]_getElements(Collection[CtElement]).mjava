@@ -40,7 +40,7 @@ addAll
 (
 scanElements
 (
-getChilds
+getChildren
 (
 element
 )
