@@ -39,12 +39,6 @@ INNERTTYPE_SEPARATOR
 )
 +
 1
-,
-poolName
-.
-length
-(
-)
 )
 ;
 }

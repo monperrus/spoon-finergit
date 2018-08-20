@@ -82,10 +82,6 @@ getResult
 (
 )
 .
-toString
-(
-)
-.
 getBytes
 (
 )

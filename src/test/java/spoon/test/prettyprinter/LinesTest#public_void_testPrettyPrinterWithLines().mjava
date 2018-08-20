@@ -155,10 +155,6 @@ asPredicate
 test
 (
 meth
-.
-toString
-(
-)
 )
 )
 ;
