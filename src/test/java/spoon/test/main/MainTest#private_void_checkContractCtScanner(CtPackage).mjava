@@ -11,12 +11,12 @@ Counter
 {
 int
 scan
-,
+;
+int
 enter
-,
+;
+int
 exit
-=
-0
 ;
 }
 final
