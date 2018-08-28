@@ -1,0 +1,14 @@
+public
+void
+c
+(
+int
+param
+)
+{
+c
+(
+param
+)
+;
+}
