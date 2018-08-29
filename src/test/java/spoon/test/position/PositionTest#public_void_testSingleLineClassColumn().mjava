@@ -34,12 +34,12 @@ Type
 .
 get
 (
-"TestSingleLineClass"
+"spoon.test.position.testclasses.TestSingleLineClass"
 )
 ;
 assertEquals
 (
-13
+54
 ,
 type
 .
