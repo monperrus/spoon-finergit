@@ -1,0 +1,7 @@
+void
+objectMethod4
+(
+Object
+p
+)
+;

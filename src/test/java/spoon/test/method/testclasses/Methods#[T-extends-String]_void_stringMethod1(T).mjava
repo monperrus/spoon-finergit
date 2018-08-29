@@ -1,0 +1,12 @@
+<
+T
+extends
+String
+>
+void
+stringMethod1
+(
+T
+p
+)
+;

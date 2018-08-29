@@ -1,0 +1,7 @@
+void
+stringMethod2
+(
+String
+p
+)
+;

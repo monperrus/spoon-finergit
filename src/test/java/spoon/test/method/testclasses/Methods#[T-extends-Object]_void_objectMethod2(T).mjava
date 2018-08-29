@@ -1,0 +1,12 @@
+<
+T
+extends
+Object
+>
+void
+objectMethod2
+(
+T
+p
+)
+;
