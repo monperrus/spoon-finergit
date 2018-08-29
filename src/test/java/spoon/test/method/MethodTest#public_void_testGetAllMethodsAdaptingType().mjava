@@ -116,7 +116,7 @@ getSimpleName
 {
 assertEquals
 (
-"compare(T,T)"
+"compare(java.lang.Object,java.lang.Object)"
 ,
 method
 .

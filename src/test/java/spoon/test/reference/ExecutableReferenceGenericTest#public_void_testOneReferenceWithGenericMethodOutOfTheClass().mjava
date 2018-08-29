@@ -96,7 +96,7 @@ getDeclaration
 ;
 assertEquals
 (
-"method1(T extends java.lang.String)"
+"method1(java.lang.String)"
 ,
 execRefsMethods2
 .
