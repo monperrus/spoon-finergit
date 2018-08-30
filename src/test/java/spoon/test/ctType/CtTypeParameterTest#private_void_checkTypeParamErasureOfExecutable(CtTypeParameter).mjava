@@ -174,11 +174,15 @@ typeParam
 ,
 paramType
 .
-getName
+getTypeName
 (
 )
 ,
-typeParam
+param
+.
+getType
+(
+)
 .
 getTypeErasure
 (

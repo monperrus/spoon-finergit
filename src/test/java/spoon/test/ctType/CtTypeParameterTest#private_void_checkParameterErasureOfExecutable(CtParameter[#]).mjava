@@ -155,7 +155,7 @@ getSimpleName
 ,
 paramType
 .
-getName
+getTypeName
 (
 )
 ,

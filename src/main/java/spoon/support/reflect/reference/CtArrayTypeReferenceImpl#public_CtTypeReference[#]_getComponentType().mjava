@@ -25,7 +25,16 @@ Type
 (
 )
 .
-OBJECT
+objectType
+(
+)
+;
+componentType
+.
+setParent
+(
+this
+)
 ;
 }
 return
