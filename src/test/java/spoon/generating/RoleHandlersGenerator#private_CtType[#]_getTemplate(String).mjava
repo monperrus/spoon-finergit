@@ -9,12 +9,7 @@ String
 templateQName
 )
 {
-CtType
-<
-?
->
-template
-=
+return
 getFactory
 (
 )
@@ -27,8 +22,5 @@ get
 (
 templateQName
 )
-;
-return
-template
 ;
 }

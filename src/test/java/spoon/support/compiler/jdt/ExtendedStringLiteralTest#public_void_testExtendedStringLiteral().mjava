@@ -133,11 +133,7 @@ out
 null
 )
 ;
-CompilationUnitDeclaration
-[
-]
-units
-=
+return
 treeBuilderCompiler
 .
 buildUnits
@@ -146,9 +142,6 @@ getCompilationUnits
 (
 )
 )
-;
-return
-units
 ;
 }
 }
