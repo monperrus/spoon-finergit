@@ -438,11 +438,13 @@ c
 ;
 }
 }
-assertTrue
+assertEquals
 (
 "Keyword found in Identifier: "
 +
 identifier
+,
+false
 ,
 javaKeywords
 .
@@ -450,8 +452,6 @@ contains
 (
 identifier
 )
-==
-false
 )
 ;
 handleTabs
@@ -857,7 +857,7 @@ tokenType
 }
 else
 {
-assertTrue
+assertEquals
 (
 "Two tokens of same type current:"
 +
@@ -871,6 +871,8 @@ toString
 (
 )
 ,
+false
+,
 tokenType
 .
 equals
@@ -879,8 +881,6 @@ this
 .
 lastToken
 )
-==
-false
 )
 ;
 }
