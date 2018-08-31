@@ -72,8 +72,6 @@ getConstructor
 (
 )
 ;
-Assert
-.
 assertEquals
 (
 0
