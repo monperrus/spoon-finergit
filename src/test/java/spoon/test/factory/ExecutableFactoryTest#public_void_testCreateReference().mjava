@@ -104,8 +104,6 @@ getActualTypeArguments
 (
 )
 ;
-Assert
-.
 assertEquals
 (
 "boolean"
@@ -113,8 +111,6 @@ assertEquals
 type
 )
 ;
-Assert
-.
 assertEquals
 (
 "Object"
@@ -122,8 +118,6 @@ assertEquals
 decltype
 )
 ;
-Assert
-.
 assertEquals
 (
 "equals"
@@ -131,8 +125,6 @@ assertEquals
 name
 )
 ;
-Assert
-.
 assertEquals
 (
 1
@@ -144,8 +136,6 @@ size
 )
 )
 ;
-Assert
-.
 assertEquals
 (
 0
