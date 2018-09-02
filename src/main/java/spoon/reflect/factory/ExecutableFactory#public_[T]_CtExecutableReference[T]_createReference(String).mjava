@@ -44,7 +44,7 @@ signature
 .
 indexOf
 (
-" "
+' '
 )
 )
 ;
@@ -59,7 +59,7 @@ signature
 .
 indexOf
 (
-" "
+' '
 )
 +
 1
@@ -96,7 +96,7 @@ signature
 .
 indexOf
 (
-"("
+'('
 )
 )
 ;
@@ -158,7 +158,7 @@ signature
 .
 indexOf
 (
-"("
+'('
 )
 +
 1
@@ -167,7 +167,7 @@ signature
 .
 indexOf
 (
-")"
+')'
 )
 )
 ;

@@ -96,7 +96,7 @@ line
 .
 indexOf
 (
-" "
+' '
 )
 ;
 if

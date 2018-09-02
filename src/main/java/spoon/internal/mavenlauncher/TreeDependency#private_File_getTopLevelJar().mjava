@@ -147,7 +147,7 @@ version
 .
 indexOf
 (
-"-"
+'-'
 )
 ;
 if
@@ -190,7 +190,7 @@ version
 .
 indexOf
 (
-"-"
+'-'
 )
 ;
 }

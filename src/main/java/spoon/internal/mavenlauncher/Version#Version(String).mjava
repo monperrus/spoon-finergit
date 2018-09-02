@@ -17,7 +17,7 @@ version
 .
 indexOf
 (
-"-"
+'-'
 )
 ;
 if

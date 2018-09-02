@@ -44,7 +44,7 @@ signature
 .
 indexOf
 (
-" "
+' '
 )
 )
 ;
@@ -59,7 +59,7 @@ signature
 .
 indexOf
 (
-" "
+' '
 )
 +
 1

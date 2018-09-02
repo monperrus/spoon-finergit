@@ -490,7 +490,7 @@ computedImport
 .
 lastIndexOf
 (
-"."
+'.'
 )
 )
 ;
@@ -633,7 +633,7 @@ anImport
 .
 lastIndexOf
 (
-"."
+'.'
 )
 )
 ;

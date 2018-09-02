@@ -69,7 +69,7 @@ importName
 .
 lastIndexOf
 (
-"."
+'.'
 )
 ;
 String
@@ -176,7 +176,7 @@ importName
 .
 lastIndexOf
 (
-"."
+'.'
 )
 ;
 String
