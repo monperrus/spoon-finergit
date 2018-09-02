@@ -1,7 +1,7 @@
 /** 
  * detects if `superTypeRef` is a super type of the type or type reference, which was send to constructor of this instance. It takes into account the actual type arguments of this type and `superTypeRef` So for example:<br> <pre> CtTypeReference listInteger = ...//List&lt;Integer&gt; CtTypeReference listString = ...//List&lt;Integer&gt; assertFalse(new ClassTypingContext(listInteger).isSubtypeOf(listString)) CtTypeReference listExtendsNumber = ...//List&lt;? extends Number&gt; assertTrue(new ClassTypingContext(listInteger).isSubtypeOf(listExtendsNumber)) </pre>
  * @param superTypeRef the reference
- * @return true if this type (including actual type arguments) is a sub type of superTypeRef
+ * @return true if this type (including actual type arguments) is a subtype of superTypeRef
  */
 public
 boolean
