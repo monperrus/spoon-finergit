@@ -1,0 +1,14 @@
+void
+m3
+(
+)
+{
+label
+:
+{
+getClass
+(
+)
+;
+}
+}
