@@ -443,12 +443,12 @@ Wildcard
 &&
 typeReference
 instanceof
-CtTypeParameterReference
+CtWildcardReference
 )
 {
 (
 (
-CtTypeParameterReference
+CtWildcardReference
 )
 typeReference
 )

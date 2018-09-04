@@ -5,7 +5,7 @@
 <
 T
 extends
-CtTypeParameterReference
+CtWildcardReference
 >
 T
 setUpper

@@ -116,6 +116,8 @@ add
 getTypeReference
 (
 b
+,
+true
 )
 )
 ;
@@ -150,6 +152,8 @@ allocationExpression
 expectedType
 (
 )
+,
+true
 )
 )
 ;

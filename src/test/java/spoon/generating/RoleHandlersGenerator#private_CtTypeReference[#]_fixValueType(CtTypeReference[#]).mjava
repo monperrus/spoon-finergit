@@ -42,7 +42,7 @@ boundingType
 =
 (
 (
-CtTypeParameterReference
+CtWildcardReference
 )
 valueType
 )
@@ -60,7 +60,7 @@ CtTypeParameterReference
 {
 (
 (
-CtTypeParameterReference
+CtWildcardReference
 )
 valueType
 )

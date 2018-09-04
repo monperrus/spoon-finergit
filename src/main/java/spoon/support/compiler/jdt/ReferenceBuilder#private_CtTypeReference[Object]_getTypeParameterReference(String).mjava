@@ -77,9 +77,16 @@ trim
 )
 )
 ;
+if
+(
+param
+instanceof
+CtWildcardReference
+)
+{
 (
 (
-CtTypeParameterReference
+CtWildcardReference
 )
 param
 )
@@ -103,6 +110,7 @@ trim
 )
 )
 ;
+}
 }
 else
 if

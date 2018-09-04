@@ -1,0 +1,16 @@
+<
+T
+extends
+Enum
+<
+T
+>
+>
+void
+m6
+(
+T
+t
+)
+{
+}

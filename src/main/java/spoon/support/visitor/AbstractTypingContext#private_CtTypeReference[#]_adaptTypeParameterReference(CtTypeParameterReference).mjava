@@ -21,6 +21,9 @@ CtWildcardReference
 return
 adaptTypeParameterReferenceBoundingType
 (
+(
+CtWildcardReference
+)
 typeParamRef
 ,
 typeParamRef

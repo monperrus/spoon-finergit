@@ -1,0 +1,17 @@
+@Override
+<
+S
+extends
+Enum
+<
+S
+>
+>
+void
+m6
+(
+S
+s
+)
+{
+}

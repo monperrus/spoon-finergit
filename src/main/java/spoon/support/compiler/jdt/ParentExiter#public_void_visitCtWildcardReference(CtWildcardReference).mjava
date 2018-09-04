@@ -1,9 +1,9 @@
 @Override
 public
 void
-visitCtTypeParameterReference
+visitCtWildcardReference
 (
-CtTypeParameterReference
+CtWildcardReference
 e
 )
 {
@@ -20,7 +20,7 @@ CtTypeAccess
 {
 e
 .
-addBound
+setBoundingType
 (
 (
 (
@@ -37,7 +37,7 @@ getAccessedType
 }
 super
 .
-visitCtTypeParameterReference
+visitCtWildcardReference
 (
 e
 )

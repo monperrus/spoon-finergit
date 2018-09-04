@@ -20,6 +20,11 @@ return
 false
 ;
 }
+checkMethodParameterTypeRef
+(
+parameter
+)
+;
 parameter
 .
 setParent

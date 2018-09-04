@@ -3,11 +3,4 @@ CtTypeParameterReferenceImpl
 (
 )
 {
-this
-.
-setBoundingType
-(
-null
-)
-;
 }

@@ -5,7 +5,7 @@ CtTypeReference
 >
 adaptTypeParameterReferenceBoundingType
 (
-CtTypeParameterReference
+CtWildcardReference
 typeParamRef
 ,
 CtTypeReference
@@ -15,7 +15,7 @@ CtTypeReference
 boundingType
 )
 {
-CtTypeParameterReference
+CtWildcardReference
 typeParamRefAdapted
 =
 typeParamRef

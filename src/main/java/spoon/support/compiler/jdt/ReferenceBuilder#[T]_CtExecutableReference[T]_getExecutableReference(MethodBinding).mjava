@@ -79,6 +79,8 @@ getTypeReference
 exec
 .
 declaringClass
+,
+true
 )
 )
 ;
@@ -94,6 +96,8 @@ getTypeReference
 exec
 .
 returnType
+,
+true
 )
 )
 ;
@@ -123,6 +127,8 @@ getTypeReference
 exec
 .
 returnType
+,
+true
 )
 )
 ;
@@ -385,6 +391,8 @@ add
 getTypeReference
 (
 b
+,
+true
 )
 )
 ;
@@ -441,6 +449,8 @@ add
 getTypeReference
 (
 b
+,
+true
 )
 )
 ;

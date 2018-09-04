@@ -9,6 +9,13 @@ getActualClass
 (
 )
 {
+if
+(
+isUpper
+(
+)
+)
+{
 return
 (
 Class
@@ -23,5 +30,11 @@ getBoundingType
 getActualClass
 (
 )
+;
+}
+return
+Object
+.
+class
 ;
 }

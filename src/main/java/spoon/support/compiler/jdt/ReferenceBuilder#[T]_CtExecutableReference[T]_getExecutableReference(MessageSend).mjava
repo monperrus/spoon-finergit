@@ -76,6 +76,8 @@ messageSend
 expectedType
 (
 )
+,
+true
 )
 )
 ;
@@ -224,6 +226,8 @@ getTypeReference
 expression
 .
 resolvedType
+,
+true
 )
 )
 ;
