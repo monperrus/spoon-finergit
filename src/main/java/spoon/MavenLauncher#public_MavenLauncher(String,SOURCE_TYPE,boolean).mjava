@@ -2,6 +2,7 @@
  * MavenLauncher constructor assuming either an environment variable M2_HOME, or that mvn command exist in PATH.
  * @param mavenProject the path to the root of the project
  * @param sourceType the source type (App, test, or all)
+ * @param forceRefresh force the regeneration of classpath
  */
 public
 MavenLauncher
@@ -11,6 +12,9 @@ mavenProject
 ,
 SOURCE_TYPE
 sourceType
+,
+boolean
+forceRefresh
 )
 {
 this
@@ -30,7 +34,7 @@ get
 "M2_HOME"
 )
 ,
-false
+forceRefresh
 )
 ;
 }

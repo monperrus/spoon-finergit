@@ -1,20 +1,9 @@
-/** 
- * @param mavenProject the path to the root of the project
- * @param m2RepositoryPath the path to the m2repository
- * @param sourceType the source type (App, test, or all)
- * @param classpath String array containing the classpath elements
- */
-public
-MavenLauncher
+private
+void
+init
 (
 String
 mavenProject
-,
-String
-m2RepositoryPath
-,
-SOURCE_TYPE
-sourceType
 ,
 String
 [
@@ -22,18 +11,6 @@ String
 classpath
 )
 {
-this
-.
-m2RepositoryPath
-=
-m2RepositoryPath
-;
-this
-.
-sourceType
-=
-sourceType
-;
 File
 mavenProjectFile
 =
@@ -63,9 +40,6 @@ mavenProject
 )
 ;
 }
-InheritanceModel
-model
-;
 try
 {
 model
@@ -77,8 +51,6 @@ readPOM
 mavenProject
 ,
 null
-,
-m2RepositoryPath
 ,
 sourceType
 ,
@@ -214,6 +186,25 @@ getAbsolutePath
 )
 ;
 }
+}
+if
+(
+classpath
+==
+null
+)
+{
+classpath
+=
+buildClassPath
+(
+mvnHome
+,
+mavenProject
+,
+sourceType
+)
+;
 }
 this
 .

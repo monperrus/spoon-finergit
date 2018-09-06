@@ -1,8 +1,10 @@
 /** 
+ * MavenLauncher constructor assuming either an environment variable M2_HOME, or that mvn command exist in PATH.
  * @param mavenProject the path to the root of the project
- * @param m2RepositoryPath the path to the m2repository
+ * @param m2RepositoryPath unused
  * @param sourceType the source type (App, test, or all)
  */
+@Deprecated
 public
 MavenLauncher
 (
@@ -20,20 +22,7 @@ this
 (
 mavenProject
 ,
-m2RepositoryPath
-,
 sourceType
-,
-System
-.
-getenv
-(
-)
-.
-get
-(
-"M2_HOME"
-)
 )
 ;
 }
