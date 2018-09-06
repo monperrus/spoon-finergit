@@ -1,0 +1,76 @@
+@Test
+public
+void
+testBug2369_fqn
+(
+)
+throws
+Exception
+{
+final
+Launcher
+launcher
+=
+new
+Launcher
+(
+)
+;
+launcher
+.
+addInputResource
+(
+"./src/test/java/spoon/test/imports/testclasses/JavaLongUse.java"
+)
+;
+launcher
+.
+buildModel
+(
+)
+;
+assertEquals
+(
+"public class JavaLongUse {\n"
++
+"    public class Long {}\n"
++
+"\n"
++
+"    public static long method() {\n"
++
+"        return java.lang.Long.parseLong(\"10000\");\n"
++
+"    }\n"
++
+"\n"
++
+"    public static void main(java.lang.String[] args) {\n"
++
+"        java.lang.System.out.println(spoon.test.imports.testclasses.JavaLongUse.method());\n"
++
+"    }\n"
++
+"}"
+,
+launcher
+.
+getFactory
+(
+)
+.
+Type
+(
+)
+.
+get
+(
+"spoon.test.imports.testclasses.JavaLongUse"
+)
+.
+toString
+(
+)
+)
+;
+}

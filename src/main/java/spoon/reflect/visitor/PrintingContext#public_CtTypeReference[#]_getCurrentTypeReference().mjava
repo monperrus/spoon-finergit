@@ -17,7 +17,7 @@ currentTopLevel
 null
 )
 {
-TypeContext
+CacheBasedConflictFinder
 tc
 =
 getCurrentTypeContext

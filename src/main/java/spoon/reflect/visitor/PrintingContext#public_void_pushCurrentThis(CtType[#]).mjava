@@ -14,7 +14,7 @@ currentThis
 push
 (
 new
-TypeContext
+CacheBasedConflictFinder
 (
 type
 )
