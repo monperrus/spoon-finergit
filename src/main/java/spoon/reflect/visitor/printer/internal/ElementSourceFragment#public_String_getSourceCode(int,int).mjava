@@ -1,0 +1,45 @@
+/** 
+ * @param start start offset relative to compilation unit
+ * @param end end offset (after last character) relative to compilation unit
+ * @return source code of this Fragment between start/end offsets
+ */
+public
+String
+getSourceCode
+(
+int
+start
+,
+int
+end
+)
+{
+String
+src
+=
+getOriginalSourceCode
+(
+)
+;
+if
+(
+src
+!=
+null
+)
+{
+return
+src
+.
+substring
+(
+start
+,
+end
+)
+;
+}
+return
+null
+;
+}

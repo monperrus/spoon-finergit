@@ -1,0 +1,13 @@
+/** 
+ * @return {@link ElementSourceFragment} which belongs to the same parent and is next in the sources
+ */
+public
+ElementSourceFragment
+getNextSibling
+(
+)
+{
+return
+nextSibling
+;
+}

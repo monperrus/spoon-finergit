@@ -1,0 +1,28 @@
+/** 
+ * Creates a source fragment of  {@link SourcePositionHolder}
+ * @param element target {@link SourcePositionHolder}
+ * @param roleHandlerInParent The {@link RoleHandler}, which defines role of target `element` in it's parent
+ */
+public
+ElementSourceFragment
+(
+SourcePositionHolder
+element
+,
+RoleHandler
+roleHandlerInParent
+)
+{
+this
+.
+element
+=
+element
+;
+this
+.
+roleHandlerInParent
+=
+roleHandlerInParent
+;
+}

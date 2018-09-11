@@ -125,6 +125,8 @@ systemClassPath
 "--level"
 ,
 "OFF"
+,
+"--enable-comments"
 }
 )
 ;

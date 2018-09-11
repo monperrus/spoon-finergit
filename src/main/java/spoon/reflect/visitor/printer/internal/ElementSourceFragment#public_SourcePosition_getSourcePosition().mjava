@@ -1,0 +1,17 @@
+/** 
+ * @return {@link SourcePosition} of this fragment
+ */
+public
+SourcePosition
+getSourcePosition
+(
+)
+{
+return
+element
+.
+getPosition
+(
+)
+;
+}

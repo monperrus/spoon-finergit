@@ -232,6 +232,13 @@ officialPackages
 .
 add
 (
+"spoon.reflect.visitor.printer.internal"
+)
+;
+officialPackages
+.
+add
+(
 "spoon.reflect.visitor"
 )
 ;

@@ -1,0 +1,23 @@
+/** 
+ * @return origin source code of this fragment
+ */
+@Override
+public
+String
+getSourceCode
+(
+)
+{
+return
+getSourceCode
+(
+getStart
+(
+)
+,
+getEnd
+(
+)
+)
+;
+}

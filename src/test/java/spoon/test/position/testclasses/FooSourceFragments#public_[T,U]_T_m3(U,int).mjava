@@ -1,0 +1,26 @@
+/** 
+ * c0
+ */
+public
+@Deprecated
+static
+<
+T
+,
+U
+>
+T
+m3
+(
+U
+param
+,
+@Deprecated
+int
+p2
+)
+{
+return
+null
+;
+}

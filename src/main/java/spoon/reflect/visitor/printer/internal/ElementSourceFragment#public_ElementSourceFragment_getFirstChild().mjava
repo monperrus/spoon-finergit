@@ -1,0 +1,13 @@
+/** 
+ * @return {@link ElementSourceFragment}, which is first child of this fragment
+ */
+public
+ElementSourceFragment
+getFirstChild
+(
+)
+{
+return
+firstChild
+;
+}

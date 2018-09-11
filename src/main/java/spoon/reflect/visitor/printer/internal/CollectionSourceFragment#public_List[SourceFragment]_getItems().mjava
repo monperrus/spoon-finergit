@@ -1,0 +1,16 @@
+/** 
+ * @return child source fragments of this collection
+ */
+public
+List
+<
+SourceFragment
+>
+getItems
+(
+)
+{
+return
+items
+;
+}

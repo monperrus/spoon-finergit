@@ -1,0 +1,13 @@
+/** 
+ * @return type of token of this fragment
+ */
+public
+TokenType
+getType
+(
+)
+{
+return
+type
+;
+}

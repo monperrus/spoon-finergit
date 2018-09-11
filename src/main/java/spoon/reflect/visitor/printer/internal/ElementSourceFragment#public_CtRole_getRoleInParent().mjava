@@ -1,0 +1,23 @@
+/** 
+ * @return role of the element of this fragment in scope of it's parent
+ */
+public
+CtRole
+getRoleInParent
+(
+)
+{
+return
+roleHandlerInParent
+!=
+null
+?
+roleHandlerInParent
+.
+getRole
+(
+)
+:
+null
+;
+}

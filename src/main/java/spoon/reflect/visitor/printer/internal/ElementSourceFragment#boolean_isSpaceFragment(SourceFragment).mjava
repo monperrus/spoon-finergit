@@ -1,0 +1,32 @@
+/** 
+ * @return true if {@link SourceFragment} represents a white space
+ */
+static
+boolean
+isSpaceFragment
+(
+SourceFragment
+fragment
+)
+{
+return
+fragment
+instanceof
+TokenSourceFragment
+&&
+(
+(
+TokenSourceFragment
+)
+fragment
+)
+.
+getType
+(
+)
+==
+TokenType
+.
+SPACE
+;
+}

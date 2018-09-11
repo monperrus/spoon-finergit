@@ -1,0 +1,13 @@
+/** 
+ * @return {@link CtElement} whose source code is contained in this fragment.May be null
+ */
+public
+SourcePositionHolder
+getElement
+(
+)
+{
+return
+element
+;
+}

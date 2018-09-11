@@ -1,0 +1,30 @@
+/** 
+ * @return true if position points to same compilation unit (source file) as this SourceFragment
+ */
+private
+boolean
+isFromSameSource
+(
+SourcePosition
+position
+)
+{
+return
+getSourcePosition
+(
+)
+.
+getCompilationUnit
+(
+)
+.
+equals
+(
+position
+.
+getCompilationUnit
+(
+)
+)
+;
+}

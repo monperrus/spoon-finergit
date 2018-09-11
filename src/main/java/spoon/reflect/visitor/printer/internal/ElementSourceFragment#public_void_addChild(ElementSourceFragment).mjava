@@ -1,0 +1,37 @@
+/** 
+ * adds `fragment` as child fragment of this fragment. If child is located before or after this fragment, then start/end of this fragment is moved
+ * @param fragment to be add
+ */
+public
+void
+addChild
+(
+ElementSourceFragment
+fragment
+)
+{
+if
+(
+firstChild
+==
+null
+)
+{
+firstChild
+=
+fragment
+;
+}
+else
+{
+firstChild
+=
+firstChild
+.
+add
+(
+fragment
+)
+;
+}
+}
