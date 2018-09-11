@@ -35,6 +35,13 @@ this
 instanceof
 CtImport
 )
+&&
+!
+(
+this
+instanceof
+CtReference
+)
 )
 {
 printer
