@@ -178,6 +178,8 @@ get
 ;
 assertEquals
 (
+"Bidon"
+,
 annotatedParameter
 .
 getAnnotations
@@ -196,8 +198,6 @@ getAnnotationType
 getSimpleName
 (
 )
-,
-"Bidon"
 )
 ;
 }
