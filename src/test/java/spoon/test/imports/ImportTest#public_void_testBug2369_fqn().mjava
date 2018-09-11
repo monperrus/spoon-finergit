@@ -29,27 +29,53 @@ buildModel
 (
 )
 ;
+final
+String
+nl
+=
+System
+.
+lineSeparator
+(
+)
+;
 assertEquals
 (
-"public class JavaLongUse {\n"
+"public class JavaLongUse {"
 +
-"    public class Long {}\n"
+nl
 +
-"\n"
+"    public class Long {}"
 +
-"    public static long method() {\n"
+nl
 +
-"        return java.lang.Long.parseLong(\"10000\");\n"
+nl
 +
-"    }\n"
+"    public static long method() {"
 +
-"\n"
+nl
 +
-"    public static void main(java.lang.String[] args) {\n"
+"        return java.lang.Long.parseLong(\"10000\");"
 +
-"        java.lang.System.out.println(spoon.test.imports.testclasses.JavaLongUse.method());\n"
+nl
 +
-"    }\n"
+"    }"
++
+nl
++
+nl
++
+"    public static void main(java.lang.String[] args) {"
++
+nl
++
+"        java.lang.System.out.println(spoon.test.imports.testclasses.JavaLongUse.method());"
++
+nl
++
+"    }"
++
+nl
 +
 "}"
 ,
