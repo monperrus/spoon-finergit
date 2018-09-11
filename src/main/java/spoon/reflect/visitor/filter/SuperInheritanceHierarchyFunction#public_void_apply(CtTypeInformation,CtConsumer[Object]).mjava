@@ -115,16 +115,8 @@ null
 isClass
 =
 type
-==
-null
-?
-false
-:
-(
-type
 instanceof
 CtClass
-)
 ;
 if
 (
