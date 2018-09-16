@@ -34,9 +34,6 @@ final
 CtExpression
 ctExpression
 =
-(
-CtExpression
-)
 elementValues
 .
 get

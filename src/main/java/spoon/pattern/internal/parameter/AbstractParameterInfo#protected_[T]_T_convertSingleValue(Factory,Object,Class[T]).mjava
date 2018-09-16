@@ -26,9 +26,6 @@ getValueConvertor
 )
 ;
 return
-(
-T
-)
 valueConvertor
 .
 getValueAs

@@ -29,12 +29,6 @@ qualifiedName
 return
 create
 (
-(
-CtInterface
-<
-T
->
-)
 create
 (
 getDeclaringTypeName
