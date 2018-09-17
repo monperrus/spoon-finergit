@@ -4,8 +4,6 @@ void
 testSourceFragmentAddChildBeforeOrAfter
 (
 )
-throws
-Exception
 {
 ElementSourceFragment
 rootFragment
