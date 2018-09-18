@@ -3,8 +3,8 @@
  * @return the parent model
  */
 public
-InheritanceModel
-getParent
+SpoonPom
+getParentPom
 (
 )
 {

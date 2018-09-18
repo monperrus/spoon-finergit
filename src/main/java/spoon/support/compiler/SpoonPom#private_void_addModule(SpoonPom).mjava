@@ -1,8 +1,8 @@
-public
+private
 void
 addModule
 (
-InheritanceModel
+SpoonPom
 module
 )
 {

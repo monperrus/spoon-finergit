@@ -86,8 +86,8 @@ append
 ;
 for
 (
-InheritanceModel
-inheritanceModel
+SpoonPom
+spoonPom
 :
 modules
 )
@@ -95,7 +95,7 @@ modules
 String
 child
 =
-inheritanceModel
+spoonPom
 .
 toString
 (

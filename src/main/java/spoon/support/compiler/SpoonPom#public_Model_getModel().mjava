@@ -1,0 +1,14 @@
+/** 
+ * Get the Project Object Model
+ * @return the Project Object Model
+ */
+public
+Model
+getModel
+(
+)
+{
+return
+model
+;
+}

@@ -11,11 +11,7 @@ for
 Plugin
 plugin
 :
-model
-.
-getBuild
-(
-)
+build
 .
 getPlugins
 (

@@ -44,13 +44,10 @@ try
 {
 model
 =
-InheritanceModel
-.
-readPOM
+new
+SpoonPom
 (
 mavenProject
-,
-null
 ,
 sourceType
 ,
@@ -73,21 +70,6 @@ SpoonException
 "Unable to read the pom"
 ,
 e
-)
-;
-}
-if
-(
-model
-==
-null
-)
-{
-throw
-new
-SpoonException
-(
-"Unable to create the model, pom not found?"
 )
 ;
 }
@@ -196,13 +178,17 @@ null
 {
 classpath
 =
+model
+.
 buildClassPath
 (
 mvnHome
 ,
-mavenProject
-,
 sourceType
+,
+LOGGER
+,
+false
 )
 ;
 }

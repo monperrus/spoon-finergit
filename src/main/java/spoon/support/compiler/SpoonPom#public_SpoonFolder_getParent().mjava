@@ -1,0 +1,47 @@
+/** 
+ * Get the parent directory
+ * @return the parent directory
+ */
+public
+SpoonFolder
+getParent
+(
+)
+{
+try
+{
+return
+SpoonResourceHelper
+.
+createFolder
+(
+directory
+)
+;
+}
+catch
+(
+FileNotFoundException
+e
+)
+{
+Launcher
+.
+LOGGER
+.
+error
+(
+e
+.
+getMessage
+(
+)
+,
+e
+)
+;
+}
+return
+null
+;
+}

@@ -1,6 +1,7 @@
 /** 
  * Extract the variable from a string
  */
+private
 String
 extractVariable
 (

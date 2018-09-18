@@ -1,13 +1,18 @@
+private
 static
 String
 getSpoonClasspathTmpFileName
 (
+MavenLauncher
+.
 SOURCE_TYPE
 sourceType
 )
 {
 if
 (
+MavenLauncher
+.
 SOURCE_TYPE
 .
 TEST_SOURCE
@@ -22,6 +27,8 @@ spoonClasspathTmpFileNameTest
 else
 if
 (
+MavenLauncher
+.
 SOURCE_TYPE
 .
 APP_SOURCE

@@ -1,6 +1,7 @@
 /** 
  * @param classPathFiles File[] containing the classpath elements separated with ':'It can be an array of file instead of an unique one for multi module projects.
  */
+private
 static
 String
 [

@@ -1,0 +1,38 @@
+/** 
+ * Extract the information from the pom
+ * @param path the path to the pom
+ * @return the extracted model
+ * @throws IOException when the file does not exist
+ * @throws XmlPullParserException when the file is corrupted
+ */
+public
+SpoonPom
+(
+String
+path
+,
+MavenLauncher
+.
+SOURCE_TYPE
+sourceType
+,
+Environment
+environment
+)
+throws
+IOException
+,
+XmlPullParserException
+{
+this
+(
+path
+,
+null
+,
+sourceType
+,
+environment
+)
+;
+}

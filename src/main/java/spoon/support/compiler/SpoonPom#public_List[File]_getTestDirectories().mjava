@@ -1,13 +1,13 @@
 /** 
- * Get the list of source directories of the project
- * @return the list of source directories
+ * Get the list of test directories of the project
+ * @return the list of test directories
  */
 public
 List
 <
 File
 >
-getSourceDirectories
+getTestDirectories
 (
 )
 {
@@ -49,7 +49,7 @@ sourcePath
 =
 build
 .
-getSourceDirectory
+getTestSourceDirectory
 (
 )
 ;
@@ -75,7 +75,7 @@ getAbsolutePath
 ,
 "src"
 ,
-"main"
+"test"
 ,
 "java"
 )
@@ -126,7 +126,7 @@ getAbsolutePath
 ,
 "target"
 ,
-"generated-sources"
+"generated-test-sources"
 )
 .
 toFile
@@ -152,7 +152,7 @@ generatedSource
 }
 for
 (
-InheritanceModel
+SpoonPom
 module
 :
 modules
@@ -164,7 +164,7 @@ addAll
 (
 module
 .
-getSourceDirectories
+getTestDirectories
 (
 )
 )

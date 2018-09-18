@@ -1,8 +1,9 @@
 /** 
  * Call maven invoker to generate the classpath. Either M2_HOME must be initialized, or the command mvn must be in PATH.
  * @param mvnHome the path to the m2repository
- * @param mavenProject the path to the root of the project
  * @param sourceType the source type (App, test, or all)
+ * @param LOGGER Logger used for maven output
+ * @param forceRefresh if true forces the invocation of maven to regenerate classpath
  */
 public
 String
@@ -13,11 +14,16 @@ buildClassPath
 String
 mvnHome
 ,
-String
-mavenProject
-,
+MavenLauncher
+.
 SOURCE_TYPE
 sourceType
+,
+Logger
+LOGGER
+,
+boolean
+forceRefresh
 )
 {
 if
@@ -49,59 +55,8 @@ SpoonException
 ;
 }
 }
-String
-projectPath
-=
-mavenProject
-;
-if
-(
-!
-projectPath
-.
-endsWith
-(
-".xml"
-)
-&&
-!
-projectPath
-.
-endsWith
-(
-".pom"
-)
-)
-{
-projectPath
-=
-Paths
-.
-get
-(
-projectPath
-,
-"pom.xml"
-)
-.
-toString
-(
-)
-;
-}
-File
-pom
-=
-new
-File
-(
-projectPath
-)
-;
 generateClassPathFile
 (
-pom
-,
 new
 File
 (
@@ -109,6 +64,8 @@ mvnHome
 )
 ,
 sourceType
+,
+LOGGER
 ,
 forceRefresh
 )
@@ -128,8 +85,6 @@ try
 {
 classPathPrints
 =
-model
-.
 getClasspathTmpFiles
 (
 getSpoonClasspathTmpFileName
@@ -177,7 +132,7 @@ SpoonException
 (
 "Failed to generate class path for "
 +
-pom
+pomFile
 .
 getAbsolutePath
 (
