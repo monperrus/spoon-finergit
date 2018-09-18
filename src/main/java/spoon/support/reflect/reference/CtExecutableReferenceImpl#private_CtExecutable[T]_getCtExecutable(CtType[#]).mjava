@@ -167,12 +167,6 @@ CtLambda
 >
 elements
 =
-(
-List
-<
-CtLambda
->
-)
 typeDecl
 .
 getElements

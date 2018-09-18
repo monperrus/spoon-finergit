@@ -547,10 +547,6 @@ getSimpleName
 )
 )
 {
-(
-(
-CtExpression
-)
 replace
 .
 getArguments
@@ -560,7 +556,6 @@ getArguments
 get
 (
 1
-)
 )
 .
 replace

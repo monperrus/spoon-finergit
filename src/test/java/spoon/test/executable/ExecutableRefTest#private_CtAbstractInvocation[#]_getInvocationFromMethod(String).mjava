@@ -97,12 +97,6 @@ CtBlock
 >
 ctBody
 =
-(
-CtBlock
-<
-?
->
-)
 ctMethod
 .
 getBody
