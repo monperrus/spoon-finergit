@@ -66,14 +66,6 @@ modelValueResolver
 consumer
 )
 ;
-ImmutableMap
-parameters
-=
-new
-ImmutableMapImpl
-(
-)
-;
 if
 (
 input
