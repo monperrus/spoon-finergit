@@ -1,0 +1,18 @@
+/** 
+ * Allows to set the protected field of  {@link PrinterHelper#shouldWriteTabs}.
+ * @param shouldWriteTabs true if we just printed EndOfLine and we should print tabs if next character is not another EndOfLine
+ */
+void
+setShouldWriteTabs
+(
+boolean
+shouldWriteTabs
+)
+{
+this
+.
+shouldWriteTabs
+=
+shouldWriteTabs
+;
+}

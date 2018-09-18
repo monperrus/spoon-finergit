@@ -1,0 +1,8 @@
+/** 
+ * @return new instance of {@link PrettyPrinter} which is configured for this environment
+ */
+PrettyPrinter
+createPrettyPrinter
+(
+)
+;

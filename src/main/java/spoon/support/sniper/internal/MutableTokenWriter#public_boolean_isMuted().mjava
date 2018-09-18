@@ -1,0 +1,13 @@
+/** 
+ * @return true if tokens are ignored. false if they are forwarded to `delegate`
+ */
+public
+boolean
+isMuted
+(
+)
+{
+return
+muted
+;
+}

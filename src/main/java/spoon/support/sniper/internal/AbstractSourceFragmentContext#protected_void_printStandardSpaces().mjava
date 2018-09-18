@@ -1,0 +1,31 @@
+/** 
+ * print all tokens, which represents white spaces and then forget them, so we can collect next white spaces
+ */
+protected
+void
+printStandardSpaces
+(
+)
+{
+for
+(
+Runnable
+runnable
+:
+separatorActions
+)
+{
+runnable
+.
+run
+(
+)
+;
+}
+separatorActions
+.
+clear
+(
+)
+;
+}

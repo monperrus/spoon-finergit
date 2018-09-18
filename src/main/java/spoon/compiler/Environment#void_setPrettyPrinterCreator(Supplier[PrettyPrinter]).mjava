@@ -1,0 +1,13 @@
+/** 
+ * @param creator a {@link Supplier}, which creates new instance of pretty printer. Can be used to create a  {@link SniperJavaPrettyPrinter} for enabling the sniper mode.
+ */
+void
+setPrettyPrinterCreator
+(
+Supplier
+<
+PrettyPrinter
+>
+creator
+)
+;

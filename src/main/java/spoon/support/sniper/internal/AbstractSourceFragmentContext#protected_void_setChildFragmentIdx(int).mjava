@@ -1,0 +1,17 @@
+/** 
+ * Remembers index of last processed fragment
+ * @param idx index of last processed fragment
+ */
+protected
+void
+setChildFragmentIdx
+(
+int
+idx
+)
+{
+childFragmentIdx
+=
+idx
+;
+}

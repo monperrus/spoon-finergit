@@ -1,0 +1,13 @@
+@Override
+protected
+Boolean
+isFragmentModified
+(
+SourceFragment
+fragment
+)
+{
+return
+null
+;
+}

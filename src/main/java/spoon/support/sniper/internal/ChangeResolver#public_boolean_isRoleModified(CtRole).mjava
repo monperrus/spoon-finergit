@@ -1,0 +1,36 @@
+/** 
+ * @param ctRole to be checked {@link CtRole}
+ * @return true if `ctRole` of scope `element` is modified
+ */
+public
+boolean
+isRoleModified
+(
+CtRole
+ctRole
+)
+{
+if
+(
+changedRoles
+==
+null
+)
+{
+throw
+new
+SpoonException
+(
+"changedRoles are not initialized for this ChangeResolver. Use getChanges(...) instead"
+)
+;
+}
+return
+changedRoles
+.
+contains
+(
+ctRole
+)
+;
+}

@@ -1,0 +1,10 @@
+/** 
+ * @return true if this context can handle `role`
+ */
+boolean
+matchesPrinterEvent
+(
+PrinterEvent
+event
+)
+;

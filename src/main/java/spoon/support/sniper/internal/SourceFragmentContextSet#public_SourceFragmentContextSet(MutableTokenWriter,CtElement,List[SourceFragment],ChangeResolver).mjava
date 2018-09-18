@@ -1,0 +1,33 @@
+/** 
+ * @param mutableTokenWriter {@link MutableTokenWriter}, which is used for printing
+ * @param element the {@link CtElement} whose list attribute is handled
+ */
+public
+SourceFragmentContextSet
+(
+MutableTokenWriter
+mutableTokenWriter
+,
+CtElement
+element
+,
+List
+<
+SourceFragment
+>
+fragments
+,
+ChangeResolver
+changeResolver
+)
+{
+super
+(
+mutableTokenWriter
+,
+fragments
+,
+changeResolver
+)
+;
+}

@@ -1,0 +1,35 @@
+/** 
+ * @param mutableTokenWriter {@link MutableTokenWriter}, which is used for printing
+ * @param element the {@link CtElement} whose list attribute is handled
+ * @param fragments the List of fragments, which represents whole list of elements. E.g. body of method or all type members of type
+ * @param changeResolver {@link ChangeResolver}, which can be used to detect changes of list items
+ */
+public
+SourceFragmentContextList
+(
+MutableTokenWriter
+mutableTokenWriter
+,
+CtElement
+element
+,
+List
+<
+SourceFragment
+>
+fragments
+,
+ChangeResolver
+changeResolver
+)
+{
+super
+(
+mutableTokenWriter
+,
+fragments
+,
+changeResolver
+)
+;
+}

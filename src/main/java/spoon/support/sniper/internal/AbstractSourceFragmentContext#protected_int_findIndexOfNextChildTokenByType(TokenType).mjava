@@ -1,0 +1,41 @@
+/** 
+ * looks for next child token which contains expected token type
+ * @param type {@link TokenType} of search token
+ * @return index of token with same type or -1 if not found
+ */
+protected
+int
+findIndexOfNextChildTokenByType
+(
+TokenType
+type
+)
+{
+return
+findIndexOfNextFragment
+(
+childFragments
+,
+childFragmentIdx
++
+1
+,
+filter
+(
+TokenSourceFragment
+.
+class
+,
+fragment
+->
+type
+==
+fragment
+.
+getType
+(
+)
+)
+)
+;
+}

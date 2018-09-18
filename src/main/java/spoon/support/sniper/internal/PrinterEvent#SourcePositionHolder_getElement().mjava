@@ -1,0 +1,8 @@
+/** 
+ * @return printed element or null if printing a primitive token
+ */
+SourcePositionHolder
+getElement
+(
+)
+;

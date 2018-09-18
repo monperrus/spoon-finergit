@@ -1,0 +1,42 @@
+/** 
+ * @param element to be checked element
+ * @return Set of {@link CtRole}s, which are modified for `element`
+ */
+public
+Set
+<
+CtRole
+>
+getChanges
+(
+SourcePositionHolder
+element
+)
+{
+if
+(
+element
+instanceof
+CtElement
+)
+{
+return
+changeCollector
+.
+getChanges
+(
+(
+CtElement
+)
+element
+)
+;
+}
+return
+Collections
+.
+emptySet
+(
+)
+;
+}

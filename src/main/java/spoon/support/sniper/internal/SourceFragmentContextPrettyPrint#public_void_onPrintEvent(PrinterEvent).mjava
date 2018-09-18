@@ -1,0 +1,17 @@
+@Override
+public
+void
+onPrintEvent
+(
+PrinterEvent
+event
+)
+{
+event
+.
+print
+(
+null
+)
+;
+}

@@ -1,0 +1,45 @@
+/** 
+ * looks for next child token which has role `role`
+ * @param role {@link CtRole} of searched token
+ * @return index of first token with same role or -1 if not found
+ */
+protected
+int
+findIndexOfNextChildTokenOfRole
+(
+int
+start
+,
+CtRole
+role
+)
+{
+return
+findIndexOfNextFragment
+(
+childFragments
+,
+start
+,
+checkCollectionItems
+(
+filter
+(
+ElementSourceFragment
+.
+class
+,
+elementFragment
+->
+elementFragment
+.
+getRoleInParent
+(
+)
+==
+role
+)
+)
+)
+;
+}

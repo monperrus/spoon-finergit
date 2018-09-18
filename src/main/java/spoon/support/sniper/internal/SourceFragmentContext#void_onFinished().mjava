@@ -1,0 +1,8 @@
+/** 
+ * Called when printing using this context is going to finish
+ */
+void
+onFinished
+(
+)
+;

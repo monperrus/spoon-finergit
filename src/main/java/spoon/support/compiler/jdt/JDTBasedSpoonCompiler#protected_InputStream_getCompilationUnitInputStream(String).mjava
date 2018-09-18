@@ -57,10 +57,10 @@ getDeclaredTypes
 PrettyPrinter
 printer
 =
-new
-DefaultJavaPrettyPrinter
-(
 env
+.
+createPrettyPrinter
+(
 )
 ;
 printer

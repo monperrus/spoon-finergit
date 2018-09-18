@@ -1,0 +1,44 @@
+/** 
+ * Call normal java printing in defined `context`
+ * @param element to be printed element
+ * @param context to be used context
+ * @param muted whether it has to be processed usingtrue - muted, false - not muted null - same like before
+ */
+private
+void
+superScanInContext
+(
+CtElement
+element
+,
+SourceFragmentContext
+context
+,
+Boolean
+muted
+)
+{
+runInContext
+(
+context
+,
+(
+)
+->
+runInMutedState
+(
+muted
+,
+(
+)
+->
+super
+.
+scan
+(
+element
+)
+)
+)
+;
+}

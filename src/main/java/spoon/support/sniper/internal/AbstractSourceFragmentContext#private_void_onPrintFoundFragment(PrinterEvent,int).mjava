@@ -1,0 +1,49 @@
+/** 
+ * prints not modified or partially modified origin source fragment
+ * @param event a pretty printer event
+ * @param fragmentIndex a index of {@link SourceFragment} in scope of {@link #childFragments} of this context
+ */
+private
+void
+onPrintFoundFragment
+(
+PrinterEvent
+event
+,
+int
+fragmentIndex
+)
+{
+printSpaces
+(
+fragmentIndex
+)
+;
+setChildFragmentIdx
+(
+fragmentIndex
+)
+;
+SourceFragment
+fragment
+=
+childFragments
+.
+get
+(
+fragmentIndex
+)
+;
+event
+.
+printSourceFragment
+(
+fragment
+,
+isFragmentModified
+(
+fragment
+)
+)
+;
+}

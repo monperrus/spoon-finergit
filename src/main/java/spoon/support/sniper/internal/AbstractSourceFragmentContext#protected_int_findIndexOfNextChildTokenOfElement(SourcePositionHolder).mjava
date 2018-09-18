@@ -1,0 +1,44 @@
+/** 
+ * looks for next child token, which has element `element
+ * @param element element of searched token
+ * @return index of first token with same element or -1 if not found
+ */
+protected
+int
+findIndexOfNextChildTokenOfElement
+(
+SourcePositionHolder
+element
+)
+{
+return
+findIndexOfNextFragment
+(
+childFragments
+,
+childFragmentIdx
++
+1
+,
+checkCollectionItems
+(
+filter
+(
+ElementSourceFragment
+.
+class
+,
+elementFragment
+->
+elementFragment
+.
+getElement
+(
+)
+==
+element
+)
+)
+)
+;
+}

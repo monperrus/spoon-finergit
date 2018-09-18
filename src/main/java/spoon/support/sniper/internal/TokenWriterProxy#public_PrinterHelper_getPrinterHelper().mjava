@@ -1,0 +1,14 @@
+public
+PrinterHelper
+getPrinterHelper
+(
+)
+{
+return
+delegate
+.
+getPrinterHelper
+(
+)
+;
+}

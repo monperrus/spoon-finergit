@@ -1,0 +1,8 @@
+/** 
+ * @return printed token or null if printing complex element or comment
+ */
+String
+getToken
+(
+)
+;

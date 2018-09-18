@@ -1,0 +1,33 @@
+/** 
+ * Prints spaces before fragment with index `fragmentIndex`
+ * @param fragmentIndex index of fragment whose prefix spaces has to be printed or -1 if origin source fragment was not found
+ */
+protected
+void
+printSpaces
+(
+int
+fragmentIndex
+)
+{
+if
+(
+fragmentIndex
+<
+0
+)
+{
+printStandardSpaces
+(
+)
+;
+}
+else
+{
+printOriginSpacesUntilFragmentIndex
+(
+fragmentIndex
+)
+;
+}
+}

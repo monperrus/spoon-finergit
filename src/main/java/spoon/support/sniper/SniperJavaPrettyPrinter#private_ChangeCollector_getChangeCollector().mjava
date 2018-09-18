@@ -1,0 +1,46 @@
+/** 
+ * @return {@link ChangeCollector} registered in spoon environment
+ */
+private
+ChangeCollector
+getChangeCollector
+(
+)
+{
+ChangeCollector
+changeCollector
+=
+ChangeCollector
+.
+getChangeCollector
+(
+env
+)
+;
+if
+(
+changeCollector
+==
+null
+)
+{
+throw
+new
+SpoonException
+(
+ChangeCollector
+.
+class
+.
+getSimpleName
+(
+)
++
+" was not attached to the Environment"
+)
+;
+}
+return
+changeCollector
+;
+}

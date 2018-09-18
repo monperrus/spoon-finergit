@@ -1,0 +1,57 @@
+/** 
+ * Checks if `event` can be still handled by the current context. If not then finish current context and enter parent context
+ * @param event a to be processed {@link PrinterEvent}
+ * @return context which can be used to process `event`
+ */
+private
+SourceFragmentContext
+detectCurrentContext
+(
+PrinterEvent
+event
+)
+{
+SourceFragmentContext
+sfc
+;
+while
+(
+(
+sfc
+=
+sourceFragmentContextStack
+.
+peek
+(
+)
+)
+!=
+null
+&&
+sfc
+.
+matchesPrinterEvent
+(
+event
+)
+==
+false
+)
+{
+sourceFragmentContextStack
+.
+pop
+(
+)
+;
+sfc
+.
+onFinished
+(
+)
+;
+}
+return
+sfc
+;
+}

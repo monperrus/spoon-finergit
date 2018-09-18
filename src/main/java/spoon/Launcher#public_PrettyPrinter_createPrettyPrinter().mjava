@@ -5,12 +5,12 @@ createPrettyPrinter
 )
 {
 return
-new
-DefaultJavaPrettyPrinter
-(
 getEnvironment
 (
 )
+.
+createPrettyPrinter
+(
 )
 ;
 }

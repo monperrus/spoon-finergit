@@ -1,0 +1,22 @@
+/** 
+ * Prints origin whitespaces including comments which prefixes the fragment on index `index`, starting with not yet processed spaces
+ * @param index of non white space fragment
+ */
+protected
+void
+printOriginSpacesUntilFragmentIndex
+(
+int
+index
+)
+{
+printOriginSpacesUntilFragmentIndex
+(
+childFragmentIdx
++
+1
+,
+index
+)
+;
+}

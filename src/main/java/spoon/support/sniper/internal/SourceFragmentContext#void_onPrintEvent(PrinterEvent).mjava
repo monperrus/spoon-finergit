@@ -1,0 +1,11 @@
+/** 
+ * Called when  {@link DefaultJavaPrettyPrinter} starts an operation
+ * @param event the {@link DefaultJavaPrettyPrinter} event
+ */
+void
+onPrintEvent
+(
+PrinterEvent
+event
+)
+;

@@ -1,0 +1,39 @@
+/** 
+ * looks for next child token which contains exactly same token
+ * @param token String of searched token
+ * @return index of first same token or -1 if not found
+ */
+protected
+int
+findIndexOfNextChildTokenByValue
+(
+String
+token
+)
+{
+return
+findIndexOfNextFragment
+(
+childFragments
+,
+childFragmentIdx
++
+1
+,
+fragment
+->
+Objects
+.
+equals
+(
+token
+,
+fragment
+.
+getSourceCode
+(
+)
+)
+)
+;
+}

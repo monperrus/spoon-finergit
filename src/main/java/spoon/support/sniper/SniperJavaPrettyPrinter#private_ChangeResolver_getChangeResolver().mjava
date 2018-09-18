@@ -1,0 +1,33 @@
+/** 
+ * @return new or cached instance of root ChangeResolver
+ */
+private
+ChangeResolver
+getChangeResolver
+(
+)
+{
+if
+(
+changeResolver
+==
+null
+)
+{
+changeResolver
+=
+new
+ChangeResolver
+(
+getChangeCollector
+(
+)
+,
+null
+)
+;
+}
+return
+changeResolver
+;
+}

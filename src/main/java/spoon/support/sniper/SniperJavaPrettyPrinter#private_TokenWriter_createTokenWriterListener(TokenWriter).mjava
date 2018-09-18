@@ -1,0 +1,25 @@
+/** 
+ * wrap a `tokenWriter` by a proxy which intercepts all  {@link TokenWriter} writeXxx(String) callsand calls  {@link #onTokenWriterWrite(TokenType,String,CtComment,Runnable)}where  {@link Runnable} can be used to invoke same event on the wrapped {@link TokenWriter}
+ * @param tokenWriter to be wrapped {@link TokenWriter}
+ * @return a proxy of {@link TokenWriter}
+ */
+private
+TokenWriter
+createTokenWriterListener
+(
+TokenWriter
+tokenWriter
+)
+{
+return
+new
+TokenWriterProxy
+(
+this
+::
+onTokenWriterWrite
+,
+tokenWriter
+)
+;
+}

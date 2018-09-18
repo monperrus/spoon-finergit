@@ -1,0 +1,13 @@
+/** 
+ * @return {@link ChangeCollector}
+ */
+public
+ChangeCollector
+getChangeCollector
+(
+)
+{
+return
+changeCollector
+;
+}
