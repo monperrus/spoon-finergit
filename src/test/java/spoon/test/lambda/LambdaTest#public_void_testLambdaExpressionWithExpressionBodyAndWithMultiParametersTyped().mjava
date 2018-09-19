@@ -50,12 +50,6 @@ CtParameter
 >
 parameter1
 =
-(
-CtParameter
-<
-?
->
-)
 lambda
 .
 getParameters
@@ -92,12 +86,6 @@ CtParameter
 >
 parameter2
 =
-(
-CtParameter
-<
-?
->
-)
 lambda
 .
 getParameters

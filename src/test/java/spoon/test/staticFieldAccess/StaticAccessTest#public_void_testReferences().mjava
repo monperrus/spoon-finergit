@@ -11,12 +11,6 @@ CtType
 >
 type
 =
-(
-CtType
-<
-?
->
-)
 factory
 .
 Type

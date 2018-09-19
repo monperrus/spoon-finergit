@@ -61,12 +61,6 @@ ref
 .
 setType
 (
-(
-CtTypeReference
-<
-T
->
-)
 getTypeReference
 (
 binding

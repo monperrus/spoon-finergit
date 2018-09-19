@@ -153,12 +153,7 @@ parameter
 split
 )
 {
-(
-(
-CtTypeReference
-)
 main
-)
 .
 addActualTypeArgument
 (

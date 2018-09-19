@@ -22,12 +22,6 @@ CtParameter
 >
 param
 =
-(
-CtParameter
-<
-?
->
-)
 lambda
 .
 getParameters

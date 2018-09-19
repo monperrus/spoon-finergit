@@ -51,12 +51,6 @@ ref
 .
 setType
 (
-(
-CtTypeReference
-<
-T
->
-)
 getTypeReference
 (
 methbin

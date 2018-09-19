@@ -100,12 +100,6 @@ ref
 .
 setType
 (
-(
-CtTypeReference
-<
-T
->
-)
 getTypeReference
 (
 varbin

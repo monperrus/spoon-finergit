@@ -108,9 +108,6 @@ parameters
 CtTypeReference
 refType
 =
-(
-CtTypeReference
-)
 param
 .
 getReference
@@ -203,9 +200,6 @@ parameters
 CtTypeReference
 refType
 =
-(
-CtTypeReference
-)
 param
 .
 getReference
@@ -298,9 +292,6 @@ parameters
 CtTypeReference
 refType
 =
-(
-CtTypeReference
-)
 param
 .
 getReference

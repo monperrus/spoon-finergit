@@ -264,12 +264,7 @@ argument
 CtElement
 receiver
 =
-(
-(
-CtElement
-)
 o
-)
 .
 clone
 (
