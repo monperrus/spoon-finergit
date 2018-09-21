@@ -1,0 +1,16 @@
+/** 
+ * This method contains List, but it will be removed during refactoring
+ */
+public
+void
+m
+(
+)
+{
+List
+<
+?
+>
+x
+;
+}
