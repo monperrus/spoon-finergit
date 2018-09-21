@@ -12,11 +12,6 @@ role
 =
 null
 ;
-ContainerKind
-kind
-=
-null
-;
 for
 (
 SourceFragment
@@ -55,6 +50,7 @@ getRoleInParent
 (
 )
 ;
+ContainerKind
 kind
 =
 esf
