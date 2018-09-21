@@ -44,6 +44,15 @@ compile
 (
 )
 ;
+assertFalse
+(
+compile
+.
+isParentInitialized
+(
+)
+)
+;
 final
 CtExpression
 <

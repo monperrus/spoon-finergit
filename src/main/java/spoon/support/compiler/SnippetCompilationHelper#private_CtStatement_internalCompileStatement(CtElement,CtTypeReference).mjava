@@ -117,6 +117,13 @@ delete
 (
 )
 ;
+ret
+.
+setParent
+(
+null
+)
+;
 if
 (
 ret
