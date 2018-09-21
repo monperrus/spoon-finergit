@@ -316,12 +316,6 @@ firstValue
 ,
 getLiteralValue
 (
-(
-CtExpression
-<
-?
->
-)
 inv2
 .
 getArguments

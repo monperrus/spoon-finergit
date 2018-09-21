@@ -48,9 +48,6 @@ compile
 CtTry
 tryStmt
 =
-(
-CtTry
-)
 clazz
 .
 getElements

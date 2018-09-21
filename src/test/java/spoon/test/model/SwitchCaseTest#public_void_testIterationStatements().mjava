@@ -127,12 +127,6 @@ CtCase
 >
 c
 =
-(
-CtCase
-<
-?
->
-)
 sw
 .
 getCases

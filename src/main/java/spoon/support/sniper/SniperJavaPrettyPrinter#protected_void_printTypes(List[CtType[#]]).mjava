@@ -16,9 +16,6 @@ types
 ElementSourceFragment
 rootFragment
 =
-(
-ElementSourceFragment
-)
 sourceCompilationUnit
 .
 getOriginalSourceFragment

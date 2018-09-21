@@ -88,9 +88,6 @@ get
 CtMethod
 ifaceMethod
 =
-(
-CtMethod
-)
 iface
 .
 getMethodsByName
