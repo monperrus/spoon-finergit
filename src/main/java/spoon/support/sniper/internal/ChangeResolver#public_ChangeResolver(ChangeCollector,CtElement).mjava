@@ -8,10 +8,6 @@ CtElement
 element
 )
 {
-super
-(
-)
-;
 this
 .
 changeCollector

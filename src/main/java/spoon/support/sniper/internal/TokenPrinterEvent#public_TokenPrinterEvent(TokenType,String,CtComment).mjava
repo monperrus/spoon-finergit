@@ -11,10 +11,6 @@ CtComment
 comment
 )
 {
-super
-(
-)
-;
 this
 .
 type
