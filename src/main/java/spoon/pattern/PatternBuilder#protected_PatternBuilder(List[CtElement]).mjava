@@ -8,6 +8,21 @@ CtElement
 template
 )
 {
+if
+(
+template
+==
+null
+)
+{
+throw
+new
+SpoonException
+(
+"Cannot create a Pattern from an null model"
+)
+;
+}
 this
 .
 templateTypeRef
@@ -34,21 +49,6 @@ template
 )
 )
 ;
-if
-(
-template
-==
-null
-)
-{
-throw
-new
-SpoonException
-(
-"Cannot create a Pattern from an null model"
-)
-;
-}
 this
 .
 valueConvertor
