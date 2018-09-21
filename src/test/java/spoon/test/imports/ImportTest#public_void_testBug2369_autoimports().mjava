@@ -4,8 +4,6 @@ void
 testBug2369_autoimports
 (
 )
-throws
-Exception
 {
 final
 Launcher

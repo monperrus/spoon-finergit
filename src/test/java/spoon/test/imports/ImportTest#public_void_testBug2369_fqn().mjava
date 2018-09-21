@@ -4,8 +4,6 @@ void
 testBug2369_fqn
 (
 )
-throws
-Exception
 {
 final
 Launcher
