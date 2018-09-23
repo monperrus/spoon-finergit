@@ -47,6 +47,7 @@ CtScanner
 CtRole
 scannedRole
 ;
+@Override
 public
 void
 scan
