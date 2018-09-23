@@ -87,6 +87,8 @@ exists
 )
 )
 ;
+try
+(
 BufferedReader
 reader
 =
@@ -99,7 +101,8 @@ FileReader
 f
 )
 )
-;
+)
+{
 assertTrue
 (
 reader
@@ -127,4 +130,5 @@ s
 )
 )
 ;
+}
 }
