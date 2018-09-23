@@ -6,7 +6,7 @@ T
 extends
 CtElement
 >
-Collection
+List
 <
 T
 >
