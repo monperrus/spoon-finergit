@@ -1,0 +1,16 @@
+public
+static
+void
+staticMethod
+(
+)
+{
+SnippetResources
+s
+=
+new
+SnippetResources
+(
+)
+;
+}
