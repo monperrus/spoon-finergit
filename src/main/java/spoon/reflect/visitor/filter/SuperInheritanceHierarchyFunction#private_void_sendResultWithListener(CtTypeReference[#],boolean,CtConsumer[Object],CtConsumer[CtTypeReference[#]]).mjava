@@ -41,6 +41,8 @@ if
 (
 mode
 ==
+ScanningMode
+.
 SKIP_ALL
 )
 {
@@ -58,6 +60,8 @@ if
 (
 mode
 ==
+ScanningMode
+.
 NORMAL
 &&
 query

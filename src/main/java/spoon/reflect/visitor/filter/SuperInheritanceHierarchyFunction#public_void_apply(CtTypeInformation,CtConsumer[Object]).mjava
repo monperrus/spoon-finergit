@@ -146,6 +146,8 @@ if
 (
 mode
 ==
+ScanningMode
+.
 SKIP_ALL
 )
 {
@@ -175,6 +177,8 @@ isTerminated
 {
 mode
 =
+ScanningMode
+.
 SKIP_CHILDREN
 ;
 }
@@ -183,6 +187,8 @@ if
 (
 mode
 ==
+ScanningMode
+.
 NORMAL
 )
 {

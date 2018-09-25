@@ -20,6 +20,8 @@ null
 )
 {
 return
+ScanningMode
+.
 NORMAL
 ;
 }
