@@ -133,12 +133,7 @@ ParameterNode
 pi
 )
 ,
-(
-(
-MapEntryNode
-)
-oldAttrNode
-)
+mapEntryNode
 .
 getValue
 (

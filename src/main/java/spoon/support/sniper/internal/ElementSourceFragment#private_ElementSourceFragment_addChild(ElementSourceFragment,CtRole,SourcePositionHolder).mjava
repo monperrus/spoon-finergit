@@ -42,14 +42,6 @@ getCompilationUnit
 null
 )
 {
-SourcePositionImpl
-childSPI
-=
-(
-SourcePositionImpl
-)
-otherSourcePosition
-;
 if
 (
 parentFragment

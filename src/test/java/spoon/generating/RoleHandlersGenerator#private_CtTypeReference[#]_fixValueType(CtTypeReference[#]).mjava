@@ -75,14 +75,6 @@ return
 valueType
 ;
 }
-CtTypeParameterReference
-tpr
-=
-(
-CtTypeParameterReference
-)
-valueType
-;
 return
 getFactory
 (

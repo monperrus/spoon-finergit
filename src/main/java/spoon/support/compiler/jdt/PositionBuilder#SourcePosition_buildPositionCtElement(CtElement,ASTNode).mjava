@@ -1957,14 +1957,6 @@ instanceof
 CaseStatement
 )
 {
-CaseStatement
-caseStmt
-=
-(
-CaseStatement
-)
-node
-;
 sourceEnd
 =
 findNextNonWhitespace

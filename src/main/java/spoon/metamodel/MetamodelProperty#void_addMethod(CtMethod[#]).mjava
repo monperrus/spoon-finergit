@@ -8,9 +8,6 @@ CtMethod
 method
 )
 {
-MMMethod
-mmMethod
-=
 addMethod
 (
 method

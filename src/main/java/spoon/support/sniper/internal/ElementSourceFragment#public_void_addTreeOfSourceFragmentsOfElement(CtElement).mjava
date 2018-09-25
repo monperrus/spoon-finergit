@@ -10,15 +10,6 @@ CtElement
 element
 )
 {
-SourcePosition
-sp
-=
-element
-.
-getPosition
-(
-)
-;
 Deque
 <
 ElementSourceFragment
