@@ -106,8 +106,6 @@ writeSeparator
 "("
 )
 ;
-this
-.
 scan
 (
 r
