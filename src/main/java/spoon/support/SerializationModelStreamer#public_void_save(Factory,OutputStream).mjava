@@ -38,6 +38,8 @@ out
 )
 ;
 }
+try
+(
 ObjectOutputStream
 oos
 =
@@ -50,7 +52,8 @@ BufferedOutputStream
 out
 )
 )
-;
+)
+{
 oos
 .
 writeObject
@@ -64,10 +67,5 @@ flush
 (
 )
 ;
-oos
-.
-close
-(
-)
-;
+}
 }
