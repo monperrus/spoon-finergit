@@ -85,6 +85,10 @@ CtArrayTypeReference
 erased
 =
 atr
+.
+clone
+(
+)
 ;
 erased
 .
@@ -93,8 +97,7 @@ setComponentType
 erasedCT
 )
 ;
-paramType
-=
+return
 erased
 ;
 }
