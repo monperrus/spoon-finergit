@@ -5,15 +5,10 @@ createEnvironment
 (
 )
 {
-Environment
-env
-=
+return
 new
 StandardEnvironment
 (
 )
-;
-return
-env
 ;
 }
