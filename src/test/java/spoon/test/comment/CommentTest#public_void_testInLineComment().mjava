@@ -1566,17 +1566,6 @@ getStatement
 13
 )
 ;
-ctConditional
-=
-(
-CtConditional
-)
-ctLocalVariable1
-.
-getDefaultExpression
-(
-)
-;
 assertEquals
 (
 "boolean c = (i == 1) ? // comment before then boolean CtConditional"
