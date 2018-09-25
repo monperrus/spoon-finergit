@@ -201,6 +201,8 @@ onMapAdd
 (
 this
 ,
+CtRole
+.
 VALUE
 ,
 this

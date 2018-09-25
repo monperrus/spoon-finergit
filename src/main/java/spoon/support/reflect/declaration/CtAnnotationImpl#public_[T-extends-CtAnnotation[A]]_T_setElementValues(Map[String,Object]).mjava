@@ -36,6 +36,8 @@ onMapDeleteAll
 (
 this
 ,
+CtRole
+.
 VALUE
 ,
 this
