@@ -4,8 +4,6 @@ void
 testSingleLineClassColumn
 (
 )
-throws
-Exception
 {
 final
 Factory

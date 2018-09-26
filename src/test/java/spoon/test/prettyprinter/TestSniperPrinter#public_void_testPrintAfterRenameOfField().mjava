@@ -4,8 +4,6 @@ void
 testPrintAfterRenameOfField
 (
 )
-throws
-Exception
 {
 testSniper
 (

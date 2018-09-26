@@ -4,8 +4,6 @@ void
 testCompileAndReplaceSnippetsIn
 (
 )
-throws
-Exception
 {
 final
 Launcher

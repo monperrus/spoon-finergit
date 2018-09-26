@@ -4,8 +4,6 @@ void
 testFirstLineColumn
 (
 )
-throws
-Exception
 {
 final
 Factory

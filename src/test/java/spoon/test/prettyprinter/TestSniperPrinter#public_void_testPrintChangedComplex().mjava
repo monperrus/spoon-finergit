@@ -4,8 +4,6 @@ void
 testPrintChangedComplex
 (
 )
-throws
-Exception
 {
 testSniper
 (

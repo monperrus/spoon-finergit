@@ -4,8 +4,6 @@ void
 testPrintUnchaged
 (
 )
-throws
-Exception
 {
 testSniper
 (
