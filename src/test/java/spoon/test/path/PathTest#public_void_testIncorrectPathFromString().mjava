@@ -126,7 +126,7 @@ CtPathStringBuilder
 .
 fromString
 (
-".spoon.test.path.testclasses.Foo.bar##annotation[index=0]#value[key=misspelled]"
+".spoon.test.path.testclasses.Foo.bar#annotation[index=0]#value[key=misspelled]"
 )
 .
 evaluateOn

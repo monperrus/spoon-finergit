@@ -90,7 +90,7 @@ CtPathStringBuilder
 .
 fromString
 (
-".spoon.test.path.testclasses.Foo.bar##annotation[index=0]#value"
+".spoon.test.path.testclasses.Foo.bar#annotation[index=0]#value"
 )
 .
 evaluateOn
