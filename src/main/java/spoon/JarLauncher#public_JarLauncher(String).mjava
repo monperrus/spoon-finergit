@@ -1,0 +1,24 @@
+/** 
+ * JarLauncher basic constructor. Uses the defauld Decompiler (CFR)
+ * @param jarPath path to the jar to be analyzed
+ */
+public
+JarLauncher
+(
+String
+jarPath
+)
+{
+this
+(
+jarPath
+,
+null
+,
+(
+String
+)
+null
+)
+;
+}

@@ -1,0 +1,14 @@
+public
+CFRDecompiler
+(
+File
+outputDir
+)
+{
+this
+.
+outputDir
+=
+outputDir
+;
+}

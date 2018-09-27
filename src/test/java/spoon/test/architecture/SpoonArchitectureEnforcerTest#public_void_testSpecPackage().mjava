@@ -36,6 +36,13 @@ officialPackages
 .
 add
 (
+"spoon.decompiler"
+)
+;
+officialPackages
+.
+add
+(
 "spoon.support.modelobs.action"
 )
 ;

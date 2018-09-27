@@ -1,0 +1,14 @@
+protected
+Decompiler
+getDefaultDecompiler
+(
+)
+{
+return
+new
+CFRDecompiler
+(
+decompiledSrc
+)
+;
+}
