@@ -1,0 +1,11 @@
+/** 
+ * @return holder for input value
+ */
+ResultHolder
+<
+?
+>
+createInputHolder
+(
+)
+;

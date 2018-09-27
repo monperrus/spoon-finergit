@@ -1,0 +1,20 @@
+/** 
+ * @param outputHolder holds result of computation
+ * @param inputHolder holds input of computation
+ */
+void
+computeValue
+(
+ResultHolder
+<
+Object
+>
+outputHolder
+,
+ResultHolder
+<
+?
+>
+inputHolder
+)
+;

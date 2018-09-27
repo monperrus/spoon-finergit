@@ -1,0 +1,8 @@
+/** 
+ * @return user friendly name of this computer
+ */
+String
+getName
+(
+)
+;
