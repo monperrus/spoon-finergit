@@ -52,6 +52,8 @@ ArrayList
 <
 >
 (
+ModelElementContainerDefaultCapacities
+.
 ANNOTATIONS_CONTAINER_DEFAULT_CAPACITY
 )
 ;
@@ -79,6 +81,8 @@ onListAdd
 (
 this
 ,
+CtRole
+.
 ANNOTATION
 ,
 this

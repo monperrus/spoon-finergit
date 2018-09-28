@@ -63,6 +63,8 @@ onListDeleteAll
 (
 this
 ,
+CtRole
+.
 ANNOTATION
 ,
 this

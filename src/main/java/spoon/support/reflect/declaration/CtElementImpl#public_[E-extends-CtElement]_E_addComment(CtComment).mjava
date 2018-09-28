@@ -46,6 +46,8 @@ ArrayList
 <
 >
 (
+ModelElementContainerDefaultCapacities
+.
 COMMENT_CONTAINER_DEFAULT_CAPACITY
 )
 ;
@@ -73,6 +75,8 @@ onListAdd
 (
 this
 ,
+CtRole
+.
 COMMENT
 ,
 this

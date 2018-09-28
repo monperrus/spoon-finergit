@@ -44,6 +44,8 @@ onListDelete
 (
 this
 ,
+CtRole
+.
 ANNOTATION
 ,
 annotations

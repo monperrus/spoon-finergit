@@ -42,6 +42,8 @@ onObjectUpdate
 (
 this
 ,
+CtRole
+.
 POSITION
 ,
 position
