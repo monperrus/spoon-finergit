@@ -1,5 +1,5 @@
 /** 
- * JarLauncher basic constructor. Uses the defauld Decompiler (CFR)
+ * JarLauncher basic constructor. Uses the default Decompiler (CFR)
  * @param jarPath path to the jar to be analyzed
  */
 public

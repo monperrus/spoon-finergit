@@ -1,7 +1,7 @@
 /** 
- * JarLauncher basic constructor. Uses the defauld Decompiler (CFR)
+ * JarLauncher basic constructor. Uses the default Decompiler (CFR)
  * @param jarPath path to the jar to be analyzed
- * @param decompiledSrcPath path to directory where decompiled source will be outputted
+ * @param decompiledSrcPath path to directory where decompiled source will be output
  * @param decompiler Instance implementing {@link spoon.decompiler.Decompiler} to be used
  */
 public
