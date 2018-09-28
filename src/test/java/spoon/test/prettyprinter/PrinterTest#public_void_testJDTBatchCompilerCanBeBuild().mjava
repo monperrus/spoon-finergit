@@ -129,6 +129,21 @@ getResult
 (
 )
 ;
+assertTrue
+(
+"The result should contain direct this accessor for field: "
++
+result
+,
+!
+result
+.
+contains
+(
+"Rule.Phoneme.this.phonemeText"
+)
+)
+;
 canBeBuilt
 (
 output
