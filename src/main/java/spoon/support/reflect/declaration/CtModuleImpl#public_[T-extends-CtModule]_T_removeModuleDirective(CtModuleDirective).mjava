@@ -62,9 +62,11 @@ onListDelete
 (
 this
 ,
-this
+CtRole
 .
-computeRoleFromModuleDirectory
+MODULE_DIRECTIVE
+.
+getMatchingSubRoleFor
 (
 moduleDirective
 )

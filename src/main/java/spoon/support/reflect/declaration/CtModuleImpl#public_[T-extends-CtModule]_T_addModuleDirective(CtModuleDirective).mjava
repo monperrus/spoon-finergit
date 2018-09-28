@@ -78,9 +78,11 @@ this
 CtRole
 role
 =
-this
+CtRole
 .
-computeRoleFromModuleDirectory
+MODULE_DIRECTIVE
+.
+getMatchingSubRoleFor
 (
 moduleDirective
 )

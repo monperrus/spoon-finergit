@@ -2,6 +2,12 @@ CtRole
 (
 CtRole
 superRole
+,
+Predicate
+<
+Object
+>
+predicate
 )
 {
 this
@@ -34,6 +40,12 @@ this
 .
 initSubRoles
 )
+;
+this
+.
+predicate
+=
+predicate
 ;
 if
 (
