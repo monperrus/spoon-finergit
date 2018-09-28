@@ -1,0 +1,41 @@
+/** 
+ * Elements will be substituted by parameter value
+ * @param elements to be substituted elements
+ * @return {@link PatternParameterConfigurator} to support fluent API
+ */
+public
+PatternParameterConfigurator
+byElement
+(
+CtElement
+...
+elements
+)
+{
+ParameterInfo
+pi
+=
+getCurrentParameter
+(
+)
+;
+for
+(
+CtElement
+element
+:
+elements
+)
+{
+addSubstitutionRequest
+(
+pi
+,
+element
+)
+;
+}
+return
+this
+;
+}
