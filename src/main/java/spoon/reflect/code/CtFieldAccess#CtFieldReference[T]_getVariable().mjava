@@ -1,3 +1,4 @@
+@Override
 @PropertyGetter(role=VARIABLE)
 CtFieldReference
 <
