@@ -1,0 +1,29 @@
+/** 
+ * @param addParameterComments if true then it adds comments with parameter names
+ * @return pattern printed as java sources
+ */
+public
+String
+print
+(
+boolean
+addParameterComments
+)
+{
+return
+new
+PatternPrinter
+(
+)
+.
+setPrintParametersAsComments
+(
+addParameterComments
+)
+.
+printNode
+(
+modelValueResolver
+)
+;
+}

@@ -41,6 +41,10 @@ paramOnElement
 }
 if
 (
+isPrintParametersAsComments
+(
+)
+&&
 isCommentVisible
 (
 ele

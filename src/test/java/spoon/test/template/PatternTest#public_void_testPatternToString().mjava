@@ -473,8 +473,9 @@ nl
 ,
 p
 .
-toString
+print
 (
+true
 )
 )
 ;
