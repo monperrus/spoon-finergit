@@ -49,6 +49,8 @@ onObjectUpdate
 (
 this
 ,
+CtRole
+.
 CASE
 ,
 caseExpression

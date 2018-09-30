@@ -61,6 +61,8 @@ onListDeleteAll
 (
 this
 ,
+CtRole
+.
 STATEMENT
 ,
 this

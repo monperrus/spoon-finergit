@@ -37,6 +37,8 @@ onListDelete
 (
 this
 ,
+CtRole
+.
 STATEMENT
 ,
 statements
