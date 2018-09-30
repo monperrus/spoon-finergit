@@ -22,15 +22,7 @@ if
 typeName
 ==
 null
-)
-{
-return
-null
-;
-}
-else
-if
-(
+||
 imports
 ==
 null
