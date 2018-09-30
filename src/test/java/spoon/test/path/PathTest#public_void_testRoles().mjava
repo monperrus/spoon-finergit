@@ -112,7 +112,7 @@ getPath
 ;
 assertEquals
 (
-"#subPackage[name=spoon]#subPackage[name=test]#subPackage[name=path]#subPackage[name=testclasses]#containedType[name=Foo]#typeMember[index=2]#body#statement[index=2]#else"
+"#subPackage[name=spoon]#subPackage[name=test]#subPackage[name=path]#subPackage[name=testclasses]#containedType[name=Foo]#method[signature=foo()]#body#statement[index=2]#else"
 ,
 absPath
 .
@@ -133,7 +133,7 @@ fooClass
 ;
 assertEquals
 (
-"#typeMember[index=2]#body#statement[index=2]#else"
+"#method[signature=foo()]#body#statement[index=2]#else"
 ,
 subPath
 .

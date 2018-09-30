@@ -1,0 +1,34 @@
+/** 
+ * Build absolute path to a CtElement el.
+ * @throws CtPathException is thrown when root is not a parent of el.
+ * @param el : the element to which the CtPath leads to
+ * @return CtPath from model root package to el
+ */
+public
+CtPath
+fromElement
+(
+CtElement
+el
+)
+throws
+CtPathException
+{
+return
+fromElement
+(
+el
+,
+el
+.
+getParent
+(
+CtModelImpl
+.
+CtRootPackage
+.
+class
+)
+)
+;
+}

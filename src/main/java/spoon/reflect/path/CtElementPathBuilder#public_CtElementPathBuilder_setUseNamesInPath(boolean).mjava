@@ -1,0 +1,23 @@
+/** 
+ * Configures what kind of path is generated for List based attributes<br> A) #superRole[index=x] - always use index to identify item of List. For example `#typeMember[index=7]`. Such paths are fast. B) #subRole[name=x] - use simpleName or signature of List item if possible. Use the most specific role too. For example `#field[name=counter]` or `#method[signature=getCounter()]`. Such paths are more readable but slower.
+ * @param useNamesInPath if true then names are used instead of index
+ * @return this to support fluent API
+ */
+public
+CtElementPathBuilder
+setUseNamesInPath
+(
+boolean
+useNamesInPath
+)
+{
+this
+.
+useNamesInPath
+=
+useNamesInPath
+;
+return
+this
+;
+}

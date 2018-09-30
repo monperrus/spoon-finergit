@@ -6,9 +6,10 @@ pattern
 )
 {
 this
-.
+(
 pattern
-=
-pattern
+,
+true
+)
 ;
 }

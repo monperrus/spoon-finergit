@@ -2,7 +2,10 @@ private
 CtElement
 getFromSet
 (
-Set
+Collection
+<
+?
+>
 set
 ,
 String

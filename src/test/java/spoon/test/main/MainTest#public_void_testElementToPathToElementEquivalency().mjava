@@ -63,6 +63,17 @@ fromString
 pathStr
 )
 ;
+assertEquals
+(
+pathStr
+,
+pathRead
+.
+toString
+(
+)
+)
+;
 Collection
 <
 CtElement
@@ -116,9 +127,55 @@ CtPathException
 e
 )
 {
-fail
+throw
+new
+AssertionError
 (
-"Path is either incorrectly generated or incorrectly read"
+"Path "
++
+pathStr
++
+" is either incorrectly generated or incorrectly read"
+,
+e
+)
+;
+}
+catch
+(
+AssertionError
+e
+)
+{
+throw
+new
+AssertionError
+(
+"Path "
++
+pathStr
++
+" detection failed on "
++
+element
+.
+getClass
+(
+)
+.
+getSimpleName
+(
+)
++
+": "
++
+element
+.
+toString
+(
+)
+,
+e
 )
 ;
 }

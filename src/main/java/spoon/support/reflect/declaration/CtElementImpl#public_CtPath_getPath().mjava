@@ -14,15 +14,6 @@ CtElementPathBuilder
 fromElement
 (
 this
-,
-getParent
-(
-CtModelImpl
-.
-CtRootPackage
-.
-class
-)
 )
 ;
 }
