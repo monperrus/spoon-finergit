@@ -28,6 +28,8 @@ onObjectUpdate
 (
 this
 ,
+CtRole
+.
 IS_SHADOW
 ,
 isShadow

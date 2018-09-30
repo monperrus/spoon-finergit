@@ -38,6 +38,8 @@ onListDelete
 (
 this
 ,
+CtRole
+.
 TYPE_PARAMETER
 ,
 formalCtTypeParameters

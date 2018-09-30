@@ -31,6 +31,8 @@ onListDeleteAll
 (
 this
 ,
+CtRole
+.
 TYPE_PARAMETER
 ,
 this
@@ -100,6 +102,8 @@ ArrayList
 <
 >
 (
+ModelElementContainerDefaultCapacities
+.
 TYPE_TYPE_PARAMETERS_CONTAINER_DEFAULT_CAPACITY
 )
 ;
