@@ -46,6 +46,8 @@ onObjectUpdate
 (
 this
 ,
+CtRole
+.
 TYPE
 ,
 type

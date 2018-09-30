@@ -49,6 +49,8 @@ onObjectUpdate
 (
 this
 ,
+CtRole
+.
 DEFAULT_EXPRESSION
 ,
 defaultExpression
