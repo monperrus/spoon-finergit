@@ -68,7 +68,7 @@ getPath
 (
 )
 +
-"not found."
+" not found."
 )
 ;
 }
@@ -151,21 +151,6 @@ getEnvironment
 )
 )
 ;
-if
-(
-pomModel
-==
-null
-)
-{
-throw
-new
-SpoonException
-(
-"Unable to create the model, pom not found?"
-)
-;
-}
 getEnvironment
 (
 )
