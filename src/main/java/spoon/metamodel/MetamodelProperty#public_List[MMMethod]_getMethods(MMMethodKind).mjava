@@ -1,3 +1,7 @@
+/** 
+ * @param kind {@link MMMethodKind}
+ * @return methods of required `kind`
+ */
 public
 List
 <
