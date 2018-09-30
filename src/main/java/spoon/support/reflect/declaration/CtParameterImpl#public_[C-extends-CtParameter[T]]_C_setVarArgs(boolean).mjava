@@ -31,6 +31,8 @@ onObjectUpdate
 (
 this
 ,
+CtRole
+.
 IS_VARARGS
 ,
 varArgs
