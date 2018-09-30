@@ -47,6 +47,8 @@ ArrayList
 <
 >
 (
+ModelElementContainerDefaultCapacities
+.
 CATCH_VARIABLE_MULTI_TYPES_CONTAINER_DEFAULT_CAPACITY
 )
 ;
@@ -74,6 +76,8 @@ onListAdd
 (
 this
 ,
+CtRole
+.
 MULTI_TYPE
 ,
 this
