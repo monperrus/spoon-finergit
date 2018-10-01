@@ -268,25 +268,6 @@ element
 )
 ;
 }
-if
-(
-changeResolver
-.
-hasChangedRole
-(
-)
-==
-false
-)
-{
-throw
-new
-SpoonException
-(
-"The modified fragment has no changed roles?"
-)
-;
-}
 superScanInContext
 (
 element
