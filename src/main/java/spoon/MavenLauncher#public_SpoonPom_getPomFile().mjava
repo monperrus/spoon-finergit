@@ -1,0 +1,13 @@
+/** 
+ * @return SpoonPom corresponding to the pom file used by the launcher
+ */
+public
+SpoonPom
+getPomFile
+(
+)
+{
+return
+model
+;
+}
