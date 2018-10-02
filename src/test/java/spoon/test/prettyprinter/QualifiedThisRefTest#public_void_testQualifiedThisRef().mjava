@@ -94,8 +94,6 @@ scan
 ctClass
 )
 ;
-Assert
-.
 assertTrue
 (
 printer
@@ -110,8 +108,6 @@ contains
 )
 )
 ;
-Assert
-.
 assertTrue
 (
 printer

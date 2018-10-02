@@ -22,8 +22,6 @@ elem
 )
 ->
 {
-Assert
-.
 assertTrue
 (
 "no parent for "

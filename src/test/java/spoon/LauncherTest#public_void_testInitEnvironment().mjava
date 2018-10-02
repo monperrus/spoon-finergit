@@ -44,8 +44,6 @@ getEnvironment
 (
 )
 ;
-Assert
-.
 assertTrue
 (
 environment
@@ -55,8 +53,6 @@ isAutoImports
 )
 )
 ;
-Assert
-.
 assertTrue
 (
 environment
@@ -66,8 +62,6 @@ isUsingTabulations
 )
 )
 ;
-Assert
-.
 assertTrue
 (
 environment
@@ -99,8 +93,6 @@ getComplianceLevel
 )
 )
 ;
-Assert
-.
 assertFalse
 (
 environment

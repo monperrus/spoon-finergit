@@ -27,8 +27,6 @@ getType
 "Foo"
 )
 ;
-Assert
-.
 assertEquals
 (
 factory
@@ -106,8 +104,6 @@ replace
 replacement
 )
 ;
-Assert
-.
 assertEquals
 (
 factory
@@ -208,8 +204,6 @@ getField
 )
 )
 ;
-Assert
-.
 assertEquals
 (
 factory

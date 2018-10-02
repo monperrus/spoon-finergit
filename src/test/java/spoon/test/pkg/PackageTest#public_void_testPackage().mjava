@@ -120,8 +120,6 @@ getPackage
 (
 )
 ;
-Assert
-.
 assertEquals
 (
 "spoon.test.pkg.name"
@@ -133,8 +131,6 @@ getQualifiedName
 )
 )
 ;
-Assert
-.
 assertEquals
 (
 ""
@@ -177,8 +173,6 @@ getParent
 (
 )
 ;
-Assert
-.
 assertEquals
 (
 "spoon.test.pkg"
@@ -201,8 +195,6 @@ getPosition
 )
 )
 ;
-Assert
-.
 assertEquals
 (
 packageInfoFile
@@ -226,8 +218,6 @@ getCanonicalPath
 )
 )
 ;
-Assert
-.
 assertEquals
 (
 1
@@ -243,8 +233,6 @@ getLine
 )
 )
 ;
-Assert
-.
 assertEquals
 (
 0
@@ -260,8 +248,6 @@ getSourceStart
 )
 )
 ;
-Assert
-.
 assertEquals
 (
 71
@@ -277,8 +263,6 @@ getSourceEnd
 )
 )
 ;
-Assert
-.
 assertEquals
 (
 1
@@ -294,8 +278,6 @@ size
 )
 )
 ;
-Assert
-.
 assertEquals
 (
 "This is test\nJavaDoc."
@@ -352,8 +334,6 @@ getActualClass
 )
 )
 ;
-Assert
-.
 assertEquals
 (
 packageInfoFile
@@ -377,8 +357,6 @@ getCanonicalPath
 )
 )
 ;
-Assert
-.
 assertEquals
 (
 5
@@ -425,8 +403,6 @@ getParent
 (
 )
 ;
-Assert
-.
 assertEquals
 (
 "spoon.test"
@@ -438,8 +414,6 @@ getQualifiedName
 )
 )
 ;
-Assert
-.
 assertEquals
 (
 ""

@@ -194,8 +194,6 @@ other
 null
 )
 {
-Assert
-.
 fail
 (
 "element can't be null if other isn't null."
@@ -211,8 +209,6 @@ other
 null
 )
 {
-Assert
-.
 fail
 (
 "other can't be null if element isn't null."

@@ -20,8 +20,6 @@ getInvocationFromMethod
 "testConstructor"
 )
 ;
-Assert
-.
 assertTrue
 (
 ctAbstractInvocation
@@ -44,8 +42,6 @@ getExecutable
 (
 )
 ;
-Assert
-.
 assertNotNull
 (
 executableReference
@@ -63,8 +59,6 @@ getActualConstructor
 (
 )
 ;
-Assert
-.
 assertNotNull
 (
 constructor

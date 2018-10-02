@@ -279,8 +279,6 @@ getMethod
 "m"
 )
 ;
-Assert
-.
 assertEquals
 (
 42

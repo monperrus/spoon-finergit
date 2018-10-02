@@ -62,8 +62,6 @@ instanceof
 CtLiteral
 )
 ;
-Assert
-.
 assertEquals
 (
 3
@@ -118,8 +116,6 @@ replace
 replacement
 )
 ;
-Assert
-.
 assertEquals
 (
 42

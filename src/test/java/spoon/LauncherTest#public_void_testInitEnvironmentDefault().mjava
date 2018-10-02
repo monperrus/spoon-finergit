@@ -42,8 +42,6 @@ getEnvironment
 (
 )
 ;
-Assert
-.
 assertFalse
 (
 environment
@@ -53,8 +51,6 @@ isAutoImports
 )
 )
 ;
-Assert
-.
 assertFalse
 (
 environment
@@ -64,8 +60,6 @@ isUsingTabulations
 )
 )
 ;
-Assert
-.
 assertFalse
 (
 environment
@@ -86,8 +80,6 @@ getTabulationSize
 )
 )
 ;
-Assert
-.
 assertTrue
 (
 environment
@@ -109,8 +101,6 @@ getDefaultFileGenerator
 (
 )
 ;
-Assert
-.
 assertTrue
 (
 processor

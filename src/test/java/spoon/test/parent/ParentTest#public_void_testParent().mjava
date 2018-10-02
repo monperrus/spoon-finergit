@@ -76,8 +76,6 @@ Exception
 e
 )
 {
-Assert
-.
 fail
 (
 )

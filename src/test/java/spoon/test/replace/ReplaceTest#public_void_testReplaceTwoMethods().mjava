@@ -195,8 +195,6 @@ getMethod
 )
 )
 ;
-Assert
-.
 assertEquals
 (
 originCountOfMethods

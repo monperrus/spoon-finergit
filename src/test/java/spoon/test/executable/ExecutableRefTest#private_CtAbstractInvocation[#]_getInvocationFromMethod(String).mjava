@@ -44,8 +44,6 @@ ExecutableRefTestSource
 class
 )
 ;
-Assert
-.
 assertNotNull
 (
 clazz
@@ -103,8 +101,6 @@ getBody
 (
 )
 ;
-Assert
-.
 assertNotNull
 (
 ctBody
@@ -143,8 +139,6 @@ get
 0
 )
 ;
-Assert
-.
 assertTrue
 (
 ctStatement

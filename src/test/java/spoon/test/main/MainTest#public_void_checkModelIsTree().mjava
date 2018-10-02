@@ -92,8 +92,6 @@ firstStack
 dummyException
 )
 {
-Assert
-.
 fail
 (
 "The Spoon model is not a tree. The "
@@ -222,8 +220,6 @@ isEmpty
 )
 )
 {
-Assert
-.
 fail
 (
 report

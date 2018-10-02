@@ -20,8 +20,6 @@ getInvocationFromMethod
 "testMethod"
 )
 ;
-Assert
-.
 assertTrue
 (
 ctAbstractInvocation
@@ -44,8 +42,6 @@ getExecutable
 (
 )
 ;
-Assert
-.
 assertNotNull
 (
 executableReference
@@ -60,8 +56,6 @@ getActualMethod
 (
 )
 ;
-Assert
-.
 assertNotNull
 (
 method
