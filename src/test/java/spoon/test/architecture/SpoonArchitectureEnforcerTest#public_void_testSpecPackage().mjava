@@ -358,6 +358,13 @@ officialPackages
 .
 add
 (
+"spoon.support.util.internal"
+)
+;
+officialPackages
+.
+add
+(
 "spoon.support.visitor.clone"
 )
 ;
