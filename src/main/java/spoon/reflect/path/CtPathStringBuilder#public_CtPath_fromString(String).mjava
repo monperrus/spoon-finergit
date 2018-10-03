@@ -80,12 +80,10 @@ length
 &&
 PATH_DELIMITERS
 .
-indexOf
+contains
 (
 token
 )
->=
-0
 )
 {
 throw
