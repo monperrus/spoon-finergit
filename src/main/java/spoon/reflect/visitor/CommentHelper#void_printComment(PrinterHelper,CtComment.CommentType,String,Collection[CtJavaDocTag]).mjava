@@ -32,6 +32,8 @@ printer
 .
 write
 (
+DefaultJavaPrettyPrinter
+.
 JAVADOC_START
 )
 .
@@ -48,6 +50,8 @@ printer
 .
 write
 (
+DefaultJavaPrettyPrinter
+.
 JAVADOC_START
 )
 .
@@ -64,6 +68,8 @@ printer
 .
 write
 (
+DefaultJavaPrettyPrinter
+.
 INLINE_COMMENT_START
 )
 ;
@@ -76,6 +82,8 @@ printer
 .
 write
 (
+DefaultJavaPrettyPrinter
+.
 BLOCK_COMMENT_START
 )
 ;
@@ -172,6 +180,8 @@ printer
 .
 write
 (
+DefaultJavaPrettyPrinter
+.
 COMMENT_STAR
 +
 com
@@ -258,6 +268,8 @@ printer
 .
 write
 (
+DefaultJavaPrettyPrinter
+.
 BLOCK_COMMENT_END
 )
 ;
@@ -270,6 +282,8 @@ printer
 .
 write
 (
+DefaultJavaPrettyPrinter
+.
 BLOCK_COMMENT_END
 )
 ;
@@ -282,6 +296,8 @@ printer
 .
 write
 (
+DefaultJavaPrettyPrinter
+.
 BLOCK_COMMENT_END
 )
 ;

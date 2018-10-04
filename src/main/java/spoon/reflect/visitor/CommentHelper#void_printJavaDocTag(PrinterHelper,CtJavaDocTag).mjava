@@ -13,6 +13,8 @@ printer
 .
 write
 (
+DefaultJavaPrettyPrinter
+.
 COMMENT_STAR
 )
 ;
@@ -142,6 +144,8 @@ printer
 .
 write
 (
+DefaultJavaPrettyPrinter
+.
 COMMENT_STAR
 )
 ;
