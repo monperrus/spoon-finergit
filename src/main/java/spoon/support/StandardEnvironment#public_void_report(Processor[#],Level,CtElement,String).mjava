@@ -19,11 +19,11 @@ String
 message
 )
 {
-StringBuffer
+StringBuilder
 buffer
 =
 new
-StringBuffer
+StringBuilder
 (
 )
 ;

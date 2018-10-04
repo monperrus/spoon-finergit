@@ -2,7 +2,7 @@ private
 void
 prefix
 (
-StringBuffer
+StringBuilder
 buffer
 ,
 Level
