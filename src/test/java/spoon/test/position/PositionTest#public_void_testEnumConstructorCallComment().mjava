@@ -14,8 +14,6 @@ CtType
 >
 foo
 =
-ModelUtils
-.
 buildClass
 (
 FooEnum

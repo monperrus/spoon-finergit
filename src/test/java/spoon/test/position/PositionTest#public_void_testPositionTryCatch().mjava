@@ -13,8 +13,6 @@ CtType
 >
 foo
 =
-ModelUtils
-.
 buildClass
 (
 PositionTry

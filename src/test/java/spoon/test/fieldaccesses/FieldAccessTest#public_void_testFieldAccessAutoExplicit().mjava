@@ -13,8 +13,6 @@ mouse
 (
 CtClass
 )
-ModelUtils
-.
 buildClass
 (
 Mouse

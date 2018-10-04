@@ -11,8 +11,6 @@ Short
 >
 aShort
 =
-ModelUtils
-.
 createFactory
 (
 )
@@ -29,8 +27,6 @@ Short
 >
 shortPrimitive
 =
-ModelUtils
-.
 createFactory
 (
 )

@@ -11,8 +11,6 @@ CtType
 >
 aFoo
 =
-ModelUtils
-.
 build
 (
 new

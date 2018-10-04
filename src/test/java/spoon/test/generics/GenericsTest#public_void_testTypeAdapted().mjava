@@ -19,8 +19,6 @@ CtClass
 ?
 >
 )
-ModelUtils
-.
 buildClass
 (
 ErasureModelA

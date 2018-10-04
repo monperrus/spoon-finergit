@@ -13,8 +13,6 @@ Panini
 >
 aPanini
 =
-ModelUtils
-.
 buildClass
 (
 Panini
