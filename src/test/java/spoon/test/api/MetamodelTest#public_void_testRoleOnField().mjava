@@ -349,8 +349,6 @@ size
 100
 )
 ;
-Assert
-.
 assertEquals
 (
 Collections

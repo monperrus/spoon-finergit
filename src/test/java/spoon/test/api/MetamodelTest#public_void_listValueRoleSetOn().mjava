@@ -179,6 +179,8 @@ Assert
 .
 assertThat
 (
+Arrays
+.
 asList
 (
 "field1"
@@ -241,6 +243,8 @@ Assert
 .
 assertThat
 (
+Arrays
+.
 asList
 (
 "field1"
@@ -307,6 +311,8 @@ Assert
 .
 assertThat
 (
+Arrays
+.
 asList
 (
 "field3"
@@ -362,6 +368,8 @@ Assert
 .
 assertThat
 (
+Arrays
+.
 asList
 (
 "field3"
@@ -420,6 +428,8 @@ Assert
 .
 assertThat
 (
+Arrays
+.
 asList
 (
 "field1"
@@ -474,6 +484,8 @@ Assert
 .
 assertThat
 (
+Arrays
+.
 asList
 (
 "field1"
@@ -528,6 +540,8 @@ Assert
 .
 assertThat
 (
+Arrays
+.
 asList
 (
 )

@@ -414,8 +414,6 @@ toSet
 )
 )
 ;
-Assert
-.
 assertEquals
 (
 expectedRoles
@@ -423,8 +421,6 @@ expectedRoles
 getterRoles
 )
 ;
-Assert
-.
 assertEquals
 (
 expectedRoles
@@ -432,8 +428,6 @@ expectedRoles
 setterRoles
 )
 ;
-Assert
-.
 assertEquals
 (
 Collections
@@ -443,8 +437,6 @@ EMPTY_SET
 isNotGetter
 )
 ;
-Assert
-.
 assertEquals
 (
 Collections
