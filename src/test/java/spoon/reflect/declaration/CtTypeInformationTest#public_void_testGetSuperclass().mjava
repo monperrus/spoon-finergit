@@ -27,8 +27,6 @@ ExtendsArrayList
 class
 )
 ;
-Assert
-.
 assertEquals
 (
 1
@@ -123,8 +121,6 @@ getSuperclass
 (
 )
 ;
-Assert
-.
 assertEquals
 (
 ExtendsArrayList
@@ -142,8 +138,6 @@ getQualifiedName
 )
 )
 ;
-Assert
-.
 assertEquals
 (
 ExtendsArrayList
@@ -161,8 +155,6 @@ getQualifiedName
 )
 )
 ;
-Assert
-.
 assertNotNull
 (
 superclass
@@ -187,8 +179,6 @@ getSuperInterfaces
 (
 )
 ;
-Assert
-.
 assertEquals
 (
 1
@@ -216,8 +206,6 @@ next
 (
 )
 ;
-Assert
-.
 assertEquals
 (
 Subinterface
@@ -235,8 +223,6 @@ getQualifiedName
 )
 )
 ;
-Assert
-.
 assertNull
 (
 superinterface
@@ -268,8 +254,6 @@ Subinterface
 class
 )
 ;
-Assert
-.
 assertNull
 (
 type2

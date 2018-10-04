@@ -200,8 +200,6 @@ createTypeAdapter
 subClass
 )
 ;
-Assert
-.
 assertEquals
 (
 subClass
@@ -220,8 +218,6 @@ getQualifiedName
 )
 )
 ;
-Assert
-.
 assertTrue
 (
 ctc
@@ -236,8 +232,6 @@ getReference
 )
 )
 ;
-Assert
-.
 assertEquals
 (
 subClass
@@ -256,8 +250,6 @@ getQualifiedName
 )
 )
 ;
-Assert
-.
 assertTrue
 (
 ctc
@@ -268,8 +260,6 @@ subinterface
 )
 )
 ;
-Assert
-.
 assertEquals
 (
 subClass
@@ -288,8 +278,6 @@ getQualifiedName
 )
 )
 ;
-Assert
-.
 assertTrue
 (
 ctc
@@ -300,8 +288,6 @@ testInterface
 )
 )
 ;
-Assert
-.
 assertEquals
 (
 subClass
@@ -320,8 +306,6 @@ getQualifiedName
 )
 )
 ;
-Assert
-.
 assertTrue
 (
 ctc
@@ -339,8 +323,6 @@ class
 )
 )
 ;
-Assert
-.
 assertEquals
 (
 subClass
@@ -359,8 +341,6 @@ getQualifiedName
 )
 )
 ;
-Assert
-.
 assertTrue
 (
 ctc
@@ -371,8 +351,6 @@ extendObject
 )
 )
 ;
-Assert
-.
 assertEquals
 (
 extendObject
@@ -391,8 +369,6 @@ getQualifiedName
 )
 )
 ;
-Assert
-.
 assertTrue
 (
 ctc
@@ -403,8 +379,6 @@ arrayList
 )
 )
 ;
-Assert
-.
 assertTrue
 (
 ctc
@@ -415,8 +389,6 @@ extendObject
 )
 )
 ;
-Assert
-.
 assertTrue
 (
 ctc
@@ -431,8 +403,6 @@ getReference
 )
 )
 ;
-Assert
-.
 assertEquals
 (
 arrayList
@@ -451,8 +421,6 @@ getQualifiedName
 )
 )
 ;
-Assert
-.
 assertTrue
 (
 ctc
@@ -470,8 +438,6 @@ class
 )
 )
 ;
-Assert
-.
 assertEquals
 (
 arrayList
@@ -490,8 +456,6 @@ getQualifiedName
 )
 )
 ;
-Assert
-.
 assertTrue
 (
 ctc
@@ -502,8 +466,6 @@ abstractList
 )
 )
 ;
-Assert
-.
 assertEquals
 (
 abstractList
@@ -522,8 +484,6 @@ getQualifiedName
 )
 )
 ;
-Assert
-.
 assertTrue
 (
 ctc
@@ -534,8 +494,6 @@ abstractCollection
 )
 )
 ;
-Assert
-.
 assertEquals
 (
 abstractCollection
@@ -554,8 +512,6 @@ getQualifiedName
 )
 )
 ;
-Assert
-.
 assertTrue
 (
 ctc
@@ -566,8 +522,6 @@ object
 )
 )
 ;
-Assert
-.
 assertEquals
 (
 object
@@ -586,8 +540,6 @@ getQualifiedName
 )
 )
 ;
-Assert
-.
 assertFalse
 (
 ctc
@@ -607,8 +559,6 @@ createReference
 )
 )
 ;
-Assert
-.
 assertNull
 (
 getLastResolvedSuperclass
@@ -617,8 +567,6 @@ ctc
 )
 )
 ;
-Assert
-.
 assertTrue
 (
 ctc
@@ -629,8 +577,6 @@ arrayList
 )
 )
 ;
-Assert
-.
 assertTrue
 (
 ctc
@@ -641,8 +587,6 @@ extendObject
 )
 )
 ;
-Assert
-.
 assertTrue
 (
 ctc
@@ -675,8 +619,6 @@ createTypeAdapter
 subClass
 )
 ;
-Assert
-.
 assertEquals
 (
 subClass
@@ -695,8 +637,6 @@ getQualifiedName
 )
 )
 ;
-Assert
-.
 assertFalse
 (
 ctc2
@@ -716,8 +656,6 @@ createReference
 )
 )
 ;
-Assert
-.
 assertNull
 (
 getLastResolvedSuperclass
@@ -726,8 +664,6 @@ ctc2
 )
 )
 ;
-Assert
-.
 assertTrue
 (
 ctc2
@@ -738,8 +674,6 @@ arrayList
 )
 )
 ;
-Assert
-.
 assertTrue
 (
 ctc2
@@ -750,8 +684,6 @@ extendObject
 )
 )
 ;
-Assert
-.
 assertTrue
 (
 ctc2
