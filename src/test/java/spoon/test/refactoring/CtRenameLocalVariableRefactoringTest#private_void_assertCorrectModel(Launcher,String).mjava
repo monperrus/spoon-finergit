@@ -130,7 +130,7 @@ e
 ;
 }
 try
-{
+(
 TestClassloader
 classLoader
 =
@@ -139,7 +139,8 @@ TestClassloader
 (
 launcher
 )
-;
+)
+{
 Class
 testModelClass
 =
