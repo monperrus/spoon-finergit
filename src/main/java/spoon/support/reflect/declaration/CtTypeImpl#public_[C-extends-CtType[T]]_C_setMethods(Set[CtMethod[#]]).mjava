@@ -50,6 +50,8 @@ onListDelete
 (
 this
 ,
+CtRole
+.
 METHOD
 ,
 this

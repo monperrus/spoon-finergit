@@ -29,6 +29,8 @@ onSetDelete
 (
 this
 ,
+CtRole
+.
 INTERFACE
 ,
 interfaces

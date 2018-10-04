@@ -31,6 +31,8 @@ onListDeleteAll
 (
 this
 ,
+CtRole
+.
 TYPE_PARAMETER
 ,
 formalCtTypeParameters
@@ -96,6 +98,8 @@ ArrayList
 <
 >
 (
+ModelElementContainerDefaultCapacities
+.
 TYPE_TYPE_PARAMETERS_CONTAINER_DEFAULT_CAPACITY
 )
 ;

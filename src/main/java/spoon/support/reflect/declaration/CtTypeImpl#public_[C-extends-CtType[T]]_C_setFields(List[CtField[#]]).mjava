@@ -79,6 +79,8 @@ onListDelete
 (
 this
 ,
+CtRole
+.
 FIELD
 ,
 this
