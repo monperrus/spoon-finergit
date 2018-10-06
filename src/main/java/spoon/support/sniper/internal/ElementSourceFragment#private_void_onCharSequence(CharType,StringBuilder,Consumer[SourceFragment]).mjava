@@ -5,7 +5,7 @@ onCharSequence
 CharType
 type
 ,
-StringBuffer
+StringBuilder
 buff
 ,
 Consumer

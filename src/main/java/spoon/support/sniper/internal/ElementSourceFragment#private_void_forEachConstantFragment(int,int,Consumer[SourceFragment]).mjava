@@ -56,11 +56,11 @@ getOriginalSourceCode
 (
 )
 ;
-StringBuffer
+StringBuilder
 buff
 =
 new
-StringBuffer
+StringBuilder
 (
 )
 ;
