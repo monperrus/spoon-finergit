@@ -1,7 +1,7 @@
 /** 
  * @param factory already loaded factory with all Spoon model types
  */
-private
+protected
 Metamodel
 (
 Factory
