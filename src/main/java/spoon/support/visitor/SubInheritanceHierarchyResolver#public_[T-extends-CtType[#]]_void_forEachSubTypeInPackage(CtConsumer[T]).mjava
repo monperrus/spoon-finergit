@@ -226,6 +226,8 @@ getTypeDeclaration
 }
 }
 return
+ScanningMode
+.
 SKIP_ALL
 ;
 }
@@ -242,6 +244,8 @@ false
 )
 {
 return
+ScanningMode
+.
 SKIP_ALL
 ;
 }
@@ -253,6 +257,8 @@ typeRef
 )
 ;
 return
+ScanningMode
+.
 NORMAL
 ;
 }
