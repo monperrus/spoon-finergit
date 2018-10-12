@@ -121,6 +121,10 @@ declaringClass
 isEnum
 (
 )
+&&
+field
+instanceof
+CtEnumValue
 )
 {
 field

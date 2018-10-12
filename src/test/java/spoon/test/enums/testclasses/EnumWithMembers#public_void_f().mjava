@@ -1,0 +1,12 @@
+public
+static
+void
+f
+(
+)
+{
+len
+=
+44
+;
+}
