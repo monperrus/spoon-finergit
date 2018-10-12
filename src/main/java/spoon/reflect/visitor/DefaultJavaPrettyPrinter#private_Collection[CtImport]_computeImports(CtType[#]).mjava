@@ -1,9 +1,7 @@
 /** 
  * Make the imports for a given type.
- * @deprecated We intend to remove those method from the DJPP and to compute imports directly in CompilationUnit in the future.
  */
-@Deprecated
-public
+private
 Collection
 <
 CtImport

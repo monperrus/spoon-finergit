@@ -93,22 +93,6 @@ getEnvironment
 ;
 assertEquals
 (
-0
-,
-printer
-.
-computeImports
-(
-aType
-)
-.
-size
-(
-)
-)
-;
-assertEquals
-(
 "spoon.test.fieldaccesses.testclasses.Mole.Delicious delicious"
 ,
 aType

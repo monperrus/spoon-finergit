@@ -46,6 +46,10 @@ CtReference
 {
 printer
 .
+getImportsContext
+(
+)
+.
 computeImports
 (
 this
