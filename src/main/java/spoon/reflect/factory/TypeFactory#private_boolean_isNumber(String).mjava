@@ -14,11 +14,9 @@ null
 ||
 str
 .
-length
+isEmpty
 (
 )
-==
-0
 )
 {
 return
