@@ -1,10 +1,8 @@
 /** 
- * Creates pattern parameter for each field of type  {@link TemplateParameter}
+ * Creates pattern parameter for each field of type  {@link TemplateParameter}.<br> Note: This method is here for compatibility with obsolete legacy  {@link Template} based concept.We suggest to define each parameter individually using `byXxxx(...)` methods of this class instead.
  * @param parameterValues pattern parameter values.Note these values may influence the way how pattern parameters are created. This unclear and ambiguous technique was used in legacy templates
  * @return this to support fluent API
- * @deprecated since Spoon 7.0.0
  */
-@Deprecated
 public
 PatternParameterConfigurator
 byTemplateParameter
