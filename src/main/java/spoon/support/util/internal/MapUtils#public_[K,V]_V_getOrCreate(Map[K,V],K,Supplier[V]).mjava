@@ -1,5 +1,5 @@
 /** 
- * @return existing value of `key` from `map`. If value doesn't exist yet for `key` yet,than `valueCreator` is used to create new value, which is than assigned to `key` and returned
+ * @return existing value of `key` from `map`. If value doesn't exist yet for `key` yet,then `valueCreator` is used to create new value, which is then assigned to `key` and returned
  */
 public
 static
