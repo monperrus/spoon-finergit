@@ -67,12 +67,14 @@ exists
 (
 )
 )
+{
 pathToDecompiledRoot
 .
 delete
 (
 )
 ;
+}
 File
 pathToDecompile
 =
@@ -251,10 +253,12 @@ exists
 (
 )
 )
+{
 pathToDecompiledRoot
 .
 delete
 (
 )
 ;
+}
 }

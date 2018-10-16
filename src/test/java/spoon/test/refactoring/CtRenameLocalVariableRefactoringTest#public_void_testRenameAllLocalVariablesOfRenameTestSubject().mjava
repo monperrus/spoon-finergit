@@ -153,8 +153,10 @@ getSimpleName
 ==
 false
 )
+{
 return
 ;
+}
 method
 .
 filterChildren
