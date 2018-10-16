@@ -1,7 +1,7 @@
 @Test
 public
 void
-testJarLauncher
+testJarLauncherFernflower
 (
 )
 {
@@ -115,7 +115,7 @@ getAbsolutePath
 )
 ,
 new
-CFRDecompiler
+FernflowerDecompiler
 (
 pathToDecompile
 )

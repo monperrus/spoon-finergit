@@ -1,0 +1,14 @@
+public
+FernflowerDecompiler
+(
+File
+outputDir
+)
+{
+this
+.
+outputDir
+=
+outputDir
+;
+}
