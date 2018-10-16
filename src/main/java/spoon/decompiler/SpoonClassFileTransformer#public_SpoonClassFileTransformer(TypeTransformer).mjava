@@ -1,0 +1,27 @@
+/** 
+ * Default Constructor for SpoonClassFileTransformer
+ * @param typeTransformer Transformation to apply on loaded types.
+ */
+public
+SpoonClassFileTransformer
+(
+TypeTransformer
+typeTransformer
+)
+{
+this
+(
+defaultFilter
+,
+typeTransformer
+,
+"spoon-decompiled"
+,
+"spoon-cache"
+,
+"spoon-recompiled"
+,
+null
+)
+;
+}

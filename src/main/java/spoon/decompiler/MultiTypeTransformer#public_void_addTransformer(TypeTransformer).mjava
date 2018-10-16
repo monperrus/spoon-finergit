@@ -1,0 +1,16 @@
+public
+void
+addTransformer
+(
+TypeTransformer
+transformer
+)
+{
+transformers
+.
+add
+(
+transformer
+)
+;
+}

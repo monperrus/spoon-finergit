@@ -1,0 +1,16 @@
+/** 
+ * User defined filter to discard type that will not be transformed by the SpoonClassFileTransformer.
+ * @param type type considered for transformation
+ */
+default
+boolean
+accept
+(
+CtType
+type
+)
+{
+return
+true
+;
+}

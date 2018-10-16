@@ -1,0 +1,11 @@
+/** 
+ * User's implementation of transformation to apply on type.
+ * @param type type to be transformed
+ */
+void
+transform
+(
+CtType
+type
+)
+;

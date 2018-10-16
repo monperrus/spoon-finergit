@@ -1,0 +1,34 @@
+/** 
+ * Default Constructor for SpoonClassFileTransformer
+ * @param classNameFilter Filter for classname. If classeNameFilter.test(className) returns false,the class will be loaded without decompilation nor transformation. If null, a default filter will filter out typical jvm classes (starting with java* or sun*) Note @{SpoonClassFileTransformer.defaultFilter} may be used in conjunction of custom filter with `defaultFilter.and(classNameFilter)`.
+ * @param typeTransformer Transformation to apply on loaded types.
+ */
+public
+SpoonClassFileTransformer
+(
+Predicate
+<
+String
+>
+classNameFilter
+,
+TypeTransformer
+typeTransformer
+)
+{
+this
+(
+classNameFilter
+,
+typeTransformer
+,
+"spoon-decompiled"
+,
+"spoon-cache"
+,
+"spoon-recompiled"
+,
+null
+)
+;
+}

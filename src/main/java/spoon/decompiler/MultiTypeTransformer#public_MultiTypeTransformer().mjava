@@ -1,0 +1,15 @@
+public
+MultiTypeTransformer
+(
+)
+{
+transformers
+=
+new
+LinkedHashSet
+<
+>
+(
+)
+;
+}
