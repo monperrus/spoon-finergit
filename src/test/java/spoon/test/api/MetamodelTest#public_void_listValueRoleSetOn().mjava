@@ -175,8 +175,6 @@ getDeclaringType
 )
 )
 ;
-Assert
-.
 assertThat
 (
 Arrays
@@ -239,8 +237,6 @@ getDeclaringType
 )
 )
 ;
-Assert
-.
 assertThat
 (
 Arrays
@@ -307,8 +303,6 @@ getDeclaringType
 )
 )
 ;
-Assert
-.
 assertThat
 (
 Arrays
@@ -364,8 +358,6 @@ set
 field1
 )
 ;
-Assert
-.
 assertThat
 (
 Arrays
@@ -424,8 +416,6 @@ remove
 )
 )
 ;
-Assert
-.
 assertThat
 (
 Arrays
@@ -480,8 +470,6 @@ field2
 )
 )
 ;
-Assert
-.
 assertThat
 (
 Arrays
@@ -536,8 +524,6 @@ field1
 )
 )
 ;
-Assert
-.
 assertThat
 (
 Arrays

@@ -314,8 +314,6 @@ getSignature
 )
 )
 ;
-Assert
-.
 assertNotEquals
 (
 fooConcrete

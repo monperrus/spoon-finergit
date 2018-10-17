@@ -163,8 +163,6 @@ get
 )
 )
 ;
-Assert
-.
 assertNotEquals
 (
 foo

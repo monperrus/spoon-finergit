@@ -40,8 +40,6 @@ VirtualFile
 )
 )
 ;
-Assert
-.
 assertTrue
 (
 compiler
@@ -51,8 +49,6 @@ build
 )
 )
 ;
-Assert
-.
 assertNotNull
 (
 launcher

@@ -154,8 +154,6 @@ size
 )
 )
 ;
-Assert
-.
 assertNotEquals
 (
 foo

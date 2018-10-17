@@ -96,8 +96,6 @@ PackageTestClass
 class
 )
 ;
-Assert
-.
 assertSame
 (
 PackageTestClass
@@ -184,8 +182,6 @@ getQualifiedName
 )
 )
 ;
-Assert
-.
 assertNotNull
 (
 ctPackage
@@ -315,8 +311,6 @@ get
 0
 )
 ;
-Assert
-.
 assertSame
 (
 Deprecated

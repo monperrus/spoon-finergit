@@ -32,8 +32,6 @@ getMethod
 "foo"
 )
 ;
-Assert
-.
 assertTrue
 (
 sample
@@ -79,8 +77,6 @@ replace
 replacement
 )
 ;
-Assert
-.
 assertTrue
 (
 sample

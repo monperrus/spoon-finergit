@@ -49,8 +49,6 @@ getStatement
 0
 )
 ;
-Assert
-.
 assertTrue
 (
 var

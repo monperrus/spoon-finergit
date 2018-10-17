@@ -27,8 +27,6 @@ getType
 "Foo"
 )
 ;
-Assert
-.
 assertNotNull
 (
 sample
@@ -39,8 +37,6 @@ getMethod
 )
 )
 ;
-Assert
-.
 assertNull
 (
 sample
@@ -101,8 +97,6 @@ replace
 bar
 )
 ;
-Assert
-.
 assertNull
 (
 sample
@@ -113,8 +107,6 @@ getMethod
 )
 )
 ;
-Assert
-.
 assertNotNull
 (
 sample

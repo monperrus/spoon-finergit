@@ -45,8 +45,6 @@ File
 )
 )
 ;
-Assert
-.
 assertTrue
 (
 compiler
@@ -56,8 +54,6 @@ build
 )
 )
 ;
-Assert
-.
 assertNotNull
 (
 launcher

@@ -15,8 +15,6 @@ fromString
 "nulltest"
 )
 ;
-Assert
-.
 assertNull
 (
 outputType
@@ -31,8 +29,6 @@ fromString
 "nooutput"
 )
 ;
-Assert
-.
 assertEquals
 (
 OutputType
@@ -51,8 +47,6 @@ fromString
 "classes"
 )
 ;
-Assert
-.
 assertEquals
 (
 OutputType
@@ -71,8 +65,6 @@ fromString
 "compilationunits"
 )
 ;
-Assert
-.
 assertEquals
 (
 OutputType

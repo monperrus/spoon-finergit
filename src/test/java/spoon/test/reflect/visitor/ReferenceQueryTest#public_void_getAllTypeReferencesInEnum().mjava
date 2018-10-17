@@ -101,8 +101,6 @@ class
 }
 )
 {
-Assert
-.
 assertTrue
 (
 "the reference query on the enum should return all the types defined in the enum declaration"

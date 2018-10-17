@@ -109,8 +109,6 @@ getField
 "name"
 )
 ;
-Assert
-.
 assertEquals
 (
 "name"
@@ -122,8 +120,6 @@ getSimpleName
 )
 )
 ;
-Assert
-.
 assertEquals
 (
 tref
@@ -144,8 +140,6 @@ getParent
 (
 )
 ;
-Assert
-.
 assertTrue
 (
 parent
@@ -156,8 +150,6 @@ CtClass
 >
 )
 ;
-Assert
-.
 assertEquals
 (
 "SampleClass"

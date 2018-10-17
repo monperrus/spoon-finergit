@@ -119,8 +119,6 @@ getField
 "i"
 )
 ;
-Assert
-.
 assertEquals
 (
 "i"
@@ -145,8 +143,6 @@ createReference
 "int"
 )
 ;
-Assert
-.
 assertEquals
 (
 tref
@@ -167,8 +163,6 @@ getParent
 (
 )
 ;
-Assert
-.
 assertTrue
 (
 parent
@@ -179,8 +173,6 @@ CtClass
 >
 )
 ;
-Assert
-.
 assertEquals
 (
 "SampleClass"

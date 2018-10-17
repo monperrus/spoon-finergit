@@ -58,8 +58,6 @@ getAllTypes
 (
 )
 ;
-Assert
-.
 assertSame
 (
 1
@@ -85,8 +83,6 @@ next
 (
 )
 ;
-Assert
-.
 assertEquals
 (
 "ImportAndExtendWithPackageName"
@@ -108,8 +104,6 @@ getSuperclass
 (
 )
 ;
-Assert
-.
 assertEquals
 (
 "LLkParser"

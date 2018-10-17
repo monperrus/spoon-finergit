@@ -52,8 +52,6 @@ resources
 )
 )
 ;
-Assert
-.
 assertTrue
 (
 compiler
