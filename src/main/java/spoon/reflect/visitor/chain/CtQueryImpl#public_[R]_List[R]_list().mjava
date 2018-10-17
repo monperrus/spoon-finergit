@@ -3,8 +3,6 @@
 public
 <
 R
-extends
-Object
 >
 List
 <

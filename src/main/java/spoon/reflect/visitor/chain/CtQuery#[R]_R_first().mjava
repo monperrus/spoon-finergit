@@ -4,8 +4,6 @@
  */
 <
 R
-extends
-Object
 >
 R
 first

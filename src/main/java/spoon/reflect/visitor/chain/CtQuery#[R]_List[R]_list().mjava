@@ -5,8 +5,6 @@
  */
 <
 R
-extends
-Object
 >
 List
 <
