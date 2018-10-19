@@ -7,16 +7,6 @@ testNoBlockInConditionAndLoop
 throws
 Exception
 {
-String
-newLine
-=
-System
-.
-getProperty
-(
-"line.separator"
-)
-;
 final
 CtType
 <

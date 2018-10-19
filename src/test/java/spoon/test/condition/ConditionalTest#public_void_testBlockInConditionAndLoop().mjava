@@ -23,12 +23,11 @@ Foo
 class
 )
 ;
-final
-List
+CtMethod
 <
-CtIf
+Object
 >
-conditions
+method
 =
 aFoo
 .
@@ -36,6 +35,15 @@ getMethod
 (
 "m3"
 )
+;
+final
+List
+<
+CtIf
+>
+conditions
+=
+method
 .
 getElements
 (
@@ -115,4 +123,54 @@ CtBlock
 ;
 }
 }
+assertEquals
+(
+"if (true) {"
++
+newLine
++
+"    java.lang.System.out.println();"
++
+newLine
++
+"} else"
++
+newLine
++
+"    if (true) {"
++
+newLine
++
+"        java.lang.System.out.println();"
++
+newLine
++
+"    } else {"
++
+newLine
++
+"        java.lang.System.out.println();"
++
+newLine
++
+"    }"
++
+newLine
+,
+method
+.
+getBody
+(
+)
+.
+getStatement
+(
+0
+)
+.
+toString
+(
+)
+)
+;
 }
