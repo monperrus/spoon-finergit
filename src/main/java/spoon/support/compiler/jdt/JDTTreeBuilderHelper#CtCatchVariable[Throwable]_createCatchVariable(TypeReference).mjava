@@ -1,6 +1,6 @@
 /** 
  * Creates a catch variable from a type reference.
- * @param typeReference Correspond to the exception type declared in the catch.
+ * @param typeReference Corresponds to the exception type declared in the catch.
  * @return a catch variable.
  */
 CtCatchVariable
