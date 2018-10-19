@@ -157,8 +157,6 @@ else
 {
 if
 (
-!
-(
 (
 (
 CtArrayTypeReference
@@ -169,7 +167,7 @@ ctParameterType
 getDimensionCount
 (
 )
-==
+!=
 (
 (
 CtArrayTypeReference
@@ -179,7 +177,6 @@ parameterType
 .
 getDimensionCount
 (
-)
 )
 )
 {
