@@ -1,0 +1,22 @@
+/** 
+ * {@inheritDoc} 
+ */
+@Override
+public
+void
+set
+(
+double
+value
+)
+{
+Arrays
+.
+fill
+(
+data
+,
+value
+)
+;
+}

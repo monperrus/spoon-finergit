@@ -1,0 +1,38 @@
+/** 
+ * Check if any coordinate of this vector is  {@code NaN}.
+ * @return {@code true} if any coordinate of this vector is {@code NaN}, {@code false} otherwise.
+ */
+@Override
+public
+boolean
+isNaN
+(
+)
+{
+for
+(
+double
+v
+:
+data
+)
+{
+if
+(
+Double
+.
+isNaN
+(
+v
+)
+)
+{
+return
+true
+;
+}
+}
+return
+false
+;
+}

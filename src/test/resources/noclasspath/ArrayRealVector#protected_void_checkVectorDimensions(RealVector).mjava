@@ -1,0 +1,26 @@
+/** 
+ * Check if instance and specified vectors have the same dimension.
+ * @param v Vector to compare instance with.
+ * @throws DimensionMismatchException if the vectors do nothave the same dimension.
+ */
+@Override
+protected
+void
+checkVectorDimensions
+(
+RealVector
+v
+)
+throws
+DimensionMismatchException
+{
+checkVectorDimensions
+(
+v
+.
+getDimension
+(
+)
+)
+;
+}

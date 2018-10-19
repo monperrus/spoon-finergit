@@ -1,0 +1,16 @@
+/** 
+ * Build a 0-length vector. Zero-length vectors may be used to initialized construction of vectors by data gathering. We start with zero-length and use either the  {@link #ArrayRealVector(ArrayRealVector,ArrayRealVector)} constructoror one of the  {@code append} method ({@link #append(double)}, {@link #append(ArrayRealVector)}) to gather data into this vector.
+ */
+public
+ArrayRealVector
+(
+)
+{
+data
+=
+new
+double
+[
+]
+;
+}

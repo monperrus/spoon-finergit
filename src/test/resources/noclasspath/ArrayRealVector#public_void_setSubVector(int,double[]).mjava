@@ -1,0 +1,65 @@
+/** 
+ * Set a set of consecutive elements.
+ * @param index Index of first element to be set.
+ * @param v Vector containing the values to set.
+ * @throws OutOfRangeException if the index is inconsistent with the vectorsize.
+ */
+public
+void
+setSubVector
+(
+int
+index
+,
+double
+[
+]
+v
+)
+throws
+OutOfRangeException
+{
+try
+{
+System
+.
+arraycopy
+(
+v
+,
+0
+,
+data
+,
+index
+,
+v
+.
+length
+)
+;
+}
+catch
+(
+IndexOutOfBoundsException
+e
+)
+{
+checkIndex
+(
+index
+)
+;
+checkIndex
+(
+index
++
+v
+.
+length
+-
+1
+)
+;
+}
+}

@@ -1,0 +1,32 @@
+/** 
+ * Construct a vector from another vector.
+ * @param v Vector to copy.
+ * @param deep If {@code true} perform a deep copy, otherwise perform ashallow copy.
+ */
+public
+ArrayRealVector
+(
+ArrayRealVector
+v
+,
+boolean
+deep
+)
+{
+data
+=
+deep
+?
+v
+.
+data
+.
+clone
+(
+)
+:
+v
+.
+data
+;
+}

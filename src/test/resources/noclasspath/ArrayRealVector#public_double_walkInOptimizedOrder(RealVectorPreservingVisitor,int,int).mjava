@@ -1,0 +1,36 @@
+/** 
+ * {@inheritDoc}In this implementation, the optimized order is the default order.
+ */
+@Override
+public
+double
+walkInOptimizedOrder
+(
+final
+RealVectorPreservingVisitor
+visitor
+,
+final
+int
+start
+,
+final
+int
+end
+)
+throws
+NumberIsTooSmallException
+,
+OutOfRangeException
+{
+return
+walkInDefaultOrder
+(
+visitor
+,
+start
+,
+end
+)
+;
+}

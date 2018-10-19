@@ -1,0 +1,16 @@
+/** 
+ * {@inheritDoc} 
+ */
+@Override
+public
+int
+getDimension
+(
+)
+{
+return
+data
+.
+length
+;
+}

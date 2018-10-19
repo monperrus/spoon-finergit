@@ -1,0 +1,23 @@
+/** 
+ * Construct a vector by appending a vector to this vector.
+ * @param v Vector to append to this one.
+ * @return a new vector.
+ */
+public
+ArrayRealVector
+append
+(
+ArrayRealVector
+v
+)
+{
+return
+new
+ArrayRealVector
+(
+this
+,
+v
+)
+;
+}

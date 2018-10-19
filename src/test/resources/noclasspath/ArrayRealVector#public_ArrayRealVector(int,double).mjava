@@ -1,0 +1,32 @@
+/** 
+ * Construct a vector with preset values.
+ * @param size Size of the vector
+ * @param preset All entries will be set with this value.
+ */
+public
+ArrayRealVector
+(
+int
+size
+,
+double
+preset
+)
+{
+data
+=
+new
+double
+[
+]
+;
+Arrays
+.
+fill
+(
+data
+,
+preset
+)
+;
+}

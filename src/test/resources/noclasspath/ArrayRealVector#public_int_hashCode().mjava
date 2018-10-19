@@ -1,0 +1,30 @@
+/** 
+ * {@inheritDoc} All {@code NaN} values have the same hash code.
+ */
+@Override
+public
+int
+hashCode
+(
+)
+{
+if
+(
+isNaN
+(
+)
+)
+{
+return
+9
+;
+}
+return
+MathUtils
+.
+hash
+(
+data
+)
+;
+}

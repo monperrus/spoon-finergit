@@ -1,0 +1,35 @@
+/** 
+ * {@inheritDoc} 
+ */
+@Override
+public
+ArrayRealVector
+combine
+(
+double
+a
+,
+double
+b
+,
+RealVector
+y
+)
+throws
+DimensionMismatchException
+{
+return
+copy
+(
+)
+.
+combineToSelf
+(
+a
+,
+b
+,
+y
+)
+;
+}

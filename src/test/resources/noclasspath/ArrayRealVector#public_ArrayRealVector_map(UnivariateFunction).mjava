@@ -1,0 +1,23 @@
+/** 
+ * {@inheritDoc} 
+ */
+@Override
+public
+ArrayRealVector
+map
+(
+UnivariateFunction
+function
+)
+{
+return
+copy
+(
+)
+.
+mapToSelf
+(
+function
+)
+;
+}

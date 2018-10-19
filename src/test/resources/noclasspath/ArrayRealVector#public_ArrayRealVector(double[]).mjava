@@ -1,0 +1,22 @@
+/** 
+ * Construct a vector from an array, copying the input array.
+ * @param d Array.
+ */
+public
+ArrayRealVector
+(
+double
+[
+]
+d
+)
+{
+data
+=
+d
+.
+clone
+(
+)
+;
+}

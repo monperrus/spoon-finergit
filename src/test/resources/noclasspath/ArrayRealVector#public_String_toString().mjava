@@ -1,0 +1,19 @@
+/** 
+ * {@inheritDoc} 
+ */
+@Override
+public
+String
+toString
+(
+)
+{
+return
+DEFAULT_FORMAT
+.
+format
+(
+this
+)
+;
+}

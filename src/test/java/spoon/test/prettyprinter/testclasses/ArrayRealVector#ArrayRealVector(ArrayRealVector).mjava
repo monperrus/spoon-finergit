@@ -1,0 +1,14 @@
+ArrayRealVector
+(
+ArrayRealVector
+v
+)
+{
+this
+(
+v
+,
+true
+)
+;
+}

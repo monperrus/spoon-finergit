@@ -1,0 +1,20 @@
+/** 
+ * {@inheritDoc}In this implementation, the optimized order is the default order.
+ */
+@Override
+public
+double
+walkInOptimizedOrder
+(
+final
+RealVectorChangingVisitor
+visitor
+)
+{
+return
+walkInDefaultOrder
+(
+visitor
+)
+;
+}

@@ -1,0 +1,22 @@
+/** 
+ * Construct a vector from another vector, using a deep copy.
+ * @param v Vector to copy.
+ * @throws NullArgumentException if {@code v} is {@code null}.
+ */
+public
+ArrayRealVector
+(
+ArrayRealVector
+v
+)
+throws
+NullArgumentException
+{
+this
+(
+v
+,
+true
+)
+;
+}

@@ -1,0 +1,19 @@
+/** 
+ * Construct a vector of zeroes.
+ * @param size Size of the vector.
+ */
+public
+ArrayRealVector
+(
+int
+size
+)
+{
+data
+=
+new
+double
+[
+]
+;
+}

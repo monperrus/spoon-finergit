@@ -1,0 +1,48 @@
+/** 
+ * Create a new ArrayRealVector using the input array as the underlying data array. If an array is built specially in order to be embedded in a ArrayRealVector and not used directly, the  {@code copyArray} may beset to  {@code false}. This will prevent the copying and improve performance as no new array will be built and no data will be copied.
+ * @param d Data for the new vector.
+ * @param copyArray if {@code true}, the input array will be copied, otherwise it will be referenced.
+ * @throws NullArgumentException if {@code d} is {@code null}.
+ * @see #ArrayRealVector(double[])
+ */
+public
+ArrayRealVector
+(
+double
+[
+]
+d
+,
+boolean
+copyArray
+)
+throws
+NullArgumentException
+{
+if
+(
+d
+==
+null
+)
+{
+throw
+new
+NullArgumentException
+(
+)
+;
+}
+data
+=
+copyArray
+?
+d
+.
+clone
+(
+)
+:
+d
+;
+}

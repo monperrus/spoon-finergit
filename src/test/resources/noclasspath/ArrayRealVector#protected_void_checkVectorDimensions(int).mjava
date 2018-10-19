@@ -1,0 +1,38 @@
+/** 
+ * Check if instance dimension is equal to some expected value.
+ * @param n Expected dimension.
+ * @throws DimensionMismatchException if the dimension isinconsistent with vector size.
+ */
+@Override
+protected
+void
+checkVectorDimensions
+(
+int
+n
+)
+throws
+DimensionMismatchException
+{
+if
+(
+data
+.
+length
+!=
+n
+)
+{
+throw
+new
+DimensionMismatchException
+(
+data
+.
+length
+,
+n
+)
+;
+}
+}
