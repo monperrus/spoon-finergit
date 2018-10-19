@@ -56,6 +56,18 @@ classNameFilter
 ;
 }
 String
+classPathSeparator
+=
+System
+.
+getProperty
+(
+"path.separator"
+,
+":"
+)
+;
+String
 [
 ]
 classPathAr
@@ -69,7 +81,7 @@ getProperty
 .
 split
 (
-":"
+classPathSeparator
 )
 ;
 classPath
