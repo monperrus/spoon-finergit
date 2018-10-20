@@ -1,5 +1,5 @@
 /** 
- * Creates a reference to an n-dimension array of given type.
+ * Creates a reference to a n-dimension array of given type.
  */
 public
 CtArrayTypeReference
