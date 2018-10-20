@@ -131,12 +131,7 @@ Visitor
 (
 )
 ;
-(
-(
-CtElement
-)
 formalTypeDeclarer
-)
 .
 accept
 (
