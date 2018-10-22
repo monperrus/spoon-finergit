@@ -43,11 +43,11 @@ getLogger
 (
 )
 .
-error
+debug
 (
 format
 (
-"Could not find declaration for variable %s at %s"
+"Could not find declaration for variable %s at %s."
 ,
 name
 ,
