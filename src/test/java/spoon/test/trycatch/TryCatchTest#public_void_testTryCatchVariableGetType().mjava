@@ -243,9 +243,6 @@ Collections
 .
 singletonList
 (
-(
-CtTypeReference
-)
 factory
 .
 Type

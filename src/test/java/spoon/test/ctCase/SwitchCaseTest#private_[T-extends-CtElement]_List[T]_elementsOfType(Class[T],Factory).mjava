@@ -21,9 +21,6 @@ factory
 )
 {
 return
-(
-List
-)
 Query
 .
 getElements
