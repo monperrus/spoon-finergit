@@ -298,36 +298,6 @@ getSimpleName
 (
 )
 ;
-if
-(
-setter
-.
-getFormalCtTypeParameters
-(
-)
-.
-size
-(
-)
-<=
-0
-)
-{
-fail
-(
-"Your setter "
-+
-methodLog
-+
-" don't have a generic type for its return type."
-)
-;
-}
-boolean
-isMatch
-=
-false
-;
 for
 (
 CtTypeParameter
@@ -362,10 +332,6 @@ getSimpleName
 )
 )
 {
-isMatch
-=
-true
-;
 if
 (
 setter
@@ -416,7 +382,7 @@ fail
 +
 methodLog
 +
-" has a type reference who don't extends "
+" has a type reference who doesn't extends "
 +
 setter
 .
@@ -432,16 +398,5 @@ getSimpleName
 }
 }
 }
-assertTrue
-(
-"The type of "
-+
-methodLog
-+
-" don't match with generic types."
-,
-isMatch
-)
-;
 }
 }
