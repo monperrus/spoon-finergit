@@ -1,0 +1,9 @@
+/** 
+ * Returns the reference to the package.
+ */
+@PropertyGetter(role=CtRole.PACKAGE_REF)
+CtPackageReference
+getReference
+(
+)
+;

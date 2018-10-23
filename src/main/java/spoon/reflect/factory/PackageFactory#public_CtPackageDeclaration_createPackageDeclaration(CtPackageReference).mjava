@@ -1,0 +1,36 @@
+/** 
+ * Creates a package declaration of a package.
+ * @param packageRef a reference to a package
+ */
+public
+CtPackageDeclaration
+createPackageDeclaration
+(
+CtPackageReference
+packageRef
+)
+{
+CtPackageDeclaration
+pd
+=
+factory
+.
+Core
+(
+)
+.
+createPackageDeclaration
+(
+)
+;
+pd
+.
+setReference
+(
+packageRef
+)
+;
+return
+pd
+;
+}

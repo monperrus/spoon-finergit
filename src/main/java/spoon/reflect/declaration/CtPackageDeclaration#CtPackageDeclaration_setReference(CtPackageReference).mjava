@@ -1,0 +1,11 @@
+/** 
+ * Sets the reference to the package.
+ */
+@PropertySetter(role=CtRole.PACKAGE_REF)
+CtPackageDeclaration
+setReference
+(
+CtPackageReference
+reference
+)
+;

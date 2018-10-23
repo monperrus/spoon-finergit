@@ -1,0 +1,10 @@
+/** 
+ * @see PackageFactory#createPackageDeclaration(String)
+ */
+CtPackageDeclaration
+createPackageDeclaration
+(
+String
+name
+)
+;

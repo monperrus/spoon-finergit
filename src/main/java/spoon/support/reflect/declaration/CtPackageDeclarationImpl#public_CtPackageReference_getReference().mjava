@@ -1,0 +1,13 @@
+@Override
+public
+CtPackageReference
+getReference
+(
+)
+{
+return
+this
+.
+reference
+;
+}

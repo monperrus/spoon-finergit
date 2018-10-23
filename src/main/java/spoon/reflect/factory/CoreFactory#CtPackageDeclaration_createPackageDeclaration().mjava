@@ -1,0 +1,8 @@
+/** 
+ * Creates a package declaration.
+ */
+CtPackageDeclaration
+createPackageDeclaration
+(
+)
+;

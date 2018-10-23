@@ -1,0 +1,10 @@
+/** 
+ * @see PackageFactory#createPackageDeclaration(CtPackageReference)
+ */
+CtPackageDeclaration
+createPackageDeclaration
+(
+CtPackageReference
+packageRef
+)
+;
