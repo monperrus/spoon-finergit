@@ -151,12 +151,10 @@ toString
 (
 )
 .
-indexOf
+contains
 (
 "List"
 )
->=
-0
 )
 ;
 {
