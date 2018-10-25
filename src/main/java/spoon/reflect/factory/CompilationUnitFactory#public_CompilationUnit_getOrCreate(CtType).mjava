@@ -157,17 +157,6 @@ path
 ;
 result
 .
-setDeclaredPackage
-(
-type
-.
-getPackage
-(
-)
-)
-;
-result
-.
 addDeclaredType
 (
 type

@@ -1,0 +1,15 @@
+/** 
+ * Gets all the types declared in this compilation unit.
+ */
+@DerivedProperty
+List
+<
+CtType
+<
+?
+>
+>
+getDeclaredTypes
+(
+)
+;

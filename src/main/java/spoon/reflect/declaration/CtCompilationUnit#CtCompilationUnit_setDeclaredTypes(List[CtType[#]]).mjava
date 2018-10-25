@@ -1,0 +1,17 @@
+/** 
+ * Sets the types declared in this compilation unit. It is here for backward compatibility. It calls internally  {@link #setDeclaredTypeReferences(List)}so the  {@link CtCompilationUnit} contains type reference only.It doesn't contain whole type, which belongs to it's CtPackage in primary `java concept` model. Note that  {@link CtCompilationUnit} represents a secondary model related to mapping of java modules, packages and types to file system.
+ */
+@DerivedProperty
+CtCompilationUnit
+setDeclaredTypes
+(
+List
+<
+CtType
+<
+?
+>
+>
+types
+)
+;

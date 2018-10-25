@@ -1377,6 +1377,12 @@ asList
 "elementValues"
 ,
 "target"
+,
+"rootFragment"
+,
+"originalSourceCode"
+,
+"myPartialSourcePosition"
 )
 ;
 private
@@ -3193,6 +3199,10 @@ getBody
 ;
 if
 (
+body
+==
+null
+||
 body
 .
 getStatements

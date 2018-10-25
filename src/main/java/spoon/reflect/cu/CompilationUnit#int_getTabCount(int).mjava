@@ -3,6 +3,7 @@
  * @param index the index where the line starts in the source code
  * @return the number of tabs for this line
  */
+@Deprecated
 int
 getTabCount
 (

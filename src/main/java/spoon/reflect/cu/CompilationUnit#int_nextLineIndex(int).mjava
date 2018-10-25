@@ -3,6 +3,7 @@
  * @param index an arbitrary index in the source code
  * @return the index where the next line starts
  */
+@Deprecated
 int
 nextLineIndex
 (

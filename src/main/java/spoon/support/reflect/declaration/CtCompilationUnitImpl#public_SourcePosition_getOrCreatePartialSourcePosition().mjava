@@ -1,0 +1,32 @@
+/** 
+ * @return a {@link SourcePosition} which points to this {@link CompilationUnit}. It always returns same value to safe memory.
+ */
+public
+SourcePosition
+getOrCreatePartialSourcePosition
+(
+)
+{
+if
+(
+myPartialSourcePosition
+==
+null
+)
+{
+myPartialSourcePosition
+=
+new
+PartialSourcePositionImpl
+(
+(
+CompilationUnit
+)
+this
+)
+;
+}
+return
+myPartialSourcePosition
+;
+}

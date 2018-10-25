@@ -1,0 +1,17 @@
+@Override
+public
+List
+<
+CtTypeReference
+<
+?
+>
+>
+getDeclaredTypeReferences
+(
+)
+{
+return
+declaredTypeReferences
+;
+}

@@ -1,0 +1,11 @@
+/** 
+ * Sets the declared module reference if the compilationUnit is "module-info.java"
+ */
+@PropertySetter(role=CtRole.DECLARED_MODULE_REF)
+CtCompilationUnit
+setDeclaredModuleReference
+(
+CtModuleReference
+module
+)
+;

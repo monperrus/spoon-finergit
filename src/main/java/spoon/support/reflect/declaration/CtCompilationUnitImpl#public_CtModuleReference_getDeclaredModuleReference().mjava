@@ -1,0 +1,11 @@
+@Override
+public
+CtModuleReference
+getDeclaredModuleReference
+(
+)
+{
+return
+moduleReference
+;
+}

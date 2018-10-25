@@ -1,0 +1,9 @@
+/** 
+ * Gets the declared package
+ */
+@DerivedProperty
+CtPackage
+getDeclaredPackage
+(
+)
+;

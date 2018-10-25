@@ -1,0 +1,11 @@
+/** 
+ * Sets the package declaration
+ */
+@PropertySetter(role=CtRole.PACKAGE_DECLARATION)
+CtCompilationUnit
+setPackageDeclaration
+(
+CtPackageDeclaration
+packageDeclaration
+)
+;

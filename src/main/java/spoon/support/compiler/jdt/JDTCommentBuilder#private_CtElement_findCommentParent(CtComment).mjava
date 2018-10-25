@@ -275,7 +275,7 @@ if
 (
 spoonUnit
 .
-getDeclaredModule
+getDeclaredModuleReference
 (
 )
 !=
@@ -288,7 +288,11 @@ scan
 (
 spoonUnit
 .
-getDeclaredModule
+getDeclaredModuleReference
+(
+)
+.
+getDeclaration
 (
 )
 )

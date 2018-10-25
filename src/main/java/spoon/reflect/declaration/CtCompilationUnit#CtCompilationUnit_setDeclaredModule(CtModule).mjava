@@ -1,0 +1,11 @@
+/** 
+ * Sets the declared module if the compilationUnit is "module-info.java" It is here for backward compatibility. It internally calls  {@link #setDeclaredModuleReference(CtModuleReference)}It doesn't contain whole CtModule, which belongs to CtModel in primary `java concept` model. Note that  {@link CtCompilationUnit} represents a secondary model related to mapping of java modules, packages and types to file system.
+ */
+@DerivedProperty
+CtCompilationUnit
+setDeclaredModule
+(
+CtModule
+module
+)
+;

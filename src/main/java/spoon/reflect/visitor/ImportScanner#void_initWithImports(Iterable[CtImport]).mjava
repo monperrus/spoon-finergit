@@ -1,0 +1,13 @@
+/** 
+ * Specify the original imports to use before computing new imports.
+ */
+void
+initWithImports
+(
+Iterable
+<
+CtImport
+>
+importCollection
+)
+;

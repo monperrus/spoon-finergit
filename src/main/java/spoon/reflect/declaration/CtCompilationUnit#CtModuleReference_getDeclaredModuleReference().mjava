@@ -1,0 +1,9 @@
+/** 
+ * Gets the declared module reference if the compilationUnit is "module-info.java"
+ */
+@PropertyGetter(role=CtRole.DECLARED_MODULE_REF)
+CtModuleReference
+getDeclaredModuleReference
+(
+)
+;

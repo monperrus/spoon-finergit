@@ -1,0 +1,10 @@
+/** 
+ * Visits a compilation unit
+ */
+void
+visitCtCompilationUnit
+(
+CtCompilationUnit
+compilationUnit
+)
+;

@@ -1,0 +1,11 @@
+/** 
+ * Sets the package declaration using the instance of CtPackage. It is here for backward compatibility. It calls internally  {@link #setPackageDeclaration(CtPackageDeclaration)}It doesn't contain whole CtPackage, which belongs to it's parent package or to CtModule in primary `java concept` model. Note that  {@link CtCompilationUnit} represents a secondary model related to mapping of java modules, packages and types to file system.
+ */
+@DerivedProperty
+CtCompilationUnit
+setDeclaredPackage
+(
+CtPackage
+ctPackage
+)
+;

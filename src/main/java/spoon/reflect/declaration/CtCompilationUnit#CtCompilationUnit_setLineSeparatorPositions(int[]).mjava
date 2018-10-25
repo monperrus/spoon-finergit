@@ -1,0 +1,12 @@
+/** 
+ * @param lineSeparatorPositions array of offsets in the origin source file, where occurs line separator
+ */
+CtCompilationUnit
+setLineSeparatorPositions
+(
+int
+[
+]
+lineSeparatorPositions
+)
+;

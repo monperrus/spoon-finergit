@@ -1,0 +1,15 @@
+/** 
+ * Gets references to all the types declared in this compilation unit.
+ */
+@PropertyGetter(role=CtRole.DECLARED_TYPE_REF)
+List
+<
+CtTypeReference
+<
+?
+>
+>
+getDeclaredTypeReferences
+(
+)
+;

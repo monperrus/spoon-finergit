@@ -1,0 +1,14 @@
+/** 
+ * Get the imports computed for this CU. WARNING: This method is tagged as experimental, as its signature and/or usage might change in future release.
+ * @return All the imports from the original source code
+ */
+@Experimental
+@PropertyGetter(role=CtRole.DECLARED_IMPORT)
+List
+<
+CtImport
+>
+getImports
+(
+)
+;

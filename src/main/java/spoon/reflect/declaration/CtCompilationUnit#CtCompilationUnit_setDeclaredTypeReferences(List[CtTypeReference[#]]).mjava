@@ -1,0 +1,17 @@
+/** 
+ * Sets the references to types declared in this compilation unit.
+ */
+@PropertySetter(role=CtRole.DECLARED_TYPE_REF)
+CtCompilationUnit
+setDeclaredTypeReferences
+(
+List
+<
+CtTypeReference
+<
+?
+>
+>
+types
+)
+;

@@ -1,0 +1,14 @@
+/** 
+ * Add a type reference to the list of declared types
+ */
+@PropertySetter(role=CtRole.DECLARED_TYPE_REF)
+CtCompilationUnit
+addDeclaredTypeReference
+(
+CtTypeReference
+<
+?
+>
+type
+)
+;
