@@ -1,10 +1,24 @@
-@Before
+@BeforeClass
 public
+static
 void
 setUp
 (
 )
 {
+System
+.
+out
+.
+println
+(
+"Testing factory serialization with different "
++
+"compressors with source folder: "
++
+SOURCE_DIRECTORY
+)
+;
 Launcher
 launcher
 =
@@ -17,7 +31,7 @@ launcher
 .
 addInputResource
 (
-"./src/main/java/spoon/reflect/declaration"
+SOURCE_DIRECTORY
 )
 ;
 launcher
@@ -26,8 +40,6 @@ buildModel
 (
 )
 ;
-this
-.
 factory
 =
 launcher
@@ -36,15 +48,15 @@ getFactory
 (
 )
 ;
-file
+outputFile
 =
 new
 File
 (
-filename
+OUTPUT_FILENAME
 )
 ;
-file
+outputFile
 .
 deleteOnExit
 (

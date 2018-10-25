@@ -1,7 +1,7 @@
 @Test
 public
 void
-testNoneCompressionType
+testBZip2CompressionType
 (
 )
 throws
@@ -17,7 +17,7 @@ setCompressionType
 (
 CompressionType
 .
-NONE
+BZIP2
 )
 ;
 new
@@ -65,7 +65,7 @@ size
 +
 CompressionType
 .
-NONE
+BZIP2
 )
 ;
 Factory

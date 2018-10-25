@@ -1,7 +1,7 @@
 @Test
 public
 void
-testNoneCompressionType
+testLZMACompressionType
 (
 )
 throws
@@ -17,7 +17,7 @@ setCompressionType
 (
 CompressionType
 .
-NONE
+LZMA
 )
 ;
 new
@@ -65,7 +65,7 @@ size
 +
 CompressionType
 .
-NONE
+LZMA
 )
 ;
 Factory
