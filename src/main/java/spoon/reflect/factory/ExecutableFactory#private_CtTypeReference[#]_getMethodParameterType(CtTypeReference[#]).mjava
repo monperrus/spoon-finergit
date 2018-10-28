@@ -19,8 +19,9 @@ instanceof
 CtTypeParameterReference
 )
 {
-paramType
-=
+return
+getMethodParameterType
+(
 (
 (
 CtTypeParameterReference
@@ -30,6 +31,7 @@ paramType
 .
 getBoundingType
 (
+)
 )
 ;
 }
