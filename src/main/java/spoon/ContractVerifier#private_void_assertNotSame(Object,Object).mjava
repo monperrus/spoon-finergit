@@ -1,0 +1,27 @@
+private
+void
+assertNotSame
+(
+Object
+element
+,
+Object
+other
+)
+{
+if
+(
+element
+==
+other
+)
+{
+throw
+new
+AssertionError
+(
+"assertSame violation"
+)
+;
+}
+}

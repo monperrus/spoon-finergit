@@ -1,0 +1,14 @@
+public
+ContractVerifier
+(
+CtPackage
+rootPackage
+)
+{
+this
+.
+_rootPackage
+=
+rootPackage
+;
+}

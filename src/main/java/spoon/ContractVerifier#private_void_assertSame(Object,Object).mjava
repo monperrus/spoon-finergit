@@ -1,0 +1,21 @@
+private
+void
+assertSame
+(
+Object
+element
+,
+Object
+other
+)
+{
+assertSame
+(
+"assertSame violation"
+,
+element
+,
+other
+)
+;
+}

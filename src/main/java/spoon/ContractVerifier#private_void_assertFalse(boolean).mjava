@@ -1,0 +1,17 @@
+private
+void
+assertFalse
+(
+boolean
+condition
+)
+{
+assertTrue
+(
+""
+,
+!
+condition
+)
+;
+}

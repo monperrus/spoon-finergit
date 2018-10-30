@@ -1,13 +1,13 @@
+/** 
+ * checks that there is always one parent, corresponding to the scanning order 
+ */
 public
-static
 void
 checkParentContract
 (
-CtPackage
-pack
 )
 {
-pack
+_rootPackage
 .
 filterChildren
 (
@@ -148,7 +148,7 @@ pop
 .
 scan
 (
-pack
+_rootPackage
 )
 ;
 }

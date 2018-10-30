@@ -226,9 +226,8 @@ getDeclaration
 )
 )
 ;
-MainTest
-.
-checkShadow
+new
+ContractVerifier
 (
 shadowValueOf
 .
@@ -238,6 +237,10 @@ CtPackage
 .
 class
 )
+)
+.
+checkShadow
+(
 )
 ;
 }

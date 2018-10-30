@@ -1,9 +1,7 @@
-private
+public
 void
 checkBoundAndUnboundTypeReference
 (
-CtPackage
-pack
 )
 {
 new
@@ -64,7 +62,7 @@ ref
 .
 scan
 (
-pack
+_rootPackage
 )
 ;
 }

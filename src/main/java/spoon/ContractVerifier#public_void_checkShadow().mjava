@@ -1,10 +1,10 @@
+/** 
+ * check that we have all shadow elements, and that they are correctly isShadow 
+ */
 public
-static
 void
 checkShadow
 (
-CtPackage
-pack
 )
 {
 new
@@ -136,6 +136,14 @@ getTypeDeclaration
 ;
 assertNotNull
 (
+reference
+.
+toString
+(
+)
++
+" cannot be found in "
+,
 typeDeclaration
 )
 ;
@@ -182,6 +190,8 @@ null
 {
 assertTrue
 (
+"typeDeclaration must be shadow"
+,
 typeDeclaration
 .
 isShadow
@@ -484,6 +494,16 @@ getClass
 {
 assertTrue
 (
+"execDecl at "
++
+reference
+.
+toString
+(
+)
++
+" must be shadow "
+,
 (
 (
 CtShadowable
@@ -637,6 +657,8 @@ null
 {
 assertTrue
 (
+"fieldDecl must be shadow"
+,
 fieldDeclaration
 .
 isShadow
@@ -745,7 +767,7 @@ null
 .
 visitCtPackage
 (
-pack
+_rootPackage
 )
 ;
 }

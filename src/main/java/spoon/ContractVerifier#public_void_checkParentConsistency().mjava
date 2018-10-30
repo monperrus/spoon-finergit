@@ -1,0 +1,15 @@
+/** 
+ * checks that the scanner behavior and the parents correspond 
+ */
+public
+void
+checkParentConsistency
+(
+)
+{
+checkParentConsistency
+(
+_rootPackage
+)
+;
+}

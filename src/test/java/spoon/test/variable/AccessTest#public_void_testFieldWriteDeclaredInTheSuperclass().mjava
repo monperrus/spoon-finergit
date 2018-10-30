@@ -43,9 +43,8 @@ String
 }
 )
 ;
-MainTest
-.
-checkAssignmentContracts
+new
+ContractVerifier
 (
 launcher
 .
@@ -60,6 +59,10 @@ Package
 getRootPackage
 (
 )
+)
+.
+checkAssignmentContracts
+(
 )
 ;
 }

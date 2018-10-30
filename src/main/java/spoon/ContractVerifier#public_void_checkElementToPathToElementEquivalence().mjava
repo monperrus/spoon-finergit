@@ -1,11 +1,13 @@
-@Test
+/** 
+ * checks that for all elements, the path can be obtained, parsed, and give the same element when evaluated 
+ */
 public
 void
-testElementToPathToElementEquivalency
+checkElementToPathToElementEquivalence
 (
 )
 {
-rootPackage
+_rootPackage
 .
 getPackage
 (
@@ -82,7 +84,7 @@ pathRead
 .
 evaluateOn
 (
-rootPackage
+_rootPackage
 )
 ;
 assertEquals

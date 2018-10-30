@@ -18,9 +18,8 @@ Tacos
 class
 )
 ;
-MainTest
-.
-checkAssignmentContracts
+new
+ContractVerifier
 (
 factory
 .
@@ -31,6 +30,10 @@ Package
 getRootPackage
 (
 )
+)
+.
+checkAssignmentContracts
+(
 )
 ;
 }

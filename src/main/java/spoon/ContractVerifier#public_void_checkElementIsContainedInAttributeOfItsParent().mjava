@@ -1,11 +1,13 @@
-@Test
+/** 
+ * contract: element is contained in attribute of element's parent 
+ */
 public
 void
-testElementIsContainedInAttributeOfItsParent
+checkElementIsContainedInAttributeOfItsParent
 (
 )
 {
-rootPackage
+_rootPackage
 .
 accept
 (

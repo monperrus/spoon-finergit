@@ -1,10 +1,10 @@
+/** 
+ * checks that all assignments are aither a CtFieldWrite, a CtVariableWrite or a CtArrayWrite 
+ */
 public
-static
 void
 checkAssignmentContracts
 (
-CtElement
-pack
 )
 {
 for
@@ -12,7 +12,7 @@ for
 CtAssignment
 assign
 :
-pack
+_rootPackage
 .
 getElements
 (

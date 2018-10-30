@@ -1,0 +1,21 @@
+private
+void
+assertEquals
+(
+Object
+expected
+,
+Object
+actual
+)
+{
+assertEquals
+(
+"assertEquals violation"
+,
+expected
+,
+actual
+)
+;
+}

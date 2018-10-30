@@ -10,22 +10,12 @@ T
 reference
 )
 {
-if
-(
-reference
-==
-null
-)
-{
-throw
-new
-AssertionError
+return
+assertNotNull
 (
 "Your parameter can't be null."
-)
-;
-}
-return
+,
 reference
+)
 ;
 }

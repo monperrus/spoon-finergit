@@ -1,10 +1,13 @@
+/** 
+ * public modifier for testing purpose only, not in the public API 
+ */
+@Internal
 public
-static
 void
 checkParentConsistency
 (
 CtElement
-ele
+element
 )
 {
 final
@@ -183,7 +186,7 @@ e
 .
 scan
 (
-ele
+element
 )
 ;
 assertEquals

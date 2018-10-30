@@ -1,4 +1,6 @@
-@Test
+/** 
+ * contract: each element is used only once in the model
+ */
 public
 void
 checkModelIsTree
@@ -20,7 +22,7 @@ problems
 new
 PrinterHelper
 (
-rootPackage
+_rootPackage
 .
 getFactory
 (
@@ -46,7 +48,7 @@ IdentityHashMap
 (
 )
 ;
-rootPackage
+_rootPackage
 .
 filterChildren
 (

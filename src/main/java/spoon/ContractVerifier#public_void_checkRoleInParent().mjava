@@ -1,11 +1,10 @@
-@Test
 public
 void
-testMyRoleInParent
+checkRoleInParent
 (
 )
 {
-rootPackage
+_rootPackage
 .
 accept
 (

@@ -129,6 +129,13 @@ getType
 )
 )
 ;
+field
+.
+setShadow
+(
+true
+)
+;
 ctAnnotationType
 .
 addMethod

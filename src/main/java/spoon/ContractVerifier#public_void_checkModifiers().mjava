@@ -1,7 +1,9 @@
-@Test
+/** 
+ * verifies that the explicit modifier should be present in the original source code 
+ */
 public
 void
-testMain_checkModifiers
+checkModifiers
 (
 )
 {
@@ -10,7 +12,7 @@ for
 CtModifiable
 modifiable
 :
-rootPackage
+_rootPackage
 .
 getElements
 (

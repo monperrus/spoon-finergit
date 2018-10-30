@@ -44,7 +44,8 @@ String
 }
 )
 ;
-checkGenericContracts
+new
+ContractVerifier
 (
 launcher
 .
@@ -59,6 +60,10 @@ Package
 getRootPackage
 (
 )
+)
+.
+checkGenericContracts
+(
 )
 ;
 for
