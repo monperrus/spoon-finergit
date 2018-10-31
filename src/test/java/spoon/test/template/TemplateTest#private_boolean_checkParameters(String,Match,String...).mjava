@@ -125,6 +125,10 @@ key
 ;
 assertEquals
 (
+"parameter "
++
+key
+,
 expectedValue
 ,
 getOptimizedString
