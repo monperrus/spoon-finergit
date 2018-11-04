@@ -49,6 +49,8 @@ listener
 .
 enter
 (
+scannedRole
+,
 element
 )
 ;
@@ -74,6 +76,8 @@ listener
 .
 exit
 (
+scannedRole
+,
 element
 )
 ;
