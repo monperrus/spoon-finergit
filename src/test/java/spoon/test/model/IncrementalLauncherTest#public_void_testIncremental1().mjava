@@ -11,13 +11,6 @@ InterruptedException
 {
 FileUtils
 .
-deleteDirectory
-(
-WORKING_DIR
-)
-;
-FileUtils
-.
 copyDirectory
 (
 ORIGINAL_FILES_DIR

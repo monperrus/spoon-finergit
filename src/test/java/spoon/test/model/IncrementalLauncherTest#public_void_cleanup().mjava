@@ -1,4 +1,5 @@
-@Test
+@Before
+@After
 public
 void
 cleanup
