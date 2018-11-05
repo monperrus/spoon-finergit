@@ -1,0 +1,9 @@
+@PropertyGetter(role=CtRole.TYPE_REF)
+CtTypeReference
+<
+?
+>
+getTypeReference
+(
+)
+;

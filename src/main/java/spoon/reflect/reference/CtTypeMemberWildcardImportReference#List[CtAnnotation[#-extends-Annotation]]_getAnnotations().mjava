@@ -1,0 +1,14 @@
+@Override
+@DerivedProperty
+List
+<
+CtAnnotation
+<
+?
+Annotation
+>
+>
+getAnnotations
+(
+)
+;

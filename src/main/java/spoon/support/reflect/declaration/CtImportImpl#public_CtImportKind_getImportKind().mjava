@@ -72,7 +72,7 @@ this
 .
 localReference
 instanceof
-CtWildcardStaticTypeMemberReferenceImpl
+CtTypeMemberWildcardImportReferenceImpl
 )
 {
 return

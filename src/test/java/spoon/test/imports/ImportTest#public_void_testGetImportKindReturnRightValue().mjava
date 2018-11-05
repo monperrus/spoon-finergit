@@ -85,7 +85,7 @@ Type
 (
 )
 .
-createWildcardStaticTypeMemberReference
+createTypeMemberWildcardImportReference
 (
 aType
 .

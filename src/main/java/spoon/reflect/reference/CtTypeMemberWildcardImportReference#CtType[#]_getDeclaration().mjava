@@ -1,0 +1,10 @@
+@Override
+@DerivedProperty
+CtType
+<
+?
+>
+getDeclaration
+(
+)
+;

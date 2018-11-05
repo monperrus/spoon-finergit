@@ -1,0 +1,10 @@
+/** 
+ * Visits an import wildcard static type member reference
+ */
+void
+visitCtTypeMemberWildcardImportReference
+(
+CtTypeMemberWildcardImportReference
+wildcardReference
+)
+;

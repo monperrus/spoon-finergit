@@ -259,11 +259,11 @@ break
 case
 ALL_STATIC_MEMBERS
 :
-CtTypeReference
+CtTypeMemberWildcardImportReference
 typeStarRef
 =
 (
-CtTypeReference
+CtTypeMemberWildcardImportReference
 )
 ctImport
 .
@@ -274,6 +274,10 @@ getReference
 importTypeStr
 =
 typeStarRef
+.
+getTypeReference
+(
+)
 .
 getQualifiedName
 (

@@ -1,0 +1,11 @@
+@PropertySetter(role=CtRole.TYPE_REF)
+CtTypeMemberWildcardImportReference
+setTypeReference
+(
+CtTypeReference
+<
+?
+>
+typeReference
+)
+;

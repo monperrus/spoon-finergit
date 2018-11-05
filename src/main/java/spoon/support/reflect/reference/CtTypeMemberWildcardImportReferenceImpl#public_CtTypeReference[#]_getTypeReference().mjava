@@ -1,0 +1,14 @@
+@Override
+public
+CtTypeReference
+<
+?
+>
+getTypeReference
+(
+)
+{
+return
+typeReference
+;
+}

@@ -1,0 +1,13 @@
+/** 
+ * @see TypeFactory#createTypeMemberWildcardImportReference(CtTypeReference)
+ */
+CtTypeMemberWildcardImportReference
+createTypeMemberWildcardImportReference
+(
+CtTypeReference
+<
+?
+>
+typeReference
+)
+;
