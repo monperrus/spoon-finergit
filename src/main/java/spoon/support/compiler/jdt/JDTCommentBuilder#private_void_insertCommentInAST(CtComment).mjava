@@ -1072,6 +1072,17 @@ e
 {
 if
 (
+e
+.
+getThenStatement
+(
+)
+!=
+null
+)
+{
+if
+(
 !
 (
 e
@@ -1124,6 +1135,7 @@ comment
 ;
 return
 ;
+}
 }
 }
 if

@@ -1,0 +1,15 @@
+public
+void
+setParent
+(
+ASTNode
+parent
+)
+{
+this
+.
+parentJDT
+=
+parent
+;
+}
