@@ -1,0 +1,10 @@
+/** 
+ * Accepts a  {@link CtImportVisitor}
+ */
+void
+accept
+(
+CtImportVisitor
+visitor
+)
+;

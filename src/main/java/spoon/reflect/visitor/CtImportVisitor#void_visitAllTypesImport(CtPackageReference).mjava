@@ -1,0 +1,10 @@
+/** 
+ * Called for import like: <code>import apackage.*;</code>
+ */
+void
+visitAllTypesImport
+(
+CtPackageReference
+packageReference
+)
+;

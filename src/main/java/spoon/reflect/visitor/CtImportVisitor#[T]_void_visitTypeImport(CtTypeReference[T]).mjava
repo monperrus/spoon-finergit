@@ -1,0 +1,16 @@
+/** 
+ * Called for import like: <code>import apackage.Type;</code>
+ */
+<
+T
+>
+void
+visitTypeImport
+(
+CtTypeReference
+<
+T
+>
+typeReference
+)
+;

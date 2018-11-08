@@ -1,13 +1,13 @@
 @Override
 public
-CtImport
+CtImportImpl
 clone
 (
 )
 {
 return
 (
-CtImport
+CtImportImpl
 )
 super
 .

@@ -1,0 +1,16 @@
+/** 
+ * Called for import like: <code>import apackage.Type.staticField;</code>
+ */
+<
+T
+>
+void
+visitFieldImport
+(
+CtFieldReference
+<
+T
+>
+fieldReference
+)
+;

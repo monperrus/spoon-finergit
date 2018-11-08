@@ -1,0 +1,16 @@
+/** 
+ * Called for import like: <code>import apackage.Type.staticMethod;</code>
+ */
+<
+T
+>
+void
+visitMethodImport
+(
+CtExecutableReference
+<
+T
+>
+executableReference
+)
+;
