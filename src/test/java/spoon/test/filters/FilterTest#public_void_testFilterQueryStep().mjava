@@ -26,10 +26,6 @@ String
 "--output-type"
 ,
 "nooutput"
-,
-"--level"
-,
-"info"
 }
 )
 ;
