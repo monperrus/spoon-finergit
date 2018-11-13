@@ -80,7 +80,9 @@ stream
 .
 println
 (
-printer
+getPrinter
+(
+)
 .
 printModuleInfo
 (

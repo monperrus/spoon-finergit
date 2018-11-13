@@ -1,5 +1,5 @@
 /** 
- * usedful for testing
+ * Such processor will use printer created by  {@link Environment#createPrettyPrinter()}
  */
 public
 JavaOutputProcessor

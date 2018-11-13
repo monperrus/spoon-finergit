@@ -53,7 +53,9 @@ stream
 .
 println
 (
-printer
+getPrinter
+(
+)
 .
 printPackageInfo
 (
