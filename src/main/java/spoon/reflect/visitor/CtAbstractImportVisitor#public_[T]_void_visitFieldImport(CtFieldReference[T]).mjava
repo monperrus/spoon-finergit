@@ -1,0 +1,16 @@
+@Override
+public
+<
+T
+>
+void
+visitFieldImport
+(
+CtFieldReference
+<
+T
+>
+fieldReference
+)
+{
+}

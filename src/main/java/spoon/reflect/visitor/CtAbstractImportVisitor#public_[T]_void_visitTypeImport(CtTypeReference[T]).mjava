@@ -1,0 +1,16 @@
+@Override
+public
+<
+T
+>
+void
+visitTypeImport
+(
+CtTypeReference
+<
+T
+>
+typeReference
+)
+{
+}

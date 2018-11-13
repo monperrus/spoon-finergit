@@ -1,0 +1,13 @@
+@Override
+public
+<
+T
+>
+void
+visitAllStaticMembersImport
+(
+CtTypeMemberWildcardImportReference
+typeReference
+)
+{
+}
