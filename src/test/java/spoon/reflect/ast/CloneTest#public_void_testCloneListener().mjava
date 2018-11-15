@@ -188,10 +188,11 @@ sourceElement
 targetElement
 )
 ;
-assertEquals
+assertCtElementEquals
 (
-"Source and Target are not equal"
-,
+(
+CtElement
+)
 sourceElement
 ,
 targetElement
