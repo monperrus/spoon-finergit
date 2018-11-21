@@ -16,10 +16,8 @@ end
 )
 {
 return
-cleanComment
-(
 new
-CharArrayReader
+String
 (
 contents
 ,
@@ -28,7 +26,6 @@ start
 end
 -
 start
-)
 )
 ;
 }

@@ -7,6 +7,17 @@ String
 comment
 )
 {
+if
+(
+comment
+==
+null
+)
+{
+return
+""
+;
+}
 return
 cleanComment
 (
