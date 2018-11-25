@@ -18,6 +18,14 @@ getPrinterHelper
 )
 ,
 docTag
+,
+x
+->
+{
+return
+x
+;
+}
 )
 ;
 }

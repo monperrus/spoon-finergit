@@ -251,6 +251,12 @@ lineSeparator
 (
 )
 +
+System
+.
+lineSeparator
+(
+)
++
 "@param owner"
 +
 System
