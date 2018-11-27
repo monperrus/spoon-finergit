@@ -137,7 +137,29 @@ getMessage
 .
 contains
 (
-"spoon.support.reflect.declaration.CtClassImpl cannot be cast to spoon.reflect.declaration.CtMethod"
+"spoon.support.reflect.declaration.CtClassImpl"
+)
+&&
+e
+.
+getMessage
+(
+)
+.
+contains
+(
+"cannot be cast to"
+)
+&&
+e
+.
+getMessage
+(
+)
+.
+contains
+(
+"spoon.reflect.declaration.CtMethod"
 )
 )
 ;
