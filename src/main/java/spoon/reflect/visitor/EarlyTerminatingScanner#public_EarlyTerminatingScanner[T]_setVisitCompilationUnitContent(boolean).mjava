@@ -1,0 +1,24 @@
+/** 
+ * @param visitCompilationUnitContent use true if types and modules have to be visited. false if only their references have to be visited.false is default
+ */
+public
+EarlyTerminatingScanner
+<
+T
+>
+setVisitCompilationUnitContent
+(
+boolean
+visitCompilationUnitContent
+)
+{
+this
+.
+visitCompilationUnitContent
+=
+visitCompilationUnitContent
+;
+return
+this
+;
+}

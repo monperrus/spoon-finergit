@@ -1,0 +1,13 @@
+/** 
+ * @return true if types and modules are visited. false if only their references are visited. false is default
+ */
+public
+boolean
+isVisitCompilationUnitContent
+(
+)
+{
+return
+visitCompilationUnitContent
+;
+}

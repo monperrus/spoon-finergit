@@ -2,6 +2,7 @@
  * Gets all the types declared in this compilation unit.
  */
 @DerivedProperty
+@PropertyGetter(role=CtRole.DECLARED_TYPE)
 List
 <
 CtType

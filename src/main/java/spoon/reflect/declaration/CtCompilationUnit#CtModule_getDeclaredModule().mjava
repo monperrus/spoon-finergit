@@ -2,6 +2,7 @@
  * Gets the declared module if the compilationUnit is "module-info.java"
  */
 @DerivedProperty
+@PropertyGetter(role=CtRole.DECLARED_MODULE)
 CtModule
 getDeclaredModule
 (
