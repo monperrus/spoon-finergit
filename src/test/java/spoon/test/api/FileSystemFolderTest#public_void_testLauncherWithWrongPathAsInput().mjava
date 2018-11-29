@@ -43,10 +43,6 @@ spe
 getCause
 (
 )
-.
-getCause
-(
-)
 ;
 assertTrue
 (

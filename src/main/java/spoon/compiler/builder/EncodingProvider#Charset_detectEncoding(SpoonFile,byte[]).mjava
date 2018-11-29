@@ -1,0 +1,15 @@
+/** 
+ * User-defined function, which is used to detect encoding for each file
+ */
+Charset
+detectEncoding
+(
+SpoonFile
+file
+,
+byte
+[
+]
+fileBytes
+)
+;

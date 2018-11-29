@@ -1,0 +1,16 @@
+@Override
+public
+void
+setEncodingProvider
+(
+EncodingProvider
+encodingProvider
+)
+{
+this
+.
+encodingProvider
+=
+encodingProvider
+;
+}

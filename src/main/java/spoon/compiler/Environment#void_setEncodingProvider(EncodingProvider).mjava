@@ -1,0 +1,10 @@
+/** 
+ * Set encoding provider, which is used to detect encoding for each file separately
+ */
+void
+setEncodingProvider
+(
+EncodingProvider
+encodingProvider
+)
+;
