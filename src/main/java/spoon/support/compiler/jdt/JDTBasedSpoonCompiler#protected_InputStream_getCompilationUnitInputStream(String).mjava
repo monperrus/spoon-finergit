@@ -84,6 +84,11 @@ getResult
 .
 getBytes
 (
+env
+.
+getEncoding
+(
+)
 )
 )
 ;
