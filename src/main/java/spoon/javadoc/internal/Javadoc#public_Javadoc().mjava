@@ -1,0 +1,14 @@
+public
+Javadoc
+(
+)
+{
+this
+(
+new
+JavadocDescription
+(
+)
+)
+;
+}

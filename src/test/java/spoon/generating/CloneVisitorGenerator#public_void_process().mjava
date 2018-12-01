@@ -1715,7 +1715,7 @@ continue
 }
 if
 (
-isConstantOrStatic
+isConstantOrStaticOrTransient
 (
 ctField
 )
@@ -3793,7 +3793,7 @@ false
 }
 private
 boolean
-isConstantOrStatic
+isConstantOrStaticOrTransient
 (
 CtField
 <
@@ -3827,6 +3827,19 @@ contains
 ModifierKind
 .
 STATIC
+)
+||
+ctField
+.
+getModifiers
+(
+)
+.
+contains
+(
+ModifierKind
+.
+TRANSIENT
 )
 ;
 }

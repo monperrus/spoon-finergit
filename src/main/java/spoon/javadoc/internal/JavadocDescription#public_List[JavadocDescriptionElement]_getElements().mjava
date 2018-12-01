@@ -1,0 +1,15 @@
+public
+List
+<
+JavadocDescriptionElement
+>
+getElements
+(
+)
+{
+return
+this
+.
+elements
+;
+}

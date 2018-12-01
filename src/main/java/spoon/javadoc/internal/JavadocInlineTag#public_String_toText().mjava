@@ -1,0 +1,21 @@
+@Override
+public
+String
+toText
+(
+)
+{
+return
+"{@"
++
+tagName
++
+" "
++
+this
+.
+content
++
+"}"
+;
+}

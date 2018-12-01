@@ -1,0 +1,15 @@
+public
+JavadocDescription
+(
+)
+{
+elements
+=
+new
+LinkedList
+<
+>
+(
+)
+;
+}

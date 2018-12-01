@@ -1,0 +1,13 @@
+@Override
+public
+String
+toText
+(
+)
+{
+return
+this
+.
+text
+;
+}

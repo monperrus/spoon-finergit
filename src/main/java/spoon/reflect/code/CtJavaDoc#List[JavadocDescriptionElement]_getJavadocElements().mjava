@@ -1,0 +1,12 @@
+/** 
+ * Returns the list of parsed Javadoc elements 
+ */
+@DerivedProperty
+List
+<
+JavadocDescriptionElement
+>
+getJavadocElements
+(
+)
+;

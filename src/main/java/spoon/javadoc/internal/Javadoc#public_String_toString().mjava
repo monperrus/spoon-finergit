@@ -1,0 +1,21 @@
+@Override
+public
+String
+toString
+(
+)
+{
+return
+"Javadoc{"
++
+"description="
++
+description
++
+", blockTags="
++
+blockTags
++
+'}'
+;
+}

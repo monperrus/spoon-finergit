@@ -1,0 +1,10 @@
+public
+JavadocDescription
+getContent
+(
+)
+{
+return
+content
+;
+}

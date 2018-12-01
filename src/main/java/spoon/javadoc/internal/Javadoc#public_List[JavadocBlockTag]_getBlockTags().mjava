@@ -1,0 +1,18 @@
+/** 
+ * @return the current List of associated JavadocBlockTags 
+ */
+public
+List
+<
+JavadocBlockTag
+>
+getBlockTags
+(
+)
+{
+return
+this
+.
+blockTags
+;
+}

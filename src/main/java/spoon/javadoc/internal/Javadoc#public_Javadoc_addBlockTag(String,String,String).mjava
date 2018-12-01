@@ -1,0 +1,28 @@
+/** 
+ * For tags like "@return good things" where tagName is "return", and the rest is content. 
+ */
+public
+Javadoc
+addBlockTag
+(
+String
+tagName
+,
+String
+parameter
+,
+String
+content
+)
+{
+return
+addBlockTag
+(
+tagName
+,
+parameter
+,
+content
+)
+;
+}

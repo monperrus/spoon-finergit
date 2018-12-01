@@ -1,0 +1,17 @@
+@Override
+public
+String
+toString
+(
+)
+{
+return
+"JavadocDescription{"
++
+"elements="
++
+elements
++
+'}'
+;
+}
