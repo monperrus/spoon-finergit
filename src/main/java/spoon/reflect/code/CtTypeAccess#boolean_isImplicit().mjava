@@ -1,0 +1,10 @@
+/** 
+ * @return {@link #getAccessedType()}.isImplicit()
+ */
+@Override
+@DerivedProperty
+boolean
+isImplicit
+(
+)
+;

@@ -1,0 +1,17 @@
+/** 
+ * Calls  {@link #getAccessedType()}.setImplicit()
+ */
+@Override
+@DerivedProperty
+<
+E
+extends
+CtElement
+>
+E
+setImplicit
+(
+boolean
+implicit
+)
+;
