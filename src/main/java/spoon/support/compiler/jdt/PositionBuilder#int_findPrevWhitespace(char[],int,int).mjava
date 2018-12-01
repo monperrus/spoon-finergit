@@ -2,7 +2,7 @@
  * @param minOff the minimal acceptable return value
  * @return index of first whitespace char, searching backward. Can return off if it is whitespace.Note: all kinds of java comments are understood as whitespace too. Then it returns offset of the last comment character. in case of line comment it returns last character of EOL which ends the comment
  */
-private
+static
 int
 findPrevWhitespace
 (

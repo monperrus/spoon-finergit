@@ -2,7 +2,7 @@
  * @param minOff minimum offset where it should search for start of comment
  * @return if the off points at end of comment then it returns offset which points on first character of the commentif the off does not point at the end of comment then it returns -1
  */
-private
+static
 int
 getStartOfComment
 (

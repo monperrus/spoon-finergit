@@ -2,7 +2,7 @@
  * @param maxOff maximum acceptable return value
  * @return if the off points at start of comment then it returns offset which points on last character of the commentif the off does not point at start of comment then it returns -1
  */
-private
+static
 int
 getEndOfComment
 (

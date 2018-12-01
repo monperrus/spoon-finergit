@@ -2,6 +2,7 @@
  * @param minOff the minimal acceptable return value
  * @return index of first non whitespace char, searching backward. Can return `off` if it is already a non whitespace.Note: all kinds of java comments are understood as whitespace too. Then it returns offset of the first non whitespace character before the comment
  */
+static
 int
 findPrevNonWhitespace
 (

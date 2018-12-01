@@ -1,0 +1,33 @@
+/** 
+ * @param maxOff maximum acceptable return value
+ * @return index of first non whitespace char, searching forward.Can return 'off' if it is non whitespace. Note: all kinds of java comments are understood as whitespace too. The search must start out of comment or on the first character of the comment
+ */
+static
+int
+findNextNonWhitespace
+(
+char
+[
+]
+content
+,
+int
+maxOff
+,
+int
+off
+)
+{
+return
+findNextNonWhitespace
+(
+true
+,
+content
+,
+maxOff
+,
+off
+)
+;
+}

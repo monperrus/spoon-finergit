@@ -2,7 +2,7 @@
  * @param maxOff maximum acceptable return value
  * @return index of first whitespace char, searching forward. Return -1 if there is no white space.Can return `off` if it is already a non whitespace. Note: all kinds of java comments are understood as whitespace too. Then it returns offset of the first character of the comment
  */
-private
+static
 int
 findNextWhitespace
 (
