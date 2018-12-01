@@ -1,0 +1,21 @@
+/** 
+ * @return true if there is more child tokens to be processed.false if all tokens were processed
+ */
+protected
+boolean
+hasNextChildToken
+(
+)
+{
+return
+childFragmentIdx
++
+1
+<
+childFragments
+.
+size
+(
+)
+;
+}
