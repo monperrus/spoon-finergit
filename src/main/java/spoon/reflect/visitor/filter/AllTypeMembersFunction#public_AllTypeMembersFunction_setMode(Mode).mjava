@@ -1,0 +1,21 @@
+/** 
+ * @param mode defines how whether type members with limited visibility are returned
+ */
+public
+AllTypeMembersFunction
+setMode
+(
+Mode
+mode
+)
+{
+this
+.
+mode
+=
+mode
+;
+return
+this
+;
+}
