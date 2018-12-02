@@ -1,0 +1,14 @@
+/** 
+ * @param parentIsImplicit false then fully qualified name is printed.true then type simple name is printed.
+ */
+@DerivedProperty
+CtTypeReference
+<
+T
+>
+setImplicitParent
+(
+boolean
+parentIsImplicit
+)
+;

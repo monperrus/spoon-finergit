@@ -1,0 +1,14 @@
+@Override
+@UnsettableProperty
+public
+CtTypeParameterReferenceImpl
+setImplicitParent
+(
+boolean
+packageIsImplicit
+)
+{
+return
+this
+;
+}
