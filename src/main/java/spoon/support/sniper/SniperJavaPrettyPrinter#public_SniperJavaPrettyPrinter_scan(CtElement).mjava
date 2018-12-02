@@ -20,10 +20,9 @@ null
 CtRole
 role
 =
-element
-.
-getRoleInParent
+getRoleInCompilationUnit
 (
+element
 )
 ;
 onPrintEvent

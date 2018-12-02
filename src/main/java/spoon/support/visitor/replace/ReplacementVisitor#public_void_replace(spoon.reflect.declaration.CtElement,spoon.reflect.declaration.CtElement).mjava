@@ -42,16 +42,6 @@ replace
 ==
 null
 ?
-spoon
-.
-support
-.
-visitor
-.
-replace
-.
-ReplacementVisitor
-.
 EMPTY
 :
 new

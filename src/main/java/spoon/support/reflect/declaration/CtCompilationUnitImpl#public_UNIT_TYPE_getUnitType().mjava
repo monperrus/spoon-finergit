@@ -97,9 +97,7 @@ MODULE_DECLARATION
 else
 if
 (
-getPackageDeclaration
-(
-)
+packageDeclaration
 !=
 null
 )

@@ -13,6 +13,14 @@ file
 =
 file
 ;
+this
+.
+position
+=
+SourcePosition
+.
+NOPOSITION
+;
 return
 this
 ;
