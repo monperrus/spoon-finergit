@@ -1,0 +1,10 @@
+/** 
+ * @return true if this type can access that the `typeMember` in another type based on public, protected, package protected and private modifiers.
+ */
+boolean
+canAccess
+(
+CtTypeMember
+typeMember
+)
+;
