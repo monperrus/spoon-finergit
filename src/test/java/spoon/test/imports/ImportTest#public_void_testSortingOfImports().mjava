@@ -207,7 +207,7 @@ length
 (
 )
 -
-2
+1
 )
 ;
 countOfImports
@@ -224,7 +224,7 @@ assertTrue
 (
 lastImport
 +
-" should be before "
+" should be after "
 +
 line
 ,
