@@ -36,6 +36,15 @@ unitToProcess
 unitsToProcess
 )
 {
+if
+(
+unitToProcess
+.
+types
+!=
+null
+)
+{
 for
 (
 TypeDeclaration
@@ -114,6 +123,7 @@ type
 .
 binding
 ;
+}
 }
 }
 }
