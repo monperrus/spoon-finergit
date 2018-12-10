@@ -35,11 +35,9 @@ getContextBuilder
 (
 )
 .
-compilationunitdeclaration
-.
-compilationResult
-.
-lineSeparatorPositions
+getCompilationUnitLineSeparatorPositions
+(
+)
 ;
 return
 this

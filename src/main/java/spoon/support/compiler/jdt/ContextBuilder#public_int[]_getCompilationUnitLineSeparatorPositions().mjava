@@ -1,0 +1,19 @@
+/** 
+ * @return line separator positions of actually processed compilation unit
+ */
+public
+int
+[
+]
+getCompilationUnitLineSeparatorPositions
+(
+)
+{
+return
+compilationunitdeclaration
+.
+compilationResult
+.
+lineSeparatorPositions
+;
+}

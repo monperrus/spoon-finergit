@@ -181,13 +181,9 @@ char
 ]
 content
 =
-compilationUnitDeclaration
+context
 .
-compilationResult
-.
-compilationUnit
-.
-getContents
+getCompilationUnitContents
 (
 )
 ;

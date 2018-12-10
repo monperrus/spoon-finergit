@@ -1,0 +1,23 @@
+/** 
+ * @return char content of actually processed compilation unit
+ */
+public
+char
+[
+]
+getCompilationUnitContents
+(
+)
+{
+return
+compilationunitdeclaration
+.
+compilationResult
+.
+compilationUnit
+.
+getContents
+(
+)
+;
+}
