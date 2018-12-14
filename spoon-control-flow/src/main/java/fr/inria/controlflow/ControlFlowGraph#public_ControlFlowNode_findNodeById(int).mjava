@@ -1,0 +1,43 @@
+/** 
+ * Find nodes by a given id
+ * @param id
+ * @return
+ */
+public
+ControlFlowNode
+findNodeById
+(
+int
+id
+)
+{
+for
+(
+ControlFlowNode
+n
+:
+vertexSet
+(
+)
+)
+{
+if
+(
+n
+.
+getId
+(
+)
+==
+id
+)
+{
+return
+n
+;
+}
+}
+return
+null
+;
+}

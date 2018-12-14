@@ -1,0 +1,13 @@
+public
+NotFoundException
+(
+String
+found
+)
+{
+super
+(
+found
+)
+;
+}

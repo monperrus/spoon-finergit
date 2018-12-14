@@ -1,0 +1,28 @@
+/** 
+ * Tries to add an edge. If source or target are not null and the vertex is unique
+ * @param source Source of the vertex
+ * @param target Target of the vertex
+ */
+private
+void
+tryAddEdge
+(
+ControlFlowNode
+source
+,
+ControlFlowNode
+target
+)
+{
+tryAddEdge
+(
+source
+,
+target
+,
+false
+,
+false
+)
+;
+}

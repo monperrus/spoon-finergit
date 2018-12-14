@@ -1,0 +1,9 @@
+double
+method1
+(
+)
+{
+return
+0
+;
+}

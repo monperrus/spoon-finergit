@@ -1,0 +1,57 @@
+/** 
+ * Find the node holding and element
+ * @param e
+ * @return
+ */
+public
+ControlFlowNode
+findNode
+(
+CtElement
+e
+)
+throws
+NotFoundException
+{
+if
+(
+e
+!=
+null
+)
+{
+for
+(
+ControlFlowNode
+n
+:
+vertexSet
+(
+)
+)
+{
+if
+(
+e
+==
+n
+.
+getStatement
+(
+)
+)
+{
+return
+n
+;
+}
+}
+}
+throw
+new
+NotFoundException
+(
+"Element's node not found "
+)
+;
+}

@@ -1,0 +1,23 @@
+/** 
+ * Performs the transfer using a given visitor
+ * @param visitor
+ */
+public
+void
+transfer
+(
+TransferFunctionVisitor
+visitor
+)
+{
+this
+.
+visitor
+=
+visitor
+;
+transfer
+(
+)
+;
+}

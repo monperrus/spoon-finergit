@@ -1,0 +1,15 @@
+public
+DirectedGraph
+<
+CtStatement
+,
+CtStatement
+>
+getControlGraph
+(
+)
+{
+return
+controlGraph
+;
+}

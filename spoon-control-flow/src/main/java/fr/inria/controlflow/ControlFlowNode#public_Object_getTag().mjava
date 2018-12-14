@@ -1,0 +1,10 @@
+public
+Object
+getTag
+(
+)
+{
+return
+tag
+;
+}

@@ -1,0 +1,15 @@
+public
+int
+statementCount
+(
+)
+{
+return
+countNodes
+(
+BranchKind
+.
+STATEMENT
+)
+;
+}

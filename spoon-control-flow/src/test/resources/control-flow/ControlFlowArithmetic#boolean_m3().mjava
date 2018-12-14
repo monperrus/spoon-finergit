@@ -1,0 +1,9 @@
+boolean
+m3
+(
+)
+{
+return
+true
+;
+}

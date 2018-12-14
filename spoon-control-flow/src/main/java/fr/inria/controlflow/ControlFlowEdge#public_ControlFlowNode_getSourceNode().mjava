@@ -1,0 +1,15 @@
+public
+ControlFlowNode
+getSourceNode
+(
+)
+{
+return
+(
+ControlFlowNode
+)
+getSource
+(
+)
+;
+}

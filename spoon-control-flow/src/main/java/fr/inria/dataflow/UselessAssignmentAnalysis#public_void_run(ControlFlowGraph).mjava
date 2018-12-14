@@ -1,0 +1,38 @@
+/** 
+ * The method calculates the control flow for 'container' and then returns the useless assignments
+ * @param graph
+ */
+public
+void
+run
+(
+ControlFlowGraph
+graph
+)
+{
+ControlFlowNode
+exitNode
+=
+graph
+.
+getExitNode
+(
+)
+;
+useless
+=
+new
+HashSet
+<
+>
+(
+)
+;
+doRun
+(
+exitNode
+,
+graph
+)
+;
+}

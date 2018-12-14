@@ -1,0 +1,13 @@
+public
+Set
+<
+CtVariableReference
+>
+getInitialized
+(
+)
+{
+return
+initialized
+;
+}

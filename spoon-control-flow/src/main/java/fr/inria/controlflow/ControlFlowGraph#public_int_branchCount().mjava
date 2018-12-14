@@ -1,0 +1,15 @@
+public
+int
+branchCount
+(
+)
+{
+return
+countNodes
+(
+BranchKind
+.
+BRANCH
+)
+;
+}

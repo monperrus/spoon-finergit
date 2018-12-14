@@ -1,0 +1,17 @@
+public
+ControlFlowGraph
+(
+Class
+<
+?
+ControlFlowEdge
+>
+edgeClass
+)
+{
+super
+(
+edgeClass
+)
+;
+}

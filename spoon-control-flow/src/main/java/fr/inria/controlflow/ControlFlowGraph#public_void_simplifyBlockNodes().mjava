@@ -1,0 +1,24 @@
+/** 
+ * Removes all blocks
+ */
+public
+void
+simplifyBlockNodes
+(
+)
+{
+simplify
+(
+BranchKind
+.
+BLOCK_BEGIN
+)
+;
+simplify
+(
+BranchKind
+.
+BLOCK_END
+)
+;
+}

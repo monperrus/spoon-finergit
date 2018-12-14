@@ -1,0 +1,10 @@
+public
+ControlFlowGraph
+getResult
+(
+)
+{
+return
+result
+;
+}

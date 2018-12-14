@@ -1,0 +1,12 @@
+/** 
+ * Visit a node of the graph
+ * @param n Node to visit
+ * @return True if the running of the graph must stop
+ */
+boolean
+visitBranch
+(
+ControlFlowNode
+n
+)
+;

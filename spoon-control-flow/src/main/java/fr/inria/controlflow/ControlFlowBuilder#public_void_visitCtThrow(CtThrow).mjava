@@ -1,0 +1,10 @@
+@Override
+public
+void
+visitCtThrow
+(
+CtThrow
+throwStatement
+)
+{
+}

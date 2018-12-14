@@ -1,0 +1,16 @@
+@Override
+public
+<
+T
+>
+void
+visitCtNewArray
+(
+CtNewArray
+<
+T
+>
+newArray
+)
+{
+}

@@ -1,0 +1,10 @@
+@Override
+public
+void
+visitCtTypeMemberWildcardImportReference
+(
+CtTypeMemberWildcardImportReference
+wildcardReference
+)
+{
+}

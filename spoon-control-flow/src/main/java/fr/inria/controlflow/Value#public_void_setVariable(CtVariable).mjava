@@ -1,0 +1,15 @@
+public
+void
+setVariable
+(
+CtVariable
+variable
+)
+{
+this
+.
+variable
+=
+variable
+;
+}

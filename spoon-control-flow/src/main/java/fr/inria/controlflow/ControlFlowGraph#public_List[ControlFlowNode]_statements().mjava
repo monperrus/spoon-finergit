@@ -1,0 +1,21 @@
+/** 
+ * Returns all statements
+ */
+public
+List
+<
+ControlFlowNode
+>
+statements
+(
+)
+{
+return
+findNodesOfKind
+(
+BranchKind
+.
+STATEMENT
+)
+;
+}

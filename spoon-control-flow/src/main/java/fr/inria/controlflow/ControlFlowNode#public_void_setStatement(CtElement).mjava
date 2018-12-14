@@ -1,0 +1,15 @@
+public
+void
+setStatement
+(
+CtElement
+statement
+)
+{
+this
+.
+statement
+=
+statement
+;
+}

@@ -1,0 +1,10 @@
+public
+CtElement
+getStatement
+(
+)
+{
+return
+statement
+;
+}

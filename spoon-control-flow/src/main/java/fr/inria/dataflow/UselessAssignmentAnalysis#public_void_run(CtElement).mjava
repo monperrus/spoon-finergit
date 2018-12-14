@@ -1,0 +1,34 @@
+/** 
+ * The method calculates the control flow for 'container' and then returns the useless assignments
+ * @param container
+ * @throws NotFoundException if element 'begin' does not belong to 'container'
+ */
+public
+void
+run
+(
+CtElement
+container
+)
+throws
+NotFoundException
+{
+ControlFlowGraph
+graph
+=
+new
+ControlFlowBuilder
+(
+)
+.
+build
+(
+container
+)
+;
+run
+(
+graph
+)
+;
+}

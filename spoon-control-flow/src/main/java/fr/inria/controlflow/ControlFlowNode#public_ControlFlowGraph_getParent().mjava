@@ -1,0 +1,10 @@
+public
+ControlFlowGraph
+getParent
+(
+)
+{
+return
+parent
+;
+}

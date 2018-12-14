@@ -1,0 +1,15 @@
+public
+void
+setIncludeDefinedInNode
+(
+boolean
+includeDefinedInNode
+)
+{
+this
+.
+includeDefinedInNode
+=
+includeDefinedInNode
+;
+}

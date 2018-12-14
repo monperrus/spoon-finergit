@@ -1,0 +1,15 @@
+public
+void
+setKind
+(
+BranchKind
+kind
+)
+{
+this
+.
+kind
+=
+kind
+;
+}

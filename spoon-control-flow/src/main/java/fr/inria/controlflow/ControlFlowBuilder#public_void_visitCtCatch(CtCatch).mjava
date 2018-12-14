@@ -1,0 +1,10 @@
+@Override
+public
+void
+visitCtCatch
+(
+CtCatch
+catchBlock
+)
+{
+}

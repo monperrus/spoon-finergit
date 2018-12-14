@@ -1,0 +1,18 @@
+/** 
+ * Removes all non statements or branches
+ */
+public
+void
+simplify
+(
+)
+{
+simplifyConvergenceNodes
+(
+)
+;
+simplifyBlockNodes
+(
+)
+;
+}

@@ -1,0 +1,11 @@
+double
+method2
+(
+double
+a
+)
+{
+return
+a
+;
+}

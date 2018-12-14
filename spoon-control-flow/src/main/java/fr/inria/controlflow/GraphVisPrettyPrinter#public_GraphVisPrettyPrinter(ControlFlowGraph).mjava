@@ -1,0 +1,14 @@
+public
+GraphVisPrettyPrinter
+(
+ControlFlowGraph
+graph
+)
+{
+this
+.
+graph
+=
+graph
+;
+}

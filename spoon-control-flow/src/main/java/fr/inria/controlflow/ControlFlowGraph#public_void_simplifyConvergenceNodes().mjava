@@ -1,0 +1,17 @@
+/** 
+ * Removes all convergence nodes
+ */
+public
+void
+simplifyConvergenceNodes
+(
+)
+{
+simplify
+(
+BranchKind
+.
+CONVERGE
+)
+;
+}

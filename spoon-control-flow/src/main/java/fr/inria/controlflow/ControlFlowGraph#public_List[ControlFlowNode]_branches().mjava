@@ -1,0 +1,21 @@
+/** 
+ * Returns all branches
+ */
+public
+List
+<
+ControlFlowNode
+>
+branches
+(
+)
+{
+return
+findNodesOfKind
+(
+BranchKind
+.
+BRANCH
+)
+;
+}

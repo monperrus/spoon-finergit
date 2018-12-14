@@ -1,0 +1,15 @@
+public
+void
+setBackEdge
+(
+boolean
+isLooopingEdge
+)
+{
+this
+.
+isBackEdge
+=
+isLooopingEdge
+;
+}

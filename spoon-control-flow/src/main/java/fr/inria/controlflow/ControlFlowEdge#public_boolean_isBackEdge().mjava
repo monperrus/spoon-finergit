@@ -1,0 +1,10 @@
+public
+boolean
+isBackEdge
+(
+)
+{
+return
+isBackEdge
+;
+}

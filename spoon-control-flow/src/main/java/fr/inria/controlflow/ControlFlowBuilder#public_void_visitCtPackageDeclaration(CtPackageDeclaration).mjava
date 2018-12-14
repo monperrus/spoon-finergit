@@ -1,0 +1,10 @@
+@Override
+public
+void
+visitCtPackageDeclaration
+(
+CtPackageDeclaration
+packageDeclaration
+)
+{
+}

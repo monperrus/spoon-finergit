@@ -1,0 +1,15 @@
+public
+void
+setParent
+(
+ControlFlowGraph
+parent
+)
+{
+this
+.
+parent
+=
+parent
+;
+}

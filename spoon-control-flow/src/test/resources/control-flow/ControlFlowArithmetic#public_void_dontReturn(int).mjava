@@ -1,0 +1,34 @@
+public
+void
+dontReturn
+(
+int
+a
+)
+{
+if
+(
+a
+>
+0
+)
+System
+.
+out
+.
+print
+(
+"otra cosa"
+)
+;
+else
+System
+.
+out
+.
+print
+(
+"A < 0!"
+)
+;
+}

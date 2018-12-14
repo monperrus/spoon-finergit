@@ -1,0 +1,31 @@
+/** 
+ * Build the control graph
+ * @param s
+ * @return
+ */
+public
+ControlFlowGraph
+build
+(
+CtElement
+s
+)
+{
+s
+.
+accept
+(
+this
+)
+;
+tryAddEdge
+(
+lastNode
+,
+exitNode
+)
+;
+return
+result
+;
+}

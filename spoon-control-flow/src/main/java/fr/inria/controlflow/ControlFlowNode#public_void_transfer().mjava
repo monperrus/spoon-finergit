@@ -1,0 +1,41 @@
+/** 
+ * Perform the transfer function
+ */
+public
+void
+transfer
+(
+)
+{
+if
+(
+statement
+!=
+null
+&&
+visitor
+!=
+null
+)
+{
+output
+=
+visitor
+.
+transfer
+(
+statement
+)
+;
+}
+else
+{
+throw
+new
+RuntimeException
+(
+"Unable to perform the transfer function. Statement or visitor are null."
+)
+;
+}
+}

@@ -1,0 +1,15 @@
+public
+void
+setTag
+(
+Object
+tag
+)
+{
+this
+.
+tag
+=
+tag
+;
+}

@@ -1,0 +1,13 @@
+/** 
+ * Runs the graph backwards starting from a node visiting all nodes until it reach the node pased as parameters or some node signals an stop
+ * @param statementNode Statement node to stop
+ */
+public
+void
+run
+(
+ControlFlowNode
+statementNode
+)
+{
+}
