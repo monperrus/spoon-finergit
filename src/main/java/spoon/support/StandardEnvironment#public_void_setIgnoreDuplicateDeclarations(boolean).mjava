@@ -1,0 +1,16 @@
+@Override
+public
+void
+setIgnoreDuplicateDeclarations
+(
+boolean
+ignoreDuplicateDeclarations
+)
+{
+this
+.
+ignoreDuplicateDeclarations
+=
+ignoreDuplicateDeclarations
+;
+}

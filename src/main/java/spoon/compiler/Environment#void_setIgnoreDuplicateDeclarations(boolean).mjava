@@ -1,0 +1,10 @@
+/** 
+ * @param ignoreDuplicateDeclarations (default false)  set to true to allow spoon to create a model of a project thatcontains multiple times the same class
+ */
+void
+setIgnoreDuplicateDeclarations
+(
+boolean
+ignoreDuplicateDeclarations
+)
+;
