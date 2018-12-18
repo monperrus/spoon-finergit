@@ -117,6 +117,10 @@ thenPosition
 isValidPosition
 (
 )
+&&
+thenStmt
+instanceof
+CtBlock
 )
 {
 CtStatement
