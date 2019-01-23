@@ -1,0 +1,15 @@
+/** 
+ * @return the {@link CtElement} which represents the current scope
+ */
+@Override
+public
+final
+CtElement
+getScopeElement
+(
+)
+{
+return
+scopeElement
+;
+}

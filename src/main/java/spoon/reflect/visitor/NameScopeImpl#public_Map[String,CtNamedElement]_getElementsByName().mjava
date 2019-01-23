@@ -1,0 +1,15 @@
+public
+Map
+<
+String
+,
+CtNamedElement
+>
+getElementsByName
+(
+)
+{
+return
+elementsByName
+;
+}

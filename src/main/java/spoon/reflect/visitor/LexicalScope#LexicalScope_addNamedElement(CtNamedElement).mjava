@@ -1,0 +1,10 @@
+/** 
+ * adds an element to the scope 
+ */
+LexicalScope
+addNamedElement
+(
+CtNamedElement
+element
+)
+;
