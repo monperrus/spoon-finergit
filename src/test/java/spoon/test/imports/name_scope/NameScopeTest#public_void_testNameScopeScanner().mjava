@@ -257,7 +257,7 @@ scopes
 =
 scanner
 .
-getCurrentNameScope
+getCurrentLexicalScope
 (
 )
 ;
@@ -292,7 +292,7 @@ scopes
 =
 scanner
 .
-getCurrentNameScope
+getCurrentLexicalScope
 (
 )
 ;

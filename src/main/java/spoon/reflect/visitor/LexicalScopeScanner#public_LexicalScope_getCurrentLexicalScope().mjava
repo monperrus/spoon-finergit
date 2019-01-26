@@ -3,7 +3,7 @@
  */
 public
 LexicalScope
-getCurrentNameScope
+getCurrentLexicalScope
 (
 )
 {
