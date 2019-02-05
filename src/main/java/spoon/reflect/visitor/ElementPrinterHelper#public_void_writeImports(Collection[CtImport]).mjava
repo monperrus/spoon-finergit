@@ -302,6 +302,8 @@ removeInnerTypeSeparator
 (
 importTypeStr
 )
++
+".*"
 )
 ;
 }
