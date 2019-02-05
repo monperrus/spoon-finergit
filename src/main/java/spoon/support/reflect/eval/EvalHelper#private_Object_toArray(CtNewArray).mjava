@@ -2,6 +2,7 @@
  * creating a real low level Java array from a CtNewArray 
  */
 private
+static
 Object
 toArray
 (
@@ -101,8 +102,6 @@ array
 ,
 i
 ,
-this
-.
 convertElementToRuntimeObject
 (
 elements
