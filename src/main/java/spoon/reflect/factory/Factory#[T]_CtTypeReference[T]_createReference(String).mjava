@@ -1,0 +1,16 @@
+/** 
+ * @see TypeFactory#createReference(String)
+ */
+<
+T
+>
+CtTypeReference
+<
+T
+>
+createReference
+(
+String
+qualifiedName
+)
+;

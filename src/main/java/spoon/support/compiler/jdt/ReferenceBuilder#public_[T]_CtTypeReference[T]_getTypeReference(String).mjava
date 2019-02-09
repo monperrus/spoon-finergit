@@ -1,7 +1,7 @@
 /** 
  * Try to build a CtTypeReference from a simple name with specified generic types but returns null if the name doesn't correspond to a type (not start by an upper case).
  */
-private
+public
 <
 T
 >
