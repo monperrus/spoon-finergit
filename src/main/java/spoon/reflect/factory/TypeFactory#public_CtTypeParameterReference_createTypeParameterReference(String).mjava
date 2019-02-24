@@ -10,6 +10,24 @@ String
 name
 )
 {
+if
+(
+"?"
+.
+equals
+(
+name
+)
+)
+{
+throw
+new
+SpoonException
+(
+"the Spoon metamodel has evolved, use Factory.createWildcardReference() instead"
+)
+;
+}
 CtTypeParameterReference
 typeParam
 =
