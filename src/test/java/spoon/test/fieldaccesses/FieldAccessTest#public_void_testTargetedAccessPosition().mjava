@@ -46,7 +46,7 @@ class
 ;
 assertEquals
 (
-2
+4
 ,
 vars
 .
@@ -84,7 +84,7 @@ vars
 .
 get
 (
-0
+2
 )
 .
 getPosition
@@ -119,7 +119,7 @@ vars
 .
 get
 (
-0
+2
 )
 .
 getTarget
@@ -169,7 +169,7 @@ vars
 .
 get
 (
-0
+2
 )
 .
 getTarget
@@ -200,7 +200,7 @@ vars
 .
 get
 (
-0
+2
 )
 .
 getTarget
