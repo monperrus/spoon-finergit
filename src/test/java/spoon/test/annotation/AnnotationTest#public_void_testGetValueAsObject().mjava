@@ -1,4 +1,4 @@
-@Test(expected=SpoonException.class)
+@Test
 public
 void
 testGetValueAsObject
@@ -15,7 +15,7 @@ Launcher
 .
 parseClass
 (
-"public class C { @SuppressWarnings(\"a+\"+Integer.SIZE) void m() {} }"
+"public class C { @SuppressWarnings(\"a\"+Integer.SIZE) void m() {} }"
 )
 ;
 CtAnnotation
@@ -45,14 +45,26 @@ get
 0
 )
 ;
+assertEquals
+(
+"[a32]"
+,
+Arrays
+.
+toString
+(
+(
 Object
-value
-=
+[
+]
+)
 annot
 .
 getValueAsObject
 (
 "value"
+)
+)
 )
 ;
 }

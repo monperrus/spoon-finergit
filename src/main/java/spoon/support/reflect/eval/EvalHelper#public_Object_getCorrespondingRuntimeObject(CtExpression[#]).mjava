@@ -86,8 +86,6 @@ instanceof
 CtFieldRead
 )
 {
-try
-{
 CtFieldReference
 <
 ?
@@ -132,7 +130,7 @@ field
 =
 fieldRef
 .
-getDeclaration
+getFieldDeclaration
 (
 )
 ;
@@ -170,20 +168,31 @@ getSimpleName
 )
 ;
 }
-}
-catch
+if
 (
-Exception
-e
+field
+.
+getDefaultExpression
+(
+)
+instanceof
+CtLiteral
 )
 {
-throw
-new
-SpoonException
+return
 (
-"cannot get runtime enum value"
-,
-e
+(
+CtLiteral
+)
+field
+.
+getDefaultExpression
+(
+)
+)
+.
+getValue
+(
 )
 ;
 }
@@ -192,11 +201,11 @@ throw
 new
 SpoonException
 (
-"not possible to transform to runtime object "
+"not possible to transform to expression \""
 +
 value
 +
-" "
+"\" ("
 +
 value
 .
@@ -207,6 +216,8 @@ getClass
 getName
 (
 )
++
+")"
 )
 ;
 }
