@@ -1587,7 +1587,19 @@ getClass
 (
 )
 +
-"please report the bug by posting on https://github.com/INRIA/spoon/issues/2482"
+" at "
++
+commentParent
+.
+getPosition
+(
+)
+.
+toString
+(
+)
++
+", please report the bug by posting on https://github.com/INRIA/spoon/issues/2482"
 )
 ;
 }
