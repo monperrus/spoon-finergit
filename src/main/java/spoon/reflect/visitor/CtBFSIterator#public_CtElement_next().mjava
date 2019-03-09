@@ -1,0 +1,31 @@
+/** 
+ * Dereference the "iterator"
+ * @return CtElement the next element in BFS order without going down the tree
+ */
+@Override
+public
+CtElement
+next
+(
+)
+{
+CtElement
+next
+=
+deque
+.
+poll
+(
+)
+;
+next
+.
+accept
+(
+this
+)
+;
+return
+next
+;
+}

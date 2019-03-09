@@ -1,0 +1,16 @@
+@Override
+public
+boolean
+hasNext
+(
+)
+{
+return
+!
+deque
+.
+isEmpty
+(
+)
+;
+}

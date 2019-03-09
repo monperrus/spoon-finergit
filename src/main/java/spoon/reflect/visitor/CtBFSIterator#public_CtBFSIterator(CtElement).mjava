@@ -1,0 +1,27 @@
+/** 
+ * CtIterator constructor, prepares the iterator from the @root node
+ * @param root the initial node to expand
+ */
+public
+CtBFSIterator
+(
+CtElement
+root
+)
+{
+if
+(
+root
+!=
+null
+)
+{
+deque
+.
+add
+(
+root
+)
+;
+}
+}
