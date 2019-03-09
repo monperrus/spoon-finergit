@@ -30,7 +30,7 @@ throw
 new
 RuntimeException
 (
-"Unconsitant Stack"
+"Inconsistent Stack"
 )
 ;
 }
