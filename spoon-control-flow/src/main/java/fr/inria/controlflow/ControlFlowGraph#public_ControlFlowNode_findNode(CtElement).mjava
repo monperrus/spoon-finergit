@@ -1,6 +1,6 @@
 /** 
  * Find the node holding and element
- * @param e
+ * @param e node to find
  * @return
  */
 public

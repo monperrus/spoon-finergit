@@ -1,6 +1,5 @@
 /** 
  * Performs the transfer using a given visitor
- * @param visitor
  */
 public
 void

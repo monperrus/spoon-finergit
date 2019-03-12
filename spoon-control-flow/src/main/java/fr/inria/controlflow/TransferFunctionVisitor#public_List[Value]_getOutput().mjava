@@ -1,6 +1,5 @@
 /** 
  * Output of the last node that called the transfer function
- * @return
  */
 public
 List

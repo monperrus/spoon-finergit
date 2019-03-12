@@ -1,8 +1,9 @@
 /** 
- * Returns the first graph node representing the statement s construction. <p/> Usually an statement is represented by many blocks and branches. This method returns the first of those blocks/branches.
+ * Returns the first graph node representing the statement s construction. Usually an statement is represented by many blocks and branches. This method returns the first of those blocks/branches.
  * @param g         Graph in which the bloc is to be found
  * @param statement Statement for which the first block is needed
- * @return
+ * @return first graph node
+ * @throws NotFoundException when the initial node cannot be found
  */
 public
 static

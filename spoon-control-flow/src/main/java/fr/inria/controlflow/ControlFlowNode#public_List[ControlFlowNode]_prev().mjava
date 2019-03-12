@@ -1,6 +1,5 @@
 /** 
  * List of nodes that could be executed just before this one
- * @return
  */
 public
 List

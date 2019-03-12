@@ -1,6 +1,6 @@
 /** 
  * The method calculates the control flow for 'container' and then returns the useless assignments
- * @param graph
+ * @param graph to be processed
  */
 public
 void

@@ -1,6 +1,6 @@
 /** 
  * Find nodes by a given id
- * @param id
+ * @param id of the node to find
  * @return
  */
 public

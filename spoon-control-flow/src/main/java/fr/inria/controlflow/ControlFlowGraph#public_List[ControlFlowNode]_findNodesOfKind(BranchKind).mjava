@@ -1,7 +1,7 @@
 /** 
  * Find all nodes of a given kind
- * @param kind
- * @return
+ * @param kind of node to find
+ * @return list of nodes
  */
 public
 List

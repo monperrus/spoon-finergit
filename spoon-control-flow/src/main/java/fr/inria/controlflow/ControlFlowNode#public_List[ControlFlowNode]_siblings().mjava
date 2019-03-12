@@ -1,6 +1,5 @@
 /** 
  * Obtains the siblings of a control node. Siblings are the nodes in parallel branches
- * @return
  */
 public
 List
