@@ -1,0 +1,11 @@
+/** 
+ * @return a list of CtElement containing the element's direct children.
+ */
+List
+<
+CtElement
+>
+getDirectChildren
+(
+)
+;
