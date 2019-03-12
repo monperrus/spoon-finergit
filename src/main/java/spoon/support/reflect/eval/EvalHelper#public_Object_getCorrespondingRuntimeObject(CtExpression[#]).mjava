@@ -1,5 +1,5 @@
 /** 
- * Returns the runtime object corresponding to the expression eg CtLiteral(3) -> 3
+ * Returns the runtime object corresponding to the expression eg CtLiteral(3) -&gt; 3
  */
 public
 static

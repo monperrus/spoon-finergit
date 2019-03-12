@@ -1,5 +1,5 @@
 /** 
- * Evaluates and converts CtExpression to their equivalent runtime objects eg "CtLiteral(3) + CtLiteral(4)" -> 7
+ * Evaluates and converts CtExpression to their equivalent runtime objects eg "CtLiteral(3) + CtLiteral(4)" -&gt; 7
  */
 @SuppressWarnings("unchecked")
 public
