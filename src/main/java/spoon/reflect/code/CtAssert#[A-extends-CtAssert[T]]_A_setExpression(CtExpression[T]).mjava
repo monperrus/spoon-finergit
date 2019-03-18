@@ -1,5 +1,5 @@
 /** 
- * Sets the expression of the assertion.
+ * Sets the expression of the assertion. For instance assert.setExpression(factory.createCodeSnippetExpression("param != null"))
  */
 @PropertySetter(role=EXPRESSION)
 <
