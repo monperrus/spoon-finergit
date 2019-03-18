@@ -1,0 +1,12 @@
+public
+TestClass
+(
+)
+{
+InputStreamReader
+isr
+;
+File
+t
+;
+}
