@@ -1,0 +1,22 @@
+/** 
+ * If this represents an unwrapped type, returns a  {@link CtTypeReference} for the wrapped type,or return this in other cases.
+ */
+@Test
+public
+void
+box
+(
+)
+throws
+ClassNotFoundException
+{
+testBoxingFunction
+(
+CtTypeReferenceImpl
+::
+new
+,
+true
+)
+;
+}
