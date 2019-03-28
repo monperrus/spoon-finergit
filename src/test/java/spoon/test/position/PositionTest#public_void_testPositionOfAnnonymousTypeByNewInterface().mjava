@@ -132,7 +132,7 @@ getSourceEnd
 ;
 assertEquals
 (
-"Consumer<Set<?>>() {\r\n"
+"{\r\n"
 +
 "			@Override\r\n"
 +
