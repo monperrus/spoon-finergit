@@ -1,0 +1,9 @@
+/** 
+ * Gets the entire class code with package and imports.
+ */
+@DerivedProperty
+String
+toStringWithImports
+(
+)
+;
