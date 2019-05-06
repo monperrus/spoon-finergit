@@ -1,0 +1,25 @@
+/** 
+ * Creates an anonymous class
+ * @param superClass Anonymous class in the new class.
+ * @param parameters the arguments of the constructor call.
+ */
+CtNewClass
+<
+?
+>
+createNewClass
+(
+CtType
+<
+?
+>
+superClass
+,
+CtExpression
+<
+?
+>
+...
+parameters
+)
+;
