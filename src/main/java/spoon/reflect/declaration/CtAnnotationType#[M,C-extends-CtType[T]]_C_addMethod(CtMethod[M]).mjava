@@ -1,5 +1,5 @@
 /** 
- * {@inheritDoc}The method passed as parameter must be a  {@link CtAnnotationMethod}.
+ * {@inheritDoc}
  */
 @Override
 <

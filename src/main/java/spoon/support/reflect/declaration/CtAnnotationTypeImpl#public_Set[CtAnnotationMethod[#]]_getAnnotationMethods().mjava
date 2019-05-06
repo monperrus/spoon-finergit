@@ -40,6 +40,13 @@ getMethods
 )
 )
 {
+if
+(
+method
+instanceof
+CtAnnotationMethod
+)
+{
 annotationsMethods
 .
 add
@@ -53,6 +60,7 @@ CtAnnotationMethod
 method
 )
 ;
+}
 }
 return
 annotationsMethods
