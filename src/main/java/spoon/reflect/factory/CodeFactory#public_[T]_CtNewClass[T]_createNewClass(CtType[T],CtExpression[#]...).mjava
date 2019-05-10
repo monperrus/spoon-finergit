@@ -1,5 +1,5 @@
 /** 
- * see  {@link #createNewClass(CtClass,CtExpression[])}
+ * Creates a new anonymous class.
  */
 public
 <
