@@ -13,7 +13,7 @@ modelFile
 new
 File
 (
-"./src/test/resources/serialization/model"
+"./target/SourcePositionTest-model"
 )
 ;
 Launcher
