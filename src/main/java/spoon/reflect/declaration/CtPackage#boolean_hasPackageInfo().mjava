@@ -1,0 +1,8 @@
+/** 
+ * @return true if the package contains a package-info.java file
+ */
+boolean
+hasPackageInfo
+(
+)
+;
