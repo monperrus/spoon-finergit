@@ -1,0 +1,22 @@
+@Override
+public
+<
+T
+extends
+CtImport
+>
+T
+setReference
+(
+CtReference
+reference
+)
+{
+throw
+new
+SpoonException
+(
+"UnrseolvedImport reference cannot be set. Use CtImportImpl instead"
+)
+;
+}

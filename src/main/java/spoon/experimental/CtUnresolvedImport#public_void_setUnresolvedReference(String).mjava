@@ -1,0 +1,15 @@
+public
+void
+setUnresolvedReference
+(
+String
+reference
+)
+{
+this
+.
+unresolvedReference
+=
+reference
+;
+}

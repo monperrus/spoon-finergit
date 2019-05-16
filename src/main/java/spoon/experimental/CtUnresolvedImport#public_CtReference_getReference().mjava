@@ -1,0 +1,11 @@
+@Override
+public
+CtReference
+getReference
+(
+)
+{
+return
+null
+;
+}

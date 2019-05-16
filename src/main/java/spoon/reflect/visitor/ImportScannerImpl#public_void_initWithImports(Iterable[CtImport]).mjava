@@ -26,6 +26,16 @@ put
 (
 ctImport
 ,
+(
+ctImport
+instanceof
+CtUnresolvedImport
+)
+?
+Boolean
+.
+TRUE
+:
 Boolean
 .
 FALSE

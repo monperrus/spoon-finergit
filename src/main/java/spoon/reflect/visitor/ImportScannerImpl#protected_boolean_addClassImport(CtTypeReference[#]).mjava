@@ -551,6 +551,15 @@ false
 }
 }
 }
+if
+(
+!
+isAlreadyInUsedImport
+(
+ref
+)
+)
+{
 classImports
 .
 put
@@ -567,4 +576,11 @@ ref
 return
 true
 ;
+}
+else
+{
+return
+false
+;
+}
 }

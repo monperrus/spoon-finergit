@@ -1,0 +1,13 @@
+/** 
+ * @see TypeFactory#createUnresolvedImport(String,boolean)
+ */
+CtImport
+createUnresolvedImport
+(
+String
+reference
+,
+boolean
+isStatic
+)
+;
