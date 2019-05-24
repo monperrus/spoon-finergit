@@ -1,0 +1,10 @@
+void
+checkArrayWrite
+(
+CtArrayWrite
+<
+?
+>
+arrayWrite
+)
+;

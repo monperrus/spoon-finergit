@@ -1,0 +1,17 @@
+void
+testBooleanUnboxing
+(
+)
+{
+Boolean
+b
+=
+false
+;
+if
+(
+b
+)
+{
+}
+}

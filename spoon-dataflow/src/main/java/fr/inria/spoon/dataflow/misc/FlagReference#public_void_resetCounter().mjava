@@ -1,0 +1,12 @@
+public
+static
+void
+resetCounter
+(
+)
+{
+counter
+=
+0
+;
+}

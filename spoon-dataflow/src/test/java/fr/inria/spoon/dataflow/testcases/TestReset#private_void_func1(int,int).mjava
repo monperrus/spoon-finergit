@@ -1,0 +1,12 @@
+private
+native
+void
+func1
+(
+int
+arg1
+,
+int
+arg2
+)
+;

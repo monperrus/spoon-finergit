@@ -1,0 +1,28 @@
+/** 
+ * Checks if type is null type.
+ */
+public
+static
+boolean
+isNullType
+(
+CtTypeReference
+<
+?
+>
+type
+)
+{
+return
+type
+.
+getQualifiedName
+(
+)
+.
+equals
+(
+"<nulltype>"
+)
+;
+}

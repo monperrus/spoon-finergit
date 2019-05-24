@@ -1,0 +1,13 @@
+@Override
+public
+abstract
+void
+checkAssignmentLeft
+(
+CtExpression
+<
+?
+>
+left
+)
+;

@@ -1,0 +1,28 @@
+/** 
+ * Checks if type is 'java.lang.String'.
+ */
+public
+static
+boolean
+isString
+(
+CtTypeReference
+<
+?
+>
+type
+)
+{
+return
+type
+.
+getQualifiedName
+(
+)
+.
+equals
+(
+"java.lang.String"
+)
+;
+}

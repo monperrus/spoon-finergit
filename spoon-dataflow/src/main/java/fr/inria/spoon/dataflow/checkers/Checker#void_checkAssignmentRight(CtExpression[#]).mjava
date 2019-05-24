@@ -1,0 +1,10 @@
+void
+checkAssignmentRight
+(
+CtExpression
+<
+?
+>
+right
+)
+;

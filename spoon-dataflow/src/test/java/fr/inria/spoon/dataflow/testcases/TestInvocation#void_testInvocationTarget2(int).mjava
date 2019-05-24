@@ -1,0 +1,15 @@
+void
+testInvocationTarget2
+(
+int
+i
+)
+{
+TestInvocation
+.
+unknownFunc5
+(
+i
+)
+;
+}

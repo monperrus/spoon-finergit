@@ -1,0 +1,16 @@
+protected
+void
+addWarning
+(
+Warning
+warning
+)
+{
+scanner
+.
+addWarning
+(
+warning
+)
+;
+}

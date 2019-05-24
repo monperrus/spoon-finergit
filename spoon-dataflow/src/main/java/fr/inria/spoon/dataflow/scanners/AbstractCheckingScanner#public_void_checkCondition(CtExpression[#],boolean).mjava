@@ -1,0 +1,16 @@
+@Override
+public
+abstract
+void
+checkCondition
+(
+CtExpression
+<
+?
+>
+condition
+,
+boolean
+isLoopCondition
+)
+;

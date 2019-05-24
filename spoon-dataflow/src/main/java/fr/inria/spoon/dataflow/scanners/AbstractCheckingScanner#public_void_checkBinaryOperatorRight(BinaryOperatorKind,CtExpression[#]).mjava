@@ -1,0 +1,16 @@
+@Override
+public
+abstract
+void
+checkBinaryOperatorRight
+(
+BinaryOperatorKind
+kind
+,
+CtExpression
+<
+?
+>
+right
+)
+;

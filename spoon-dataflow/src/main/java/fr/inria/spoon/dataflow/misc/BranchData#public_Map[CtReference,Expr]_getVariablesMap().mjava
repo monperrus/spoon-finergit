@@ -1,0 +1,15 @@
+public
+Map
+<
+CtReference
+,
+Expr
+>
+getVariablesMap
+(
+)
+{
+return
+variablesMap
+;
+}

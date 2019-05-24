@@ -1,0 +1,9 @@
+private
+native
+void
+func3
+(
+C4
+arg1
+)
+;

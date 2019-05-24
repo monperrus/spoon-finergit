@@ -1,0 +1,22 @@
+/** 
+ * Checks if the return value of the unary operator is boolean.
+ */
+private
+boolean
+isBooleanOperatorKind
+(
+UnaryOperatorKind
+kind
+)
+{
+return
+kind
+.
+equals
+(
+UnaryOperatorKind
+.
+NOT
+)
+;
+}

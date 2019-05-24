@@ -1,0 +1,15 @@
+public
+Map
+<
+CtReference
+,
+ArrayExpr
+>
+getMemoryMap
+(
+)
+{
+return
+memoryMap
+;
+}

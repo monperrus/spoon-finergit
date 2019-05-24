@@ -1,0 +1,13 @@
+private
+C1
+unknownFunc4
+(
+)
+{
+return
+new
+C1
+(
+)
+;
+}

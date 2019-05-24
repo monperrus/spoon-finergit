@@ -1,0 +1,13 @@
+public
+NullDereferenceChecker
+(
+CheckersScanner
+scanner
+)
+{
+super
+(
+scanner
+)
+;
+}

@@ -1,0 +1,15 @@
+@Override
+public
+void
+checkAssignmentResult
+(
+CtAssignment
+<
+?
+,
+?
+>
+assignment
+)
+{
+}

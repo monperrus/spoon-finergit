@@ -1,0 +1,17 @@
+protected
+ConditionStatus
+checkCond
+(
+BoolExpr
+conditionExpr
+)
+{
+return
+scanner
+.
+checkCond
+(
+conditionExpr
+)
+;
+}

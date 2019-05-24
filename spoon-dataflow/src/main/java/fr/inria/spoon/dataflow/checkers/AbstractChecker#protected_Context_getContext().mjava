@@ -1,0 +1,14 @@
+protected
+Context
+getContext
+(
+)
+{
+return
+scanner
+.
+getContext
+(
+)
+;
+}

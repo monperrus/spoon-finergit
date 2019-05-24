@@ -1,0 +1,13 @@
+void
+checkCondition
+(
+CtExpression
+<
+?
+>
+condition
+,
+boolean
+isLoopCondition
+)
+;

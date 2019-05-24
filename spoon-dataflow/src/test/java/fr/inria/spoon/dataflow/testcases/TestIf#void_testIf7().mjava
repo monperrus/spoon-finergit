@@ -1,0 +1,12 @@
+void
+testIf7
+(
+)
+{
+if
+(
+true
+)
+{
+}
+}

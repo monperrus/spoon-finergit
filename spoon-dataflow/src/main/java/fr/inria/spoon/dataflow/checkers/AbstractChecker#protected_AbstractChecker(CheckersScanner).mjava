@@ -1,0 +1,14 @@
+protected
+AbstractChecker
+(
+CheckersScanner
+scanner
+)
+{
+this
+.
+scanner
+=
+scanner
+;
+}

@@ -1,0 +1,17 @@
+void
+testNullDereference3
+(
+String
+s
+)
+{
+int
+x
+=
+s
+.
+length
+(
+)
+;
+}

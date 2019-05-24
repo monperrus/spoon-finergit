@@ -1,0 +1,12 @@
+void
+checkAssignmentResult
+(
+CtAssignment
+<
+?
+,
+?
+>
+assignment
+)
+;

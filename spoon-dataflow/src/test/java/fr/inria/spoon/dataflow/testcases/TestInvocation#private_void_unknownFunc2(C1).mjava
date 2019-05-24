@@ -1,0 +1,9 @@
+private
+native
+void
+unknownFunc2
+(
+C1
+arg
+)
+;

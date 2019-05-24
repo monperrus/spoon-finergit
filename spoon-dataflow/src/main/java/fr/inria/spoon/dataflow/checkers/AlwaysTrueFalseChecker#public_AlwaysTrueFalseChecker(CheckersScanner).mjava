@@ -1,0 +1,13 @@
+public
+AlwaysTrueFalseChecker
+(
+CheckersScanner
+scanner
+)
+{
+super
+(
+scanner
+)
+;
+}

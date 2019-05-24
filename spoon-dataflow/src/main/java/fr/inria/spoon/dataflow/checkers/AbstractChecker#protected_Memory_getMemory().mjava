@@ -1,0 +1,14 @@
+protected
+Memory
+getMemory
+(
+)
+{
+return
+scanner
+.
+getMemory
+(
+)
+;
+}

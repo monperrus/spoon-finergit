@@ -1,0 +1,10 @@
+protected
+DataFlowScanner
+getScanner
+(
+)
+{
+return
+scanner
+;
+}

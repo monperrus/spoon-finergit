@@ -1,0 +1,10 @@
+private
+native
+static
+void
+unknownFunc5
+(
+int
+i
+)
+;

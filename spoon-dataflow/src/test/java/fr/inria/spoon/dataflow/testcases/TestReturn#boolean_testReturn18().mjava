@@ -1,0 +1,16 @@
+boolean
+testReturn18
+(
+)
+{
+int
+x
+=
+3
+;
+return
+x
+!=
+0
+;
+}

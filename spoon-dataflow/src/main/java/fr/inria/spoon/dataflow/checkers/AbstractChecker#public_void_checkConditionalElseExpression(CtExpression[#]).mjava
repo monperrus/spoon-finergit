@@ -1,0 +1,13 @@
+@Override
+public
+void
+checkConditionalElseExpression
+(
+CtExpression
+<
+?
+>
+elseExpression
+)
+{
+}

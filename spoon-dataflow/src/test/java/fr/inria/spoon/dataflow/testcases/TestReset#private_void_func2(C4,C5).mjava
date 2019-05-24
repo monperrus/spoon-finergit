@@ -1,0 +1,12 @@
+private
+native
+void
+func2
+(
+C4
+arg1
+,
+C5
+arg2
+)
+;

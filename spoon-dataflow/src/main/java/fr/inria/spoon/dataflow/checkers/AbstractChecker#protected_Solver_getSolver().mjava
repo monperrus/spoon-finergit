@@ -1,0 +1,14 @@
+protected
+Solver
+getSolver
+(
+)
+{
+return
+scanner
+.
+getSolver
+(
+)
+;
+}

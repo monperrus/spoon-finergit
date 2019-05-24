@@ -1,0 +1,14 @@
+void
+testStringLiteral1
+(
+)
+{
+if
+(
+"abcdef"
+==
+null
+)
+{
+}
+}

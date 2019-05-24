@@ -1,0 +1,9 @@
+private
+native
+void
+func6
+(
+String
+arg1
+)
+;

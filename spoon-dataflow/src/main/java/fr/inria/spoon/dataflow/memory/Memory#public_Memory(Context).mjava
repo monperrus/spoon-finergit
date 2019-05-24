@@ -1,0 +1,14 @@
+public
+Memory
+(
+Context
+context
+)
+{
+this
+.
+context
+=
+context
+;
+}

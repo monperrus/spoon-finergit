@@ -1,0 +1,34 @@
+/** 
+ * Creates fresh z3 const from the type.
+ */
+public
+static
+Expr
+makeFreshConstFromType
+(
+Context
+context
+,
+CtTypeReference
+<
+?
+>
+type
+)
+{
+return
+context
+.
+mkFreshConst
+(
+""
+,
+getTypeSort
+(
+context
+,
+type
+)
+)
+;
+}

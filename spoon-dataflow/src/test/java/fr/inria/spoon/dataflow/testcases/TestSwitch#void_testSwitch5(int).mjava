@@ -1,0 +1,14 @@
+void
+testSwitch5
+(
+int
+x
+)
+{
+switch
+(
+x
+)
+{
+}
+}

@@ -1,0 +1,14 @@
+/** 
+ * Returns null pointer.
+ */
+public
+static
+int
+nullPointer
+(
+)
+{
+return
+0
+;
+}

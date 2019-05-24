@@ -1,0 +1,30 @@
+/** 
+ * Creates fresh z3 bool const.
+ */
+public
+static
+BoolExpr
+makeFreshBool
+(
+Context
+context
+)
+{
+return
+(
+BoolExpr
+)
+context
+.
+mkFreshConst
+(
+""
+,
+context
+.
+getBoolSort
+(
+)
+)
+;
+}

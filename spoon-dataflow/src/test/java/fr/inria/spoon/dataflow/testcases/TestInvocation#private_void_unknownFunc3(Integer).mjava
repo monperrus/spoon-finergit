@@ -1,0 +1,9 @@
+private
+native
+void
+unknownFunc3
+(
+Integer
+arg
+)
+;

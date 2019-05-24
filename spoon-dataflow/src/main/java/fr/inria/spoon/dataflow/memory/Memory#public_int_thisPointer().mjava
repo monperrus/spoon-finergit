@@ -1,0 +1,14 @@
+/** 
+ * Returns this pointer.
+ */
+public
+static
+int
+thisPointer
+(
+)
+{
+return
+1
+;
+}

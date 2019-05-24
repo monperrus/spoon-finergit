@@ -1,0 +1,17 @@
+void
+testIf37
+(
+)
+{
+boolean
+x
+=
+false
+;
+if
+(
+x
+)
+{
+}
+}

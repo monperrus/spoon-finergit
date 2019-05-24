@@ -1,0 +1,13 @@
+private
+C4
+getC4
+(
+)
+{
+return
+new
+C4
+(
+)
+;
+}

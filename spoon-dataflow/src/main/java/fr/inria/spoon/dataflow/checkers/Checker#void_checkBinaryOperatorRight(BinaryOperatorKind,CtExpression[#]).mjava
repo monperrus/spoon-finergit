@@ -1,0 +1,13 @@
+void
+checkBinaryOperatorRight
+(
+BinaryOperatorKind
+kind
+,
+CtExpression
+<
+?
+>
+right
+)
+;

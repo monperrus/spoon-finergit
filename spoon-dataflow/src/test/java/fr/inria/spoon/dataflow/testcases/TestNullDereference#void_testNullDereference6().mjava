@@ -1,0 +1,17 @@
+void
+testNullDereference6
+(
+)
+{
+C1
+a
+=
+null
+;
+a
+.
+x
+=
+5
+;
+}
