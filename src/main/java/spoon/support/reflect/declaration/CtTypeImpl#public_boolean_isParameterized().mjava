@@ -1,0 +1,16 @@
+@Override
+public
+boolean
+isParameterized
+(
+)
+{
+return
+!
+formalCtTypeParameters
+.
+isEmpty
+(
+)
+;
+}

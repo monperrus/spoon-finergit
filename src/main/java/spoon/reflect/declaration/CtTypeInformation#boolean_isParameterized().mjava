@@ -1,0 +1,9 @@
+/** 
+ * Returns true if it has any type parameter (generic or not).
+ */
+@DerivedProperty
+boolean
+isParameterized
+(
+)
+;
