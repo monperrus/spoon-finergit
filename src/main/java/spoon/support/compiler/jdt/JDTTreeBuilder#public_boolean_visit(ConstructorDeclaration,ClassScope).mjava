@@ -26,6 +26,19 @@ createConstructor
 (
 )
 ;
+if
+(
+scope
+!=
+null
+&&
+scope
+.
+referenceContext
+!=
+null
+)
+{
 c
 .
 setImplicit
@@ -45,6 +58,7 @@ sourceStart
 )
 )
 ;
+}
 if
 (
 constructorDeclaration

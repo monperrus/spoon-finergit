@@ -254,6 +254,13 @@ if
 typeDeclaration
 .
 binding
+!=
+null
+&&
+(
+typeDeclaration
+.
+binding
 .
 isAnonymousType
 (
@@ -275,6 +282,7 @@ enclosingMethod
 )
 !=
 null
+)
 )
 )
 {
