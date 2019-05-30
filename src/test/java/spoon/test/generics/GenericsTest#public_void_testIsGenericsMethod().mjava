@@ -87,7 +87,7 @@ CtTypeReference
 0
 ]
 ;
-assertFalse
+assertTrue
 (
 aTacos
 .
