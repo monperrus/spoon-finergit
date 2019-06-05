@@ -1,0 +1,15 @@
+public
+static
+boolean
+b
+(
+Integer
+param
+)
+{
+return
+param
+>
+1
+;
+}
