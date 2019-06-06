@@ -5,6 +5,17 @@ delete
 (
 )
 {
+if
+(
+!
+isParentInitialized
+(
+)
+)
+{
+return
+;
+}
 replace
 (
 Collections
