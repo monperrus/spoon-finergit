@@ -1,0 +1,11 @@
+@Override
+public
+LiteralBase
+getBase
+(
+)
+{
+return
+base
+;
+}

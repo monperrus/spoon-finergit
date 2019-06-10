@@ -39,6 +39,16 @@ intValue
 )
 )
 ;
+l
+.
+setBase
+(
+getBase
+(
+intLiteral
+)
+)
+;
 context
 .
 enter

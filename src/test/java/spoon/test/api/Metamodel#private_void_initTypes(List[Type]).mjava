@@ -8827,6 +8827,17 @@ field
 (
 CtRole
 .
+LITERAL_BASE
+,
+false
+,
+false
+)
+.
+field
+(
+CtRole
+.
 POSITION
 ,
 false

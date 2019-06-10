@@ -1,0 +1,9 @@
+/** 
+ * Gets the base ot the numeric literal (2, 8, 10 or 16).
+ */
+@PropertyGetter(role=LITERAL_BASE)
+LiteralBase
+getBase
+(
+)
+;
