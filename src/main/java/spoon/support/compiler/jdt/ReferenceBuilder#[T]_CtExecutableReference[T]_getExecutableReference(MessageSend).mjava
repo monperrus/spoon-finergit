@@ -92,6 +92,13 @@ resolvedType
 null
 )
 {
+ref
+.
+setStatic
+(
+true
+)
+;
 if
 (
 messageSend
