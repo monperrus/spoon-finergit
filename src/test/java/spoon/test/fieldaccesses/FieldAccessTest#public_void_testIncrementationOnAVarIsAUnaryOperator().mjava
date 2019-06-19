@@ -185,7 +185,7 @@ getOperand
 ;
 assertEquals
 (
-"(i)++"
+"i++"
 ,
 first
 .
@@ -234,7 +234,7 @@ getOperand
 ;
 assertEquals
 (
-"++(i)"
+"++i"
 ,
 second
 .

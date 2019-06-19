@@ -212,7 +212,7 @@ injectedCode
 ;
 assertEquals
 (
-"(l.size()) > 10"
+"l.size() > 10"
 ,
 ifStmt
 .

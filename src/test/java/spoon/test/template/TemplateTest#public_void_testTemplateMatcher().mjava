@@ -579,7 +579,7 @@ match
 ,
 "_x_"
 ,
-"(new java.util.ArrayList<>().size())"
+"new java.util.ArrayList<>().size()"
 )
 ||
 checkParameters
@@ -590,7 +590,7 @@ match
 ,
 "_x_"
 ,
-"(l.size())"
+"l.size()"
 )
 )
 ;
@@ -764,7 +764,7 @@ match
 ,
 "_x_"
 ,
-"(new java.util.ArrayList<>().size())"
+"new java.util.ArrayList<>().size()"
 ,
 "_y_"
 ,
@@ -779,7 +779,7 @@ match
 ,
 "_x_"
 ,
-"(new java.util.ArrayList<>().size())"
+"new java.util.ArrayList<>().size()"
 ,
 "_y_"
 ,
@@ -794,7 +794,7 @@ match
 ,
 "_x_"
 ,
-"(l.size())"
+"l.size()"
 ,
 "_y_"
 ,
@@ -978,7 +978,7 @@ match
 ,
 "_x_"
 ,
-"(new java.util.ArrayList<>().size())"
+"new java.util.ArrayList<>().size()"
 ,
 "_y_"
 ,
@@ -997,7 +997,7 @@ match
 ,
 "_x_"
 ,
-"(new java.util.ArrayList<>().size())"
+"new java.util.ArrayList<>().size()"
 ,
 "_y_"
 ,
@@ -1016,7 +1016,7 @@ match
 ,
 "_x_"
 ,
-"(l.size())"
+"l.size()"
 ,
 "_y_"
 ,
@@ -1035,7 +1035,7 @@ match
 ,
 "_x_"
 ,
-"(new java.util.ArrayList<>().size())"
+"new java.util.ArrayList<>().size()"
 ,
 "_y_"
 ,
@@ -1054,7 +1054,7 @@ match
 ,
 "_x_"
 ,
-"(new java.util.ArrayList<>().size())"
+"new java.util.ArrayList<>().size()"
 ,
 "_y_"
 ,
@@ -1073,7 +1073,7 @@ match
 ,
 "_x_"
 ,
-"(new java.util.ArrayList<>().size())"
+"new java.util.ArrayList<>().size()"
 ,
 "_y_"
 ,
@@ -1261,7 +1261,7 @@ match
 ,
 "_x_"
 ,
-"(new java.util.ArrayList<>().size())"
+"new java.util.ArrayList<>().size()"
 ,
 "_y_"
 ,
@@ -1280,7 +1280,7 @@ match
 ,
 "_x_"
 ,
-"(new java.util.ArrayList<>().size())"
+"new java.util.ArrayList<>().size()"
 ,
 "_y_"
 ,
@@ -1299,7 +1299,7 @@ match
 ,
 "_x_"
 ,
-"(l.size())"
+"l.size()"
 ,
 "_y_"
 ,
@@ -1318,7 +1318,7 @@ match
 ,
 "_x_"
 ,
-"(new java.util.ArrayList<>().size())"
+"new java.util.ArrayList<>().size()"
 ,
 "_y_"
 ,
@@ -1337,7 +1337,7 @@ match
 ,
 "_x_"
 ,
-"(new java.util.ArrayList<>().size())"
+"new java.util.ArrayList<>().size()"
 ,
 "_y_"
 ,
@@ -1356,7 +1356,7 @@ match
 ,
 "_x_"
 ,
-"(new java.util.ArrayList<>().size())"
+"new java.util.ArrayList<>().size()"
 ,
 "_y_"
 ,
@@ -1534,7 +1534,7 @@ match
 ,
 "_x_"
 ,
-"(new java.util.ArrayList<>().size())"
+"new java.util.ArrayList<>().size()"
 ,
 "_block_"
 ,

@@ -73,7 +73,7 @@ get
 ;
 assertEquals
 (
-"org.junit.Assert.assertTrue((field == 2))"
+"org.junit.Assert.assertTrue(field == 2)"
 ,
 stmt
 .

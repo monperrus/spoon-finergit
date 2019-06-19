@@ -100,7 +100,7 @@ lineSeparator
 (
 )
 +
-"    return (p.age) > 10;"
+"    return p.age > 10;"
 +
 System
 .

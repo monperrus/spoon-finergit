@@ -106,7 +106,7 @@ toString
 ;
 assertEquals
 (
-"java.lang.System.out.println(((x) + (m_x)))"
+"java.lang.System.out.println(x + m_x)"
 ,
 result
 .

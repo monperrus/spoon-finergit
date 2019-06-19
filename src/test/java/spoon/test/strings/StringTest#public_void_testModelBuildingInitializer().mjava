@@ -63,7 +63,7 @@ get
 ;
 assertEquals
 (
-"(\"a\" + \"b\")"
+"\"a\" + \"b\""
 ,
 op
 .

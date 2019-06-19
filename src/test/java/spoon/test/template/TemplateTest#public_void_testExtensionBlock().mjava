@@ -267,7 +267,7 @@ size
 ;
 assertEquals
 (
-"java.lang.System.out.println((((\"enter: \" + className) + \" - \") + methodName))"
+"java.lang.System.out.println(((\"enter: \" + className) + \" - \") + methodName)"
 ,
 aTry
 .

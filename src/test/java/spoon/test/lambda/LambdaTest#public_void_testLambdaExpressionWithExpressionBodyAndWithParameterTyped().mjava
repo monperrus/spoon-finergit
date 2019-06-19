@@ -84,7 +84,7 @@ lambda
 ;
 assertIsWellPrinted
 (
-"((java.util.function.Predicate<spoon.test.lambda.testclasses.Foo.Person>) ((spoon.test.lambda.testclasses.Foo.Person p) -> (p.age) > 10))"
+"((java.util.function.Predicate<spoon.test.lambda.testclasses.Foo.Person>) ((spoon.test.lambda.testclasses.Foo.Person p) -> p.age > 10))"
 ,
 lambda
 )

@@ -780,7 +780,7 @@ newLine
 +
 newLine
 +
-"    (field)++;"
+"    field++;"
 +
 newLine
 +
@@ -1360,7 +1360,7 @@ newLine
 +
 newLine
 +
-"new java.lang.Double((j / ((double) (i - 1))))// comment after else CtConditional"
+"new java.lang.Double(j / ((double) (i - 1)))// comment after else CtConditional"
 +
 newLine
 ,

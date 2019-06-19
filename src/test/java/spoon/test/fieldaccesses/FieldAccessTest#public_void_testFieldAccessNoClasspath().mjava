@@ -83,7 +83,7 @@ get
 ;
 assertEquals
 (
-"(game.board.width)"
+"game.board.width"
 ,
 ctFieldAccess
 .

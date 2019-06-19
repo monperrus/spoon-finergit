@@ -125,7 +125,7 @@ size
 ;
 assertEquals
 (
-"(spoon.test.visibility.testclasses.A.B.i)"
+"spoon.test.visibility.testclasses.A.B.i"
 ,
 elements
 .
@@ -305,7 +305,7 @@ size
 ;
 assertEquals
 (
-"(spoon.test.visibility.testclasses.A2.B.i)"
+"spoon.test.visibility.testclasses.A2.B.i"
 ,
 elements
 .
