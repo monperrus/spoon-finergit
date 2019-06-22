@@ -1,0 +1,9 @@
+/** 
+ * Returns true if this parameter is a lambda parameter with type defined using the `var` keyword (since Java 11).
+ */
+@PropertyGetter(role=IS_INFERRED)
+boolean
+isInferred
+(
+)
+;

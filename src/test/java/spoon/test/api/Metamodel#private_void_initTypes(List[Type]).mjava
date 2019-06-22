@@ -393,6 +393,17 @@ false
 ,
 false
 )
+.
+field
+(
+CtRole
+.
+IS_INFERRED
+,
+false
+,
+false
+)
 )
 )
 ;

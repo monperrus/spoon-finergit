@@ -1,0 +1,13 @@
+@Override
+public
+boolean
+isInferred
+(
+)
+{
+return
+this
+.
+inferred
+;
+}

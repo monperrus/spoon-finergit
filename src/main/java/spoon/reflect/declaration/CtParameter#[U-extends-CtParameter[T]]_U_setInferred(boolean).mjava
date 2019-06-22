@@ -1,0 +1,19 @@
+/** 
+ * Set to true if this parameter is a lambda parameter with type defined using the `var` keyword. Warning: this method should only be used if compliance level is set to 11 or more.
+ */
+@PropertySetter(role=IS_INFERRED)
+<
+U
+extends
+CtParameter
+<
+T
+>
+>
+U
+setInferred
+(
+boolean
+inferred
+)
+;
