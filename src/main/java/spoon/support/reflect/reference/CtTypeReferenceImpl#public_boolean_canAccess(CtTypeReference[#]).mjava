@@ -15,6 +15,17 @@ try
 if
 (
 type
+==
+null
+)
+{
+return
+true
+;
+}
+if
+(
+type
 .
 getTypeDeclaration
 (
