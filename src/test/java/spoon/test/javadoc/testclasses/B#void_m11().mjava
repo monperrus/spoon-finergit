@@ -1,0 +1,9 @@
+/** 
+ * @throws RuntimeException if ...
+ */
+void
+m11
+(
+)
+{
+}

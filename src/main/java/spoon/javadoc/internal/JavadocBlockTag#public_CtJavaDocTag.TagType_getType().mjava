@@ -1,5 +1,7 @@
 public
-Type
+CtJavaDocTag
+.
+TagType
 getType
 (
 )

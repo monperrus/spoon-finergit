@@ -16,8 +16,6 @@ this
 .
 setType
 (
-CtJavaDocTag
-.
 TagType
 .
 tagFromName

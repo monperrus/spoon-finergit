@@ -10,9 +10,11 @@ content
 {
 this
 (
-Type
+CtJavaDocTag
 .
-fromName
+TagType
+.
+tagFromName
 (
 tagName
 )

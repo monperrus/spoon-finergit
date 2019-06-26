@@ -1,0 +1,9 @@
+/** 
+ * @throws IllegalArgumentException if ....
+ */
+void
+m1
+(
+)
+{
+}

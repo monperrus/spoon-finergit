@@ -1,7 +1,9 @@
 public
 JavadocBlockTag
 (
-Type
+CtJavaDocTag
+.
+TagType
 type
 ,
 String
@@ -20,7 +22,9 @@ tagName
 =
 type
 .
-keyword
+getName
+(
+)
 ;
 this
 .
