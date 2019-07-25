@@ -361,14 +361,9 @@ final
 String
 qualifiedNameOfParent
 =
-new
-String
+getNormalQualifiedName
 (
 referenceBinding
-.
-readableName
-(
-)
 )
 ;
 final
