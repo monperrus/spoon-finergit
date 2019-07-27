@@ -42,15 +42,6 @@ getOriginatingFileName
 )
 ;
 String
-filename
-=
-file
-.
-getAbsolutePath
-(
-)
-;
-String
 message
 =
 problem
@@ -61,7 +52,11 @@ getMessage
 +
 " at "
 +
-filename
+file
+.
+getAbsolutePath
+(
+)
 +
 ":"
 +

@@ -38,17 +38,6 @@ getEnvironment
 (
 )
 .
-setShouldCompile
-(
-true
-)
-;
-launcher
-.
-getEnvironment
-(
-)
-.
 setNoClasspath
 (
 true

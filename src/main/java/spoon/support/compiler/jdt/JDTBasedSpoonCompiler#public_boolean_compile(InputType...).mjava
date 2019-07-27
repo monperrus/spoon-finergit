@@ -214,7 +214,7 @@ compile
 args
 )
 ;
-reportProblems
+reportProblemsWhenCompiling
 (
 factory
 .

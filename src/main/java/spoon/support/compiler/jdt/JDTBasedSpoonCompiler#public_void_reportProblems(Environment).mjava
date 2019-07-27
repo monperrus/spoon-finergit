@@ -1,3 +1,6 @@
+/** 
+ * Report problems as logs when building the AST model In in full classpath, a problem categorized as "Error" triggers an exception
+ */
 public
 void
 reportProblems
