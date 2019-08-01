@@ -1,0 +1,11 @@
+@Override
+public
+String
+contentType
+(
+)
+{
+return
+"text/plain; charset=UTF-8"
+;
+}

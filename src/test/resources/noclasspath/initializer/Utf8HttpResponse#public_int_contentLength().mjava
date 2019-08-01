@@ -1,0 +1,13 @@
+@Override
+public
+int
+contentLength
+(
+)
+{
+return
+utf8Result
+.
+length
+;
+}

@@ -1,0 +1,15 @@
+public
+Utf8HttpResponse
+(
+Status
+status
+)
+{
+this
+(
+status
+,
+EMPTY
+)
+;
+}
