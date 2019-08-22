@@ -1,0 +1,22 @@
+/** 
+ * Tries to build the Spoon model by considering the given code as a Java statement.
+ */
+@NotNull
+CtModel
+buildStatementLevel
+(
+)
+{
+return
+buildCode
+(
+"public class ShowMeYourSpoonCapsule { public void showmeyourspoonmethod() {"
++
+code
++
+"}}"
+,
+4
+)
+;
+}

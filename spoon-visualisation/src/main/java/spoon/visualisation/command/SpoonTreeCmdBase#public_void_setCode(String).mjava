@@ -1,0 +1,17 @@
+public
+void
+setCode
+(
+final
+@NotNull
+String
+code
+)
+{
+this
+.
+code
+=
+code
+;
+}

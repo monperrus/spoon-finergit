@@ -1,0 +1,38 @@
+/** 
+ * @param printer The printer that is in charge of showing the Spoon tree.The first argument (integer), is the deepness of the current element in the tree structure. The second argument (string), is the label of the current element to display. The third argument (list) contains the start and end line of the element. May be empty.
+ * @param hideImplicit If true, the scanner will ignore implicit elements
+ */
+public
+SpoonTreeScanner
+(
+final
+@NotNull
+SpoonElementVisitor
+printer
+,
+final
+boolean
+hideImplicit
+)
+{
+super
+(
+)
+;
+this
+.
+hideImplicit
+=
+hideImplicit
+;
+this
+.
+printer
+=
+printer
+;
+level
+=
+0
+;
+}

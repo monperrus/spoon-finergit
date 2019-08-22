@@ -1,0 +1,48 @@
+/** 
+ * @param spoonAST The tree view of the Spoon AST
+ * @param hideImplicit Hide implicit elements?
+ * @param code The code to analyse
+ * @param treeLevel The tree level analysis to use
+ */
+public
+UpdateSpoonTree
+(
+final
+@NotNull
+TreeView
+<
+String
+>
+spoonAST
+,
+final
+boolean
+hideImplicit
+,
+final
+@NotNull
+String
+code
+,
+final
+@NotNull
+TreeLevel
+treeLevel
+)
+{
+super
+(
+hideImplicit
+,
+code
+,
+treeLevel
+)
+;
+this
+.
+spoonAST
+=
+spoonAST
+;
+}

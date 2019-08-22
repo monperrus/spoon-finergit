@@ -1,0 +1,20 @@
+/** 
+ * Tries to build the Spoon model by considering the given code as a Java expression.
+ */
+void
+buildExpressionLevel
+(
+)
+{
+buildCode
+(
+"public class ShowMeYourSpoonCapsule { public Object showmeyourspoonmethod() { return "
++
+code
++
+";}}"
+,
+5
+)
+;
+}

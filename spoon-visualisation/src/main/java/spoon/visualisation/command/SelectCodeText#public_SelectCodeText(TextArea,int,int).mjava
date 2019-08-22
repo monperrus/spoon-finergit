@@ -1,0 +1,45 @@
+/** 
+ * @param spoonCode The code view
+ * @param startPosition The starting position of the selection to perform in the code view (may be -1)
+ * @param endPosition The ending position of the selection to perform in the code view (may be -1)
+ */
+public
+SelectCodeText
+(
+final
+@NotNull
+TextArea
+spoonCode
+,
+final
+int
+startPosition
+,
+final
+int
+endPosition
+)
+{
+super
+(
+)
+;
+this
+.
+spoonCode
+=
+spoonCode
+;
+this
+.
+startPosition
+=
+startPosition
+;
+this
+.
+endPosition
+=
+endPosition
+;
+}

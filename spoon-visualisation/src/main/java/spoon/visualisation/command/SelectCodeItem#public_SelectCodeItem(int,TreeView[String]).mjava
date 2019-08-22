@@ -1,0 +1,37 @@
+/** 
+ * @param caretPosition The current caret position of the code view
+ * @param spoonTree The tree view of the Spoon AST
+ */
+public
+SelectCodeItem
+(
+final
+int
+caretPosition
+,
+final
+@NotNull
+TreeView
+<
+String
+>
+spoonTree
+)
+{
+super
+(
+)
+;
+this
+.
+caretPosition
+=
+caretPosition
+;
+this
+.
+spoonTree
+=
+spoonTree
+;
+}

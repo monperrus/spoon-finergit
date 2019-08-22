@@ -1,0 +1,45 @@
+/** 
+ * @param file The file to save the text into
+ * @param hideImplicit Hide implicit elements?
+ * @param code The code to convert as text
+ * @param treeLevel The tree level to use
+ */
+public
+SaveTreeText
+(
+final
+@Nullable
+File
+file
+,
+final
+boolean
+hideImplicit
+,
+final
+@NotNull
+String
+code
+,
+final
+@NotNull
+TreeLevel
+treeLevel
+)
+{
+super
+(
+hideImplicit
+,
+code
+,
+treeLevel
+)
+;
+this
+.
+file
+=
+file
+;
+}

@@ -1,0 +1,29 @@
+/** 
+ * @param printer The printer to use to export the text
+ * @param levelsToIgnore The number of tree levels to ignore before starting printing
+ */
+public
+StreamPrinter
+(
+final
+@NotNull
+PrintStream
+printer
+,
+final
+int
+levelsToIgnore
+)
+{
+super
+(
+levelsToIgnore
+)
+;
+this
+.
+printer
+=
+printer
+;
+}

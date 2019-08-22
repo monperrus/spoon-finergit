@@ -1,0 +1,39 @@
+/** 
+ * @param text The label of the tree item
+ * @param startPosition The starting position in the code of the corresponding code element
+ * @param endPosition The ending position in the code of the corresponding code element
+ */
+public
+SpoonTreeItem
+(
+final
+String
+text
+,
+final
+int
+startPosition
+,
+final
+int
+endPosition
+)
+{
+super
+(
+text
+)
+;
+this
+.
+startPosition
+=
+startPosition
+;
+this
+.
+endPosition
+=
+endPosition
+;
+}
