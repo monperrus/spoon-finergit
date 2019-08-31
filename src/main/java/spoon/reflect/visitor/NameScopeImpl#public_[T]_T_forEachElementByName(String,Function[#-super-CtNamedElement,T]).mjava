@@ -38,6 +38,17 @@ consumer
 ;
 if
 (
+r
+!=
+null
+)
+{
+return
+r
+;
+}
+if
+(
 scopeElement
 instanceof
 CtNamedElement
