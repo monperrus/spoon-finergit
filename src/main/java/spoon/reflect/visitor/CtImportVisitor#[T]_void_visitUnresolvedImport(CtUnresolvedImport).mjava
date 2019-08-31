@@ -1,0 +1,13 @@
+/** 
+ * Called for unresolved import
+ */
+<
+T
+>
+void
+visitUnresolvedImport
+(
+CtUnresolvedImport
+ctUnresolvedImport
+)
+;

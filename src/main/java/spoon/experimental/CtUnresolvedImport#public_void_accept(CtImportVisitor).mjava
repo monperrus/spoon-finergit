@@ -7,4 +7,11 @@ CtImportVisitor
 visitor
 )
 {
+visitor
+.
+visitUnresolvedImport
+(
+this
+)
+;
 }
