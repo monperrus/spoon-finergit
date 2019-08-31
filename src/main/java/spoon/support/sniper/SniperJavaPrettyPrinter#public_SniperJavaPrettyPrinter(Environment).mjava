@@ -13,6 +13,10 @@ super
 env
 )
 ;
+inlineElseIf
+=
+false
+;
 env
 .
 useTabulations

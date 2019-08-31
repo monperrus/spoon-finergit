@@ -133,29 +133,23 @@ newLine
 +
 newLine
 +
-"} else"
+"} else if (true) {"
 +
 newLine
 +
-"    if (true) {"
+"    java.lang.System.out.println();"
 +
 newLine
 +
-"        java.lang.System.out.println();"
+"} else {"
 +
 newLine
 +
-"    } else {"
+"    java.lang.System.out.println();"
 +
 newLine
 +
-"        java.lang.System.out.println();"
-+
-newLine
-+
-"    }"
-+
-newLine
+"}"
 ,
 method
 .
