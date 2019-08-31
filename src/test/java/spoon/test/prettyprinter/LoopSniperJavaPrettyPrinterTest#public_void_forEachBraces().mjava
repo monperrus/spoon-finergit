@@ -1,0 +1,15 @@
+@Test
+public
+void
+forEachBraces
+(
+)
+throws
+IOException
+{
+runSniperJavaPrettyPrinter
+(
+"spoon/test/prettyprinter/testclasses/loop/ForEachNoBraces.java"
+)
+;
+}

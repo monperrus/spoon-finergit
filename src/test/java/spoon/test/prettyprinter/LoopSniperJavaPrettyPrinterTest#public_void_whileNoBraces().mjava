@@ -1,0 +1,15 @@
+@Test
+public
+void
+whileNoBraces
+(
+)
+throws
+IOException
+{
+runSniperJavaPrettyPrinter
+(
+"spoon/test/prettyprinter/testclasses/loop/WhileNoBraces.java"
+)
+;
+}
