@@ -178,7 +178,7 @@ assertEquals
 ,
 ctInvocation
 .
-toString
+prettyprint
 (
 )
 )

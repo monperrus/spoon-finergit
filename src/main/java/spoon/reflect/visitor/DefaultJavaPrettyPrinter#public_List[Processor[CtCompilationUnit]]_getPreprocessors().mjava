@@ -1,0 +1,21 @@
+/** 
+ * @return list of {@link CompilationUnitValidator}, which are used to validate and fix model before it's printing
+ */
+public
+List
+<
+Processor
+<
+CtCompilationUnit
+>
+>
+getPreprocessors
+(
+)
+{
+return
+this
+.
+preprocessors
+;
+}

@@ -104,7 +104,7 @@ get
 ;
 assertEquals
 (
-"UnicodeUtil.UTF8Result temp = new UnicodeUtil.UTF8Result()"
+"org.apache.lucene.util.UnicodeUtil.UTF8Result temp = new org.apache.lucene.util.UnicodeUtil.UTF8Result()"
 ,
 ex
 .
@@ -152,10 +152,11 @@ toString
 ;
 assertTrue
 (
-ctClass
+ImportTest
 .
-toString
+printByPrinter
 (
+ctClass
 )
 .
 contains

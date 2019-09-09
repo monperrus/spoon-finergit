@@ -6,6 +6,13 @@ isAutoImports
 )
 {
 return
-autoImports
+PRETTY_PRINTING_MODE
+.
+AUTOIMPORT
+.
+equals
+(
+prettyPrintingMode
+)
 ;
 }

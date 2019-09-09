@@ -15,6 +15,9 @@ typeAccess
 {
 if
 (
+!
+ignoreImplicit
+&&
 typeAccess
 .
 isImplicit

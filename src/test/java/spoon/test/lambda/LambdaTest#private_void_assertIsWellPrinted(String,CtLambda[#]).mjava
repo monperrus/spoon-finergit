@@ -18,10 +18,9 @@ assertEquals
 ,
 expected
 ,
-lambda
-.
-toString
+printByPrinter
 (
+lambda
 )
 )
 ;

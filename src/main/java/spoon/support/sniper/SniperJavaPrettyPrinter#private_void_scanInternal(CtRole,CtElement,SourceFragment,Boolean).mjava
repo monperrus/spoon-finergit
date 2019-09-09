@@ -91,7 +91,9 @@ getItems
 (
 )
 ,
-changeResolver
+getChangeResolver
+(
+)
 )
 :
 new
@@ -107,7 +109,9 @@ getItems
 (
 )
 ,
-changeResolver
+getChangeResolver
+(
+)
 )
 ;
 sourceFragmentContextStack

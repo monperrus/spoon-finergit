@@ -96,7 +96,7 @@ isImplicit
 ;
 assertEquals
 (
-""
+"java.lang.String"
 ,
 val
 .
@@ -144,11 +144,26 @@ getQualifiedName
 ;
 assertEquals
 (
+"java.util.ArrayList<>"
+,
+val
+.
+getType
+(
+)
+.
+prettyprint
+(
+)
+)
+;
+assertEquals
+(
 "new java.util.ArrayList<>()"
 ,
 val
 .
-toString
+prettyprint
 (
 )
 )

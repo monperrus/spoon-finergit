@@ -114,6 +114,8 @@ assertEquals
 (
 expected
 ,
+printByPrinter
+(
 aClass
 .
 getMethodsByName
@@ -125,9 +127,6 @@ get
 (
 0
 )
-.
-toString
-(
 )
 )
 ;

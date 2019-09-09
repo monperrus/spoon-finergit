@@ -90,7 +90,7 @@ class
 ;
 assertEquals
 (
-"A.myField"
+"spoon.test.fieldaccesses.testclasses.A.myField"
 ,
 aClass
 .
@@ -119,7 +119,7 @@ toString
 ;
 assertEquals
 (
-"finalField"
+"spoon.test.fieldaccesses.testclasses.B.finalField"
 ,
 aClass
 .

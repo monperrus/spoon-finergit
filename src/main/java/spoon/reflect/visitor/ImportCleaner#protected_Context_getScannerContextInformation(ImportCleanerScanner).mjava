@@ -1,0 +1,15 @@
+@Override
+protected
+Context
+getScannerContextInformation
+(
+ImportCleanerScanner
+scanner
+)
+{
+return
+scanner
+.
+context
+;
+}

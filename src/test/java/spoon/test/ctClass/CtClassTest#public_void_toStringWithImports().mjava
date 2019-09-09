@@ -5,6 +5,16 @@ toStringWithImports
 (
 )
 {
+String
+newLine
+=
+System
+.
+getProperty
+(
+"line.separator"
+)
+;
 final
 Launcher
 launcher2
@@ -84,31 +94,49 @@ djpp
 ;
 assertEquals
 (
-"package spoon.test.ctClass.testclasses;\n"
+"package spoon.test.ctClass.testclasses;"
 +
-"\n"
+newLine
 +
-"\n"
+"/**"
 +
-"/**\n"
+newLine
 +
-" * Created by urli on 11/10/2017.\n"
+" * Created by urli on 11/10/2017."
 +
-" */\n"
+newLine
 +
-"public class AnonymousClass {\n"
+" */"
 +
-"    final int machin = new java.util.Comparator<java.lang.Integer>() {\n"
+newLine
 +
-"        @java.lang.Override\n"
+"public class AnonymousClass {"
 +
-"        public int compare(java.lang.Integer o1, java.lang.Integer o2) {\n"
+newLine
 +
-"            return 0;\n"
+"    final int machin = new java.util.Comparator<java.lang.Integer>() {"
 +
-"        }\n"
+newLine
 +
-"    }.compare(1, 2);\n"
+"        @java.lang.Override"
++
+newLine
++
+"        public int compare(java.lang.Integer o1, java.lang.Integer o2) {"
++
+newLine
++
+"            return 0;"
++
+newLine
++
+"        }"
++
+newLine
++
+"    }.compare(1, 2);"
++
+newLine
 +
 "}"
 ,
@@ -136,37 +164,53 @@ true
 ;
 assertEquals
 (
-"package spoon.test.ctClass.testclasses;\n"
+"package spoon.test.ctClass.testclasses;"
 +
-"\n"
+newLine
 +
-"\n"
+"import java.util.Comparator;"
 +
-"import java.util.Comparator;\n"
+newLine
 +
-"\n"
+"/**"
 +
-"\n"
+newLine
 +
-"/**\n"
+" * Created by urli on 11/10/2017."
 +
-" * Created by urli on 11/10/2017.\n"
+newLine
 +
-" */\n"
+" */"
 +
-"public class AnonymousClass {\n"
+newLine
 +
-"    final int machin = new Comparator<Integer>() {\n"
+"public class AnonymousClass {"
 +
-"        @Override\n"
+newLine
 +
-"        public int compare(Integer o1, Integer o2) {\n"
+"    final int machin = new Comparator<Integer>() {"
 +
-"            return 0;\n"
+newLine
 +
-"        }\n"
+"        @Override"
 +
-"    }.compare(1, 2);\n"
+newLine
++
+"        public int compare(Integer o1, Integer o2) {"
++
+newLine
++
+"            return 0;"
++
+newLine
++
+"        }"
++
+newLine
++
+"    }.compare(1, 2);"
++
+newLine
 +
 "}"
 ,

@@ -1,0 +1,13 @@
+public
+Comparator
+<
+CtImport
+>
+getImportComparator
+(
+)
+{
+return
+importComparator
+;
+}

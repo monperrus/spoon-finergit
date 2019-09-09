@@ -95,6 +95,19 @@ get
 ;
 assertTrue
 (
+printByPrinter
+(
+mm
+)
+.
+contains
+(
+"List<Dummy> list;"
+)
+)
+;
+assertTrue
+(
 mm
 .
 toString
@@ -103,7 +116,7 @@ toString
 .
 contains
 (
-"List<Interners.WeakInterner.Dummy> list;"
+"java.util.List<spoon.test.imports.testclasses2.Interners.WeakInterner.Dummy> list;"
 )
 )
 ;

@@ -1,0 +1,14 @@
+protected
+void
+scanCompilationUnit
+(
+CtCompilationUnit
+compilationUnit
+)
+{
+scan
+(
+compilationUnit
+)
+;
+}

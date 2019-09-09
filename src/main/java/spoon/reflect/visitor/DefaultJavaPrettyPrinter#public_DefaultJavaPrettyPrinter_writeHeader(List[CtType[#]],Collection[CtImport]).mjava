@@ -1,6 +1,7 @@
 /** 
  * Write the compilation unit header.
  */
+@Deprecated
 public
 DefaultJavaPrettyPrinter
 writeHeader

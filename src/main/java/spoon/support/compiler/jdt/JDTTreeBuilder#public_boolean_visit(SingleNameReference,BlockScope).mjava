@@ -92,6 +92,11 @@ singleNameReference
 .
 binding
 )
+.
+setImplicitParent
+(
+true
+)
 )
 ,
 singleNameReference

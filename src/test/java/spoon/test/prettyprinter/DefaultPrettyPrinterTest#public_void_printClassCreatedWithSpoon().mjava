@@ -150,15 +150,7 @@ assertEquals
 +
 nl
 +
-nl
-+
-nl
-+
 "class Bar {}"
-+
-nl
-+
-nl
 ,
 IOUtils
 .

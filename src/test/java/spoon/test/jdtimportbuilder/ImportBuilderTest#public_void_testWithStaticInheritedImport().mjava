@@ -168,8 +168,6 @@ getImportKind
 assertEquals
 (
 "import static spoon.test.jdtimportbuilder.testclasses.staticimport.DependencySubClass.*;"
-+
-nl
 ,
 ctImport
 .

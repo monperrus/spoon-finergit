@@ -1,0 +1,24 @@
+/** 
+ * @param preprocessors list of {@link CompilationUnitValidator}, which have to be used to validate and fix model before it's printing
+ */
+public
+void
+setPreprocessors
+(
+List
+<
+Processor
+<
+CtCompilationUnit
+>
+>
+preprocessors
+)
+{
+this
+.
+preprocessors
+=
+preprocessors
+;
+}

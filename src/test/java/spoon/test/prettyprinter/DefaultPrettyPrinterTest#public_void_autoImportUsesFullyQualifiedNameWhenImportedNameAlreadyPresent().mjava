@@ -73,6 +73,12 @@ build
 (
 )
 ;
+launcher
+.
+prettyprint
+(
+)
+;
 final
 CtClass
 <
@@ -154,7 +160,7 @@ expected
 +
 nl
 +
-"    localField = TypeIdentifierCollision.ENUM.E1.ordinal();"
+"    localField = ENUM.E1.ordinal();"
 +
 nl
 +
@@ -174,7 +180,7 @@ get
 0
 )
 .
-toString
+prettyprint
 (
 )
 ;
@@ -211,7 +217,7 @@ get
 0
 )
 .
-toString
+prettyprint
 (
 )
 ;
@@ -230,11 +236,11 @@ expected
 +
 nl
 +
-"    TypeIdentifierCollision.Class0.ClassA.VAR0 = TypeIdentifierCollision.Class0.ClassA.getNum();"
+"    ClassA.VAR0 = ClassA.getNum();"
 +
 nl
 +
-"    TypeIdentifierCollision.Class1.ClassA.VAR1 = TypeIdentifierCollision.Class1.ClassA.getNum();"
+"    Class1.ClassA.VAR1 = Class1.ClassA.getNum();"
 +
 nl
 +
@@ -254,7 +260,7 @@ get
 0
 )
 .
-toString
+prettyprint
 (
 )
 ;
@@ -318,7 +324,7 @@ getNestedType
 "ENUM"
 )
 .
-toString
+prettyprint
 (
 )
 ;

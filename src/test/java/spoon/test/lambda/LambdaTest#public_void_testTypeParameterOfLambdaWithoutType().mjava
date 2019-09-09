@@ -103,6 +103,21 @@ getType
 (
 )
 .
+prettyprint
+(
+)
+)
+;
+assertEquals
+(
+"spoon.test.lambda.testclasses.Bar.SingleSubscriber<? super T>"
+,
+ctParameterFirstLambda
+.
+getType
+(
+)
+.
 toString
 (
 )

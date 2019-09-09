@@ -95,17 +95,16 @@ get
 ;
 assertTrue
 (
-"new StaticWithNested.StaticNested.StaticNested2<K>();"
+"new StaticNested2<K>();"
 ,
-mm
-.
-toString
+printByPrinter
 (
+mm
 )
 .
 contains
 (
-"new StaticWithNested.StaticNested.StaticNested2<K>();"
+"new StaticNested2<K>();"
 )
 )
 ;

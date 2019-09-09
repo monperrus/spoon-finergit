@@ -35,7 +35,7 @@ delete
 ;
 assertEquals
 (
-"/* ERROR: Missing field \"testedField\", please check your model. The code may not compile. */ testedField = 1"
+"testedField = 1"
 ,
 type
 .

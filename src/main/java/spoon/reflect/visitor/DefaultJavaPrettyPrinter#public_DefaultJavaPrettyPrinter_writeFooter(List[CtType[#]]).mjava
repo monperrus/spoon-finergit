@@ -1,6 +1,7 @@
 /** 
  * Write the compilation unit footer.
  */
+@Deprecated
 public
 DefaultJavaPrettyPrinter
 writeFooter

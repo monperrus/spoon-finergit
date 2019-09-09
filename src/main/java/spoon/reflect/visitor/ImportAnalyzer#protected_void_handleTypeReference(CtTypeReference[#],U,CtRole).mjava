@@ -1,0 +1,21 @@
+/** 
+ * what do we do a type reference? 
+ */
+protected
+abstract
+void
+handleTypeReference
+(
+CtTypeReference
+<
+?
+>
+element
+,
+U
+context
+,
+CtRole
+role
+)
+;

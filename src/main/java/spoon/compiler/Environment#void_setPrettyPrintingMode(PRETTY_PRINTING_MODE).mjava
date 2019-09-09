@@ -1,0 +1,7 @@
+void
+setPrettyPrintingMode
+(
+PRETTY_PRINTING_MODE
+prettyPrintingMode
+)
+;

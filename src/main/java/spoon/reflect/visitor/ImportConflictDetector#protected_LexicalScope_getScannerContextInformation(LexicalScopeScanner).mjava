@@ -1,0 +1,17 @@
+@Override
+protected
+LexicalScope
+getScannerContextInformation
+(
+LexicalScopeScanner
+scanner
+)
+{
+return
+scanner
+.
+getCurrentLexicalScope
+(
+)
+;
+}

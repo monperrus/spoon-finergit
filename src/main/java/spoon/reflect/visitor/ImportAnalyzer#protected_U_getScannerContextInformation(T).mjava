@@ -1,0 +1,12 @@
+/** 
+ * extract the required information from the scanner to take a decision 
+ */
+protected
+abstract
+U
+getScannerContextInformation
+(
+T
+scanner
+)
+;

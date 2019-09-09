@@ -205,10 +205,11 @@ lineSeparator
 +
 "}"
 ,
-aClass
+ImportTest
 .
-toString
+printByPrinter
 (
+aClass
 )
 )
 ;

@@ -130,8 +130,6 @@ next
 assertEquals
 (
 "import spoon.test.annotation.testclasses.GlobalAnnotation;"
-+
-nl
 ,
 ref
 .

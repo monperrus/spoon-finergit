@@ -186,7 +186,7 @@ getSimpleName
 ;
 assertEquals
 (
-""
+"org.apache.lucene.store.Lock.With"
 ,
 anonymousClass
 .

@@ -1,0 +1,18 @@
+/** 
+ * @param ignoreImplicit true to ignore `isImplicit` attribute on model and always print fully qualified names
+ */
+public
+void
+setIgnoreImplicit
+(
+boolean
+ignoreImplicit
+)
+{
+this
+.
+ignoreImplicit
+=
+ignoreImplicit
+;
+}

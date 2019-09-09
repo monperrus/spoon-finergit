@@ -1,0 +1,24 @@
+/** 
+ * Parses a ppt parent hierarchy record and returns it. 
+ */
+private
+static
+void
+m
+(
+)
+{
+String
+.
+valueOf
+(
+daikon
+.
+PptRelation
+.
+PptRelationType
+.
+class
+)
+;
+}

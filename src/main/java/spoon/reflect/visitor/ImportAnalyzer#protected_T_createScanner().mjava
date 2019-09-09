@@ -1,0 +1,10 @@
+/** 
+ * creates the scanner that will be used to visit the model 
+ */
+protected
+abstract
+T
+createScanner
+(
+)
+;

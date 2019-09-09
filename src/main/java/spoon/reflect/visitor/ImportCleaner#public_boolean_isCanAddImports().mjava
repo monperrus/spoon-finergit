@@ -1,0 +1,13 @@
+/** 
+ * @return true if this processor is allowed to add new imports
+ */
+public
+boolean
+isCanAddImports
+(
+)
+{
+return
+canAddImports
+;
+}

@@ -34,7 +34,7 @@ getSuperclass
 (
 )
 ;
-assertFalse
+assertTrue
 (
 typeRef
 .
@@ -43,7 +43,7 @@ isImplicitParent
 )
 )
 ;
-assertFalse
+assertTrue
 (
 typeRef
 .
@@ -60,10 +60,10 @@ typeRef
 .
 setImplicitParent
 (
-true
+false
 )
 ;
-assertTrue
+assertFalse
 (
 typeRef
 .
@@ -72,7 +72,7 @@ isImplicitParent
 )
 )
 ;
-assertTrue
+assertFalse
 (
 typeRef
 .
@@ -93,10 +93,10 @@ getPackage
 .
 setImplicit
 (
-false
+true
 )
 ;
-assertFalse
+assertTrue
 (
 typeRef
 .
@@ -105,7 +105,7 @@ isImplicitParent
 )
 )
 ;
-assertFalse
+assertTrue
 (
 typeRef
 .

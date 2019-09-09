@@ -176,10 +176,9 @@ size
 ;
 assertTrue
 (
-anotherClass
-.
-toString
+printByPrinter
 (
+anotherClass
 )
 .
 indexOf

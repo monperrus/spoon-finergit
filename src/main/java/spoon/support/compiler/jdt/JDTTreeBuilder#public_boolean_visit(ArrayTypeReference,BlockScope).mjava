@@ -54,6 +54,12 @@ instanceof
 CtArrayTypeReference
 )
 {
+CtTypeReference
+<
+?
+>
+arrayType
+=
 (
 (
 CtArrayTypeReference
@@ -68,6 +74,8 @@ getAccessedType
 getArrayType
 (
 )
+;
+arrayType
 .
 setAnnotations
 (
@@ -85,6 +93,13 @@ scope
 getAnnotations
 (
 )
+)
+;
+arrayType
+.
+setImplicitParent
+(
+true
 )
 ;
 }

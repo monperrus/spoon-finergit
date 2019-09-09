@@ -159,8 +159,6 @@ getImportKind
 assertEquals
 (
 "import static jdtimportbuilder.itf.DumbItf.*;"
-+
-nl
 ,
 ctImport
 .

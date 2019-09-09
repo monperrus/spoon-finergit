@@ -1,0 +1,14 @@
+/** 
+ * Prints the types of one compilation unit It always resets the printing context at the beginning of this process.
+ */
+String
+printTypes
+(
+CtType
+<
+?
+>
+...
+type
+)
+;

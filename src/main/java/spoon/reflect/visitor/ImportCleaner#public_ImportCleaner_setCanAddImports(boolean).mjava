@@ -1,0 +1,21 @@
+/** 
+ * @param canAddImports true if this processor is allowed to add new imports
+ */
+public
+ImportCleaner
+setCanAddImports
+(
+boolean
+canAddImports
+)
+{
+this
+.
+canAddImports
+=
+canAddImports
+;
+return
+this
+;
+}

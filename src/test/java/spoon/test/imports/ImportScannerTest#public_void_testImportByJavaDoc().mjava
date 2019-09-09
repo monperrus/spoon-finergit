@@ -158,12 +158,9 @@ contains
 )
 ;
 {
-DefaultJavaPrettyPrinter
+PrettyPrinter
 printer
 =
-new
-DefaultJavaPrettyPrinter
-(
 type
 .
 getFactory
@@ -173,6 +170,9 @@ getFactory
 getEnvironment
 (
 )
+.
+createPrettyPrinter
+(
 )
 ;
 printer

@@ -106,6 +106,8 @@ assertEquals
 (
 "Constants.CONSTANT.foo"
 ,
+printByPrinter
+(
 (
 (
 CtLocalVariable
@@ -116,9 +118,6 @@ assignment
 getAssignment
 (
 )
-.
-toString
-(
 )
 )
 ;

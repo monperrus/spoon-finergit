@@ -1,0 +1,13 @@
+/** 
+ * @return true if this processor is allowed to remove imports
+ */
+public
+boolean
+isCanRemoveImports
+(
+)
+{
+return
+canRemoveImports
+;
+}

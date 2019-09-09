@@ -1,0 +1,14 @@
+@Override
+protected
+LexicalScopeScanner
+createScanner
+(
+)
+{
+return
+new
+LexicalScopeScanner
+(
+)
+;
+}

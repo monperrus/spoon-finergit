@@ -294,4 +294,25 @@ nbStaticImports
 countImports
 )
 ;
+assertContainsLine
+(
+"assertEquals(\"bla\", \"truc\");"
+,
+output
+)
+;
+assertContainsLine
+(
+"assertEquals(7, 12);"
+,
+output
+)
+;
+assertContainsLine
+(
+"assertEquals(new String[0], new String[0]);"
+,
+output
+)
+;
 }

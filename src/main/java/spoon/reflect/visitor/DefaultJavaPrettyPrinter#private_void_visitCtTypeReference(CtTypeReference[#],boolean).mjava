@@ -14,10 +14,10 @@ withGenerics
 {
 if
 (
-ref
-.
-isImplicit
+!
+isPrintTypeReference
 (
+ref
 )
 )
 {
@@ -106,6 +106,11 @@ accessType
 .
 isAnonymous
 (
+)
+&&
+isPrintTypeReference
+(
+accessType
 )
 )
 {

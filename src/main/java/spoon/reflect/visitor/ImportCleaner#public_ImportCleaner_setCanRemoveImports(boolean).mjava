@@ -1,0 +1,21 @@
+/** 
+ * @param canRemoveImports true if this processor is allowed to remove imports
+ */
+public
+ImportCleaner
+setCanRemoveImports
+(
+boolean
+canRemoveImports
+)
+{
+this
+.
+canRemoveImports
+=
+canRemoveImports
+;
+return
+this
+;
+}

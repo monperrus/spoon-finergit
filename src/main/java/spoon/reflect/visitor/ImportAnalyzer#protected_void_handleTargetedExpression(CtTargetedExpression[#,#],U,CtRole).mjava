@@ -1,0 +1,23 @@
+/** 
+ * what do we do a target expression (print target or not) ? 
+ */
+protected
+abstract
+void
+handleTargetedExpression
+(
+CtTargetedExpression
+<
+?
+,
+?
+>
+targetedExpression
+,
+U
+context
+,
+CtRole
+role
+)
+;

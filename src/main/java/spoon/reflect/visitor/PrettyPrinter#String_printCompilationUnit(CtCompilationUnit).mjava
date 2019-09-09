@@ -1,0 +1,10 @@
+/** 
+ * Prints the compilation unit of module-info, package-info or types.
+ */
+String
+printCompilationUnit
+(
+CtCompilationUnit
+compilationUnit
+)
+;

@@ -1,0 +1,8 @@
+/** 
+ * @return a debug version of the source code of this element, with fully-qualified types. Warning, some implicit elements are not shown in the string.{@link Environment#getPrettyPrintingMode()} is not taken into account, use {@link #prettyprint()} for a nice version of the source code.
+ */
+String
+toString
+(
+)
+;

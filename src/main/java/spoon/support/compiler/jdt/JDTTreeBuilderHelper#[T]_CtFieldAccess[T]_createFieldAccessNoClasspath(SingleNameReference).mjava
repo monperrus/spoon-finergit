@@ -157,6 +157,8 @@ Code
 createTypeAccess
 (
 declaringRef
+,
+true
 )
 )
 ;
