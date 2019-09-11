@@ -228,7 +228,7 @@ LOGGER
 .
 warn
 (
-"Spoon now parse by default the comments. Consider using the option --disable-comments if you want the old behaviour."
+"Spoon now parses by default the comments. Consider using the option --disable-comments if you want the old behaviour."
 )
 ;
 }
