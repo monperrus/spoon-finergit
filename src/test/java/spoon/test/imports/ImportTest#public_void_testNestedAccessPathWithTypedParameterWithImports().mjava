@@ -26,8 +26,6 @@ String
 "-i"
 ,
 "./src/test/resources/spoon/test/imports/testclasses2/AbstractMapBasedMultimap.java"
-,
-"--with-imports"
 }
 )
 ;
@@ -127,7 +125,7 @@ toString
 ;
 assertEquals
 (
-"private class WrappedListIterator extends WrappedIterator {}"
+"private class WrappedListIterator extends WrappedCollection.WrappedIterator {}"
 ,
 printByPrinter
 (
@@ -178,16 +176,6 @@ mmwliother
 .
 toString
 (
-)
-)
-;
-assertEquals
-(
-"private class WrappedListIterator extends WrappedIterator {}"
-,
-printByPrinter
-(
-mmwliother
 )
 )
 ;

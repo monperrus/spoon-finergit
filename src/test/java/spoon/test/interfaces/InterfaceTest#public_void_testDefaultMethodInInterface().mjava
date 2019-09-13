@@ -65,7 +65,7 @@ final
 String
 expected
 =
-"default java.time.ZonedDateTime getZonedDateTime(java.lang.String zoneString) {"
+"public default java.time.ZonedDateTime getZonedDateTime(java.lang.String zoneString) {"
 +
 System
 .

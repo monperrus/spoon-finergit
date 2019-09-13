@@ -85,7 +85,7 @@ getElseStatement
 ;
 assertEquals
 (
-"java.lang.System.out.println();"
+"System.out.println();"
 ,
 conditions
 .
@@ -98,7 +98,7 @@ getElseStatement
 (
 )
 .
-toString
+prettyprint
 (
 )
 .

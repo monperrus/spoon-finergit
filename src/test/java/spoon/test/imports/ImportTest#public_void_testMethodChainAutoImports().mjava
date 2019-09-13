@@ -144,7 +144,7 @@ toString
 ;
 assertEquals
 (
-"mButton = ((android.widget.Button) (findViewById(R.id.page_button_button)))"
+"mButton = ((Button) (findViewById(R.id.page_button_button)))"
 ,
 statements
 .

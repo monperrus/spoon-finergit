@@ -152,14 +152,14 @@ getType
 (
 )
 .
-prettyprint
+toString
 (
 )
 )
 ;
 assertEquals
 (
-"new java.util.ArrayList<>()"
+"new ArrayList<>()"
 ,
 val
 .

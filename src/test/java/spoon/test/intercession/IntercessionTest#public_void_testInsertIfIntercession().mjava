@@ -127,7 +127,7 @@ s
 =
 ifStmt
 .
-toString
+prettyprint
 (
 )
 .
@@ -227,7 +227,7 @@ s
 =
 ifStmt
 .
-toString
+prettyprint
 (
 )
 .

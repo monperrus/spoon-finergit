@@ -361,7 +361,7 @@ Arrays
 .
 asList
 (
-"java.lang.String theme"
+"String theme"
 )
 ,
 "theme"

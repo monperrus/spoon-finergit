@@ -75,7 +75,7 @@ assertEquals
 ,
 toBeRemoved
 .
-toString
+toStringDebug
 (
 )
 )

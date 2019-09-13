@@ -101,19 +101,43 @@ CtBlock
 )
 ;
 String
-expected
+expectedPrettyPrinted
 =
-"for (spoon.test.loop.testclasses.Condition<? super T> condition : conditions)"
+"for (Condition<? super T> condition : conditions)"
++
+nl
++
+"    this.conditions.add(notNull(condition));"
++
+nl
+;
+assertEquals
+(
+expectedPrettyPrinted
+,
+ctLoop
+.
+prettyprint
+(
+)
+)
+;
+String
+expectedDebug
+=
+"for (spoon.test.loop.testclasses.Condition<? super T> condition : conditions) {"
 +
 nl
 +
 "    this.conditions.add(spoon.test.loop.testclasses.Join.notNull(condition));"
 +
 nl
++
+"}"
 ;
 assertEquals
 (
-expected
+expectedDebug
 ,
 ctLoop
 .

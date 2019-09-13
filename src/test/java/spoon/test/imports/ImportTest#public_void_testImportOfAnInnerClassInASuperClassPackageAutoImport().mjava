@@ -26,17 +26,6 @@ true
 ;
 spoon
 .
-getEnvironment
-(
-)
-.
-setAutoImports
-(
-true
-)
-;
-spoon
-.
 addInputResource
 (
 "./src/test/java/spoon/test/imports/testclasses/internal/SuperClass.java"

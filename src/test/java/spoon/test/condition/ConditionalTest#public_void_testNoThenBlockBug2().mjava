@@ -136,11 +136,11 @@ getElseStatement
 ;
 assertEquals
 (
-"java.lang.System.out.println(\"valid\");"
+"System.out.println(\"valid\");"
 ,
 thenStatement
 .
-toString
+prettyprint
 (
 )
 .
@@ -175,7 +175,7 @@ getThenStatement
 ;
 assertEquals
 (
-"java.lang.System.out.println(\"invalid\");"
+"System.out.println(\"invalid\");"
 ,
 innerIf
 .
@@ -183,7 +183,7 @@ getElseStatement
 (
 )
 .
-toString
+prettyprint
 (
 )
 .

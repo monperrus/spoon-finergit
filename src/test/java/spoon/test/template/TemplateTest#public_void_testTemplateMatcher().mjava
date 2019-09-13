@@ -986,7 +986,7 @@ match
 ,
 "_block_"
 ,
-"throw new java.lang.IndexOutOfBoundsException();"
+"{ throw new java.lang.IndexOutOfBoundsException();}"
 )
 ||
 checkParameters
@@ -1005,7 +1005,7 @@ match
 ,
 "_block_"
 ,
-"throw new java.lang.IndexOutOfBoundsException();"
+"{ throw new java.lang.IndexOutOfBoundsException();}"
 )
 ||
 checkParameters
@@ -1024,7 +1024,7 @@ match
 ,
 "_block_"
 ,
-"throw new java.lang.IndexOutOfBoundsException();"
+"{ throw new java.lang.IndexOutOfBoundsException();}"
 )
 ||
 checkParameters
@@ -1081,7 +1081,7 @@ match
 ,
 "_block_"
 ,
-"java.lang.System.out.println();"
+"{ java.lang.System.out.println();}"
 )
 )
 ;
@@ -1538,7 +1538,7 @@ match
 ,
 "_block_"
 ,
-"java.lang.System.out.println();"
+"{ java.lang.System.out.println();}"
 )
 )
 ;

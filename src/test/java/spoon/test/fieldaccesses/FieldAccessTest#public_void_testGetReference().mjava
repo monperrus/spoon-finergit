@@ -49,17 +49,6 @@ addInputResource
 ;
 launcher
 .
-getEnvironment
-(
-)
-.
-setAutoImports
-(
-true
-)
-;
-launcher
-.
 run
 (
 )

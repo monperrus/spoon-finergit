@@ -42,7 +42,7 @@ fieldValue
 ;
 assertEquals
 (
-"java.lang.String value = \"\";"
+"public static final java.lang.String value = \"\";"
 ,
 fieldValue
 .

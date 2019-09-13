@@ -50,7 +50,7 @@ lambda
 ;
 assertIsWellPrinted
 (
-"((spoon.test.lambda.testclasses.Foo.Check) (() -> {"
+"((Check) (() -> {"
 +
 System
 .
@@ -58,7 +58,7 @@ lineSeparator
 (
 )
 +
-"    java.lang.System.err.println(\"\");"
+"    System.err.println(\"\");"
 +
 System
 .

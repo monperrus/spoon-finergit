@@ -26,8 +26,6 @@ String
 "-i"
 ,
 "./src/test/java/spoon/test/imports/testclasses"
-,
-"--with-imports"
 }
 )
 ;

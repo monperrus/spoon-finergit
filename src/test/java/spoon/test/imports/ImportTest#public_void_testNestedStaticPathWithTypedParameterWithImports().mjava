@@ -26,8 +26,6 @@ String
 "-i"
 ,
 "./src/test/resources/spoon/test/imports/testclasses2/Interners.java"
-,
-"--with-imports"
 }
 )
 ;
@@ -91,19 +89,6 @@ Class
 get
 (
 "spoon.test.imports.testclasses2.Interners"
-)
-;
-assertTrue
-(
-printByPrinter
-(
-mm
-)
-.
-contains
-(
-"List<Dummy> list;"
-)
 )
 ;
 assertTrue

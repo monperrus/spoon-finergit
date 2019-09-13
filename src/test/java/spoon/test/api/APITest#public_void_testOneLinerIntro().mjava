@@ -67,7 +67,7 @@ getSimpleName
 ;
 assertEquals
 (
-"java.lang.System.out.println(\"yeah\")"
+"System.out.println(\"yeah\")"
 ,
 l
 .

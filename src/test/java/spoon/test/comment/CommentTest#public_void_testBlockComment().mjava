@@ -1408,7 +1408,7 @@ assertEquals
 ,
 ctComment
 .
-toString
+prettyprint
 (
 )
 )
@@ -1446,7 +1446,7 @@ assertEquals
 ,
 ctComment
 .
-toString
+prettyprint
 (
 )
 )
