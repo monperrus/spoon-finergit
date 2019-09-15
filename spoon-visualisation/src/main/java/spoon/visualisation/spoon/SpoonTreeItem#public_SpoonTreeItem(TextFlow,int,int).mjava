@@ -7,7 +7,7 @@ public
 SpoonTreeItem
 (
 final
-String
+TextFlow
 text
 ,
 final

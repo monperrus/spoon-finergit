@@ -26,7 +26,7 @@ waitForTimeoutTransitions
 final
 TreeItem
 <
-String
+TextFlow
 >
 item
 =

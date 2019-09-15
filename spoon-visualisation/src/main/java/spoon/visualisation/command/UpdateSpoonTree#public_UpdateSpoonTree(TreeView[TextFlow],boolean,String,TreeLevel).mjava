@@ -11,7 +11,7 @@ final
 @NotNull
 TreeView
 <
-String
+TextFlow
 >
 spoonAST
 ,

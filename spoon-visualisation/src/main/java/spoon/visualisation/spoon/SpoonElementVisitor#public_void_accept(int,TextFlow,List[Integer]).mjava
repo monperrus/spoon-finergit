@@ -9,7 +9,7 @@ level
 ,
 final
 @NotNull
-String
+TextFlow
 label
 ,
 final

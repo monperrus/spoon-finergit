@@ -9,7 +9,7 @@ final
 @NotNull
 TreeView
 <
-String
+TextFlow
 >
 tree
 ,

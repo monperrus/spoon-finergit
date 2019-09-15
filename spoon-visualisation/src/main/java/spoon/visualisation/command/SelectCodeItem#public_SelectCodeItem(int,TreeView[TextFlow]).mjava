@@ -13,7 +13,7 @@ final
 @NotNull
 TreeView
 <
-String
+TextFlow
 >
 spoonTree
 )
