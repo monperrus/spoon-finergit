@@ -1,3 +1,7 @@
+/** 
+ * @return the set of extended modifiers (those incl. implicit).
+ */
+@PropertyGetter(role=EMODIFIER)
 Set
 <
 CtExtendedModifier
