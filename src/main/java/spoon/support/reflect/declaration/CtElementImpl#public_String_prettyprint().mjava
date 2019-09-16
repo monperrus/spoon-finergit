@@ -27,9 +27,5 @@ prettyprint
 (
 this
 )
-.
-getResult
-(
-)
 ;
 }

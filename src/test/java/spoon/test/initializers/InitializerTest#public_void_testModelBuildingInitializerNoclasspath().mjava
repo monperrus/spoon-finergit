@@ -104,7 +104,7 @@ get
 ;
 assertEquals
 (
-"org.apache.lucene.util.UnicodeUtil.UTF8Result temp = new org.apache.lucene.util.UnicodeUtil.UTF8Result()"
+"UnicodeUtil.UTF8Result temp = new UnicodeUtil.UTF8Result()"
 ,
 ex
 .

@@ -18,6 +18,16 @@ role
 {
 if
 (
+context
+==
+null
+)
+{
+return
+;
+}
+if
+(
 reference
 .
 isImplicit

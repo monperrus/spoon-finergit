@@ -73,12 +73,6 @@ build
 (
 )
 ;
-launcher
-.
-prettyprint
-(
-)
-;
 final
 CtClass
 <
@@ -120,7 +114,7 @@ expected
 +
 nl
 +
-"    localField = spoon.test.prettyprinter.testclasses.sub.TypeIdentifierCollision.ENUM.E1.ordinal();"
+"    localField = TypeIdentifierCollision.ENUM.E1.ordinal();"
 +
 nl
 +
@@ -197,7 +191,7 @@ expected
 +
 nl
 +
-"    spoon.test.prettyprinter.testclasses.sub.TypeIdentifierCollision.globalField = localField;"
+"    TypeIdentifierCollision.globalField = localField;"
 +
 nl
 +
@@ -217,7 +211,7 @@ get
 0
 )
 .
-prettyprint
+toString
 (
 )
 ;
@@ -281,7 +275,7 @@ nl
 +
 nl
 +
-"    E1(spoon.test.prettyprinter.testclasses.sub.TypeIdentifierCollision.globalField, spoon.test.prettyprinter.testclasses.sub.TypeIdentifierCollision.ENUM.E1);"
+"    E1(TypeIdentifierCollision.globalField, TypeIdentifierCollision.ENUM.E1);"
 +
 nl
 +
@@ -324,7 +318,7 @@ getNestedType
 "ENUM"
 )
 .
-prettyprint
+toString
 (
 )
 ;

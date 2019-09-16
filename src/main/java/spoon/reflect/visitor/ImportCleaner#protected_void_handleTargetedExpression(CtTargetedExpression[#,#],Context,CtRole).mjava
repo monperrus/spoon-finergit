@@ -18,6 +18,16 @@ CtRole
 role
 )
 {
+if
+(
+context
+==
+null
+)
+{
+return
+;
+}
 CtExpression
 <
 ?

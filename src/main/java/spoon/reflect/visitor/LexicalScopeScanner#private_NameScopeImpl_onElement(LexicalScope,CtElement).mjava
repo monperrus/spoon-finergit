@@ -312,6 +312,16 @@ T
 localVariable
 )
 {
+if
+(
+parent
+==
+null
+)
+{
+return
+;
+}
 parent
 .
 addNamedElement

@@ -144,7 +144,7 @@ toString
 ;
 assertEquals
 (
-"mButton = ((Button) (findViewById(R.id.page_button_button)))"
+"mButton = ((Button) (findViewById(page_button_button)))"
 ,
 statements
 .
@@ -160,7 +160,7 @@ toString
 ;
 assertEquals
 (
-"mCurrentActiveColor = getColor(R.color.c4_active_button_color)"
+"mCurrentActiveColor = getColor(c4_active_button_color)"
 ,
 statements
 .
@@ -176,7 +176,7 @@ toString
 ;
 assertEquals
 (
-"mCurrentActiveColor = getResources().getColor(R.color.c4_active_button_color)"
+"mCurrentActiveColor = getResources().getColor(c4_active_button_color)"
 ,
 statements
 .
@@ -192,7 +192,7 @@ toString
 ;
 assertEquals
 (
-"mCurrentActiveColor = getData().getResources().getColor(R.color.c4_active_button_color)"
+"mCurrentActiveColor = getData().getResources().getColor(c4_active_button_color)"
 ,
 statements
 .
