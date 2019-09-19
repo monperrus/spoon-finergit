@@ -59,13 +59,9 @@ return
 else
 if
 (
-forLoop
-.
-getExpression
+isContainedInForCondition
 (
 )
-==
-null
 &&
 child
 instanceof
