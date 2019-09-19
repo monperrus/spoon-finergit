@@ -15,7 +15,7 @@ ignoreImplicit
 !
 ref
 .
-isImplicitParent
+isSimplyQualified
 (
 )
 ;

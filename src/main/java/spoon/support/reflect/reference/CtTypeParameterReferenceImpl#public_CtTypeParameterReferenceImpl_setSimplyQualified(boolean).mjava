@@ -2,10 +2,10 @@
 @UnsettableProperty
 public
 CtTypeParameterReferenceImpl
-setImplicitParent
+setSimplyQualified
 (
 boolean
-packageIsImplicit
+isSimplyQualified
 )
 {
 return

@@ -29,7 +29,7 @@ null
 {
 reference
 .
-setImplicitParent
+setSimplyQualified
 (
 true
 )
@@ -107,7 +107,7 @@ getQualifiedName
 {
 reference
 .
-setImplicitParent
+setSimplyQualified
 (
 true
 )
@@ -160,7 +160,7 @@ null
 {
 topLevelTypeRef
 .
-setImplicitParent
+setSimplyQualified
 (
 true
 )

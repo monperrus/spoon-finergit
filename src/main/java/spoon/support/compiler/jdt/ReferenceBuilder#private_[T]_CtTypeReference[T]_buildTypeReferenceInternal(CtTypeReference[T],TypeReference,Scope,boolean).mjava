@@ -502,7 +502,7 @@ SingleTypeReference
 {
 typeReference
 .
-setImplicitParent
+setSimplyQualified
 (
 true
 )

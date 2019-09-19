@@ -1,7 +1,7 @@
 @Override
 public
 boolean
-isImplicitParent
+isSimplyQualified
 (
 )
 {
@@ -28,7 +28,7 @@ get
 0
 )
 .
-isImplicitParent
+isSimplyQualified
 (
 )
 ;

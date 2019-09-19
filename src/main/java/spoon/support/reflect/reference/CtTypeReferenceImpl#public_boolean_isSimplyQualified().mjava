@@ -2,7 +2,7 @@
 @DerivedProperty
 public
 boolean
-isImplicitParent
+isSimplyQualified
 (
 )
 {

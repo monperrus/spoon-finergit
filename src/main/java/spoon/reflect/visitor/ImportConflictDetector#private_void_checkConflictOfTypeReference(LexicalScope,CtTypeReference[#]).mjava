@@ -30,7 +30,7 @@ if
 !
 typeRef
 .
-isImplicitParent
+isSimplyQualified
 (
 )
 )
@@ -47,7 +47,7 @@ typeRef
 {
 typeRef
 .
-setImplicitParent
+setSimplyQualified
 (
 true
 )
@@ -96,7 +96,7 @@ typeRef
 {
 typeRef
 .
-setImplicitParent
+setSimplyQualified
 (
 false
 )

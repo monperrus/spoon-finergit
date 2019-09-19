@@ -20,7 +20,7 @@ if
 (
 reference
 .
-isImplicitParent
+isSimplyQualified
 (
 )
 ||
@@ -75,7 +75,7 @@ false
 ;
 reference
 .
-setImplicitParent
+setSimplyQualified
 (
 false
 )

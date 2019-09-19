@@ -93,7 +93,7 @@ singleNameReference
 binding
 )
 .
-setImplicitParent
+setSimplyQualified
 (
 true
 )

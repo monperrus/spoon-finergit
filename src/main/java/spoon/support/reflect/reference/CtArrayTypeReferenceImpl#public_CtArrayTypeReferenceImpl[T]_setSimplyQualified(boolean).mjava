@@ -4,10 +4,10 @@ CtArrayTypeReferenceImpl
 <
 T
 >
-setImplicitParent
+setSimplyQualified
 (
 boolean
-packageIsImplicit
+isSimplyQualified
 )
 {
 if
@@ -19,9 +19,9 @@ null
 {
 componentType
 .
-setImplicitParent
+setSimplyQualified
 (
-packageIsImplicit
+isSimplyQualified
 )
 ;
 }

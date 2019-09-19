@@ -1,7 +1,7 @@
 @Override
 public
 boolean
-isImplicitParent
+isSimplyQualified
 (
 )
 {
@@ -15,7 +15,7 @@ null
 return
 componentType
 .
-isImplicitParent
+isSimplyQualified
 (
 )
 ;

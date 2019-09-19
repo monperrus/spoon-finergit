@@ -97,7 +97,7 @@ getAnnotations
 ;
 arrayType
 .
-setImplicitParent
+setSimplyQualified
 (
 true
 )

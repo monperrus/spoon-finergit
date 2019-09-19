@@ -5,10 +5,10 @@ CtTypeReferenceImpl
 <
 T
 >
-setImplicitParent
+setSimplyQualified
 (
 boolean
-parentIsImplicit
+isSimplyQualified
 )
 {
 if
@@ -22,7 +22,7 @@ pack
 .
 setImplicit
 (
-parentIsImplicit
+isSimplyQualified
 )
 ;
 }
@@ -38,7 +38,7 @@ declaringType
 .
 setImplicit
 (
-parentIsImplicit
+isSimplyQualified
 )
 ;
 }

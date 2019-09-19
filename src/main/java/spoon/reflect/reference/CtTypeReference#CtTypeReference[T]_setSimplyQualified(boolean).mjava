@@ -1,0 +1,14 @@
+/** 
+ * @param isSimplyQualified false then the reference is printed fully qualified name.true then only the type name is printed.
+ */
+@DerivedProperty
+CtTypeReference
+<
+T
+>
+setSimplyQualified
+(
+boolean
+isSimplyQualified
+)
+;

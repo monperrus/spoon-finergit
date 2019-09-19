@@ -160,7 +160,7 @@ false
 ;
 ref
 .
-setImplicitParent
+setSimplyQualified
 (
 true
 )
@@ -280,7 +280,7 @@ false
 ;
 ref
 .
-setImplicitParent
+setSimplyQualified
 (
 true
 )
@@ -304,7 +304,7 @@ isImplicit
 &&
 ref
 .
-isImplicitParent
+isSimplyQualified
 (
 )
 )
@@ -391,7 +391,7 @@ false
 ;
 ref
 .
-setImplicitParent
+setSimplyQualified
 (
 false
 )

@@ -4,10 +4,10 @@ CtIntersectionTypeReferenceImpl
 <
 T
 >
-setImplicitParent
+setSimplyQualified
 (
 boolean
-packageIsImplicit
+isSimplyQualified
 )
 {
 if
@@ -32,9 +32,9 @@ get
 0
 )
 .
-setImplicitParent
+setSimplyQualified
 (
-packageIsImplicit
+isSimplyQualified
 )
 ;
 }

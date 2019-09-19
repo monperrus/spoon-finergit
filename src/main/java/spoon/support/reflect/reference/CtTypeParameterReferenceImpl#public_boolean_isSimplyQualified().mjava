@@ -1,7 +1,7 @@
 @Override
 public
 boolean
-isImplicitParent
+isSimplyQualified
 (
 )
 {
