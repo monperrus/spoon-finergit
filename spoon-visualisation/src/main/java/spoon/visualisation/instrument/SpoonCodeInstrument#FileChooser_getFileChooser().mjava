@@ -1,0 +1,28 @@
+/** 
+ * Lazy getter for a file chooser
+ * @return The file chooser of the component
+ */
+FileChooser
+getFileChooser
+(
+)
+{
+if
+(
+fileChooser
+==
+null
+)
+{
+fileChooser
+=
+new
+FileChooser
+(
+)
+;
+}
+return
+fileChooser
+;
+}

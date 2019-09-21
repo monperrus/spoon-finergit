@@ -1,0 +1,16 @@
+public
+Stub2
+<
+CtClass
+<
+String
+>
+>
+bar
+(
+)
+{
+return
+null
+;
+}

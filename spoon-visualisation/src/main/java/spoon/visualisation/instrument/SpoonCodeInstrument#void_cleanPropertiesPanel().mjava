@@ -1,0 +1,19 @@
+/** 
+ * Removes the displayed properties
+ */
+void
+cleanPropertiesPanel
+(
+)
+{
+propPanel
+.
+getChildren
+(
+)
+.
+clear
+(
+)
+;
+}

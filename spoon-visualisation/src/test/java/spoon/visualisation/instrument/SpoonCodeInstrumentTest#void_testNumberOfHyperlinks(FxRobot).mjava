@@ -48,6 +48,8 @@ queryAll
 (
 )
 ;
+AssertionsForClassTypes
+.
 assertThat
 (
 hyperlinks

@@ -1,0 +1,51 @@
+/** 
+ * A helper method for retrieving the interfaces of the Spoon API that the given class directly implements.
+ * @param cl The class to analyse.
+ * @return A stream of all the retrieved interfaces
+ */
+Stream
+<
+Class
+<
+?
+>
+>
+getDirectSpoonInterfaces
+(
+final
+Class
+<
+?
+>
+cl
+)
+{
+return
+Arrays
+.
+stream
+(
+cl
+.
+getInterfaces
+(
+)
+)
+.
+filter
+(
+inter
+->
+inter
+.
+getPackageName
+(
+)
+.
+startsWith
+(
+"spoon."
+)
+)
+;
+}

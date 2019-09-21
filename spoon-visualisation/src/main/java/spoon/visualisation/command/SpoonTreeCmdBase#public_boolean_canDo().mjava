@@ -9,12 +9,5 @@ return
 code
 !=
 null
-&&
-!
-code
-.
-isEmpty
-(
-)
 ;
 }

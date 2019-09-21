@@ -1,0 +1,19 @@
+/** 
+ * For testing purposes only. Allows to set the file chooser (a mock for example)
+ * @param fileChooser The file chooser to use.
+ */
+void
+setFileChooser
+(
+final
+FileChooser
+fileChooser
+)
+{
+this
+.
+fileChooser
+=
+fileChooser
+;
+}

@@ -1,0 +1,6 @@
+@PropertyGetter(role=ANNOTATION)
+String
+foo
+(
+)
+;

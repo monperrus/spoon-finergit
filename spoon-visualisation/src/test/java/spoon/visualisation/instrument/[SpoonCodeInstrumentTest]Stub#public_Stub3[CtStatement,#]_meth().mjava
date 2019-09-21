@@ -1,0 +1,15 @@
+public
+Stub3
+<
+CtStatement
+,
+?
+>
+meth
+(
+)
+{
+return
+null
+;
+}

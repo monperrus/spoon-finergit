@@ -1,6 +1,6 @@
 @Test
 void
-testExpLevel
+testStatementLevel
 (
 final
 FxRobot
@@ -16,7 +16,7 @@ spoonCode
 .
 write
 (
-"1 < 2"
+"int i;"
 )
 ;
 waitForTimeoutTransitions
@@ -28,13 +28,6 @@ robot
 clickOn
 (
 treeLevel
-)
-.
-type
-(
-KeyCode
-.
-DOWN
 )
 .
 type
@@ -84,6 +77,8 @@ getChildren
 (
 )
 ;
+AssertionsForClassTypes
+.
 assertThat
 (
 ast
@@ -98,6 +93,8 @@ isEqualTo
 1
 )
 ;
+AssertionsForClassTypes
+.
 assertThat
 (
 ast
@@ -140,7 +137,7 @@ getText
 .
 equals
 (
-"CtBinaryOperator"
+"CtLocalVariable"
 )
 )
 )

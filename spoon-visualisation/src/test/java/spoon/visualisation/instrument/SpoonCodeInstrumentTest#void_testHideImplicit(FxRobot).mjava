@@ -37,6 +37,8 @@ getTreeItem
 1
 )
 ;
+AssertionsForClassTypes
+.
 assertThat
 (
 item

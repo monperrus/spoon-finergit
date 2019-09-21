@@ -1,0 +1,37 @@
+/** 
+ * Transforms a qualified name as an unqualified name.
+ * @param qname The qualified name to transform (cannot be null or empty)
+ * @return The computed unqualified name
+ */
+String
+getUnqualifiedClassName
+(
+final
+String
+qname
+)
+{
+final
+String
+[
+]
+parts
+=
+qname
+.
+split
+(
+"\\."
+)
+;
+return
+parts
+[
+parts
+.
+length
+-
+1
+]
+;
+}

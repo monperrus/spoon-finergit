@@ -1,0 +1,33 @@
+/** 
+ * Visits the given Spoon element
+ * @param elt The spoon element to visit.
+ * @param level The depth level.
+ * @param label The title text that corresponds to the given element
+ * @param linesPosition The line positions of the given element
+ */
+public
+abstract
+void
+visitElement
+(
+final
+CtElement
+elt
+,
+final
+int
+level
+,
+final
+@NotNull
+TreeNodeLabel
+label
+,
+final
+List
+<
+Integer
+>
+linesPosition
+)
+;

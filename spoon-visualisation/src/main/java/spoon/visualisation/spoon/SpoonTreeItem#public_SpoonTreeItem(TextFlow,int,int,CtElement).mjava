@@ -17,6 +17,10 @@ startPosition
 final
 int
 endPosition
+,
+final
+CtElement
+elt
 )
 {
 super
@@ -35,5 +39,11 @@ this
 endPosition
 =
 endPosition
+;
+this
+.
+elt
+=
+elt
 ;
 }

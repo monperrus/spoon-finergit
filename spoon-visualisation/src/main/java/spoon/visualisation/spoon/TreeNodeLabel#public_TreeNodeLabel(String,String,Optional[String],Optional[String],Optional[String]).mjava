@@ -1,0 +1,75 @@
+/** 
+ * @param simpleName The simple class name of the Spoon element
+ * @param fullName The qualified name of the Spoon element
+ * @param implicit Text that detail whether the Spoon element is implicit
+ * @param role Text that detail the role of the Spoon element
+ * @param additionals Additional text
+ */
+public
+TreeNodeLabel
+(
+final
+String
+simpleName
+,
+final
+String
+fullName
+,
+final
+Optional
+<
+String
+>
+implicit
+,
+final
+Optional
+<
+String
+>
+role
+,
+final
+Optional
+<
+String
+>
+additionals
+)
+{
+super
+(
+)
+;
+this
+.
+className
+=
+simpleName
+;
+this
+.
+fullName
+=
+fullName
+;
+this
+.
+implicit
+=
+implicit
+;
+this
+.
+role
+=
+role
+;
+this
+.
+additionals
+=
+additionals
+;
+}
