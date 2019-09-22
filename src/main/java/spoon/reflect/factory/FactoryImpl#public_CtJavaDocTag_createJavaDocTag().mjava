@@ -1,0 +1,17 @@
+@Override
+public
+CtJavaDocTag
+createJavaDocTag
+(
+)
+{
+return
+Core
+(
+)
+.
+createJavaDocTag
+(
+)
+;
+}

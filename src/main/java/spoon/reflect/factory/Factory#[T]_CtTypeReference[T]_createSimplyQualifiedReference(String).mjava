@@ -1,0 +1,16 @@
+/** 
+ * @see TypeFactory#createSimplyQualifiedReference(String)
+ */
+<
+T
+>
+CtTypeReference
+<
+T
+>
+createSimplyQualifiedReference
+(
+String
+qualifiedName
+)
+;

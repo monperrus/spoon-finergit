@@ -1,0 +1,17 @@
+@Override
+public
+CtJavaDoc
+createJavaDoc
+(
+)
+{
+return
+Core
+(
+)
+.
+createJavaDoc
+(
+)
+;
+}

@@ -1,0 +1,17 @@
+/** 
+ * @param printTabs if set to true, tabulations will be printed to match the structure of the AST constructed.
+ */
+public
+SpoonifyVisitor
+(
+boolean
+printTabs
+)
+{
+this
+.
+printTabs
+=
+printTabs
+;
+}

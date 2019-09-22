@@ -1,0 +1,14 @@
+/** 
+ * Default constructor for SpoonifyVisitor. Print with tabulations.
+ */
+public
+SpoonifyVisitor
+(
+)
+{
+this
+(
+true
+)
+;
+}

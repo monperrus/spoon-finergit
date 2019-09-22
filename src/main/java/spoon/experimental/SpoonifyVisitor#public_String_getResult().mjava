@@ -1,0 +1,17 @@
+/** 
+ * @return the generated code.Note that this code assume a variable Factory factory is already aessible in the scope.
+ */
+public
+String
+getResult
+(
+)
+{
+return
+result
+.
+toString
+(
+)
+;
+}
