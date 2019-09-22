@@ -3,12 +3,15 @@ protected
 Context
 getScannerContextInformation
 (
-ImportCleanerScanner
-scanner
 )
 {
 return
+(
+(
+ImportCleanerScanner
+)
 scanner
+)
 .
 context
 ;

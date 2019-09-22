@@ -3,12 +3,15 @@ protected
 LexicalScope
 getScannerContextInformation
 (
-LexicalScopeScanner
-scanner
 )
 {
 return
+(
+(
+LexicalScopeScanner
+)
 scanner
+)
 .
 getCurrentLexicalScope
 (

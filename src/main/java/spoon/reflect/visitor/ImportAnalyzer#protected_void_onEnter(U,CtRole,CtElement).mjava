@@ -64,8 +64,6 @@ handleTargetedExpression
 targetedExpression
 ,
 context
-,
-role
 )
 ;
 }

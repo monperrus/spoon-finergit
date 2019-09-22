@@ -6,7 +6,5 @@ abstract
 U
 getScannerContextInformation
 (
-T
-scanner
 )
 ;

@@ -121,6 +121,12 @@ getImports
 ;
 assertEquals
 (
+imports
+.
+toString
+(
+)
+,
 1
 ,
 imports

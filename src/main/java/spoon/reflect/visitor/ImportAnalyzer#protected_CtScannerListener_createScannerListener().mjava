@@ -2,15 +2,12 @@ protected
 CtScannerListener
 createScannerListener
 (
-T
-scanner
 )
 {
 return
 new
 ScannerListener
 (
-scanner
 )
 ;
 }

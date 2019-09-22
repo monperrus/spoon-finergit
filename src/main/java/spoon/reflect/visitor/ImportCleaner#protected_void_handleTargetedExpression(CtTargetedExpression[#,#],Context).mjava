@@ -13,9 +13,6 @@ targetedExpression
 ,
 Context
 context
-,
-CtRole
-role
 )
 {
 if

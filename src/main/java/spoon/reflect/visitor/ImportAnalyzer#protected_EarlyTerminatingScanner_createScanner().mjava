@@ -3,7 +3,7 @@
  */
 protected
 abstract
-T
+EarlyTerminatingScanner
 createScanner
 (
 )
