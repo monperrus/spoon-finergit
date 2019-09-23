@@ -29,6 +29,16 @@ getTarget
 ;
 if
 (
+target
+==
+null
+)
+{
+return
+;
+}
+if
+(
 !
 target
 .
