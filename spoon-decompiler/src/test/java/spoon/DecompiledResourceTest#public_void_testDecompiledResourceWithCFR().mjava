@@ -1,0 +1,15 @@
+@Test
+public
+void
+testDecompiledResourceWithCFR
+(
+)
+throws
+IOException
+{
+testDecompiledResource
+(
+null
+)
+;
+}
