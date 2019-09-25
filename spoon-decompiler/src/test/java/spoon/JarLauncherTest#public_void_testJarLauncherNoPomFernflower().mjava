@@ -1,7 +1,8 @@
+@Ignore
 @Test
 public
 void
-testJarLauncherNoPom
+testJarLauncherNoPomFernflower
 (
 )
 {
@@ -38,6 +39,11 @@ getAbsolutePath
 )
 ,
 null
+,
+new
+FernflowerDecompiler
+(
+)
 )
 ;
 launcher

@@ -1,9 +1,12 @@
-@Test
 public
 void
 testJarLauncher
 (
+Decompiler
+decompiler
 )
+throws
+IOException
 {
 File
 baseDir
@@ -68,6 +71,13 @@ exists
 )
 )
 {
+FileUtils
+.
+deleteDirectory
+(
+pathToDecompiledRoot
+)
+;
 pathToDecompiledRoot
 .
 delete
@@ -116,10 +126,7 @@ getAbsolutePath
 (
 )
 ,
-new
-CFRDecompiler
-(
-)
+decompiler
 )
 ;
 launcher
@@ -150,6 +157,8 @@ getModel
 ;
 assertEquals
 (
+5
+,
 model
 .
 getAllTypes
@@ -159,8 +168,6 @@ getAllTypes
 size
 (
 )
-,
-5
 )
 ;
 CtConstructor

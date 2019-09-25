@@ -1,7 +1,7 @@
 @Test
 public
 void
-testClassFileTransform
+testClassFileTransformWithProcyon
 (
 )
 throws
@@ -19,7 +19,10 @@ IOException
 {
 testClassFileTransform
 (
-null
+new
+ProcyonDecompiler
+(
+)
 )
 ;
 }
