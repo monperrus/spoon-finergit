@@ -119,7 +119,6 @@ getAbsolutePath
 new
 FernflowerDecompiler
 (
-pathToDecompile
 )
 )
 ;
