@@ -107,7 +107,7 @@ expectedPrettyPrinted
 +
 nl
 +
-"    conditions.add(notNull(condition));"
+"    this.conditions.add(notNull(condition));"
 +
 nl
 ;
@@ -129,7 +129,7 @@ expectedDebug
 +
 nl
 +
-"    conditions.add(spoon.test.loop.testclasses.Join.notNull(condition));"
+"    this.conditions.add(spoon.test.loop.testclasses.Join.notNull(condition));"
 +
 nl
 +
