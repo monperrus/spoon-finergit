@@ -16,6 +16,14 @@ getFile
 )
 !=
 null
+&&
+getFile
+(
+)
+.
+exists
+(
+)
 )
 {
 try
