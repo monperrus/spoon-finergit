@@ -224,7 +224,7 @@ getQualifiedName
 ;
 assertEquals
 (
-"spoon.test.imports.testclasses.internal.ChildClass.InnerClassProtected"
+"ChildClass.InnerClassProtected"
 ,
 innerClassProtectedByGetSuperClass
 .

@@ -120,6 +120,13 @@ DefaultImportComparator
 ;
 printer
 .
+setIgnoreImplicit
+(
+false
+)
+;
+printer
+.
 setPreprocessors
 (
 preprocessors

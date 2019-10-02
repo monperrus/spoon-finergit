@@ -131,11 +131,11 @@ isImplicit
 ;
 assertEquals
 (
-"Parent"
+"spoon.test.reference.testclasses.Parent"
 ,
 typeRef
 .
-toStringDebug
+toString
 (
 )
 )
