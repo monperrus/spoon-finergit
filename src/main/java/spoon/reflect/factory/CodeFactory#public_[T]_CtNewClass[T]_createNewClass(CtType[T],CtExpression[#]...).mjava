@@ -97,10 +97,11 @@ SpoonException
 (
 "no appropriate constructor for these parameters "
 +
-parameters
+Arrays
 .
 toString
 (
+parameters
 )
 )
 ;
