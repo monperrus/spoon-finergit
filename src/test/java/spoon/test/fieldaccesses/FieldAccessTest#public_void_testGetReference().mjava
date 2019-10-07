@@ -108,7 +108,7 @@ toString
 ;
 assertEquals
 (
-"spoon.test.fieldaccesses.testclasses.B.finalField"
+"finalField"
 ,
 aClass
 .

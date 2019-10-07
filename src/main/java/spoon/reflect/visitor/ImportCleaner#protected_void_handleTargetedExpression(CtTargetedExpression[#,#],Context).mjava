@@ -313,7 +313,13 @@ throw
 new
 SpoonException
 (
-"TODO"
+"don't know how to handle: "
++
+targetedExpression
+.
+toStringDebug
+(
+)
 )
 ;
 }

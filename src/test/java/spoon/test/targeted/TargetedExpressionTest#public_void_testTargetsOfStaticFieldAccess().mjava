@@ -651,7 +651,7 @@ expectedTypeAccess
 .
 result
 (
-"spoon.test.targeted.testclasses.Foo.p"
+"p"
 )
 ,
 staticElements
