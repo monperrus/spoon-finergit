@@ -1055,8 +1055,6 @@ contents
 0
 ,
 declarationSourceStart
--
-1
 )
 ;
 declarationSourceEnd
@@ -1072,8 +1070,6 @@ length
 1
 ,
 declarationSourceEnd
-+
-1
 )
 ;
 }
