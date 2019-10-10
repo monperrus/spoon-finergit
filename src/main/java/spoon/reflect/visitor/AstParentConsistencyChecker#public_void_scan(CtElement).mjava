@@ -12,6 +12,10 @@ if
 element
 ==
 null
+||
+element
+instanceof
+CtReference
 )
 {
 return
