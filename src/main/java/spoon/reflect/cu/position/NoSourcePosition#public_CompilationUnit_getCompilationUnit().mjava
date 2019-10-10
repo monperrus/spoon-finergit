@@ -6,6 +6,6 @@ getCompilationUnit
 )
 {
 return
-null
+instanceNullCompilationUnit
 ;
 }

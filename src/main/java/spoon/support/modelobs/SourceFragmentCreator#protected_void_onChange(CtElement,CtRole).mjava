@@ -38,9 +38,14 @@ getCompilationUnit
 ;
 if
 (
+!
+(
 cu
-!=
-null
+instanceof
+NoSourcePosition
+.
+NullCompilationUnit
+)
 )
 {
 cu

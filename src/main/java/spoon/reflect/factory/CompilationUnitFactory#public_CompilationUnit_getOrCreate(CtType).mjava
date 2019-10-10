@@ -19,6 +19,8 @@ null
 }
 if
 (
+!
+(
 type
 .
 getPosition
@@ -28,8 +30,11 @@ getPosition
 getCompilationUnit
 (
 )
-!=
-null
+instanceof
+NoSourcePosition
+.
+NullCompilationUnit
+)
 )
 {
 return

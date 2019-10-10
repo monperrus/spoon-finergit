@@ -8,6 +8,8 @@ module
 {
 if
 (
+!
+(
 module
 .
 getPosition
@@ -17,8 +19,11 @@ getPosition
 getCompilationUnit
 (
 )
-!=
-null
+instanceof
+NoSourcePosition
+.
+NullCompilationUnit
+)
 )
 {
 return

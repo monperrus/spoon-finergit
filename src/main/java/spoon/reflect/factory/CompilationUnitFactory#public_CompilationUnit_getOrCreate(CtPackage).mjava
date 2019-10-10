@@ -8,6 +8,8 @@ ctPackage
 {
 if
 (
+!
+(
 ctPackage
 .
 getPosition
@@ -17,8 +19,11 @@ getPosition
 getCompilationUnit
 (
 )
-!=
-null
+instanceof
+NoSourcePosition
+.
+NullCompilationUnit
+)
 )
 {
 return
