@@ -1,3 +1,8 @@
+/** 
+ * clones a Set of elements
+ * @param < T > the Set of elements to be cloned
+ * @return others Set of cloned elements
+ */
 public
 <
 T
