@@ -1,0 +1,22 @@
+/** 
+ * @see CodeFactory#createVariableWrite(CtVariableReference,boolean)
+ */
+<
+T
+>
+CtVariableAccess
+<
+T
+>
+createVariableWrite
+(
+CtVariableReference
+<
+T
+>
+variable
+,
+boolean
+isStatic
+)
+;

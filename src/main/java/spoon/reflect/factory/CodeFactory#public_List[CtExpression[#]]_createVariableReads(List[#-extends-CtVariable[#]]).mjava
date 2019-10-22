@@ -1,5 +1,5 @@
 /** 
- * Creates a list of variable accesses.
+ * Creates a list of variable accesses for read.
  * @param variables the variables to be accessed
  */
 public

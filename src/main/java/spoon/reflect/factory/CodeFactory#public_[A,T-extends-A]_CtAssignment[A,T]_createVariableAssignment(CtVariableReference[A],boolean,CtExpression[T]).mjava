@@ -44,7 +44,7 @@ A
 >
 vaccess
 =
-createVariableRead
+createVariableWrite
 (
 variable
 ,
