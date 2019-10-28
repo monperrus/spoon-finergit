@@ -1,0 +1,9 @@
+/** 
+ * @throws SpoonException 
+ */
+void
+foo
+(
+)
+{
+}
