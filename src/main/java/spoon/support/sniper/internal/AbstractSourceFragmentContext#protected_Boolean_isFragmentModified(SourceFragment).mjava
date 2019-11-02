@@ -116,11 +116,15 @@ sourceFragment
 ;
 if
 (
-modified
-!=
+!
 Boolean
 .
 FALSE
+.
+equals
+(
+modified
+)
 )
 {
 return

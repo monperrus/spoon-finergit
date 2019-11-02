@@ -123,11 +123,14 @@ listContext
 ;
 if
 (
-isFragmentModified
-==
 Boolean
 .
 FALSE
+.
+equals
+(
+isFragmentModified
+)
 )
 {
 mutableTokenWriter
