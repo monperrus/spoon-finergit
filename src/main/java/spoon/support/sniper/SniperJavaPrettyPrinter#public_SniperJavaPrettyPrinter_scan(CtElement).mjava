@@ -1,5 +1,5 @@
 /** 
- * Called whenever  {@link DefaultJavaPrettyPrinter} scans/prints an element
+ * Called whenever  {@link DefaultJavaPrettyPrinter} scans/prints an elementWarning: DO not call on a cloned element. Use scanClone instead.
  */
 @Override
 public
