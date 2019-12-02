@@ -72,7 +72,7 @@ endsWith
 (
 charName
 ,
-TypeConstants
+JDTConstants
 .
 MODULE_INFO_FILE_NAME
 )

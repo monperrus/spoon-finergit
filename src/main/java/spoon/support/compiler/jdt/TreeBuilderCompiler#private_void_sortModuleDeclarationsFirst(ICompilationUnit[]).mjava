@@ -52,7 +52,7 @@ endsWith
 (
 fn1
 ,
-TypeConstants
+JDTConstants
 .
 MODULE_INFO_FILE_NAME
 )
@@ -63,7 +63,7 @@ endsWith
 (
 fn1
 ,
-TypeConstants
+JDTConstants
 .
 MODULE_INFO_CLASS_NAME
 )
@@ -77,7 +77,7 @@ endsWith
 (
 fn2
 ,
-TypeConstants
+JDTConstants
 .
 MODULE_INFO_FILE_NAME
 )
@@ -88,7 +88,7 @@ endsWith
 (
 fn2
 ,
-TypeConstants
+JDTConstants
 .
 MODULE_INFO_CLASS_NAME
 )
