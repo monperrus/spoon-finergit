@@ -19,6 +19,11 @@ getFactory
 (
 )
 ;
+checkIdentiferForJLSCorrectness
+(
+simplename
+)
+;
 if
 (
 factory

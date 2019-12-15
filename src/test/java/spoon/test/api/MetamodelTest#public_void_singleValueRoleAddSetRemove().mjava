@@ -36,7 +36,7 @@ Type
 .
 createReference
 (
-"some.test.package.TestType"
+"some.test.foo.TestType"
 )
 ;
 RoleHandler
@@ -78,7 +78,7 @@ typeRef
 ,
 1
 ,
-"some.test.package"
+"some.test.foo"
 )
 ;
 try
@@ -114,7 +114,7 @@ typeRef
 ,
 1
 ,
-"some.test.package"
+"some.test.foo"
 )
 ;
 try
@@ -149,7 +149,7 @@ typeRef
 ,
 1
 ,
-"some.test.package"
+"some.test.foo"
 )
 ;
 try
@@ -190,7 +190,7 @@ typeRef
 ,
 1
 ,
-"some.test.package"
+"some.test.foo"
 )
 ;
 assertFalse
@@ -220,7 +220,7 @@ typeRef
 ,
 1
 ,
-"some.test.package"
+"some.test.foo"
 )
 ;
 assertFalse
@@ -241,7 +241,7 @@ typeRef
 ,
 1
 ,
-"some.test.package"
+"some.test.foo"
 )
 ;
 assertTrue
@@ -258,7 +258,7 @@ Package
 .
 createReference
 (
-"some.test.package"
+"some.test.foo"
 )
 )
 )
@@ -352,7 +352,7 @@ Package
 .
 createReference
 (
-"some.test.package"
+"some.test.foo"
 )
 )
 )
@@ -365,12 +365,12 @@ typeRef
 ,
 1
 ,
-"some.test.package"
+"some.test.foo"
 )
 ;
 assertEquals
 (
-"some.test.package"
+"some.test.foo"
 ,
 packages
 .

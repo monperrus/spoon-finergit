@@ -253,7 +253,7 @@ Type
 .
 createReference
 (
-"some.ignored.package.TypeName"
+"some.ignored.foo.TypeName"
 )
 )
 .
@@ -300,7 +300,7 @@ toString
 ;
 assertEquals
 (
-"java.lang.System.out.println(some.ignored.package.TypeName.class)"
+"java.lang.System.out.println(some.ignored.foo.TypeName.class)"
 ,
 result
 .

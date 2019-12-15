@@ -38,7 +38,7 @@ isEmpty
 )
 ;
 CtClass
-myNewClass
+myFooClass
 =
 launcher
 .
@@ -48,7 +48,7 @@ getFactory
 .
 createClass
 (
-"my.new.MyClass"
+"my.foo.MyClass"
 )
 ;
 assertEquals
@@ -57,7 +57,7 @@ SourcePosition
 .
 NOPOSITION
 ,
-myNewClass
+myFooClass
 .
 getPosition
 (
@@ -79,7 +79,7 @@ CompilationUnit
 .
 getOrCreate
 (
-myNewClass
+myFooClass
 )
 ;
 assertNotNull
@@ -103,14 +103,14 @@ CompilationUnit
 .
 getOrCreate
 (
-myNewClass
+myFooClass
 )
 )
 ;
 SourcePosition
 sourcePosition
 =
-myNewClass
+myFooClass
 .
 getPosition
 (
@@ -144,7 +144,7 @@ Launcher
 .
 OUTPUTDIR
 ,
-"my/new/MyClass.java"
+"my/foo/MyClass.java"
 )
 ;
 assertEquals

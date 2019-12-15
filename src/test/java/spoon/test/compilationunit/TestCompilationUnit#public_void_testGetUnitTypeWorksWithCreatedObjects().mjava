@@ -15,7 +15,7 @@ Launcher
 )
 ;
 CtPackage
-myPackage
+myFooPackage
 =
 launcher
 .
@@ -29,7 +29,7 @@ Package
 .
 getOrCreate
 (
-"my.package"
+"my.foo"
 )
 ;
 CompilationUnit
@@ -64,7 +64,7 @@ cu
 .
 setDeclaredPackage
 (
-myPackage
+myFooPackage
 )
 ;
 assertEquals

@@ -1,0 +1,17 @@
+private
+boolean
+isKeyword
+(
+String
+simplename
+)
+{
+return
+keywords
+.
+contains
+(
+simplename
+)
+;
+}
