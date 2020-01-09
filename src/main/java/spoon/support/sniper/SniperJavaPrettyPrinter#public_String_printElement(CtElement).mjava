@@ -1,7 +1,5 @@
 /** 
- * SniperPrettyPrinter does not apply preprocessor to a CtElement when calling toString()
- * @param element
- * @return
+ * Prints an element in sniper mode
  */
 @Override
 public
@@ -12,6 +10,11 @@ CtElement
 element
 )
 {
+applyPreProcessors
+(
+element
+)
+;
 if
 (
 element
