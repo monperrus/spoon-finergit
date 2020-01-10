@@ -16,9 +16,9 @@ toLevel
 level
 )
 ;
-logger
+Configurator
 .
-setLevel
+setRootLevel
 (
 this
 .
