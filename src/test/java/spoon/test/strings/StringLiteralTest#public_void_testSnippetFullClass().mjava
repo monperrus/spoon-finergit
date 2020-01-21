@@ -395,7 +395,7 @@ toString
 ;
 assertEquals
 (
-"java.lang.String f2 = \"\\u20ac\";"
+"java.lang.String f2 = \"€\";"
 ,
 f2
 .
@@ -406,7 +406,7 @@ toString
 ;
 assertEquals
 (
-"char c2 = '\\u20ac';"
+"char c2 = '€';"
 ,
 c2
 .
