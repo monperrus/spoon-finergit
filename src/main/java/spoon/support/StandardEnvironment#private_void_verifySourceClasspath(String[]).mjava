@@ -87,21 +87,21 @@ isEmpty
 )
 )
 {
-logger
-.
-warn
+print
 (
 "You're trying to give source code in the classpath, this should be given to "
 +
 "addInputSource "
 +
 javaFiles
+,
+Level
+.
+WARN
 )
 ;
 }
-logger
-.
-warn
+print
 (
 "You specified the directory "
 +
@@ -112,6 +112,10 @@ getPath
 )
 +
 " in source classpath, please note that only class files will be considered. Jars and subdirectories will be ignored."
+,
+Level
+.
+WARN
 )
 ;
 }

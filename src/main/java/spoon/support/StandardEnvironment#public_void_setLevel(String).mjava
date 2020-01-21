@@ -16,13 +16,4 @@ toLevel
 level
 )
 ;
-Configurator
-.
-setRootLevel
-(
-this
-.
-level
-)
-;
 }

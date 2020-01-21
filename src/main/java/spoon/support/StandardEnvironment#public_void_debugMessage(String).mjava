@@ -7,11 +7,13 @@ String
 message
 )
 {
-logger
-.
-debug
+print
 (
 message
+,
+Level
+.
+DEBUG
 )
 ;
 }
