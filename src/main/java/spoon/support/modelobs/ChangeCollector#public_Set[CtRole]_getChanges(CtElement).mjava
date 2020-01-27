@@ -1,6 +1,6 @@
 /** 
+ * Return the set of  {@link CtRole}s for which children have changed from `currentElement` since this  {@link ChangeCollector} was attachedWarning: change in IMPLICIT are ignored
  * @param currentElement the {@link CtElement} whose changes has to be checked
- * @return set of {@link CtRole}s whose attribute was changed on `currentElement` or any child of this attribute was changed since this  {@link ChangeCollector} was attached
  */
 public
 Set
@@ -105,6 +105,21 @@ elementToChangeRole
 containsKey
 (
 element
+)
+&&
+!
+elementToChangeRole
+.
+get
+(
+element
+)
+.
+contains
+(
+CtRole
+.
+IS_IMPLICIT
 )
 )
 {

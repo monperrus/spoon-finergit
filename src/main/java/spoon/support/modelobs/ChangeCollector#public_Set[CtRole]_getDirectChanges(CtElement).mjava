@@ -1,6 +1,6 @@
 /** 
  * @param currentElement the {@link CtElement} whose changes has to be checked
- * @return set of {@link CtRole}s whose attribute was directly changed on `currentElement` since this  {@link ChangeCollector} was attachedThe 'directly' means that value of attribute of `currentElement` was changed. Use  {@link #getChanges(CtElement)} to detect changes in child elements too
+ * @return set of {@link CtRole}s in direct children on of `currentElement` where something has changed since this  {@link ChangeCollector} was attachedThe 'directly' means that value of attribute of `currentElement` was changed. Use  {@link #getChanges(CtElement)} to detect changes in child elements too
  */
 public
 Set
