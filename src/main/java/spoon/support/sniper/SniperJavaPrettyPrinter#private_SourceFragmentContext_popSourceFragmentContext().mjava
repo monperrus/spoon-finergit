@@ -1,0 +1,28 @@
+/** 
+ * makes the two atomic operations together pop+finish to maintain core contracts 
+ */
+private
+SourceFragmentContext
+popSourceFragmentContext
+(
+)
+{
+SourceFragmentContext
+c
+=
+sourceFragmentContextStack
+.
+pop
+(
+)
+;
+c
+.
+onFinished
+(
+)
+;
+return
+c
+;
+}

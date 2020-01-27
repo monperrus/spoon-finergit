@@ -1,0 +1,15 @@
+@Test
+public
+void
+assertOk
+(
+)
+throws
+IOException
+{
+runSniperJavaPrettyPrinter
+(
+"spoon/test/prettyprinter/testclasses/asserttest/AssertOk.java"
+)
+;
+}

@@ -1,3 +1,6 @@
+/** 
+ * creates a position for a given element with the information of ASTNode 
+ */
 SourcePosition
 buildPositionCtElement
 (
@@ -2123,6 +2126,40 @@ sourceEnd
 )
 ;
 }
+}
+else
+if
+(
+(
+node
+instanceof
+AssertStatement
+)
+)
+{
+AssertStatement
+assert_
+=
+(
+AssertStatement
+)
+node
+;
+sourceEnd
+=
+findNextChar
+(
+contents
+,
+contents
+.
+length
+,
+sourceEnd
+,
+';'
+)
+;
 }
 if
 (

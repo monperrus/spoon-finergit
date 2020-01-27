@@ -1,0 +1,8 @@
+/** 
+ * called when pushed on the stack
+ */
+void
+onPush
+(
+)
+;

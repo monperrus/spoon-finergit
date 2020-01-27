@@ -116,7 +116,7 @@ element
 (
 )
 ->
-onPrintEvent
+executePrintEvent
 (
 new
 ElementPrinterEvent
@@ -131,7 +131,7 @@ public
 void
 print
 (
-Boolean
+boolean
 muted
 )
 {

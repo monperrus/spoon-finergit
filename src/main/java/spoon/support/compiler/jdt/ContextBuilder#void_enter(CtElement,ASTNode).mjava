@@ -111,23 +111,6 @@ SourcePosition
 NOPOSITION
 )
 ;
-Launcher
-.
-LOGGER
-.
-warn
-(
-"PositionBuilder failed for element "
-+
-e
-.
-toString
-(
-)
-,
-ex
-)
-;
 }
 }
 }

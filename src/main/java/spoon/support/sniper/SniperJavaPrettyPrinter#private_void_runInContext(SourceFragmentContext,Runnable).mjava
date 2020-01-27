@@ -14,9 +14,7 @@ Runnable
 code
 )
 {
-sourceFragmentContextStack
-.
-push
+pushContext
 (
 context
 )
@@ -57,15 +55,7 @@ SpoonException
 SourceFragmentContext
 c
 =
-sourceFragmentContextStack
-.
-pop
-(
-)
-;
-c
-.
-onFinished
+popSourceFragmentContext
 (
 )
 ;

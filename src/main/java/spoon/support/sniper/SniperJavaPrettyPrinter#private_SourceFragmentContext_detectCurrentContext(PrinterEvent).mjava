@@ -38,15 +38,9 @@ event
 false
 )
 {
-sourceFragmentContextStack
-.
-pop
-(
-)
-;
 sfc
-.
-onFinished
+=
+popSourceFragmentContext
 (
 )
 ;

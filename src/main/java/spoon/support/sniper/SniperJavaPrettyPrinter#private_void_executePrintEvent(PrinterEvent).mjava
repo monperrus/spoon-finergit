@@ -3,7 +3,7 @@
  */
 private
 void
-onPrintEvent
+executePrintEvent
 (
 PrinterEvent
 event
@@ -45,7 +45,7 @@ event
 .
 print
 (
-null
+true
 )
 ;
 return

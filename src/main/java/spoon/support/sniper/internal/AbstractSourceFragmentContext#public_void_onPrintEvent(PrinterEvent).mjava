@@ -39,7 +39,7 @@ event
 .
 print
 (
-null
+false
 )
 ;
 return
