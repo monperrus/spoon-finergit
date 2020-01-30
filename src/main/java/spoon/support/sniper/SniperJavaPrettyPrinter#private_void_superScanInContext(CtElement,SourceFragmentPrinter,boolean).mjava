@@ -11,7 +11,7 @@ superScanInContext
 CtElement
 element
 ,
-SourceFragmentContext
+SourceFragmentPrinter
 context
 ,
 boolean

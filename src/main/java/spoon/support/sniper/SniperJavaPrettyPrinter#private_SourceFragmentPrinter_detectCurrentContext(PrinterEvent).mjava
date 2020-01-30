@@ -4,14 +4,14 @@
  * @return context which can be used to process `event`
  */
 private
-SourceFragmentContext
+SourceFragmentPrinter
 detectCurrentContext
 (
 PrinterEvent
 event
 )
 {
-SourceFragmentContext
+SourceFragmentPrinter
 sfc
 ;
 while
@@ -30,7 +30,7 @@ null
 &&
 sfc
 .
-matchesPrinterEvent
+knowsHowToPrint
 (
 event
 )

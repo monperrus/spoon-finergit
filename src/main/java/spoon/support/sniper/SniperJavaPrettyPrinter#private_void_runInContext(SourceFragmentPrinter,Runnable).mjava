@@ -7,7 +7,7 @@ private
 void
 runInContext
 (
-SourceFragmentContext
+SourceFragmentPrinter
 context
 ,
 Runnable
@@ -52,7 +52,7 @@ SpoonException
 )
 ;
 }
-SourceFragmentContext
+SourceFragmentPrinter
 c
 =
 popSourceFragmentContext

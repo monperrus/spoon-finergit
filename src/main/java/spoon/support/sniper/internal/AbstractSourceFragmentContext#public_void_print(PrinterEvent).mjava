@@ -1,7 +1,7 @@
 @Override
 public
 void
-onPrintEvent
+print
 (
 PrinterEvent
 event

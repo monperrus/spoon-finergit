@@ -3,7 +3,7 @@
  * @param event the {@link DefaultJavaPrettyPrinter} event
  */
 void
-onPrintEvent
+print
 (
 PrinterEvent
 event

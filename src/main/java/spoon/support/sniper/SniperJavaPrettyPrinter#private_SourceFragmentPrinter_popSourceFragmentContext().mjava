@@ -2,12 +2,12 @@
  * makes the two atomic operations together pop+finish to maintain core contracts 
  */
 private
-SourceFragmentContext
+SourceFragmentPrinter
 popSourceFragmentContext
 (
 )
 {
-SourceFragmentContext
+SourceFragmentPrinter
 c
 =
 sourceFragmentContextStack

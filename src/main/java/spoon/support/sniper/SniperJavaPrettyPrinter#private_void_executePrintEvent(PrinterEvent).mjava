@@ -9,7 +9,7 @@ PrinterEvent
 event
 )
 {
-SourceFragmentContext
+SourceFragmentPrinter
 sfc
 =
 detectCurrentContext
@@ -53,7 +53,7 @@ return
 }
 sfc
 .
-onPrintEvent
+print
 (
 event
 )

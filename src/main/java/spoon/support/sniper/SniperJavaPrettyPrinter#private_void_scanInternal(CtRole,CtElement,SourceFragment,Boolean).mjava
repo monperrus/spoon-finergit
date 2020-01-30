@@ -61,7 +61,7 @@ instanceof
 CollectionSourceFragment
 )
 {
-SourceFragmentContext
+SourceFragmentPrinter
 listContext
 =
 getCollectionContext
