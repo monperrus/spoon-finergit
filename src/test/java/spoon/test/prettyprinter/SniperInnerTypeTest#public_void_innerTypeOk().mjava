@@ -1,0 +1,15 @@
+@Test
+public
+void
+innerTypeOk
+(
+)
+throws
+IOException
+{
+runSniperJavaPrettyPrinter
+(
+"spoon/test/prettyprinter/testclasses/innertype/InnerTypeOk.java"
+)
+;
+}
