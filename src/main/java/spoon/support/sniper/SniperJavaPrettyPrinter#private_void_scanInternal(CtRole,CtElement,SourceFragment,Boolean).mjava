@@ -1,5 +1,5 @@
 /** 
- * scans the `element` which exist on `role` in it's parent
+ * scans the `element` which exist on `role` in its parent
  * @param role {@link CtRole} of `element` in scope of it's parent
  * @param element a scanned element
  * @param fragment origin source fragment of element
