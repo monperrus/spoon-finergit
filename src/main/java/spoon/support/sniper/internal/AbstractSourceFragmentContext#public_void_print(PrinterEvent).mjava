@@ -39,7 +39,6 @@ event
 .
 print
 (
-false
 )
 ;
 return
@@ -69,7 +68,6 @@ event
 .
 print
 (
-false
 )
 )
 ;
@@ -102,7 +100,6 @@ event
 .
 print
 (
-false
 )
 ;
 return

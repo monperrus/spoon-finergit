@@ -189,17 +189,6 @@ getSourceCode
 )
 )
 ;
-superScanInContext
-(
-element
-,
-SourceFragmentContextPrettyPrint
-.
-INSTANCE
-,
-true
-)
-;
 return
 ;
 }
@@ -236,8 +225,6 @@ sourceFragment
 ,
 changeResolver
 )
-,
-false
 )
 ;
 }

@@ -3,7 +3,7 @@
  */
 private
 void
-executePrintEvent
+executePrintEventInContext
 (
 PrinterEvent
 event
@@ -41,13 +41,6 @@ isMuted
 )
 )
 {
-event
-.
-print
-(
-true
-)
-;
 return
 ;
 }
