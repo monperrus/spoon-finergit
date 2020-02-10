@@ -16,7 +16,7 @@ name
 +
 element
 .
-toString
+toStringDebug
 (
 )
 ;
