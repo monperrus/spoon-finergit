@@ -1,0 +1,15 @@
+@Test
+public
+void
+DoubleForInitializerTest
+(
+)
+throws
+IOException
+{
+runSniperJavaPrettyPrinter
+(
+"spoon/test/prettyprinter/testclasses/DoubleForInitializer.java"
+)
+;
+}
