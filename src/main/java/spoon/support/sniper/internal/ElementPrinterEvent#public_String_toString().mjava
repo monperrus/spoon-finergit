@@ -5,6 +5,17 @@ toString
 (
 )
 {
+if
+(
+role
+!=
+null
+&&
+element
+!=
+null
+)
+{
 return
 role
 .
@@ -19,5 +30,9 @@ element
 toStringDebug
 (
 )
+;
+}
+return
+"illformed ElementPrinterEvent"
 ;
 }

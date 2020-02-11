@@ -1,3 +1,6 @@
+/** 
+ * Returns the token type 
+ */
 public
 TokenType
 getType

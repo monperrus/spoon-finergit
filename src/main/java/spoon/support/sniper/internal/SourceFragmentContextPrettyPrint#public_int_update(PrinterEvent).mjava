@@ -1,11 +1,14 @@
 @Override
 public
-boolean
-isWhitespace
+int
+update
 (
+PrinterEvent
+event
 )
 {
 return
-false
+-
+1
 ;
 }

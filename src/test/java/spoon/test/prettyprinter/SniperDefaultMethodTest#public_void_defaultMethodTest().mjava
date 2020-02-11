@@ -1,0 +1,15 @@
+@Test
+public
+void
+defaultMethodTest
+(
+)
+throws
+IOException
+{
+runSniperJavaPrettyPrinter
+(
+"spoon/test/prettyprinter/testclasses/DefaultMethod.java"
+)
+;
+}

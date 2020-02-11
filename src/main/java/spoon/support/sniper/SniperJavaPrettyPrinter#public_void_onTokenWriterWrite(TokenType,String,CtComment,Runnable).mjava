@@ -102,6 +102,13 @@ fragment
 isModified
 )
 ;
+listContext
+.
+update
+(
+this
+)
+;
 pushContext
 (
 listContext

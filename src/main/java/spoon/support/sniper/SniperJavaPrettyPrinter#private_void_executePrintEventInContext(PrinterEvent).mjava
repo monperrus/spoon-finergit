@@ -41,6 +41,13 @@ isMuted
 )
 )
 {
+sfc
+.
+update
+(
+event
+)
+;
 return
 ;
 }

@@ -98,7 +98,7 @@ IDENTIFIER
 return
 findIndexOfNextChildTokenByValue
 (
-event
+tpe
 .
 getToken
 (

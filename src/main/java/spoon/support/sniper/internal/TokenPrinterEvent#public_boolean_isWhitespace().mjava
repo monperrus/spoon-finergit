@@ -1,4 +1,6 @@
-@Override
+/** 
+ * @return true if printing white space token. It means New line, space or TAB. 
+ */
 public
 boolean
 isWhitespace

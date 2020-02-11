@@ -1,4 +1,6 @@
-@Override
+/** 
+ * @return printed token or null if printing complex element or comment 
+ */
 public
 String
 getToken

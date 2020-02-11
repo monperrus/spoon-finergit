@@ -1,0 +1,10 @@
+public
+TokenType
+getTokenType
+(
+)
+{
+return
+type
+;
+}
