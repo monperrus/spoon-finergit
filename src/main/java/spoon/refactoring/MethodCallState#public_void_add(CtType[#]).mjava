@@ -1,0 +1,24 @@
+/** 
+ * Adds a CtType to the fields invoking this method. Adding the same CtType again doesn't change the state.
+ * @param type invoking the method with an initializer.
+ * @see java.util.Collection#add(java.lang.Object)
+ */
+public
+void
+add
+(
+CtType
+<
+?
+>
+type
+)
+{
+callerFields
+.
+add
+(
+type
+)
+;
+}

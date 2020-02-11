@@ -1,0 +1,12 @@
+@Deprecated
+public
+void
+test3
+(
+)
+{
+test3
+(
+)
+;
+}

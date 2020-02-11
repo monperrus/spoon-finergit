@@ -1,0 +1,20 @@
+/** 
+ * Returns a collection containing all CtExecutable invoking the method. Even if a CtExecutable invokes multiple times the method, the CtExecutable is only present once. Returns the collection and not a copy. Changes to collection are directly backed in the state.
+ * @return Collection containing all CtExecutable invoking the method.
+ */
+public
+Collection
+<
+CtExecutable
+<
+?
+>
+>
+getCallerMethods
+(
+)
+{
+return
+callerMethods
+;
+}

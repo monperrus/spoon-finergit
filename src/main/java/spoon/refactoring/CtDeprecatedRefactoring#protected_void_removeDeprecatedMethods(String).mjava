@@ -1,0 +1,16 @@
+protected
+void
+removeDeprecatedMethods
+(
+String
+path
+)
+{
+removeDeprecatedMethods
+(
+path
+,
+path
+)
+;
+}

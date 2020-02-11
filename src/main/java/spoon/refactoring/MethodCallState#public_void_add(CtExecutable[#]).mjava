@@ -1,0 +1,24 @@
+/** 
+ * Adds a CtExecutable to the methods invoking this method. Adding the same method again doesn't change the state.
+ * @param method invoking the method.
+ * @see java.util.Collection#add(java.lang.Object)
+ */
+public
+void
+add
+(
+CtExecutable
+<
+?
+>
+method
+)
+{
+callerMethods
+.
+add
+(
+method
+)
+;
+}

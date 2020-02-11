@@ -1,0 +1,17 @@
+/** 
+ * Getter for the method, without saved call state. Returns the CtExecutable and not a copy.
+ * @return method without saved call state.
+ */
+public
+CtExecutable
+<
+?
+>
+getMethod
+(
+)
+{
+return
+method
+;
+}

@@ -1,0 +1,11 @@
+@Deprecated
+public
+boolean
+test2
+(
+)
+{
+return
+true
+;
+}

@@ -1,0 +1,20 @@
+/** 
+ * Returns a collection containing all types invoking the method with a field. Even if a CtType invokes multiple times with different fields the method, the type is only present once. Returns the collection and not a copy. Changes to collection are directly backed in the state.
+ * @return Collection containing all types invoking the method with a field.
+ */
+public
+Collection
+<
+CtType
+<
+?
+>
+>
+getCallerFields
+(
+)
+{
+return
+callerFields
+;
+}

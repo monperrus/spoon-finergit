@@ -1,0 +1,9 @@
+@Deprecated
+public
+Foo
+(
+String
+s
+)
+{
+}

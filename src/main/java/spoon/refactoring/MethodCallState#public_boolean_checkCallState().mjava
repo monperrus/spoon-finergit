@@ -1,0 +1,25 @@
+/** 
+ * Checks the call state for the method.
+ * @return True if the method has no known call, false otherwise.
+ * @see java.util.Collection#isEmpty()
+ */
+public
+boolean
+checkCallState
+(
+)
+{
+return
+callerMethods
+.
+isEmpty
+(
+)
+&&
+callerFields
+.
+isEmpty
+(
+)
+;
+}
