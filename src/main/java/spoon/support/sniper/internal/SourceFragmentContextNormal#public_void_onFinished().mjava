@@ -5,17 +5,6 @@ onFinished
 (
 )
 {
-if
-(
-mutableTokenWriter
-.
-isMuted
-(
-)
-==
-false
-)
-{
 printSpaces
 (
 childFragments
@@ -25,5 +14,4 @@ size
 )
 )
 ;
-}
 }
