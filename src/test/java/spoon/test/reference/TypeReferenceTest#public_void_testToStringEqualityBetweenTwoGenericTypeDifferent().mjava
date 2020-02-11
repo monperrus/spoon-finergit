@@ -26,8 +26,6 @@ String
 "--output-type"
 ,
 "nooutput"
-,
-"--noclasspath"
 }
 )
 ;

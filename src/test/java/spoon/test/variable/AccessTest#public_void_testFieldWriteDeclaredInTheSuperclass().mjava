@@ -31,8 +31,6 @@ String
 ,
 "target/spooned/variable"
 ,
-"--noclasspath"
-,
 "--compliance"
 ,
 "8"

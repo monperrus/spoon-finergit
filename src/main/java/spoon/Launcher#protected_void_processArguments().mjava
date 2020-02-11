@@ -79,38 +79,6 @@ FULLYQUALIFIED
 )
 ;
 }
-if
-(
-jsapActualArgs
-.
-getBoolean
-(
-"noclasspath"
-)
-)
-{
-Launcher
-.
-LOGGER
-.
-warn
-(
-"The usage of --noclasspath argument is now deprecated: noclasspath is now the default behaviour."
-)
-;
-}
-else
-{
-Launcher
-.
-LOGGER
-.
-warn
-(
-"Spoon is now using the 'no classpath mode' by default. If you want to ensure using Spoon in full classpath mode, please use the new flag: --cpmode fullclasspath."
-)
-;
-}
 String
 cpmode
 =
@@ -123,6 +91,19 @@ getString
 .
 toUpperCase
 (
+)
+;
+Launcher
+.
+LOGGER
+.
+info
+(
+"Running in "
++
+cpmode
++
+" mode (doc: http://spoon.gforge.inria.fr/launcher.html)."
 )
 ;
 CLASSPATH_MODE
@@ -214,38 +195,6 @@ getBoolean
 )
 )
 ;
-if
-(
-jsapActualArgs
-.
-getBoolean
-(
-"enable-comments"
-)
-)
-{
-Launcher
-.
-LOGGER
-.
-warn
-(
-"The option --enable-comments (-c) is deprecated as it is now the default behaviour in Spoon."
-)
-;
-}
-else
-{
-Launcher
-.
-LOGGER
-.
-warn
-(
-"Spoon now parses by default the comments. Consider using the option --disable-comments if you want the old behaviour."
-)
-;
-}
 if
 (
 jsapActualArgs

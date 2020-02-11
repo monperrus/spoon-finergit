@@ -30,8 +30,6 @@ String
 "-o"
 ,
 "./target/spooned"
-,
-"--noclasspath"
 }
 )
 ;

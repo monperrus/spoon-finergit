@@ -44,8 +44,6 @@ String
 "-f"
 ,
 "spoon.Launcher:spoon.template.AbstractTemplate"
-,
-"--noclasspath"
 }
 )
 ;

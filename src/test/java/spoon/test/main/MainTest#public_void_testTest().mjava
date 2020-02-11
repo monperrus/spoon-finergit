@@ -30,8 +30,6 @@ String
 ,
 "target/spooned"
 ,
-"--noclasspath"
-,
 "--disable-comments"
 ,
 "--compliance"

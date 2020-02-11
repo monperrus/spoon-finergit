@@ -22,8 +22,6 @@ String
 [
 ]
 {
-"--noclasspath"
-,
 "-i"
 ,
 "src/test/resources/compilation/"
@@ -107,8 +105,6 @@ String
 ]
 {
 "--precompile"
-,
-"--noclasspath"
 ,
 "-i"
 ,
@@ -198,8 +194,6 @@ String
 ]
 {
 "--precompile"
-,
-"--noclasspath"
 ,
 "-i"
 ,
