@@ -1,0 +1,15 @@
+@Test
+public
+void
+doubleBoundTest
+(
+)
+throws
+IOException
+{
+runSniperJavaPrettyPrinter
+(
+"spoon/test/prettyprinter/testclasses/DoubleBound.java"
+)
+;
+}
