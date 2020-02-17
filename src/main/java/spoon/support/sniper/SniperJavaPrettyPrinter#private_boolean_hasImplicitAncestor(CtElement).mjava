@@ -12,6 +12,13 @@ if
 el
 ==
 null
+||
+!
+el
+.
+isParentInitialized
+(
+)
 )
 {
 return
