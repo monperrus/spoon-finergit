@@ -82,7 +82,7 @@ return
 int
 fragmentIndex
 =
-findIndexOfNextChildTokenOfEvent
+findIFragmentIndexCorrespondingToEvent
 (
 event
 )

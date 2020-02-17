@@ -1,7 +1,7 @@
 @Override
 protected
 int
-findIndexOfNextChildTokenOfEvent
+findIFragmentIndexCorrespondingToEvent
 (
 PrinterEvent
 event
@@ -36,7 +36,7 @@ getElement
 return
 super
 .
-findIndexOfNextChildTokenOfEvent
+findIFragmentIndexCorrespondingToEvent
 (
 event
 )

@@ -1,5 +1,5 @@
 protected
-AbstractSourceFragmentContext
+AbstractSourceFragmentPrinter
 (
 MutableTokenWriter
 mutableTokenWriter

@@ -1,11 +1,11 @@
 /** 
- * looks for next child token, which fits to  {@link PrinterEvent} `event`
+ * Looks for the child token which fits to  {@link PrinterEvent} `event`
  * @param event {@link PrinterEvent} whose token it searches for
  * @return index of first token which fits to {@link PrinterEvent} or -1 if not found
  */
 protected
 int
-findIndexOfNextChildTokenOfEvent
+findIFragmentIndexCorrespondingToEvent
 (
 PrinterEvent
 event

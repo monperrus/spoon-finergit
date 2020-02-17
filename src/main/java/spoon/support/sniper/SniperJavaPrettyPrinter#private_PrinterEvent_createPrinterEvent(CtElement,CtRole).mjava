@@ -29,7 +29,7 @@ superScanInContext
 (
 element
 ,
-SourceFragmentContextPrettyPrint
+DefaultSourceFragmentPrinter
 .
 INSTANCE
 )
