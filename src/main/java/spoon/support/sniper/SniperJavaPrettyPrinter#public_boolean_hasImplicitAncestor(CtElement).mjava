@@ -1,4 +1,7 @@
-private
+/** 
+ * Warning, not in the API, public for testing purposes 
+ */
+public
 static
 boolean
 hasImplicitAncestor
