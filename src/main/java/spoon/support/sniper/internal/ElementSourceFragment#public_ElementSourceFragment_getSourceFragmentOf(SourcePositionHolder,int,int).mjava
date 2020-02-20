@@ -120,7 +120,7 @@ SpoonException
 +
 element
 .
-getClass
+toString
 (
 )
 +
@@ -130,7 +130,7 @@ getElement
 (
 )
 .
-getClass
+toString
 (
 )
 )

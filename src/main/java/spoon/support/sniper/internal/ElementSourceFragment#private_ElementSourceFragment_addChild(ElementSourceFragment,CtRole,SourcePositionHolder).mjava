@@ -160,6 +160,35 @@ return
 otherFragment
 ;
 }
+throw
+new
+SpoonException
+(
+"otherFragment ("
++
+otherElement
+.
+getPosition
+(
+)
++
+") "
++
+cmp
+.
+toString
+(
+)
++
+" of "
++
+parentFragment
+.
+getSourcePosition
+(
+)
+)
+;
 }
 throw
 new
@@ -171,7 +200,11 @@ parentFragment
 +
 "\notherFragment: "
 +
-otherFragment
+otherElement
+.
+getPosition
+(
+)
 )
 ;
 }
