@@ -1,0 +1,12 @@
+/** 
+ * Use computeImports or computeAllImports before getting the different imports.
+ * @return the list of computed imports or an empty collection if not imports has been computed.
+ */
+Set
+<
+CtImport
+>
+getAllImports
+(
+)
+;
