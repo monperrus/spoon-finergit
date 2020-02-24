@@ -12,6 +12,11 @@ E
 e
 )
 {
+scanCtAbstractSwitch
+(
+e
+)
+;
 scanCtStatement
 (
 e

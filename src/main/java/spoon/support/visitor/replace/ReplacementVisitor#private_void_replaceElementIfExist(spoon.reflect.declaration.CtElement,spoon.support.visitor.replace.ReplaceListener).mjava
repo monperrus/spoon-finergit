@@ -27,9 +27,7 @@ if
 (
 candidate
 ==
-(
 original
-)
 )
 {
 spoon
@@ -45,22 +43,18 @@ null
 ;
 if
 (
-(
 replace
 .
 length
-)
 >
 0
 )
 {
 if
 (
-(
 replace
 .
 length
-)
 >
 1
 )
@@ -77,10 +71,8 @@ replace
 .
 InvalidReplaceException
 (
-(
 "Cannot replace single value by multiple values in "
 +
-(
 listener
 .
 getClass
@@ -89,8 +81,6 @@ getClass
 .
 getSimpleName
 (
-)
-)
 )
 )
 ;

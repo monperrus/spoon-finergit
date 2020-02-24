@@ -1,0 +1,19 @@
+/** 
+ * Sets the kind of this case - colon (:) or arrow (-&gt;) (Arrow syntax is available as a preview feature since Java 12)
+ */
+@PropertySetter(role=CASE_KIND)
+<
+T
+extends
+CtCase
+<
+S
+>
+>
+T
+setCaseKind
+(
+CaseKind
+kind
+)
+;

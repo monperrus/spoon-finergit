@@ -1,0 +1,15 @@
+/** 
+ * Gets the case expressions. (Multiple case expressions are available as a preview feature since Java 12)
+ */
+@PropertyGetter(role=EXPRESSION)
+List
+<
+CtExpression
+<
+S
+>
+>
+getCaseExpressions
+(
+)
+;

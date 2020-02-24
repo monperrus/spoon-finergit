@@ -39,7 +39,7 @@ EXPRESSION
 ,
 caseStatement
 .
-getCaseExpression
+getCaseExpressions
 (
 )
 )

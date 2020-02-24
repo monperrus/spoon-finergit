@@ -1,0 +1,8 @@
+/** 
+ * Returns true if preview language features are enabled.
+ */
+boolean
+isPreviewFeaturesEnabled
+(
+)
+;

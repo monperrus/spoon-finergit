@@ -74,9 +74,7 @@ if
 (
 element
 ==
-(
 original
-)
 )
 {
 shouldBeDeleted

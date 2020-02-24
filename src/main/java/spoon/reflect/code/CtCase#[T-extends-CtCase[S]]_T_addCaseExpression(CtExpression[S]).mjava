@@ -1,0 +1,22 @@
+/** 
+ * Adds case expression. (Multiple case expressions are available as a preview feature since Java 12)
+ */
+@PropertySetter(role=EXPRESSION)
+<
+T
+extends
+CtCase
+<
+S
+>
+>
+T
+addCaseExpression
+(
+CtExpression
+<
+S
+>
+caseExpression
+)
+;

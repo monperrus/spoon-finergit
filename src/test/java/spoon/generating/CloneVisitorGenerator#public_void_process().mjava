@@ -1323,6 +1323,10 @@ asList
 ,
 "spoon.support.reflect.code.CtAbstractInvocationImpl"
 ,
+"spoon.support.reflect.declaration.CtTypeInformationImpl"
+,
+"spoon.support.reflect.code.CtAbstractSwitchImpl"
+,
 "spoon.support.reflect.declaration.CtTypedElementImpl"
 ,
 "spoon.support.reflect.declaration.CtVariableImpl"

@@ -1,0 +1,18 @@
+/** 
+ * @see CoreFactory#createSwitchExpression()
+ */
+<
+T
+,
+S
+>
+CtSwitchExpression
+<
+T
+,
+S
+>
+createSwitchExpression
+(
+)
+;

@@ -1,0 +1,11 @@
+@Override
+public
+CaseKind
+getCaseKind
+(
+)
+{
+return
+caseKind
+;
+}

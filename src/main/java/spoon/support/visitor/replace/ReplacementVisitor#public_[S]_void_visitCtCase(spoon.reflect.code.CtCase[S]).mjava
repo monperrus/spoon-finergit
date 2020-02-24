@@ -45,11 +45,11 @@ caseStatement
 )
 )
 ;
-replaceElementIfExist
+replaceInListIfExist
 (
 caseStatement
 .
-getCaseExpression
+getCaseExpressions
 (
 )
 ,
@@ -64,7 +64,7 @@ replace
 .
 ReplacementVisitor
 .
-CtCaseCaseExpressionReplaceListener
+CtCaseCaseExpressionsReplaceListener
 (
 caseStatement
 )

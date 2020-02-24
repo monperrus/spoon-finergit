@@ -3,7 +3,7 @@ public
 <
 T
 extends
-CtSwitch
+CtAbstractSwitch
 <
 S
 >

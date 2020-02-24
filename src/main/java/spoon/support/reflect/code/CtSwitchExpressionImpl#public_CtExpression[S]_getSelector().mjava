@@ -1,0 +1,14 @@
+@Override
+public
+CtExpression
+<
+S
+>
+getSelector
+(
+)
+{
+return
+expression
+;
+}

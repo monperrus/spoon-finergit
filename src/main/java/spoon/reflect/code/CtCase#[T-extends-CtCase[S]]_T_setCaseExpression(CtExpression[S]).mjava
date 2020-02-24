@@ -1,5 +1,5 @@
 /** 
- * Sets the case expression.
+ * Sets the case expression. Use  {@link #setCaseExpressions(List)} since Java 12
  */
 @PropertySetter(role=EXPRESSION)
 <

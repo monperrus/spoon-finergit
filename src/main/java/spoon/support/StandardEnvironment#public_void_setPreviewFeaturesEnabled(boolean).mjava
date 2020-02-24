@@ -1,0 +1,16 @@
+@Override
+public
+void
+setPreviewFeaturesEnabled
+(
+boolean
+previewFeaturesEnabled
+)
+{
+this
+.
+previewFeaturesEnabled
+=
+previewFeaturesEnabled
+;
+}

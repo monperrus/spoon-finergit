@@ -93,13 +93,13 @@ EXPRESSION
 ,
 caseStatement
 .
-getCaseExpression
+getCaseExpressions
 (
 )
 ,
 other
 .
-getCaseExpression
+getCaseExpressions
 (
 )
 )

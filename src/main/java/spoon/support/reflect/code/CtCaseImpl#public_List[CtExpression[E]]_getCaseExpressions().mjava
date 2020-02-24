@@ -1,0 +1,17 @@
+@Override
+public
+List
+<
+CtExpression
+<
+E
+>
+>
+getCaseExpressions
+(
+)
+{
+return
+caseExpressions
+;
+}

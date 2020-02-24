@@ -1,5 +1,5 @@
 /** 
- * Gets the case expression.
+ * Gets the case expression. Use  {@link #getCaseExpressions()} since Java 12
  */
 @PropertyGetter(role=EXPRESSION)
 CtExpression

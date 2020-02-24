@@ -1,0 +1,18 @@
+/** 
+ * Creates a <code>switch</code> expression.
+ */
+<
+T
+,
+S
+>
+CtSwitchExpression
+<
+T
+,
+S
+>
+createSwitchExpression
+(
+)
+;

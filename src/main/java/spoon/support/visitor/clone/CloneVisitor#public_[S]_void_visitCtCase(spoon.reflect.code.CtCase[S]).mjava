@@ -76,7 +76,7 @@ getAnnotations
 ;
 aCtCase
 .
-setCaseExpression
+setCaseExpressions
 (
 this
 .
@@ -86,7 +86,7 @@ clone
 (
 caseStatement
 .
-getCaseExpression
+getCaseExpressions
 (
 )
 )

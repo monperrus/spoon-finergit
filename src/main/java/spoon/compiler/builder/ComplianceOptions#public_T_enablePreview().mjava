@@ -1,0 +1,17 @@
+public
+T
+enablePreview
+(
+)
+{
+args
+.
+add
+(
+"--enable-preview"
+)
+;
+return
+myself
+;
+}

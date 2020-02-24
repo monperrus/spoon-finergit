@@ -64,7 +64,7 @@ replace
 .
 ReplacementVisitor
 .
-CtSwitchSelectorReplaceListener
+CtAbstractSwitchSelectorReplaceListener
 (
 switchStatement
 )
@@ -89,7 +89,7 @@ replace
 .
 ReplacementVisitor
 .
-CtSwitchCasesReplaceListener
+CtAbstractSwitchCasesReplaceListener
 (
 switchStatement
 )
