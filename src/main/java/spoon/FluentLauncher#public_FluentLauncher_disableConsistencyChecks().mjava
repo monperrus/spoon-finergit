@@ -1,0 +1,24 @@
+/** 
+ * Disable all consistency checks on the AST. Dangerous! The only valid usage of this is to keep full backward-compatibility.
+ * @return the launcher after setting the option.
+ */
+public
+FluentLauncher
+disableConsistencyChecks
+(
+)
+{
+launcher
+.
+getEnvironment
+(
+)
+.
+disableConsistencyChecks
+(
+)
+;
+return
+this
+;
+}

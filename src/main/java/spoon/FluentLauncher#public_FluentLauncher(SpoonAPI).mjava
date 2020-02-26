@@ -1,0 +1,18 @@
+/** 
+ * Creates a new FluentLauncher, wrapping the given launcher. This constructor allows using different launchers eg.  {@link MavenLauncher} with fluent api.After setting options, call  {@link #buildModel()} for creating the CtModelwith given settings.
+ * @param launcher used for delegating methods.
+ */
+public
+FluentLauncher
+(
+SpoonAPI
+launcher
+)
+{
+this
+.
+launcher
+=
+launcher
+;
+}

@@ -1,0 +1,18 @@
+/** 
+ * Creates a new FluentLauncher, wrapping default  {@link Launcher}. After setting options, call  {@link #buildModel()} for creating the CtModel withgiven settings.
+ */
+public
+FluentLauncher
+(
+)
+{
+this
+.
+launcher
+=
+new
+Launcher
+(
+)
+;
+}

@@ -1,0 +1,23 @@
+/** 
+ * Sets the output directory for source generated.
+ * @param outputDirectory {@link File} for output directory.
+ */
+public
+FluentLauncher
+outputDirectory
+(
+File
+outputDirectory
+)
+{
+launcher
+.
+setSourceOutputDirectory
+(
+outputDirectory
+)
+;
+return
+this
+;
+}

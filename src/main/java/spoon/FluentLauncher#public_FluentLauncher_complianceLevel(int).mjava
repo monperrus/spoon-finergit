@@ -1,0 +1,28 @@
+/** 
+ * Sets the Java version compliance level.
+ * @param level of java version
+ * @return the launcher after setting the option.
+ */
+public
+FluentLauncher
+complianceLevel
+(
+int
+level
+)
+{
+launcher
+.
+getEnvironment
+(
+)
+.
+setComplianceLevel
+(
+level
+)
+;
+return
+this
+;
+}

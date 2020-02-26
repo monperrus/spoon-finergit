@@ -1,0 +1,28 @@
+/** 
+ * Set the encoding to use for parsing source code
+ * @param encoding used for parsing.
+ * @return the launcher after setting the option.
+ */
+public
+FluentLauncher
+encoding
+(
+Charset
+encoding
+)
+{
+launcher
+.
+getEnvironment
+(
+)
+.
+setEncoding
+(
+encoding
+)
+;
+return
+this
+;
+}

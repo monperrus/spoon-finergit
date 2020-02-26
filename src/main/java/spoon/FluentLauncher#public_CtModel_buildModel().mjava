@@ -1,0 +1,23 @@
+/** 
+ * Builds the model
+ */
+public
+CtModel
+buildModel
+(
+)
+{
+launcher
+.
+run
+(
+)
+;
+return
+launcher
+.
+getModel
+(
+)
+;
+}

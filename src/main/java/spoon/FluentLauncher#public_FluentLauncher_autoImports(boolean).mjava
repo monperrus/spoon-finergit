@@ -1,0 +1,28 @@
+/** 
+ * Tell to the Java printer to automatically generate imports and use simple names instead of fully-qualified name.
+ * @param autoImports toggles autoImports on or off.
+ * @return the launcher after setting the option.
+ */
+public
+FluentLauncher
+autoImports
+(
+boolean
+autoImports
+)
+{
+launcher
+.
+getEnvironment
+(
+)
+.
+setAutoImports
+(
+autoImports
+)
+;
+return
+this
+;
+}

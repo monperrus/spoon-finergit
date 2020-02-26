@@ -1,0 +1,30 @@
+/** 
+ * Adds an instance of a processor. The user is responsible for keeping a pointer to it for later retrieving some processing information.
+ */
+public
+<
+T
+extends
+CtElement
+>
+FluentLauncher
+processor
+(
+Processor
+<
+T
+>
+processor
+)
+{
+launcher
+.
+addProcessor
+(
+processor
+)
+;
+return
+this
+;
+}

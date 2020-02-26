@@ -1,0 +1,34 @@
+/** 
+ * Adds an input resource to be processed by Spoon (either a file or a folder).
+ */
+public
+FluentLauncher
+inputResource
+(
+Iterable
+<
+String
+>
+paths
+)
+{
+for
+(
+String
+path
+:
+paths
+)
+{
+launcher
+.
+addInputResource
+(
+path
+)
+;
+}
+return
+this
+;
+}
