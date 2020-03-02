@@ -137,6 +137,17 @@ parent
 ;
 if
 (
+Objects
+.
+nonNull
+(
+parentExec
+.
+getDeclaringType
+(
+)
+)
+&&
 !
 parentExec
 .

@@ -1,0 +1,16 @@
+Collection
+<
+BOMCostElementPrice
+>
+getElementPrices
+(
+)
+{
+return
+pricesByElementId
+.
+values
+(
+)
+;
+}
