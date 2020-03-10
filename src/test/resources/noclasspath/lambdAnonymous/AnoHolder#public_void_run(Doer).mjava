@@ -1,0 +1,16 @@
+public
+static
+void
+run
+(
+Doer
+d
+)
+{
+d
+.
+run
+(
+)
+;
+}
