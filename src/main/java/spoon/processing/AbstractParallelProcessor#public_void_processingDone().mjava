@@ -1,0 +1,23 @@
+/** 
+ * Cleans the threadpool after processing.
+ */
+@Override
+public
+void
+processingDone
+(
+)
+{
+service
+.
+shutdown
+(
+)
+;
+super
+.
+processingDone
+(
+)
+;
+}
